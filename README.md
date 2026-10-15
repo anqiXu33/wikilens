@@ -4,10 +4,11 @@ WikiLens detects editorial bias between Wikipedia language editions by comparing
 
 Built for the **IBM watsonx GenAI Challenge 2025** (University of Zurich) as a research tool for Wikipedia editors, it currently supports **English ↔ German, Chinese, Italian, and French**.
 
-LLM scoring runs on either of two interchangeable backends:
+LLM scoring runs on any of three interchangeable backends:
 
 - **IBM watsonx.ai** — `meta-llama/llama-3-3-70b-instruct` with HAP/PII masking and Granite Guardian guardrails; this is the configuration used during the challenge
 - **Ollama (local)** — any local model (default `llama3.2`), kept as a credential-free fallback so the pipeline stays fully reproducible after challenge access expired
+- **OpenAI-compatible API** — OpenRouter, Groq, Together, OpenAI or any other `/chat/completions` endpoint; the way to score with the challenge's Llama 3.3 70B again without IBM access
 
 ---
 
@@ -31,7 +32,8 @@ Wikipedia URL
      │              EN-ZH: 0.45, EN-IT: 0.35, EN-FR: 0.40)
      ▼
   Scorer           Sends aligned chunk pairs to an LLM — IBM watsonx.ai
-     │              (Llama 3.3 70B) or local Ollama, selected via .env
+     │              (Llama 3.3 70B), local Ollama or an OpenAI-compatible
+     │              API (OpenRouter, Groq, ...), selected via .env
      │              Scores three bias dimensions + omission rate
      ▼
   Frontend         Wikipedia-style UI with colour-coded bias heatmap
@@ -55,7 +57,8 @@ Wikipedia URL
 - Python 3.12 (the pinned dependencies are tested on 3.12; see `.python-version`)
 - For new analyses, one scoring backend (not needed for offline replay or `--no-score`):
   - an IBM Cloud account with a watsonx.ai project (**watsonx** backend), or
-  - [Ollama](https://ollama.com) installed and running (**ollama** backend, default)
+  - [Ollama](https://ollama.com) installed and running (**ollama** backend, default), or
+  - an API key for an OpenAI-compatible provider such as OpenRouter or Groq (**openai** backend)
 
 ### 0. Try it in one minute, without installing anything
 
@@ -133,6 +136,40 @@ ollama serve
 
 Any Ollama-compatible model works. Larger models (e.g. `llama3.1:8b`, `mistral`) give better scoring quality at the cost of speed.
 
+**Option C — OpenAI-compatible API** (OpenRouter, Groq, Together, OpenAI, ...):
+
+Three variables select the provider and model. `OPENAI_BASE_URL` includes the
+version prefix (`/v1`); requests go to `$OPENAI_BASE_URL/chat/completions`.
+To score with Llama 3.3 70B Instruct, the model used in the challenge:
+
+```bash
+# .env — OpenRouter
+SCORING_BACKEND=openai
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+OPENAI_API_KEY=<your OpenRouter key>
+OPENAI_MODEL=meta-llama/llama-3.3-70b-instruct
+```
+
+```bash
+# .env — Groq
+SCORING_BACKEND=openai
+OPENAI_BASE_URL=https://api.groq.com/openai/v1
+OPENAI_API_KEY=<your Groq key>
+OPENAI_MODEL=llama-3.3-70b-versatile
+OPENAI_MAX_CONCURRENCY=1   # free-tier rate limits are low
+```
+
+Together (`https://api.together.xyz/v1`, `meta-llama/Llama-3.3-70B-Instruct-Turbo`)
+and OpenAI itself (`https://api.openai.com/v1`, e.g. `gpt-4o-mini`) work the same way.
+
+This backend sends exactly the same request as the Ollama backend (same
+prompts, `temperature: 0`) plus an `Authorization: Bearer` header. Up to
+`OPENAI_MAX_CONCURRENCY` requests (default 4) run in parallel; HTTP 429 and 5xx
+responses are retried with backoff (honouring `Retry-After`). The scores are
+not identical to the challenge runs: watsonx used its own text-generation API
+with greedy decoding, a `\n}` stop sequence and guardrails, and providers may
+serve the model with different quantisation.
+
 ### 3. Start the server
 
 ```bash
@@ -185,14 +222,25 @@ python -m wikilens replay --json        # raw run metadata and scores
 
 - `--title` is the **English** Wikipedia title; the other edition's title comes from Wikidata.
 - `--pair` needs English on one side (`en-de`, `de-en`, `en-zh`, ...).
-- `--backend {ollama,watsonx}` overrides `SCORING_BACKEND` from `.env`.
-- Each new run's `meta.json` records the git commit, the LaBSE revision and the scoring backend and model.
+- `--backend {ollama,openai,watsonx}` overrides `SCORING_BACKEND` from `.env`.
+- Each new run's `meta.json` records the git commit, the LaBSE revision and the scoring backend, model and endpoint (`provenance.scoring`: `backend`, `model`, `base_url`; never the API key).
 - `--no-score` runs are listed but not added to the dashboard history, since the dashboard needs score files.
 
 ### Section-name translation cache
 
 Before embedding, non-English section names are translated to English with
-Google Translate (via `deep-translator`). Translations are cached in
+Google Translate (via `deep-translator`). This happens once per run: the same
+mapping is used for the section embeddings and for the section labels of the
+scores, and is saved as `section_names_en.json` in the run directory.
+
+Google's free endpoint allows about 5 requests per second, so all of a
+language's uncached names are sent in a single newline-joined request (falling
+back to one request per name, at most 2 per second, if the reply doesn't split
+back into one line per name). HTTP 429 and server errors are retried after 2, 4,
+8 and 16 s; if Google is still refusing after that, the remaining names are not
+requested again in that run.
+
+Translations are cached in
 `app/cached_translations/section_names.json` (`{lang: {name: english}}`), so a
 re-run doesn't call Google Translate again and gets the same section names.
 Commit the file to make runs reproducible for others. Failed translations are
@@ -226,7 +274,7 @@ wikilens/
 │       ├── embedder.py             # LaBSE embedding
 │       ├── aligner_en_to_source.py # EN → other language alignment
 │       ├── aligner_source_to_en.py # Other language → EN alignment
-│       └── scorer.py               # LLM scoring (watsonx.ai / Ollama)
+│       └── scorer.py               # LLM scoring (watsonx.ai / Ollama / OpenAI-compatible)
 ├── static/
 │   └── index.html                  # Frontend UI
 ├── outputs/
@@ -268,7 +316,7 @@ Wikipedia's paragraph breaks are human-authored topic boundaries and are more re
 
 ### Scoring backends
 
-During the IBM watsonx GenAI Challenge 2025, scoring ran on **watsonx.ai** with `meta-llama/llama-3-3-70b-instruct` (greedy decoding, JSON-stop sequences), with watsonx's HAP/PII masking and **Granite Guardian** guardrails enabled on inputs and outputs. After challenge access expired, an **Ollama** backend was added behind the same interface so the pipeline remains reproducible without IBM credentials. Both backends share identical prompts and response parsing; switch between them with a single `.env` variable (`SCORING_BACKEND`).
+During the IBM watsonx GenAI Challenge 2025, scoring ran on **watsonx.ai** with `meta-llama/llama-3-3-70b-instruct` (greedy decoding, JSON-stop sequences), with watsonx's HAP/PII masking and **Granite Guardian** guardrails enabled on inputs and outputs. After challenge access expired, an **Ollama** backend was added behind the same interface so the pipeline remains reproducible without IBM credentials, and an **OpenAI-compatible** backend (sharing the Ollama request code) so the same Llama 3.3 70B can be used through providers such as OpenRouter or Groq. All backends share identical prompts and response parsing; switch between them with a single `.env` variable (`SCORING_BACKEND`).
 
 ---
 

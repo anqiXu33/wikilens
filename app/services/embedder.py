@@ -1,5 +1,6 @@
 import json
 import threading
+import time
 import pandas as pd
 from pathlib import Path
 import numpy as np
@@ -56,28 +57,118 @@ def _save_translation_cache() -> None:
     tmp.replace(TRANSLATION_CACHE_PATH)
 
 
-def normalise_section(name: str, lang: str) -> str:
-    """Translate a section name to English so all section embeddings live
-    in the same semantic space, making cross-lingual path_sim reliable."""
-    if lang == "en" or not name or name == "(Lead)":
-        return name
+# Google Translate (the free endpoint deep-translator scrapes) allows about
+# 5 requests per second and answers 429 beyond that. Names are sent in one
+# newline-joined request per language where possible; otherwise one at a
+# time, spaced MIN_REQUEST_INTERVAL apart, with exponential backoff on 429.
+MIN_REQUEST_INTERVAL = 0.5          # seconds between requests (≤ 2 per second)
+RETRY_DELAYS = (2, 4, 8, 16)        # backoff after 429 / server errors
+BATCH_MAX_CHARS = 4500              # deep-translator rejects inputs over 5000
+_last_request = 0.0
+
+
+def _is_retryable(e: Exception) -> bool:
+    from deep_translator.exceptions import RequestError, TooManyRequests
+    return isinstance(e, (TooManyRequests, RequestError))
+
+
+def _google_translate(text: str, lang: str) -> str:
+    """One paced Google Translate request, retried with backoff on rate limits."""
+    global _last_request
+    translator = GoogleTranslator(source=TRANSLATOR_LANG.get(lang, lang), target="en")
+    for attempt in range(len(RETRY_DELAYS) + 1):
+        wait = _last_request + MIN_REQUEST_INTERVAL - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        _last_request = time.monotonic()
+        try:
+            return translator.translate(text)
+        except Exception as e:
+            if attempt == len(RETRY_DELAYS) or not _is_retryable(e):
+                raise
+            delay = RETRY_DELAYS[attempt]
+            print(f"[!] Google Translate rate-limited or unavailable ({type(e).__name__}); retrying in {delay}s")
+            time.sleep(delay)
+
+
+def _translate_batch(names: list[str], lang: str) -> list[str] | None:
+    """Translate names in as few requests as possible by joining them with
+    newlines. Returns None if the reply doesn't split back into exactly one
+    line per name (the caller then translates them one by one)."""
+    out: list[str] = []
+    batch: list[str] = []
+    batches = []
+    for name in names:
+        if batch and sum(len(n) + 1 for n in batch) + len(name) > BATCH_MAX_CHARS:
+            batches.append(batch)
+            batch = []
+        batch.append(name)
+    if batch:
+        batches.append(batch)
+    for batch in batches:
+        translated = _google_translate("\n".join(batch), lang) or ""
+        lines = [l.strip() for l in translated.split("\n") if l.strip()]
+        if len(lines) != len(batch):
+            return None
+        out.extend(lines)
+    return out
+
+
+def translate_section_names(names, lang: str) -> dict[str, str]:
+    """Translate section names to English so all section embeddings live in
+    the same semantic space, making cross-lingual path_sim reliable.
+
+    Returns {name: english} for every name. A name that can't be translated
+    maps to itself (with a warning) and is not cached, so a later run retries
+    it. Call this once per run and reuse the result.
+    """
+    names = list(dict.fromkeys(names))
+    result = {n: n for n in names}
+    if lang == "en":
+        return result
     with _translation_lock:
-        cached = _load_translation_cache().get(lang, {}).get(name)
-    if cached is not None:
-        return cached
+        cache = _load_translation_cache().get(lang, {})
+        todo = [n for n in names if n and n != "(Lead)" and n not in cache]
+        result.update({n: cache[n] for n in names if n in cache})
+    if not todo:
+        return result
+
+    print(f"[*] Translating {len(todo)} section names ({lang} → en) ...")
+    translated: dict[str, str] = {}
+    error = None
+    batch = None
     try:
-        translated = GoogleTranslator(source=TRANSLATOR_LANG.get(lang, lang), target="en").translate(name)
+        batch = _translate_batch(todo, lang) if len(todo) > 1 else None
     except Exception as e:
-        # Keep the original name, but say so: an untranslated section name
-        # weakens section routing in the aligner.
-        print(f"[!] section-name translation failed ({lang}): {name!r} kept untranslated — {e}")
-        return name
-    if not translated:
-        return name
-    with _translation_lock:
-        _load_translation_cache().setdefault(lang, {})[name] = translated
-        _save_translation_cache()
-    return translated
+        error = e
+    if batch is not None:
+        translated = dict(zip(todo, batch))
+    elif error is None or not _is_retryable(error):
+        # Batch reply didn't split cleanly (or a single name): one at a time
+        for name in todo:
+            try:
+                t = _google_translate(name, lang)
+            except Exception as e:
+                error = e
+                if _is_retryable(e):
+                    break           # still rate-limited after backoff: stop asking
+                continue
+            if t:
+                translated[name] = t
+    failed = [n for n in todo if n not in translated]
+    if failed:
+        # Keep the original names, but say so: untranslated section names
+        # weaken section routing in the aligner.
+        reason = f" — {type(error).__name__}: {error}" if error else ""
+        print(f"[!] section-name translation failed ({lang}) for {len(failed)} of {len(todo)} "
+              f"names, kept untranslated: {failed}{reason}")
+
+    if translated:
+        result.update(translated)
+        with _translation_lock:
+            _load_translation_cache().setdefault(lang, {}).update(translated)
+            _save_translation_cache()
+    return result
 
 INPUT_DIR = Path("outputs/chunked")
 OUTPUT_DIR = Path("outputs/embeddings")
@@ -98,7 +189,13 @@ def embed_texts(texts):
         raise
 
 
-def embed_language(lang, input_dir=INPUT_DIR, output_dir=OUTPUT_DIR):
+def embed_language(lang, input_dir=INPUT_DIR, output_dir=OUTPUT_DIR, section_names=None):
+    """Embed chunks and their (English) section names for one language.
+
+    section_names: {original: english} from translate_section_names(). The
+    pipeline translates once per run and passes the result here and to the
+    scoring step; if omitted, names are translated (or read from cache) here.
+    """
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     in_path = Path(input_dir) / f"chunked_{lang}.json"
@@ -120,17 +217,9 @@ def embed_language(lang, input_dir=INPUT_DIR, output_dir=OUTPUT_DIR):
     try:
         chunk_texts = df["chunk_text"].tolist()
         raw_section_texts = df["section"].tolist()
-        if lang != "en":
-            print(f"[*] Translating {len(set(raw_section_texts))} unique section names → EN ...")
-            cache: dict[str, str] = {}
-            section_texts = []
-            for s in raw_section_texts:
-                if s not in cache:
-                    cache[s] = normalise_section(s, lang)
-                section_texts.append(cache[s])
-            print(f"[*] Section translation done.")
-        else:
-            section_texts = raw_section_texts
+        if section_names is None:
+            section_names = translate_section_names(raw_section_texts, lang)
+        section_texts = [section_names.get(sec, sec) for sec in raw_section_texts]
     except KeyError as e:
         print(f"[!!] Missing expected column in {lang} dataframe: {e}")
         traceback.print_exc()

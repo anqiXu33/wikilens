@@ -15,7 +15,7 @@ import pandas as pd
 
 from app.services.fetcher import fetch_multilang_from_url, extract_title_from_url
 from app.services.chunker import paragraph_chunk
-from app.services.embedder import embed_language, normalise_section, LABSE_MODEL, LABSE_REVISION
+from app.services.embedder import embed_language, translate_section_names, LABSE_MODEL, LABSE_REVISION
 from app.services.aligner_en_to_source import match_en_to_lang
 from app.services.aligner_source_to_en import align_language
 
@@ -64,8 +64,7 @@ def _git_sha() -> str | None:
 
 def _scoring_info() -> dict:
     from app.services import scorer
-    model = scorer.WATSONX_MODEL_ID if scorer.SCORING_BACKEND == "watsonx" else scorer.OLLAMA_MODEL
-    return {"backend": scorer.SCORING_BACKEND, "model": model}
+    return scorer.backend_info()
 
 
 def _match_type_counts(records: list[dict]) -> dict[str, int]:
@@ -84,6 +83,12 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
     """
     lang1, lang2 = parse_language_pair(language_pair)
     non_en_lang = lang2 if lang1 == "en" else lang1
+    if do_score:
+        # Imported here so that the backend choice (SCORING_BACKEND, read by
+        # the scorer at import) can be set by the caller first. Fail before
+        # fetching anything if the backend is missing settings.
+        from app.services.scorer import check_backend_config
+        check_backend_config()
 
     title = extract_title_from_url(url)
     print(f"Analyzing article: {title} for languages: {lang1}, {lang2}")
@@ -118,10 +123,21 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
             json.dump(chunks, f, ensure_ascii=False, indent=2)
         print(f"[✓] {lang}: chunked → {chunked_filepath}")
 
+    # Translate section names to English once per run; the same mapping is
+    # used for the section embeddings and for the section labels of the
+    # scores, and saved with the run.
+    section_names = {
+        lang: translate_section_names(df["section"].tolist(), lang)
+        for lang, df in chunked_articles.items()
+    }
+    with open(run_dir / "section_names_en.json", "w", encoding="utf-8") as f:
+        json.dump(section_names, f, ensure_ascii=False, indent=2)
+
     # Step 2: Embed — embed_language reads chunked_{lang}.json from disk
     for lang in chunked_articles:
         print(f"Embedding {lang}...")
-        embed_language(lang, input_dir=chunked_path, output_dir=embeddings_dir)
+        embed_language(lang, input_dir=chunked_path, output_dir=embeddings_dir,
+                       section_names=section_names[lang])
         print(f"[✓] {lang}: embedded")
 
     # Step 3: Align in both directions
@@ -169,8 +185,7 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
             json.dump(entry, f, ensure_ascii=False, indent=2)
         return {**entry, "summary": summary, "alignment_summary": alignment_summary}
 
-    # Step 4: Score. Imported here so that the backend choice (SCORING_BACKEND,
-    # read by the scorer at import) can be set by the caller first.
+    # Step 4: Score
     from app.services.scorer import score
     language_pair = f"en-{non_en_lang}"
     print(f"Running scorer for language pair: {language_pair}")
@@ -185,20 +200,14 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
             if not sf.exists():
                 raise RuntimeError(f"scorer produced no output file {sf}")
 
-        # Build chunk_id → section lookup from chunked files.
-        # Non-English section names are translated to English so both
-        # languages share the same section labels in the frontend chart.
-        section_lookup = {}
-        for lang in ["en", non_en_lang]:
-            cp = chunked_path / f"chunked_{lang}.json"
-            if cp.exists():
-                raw_chunks = json.load(open(cp, encoding="utf-8"))
-                sec_cache: dict[str, str] = {}
-                for ch in raw_chunks:
-                    raw_sec = ch.get("section", "(Lead)")
-                    if raw_sec not in sec_cache:
-                        sec_cache[raw_sec] = normalise_section(raw_sec, lang)
-                    section_lookup[ch["chunk_id"]] = sec_cache[raw_sec]
+        # Build chunk_id → section lookup from the chunks, with the section
+        # names translated above, so both languages share English section
+        # labels in the frontend chart.
+        section_lookup = {
+            ch["chunk_id"]: section_names[lang].get(ch["section"], ch["section"])
+            for lang in ["en", non_en_lang]
+            for ch in chunked_articles[lang].to_dict("records")
+        }
 
         def enrich_sections(scores):
             for s in scores:
