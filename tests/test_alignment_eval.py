@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT))
 from wikilens import alignment_eval as ae  # noqa: E402
 from wikilens.annotate import render_page  # noqa: E402
 
-RUN_DIR = ROOT / "outputs" / "runs" / "20261015_200151_Gala_(apple)_en-de_778ad7"
+RUN_DIR = ROOT / "outputs" / "runs" / "20261015_201823_Gala_(apple)_en-de_543608"
 needs_run = pytest.mark.skipif(not (RUN_DIR / "embeddings").exists(), reason="saved run not available")
 
 
