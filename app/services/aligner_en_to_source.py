@@ -39,17 +39,19 @@ TARGET_LANGS = ["de", "zh", "it", "fr"]
 LAMBDA = 0.3  # 路径加权因子
 
 
-def load_embeddings(lang):
-    return pd.read_parquet(EMBED_DIR / f"embedded_{lang}.parquet")
+def load_embeddings(lang, embed_dir=EMBED_DIR):
+    return pd.read_parquet(Path(embed_dir) / f"embedded_{lang}.parquet")
 
 
-def match_en_to_lang(tgt_lang):
+def match_en_to_lang(tgt_lang, embed_dir=EMBED_DIR, output_dir=OUTPUT_DIR):
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
     chunk_thr, path_thr = LANG_THRESHOLDS.get(tgt_lang, DEFAULT_THRESHOLDS)
     print(
         f'match_en_to_lang called for {tgt_lang} | '
-        f'chunk_thr={chunk_thr}  path_thr={path_thr}  output→{OUTPUT_DIR}')
-    df_en = load_embeddings(EN_LANG)
-    df_src = load_embeddings(tgt_lang)
+        f'chunk_thr={chunk_thr}  path_thr={path_thr}  output→{output_dir}')
+    df_en = load_embeddings(EN_LANG, embed_dir)
+    df_src = load_embeddings(tgt_lang, embed_dir)
 
     results = []
 
@@ -106,7 +108,7 @@ def match_en_to_lang(tgt_lang):
             "matches": matched_chunks
         })
 
-    out_path = OUTPUT_DIR / f"en_to_{tgt_lang}.json"
+    out_path = output_dir / f"en_to_{tgt_lang}.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     print(f"[✓] Saved: {out_path} ({len(results)} chunks)")

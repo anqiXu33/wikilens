@@ -4,7 +4,8 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, HttpUrl
 from pathlib import Path
 import json
-import shutil
+import re
+import uuid
 import pandas as pd
 import uvicorn
 from datetime import datetime
@@ -18,12 +19,25 @@ from app.services.scorer import score
 
 app = FastAPI()
 
-# Serve static files and outputs
+# Every analysis writes into its own directory, outputs/runs/<run_id>/, so runs
+# never read or overwrite each other's intermediate files or scores.
+RUNS_DIR = Path("outputs/runs")
+RUNS_DIR.mkdir(parents=True, exist_ok=True)
+
+# Serve static files and per-run outputs
 app.mount("/static", StaticFiles(directory="static"), name="static")
-# More-specific alignment mounts must come BEFORE the generic /outputs mount
-app.mount("/outputs/alignments_en_to_source", StaticFiles(directory="outputs/alignments_en_to_source"), name="align_en")
-app.mount("/outputs/alignments_source_to_en",  StaticFiles(directory="outputs/alignments_source_to_en"),  name="align_src")
-app.mount("/outputs", StaticFiles(directory="outputs/scores"), name="outputs")
+app.mount("/runs", StaticFiles(directory=str(RUNS_DIR)), name="runs")
+
+
+def new_run_dir(title: str, lang1: str, lang2: str) -> tuple[str, str, Path]:
+    """Create outputs/runs/<timestamp>_<title>_<pair>_<suffix>/ and return
+    (run_id, timestamp, path). Fails if the directory already exists."""
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    safe_title = re.sub(r"[^\w().-]+", "_", title).strip("_") or "article"
+    run_id = f"{ts}_{safe_title}_{lang1}-{lang2}_{uuid.uuid4().hex[:6]}"
+    run_dir = RUNS_DIR / run_id
+    run_dir.mkdir(parents=True, exist_ok=False)
+    return run_id, ts, run_dir
 
 
 class AnalysisRequest(BaseModel):
@@ -53,10 +67,13 @@ async def analyze(request: AnalysisRequest):
         title = extract_title_from_url(str(request.url))
         print(f"Analyzing article: {title} for languages: {lang1}, {lang2}")
 
+        run_id, ts, run_dir = new_run_dir(title, lang1, lang2)
+        print(f"Run directory: {run_dir}")
+
         # Fetch articles in both languages
         try:
             articles = fetch_multilang_from_url(
-                str(request.url), [lang1, lang2])
+                str(request.url), [lang1, lang2], output_dir=run_dir / "fetched")
             print(f"Fetched articles keys: {list(articles.keys())}")
         except Exception as e:
             print(f"Error fetching articles: {e}")
@@ -69,16 +86,15 @@ async def analyze(request: AnalysisRequest):
                 detail=f"No article found for language(s): {', '.join(missing)}",
             )
 
-        # Process articles through your analysis pipeline
-        outputs_dir = Path("outputs/scores")
+        # All intermediate files for this run live under run_dir
+        outputs_dir = run_dir / "scores"
         outputs_dir.mkdir(parents=True, exist_ok=True)
-        # Process articles through your analysis pipeline
-        chunked_path = Path("outputs/chunked")
+        chunked_path = run_dir / "chunked"
         chunked_path.mkdir(parents=True, exist_ok=True)
-
-        # Create embeddings directory
-        embeddings_dir = Path("outputs/embeddings")
+        embeddings_dir = run_dir / "embeddings"
         embeddings_dir.mkdir(parents=True, exist_ok=True)
+        align_en_dir = run_dir / "alignments_en_to_source"
+        align_src_dir = run_dir / "alignments_source_to_en"
 
         # Step 1: Chunk — paragraph_chunk expects list[dict], articles[lang] is a DataFrame
         chunked_articles = {}
@@ -98,7 +114,7 @@ async def analyze(request: AnalysisRequest):
         # Step 2: Embed — embed_language reads chunked_{lang}.json from disk
         for lang in chunked_articles:
             print(f"Embedding {lang}...")
-            embed_language(lang)
+            embed_language(lang, input_dir=chunked_path, output_dir=embeddings_dir)
             print(f"[✓] {lang}: embedded")
 
         # Step 3: Perform alignments using existing aligner functions
@@ -106,9 +122,9 @@ async def analyze(request: AnalysisRequest):
         # Use your existing aligner functions directly
         if lang1 == "en":
             # English to other language
-            match_en_to_lang(lang2)
+            match_en_to_lang(lang2, embed_dir=embeddings_dir, output_dir=align_en_dir)
             alignment_file = (
-                Path("outputs/alignments_en_to_source") /
+                align_en_dir /
                 f"en_to_{lang2}.json"
             )
             if alignment_file.exists():
@@ -116,9 +132,9 @@ async def analyze(request: AnalysisRequest):
                     alignments[f"{lang1}_to_{lang2}"] = json.load(f)
 
             # Other language to English
-            align_language(lang2)
+            align_language(lang2, embed_dir=embeddings_dir, output_dir=align_src_dir)
             alignment_file = (
-                Path("outputs/alignments_source_to_en") /
+                align_src_dir /
                 f"{lang2}_to_en.json"
             )
             if alignment_file.exists():
@@ -127,9 +143,9 @@ async def analyze(request: AnalysisRequest):
 
         elif lang2 == "en":
             # Other language to English
-            align_language(lang1)
+            align_language(lang1, embed_dir=embeddings_dir, output_dir=align_src_dir)
             alignment_file = (
-                Path("outputs/alignments_source_to_en") /
+                align_src_dir /
                 f"{lang1}_to_en.json"
             )
             if alignment_file.exists():
@@ -137,9 +153,9 @@ async def analyze(request: AnalysisRequest):
                     alignments[f"{lang1}_to_{lang2}"] = json.load(f)
 
             # English to other language
-            match_en_to_lang(lang1)
+            match_en_to_lang(lang1, embed_dir=embeddings_dir, output_dir=align_en_dir)
             alignment_file = (
-                Path("outputs/alignments_en_to_source") /
+                align_en_dir /
                 f"en_to_{lang1}.json"
             )
             if alignment_file.exists():
@@ -167,26 +183,16 @@ async def analyze(request: AnalysisRequest):
             print(f"Running scorer for language pair: {language_pair}")
 
             try:
-                # Clear stale score files so scorer doesn't append to old results
-                for stale in [
-                    outputs_dir / f"base_en_omit_{non_en_lang}_scores.json",
-                    outputs_dir / f"base_{non_en_lang}_omit_en_scores.json",
-                ]:
-                    if stale.exists():
-                        stale.unlink()
-
-                await score(language_pair)
+                # run_dir is fresh, so there are no stale score files to clear
+                await score(language_pair, output_dir=run_dir)
                 print("Scoring completed successfully")
 
                 # Read the generated score files
-                score_file1 = (
-                    Path("outputs/scores") /
-                    f"base_en_omit_{non_en_lang}_scores.json"
-                )
-                score_file2 = (
-                    Path("outputs/scores") /
-                    f"base_{non_en_lang}_omit_en_scores.json"
-                )
+                score_file1 = outputs_dir / f"base_en_omit_{non_en_lang}_scores.json"
+                score_file2 = outputs_dir / f"base_{non_en_lang}_omit_en_scores.json"
+                for sf in (score_file1, score_file2):
+                    if not sf.exists():
+                        raise RuntimeError(f"scorer produced no output file {sf}")
 
                 scores1 = []
                 scores2 = []
@@ -196,7 +202,7 @@ async def analyze(request: AnalysisRequest):
                 # languages share the same section labels in the frontend chart.
                 section_lookup = {}
                 for lang in ["en", non_en_lang]:
-                    cp = Path(f"outputs/chunked/chunked_{lang}.json")
+                    cp = chunked_path / f"chunked_{lang}.json"
                     if cp.exists():
                         # Build per-language translation cache (unique sections only)
                         raw_chunks = json.load(open(cp, encoding="utf-8"))
@@ -219,42 +225,36 @@ async def analyze(request: AnalysisRequest):
                             s["section"] = "(Lead)"
                     return scores
 
-                if score_file1.exists():
-                    with open(score_file1, "r", encoding="utf-8") as f:
-                        scores1 = enrich_sections(json.load(f))
-                    print(f"Loaded {len(scores1)} English-base scores")
+                with open(score_file1, "r", encoding="utf-8") as f:
+                    scores1 = enrich_sections(json.load(f))
+                print(f"Loaded {len(scores1)} English-base scores")
 
-                if score_file2.exists():
-                    with open(score_file2, "r", encoding="utf-8") as f:
-                        scores2 = enrich_sections(json.load(f))
-                    print(f"Loaded {len(scores2)} {non_en_lang}-base scores")
+                with open(score_file2, "r", encoding="utf-8") as f:
+                    scores2 = enrich_sections(json.load(f))
+                print(f"Loaded {len(scores2)} {non_en_lang}-base scores")
 
-                # Write enriched (section-tagged) scores back before copying to history
-                if scores1 and score_file1.exists():
-                    with open(score_file1, "w", encoding="utf-8") as f:
-                        json.dump(scores1, f, ensure_ascii=False)
-                if scores2 and score_file2.exists():
-                    with open(score_file2, "w", encoding="utf-8") as f:
-                        json.dump(scores2, f, ensure_ascii=False)
+                # Write enriched (section-tagged) scores back
+                with open(score_file1, "w", encoding="utf-8") as f:
+                    json.dump(scores1, f, ensure_ascii=False)
+                with open(score_file2, "w", encoding="utf-8") as f:
+                    json.dump(scores2, f, ensure_ascii=False)
 
-                # Copy score files with timestamp so history entries are permanent
-                ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-                hist_file1 = outputs_dir / f"base_en_omit_{non_en_lang}_{ts}.json"
-                hist_file2 = outputs_dir / f"base_{non_en_lang}_omit_en_{ts}.json"
-                if score_file1.exists():
-                    shutil.copy(score_file1, hist_file1)
-                if score_file2.exists():
-                    shutil.copy(score_file2, hist_file2)
-
-                # History entry (lightweight metadata)
+                # History entry: every URL points into this run's own directory,
+                # including the alignment files the dashboard reads
+                url_base = f"/runs/{run_id}"
                 entry = {
                     "success": True,
+                    "run_id": run_id,
                     "title": title,
                     "languages_found": list(articles.keys()),
                     "timestamp": ts,
-                    "file1_url": f"/outputs/{hist_file1.name}" if hist_file1.exists() else None,
-                    "file2_url": f"/outputs/{hist_file2.name}" if hist_file2.exists() else None,
+                    "file1_url": f"{url_base}/scores/{score_file1.name}",
+                    "file2_url": f"{url_base}/scores/{score_file2.name}",
+                    "align_en_url": f"{url_base}/alignments_en_to_source/en_to_{non_en_lang}.json",
+                    "align_src_url": f"{url_base}/alignments_source_to_en/{non_en_lang}_to_en.json",
                 }
+                with open(run_dir / "meta.json", "w", encoding="utf-8") as f:
+                    json.dump(entry, f, ensure_ascii=False, indent=2)
 
                 # Append to history.json
                 history_path = Path("outputs/history.json")

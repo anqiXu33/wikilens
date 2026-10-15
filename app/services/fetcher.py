@@ -247,13 +247,15 @@ def get_langlinks_from_qid(qid: str) -> dict:
     }
 
 
-def fetch_articles_in_languages(lang_title_map: dict) -> dict:
+def fetch_articles_in_languages(lang_title_map: dict, output_dir: Path = OUTPUT_DIR) -> dict:
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
     results = {}
     for lang, title in lang_title_map.items():
         df = fetch_and_prepare_article(title, lang)
         if not df.empty:
             results[lang] = df
-            out_path = OUTPUT_DIR / f"fetched_{lang}.json"
+            out_path = output_dir / f"fetched_{lang}.json"
             df.to_json(out_path, orient="records", force_ascii=False, indent=2)
             print(f"[✓] {lang}: saved to {out_path}")
         else:
@@ -261,7 +263,7 @@ def fetch_articles_in_languages(lang_title_map: dict) -> dict:
     return results
 
 
-def fetch_multilang_from_url(url: str, selected_langs: list) -> dict:
+def fetch_multilang_from_url(url: str, selected_langs: list, output_dir: Path = OUTPUT_DIR) -> dict:
     title = extract_title_from_url(url)
     print(f"Extracted title: {title}")
     qid = get_qid_from_title(title)
@@ -275,4 +277,4 @@ def fetch_multilang_from_url(url: str, selected_langs: list) -> dict:
 
     if not selected_map:
         print("[!] No languages to fetch after filtering; returning empty dict.")
-    return fetch_articles_in_languages(selected_map)
+    return fetch_articles_in_languages(selected_map, output_dir)

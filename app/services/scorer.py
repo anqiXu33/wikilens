@@ -462,7 +462,7 @@ def build_omission_text(matches, tgt_field, max_chars=OMISSION_TEXT_MAX_CHARS):
 
 
 
-def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None):
+def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None, output_dir=OUTPUT_DIR):
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     seen_chunks = set()
@@ -496,11 +496,11 @@ def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, scor
             scores_p = parse_response("pair", response)
 
         score_data = chunk_data | scores_i | scores_p  # merge two dictionaries
-        record_output(score_data, OUTPUT_DIR /
+        record_output(score_data, Path(output_dir) /
                       'scores' / score_filename)
 
 
-async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None):
+async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None, output_dir=OUTPUT_DIR):
     # watsonx: up to 8 concurrent requests; local Ollama: 1 (serves one at a time)
     semaphore = asyncio.Semaphore(MAX_CONCURRENCY)
 
@@ -541,7 +541,7 @@ async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt
                     scores_p = parse_response("pair", response)
 
             score_data = chunk_data | scores_i | scores_p
-            record_output(score_data, OUTPUT_DIR / 'scores' / score_filename)
+            record_output(score_data, Path(output_dir) / 'scores' / score_filename)
 
         await asyncio.gather(*(run_chunk(chunk) for chunk in data))
 
@@ -578,7 +578,15 @@ def reorder_output_by_input(input_file_path, output_file_path):
 
 
 # === Entry Point ===
-async def score(language_pair):
+async def score(language_pair, output_dir=OUTPUT_DIR):
+    """Score both directions of an en-xx pair.
+
+    output_dir must contain alignments_en_to_source/ and
+    alignments_source_to_en/; scores are written to output_dir/scores/.
+    Defaults to the shared outputs/ directory; main.py passes a per-run
+    directory so runs never read or overwrite each other's files.
+    """
+    output_dir = Path(output_dir)
     lang1, lang2 = language_pair.split("-")
     lang1, lang2 = (lang2, lang1) if lang1 == 'en' else (lang1, lang2)
 
@@ -590,38 +598,40 @@ async def score(language_pair):
         access_token = None
 
     await async_process_file(
-        file_path=OUTPUT_DIR/'alignments_en_to_source'/f"en_to_{lang1}.json",
+        file_path=output_dir/'alignments_en_to_source'/f"en_to_{lang1}.json",
         base_lang='en',
         omission_lang=lang1,
         src_field='tgt',
         tgt_field='src',
         score_filename=f"base_en_omit_{lang1}_scores.json",
         access_token=access_token,
+        output_dir=output_dir,
     )
 
     if SCORING_BACKEND == "watsonx":
         access_token = get_access_token(IBM_API_KEY)  # fresh token for the second pass
 
     await async_process_file(
-        file_path=OUTPUT_DIR/'alignments_source_to_en'/f"{lang1}_to_en.json",
+        file_path=output_dir/'alignments_source_to_en'/f"{lang1}_to_en.json",
         base_lang=lang1,
         omission_lang='en',
         src_field='src',
         tgt_field='tgt',
         score_filename=f"base_{lang1}_omit_en_scores.json",
         access_token=access_token,
+        output_dir=output_dir,
     )
 
     reorder_output_by_input(
-        input_file_path=OUTPUT_DIR /
+        input_file_path=output_dir /
         'alignments_en_to_source'/f"en_to_{lang1}.json",
-        output_file_path=OUTPUT_DIR/'scores' /
+        output_file_path=output_dir/'scores' /
         f"base_en_omit_{lang1}_scores.json"
     )
     reorder_output_by_input(
-        input_file_path=OUTPUT_DIR /
+        input_file_path=output_dir /
         'alignments_source_to_en'/f"{lang1}_to_en.json",
-        output_file_path=OUTPUT_DIR/'scores' /
+        output_file_path=output_dir/'scores' /
         f"base_{lang1}_omit_en_scores.json"
     )
 

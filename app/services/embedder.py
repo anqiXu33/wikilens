@@ -46,9 +46,11 @@ def embed_texts(texts):
         raise
 
 
-def embed_language(lang):
-    in_path = INPUT_DIR / f"chunked_{lang}.json"
-    out_path = OUTPUT_DIR / f"embedded_{lang}.parquet"
+def embed_language(lang, input_dir=INPUT_DIR, output_dir=OUTPUT_DIR):
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    in_path = Path(input_dir) / f"chunked_{lang}.json"
+    out_path = output_dir / f"embedded_{lang}.parquet"
     if not in_path.exists():
         print(f"[!] Skipped {lang}: {in_path} not found")
         return

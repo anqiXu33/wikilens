@@ -835,15 +835,16 @@ async function renderResults(meta, scores1, scores2) {
     `Comparing <b>${escHtml(n1)}</b> and <b>${escHtml(n2)}</b> editions of <i>"${escHtml(title)}"</i> ` +
     `across ${scores1.length} ${escHtml(n1)} chunks and ${scores2.length} ${escHtml(n2)} chunks.`;
 
-  // Load alignment files (best-effort, no backend change needed)
+  // Load this run's own alignment files. Never fall back to a shared path:
+  // that would pair these scores with another article's alignments.
   let alignEN = null, alignLANG = null;
   try {
     const [r1, r2] = await Promise.all([
-      fetch(`/outputs/alignments_en_to_source/en_to_${nonEnLang}.json`),
-      fetch(`/outputs/alignments_source_to_en/${nonEnLang}_to_en.json`),
+      meta.align_en_url  ? fetch(meta.align_en_url)  : null,
+      meta.align_src_url ? fetch(meta.align_src_url) : null,
     ]);
-    if (r1.ok) alignEN   = await r1.json();
-    if (r2.ok) alignLANG = await r2.json();
+    if (r1 && r1.ok) alignEN   = await r1.json();
+    if (r2 && r2.ok) alignLANG = await r2.json();
   } catch(e) { /* alignment files unavailable — stat cards + divergence will show n/a */ }
 
   const score1Map = buildScoreMap(scores1);
