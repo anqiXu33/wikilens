@@ -424,6 +424,30 @@ def record_output(score_data, output_path):
 
 # === Scoring Loop ===
 
+OMISSION_TEXT_MAX_CHARS = 1200
+
+
+def build_omission_text(matches, tgt_field, max_chars=OMISSION_TEXT_MAX_CHARS):
+    """Concatenate the aligned texts, best match first, up to max_chars.
+
+    Deterministic (ordered by chunk_sim, not by set iteration order, which
+    changes between processes), and never empty for an aligned chunk: if
+    the best match alone is longer than max_chars it is truncated rather
+    than dropped.
+    """
+    ordered = sorted(matches, key=lambda m: m.get("chunk_sim", 0), reverse=True)
+    texts = list(dict.fromkeys(m[tgt_field + "_text"] for m in ordered))
+    omission_text = ""
+    for text in texts:
+        if not omission_text:
+            omission_text = text[:max_chars]
+            continue
+        if len(omission_text) + len(text) + 1 > max_chars:
+            break
+        omission_text += " " + text
+    return omission_text
+
+
 
 def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None):
     with open(file_path, "r", encoding="utf-8") as f:
@@ -435,18 +459,7 @@ def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, scor
         if chunk_id in seen_chunks:
             continue
         seen_chunks.add(chunk_id)
-        omission_text_full = list(
-            {match[tgt_field + "_text"] for match in chunk["matches"]})
-        # limit the omission_text length--not accurate but...
-        omission_text = ""
-        for text in omission_text_full:
-            # Check if adding this text (plus a space) would exceed 1200 chars
-            if len(omission_text) + len(text) + 1 > 1200:
-                break
-            # Add a space if result is not empty
-            if omission_text:
-                omission_text += " "
-            omission_text += text
+        omission_text = build_omission_text(chunk["matches"], tgt_field)
 
         chunk_data = {
             "chunk_id": chunk[src_field + "_chunk_id"],
@@ -495,15 +508,7 @@ async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt
                 return
             seen_chunks.add(chunk_id)
 
-            omission_text_full = list(
-                {match[tgt_field + "_text"] for match in chunk["matches"]})
-            omission_text = ""
-            for text in omission_text_full:
-                if len(omission_text) + len(text) + 1 > 1200:
-                    break
-                if omission_text:
-                    omission_text += " "
-                omission_text += text
+            omission_text = build_omission_text(chunk["matches"], tgt_field)
 
             chunk_data = {
                 "chunk_id": chunk[src_field + "_chunk_id"],
