@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+  "title": "Social_credit_system",
+  "languages_found": [
+    "en",
+    "zh"
+  ],
+  "timestamp": "20261015_203858",
+  "scored": false,
+  "file1_url": null,
+  "file2_url": null,
+  "align_en_url": "/runs/20261015_203858_Social_credit_system_en-zh_834a1c/alignments_en_to_source/en_to_zh.json",
+  "align_src_url": "/runs/20261015_203858_Social_credit_system_en-zh_834a1c/alignments_source_to_en/zh_to_en.json",
+  "provenance": {
+    "git_sha": "98beb40dfbf6d5826d0dbddeb24689f43cacfa75",
+    "labse": "sentence-transformers/LaBSE@836121a0533e5664b21c7aacc5d22951f2b8b25b",
+    "scoring": null,
+    "section_names": {
+      "translation_backend": "auto",
+      "sources": {
+        "llm": 13
+      },
+      "untranslated": [],
+      "llm": {
+        "backend": "openai",
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "base_url": "https://openrouter.ai/api/v1"
+      },
+      "method": "llm"
+    }
+  }
+}
