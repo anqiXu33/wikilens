@@ -143,7 +143,8 @@ def replay(meta: dict, top: int = 3, as_json: bool = False) -> None:
     print(f"Article   {meta.get('title', '?').replace('_', ' ')}   "
           f"pair {'-'.join(meta.get('languages_found', []))}   timestamp {meta.get('timestamp', '?')}")
     print(f"Scoring   {scoring.get('backend', 'not recorded')}"
-          + (f" / {scoring['model']}" if scoring.get("model") else ""))
+          + (f" / {scoring['model']}" if scoring.get("model") else "")
+          + (f"  ({urlparse(scoring['base_url']).netloc})" if scoring.get("base_url") else ""))
     if prov.get("kind"):
         print(f"Note      {prov['kind']}: {prov.get('note', '')}")
     for r in records:
@@ -232,7 +233,7 @@ def build_parser() -> argparse.ArgumentParser:
     src.add_argument("--title", help='English Wikipedia title, e.g. "Gala (apple)"')
     src.add_argument("--url", help="English Wikipedia URL")
     r.add_argument("--pair", required=True, help="language pair with English on one side, e.g. en-de")
-    r.add_argument("--backend", choices=["ollama", "watsonx"],
+    r.add_argument("--backend", choices=["ollama", "openai", "watsonx"],
                    help="scoring backend (default: SCORING_BACKEND from .env, else ollama)")
     mode = r.add_mutually_exclusive_group()
     mode.add_argument("--offline", action="store_true",

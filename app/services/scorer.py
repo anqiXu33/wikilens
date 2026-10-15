@@ -4,24 +4,45 @@ import re
 import aiohttp
 import asyncio
 import os
+import time
 import requests
 from dotenv import load_dotenv
 load_dotenv()
 
 # === Configuration ===
-# Two interchangeable scoring backends, selected via .env → SCORING_BACKEND:
+# Three interchangeable scoring backends, selected via .env → SCORING_BACKEND:
 #
 #   watsonx  — IBM watsonx.ai text generation (Llama 3.3 70B Instruct by
 #              default), as used for the IBM watsonx GenAI Challenge 2025.
 #              Requires IBM_API_KEY and IBM_PROJECT_ID.
 #   ollama   — local inference via Ollama's OpenAI-compatible endpoint
 #              (default; no API key needed, fully reproducible offline).
+#   openai   — any OpenAI-compatible /chat/completions API (OpenAI, OpenRouter,
+#              Groq, Together, ...). Requires OPENAI_BASE_URL, OPENAI_API_KEY
+#              and OPENAI_MODEL. Uses the same request code as ollama.
 SCORING_BACKEND = os.getenv("SCORING_BACKEND", "ollama").strip().lower()
+SCORING_BACKENDS = ("ollama", "openai", "watsonx")
+if SCORING_BACKEND not in SCORING_BACKENDS:
+    raise RuntimeError(
+        f"Unknown SCORING_BACKEND={SCORING_BACKEND!r}; expected one of {', '.join(SCORING_BACKENDS)}")
 
 # --- Ollama (local) ---
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
 OLLAMA_URL   = os.getenv("OLLAMA_URL",   "http://localhost:11434")
-CHAT_URL     = f"{OLLAMA_URL}/v1/chat/completions"
+
+# --- OpenAI-compatible API (cloud) ---
+# OPENAI_BASE_URL includes the version prefix, e.g. https://openrouter.ai/api/v1
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1").strip().rstrip("/")
+OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY", "").strip()
+OPENAI_MODEL    = os.getenv("OPENAI_MODEL", "").strip()
+
+# ollama and openai both speak /chat/completions; only URL, model and auth differ
+if SCORING_BACKEND == "openai":
+    CHAT_URL   = f"{OPENAI_BASE_URL}/chat/completions"
+    CHAT_MODEL = OPENAI_MODEL
+else:
+    CHAT_URL   = f"{OLLAMA_URL}/v1/chat/completions"
+    CHAT_MODEL = OLLAMA_MODEL
 
 # --- IBM watsonx.ai (cloud) ---
 WATSONX_URL = os.getenv(
@@ -33,8 +54,35 @@ IBM_API_KEY      = os.getenv("IBM_API_KEY", "")
 IBM_PROJECT_ID   = os.getenv("IBM_PROJECT_ID", "")
 IAM_TOKEN_URL    = "https://iam.cloud.ibm.com/identity/token"
 
-# watsonx handles concurrent requests; local Ollama serves one at a time
-MAX_CONCURRENCY = 8 if SCORING_BACKEND == "watsonx" else 1
+# watsonx handles concurrent requests; local Ollama serves one at a time;
+# hosted OpenAI-compatible APIs vary by provider and plan (OPENAI_MAX_CONCURRENCY)
+MAX_CONCURRENCY = {
+    "watsonx": 8,
+    "openai":  int(os.getenv("OPENAI_MAX_CONCURRENCY", "4")),
+    "ollama":  1,
+}[SCORING_BACKEND]
+
+# Retries for rate limits (429) and transient server errors (5xx) on the
+# chat-completions backends; hosted free tiers rate-limit aggressively.
+CHAT_MAX_RETRIES = 5
+CHAT_RETRY_STATUSES = {429, 500, 502, 503, 504}
+
+
+def backend_info() -> dict:
+    """Which backend and model scores this run; recorded in each run's meta.json."""
+    if SCORING_BACKEND == "watsonx":
+        return {"backend": "watsonx", "model": WATSONX_MODEL_ID, "base_url": WATSONX_URL}
+    return {"backend": SCORING_BACKEND, "model": CHAT_MODEL, "base_url": CHAT_URL.rsplit("/chat/completions", 1)[0]}
+
+
+def check_backend_config() -> None:
+    """Fail before any request if the selected backend is missing settings."""
+    if SCORING_BACKEND == "openai":
+        missing = [k for k, v in (("OPENAI_API_KEY", OPENAI_API_KEY), ("OPENAI_MODEL", OPENAI_MODEL)) if not v]
+        if missing:
+            raise RuntimeError(
+                f"SCORING_BACKEND=openai but {' and '.join(missing)} not set. "
+                "Set OPENAI_BASE_URL, OPENAI_API_KEY and OPENAI_MODEL in .env (see .env.example).")
 
 # Base directory is two levels up from scorer.py
 BASE_DIR   = Path(__file__).resolve().parents[2]
@@ -225,7 +273,7 @@ input: '''
         input_data = chunk_data
     else:
         raise ValueError(f"Unknown score_type: {score_type}")
-    # Return OpenAI-style messages list for Ollama chat completions
+    # Return OpenAI-style messages list for the chat-completions backends
     user_content = json.dumps(input_data, ensure_ascii=False) + "\n\noutput:"
     return [
         {"role": "system", "content": system_prompt},
@@ -234,13 +282,44 @@ input: '''
 
 
 # === Inference ===
-def _ollama_body(messages: list[dict]) -> dict:
+def _chat_body(messages: list[dict]) -> dict:
+    # Plain OpenAI chat-completions fields only: hosted APIs reject unknown
+    # parameters, and Ollama's /v1 endpoint ignores Ollama-native "options".
     return {
-        "model":    OLLAMA_MODEL,
-        "messages": messages,
-        "stream":   False,
-        "options":  {"temperature": 0},
+        "model":       CHAT_MODEL,
+        "messages":    messages,
+        "stream":      False,
+        "temperature": 0,
     }
+
+
+def _chat_headers() -> dict:
+    headers = {"Content-Type": "application/json"}
+    if SCORING_BACKEND == "openai":
+        headers["Authorization"] = f"Bearer {OPENAI_API_KEY}"
+    return headers
+
+
+def _retry_delay(attempt: int, retry_after: str | None) -> float:
+    """Seconds to wait before retry number attempt+1: Retry-After if the
+    server sent one, else exponential backoff 2, 4, 8, 16, 32 s."""
+    try:
+        if retry_after is not None:
+            return min(max(float(retry_after), 1.0), 60.0)
+    except ValueError:
+        pass
+    return 2.0 * 2 ** attempt
+
+
+def _chat_label() -> str:
+    return "OpenAI-compatible API" if SCORING_BACKEND == "openai" else "Ollama"
+
+
+def _check_chat_response(data: dict) -> dict:
+    # Some providers (e.g. OpenRouter) report upstream errors with HTTP 200
+    if not data.get("choices"):
+        raise Exception(f"{_chat_label()} returned no choices: {json.dumps(data)[:500]}")
+    return data
 
 
 def _watsonx_body(messages: list[dict]) -> dict:
@@ -294,9 +373,14 @@ def inference(messages, access_token: str | None = None):
             raise Exception(f"watsonx error {r.status_code}: {r.text}")
         return r.json()
 
-    r = requests.post(CHAT_URL, json=_ollama_body(messages), timeout=120)
-    r.raise_for_status()
-    return r.json()
+    for attempt in range(CHAT_MAX_RETRIES + 1):
+        r = requests.post(CHAT_URL, headers=_chat_headers(), json=_chat_body(messages), timeout=120)
+        if r.status_code in CHAT_RETRY_STATUSES and attempt < CHAT_MAX_RETRIES:
+            time.sleep(_retry_delay(attempt, r.headers.get("Retry-After")))
+            continue
+        if r.status_code != 200:
+            raise Exception(f"{_chat_label()} error {r.status_code}: {r.text}")
+        return _check_chat_response(r.json())
 
 
 async def async_inference(session, messages, access_token: str | None = None):
@@ -313,11 +397,17 @@ async def async_inference(session, messages, access_token: str | None = None):
                 raise Exception(f"watsonx error {response.status}: {text}")
             return await response.json()
 
-    async with session.post(CHAT_URL, json=_ollama_body(messages)) as response:
-        if response.status != 200:
-            text = await response.text()
-            raise Exception(f"Ollama error {response.status}: {text}")
-        return await response.json()
+    for attempt in range(CHAT_MAX_RETRIES + 1):
+        async with session.post(CHAT_URL, headers=_chat_headers(), json=_chat_body(messages)) as response:
+            if response.status in CHAT_RETRY_STATUSES and attempt < CHAT_MAX_RETRIES:
+                delay = _retry_delay(attempt, response.headers.get("Retry-After"))
+                print(f"[!] {_chat_label()} returned {response.status}; retrying in {delay:.0f}s")
+            elif response.status != 200:
+                text = await response.text()
+                raise Exception(f"{_chat_label()} error {response.status}: {text}")
+            else:
+                return _check_chat_response(await response.json(content_type=None))
+        await asyncio.sleep(delay)
 
 # === Parse model response ===
 
@@ -343,7 +433,7 @@ def _extract_generated_text(response: dict) -> str:
     """Pull the generated text out of either backend's response format.
 
     watsonx text generation: {"results": [{"generated_text": "..."}]}
-    Ollama (OpenAI-compatible): {"choices": [{"message": {"content": "..."}}]}
+    Ollama / OpenAI-compatible: {"choices": [{"message": {"content": "..."}}]}
     """
     if "results" in response:
         return response["results"][0]["generated_text"]
@@ -501,7 +591,8 @@ def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, scor
 
 
 async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None, output_dir=OUTPUT_DIR):
-    # watsonx: up to 8 concurrent requests; local Ollama: 1 (serves one at a time)
+    # watsonx: up to 8 concurrent requests; local Ollama: 1 (serves one at a time);
+    # OpenAI-compatible: OPENAI_MAX_CONCURRENCY (default 4)
     semaphore = asyncio.Semaphore(MAX_CONCURRENCY)
 
     with open(file_path, "r", encoding="utf-8") as f:
@@ -597,7 +688,8 @@ async def score(language_pair, output_dir=OUTPUT_DIR):
         print(f"  Scoring with watsonx.ai model: {WATSONX_MODEL_ID}  ({WATSONX_URL})")
         access_token = get_access_token(IBM_API_KEY)
     else:
-        print(f"  Scoring with Ollama model: {OLLAMA_MODEL}  ({CHAT_URL})")
+        check_backend_config()
+        print(f"  Scoring with {_chat_label()} model: {CHAT_MODEL}  ({CHAT_URL})")
         access_token = None
 
     await async_process_file(
