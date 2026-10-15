@@ -8,6 +8,10 @@ from deep_translator import GoogleTranslator
 
 model = SentenceTransformer("sentence-transformers/LaBSE")
 
+# Wikipedia language code -> Google Translate code where they differ.
+# deep-translator rejects plain "zh" (LanguageNotSupportedException).
+TRANSLATOR_LANG = {"zh": "zh-CN"}
+
 
 def normalise_section(name: str, lang: str) -> str:
     """Translate a section name to English so all section embeddings live
@@ -15,7 +19,7 @@ def normalise_section(name: str, lang: str) -> str:
     if lang == "en" or not name or name == "(Lead)":
         return name
     try:
-        return GoogleTranslator(source=lang, target="en").translate(name)
+        return GoogleTranslator(source=TRANSLATOR_LANG.get(lang, lang), target="en").translate(name)
     except Exception:
         return name  # fall back to original on translation error
 
