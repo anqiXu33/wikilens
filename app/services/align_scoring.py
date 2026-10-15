@@ -89,15 +89,23 @@ def align_pairs(df_q: pd.DataFrame, df_t: pd.DataFrame, q_lang: str, t_lang: str
     if method.rerank_top_n:
         from app.services import llm_rerank
         info["rerank_top_n"] = method.rerank_top_n
+        info["rerank_pool"] = method.rerank_pool
         call, llm = llm_rerank.llm_caller()
         if call is None:
             info["rerank"] = {"status": "no LLM, fell back to the score threshold", "reason": llm}
             print(f"[!] No LLM for alignment rerank ({llm}); using {method.score} >= {method.threshold}")
         else:
-            print(f"[*] LLM rerank of the top {method.rerank_top_n} {t_lang} candidates for "
-                  f"{len(df_q)} {q_lang} chunks with {llm['backend']} ({llm['model']}) ...")
+            if method.rerank_pool == "chunk":
+                pool = chunk_sims
+            elif method.score == "sentence_max":
+                pool = scores
+            else:
+                pool = sentence_max(df_q, df_t)
+            print(f"[*] LLM rerank of the top {method.rerank_top_n} {t_lang} candidates by "
+                  f"{method.rerank_pool} for {len(df_q)} {q_lang} chunks with "
+                  f"{llm['backend']} ({llm['model']}) ...")
             matched, labels, stats = llm_rerank.rerank(
-                scores, df_q["chunk_id"].tolist(), df_q["chunk_text"].tolist(), q_lang,
+                pool, df_q["chunk_id"].tolist(), df_q["chunk_text"].tolist(), q_lang,
                 df_t["chunk_id"].tolist(), df_t["chunk_text"].tolist(), t_lang,
                 method.rerank_top_n, call, fallback=matched)
             status = ("LLM unreachable, fell back to the score threshold" if stats.get("unreachable")

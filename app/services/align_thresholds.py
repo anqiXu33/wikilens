@@ -49,26 +49,28 @@ class AlignMethod:
     path_thr:  section routing: if the best-matching section name has a
                similarity >= path_thr, only chunks of that section are
                candidates. None turns routing off (every chunk is a candidate).
-    rerank_top_n: if set, the top-N targets by score are labelled by the
-               scoring LLM (app/services/llm_rerank.py) and the pairs it calls
-               match or partial are the matches; threshold and path_thr then
-               only apply when no LLM is available (the fallback).
+    rerank_top_n: if set, the top-N targets by rerank_pool are labelled by
+               the scoring LLM (app/services/llm_rerank.py) and the pairs it
+               calls match or partial are the matches; score, threshold and
+               path_thr then only apply when no LLM is available (the fallback).
+    rerank_pool: the score that picks the LLM's candidates: "chunk" (chunk
+               cosine) or "sentence_max".
     """
     score: str
     threshold: float
     path_thr: float | None
     rerank_top_n: int | None = None
+    rerank_pool: str = "chunk"
 
 
-# EN-ZH: the top 10 targets by sentence max go to the LLM, which keeps the
-# match / partial ones (one LLM call per chunk and direction). Without a usable
-# LLM: sentence max >= 0.65, routing off. From docs/alignment_experiments.md:
-# LLM rerank F1 0.65, sentence max 0.50, the old chunk 0.45 / routing 0.45
-# 0.20, on 54 hand-labelled chunks from 2 articles; see README "Alignment
-# method for EN-ZH" for the caveats (the rerank was measured on chunk-cosine
-# candidates, not sentence-max ones).
+# EN-ZH: the top 10 targets by chunk cosine go to the LLM, which keeps the
+# match / partial ones (one LLM call per chunk and direction): method A of
+# docs/alignment_experiments.md, as measured there. Without a usable LLM:
+# sentence max >= 0.65, routing off (method B). On 54 hand-labelled chunks from
+# 2 articles: A F1 0.65, B 0.50, the old chunk 0.45 / routing 0.45 0.20; see
+# README "Alignment method for EN-ZH" for the caveats.
 LANG_METHODS: dict[str, AlignMethod] = {
-    "zh": AlignMethod("sentence_max", 0.65, None, rerank_top_n=10),
+    "zh": AlignMethod("sentence_max", 0.65, None, rerank_top_n=10, rerank_pool="chunk"),
 }
 
 

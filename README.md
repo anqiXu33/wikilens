@@ -30,7 +30,7 @@ Wikipedia URL
   Aligner          Matches chunks across languages. EN-DE / IT / FR: chunk
      │              cosine with per-language thresholds (0.45 / 0.35 / 0.40)
      │              and section routing. EN-ZH: top 10 candidates by
-     │              sentence-level LaBSE, kept or dropped by the LLM
+     │              chunk cosine, kept or dropped by the LLM
      │              (fallback without LLM: sentence max ≥ 0.65)
      ▼
   Scorer           Sends aligned chunk pairs to an LLM — IBM watsonx.ai
@@ -386,15 +386,16 @@ A single global threshold would either miss real matches (too high) or create fa
 
 ### Alignment method for EN-ZH
 
-EN-ZH no longer uses chunk cosine. For each chunk, the aligner takes the 10
-chunks of the other article with the highest **sentence max** (the highest
-LaBSE cosine between any sentence of one chunk and any sentence of the other,
-section routing off) and asks the scoring LLM (`SCORING_BACKEND`) to label each
-one *match*, *partial* or *none*, following `docs/annotation_guidelines.md`.
-The pairs labelled match or partial are the alignment. If no LLM is
-configured, or the first rerank request fails, it falls back to
-**sentence max ≥ 0.65, routing off**; a later failed request falls back for
-that chunk only. The run's `meta.json` (`provenance.alignment`) records which
+EN-ZH no longer uses a chunk-cosine threshold. For each chunk, the aligner
+takes the 10 chunks of the other article with the highest **chunk cosine**
+(section routing off) and asks the scoring LLM (`SCORING_BACKEND`) to label
+each one *match*, *partial* or *none*, following
+`docs/annotation_guidelines.md`. The pairs labelled match or partial are the
+alignment. This is method A of `docs/alignment_experiments.md`, with the same
+candidates and the same prompt. If no LLM is configured, or the first rerank
+request fails, it falls back to **sentence max ≥ 0.65, routing off** (the
+highest LaBSE cosine between any sentence of one chunk and any sentence of the
+other; method B). A later failed request falls back for that chunk only. The run's `meta.json` (`provenance.alignment`) records which
 happened, and every match carries its `llm_label`. EN-DE, EN-IT and EN-FR are
 unchanged. Settings: `app/services/align_thresholds.py` (`LANG_METHODS`).
 
@@ -406,36 +407,30 @@ them with no English counterpart; partial counts as a match):
 |---|---|---|---|---|
 | old default: chunk cosine 0.45, routing 0.45 | 0.153 | 0.287 | 0.200 | 0.12–0.29 |
 | sentence max 0.65, routing off (now the fallback) | 0.607 | 0.425 | 0.500 | 0.38–0.60 |
-| LLM rerank of the top 10, match + partial (Llama 3.3 70B) | 0.618 | 0.688 | **0.651** | 0.54–0.75 |
+| **LLM rerank of the chunk-cosine top 10, match + partial (Llama 3.3 70B; the default)** | 0.618 | 0.688 | **0.651** | 0.54–0.75 |
 
 Per article, the LLM rerank scores F1 0.68 on *Huawei* (30 chunks) and 0.64 on
 *Social credit system* (24 chunks). It has no threshold fitted to the labels.
 The 0.65 of the fallback was picked on the same labels, and does not
 transfer well between the two articles (F1 0.58 / 0.41 when picked on the
 other one).
+The aligner sends exactly the experiment's prompts: run on the same chunks
+with the experiment's cached LLM replies, it reproduces P 0.618, R 0.688,
+F1 0.651.
 
 **Limitations of this evidence**
 
 - **Small sample.** 54 chunks from 2 articles. A 95% interval on F1 is about
-  ±0.1, so A and B are not clearly separated (0.54–0.75 against 0.38–0.60).
-- **Not the measured configuration.** In the experiment the LLM reranked the
-  top 10 by *chunk cosine*. The pipeline reranks the top 10 by *sentence max*,
-  which puts a known correct target in the top 10 for fewer chunks (86%
-  against 95%; 7 against 11 of the 17 matches the annotator found outside
-  chunk cosine's top 3), but ranks more of them in the top 3. This combination
-  has not been scored with fresh LLM replies yet. A rough estimate re-uses the
-  experiment's cached replies: for 249 of the 540 sentence-max candidates the
-  LLM had already given a label, and the other 291 are counted as *none*. That
-  gives P 0.692, R 0.562, F1 0.621 (95% CI 0.52–0.71; Huawei 0.64, Social
-  credit system 0.61). Re-run `python -m wikilens experiment` with an LLM to
-  replace it.
+  ±0.1 (0.651, 0.54–0.75), so A and B are not clearly separated (B:
+  0.38–0.60).
 - **Biased towards chunk cosine.** Apart from 17 matches named by the
   annotator, every labelled pair came from chunk cosine's top 3. Pairs a new
   method predicts outside the labels count as false positives when the
   chunk's third candidate was labelled *none*, otherwise they are not scored.
   The LLM rerank predicts 33 such pairs (19 counted as false positives),
   sentence max 26 (18). Labelling them, about 25–35 pairs per method, would
-  show how much of the precision is real.
+  show how much of the precision is real. The same bias favours A's candidate
+  pool, which is chunk cosine's top 10.
 - **Only EN-ZH**, and only with Llama 3.3 70B. A smaller local model (e.g.
   Ollama `llama3.2`) may label very differently.
 

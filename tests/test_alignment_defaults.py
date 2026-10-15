@@ -23,7 +23,8 @@ from app.services.sections import is_navigation_section  # noqa: E402
 
 def test_zh_default_is_sentence_max_with_llm_rerank():
     m = method_for("zh")
-    assert (m.score, m.threshold, m.path_thr, m.rerank_top_n) == ("sentence_max", 0.65, None, 10)
+    assert (m.score, m.threshold, m.path_thr, m.rerank_top_n, m.rerank_pool) == \
+        ("sentence_max", 0.65, None, 10, "chunk")
 
 
 @pytest.mark.parametrize("lang, thr", [("de", (0.45, 0.35)), ("it", (0.35, 0.35)),
@@ -92,6 +93,25 @@ def test_rerank_keeps_match_and_partial(monkeypatch):
     assert out["matched"].tolist() == [[True, False, False], [True, False, False]]
     assert out["labels"][(0, 0)] == "partial" and out["labels"][(1, 1)] == "none"
     assert out["info"]["rerank"]["status"] == "ok" and out["info"]["rerank"]["calls"] == 2
+
+
+def test_rerank_candidates_come_from_chunk_cosine(monkeypatch):
+    # tA shares a whole sentence with q (sentence max 1) but its chunk vector is
+    # diluted; tB has no identical sentence but the same overall direction.
+    q = _df("zh", ["A"], [[E[0], E[1]]])
+    t = _df("en", ["A", "A"], [[E[0], E[2], E[3]], [np.array([1.0, 1.0, 0, 0]) / np.sqrt(2)]])
+    sent = []
+
+    def call(messages):
+        sent.append(messages[1]["content"])
+        return '{"en_0001": "match"}'
+    monkeypatch.setattr(llm_rerank, "llm_caller", lambda: (call, {"backend": "fake", "model": "m"}))
+    out = align_scoring.align_pairs(q, t, "zh", "en", AlignMethod("sentence_max", 0.65, None, 1, "chunk"))
+    assert "[en_0001]" in sent[0] and "[en_0000]" not in sent[0]
+    assert out["matched"].tolist() == [[False, True]]
+    sent.clear()
+    align_scoring.align_pairs(q, t, "zh", "en", AlignMethod("sentence_max", 0.65, None, 1, "sentence_max"))
+    assert "[en_0000]" in sent[0]
 
 
 def test_no_llm_falls_back_to_threshold(monkeypatch):

@@ -1,6 +1,6 @@
 # Alignment experiments: LLM rerank (A) and sentence-level pairing (B)
 
-*2026-10-15. Written as an experiment only. Since then the EN-ZH default has become an LLM rerank of the top 10 candidates by sentence max, with sentence max ≥ 0.65 as the fallback: see README, "Alignment method for EN-ZH".*
+*2026-10-15. Written as an experiment only. Since then the EN-ZH default has become A (LLM rerank of the top 10 candidates by chunk cosine), with B (sentence max ≥ 0.65) as the fallback when no LLM is available: see README, "Alignment method for EN-ZH".*
 
 ## Question
 
