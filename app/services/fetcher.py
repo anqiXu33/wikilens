@@ -7,19 +7,45 @@ from urllib.parse import urlparse, unquote
 import requests
 import nltk
 
-import spacy
+# The German spaCy model is pinned to an exact Hugging Face commit (spaCy 3.7
+# model, matching the pinned spacy==3.7.x). Like the NLTK data, it is fetched
+# and loaded on first use, not on import.
+SPACY_DE_REPO = "spacy/de_core_news_sm"
+SPACY_DE_REVISION = "3e486021598de8be095c787aae0211b7f84c42d1"
 
-nltk.download("punkt")
-nltk.download("punkt_tab")
+_nlp_de = None
 
-# Models
-nlp_de = spacy.load("de_core_news_sm")
+
+def get_nlp_de():
+    global _nlp_de
+    if _nlp_de is None:
+        import spacy
+        from huggingface_hub import snapshot_download
+        path = snapshot_download(SPACY_DE_REPO, revision=SPACY_DE_REVISION,
+                                 ignore_patterns=["*.whl"])
+        _nlp_de = spacy.load(path)
+    return _nlp_de
+
+
+_punkt_ready = False
+
+
+def _ensure_punkt():
+    global _punkt_ready
+    if not _punkt_ready:
+        try:
+            nltk.data.find("tokenizers/punkt_tab")
+        except LookupError:
+            if not nltk.download("punkt_tab", quiet=True):
+                raise RuntimeError(
+                    "NLTK 'punkt_tab' data is missing and could not be downloaded. "
+                    "Run: python -m nltk.downloader punkt_tab")
+        _punkt_ready = True
+
 
 # Paths
 CACHE_DIR = Path("app/cached_articles")
 OUTPUT_DIR = Path("outputs/fetched")
-CACHE_DIR.mkdir(parents=True, exist_ok=True)
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Skip headings
 EXCLUDE_HEADINGS = {
@@ -82,11 +108,12 @@ def split_sentences(text, lang):
     if lang == "zh":
         return re.split(r"(?<=[。！？])(?=[^\n])", text)
     elif lang == "de":
-        return [s.text.strip() for s in nlp_de(text).sents if s.text.strip()]
-    elif lang == "it":
+        return [s.text.strip() for s in get_nlp_de()(text).sents if s.text.strip()]
+    _ensure_punkt()
+    if lang == "it":
         # NLTK punkt has a built-in Italian model — no extra download needed
         return sent_tokenize(text, language="italian")
-    elif lang == "fr":
+    if lang == "fr":
         # NLTK punkt has a built-in French model — no extra download needed
         return sent_tokenize(text, language="french")
     else:
@@ -161,6 +188,7 @@ def get_cache_path(title, lang):
 
 
 def save_to_cache(df, title, lang):
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
     df.to_json(
         get_cache_path(title, lang), orient="records", force_ascii=False, indent=2
     )
@@ -209,10 +237,12 @@ _HEADERS = {
 }
 
 
-def _get_json(url: str, params: dict = None, retries: int = 3, timeout: int = 15) -> dict:
-    """GET a JSON endpoint with proper User-Agent, timeout, and automatic retry."""
+def _get_json(url: str, params: dict = None, retries: int = 4, timeout: int = 15) -> dict:
+    """GET a JSON endpoint with proper User-Agent, timeout, and automatic retry.
+    On HTTP 429 the server's Retry-After (capped at 60 s) is honoured."""
     import time
     for attempt in range(1, retries + 1):
+        r = None
         try:
             r = requests.get(url, params=params, headers=_HEADERS, timeout=timeout)
             r.raise_for_status()
@@ -221,6 +251,11 @@ def _get_json(url: str, params: dict = None, retries: int = 3, timeout: int = 15
             if attempt == retries:
                 raise
             wait = 2 ** attempt
+            if r is not None and r.status_code == 429:
+                try:
+                    wait = max(wait, min(int(r.headers.get("Retry-After", 0)), 60))
+                except ValueError:
+                    pass
             print(f"  [retry {attempt}/{retries}] {e} — retrying in {wait}s")
             time.sleep(wait)
 
