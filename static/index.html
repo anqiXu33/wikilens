@@ -1006,7 +1006,7 @@ function buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLA
     const absAvg = diffs.reduce((a,d) => a + Math.abs(d), 0) / diffs.length;
     const avg    = diffs.reduce((a,d) => a + d, 0) / diffs.length;
     if (absAvg < NOTE_DIFF_MIN) return 'both similar';
-    if (Math.abs(avg) < NOTE_DIFF_MIN) return 'mixed: differs by section';
+    if (Math.abs(avg) < NOTE_DIFF_MIN) return 'mixed: differs by passage';
     return avg > 0 ? `${label1} higher` : `${label2} higher`;
   };
 
