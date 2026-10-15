@@ -67,14 +67,14 @@ def paragraph_chunk(sentences: list[dict]) -> list[dict]:
         return []
     chunks: list[dict] = []
     chunk_counter = 0
-    sorted_sents = sorted(sentences, key=lambda x: (x["section"], x["paragraph_index"]))
+    # keep document order; never merge across sections (mirrors chunker.py)
     for (section, para_idx), group in groupby(
-        sorted_sents, key=lambda x: (x["section"], x["paragraph_index"])
+        sentences, key=lambda x: (x["section"], x["paragraph_index"])
     ):
         sents = sorted(list(group), key=lambda x: x["sentence_index"])
         lang  = sents[0]["language"]
         text  = " ".join(s["sentence_text"] for s in sents)
-        if len(sents) == 1 and chunks:
+        if len(sents) == 1 and chunks and chunks[-1]["section"] == section:
             chunks[-1]["chunk_text"]     += " " + text
             chunks[-1]["sentence_count"] += 1
         else:
