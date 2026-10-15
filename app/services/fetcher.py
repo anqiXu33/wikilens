@@ -126,22 +126,24 @@ def extract_sentences_by_section(page, lang):
 
             walk(sec.sections, full_path)
 
-    # Handle intro
+    # Handle intro — split into paragraphs like any other section, otherwise
+    # the whole lead ends up as a single chunk
     intro_title = "(Lead)"
-    intro_sents = split_sentences(page.summary or "", lang)
-    for j, sent in enumerate(intro_sents):
-        cleaned = clean_sentence_text(sent)
-        if len(cleaned) < 2:
-            continue
-        data.append(
-            {
-                "language": lang,
-                "section": intro_title,
-                "paragraph_index": 0,
-                "sentence_index": j,
-                "sentence_text": cleaned,
-            }
-        )
+    intro_paragraphs = [p.strip() for p in (page.summary or "").split("\n") if p.strip()]
+    for i, para in enumerate(intro_paragraphs):
+        for j, sent in enumerate(split_sentences(para, lang)):
+            cleaned = clean_sentence_text(sent)
+            if len(cleaned) < 2:
+                continue
+            data.append(
+                {
+                    "language": lang,
+                    "section": intro_title,
+                    "paragraph_index": i,
+                    "sentence_index": j,
+                    "sentence_text": cleaned,
+                }
+            )
 
     walk(page.sections)
     return data
