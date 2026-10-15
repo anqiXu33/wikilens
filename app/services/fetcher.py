@@ -183,6 +183,17 @@ def fetch_and_prepare_article(title, lang="en"):
     if not page.exists():
         return pd.DataFrame()
 
+    # wikipediaapi follows redirects and then reports the target's title.
+    # A Wikidata sitelink that is a redirect (e.g. en "Riley Elf" -> "Mini")
+    # means this edition has no dedicated article, so comparing against the
+    # target would compare two different topics.
+    requested = title.replace("_", " ")
+    resolved = page.title.replace("_", " ")
+    if resolved[:1].upper() + resolved[1:] != requested[:1].upper() + requested[1:]:
+        print(f"[!] {lang}: '{requested}' redirects to '{resolved}' — "
+              f"no dedicated article in this edition, skipping.")
+        return pd.DataFrame()
+
     data = extract_sentences_by_section(page, lang)
     df = pd.DataFrame(data)
     save_to_cache(df, title, lang)
