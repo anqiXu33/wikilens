@@ -533,12 +533,12 @@ OMISSION_TEXT_MAX_CHARS = 1200
 def build_omission_text(matches, tgt_field, max_chars=OMISSION_TEXT_MAX_CHARS):
     """Concatenate the aligned texts, best match first, up to max_chars.
 
-    Deterministic (ordered by chunk_sim, not by set iteration order, which
+    Deterministic (ordered by match score, not by set iteration order, which
     changes between processes), and never empty for an aligned chunk: if
     the best match alone is longer than max_chars it is truncated rather
     than dropped.
     """
-    ordered = sorted(matches, key=lambda m: m.get("chunk_sim", 0), reverse=True)
+    ordered = sorted(matches, key=lambda m: m.get("score", m.get("chunk_sim", 0)), reverse=True)
     texts = list(dict.fromkeys(m[tgt_field + "_text"] for m in ordered))
     omission_text = ""
     for text in texts:

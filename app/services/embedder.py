@@ -359,12 +359,17 @@ def embed_texts(texts):
         raise
 
 
-def embed_language(lang, input_dir=INPUT_DIR, output_dir=OUTPUT_DIR, section_names=None):
+def embed_language(lang, input_dir=INPUT_DIR, output_dir=OUTPUT_DIR, section_names=None,
+                   sentence_level=False):
     """Embed chunks and their (English) section names for one language.
 
     section_names: {original: english} from translate_section_names(). The
     pipeline translates once per run and passes the result here and to the
     scoring step; if omitted, names are translated (or read from cache) here.
+
+    sentence_level: also embed each sentence of each chunk (column
+    sentence_embeddings, one vector per entry of the chunk's "sentences"),
+    for the aligners' sentence-level matching (align_thresholds.LANG_METHODS).
     """
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -398,6 +403,14 @@ def embed_language(lang, input_dir=INPUT_DIR, output_dir=OUTPUT_DIR, section_nam
     try:
         df["chunk_embedding"] = list(embed_texts(chunk_texts))
         df["section_embedding"] = list(embed_texts(section_texts))
+        if sentence_level:
+            if "sentences" not in df.columns:
+                raise KeyError("sentences (re-chunk with the current chunker)")
+            sentences = df["sentences"].tolist()
+            flat = list(embed_texts([t for ss in sentences for t in ss]))
+            bounds = np.cumsum([0] + [len(ss) for ss in sentences])
+            df["sentence_embeddings"] = [
+                [v.tolist() for v in flat[a:b]] for a, b in zip(bounds[:-1], bounds[1:])]
     except Exception as e:
         print(f"[!!] Error during embedding columns for {lang}: {e}")
         traceback.print_exc()
