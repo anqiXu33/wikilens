@@ -553,9 +553,12 @@ def reorder_output_by_input(input_file_path, output_file_path):
         output_data = json.load(f_out)
 
     # Detect chunk ID field based on input file path
-    if "en_to_" in str(input_file_path):
+    # Look at the file name only: the directory (e.g. a per-run folder named
+    # after the article) may itself contain "en_to_" or "_to_en".
+    file_name = Path(input_file_path).name
+    if file_name.startswith("en_to_"):
         id_field = "tgt_chunk_id"
-    elif "_to_en" in str(input_file_path):
+    elif file_name.endswith("_to_en.json"):
         id_field = "src_chunk_id"
     else:
         raise ValueError(
