@@ -350,7 +350,25 @@ def _extract_generated_text(response: dict) -> str:
     return response["choices"][0]["message"]["content"]
 
 
+SCORE_FIELDS = {
+    "individual": ("ideology_score", "framing_score", "sentiment_score"),
+    "pair": ("base_points", "omission_points"),
+}
+
+
+def _failed(score_type, reason, raw):
+    """Explicitly-marked failure: all fields None plus <score_type>_error."""
+    print(f"[!] {score_type} scoring failed: {reason}\n    raw: {raw[:300]!r}")
+    result = {k: None for k in SCORE_FIELDS[score_type]}
+    if score_type == "pair":
+        result["omission_score"] = None
+    result[f"{score_type}_error"] = reason
+    return result
+
+
 def parse_response(score_type, response):
+    if score_type not in SCORE_FIELDS:
+        raise ValueError(f"Unknown score_type: {score_type}")
     generated_str = _extract_generated_text(response)
 
     # Try to find a JSON object — also handle truncated output (no closing brace)
@@ -363,45 +381,31 @@ def parse_response(score_type, response):
             generated_str = open_match.group(0).rstrip() + "\n}"
             match = re.search(r'\{.*?\}', generated_str, re.DOTALL)
     if not match:
-        print("No valid JSON object found in string.")
-        print("Raw string:\n", generated_str)
-        if score_type == 'individual':
-            return {"ideology_score": None, "framing_score": None, "sentiment_score": None}
-        elif score_type == 'pair':
-            return {"base_points": None, "omission_points": None, "omission_score": None}
-        return {'error': 'not supported score type'}
+        return _failed(score_type, "no JSON object in model output", generated_str)
     try:
         generated_json = json.loads(match.group(0))
     except json.JSONDecodeError as e:
-        print("Still failed to parse JSON:", e)
-        print("Offending string:\n", match.group(0))
-        if score_type == 'individual':
-            return {
-                "ideology_score": None,
-                "framing_score": None,
-                "sentiment_score": None
-            }
-        elif score_type == 'pair':
-            return {
-                "base_points": None,
-                "omission_points": None,
-                "omission_score": None
-            }
+        return _failed(score_type, f"invalid JSON: {e}", match.group(0))
+
+    values = {}
+    for key in SCORE_FIELDS[score_type]:
+        v = generated_json.get(key)
+        if isinstance(v, bool) or not isinstance(v, (int, float)):
+            return _failed(score_type, f"missing or non-numeric '{key}'", match.group(0))
+        if score_type == "individual" and not -1.0 <= v <= 1.0:
+            return _failed(score_type, f"'{key}'={v} outside [-1, 1]", match.group(0))
+        values[key] = v
 
     if score_type == 'individual':
+        score_dict = values
+    else:
         score_dict = {
-            "ideology_score": generated_json["ideology_score"],
-            "framing_score": generated_json["framing_score"],
-            "sentiment_score": generated_json["sentiment_score"]
+            **values,
+            "omission_score": compute_omission_score(values["base_points"], values["omission_points"]),
+            "omission_basis": "llm_counts",
         }
-    elif score_type == 'pair':
-        base_points = generated_json["base_points"]
-        omission_points = generated_json["omission_points"]
-        score_dict = {
-            "base_points": base_points,
-            "omission_points": omission_points,
-            "omission_score": compute_omission_score(base_points, omission_points)
-        }
+        if score_dict["omission_score"] is None:
+            score_dict["pair_error"] = f"cannot compute omission from base_points={values['base_points']}"
     return score_dict
 
 # === Recording Output ===
@@ -423,6 +427,15 @@ def record_output(score_data, output_path):
 
 
 # === Scoring Loop ===
+
+# A chunk with no aligned counterpart is fully omitted by definition; no LLM
+# call is made, so there are no point counts (previously faked as 1 and 0).
+UNALIGNED_OMISSION = {
+    "base_points": None,
+    "omission_points": None,
+    "omission_score": 1.0,
+    "omission_basis": "unaligned",
+}
 
 OMISSION_TEXT_MAX_CHARS = 1200
 
@@ -476,11 +489,7 @@ def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, scor
 
         # Pair scoring
         if match_type == "1:0":
-            scores_p = {
-                "base_points": 1,
-                "omission_points": 0,
-                "omission_score": 1
-            }
+            scores_p = UNALIGNED_OMISSION.copy()
         else:
             msg = form_message(score_type="pair", chunk_data=chunk_data)
             response = inference(msg, access_token)
@@ -524,11 +533,7 @@ async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt
                 scores_i = parse_response("individual", response)
 
             if match_type == "1:0":
-                scores_p = {
-                    "base_points": 1,
-                    "omission_points": 0,
-                    "omission_score": 1
-                }
+                scores_p = UNALIGNED_OMISSION.copy()
             else:
                 async with semaphore:
                     msg = form_message(score_type="pair", chunk_data=chunk_data)
