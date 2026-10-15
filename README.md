@@ -423,7 +423,12 @@ other one).
   which puts a known correct target in the top 10 for fewer chunks (86%
   against 95%; 7 against 11 of the 17 matches the annotator found outside
   chunk cosine's top 3), but ranks more of them in the top 3. This combination
-  has not been scored with fresh LLM replies yet.
+  has not been scored with fresh LLM replies yet. A rough estimate re-uses the
+  experiment's cached replies: for 249 of the 540 sentence-max candidates the
+  LLM had already given a label, and the other 291 are counted as *none*. That
+  gives P 0.692, R 0.562, F1 0.621 (95% CI 0.52–0.71; Huawei 0.64, Social
+  credit system 0.61). Re-run `python -m wikilens experiment` with an LLM to
+  replace it.
 - **Biased towards chunk cosine.** Apart from 17 matches named by the
   annotator, every labelled pair came from chunk cosine's top 3. Pairs a new
   method predicts outside the labels count as false positives when the
