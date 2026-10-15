@@ -805,10 +805,13 @@ async function renderResults(meta, scores1, scores2) {
   document.getElementById('error-container').innerHTML = '';
   document.getElementById('results-content').classList.remove('hidden');
 
-  const [l1, l2] = meta.languages_found || [];
+  // scores1 (file1) is always the English-base file and scores2 the other
+  // language, whatever order the pair was requested in (the UI sends "de-en"),
+  // so derive the labels from that rather than from languages_found order.
+  const nonEnLang = (meta.languages_found || []).find(l => l !== 'en');
+  const l1 = 'en', l2 = nonEnLang;
   const title   = meta.title || 'Article';
   const n1 = LANG[l1]||l1, n2 = LANG[l2]||l2;
-  const nonEnLang = l1 === 'en' ? l2 : l1;
   const aligned = (scores1.length + scores2.length);
 
   // Header
