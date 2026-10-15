@@ -10,8 +10,10 @@
     "sentiment_score": -0.1,
     "base_points": 13,
     "omission_points": 9,
-    "omission_score": 0.6923076923076923,
-    "section": "Adaptation"
+    "omission_score": 0.3077,
+    "section": "Appearance and flavor",
+    "omission_score_as_returned": 0.6923076923076923,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "en_0001",
@@ -24,8 +26,10 @@
     "sentiment_score": -0.1,
     "base_points": 7,
     "omission_points": 5,
-    "omission_score": 0.7142857142857143,
-    "section": "Adaptation"
+    "omission_score": 0.2857,
+    "section": "History",
+    "omission_score_as_returned": 0.7142857142857143,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "en_0002",
@@ -38,8 +42,10 @@
     "sentiment_score": 0.5,
     "base_points": 6,
     "omission_points": 0,
-    "omission_score": 0,
-    "section": "Adaptation"
+    "omission_score": 1.0,
+    "section": "History",
+    "omission_score_as_returned": 0,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "en_0003",
@@ -52,8 +58,10 @@
     "sentiment_score": 0.7,
     "base_points": 6,
     "omission_points": 6,
-    "omission_score": 1.0,
-    "section": "Adaptation"
+    "omission_score": 0.0,
+    "section": "History",
+    "omission_score_as_returned": 1.0,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "en_0004",
@@ -66,8 +74,10 @@
     "sentiment_score": -0.2,
     "base_points": 9,
     "omission_points": 9,
-    "omission_score": 1.0,
-    "section": "Causes of recent global temperature rise"
+    "omission_score": 0.0,
+    "section": "History > Sports (mutations)",
+    "omission_score_as_returned": 1.0,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "en_0005",
@@ -80,8 +90,10 @@
     "sentiment_score": 0.4,
     "base_points": 8,
     "omission_points": 2,
-    "omission_score": 0.25,
-    "section": "Causes of recent global temperature rise"
+    "omission_score": 0.75,
+    "section": "(Lead)",
+    "omission_score_as_returned": 0.25,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "en_0006",
@@ -94,8 +106,10 @@
     "sentiment_score": 0.2,
     "base_points": 9,
     "omission_points": 9,
-    "omission_score": 1.0,
-    "section": "Causes of recent global temperature rise > Greenhouse gases"
+    "omission_score": 0.0,
+    "section": "Royal Gala sport",
+    "omission_score_as_returned": 1.0,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "en_0007",
@@ -108,8 +122,10 @@
     "sentiment_score": -0.1,
     "base_points": 9,
     "omission_points": 7,
-    "omission_score": 0.22,
-    "section": "Causes of recent global temperature rise > Greenhouse gases"
+    "omission_score": 0.2222,
+    "section": "Season",
+    "omission_score_as_returned": 0.22,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "en_0008",
@@ -122,7 +138,9 @@
     "sentiment_score": -0.2,
     "base_points": 6,
     "omission_points": 5,
-    "omission_score": 0.8333333333333334,
-    "section": "Causes of recent global temperature rise > Greenhouse gases"
+    "omission_score": 0.1667,
+    "section": "Season",
+    "omission_score_as_returned": 0.8333333333333334,
+    "omission_basis": "llm_counts"
   }
 ]

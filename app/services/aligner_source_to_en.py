@@ -38,17 +38,19 @@ SOURCE_LANGS = ["de", "zh", "it", "fr"]
 LAMBDA = 0.3
 
 
-def load_embeddings(lang):
-    return pd.read_parquet(EMBED_DIR / f"embedded_{lang}.parquet")
+def load_embeddings(lang, embed_dir=EMBED_DIR):
+    return pd.read_parquet(Path(embed_dir) / f"embedded_{lang}.parquet")
 
 
-def align_language(src_lang):
+def align_language(src_lang, embed_dir=EMBED_DIR, output_dir=OUTPUT_DIR):
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
     chunk_thr, path_thr = LANG_THRESHOLDS.get(src_lang, DEFAULT_THRESHOLDS)
     print(
         f"align_language called for {src_lang} | "
-        f"chunk_thr={chunk_thr}  path_thr={path_thr}  output→{OUTPUT_DIR}")
-    df_src = load_embeddings(src_lang)
-    df_tgt = load_embeddings(TARGET_LANG)
+        f"chunk_thr={chunk_thr}  path_thr={path_thr}  output→{output_dir}")
+    df_src = load_embeddings(src_lang, embed_dir)
+    df_tgt = load_embeddings(TARGET_LANG, embed_dir)
 
     results = []
 
@@ -110,7 +112,7 @@ def align_language(src_lang):
             "matches": matched_chunks
         })
 
-    out_path = OUTPUT_DIR / f"{src_lang}_to_en.json"
+    out_path = output_dir / f"{src_lang}_to_en.json"
     pd.DataFrame(results).to_json(
         out_path, orient="records", indent=2, force_ascii=False)
     print(

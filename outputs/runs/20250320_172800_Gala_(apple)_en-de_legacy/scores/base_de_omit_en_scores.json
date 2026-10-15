@@ -10,8 +10,10 @@
     "sentiment_score": 0.6,
     "base_points": 6,
     "omission_points": 2,
-    "omission_score": 0.3333333333333333,
-    "section": "Anthropogenic climate change"
+    "omission_score": 0.6667,
+    "section": "Anbau",
+    "omission_score_as_returned": 0.3333333333333333,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0001",
@@ -24,8 +26,10 @@
     "sentiment_score": 0.0,
     "base_points": 10,
     "omission_points": 8,
-    "omission_score": 0.8,
-    "section": "Anthropogenic climate change"
+    "omission_score": 0.2,
+    "section": "Anbau",
+    "omission_score_as_returned": 0.8,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0002",
@@ -38,8 +42,10 @@
     "sentiment_score": -0.3,
     "base_points": 4,
     "omission_points": 3,
-    "omission_score": 0.75,
-    "section": "Anthropogenic climate change"
+    "omission_score": 0.25,
+    "section": "Anbau > Anfälligkeiten und Resistenzen",
+    "omission_score_as_returned": 0.75,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0003",
@@ -53,7 +59,9 @@
     "base_points": 8,
     "omission_points": 6,
     "omission_score": 0.25,
-    "section": "Anthropogenic climate change"
+    "section": "Beschreibung > Baum",
+    "omission_score_as_returned": 0.25,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0004",
@@ -66,8 +74,10 @@
     "sentiment_score": 0.8,
     "base_points": 6,
     "omission_points": 1,
-    "omission_score": 0.16666666666666666,
-    "section": "Research into climate change"
+    "omission_score": 0.8333,
+    "section": "Beschreibung > Frucht",
+    "omission_score_as_returned": 0.16666666666666666,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0005",
@@ -80,8 +90,10 @@
     "sentiment_score": 0.7,
     "base_points": 17,
     "omission_points": 8,
-    "omission_score": 0.47,
-    "section": "Research into climate change"
+    "omission_score": 0.5294,
+    "section": "Beschreibung > Mutanten",
+    "omission_score_as_returned": 0.47,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0006",
@@ -94,8 +106,10 @@
     "sentiment_score": 0.2,
     "base_points": 14,
     "omission_points": 8,
-    "omission_score": 0.429,
-    "section": "Intro"
+    "omission_score": 0.4286,
+    "section": "Beschreibung > Mutanten",
+    "omission_score_as_returned": 0.429,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0007",
@@ -108,8 +122,10 @@
     "sentiment_score": 0.2,
     "base_points": 7,
     "omission_points": 7,
-    "omission_score": 1,
-    "section": "Climate change on Venus and Mars"
+    "omission_score": 0.0,
+    "section": "Beschreibung > Mutanten",
+    "omission_score_as_returned": 1,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0008",
@@ -122,8 +138,10 @@
     "sentiment_score": -0.2,
     "base_points": 5,
     "omission_points": 5,
-    "omission_score": 1.0,
-    "section": "Climate change on Venus and Mars"
+    "omission_score": 0.0,
+    "section": "Geschichte > Situation heute",
+    "omission_score_as_returned": 1.0,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0009",
@@ -136,8 +154,10 @@
     "sentiment_score": 0.1,
     "base_points": 11,
     "omission_points": 5,
-    "omission_score": 0.455,
-    "section": "Climate change on Venus and Mars"
+    "omission_score": 0.5455,
+    "section": "Geschichte > Situation heute",
+    "omission_score_as_returned": 0.455,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0010",
@@ -150,8 +170,10 @@
     "sentiment_score": 0.2,
     "base_points": 9,
     "omission_points": 8,
-    "omission_score": 0.889,
-    "section": "Paleoclimatic overview > Evolution of the Earth's atmosphere"
+    "omission_score": 0.1111,
+    "section": "Geschichte > Ursprung",
+    "omission_score_as_returned": 0.889,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0011",
@@ -164,8 +186,10 @@
     "sentiment_score": 0.6,
     "base_points": 6,
     "omission_points": 6,
-    "omission_score": 1,
-    "section": "Paleoclimatic overview > Evolution of the Earth's atmosphere"
+    "omission_score": 0.0,
+    "section": "(Lead)",
+    "omission_score_as_returned": 1,
+    "omission_basis": "llm_counts"
   },
   {
     "chunk_id": "de_0012",
@@ -179,6 +203,8 @@
     "base_points": 10,
     "omission_points": 5,
     "omission_score": 0.5,
-    "section": "Paleoclimatic overview > Evolution of the Earth's atmosphere"
+    "section": "Züchtung",
+    "omission_score_as_returned": 0.5,
+    "omission_basis": "llm_counts"
   }
 ]

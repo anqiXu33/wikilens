@@ -1,35 +1,29 @@
 [
   {
     "success": true,
-    "title": "Climate_change",
+    "run_id": "20250320_172800_Gala_(apple)_en-de_legacy",
+    "title": "Gala_(apple)",
     "languages_found": [
       "en",
       "de"
     ],
-    "timestamp": "20260320_235435",
-    "file1_url": "/outputs/base_en_omit_de_20260320_235435.json",
-    "file2_url": "/outputs/base_de_omit_en_20260320_235435.json"
-  },
-  {
-    "success": true,
-    "title": "COVID-19",
-    "languages_found": [
-      "de",
-      "en"
-    ],
-    "timestamp": "20260320_182949",
-    "file1_url": "/outputs/base_en_omit_de_20260320_182949.json",
-    "file2_url": "/outputs/base_de_omit_en_20260320_182949.json"
-  },
-  {
-    "success": true,
-    "title": "Gala (apple)",
-    "languages_found": [
-      "de",
-      "en"
-    ],
     "timestamp": "20250320_172800",
-    "file1_url": "/outputs/base_en_omit_de_20250320_172800.json",
-    "file2_url": "/outputs/base_de_omit_en_20250320_172800.json"
+    "file1_url": "/runs/20250320_172800_Gala_(apple)_en-de_legacy/scores/base_en_omit_de_scores.json",
+    "file2_url": "/runs/20250320_172800_Gala_(apple)_en-de_legacy/scores/base_de_omit_en_scores.json",
+    "align_en_url": null,
+    "align_src_url": null,
+    "provenance": {
+      "kind": "legacy run, repaired",
+      "note": "Scored on 2025-03-20 by the pre-fix pipeline. It is the only saved run that is complete and whose texts are not mixed with another article. It was not re-run: the LLM backend, LaBSE and Wikipedia are not reachable from the environment that did this migration.",
+      "repairs": [
+        "section labels re-derived by exact chunk_text match against app/cached_articles (the stored labels were Climate change sections at the same positional chunk ids); German labels are left untranslated",
+        "omission_score recomputed as 1 - omission_points/base_points from the model's counts (18 of 22 values changed); the model's value is kept in omission_score_as_returned"
+      ],
+      "known_limitations": [
+        "chunks come from the pre-fix chunker: alphabetical chunk ids, whole lead as one chunk, and de_0002 mixes 'Anbau > Anfälligkeiten und Resistenzen' with 'Beschreibung > Allergisches Potential'",
+        "alignment files for this run were not saved, so the dashboard's alignment-based cards show n/a",
+        "scoring backend/model not recorded (the date falls in the IBM watsonx challenge period)"
+      ]
+    }
   }
 ]

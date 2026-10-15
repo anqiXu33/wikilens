@@ -126,29 +126,38 @@ def extract_sentences_by_section(page, lang):
 
             walk(sec.sections, full_path)
 
-    # Handle intro
+    # Handle intro — split into paragraphs like any other section, otherwise
+    # the whole lead ends up as a single chunk
     intro_title = "(Lead)"
-    intro_sents = split_sentences(page.summary or "", lang)
-    for j, sent in enumerate(intro_sents):
-        cleaned = clean_sentence_text(sent)
-        if len(cleaned) < 2:
-            continue
-        data.append(
-            {
-                "language": lang,
-                "section": intro_title,
-                "paragraph_index": 0,
-                "sentence_index": j,
-                "sentence_text": cleaned,
-            }
-        )
+    intro_paragraphs = [p.strip() for p in (page.summary or "").split("\n") if p.strip()]
+    for i, para in enumerate(intro_paragraphs):
+        for j, sent in enumerate(split_sentences(para, lang)):
+            cleaned = clean_sentence_text(sent)
+            if len(cleaned) < 2:
+                continue
+            data.append(
+                {
+                    "language": lang,
+                    "section": intro_title,
+                    "paragraph_index": i,
+                    "sentence_index": j,
+                    "sentence_text": cleaned,
+                }
+            )
 
     walk(page.sections)
     return data
 
 
+# Bump whenever extract_sentences_by_section changes what it produces, so caches
+# written by older code are re-fetched instead of silently reused.
+#   v1 (unversioned files): lead labelled "Intro", whole lead as paragraph 0
+#   v2: lead labelled "(Lead)" and split into paragraphs
+CACHE_VERSION = 2
+
+
 def get_cache_path(title, lang):
-    return CACHE_DIR / f"{lang}_{title.replace(' ', '_')}.json"
+    return CACHE_DIR / f"{lang}_{title.replace(' ', '_')}.v{CACHE_VERSION}.json"
 
 
 def save_to_cache(df, title, lang):
@@ -172,6 +181,17 @@ def fetch_and_prepare_article(title, lang="en"):
     )
     page = wiki.page(title)
     if not page.exists():
+        return pd.DataFrame()
+
+    # wikipediaapi follows redirects and then reports the target's title.
+    # A Wikidata sitelink that is a redirect (e.g. en "Riley Elf" -> "Mini")
+    # means this edition has no dedicated article, so comparing against the
+    # target would compare two different topics.
+    requested = title.replace("_", " ")
+    resolved = page.title.replace("_", " ")
+    if resolved[:1].upper() + resolved[1:] != requested[:1].upper() + requested[1:]:
+        print(f"[!] {lang}: '{requested}' redirects to '{resolved}' — "
+              f"no dedicated article in this edition, skipping.")
         return pd.DataFrame()
 
     data = extract_sentences_by_section(page, lang)
@@ -227,13 +247,15 @@ def get_langlinks_from_qid(qid: str) -> dict:
     }
 
 
-def fetch_articles_in_languages(lang_title_map: dict) -> dict:
+def fetch_articles_in_languages(lang_title_map: dict, output_dir: Path = OUTPUT_DIR) -> dict:
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
     results = {}
     for lang, title in lang_title_map.items():
         df = fetch_and_prepare_article(title, lang)
         if not df.empty:
             results[lang] = df
-            out_path = OUTPUT_DIR / f"fetched_{lang}.json"
+            out_path = output_dir / f"fetched_{lang}.json"
             df.to_json(out_path, orient="records", force_ascii=False, indent=2)
             print(f"[✓] {lang}: saved to {out_path}")
         else:
@@ -241,7 +263,7 @@ def fetch_articles_in_languages(lang_title_map: dict) -> dict:
     return results
 
 
-def fetch_multilang_from_url(url: str, selected_langs: list) -> dict:
+def fetch_multilang_from_url(url: str, selected_langs: list, output_dir: Path = OUTPUT_DIR) -> dict:
     title = extract_title_from_url(url)
     print(f"Extracted title: {title}")
     qid = get_qid_from_title(title)
@@ -255,4 +277,4 @@ def fetch_multilang_from_url(url: str, selected_langs: list) -> dict:
 
     if not selected_map:
         print("[!] No languages to fetch after filtering; returning empty dict.")
-    return fetch_articles_in_languages(selected_map)
+    return fetch_articles_in_languages(selected_map, output_dir)

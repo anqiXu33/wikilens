@@ -8,6 +8,10 @@ from deep_translator import GoogleTranslator
 
 model = SentenceTransformer("sentence-transformers/LaBSE")
 
+# Wikipedia language code -> Google Translate code where they differ.
+# deep-translator rejects plain "zh" (LanguageNotSupportedException).
+TRANSLATOR_LANG = {"zh": "zh-CN"}
+
 
 def normalise_section(name: str, lang: str) -> str:
     """Translate a section name to English so all section embeddings live
@@ -15,9 +19,12 @@ def normalise_section(name: str, lang: str) -> str:
     if lang == "en" or not name or name == "(Lead)":
         return name
     try:
-        return GoogleTranslator(source=lang, target="en").translate(name)
-    except Exception:
-        return name  # fall back to original on translation error
+        return GoogleTranslator(source=TRANSLATOR_LANG.get(lang, lang), target="en").translate(name)
+    except Exception as e:
+        # Keep the original name, but say so: an untranslated section name
+        # weakens section routing in the aligner.
+        print(f"[!] section-name translation failed ({lang}): {name!r} kept untranslated — {e}")
+        return name
 
 INPUT_DIR = Path("outputs/chunked")
 OUTPUT_DIR = Path("outputs/embeddings")
@@ -39,9 +46,11 @@ def embed_texts(texts):
         raise
 
 
-def embed_language(lang):
-    in_path = INPUT_DIR / f"chunked_{lang}.json"
-    out_path = OUTPUT_DIR / f"embedded_{lang}.parquet"
+def embed_language(lang, input_dir=INPUT_DIR, output_dir=OUTPUT_DIR):
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    in_path = Path(input_dir) / f"chunked_{lang}.json"
+    out_path = output_dir / f"embedded_{lang}.parquet"
     if not in_path.exists():
         print(f"[!] Skipped {lang}: {in_path} not found")
         return

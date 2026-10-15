@@ -155,7 +155,7 @@ Format your output as JSON with the following fields:
   \"chunk_id\": \"...\",
   \"base_points\": <int>,            // number of info points in chunk_text
   \"omission_points\": <int>,        // number of those found in omission_text
-  \"omission_score\": <float>        // omission_points / base_points
+  \"omission_score\": <float>        // 1 - (omission_points / base_points)
 }
 
 
@@ -322,6 +322,23 @@ async def async_inference(session, messages, access_token: str | None = None):
 # === Parse model response ===
 
 
+def compute_omission_score(base_points, omission_points):
+    """omission_score = 1 - preserved/base, computed here from the model's counts.
+
+    The model's own omission_score is not used: it frequently returns the
+    inverted ratio (preserved/base). Counts are clipped so that the number of
+    preserved points can't exceed the number of base points.
+    """
+    if isinstance(base_points, bool) or isinstance(omission_points, bool):
+        return None
+    if not isinstance(base_points, (int, float)) or not isinstance(omission_points, (int, float)):
+        return None
+    if base_points <= 0:
+        return None
+    preserved = min(max(omission_points, 0), base_points)
+    return round(1 - preserved / base_points, 4)
+
+
 def _extract_generated_text(response: dict) -> str:
     """Pull the generated text out of either backend's response format.
 
@@ -333,7 +350,25 @@ def _extract_generated_text(response: dict) -> str:
     return response["choices"][0]["message"]["content"]
 
 
+SCORE_FIELDS = {
+    "individual": ("ideology_score", "framing_score", "sentiment_score"),
+    "pair": ("base_points", "omission_points"),
+}
+
+
+def _failed(score_type, reason, raw):
+    """Explicitly-marked failure: all fields None plus <score_type>_error."""
+    print(f"[!] {score_type} scoring failed: {reason}\n    raw: {raw[:300]!r}")
+    result = {k: None for k in SCORE_FIELDS[score_type]}
+    if score_type == "pair":
+        result["omission_score"] = None
+    result[f"{score_type}_error"] = reason
+    return result
+
+
 def parse_response(score_type, response):
+    if score_type not in SCORE_FIELDS:
+        raise ValueError(f"Unknown score_type: {score_type}")
     generated_str = _extract_generated_text(response)
 
     # Try to find a JSON object — also handle truncated output (no closing brace)
@@ -346,43 +381,31 @@ def parse_response(score_type, response):
             generated_str = open_match.group(0).rstrip() + "\n}"
             match = re.search(r'\{.*?\}', generated_str, re.DOTALL)
     if not match:
-        print("No valid JSON object found in string.")
-        print("Raw string:\n", generated_str)
-        if score_type == 'individual':
-            return {"ideology_score": None, "framing_score": None, "sentiment_score": None}
-        elif score_type == 'pair':
-            return {"base_points": None, "omission_points": None, "omission_score": None}
-        return {'error': 'not supported score type'}
+        return _failed(score_type, "no JSON object in model output", generated_str)
     try:
         generated_json = json.loads(match.group(0))
     except json.JSONDecodeError as e:
-        print("Still failed to parse JSON:", e)
-        print("Offending string:\n", match.group(0))
-        if score_type == 'individual':
-            return {
-                "ideology_score": None,
-                "framing_score": None,
-                "sentiment_score": None
-            }
-        elif score_type == 'pair':
-            return {
-                "base_points": None,
-                "omission_points": None,
-                "omission_score": None
-            }
+        return _failed(score_type, f"invalid JSON: {e}", match.group(0))
+
+    values = {}
+    for key in SCORE_FIELDS[score_type]:
+        v = generated_json.get(key)
+        if isinstance(v, bool) or not isinstance(v, (int, float)):
+            return _failed(score_type, f"missing or non-numeric '{key}'", match.group(0))
+        if score_type == "individual" and not -1.0 <= v <= 1.0:
+            return _failed(score_type, f"'{key}'={v} outside [-1, 1]", match.group(0))
+        values[key] = v
 
     if score_type == 'individual':
+        score_dict = values
+    else:
         score_dict = {
-            "ideology_score": generated_json["ideology_score"],
-            "framing_score": generated_json["framing_score"],
-            "sentiment_score": generated_json["sentiment_score"]
+            **values,
+            "omission_score": compute_omission_score(values["base_points"], values["omission_points"]),
+            "omission_basis": "llm_counts",
         }
-    elif score_type == 'pair':
-        score_dict = {
-            "base_points": generated_json["base_points"],
-            "omission_points": generated_json["omission_points"],
-            "omission_score": generated_json["omission_score"]
-        }
+        if score_dict["omission_score"] is None:
+            score_dict["pair_error"] = f"cannot compute omission from base_points={values['base_points']}"
     return score_dict
 
 # === Recording Output ===
@@ -405,8 +428,41 @@ def record_output(score_data, output_path):
 
 # === Scoring Loop ===
 
+# A chunk with no aligned counterpart is fully omitted by definition; no LLM
+# call is made, so there are no point counts (previously faked as 1 and 0).
+UNALIGNED_OMISSION = {
+    "base_points": None,
+    "omission_points": None,
+    "omission_score": 1.0,
+    "omission_basis": "unaligned",
+}
 
-def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None):
+OMISSION_TEXT_MAX_CHARS = 1200
+
+
+def build_omission_text(matches, tgt_field, max_chars=OMISSION_TEXT_MAX_CHARS):
+    """Concatenate the aligned texts, best match first, up to max_chars.
+
+    Deterministic (ordered by chunk_sim, not by set iteration order, which
+    changes between processes), and never empty for an aligned chunk: if
+    the best match alone is longer than max_chars it is truncated rather
+    than dropped.
+    """
+    ordered = sorted(matches, key=lambda m: m.get("chunk_sim", 0), reverse=True)
+    texts = list(dict.fromkeys(m[tgt_field + "_text"] for m in ordered))
+    omission_text = ""
+    for text in texts:
+        if not omission_text:
+            omission_text = text[:max_chars]
+            continue
+        if len(omission_text) + len(text) + 1 > max_chars:
+            break
+        omission_text += " " + text
+    return omission_text
+
+
+
+def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None, output_dir=OUTPUT_DIR):
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     seen_chunks = set()
@@ -416,18 +472,7 @@ def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, scor
         if chunk_id in seen_chunks:
             continue
         seen_chunks.add(chunk_id)
-        omission_text_full = list(
-            {match[tgt_field + "_text"] for match in chunk["matches"]})
-        # limit the omission_text length--not accurate but...
-        omission_text = ""
-        for text in omission_text_full:
-            # Check if adding this text (plus a space) would exceed 1200 chars
-            if len(omission_text) + len(text) + 1 > 1200:
-                break
-            # Add a space if result is not empty
-            if omission_text:
-                omission_text += " "
-            omission_text += text
+        omission_text = build_omission_text(chunk["matches"], tgt_field)
 
         chunk_data = {
             "chunk_id": chunk[src_field + "_chunk_id"],
@@ -444,22 +489,18 @@ def process_file(file_path, base_lang, omission_lang, src_field, tgt_field, scor
 
         # Pair scoring
         if match_type == "1:0":
-            scores_p = {
-                "base_points": 1,
-                "omission_points": 0,
-                "omission_score": 1
-            }
+            scores_p = UNALIGNED_OMISSION.copy()
         else:
             msg = form_message(score_type="pair", chunk_data=chunk_data)
             response = inference(msg, access_token)
             scores_p = parse_response("pair", response)
 
         score_data = chunk_data | scores_i | scores_p  # merge two dictionaries
-        record_output(score_data, OUTPUT_DIR /
+        record_output(score_data, Path(output_dir) /
                       'scores' / score_filename)
 
 
-async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None):
+async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt_field, score_filename, access_token=None, output_dir=OUTPUT_DIR):
     # watsonx: up to 8 concurrent requests; local Ollama: 1 (serves one at a time)
     semaphore = asyncio.Semaphore(MAX_CONCURRENCY)
 
@@ -476,15 +517,7 @@ async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt
                 return
             seen_chunks.add(chunk_id)
 
-            omission_text_full = list(
-                {match[tgt_field + "_text"] for match in chunk["matches"]})
-            omission_text = ""
-            for text in omission_text_full:
-                if len(omission_text) + len(text) + 1 > 1200:
-                    break
-                if omission_text:
-                    omission_text += " "
-                omission_text += text
+            omission_text = build_omission_text(chunk["matches"], tgt_field)
 
             chunk_data = {
                 "chunk_id": chunk[src_field + "_chunk_id"],
@@ -500,11 +533,7 @@ async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt
                 scores_i = parse_response("individual", response)
 
             if match_type == "1:0":
-                scores_p = {
-                    "base_points": 1,
-                    "omission_points": 0,
-                    "omission_score": 1
-                }
+                scores_p = UNALIGNED_OMISSION.copy()
             else:
                 async with semaphore:
                     msg = form_message(score_type="pair", chunk_data=chunk_data)
@@ -512,7 +541,7 @@ async def async_process_file(file_path, base_lang, omission_lang, src_field, tgt
                     scores_p = parse_response("pair", response)
 
             score_data = chunk_data | scores_i | scores_p
-            record_output(score_data, OUTPUT_DIR / 'scores' / score_filename)
+            record_output(score_data, Path(output_dir) / 'scores' / score_filename)
 
         await asyncio.gather(*(run_chunk(chunk) for chunk in data))
 
@@ -524,9 +553,12 @@ def reorder_output_by_input(input_file_path, output_file_path):
         output_data = json.load(f_out)
 
     # Detect chunk ID field based on input file path
-    if "en_to_" in str(input_file_path):
+    # Look at the file name only: the directory (e.g. a per-run folder named
+    # after the article) may itself contain "en_to_" or "_to_en".
+    file_name = Path(input_file_path).name
+    if file_name.startswith("en_to_"):
         id_field = "tgt_chunk_id"
-    elif "_to_en" in str(input_file_path):
+    elif file_name.endswith("_to_en.json"):
         id_field = "src_chunk_id"
     else:
         raise ValueError(
@@ -549,7 +581,15 @@ def reorder_output_by_input(input_file_path, output_file_path):
 
 
 # === Entry Point ===
-async def score(language_pair):
+async def score(language_pair, output_dir=OUTPUT_DIR):
+    """Score both directions of an en-xx pair.
+
+    output_dir must contain alignments_en_to_source/ and
+    alignments_source_to_en/; scores are written to output_dir/scores/.
+    Defaults to the shared outputs/ directory; main.py passes a per-run
+    directory so runs never read or overwrite each other's files.
+    """
+    output_dir = Path(output_dir)
     lang1, lang2 = language_pair.split("-")
     lang1, lang2 = (lang2, lang1) if lang1 == 'en' else (lang1, lang2)
 
@@ -561,38 +601,40 @@ async def score(language_pair):
         access_token = None
 
     await async_process_file(
-        file_path=OUTPUT_DIR/'alignments_en_to_source'/f"en_to_{lang1}.json",
+        file_path=output_dir/'alignments_en_to_source'/f"en_to_{lang1}.json",
         base_lang='en',
         omission_lang=lang1,
         src_field='tgt',
         tgt_field='src',
         score_filename=f"base_en_omit_{lang1}_scores.json",
         access_token=access_token,
+        output_dir=output_dir,
     )
 
     if SCORING_BACKEND == "watsonx":
         access_token = get_access_token(IBM_API_KEY)  # fresh token for the second pass
 
     await async_process_file(
-        file_path=OUTPUT_DIR/'alignments_source_to_en'/f"{lang1}_to_en.json",
+        file_path=output_dir/'alignments_source_to_en'/f"{lang1}_to_en.json",
         base_lang=lang1,
         omission_lang='en',
         src_field='src',
         tgt_field='tgt',
         score_filename=f"base_{lang1}_omit_en_scores.json",
         access_token=access_token,
+        output_dir=output_dir,
     )
 
     reorder_output_by_input(
-        input_file_path=OUTPUT_DIR /
+        input_file_path=output_dir /
         'alignments_en_to_source'/f"en_to_{lang1}.json",
-        output_file_path=OUTPUT_DIR/'scores' /
+        output_file_path=output_dir/'scores' /
         f"base_en_omit_{lang1}_scores.json"
     )
     reorder_output_by_input(
-        input_file_path=OUTPUT_DIR /
+        input_file_path=output_dir /
         'alignments_source_to_en'/f"{lang1}_to_en.json",
-        output_file_path=OUTPUT_DIR/'scores' /
+        output_file_path=output_dir/'scores' /
         f"base_{lang1}_omit_en_scores.json"
     )
 
