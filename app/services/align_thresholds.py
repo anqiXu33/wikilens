@@ -6,7 +6,7 @@ read the current defaults without importing the aligners.
 from dataclasses import dataclass
 
 # ── Per-language-pair thresholds for chunk-level matching ─────────────────────
-# Calibrated from LaBSE cosine similarity distribution analysis (eval_alignment_threshold.py).
+# Calibrated from LaBSE cosine similarity distribution analysis (eval/legacy_threshold_eval.py).
 #
 # Key finding: LaBSE similarities are NOT uniform across language pairs.
 # Distribution analysis on 3 articles per pair (Climate_change, Adolf_Hitler, Switzerland):
