@@ -20,8 +20,11 @@ def normalise_section(name: str, lang: str) -> str:
         return name
     try:
         return GoogleTranslator(source=TRANSLATOR_LANG.get(lang, lang), target="en").translate(name)
-    except Exception:
-        return name  # fall back to original on translation error
+    except Exception as e:
+        # Keep the original name, but say so: an untranslated section name
+        # weakens section routing in the aligner.
+        print(f"[!] section-name translation failed ({lang}): {name!r} kept untranslated — {e}")
+        return name
 
 INPUT_DIR = Path("outputs/chunked")
 OUTPUT_DIR = Path("outputs/embeddings")
