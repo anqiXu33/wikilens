@@ -1,0 +1,1019 @@
+[
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0000",
+    "src_section":"(Lead)",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"社会信用体系源于2014年由中华人民共和国国务院印发的《国务院关于印发社会信用体系建设规划纲要（2014—2020年）的通知》，计划到2020年基本建成、奖惩机制全面启用。 该项政策旨在建设涵盖政府机构、企业、个人的全社会征信体系。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0002",
+      "en_0013",
+      "en_0014",
+      "en_0039"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0002",
+        "tgt_section":"(Lead)",
+        "tgt_text":"The social credit system is an extension to the existing legal and financial credit rating system in China. Managed by the National Development and Reform Commission (NDRC), the People's Bank of China (PBOC) and the Supreme People's Court (SPC), the system was intended to standardize the credit rating function and perform financial and social assessment for businesses, government institutions, individuals and non-government organizations. The Chinese government's stated aim is to enhance trust in society with the system and regulate businesses in areas such as food safety, intellectual property, and financial fraud. Under the system, courts have an ability to impose penalties against judgment debtors, which are the primary form of restrictions imposed by the system.",
+        "score":0.5387,
+        "chunk_sim":0.6313,
+        "path_sim":1.0,
+        "combined_score":0.8387,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0013",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"The State Council sought to accelerate the development of social credit and, in 2014, issued the Planning Outline for the Construction of a Social Credit System (2014-2020). The Planning Outline was a major step in China's approach to developing a social credit system; before the 2014 Planning Outline, there had been only one high-level policy document (issued in 2007). Since the Planning Outline, the State Council has issued new guidance annually.",
+        "score":0.7674,
+        "chunk_sim":0.7726,
+        "path_sim":1.0,
+        "combined_score":1.0674,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0014",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"The Planning Outline focused primarily on economic activity in commerce, government affairs, social integrity, and judicial credibility. It set broad goals intended to be reached by 2020: a reward and punishment mechanism should be fully effective, a basic credit investigation that covers the whole of society should be established, credit oversight mechanisms should be established, credit service markets should be performing well, and fundamental social credit laws, regulations, and standards should be established.",
+        "score":0.5144,
+        "chunk_sim":0.6339,
+        "path_sim":1.0,
+        "combined_score":0.8144,
+        "llm_label":"match"
+      },
+      {
+        "tgt_chunk_id":"en_0039",
+        "tgt_section":"Social credit mechanisms in practice",
+        "tgt_text":"Social credit does not itself bring new restrictions; it focuses on increasing implementation of existing restrictions. Although the Chinese government announced in 2014 that it would implement a nationwide social credit system by 2020, as of 2023 no full-fledged system exists.",
+        "score":0.7063,
+        "chunk_sim":0.6679,
+        "path_sim":1.0,
+        "combined_score":1.0063,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0001",
+    "src_section":"(Lead)",
+    "paragraph_index":1,
+    "sentence_index":null,
+    "src_text":"中国共产党提出的社会信用体系与许多发达国家的信用评分系统不完全相同，发达国家通常仅有用于信贷的金融信用评分，而没有类似的“社会信用”。 中国大陸的“社会信用”数据主要由党政机关、社会组织等在监管和服务的过程中得到，旨在“规范公共行为”，与中共中央总书记习近平主导的大规模监控系统紧密相连，并采用了人脸识别技术和大数据分析技术。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0000",
+      "en_0036"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0000",
+        "tgt_section":"(Lead)",
+        "tgt_text":"The social credit system (Chinese: 社会信用体系; pinyin: shèhuì xìnyòng tǐxì) is a national credit rating and blacklist implemented by the government of the People's Republic of China. The social credit system is a broad governance strategy to track businesses, individuals, and government institutions and enhance their perceived trustworthiness rather than a single system. It is based on varying degrees of whitelisting (termed \"redlisting\" in China) and blacklisting. There have been widespread misconceptions in media reports about a unified social credit \"score\" based on individuals' behavior, leading to punishments if the score is too low or rewards if the score is high.",
+        "score":0.6391,
+        "chunk_sim":0.795,
+        "path_sim":1.0,
+        "combined_score":0.9391,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0036",
+        "tgt_section":"Organization",
+        "tgt_text":"Social credit is an example of China's \"top-level design\" approach. It is coordinated by the Central Comprehensively Deepening Reforms Commission. Social credit when referred by the Chinese government, generally covers two different concepts. The first is \"traditional financial creditworthiness\" where it documents the financial history of individuals and companies and score them on how well they are able to pay off future loans. The second concept is \"social creditworthiness\" where the government is stating that there needs to be higher \"trust in society\". And to build such trust, the government had proposed to combat corruption, scammers, tax evasion, counterfeiting of goods, false advertising, pollution and other problematic issues, and to create the mechanisms to keep individuals and companies accountable for such transgressions.",
+        "score":0.526,
+        "chunk_sim":0.731,
+        "path_sim":1.0,
+        "combined_score":0.826,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0002",
+    "src_section":"(Lead)",
+    "paragraph_index":2,
+    "sentence_index":null,
+    "src_text":"2019年，据估计中国的“天网”系统在各地设有约2亿个公共监控摄像头，八个中国城市位列世界最大规模监控城市前十名，而到2020年社会信用体系基本建成并全面启用时，中国大陆在各地的公共监控摄像头数量预计将达到6.26亿个。 截止2019年6月，国家发展和改革委员会的官方数据显示，已有2682万人次因失信被限制购买飞机票、596万人次因失信被限制购买动车高铁票、437万失信被执行人继而主动履行法律义务，与此同时，失信的“联合惩戒”还在不断强化。 一般而言，黑名单的有效期为2-5年，但如果失信人积极履行义务或主动纠正失信行为，法院可提前移除其失信信息。 截止2022年，部分地区的惩戒方式还包括限制失信者的子女入读私立学校以及大学录取、为失信者设置专属“老赖”手机彩铃（回铃音）、在电影院和公交车等公共场合以及在社交网络公布失信者的部分个人信息，等等。 与此同时，部分地区对信用分数高的居民也制定了相应的奖励政策，包括设立绿色通道、招聘优先录用、办卡优惠折扣等等。 支持者认为，中国大陸的社会信用体系可以引导人们更加注重诚实守法的社会行为、提高生活质量、弘扬诚信传统美德，而反对者认为现行的政策有损个人和单位的合法权益和自由，尤其是名誉权、隐私权和人格尊严，并可能成为国家全面监控、中国共产党打压异见者的工具。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0043",
+      "en_0046",
+      "en_0050"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0043",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists",
+        "tgt_text":"Blacklisting is based on specific instances of misconduct, not any numerical score. The Central Government operates a number of national and regional blacklists based on various types of violations. The court system is available for businesses, organizations and individuals to appeal their violations. As of 2019, it typically took 2–5 years to be removed from the blacklist, but early removal is also possible if the blacklisted person \"fulfills legal obligations or remedies\". In 2019, approximately 17,400 individuals had been blacklisted. As of September 2025, approximately 200,000 additional individuals were blacklisted in 2025, 46 percent due to contractual disputes. Three main types of blacklists exist: the judgment defaulter blacklist, sectoral blacklists, and no-fly\/no-ride lists.",
+        "score":0.7619,
+        "chunk_sim":0.6956,
+        "path_sim":1.0,
+        "combined_score":1.0619,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0046",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+        "tgt_text":"In certain test programs, public humiliation is used as a mechanism to deter sanctioned individuals but mainly targets trust-breaking legal persons. Mugshots of blacklisted individuals are sometimes displayed on large LED screens on buildings or shown before the movie in movie theaters. Certain personal information of the blacklisted people is deliberately made accessible to the public and is displayed online as well as at various public venues such as movie theaters and buses. In 2019, a Hebei court released an app showing a \"map of deadbeat debtors\" within 500 meters and encouraged users to report individuals who they believed could repay their debts. According to China Daily, a spokesman of the court stated that \"it's a part of our measures to enforce our rulings and create a socially credible environment.\"",
+        "score":0.4921,
+        "chunk_sim":0.6475,
+        "path_sim":1.0,
+        "combined_score":0.7921,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0050",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists > No-fly and no-ride lists",
+        "tgt_text":"By May 2018, several million flight and high-speed train trips had been denied to people who had been blacklisted either through misbehavior on planes or trains, or failing to follow a court-ordered judgement. As of June 2019, according to the National Development and Reform Commission of China, 26.82 million air tickets as well as 5.96 million high-speed rail tickets had been denied to people who were deemed \"untrustworthy\" (失信) (on a blacklist) and 4.37 million blacklisted people had chosen to fulfill their duties required by the law, such as repaying court-ordered judgements before being allowed to travel on high-speed rail and planes. In July 2019, additional 2.56 million flight tickets as well as 90 thousand high-speed train tickets were denied to those on the blacklist.",
+        "score":0.7421,
+        "chunk_sim":0.6846,
+        "path_sim":1.0,
+        "combined_score":1.0421,
+        "llm_label":"match"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0003",
+    "src_section":"(Lead)",
+    "paragraph_index":4,
+    "sentence_index":null,
+    "src_text":"在中国国外的社交媒体平台，“社会信用点”于2021年成为爆红的網路迷因，Vice认为，这是“表达对中国当局限制人民自由的不满”。 但澎湃新闻指出，其本意是在嘲讽歪曲事实，污名化社会信用体系的人士。",
+    "match_type":"1:1",
+    "matched_chunk_ids":[
+      "en_0084"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0084",
+        "tgt_section":"Popular culture",
+        "tgt_text":"In 2021, the social credit system was popularized as an Internet meme on various social media platforms. VICE reported that the memes' popularity reflects the \"widespread discontent toward the Chinese government over its restrictions of people's freedoms\", however, the article noted the trend continued the existing misapprehension and misinformation regarding the SCS mechanism, such as the idea that people in China are rewarded or punished based on a numerical \"social credit score\". The joke is often posed as a positive or negative action towards the Chinese government which affects the poster's \"social credit score\" positively or negatively. According to a 2022 article in The Spectator, the Western narrative of the \"social credit score\" at the time received widespread mockery and satirical comments from the Chinese Internet community, due to the Western perception being drastically different from the reality in China.",
+        "score":0.6881,
+        "chunk_sim":0.7985,
+        "path_sim":1.0,
+        "combined_score":0.9881,
+        "llm_label":"match"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0004",
+    "src_section":"涵盖内容 > 宗旨",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"2014年，中国共产党和中华人民共和国政府在《国务院关于印发社会信用体系建设规划纲要（2014—2020年）的通知》中提出将推动4个重点领域的诚信建设，包括政务诚信、商务诚信、社会诚信和司法公信。 当局提出的体系与传统理解有所不同，通常发达国家仅有用于信贷的金融信用评分，而没有类似的“社会信用”。 中华人民共和国国务院表示，至2020年，谋求将该系统建成以法律、法规、标准和契约为依据，以健全覆盖社会成员的信用记录和信用基础设施网络为基础，以信用信息合规应用和信用服务体系为支撑，以树立诚信文化理念、弘扬诚信传统美德为内在要求，以守信激励和失信约束为奖惩机制的社会信用体系。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0002",
+      "en_0013",
+      "en_0014",
+      "en_0036",
+      "en_0037"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0002",
+        "tgt_section":"(Lead)",
+        "tgt_text":"The social credit system is an extension to the existing legal and financial credit rating system in China. Managed by the National Development and Reform Commission (NDRC), the People's Bank of China (PBOC) and the Supreme People's Court (SPC), the system was intended to standardize the credit rating function and perform financial and social assessment for businesses, government institutions, individuals and non-government organizations. The Chinese government's stated aim is to enhance trust in society with the system and regulate businesses in areas such as food safety, intellectual property, and financial fraud. Under the system, courts have an ability to impose penalties against judgment debtors, which are the primary form of restrictions imposed by the system.",
+        "score":0.5401,
+        "chunk_sim":0.744,
+        "path_sim":0.6304,
+        "combined_score":0.7293,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0013",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"The State Council sought to accelerate the development of social credit and, in 2014, issued the Planning Outline for the Construction of a Social Credit System (2014-2020). The Planning Outline was a major step in China's approach to developing a social credit system; before the 2014 Planning Outline, there had been only one high-level policy document (issued in 2007). Since the Planning Outline, the State Council has issued new guidance annually.",
+        "score":0.6847,
+        "chunk_sim":0.7292,
+        "path_sim":0.6304,
+        "combined_score":0.8738,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0014",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"The Planning Outline focused primarily on economic activity in commerce, government affairs, social integrity, and judicial credibility. It set broad goals intended to be reached by 2020: a reward and punishment mechanism should be fully effective, a basic credit investigation that covers the whole of society should be established, credit oversight mechanisms should be established, credit service markets should be performing well, and fundamental social credit laws, regulations, and standards should be established.",
+        "score":0.5198,
+        "chunk_sim":0.6873,
+        "path_sim":0.6304,
+        "combined_score":0.7089,
+        "llm_label":"match"
+      },
+      {
+        "tgt_chunk_id":"en_0036",
+        "tgt_section":"Organization",
+        "tgt_text":"Social credit is an example of China's \"top-level design\" approach. It is coordinated by the Central Comprehensively Deepening Reforms Commission. Social credit when referred by the Chinese government, generally covers two different concepts. The first is \"traditional financial creditworthiness\" where it documents the financial history of individuals and companies and score them on how well they are able to pay off future loans. The second concept is \"social creditworthiness\" where the government is stating that there needs to be higher \"trust in society\". And to build such trust, the government had proposed to combat corruption, scammers, tax evasion, counterfeiting of goods, false advertising, pollution and other problematic issues, and to create the mechanisms to keep individuals and companies accountable for such transgressions.",
+        "score":0.5752,
+        "chunk_sim":0.7353,
+        "path_sim":0.6304,
+        "combined_score":0.7643,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0037",
+        "tgt_section":"Organization > Conceptualization",
+        "tgt_text":"The blueprint document, the 2014 Planning Outline, set four target areas for the Social credit system. Social credit system projects in these four areas are not interconnected, but relatively independent from each other with their own jurisdictions, rules and logic. Business trustworthiness system (商务诚信体系) Blacklist system for discredited business organizations. This system is regulated by People's Bank of China financial credit-rating system and commercial credit-rating system. Government trustworthiness system (政务诚信体系) Evaluation system targeting civil servants and government institutions. Social trustworthiness system (社会诚信体系) Blacklist system for discredited individuals. Judiciary public trust system (司法公信体系) Blacklist system for judgment defaulters. This system is regulated by Supreme People's Court.",
+        "score":0.5952,
+        "chunk_sim":0.7525,
+        "path_sim":0.6304,
+        "combined_score":0.7844,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0005",
+    "src_section":"涵盖内容 > 宗旨",
+    "paragraph_index":1,
+    "sentence_index":null,
+    "src_text":"此外，由社会企业推动的金融个人征信系统与政府主导的社会信用体系有所差异，而2018年党政机关已经不允许私人企业开展个人征信评估业务，使其失去作为信用评级业务的功能。 2019年6月12日，中华人民共和国国务院总理李克强主持召开国务院常务会议，部署加快建设社会信用体系。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0015",
+      "en_0016",
+      "en_0017",
+      "en_0032"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0015",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"In 2015, the People's Bank of China licensed eight companies to begin a trial of social credit systems. Among these eight firms is Sesame Credit (owned by Alibaba Group and operated by Ant Financial), Tencent, and China's biggest ride-sharing and online-dating services, Didi Chuxing and Baihe.com, respectively. In general, multiple firms collaborated with the government to develop the software and algorithms used to calculate credit. Commercial pilot programs developed by private Chinese conglomerates that have the authorization from the state to test out social credit experiments. The pilots are more widespread than their local government counterparts but function on a voluntary basis: citizens can decide to opt-out of these systems at any time on request. Users with good scores are offered advantages such as easier access to credit loans, discounts for car and bike sharing services, fast-tracked visa applications, free health check-ups and preferential treatment at hospitals. In 2016, the State Council encouraged market entities to provide preferential treatment to those with outstanding financial credit records and differentiated services to those with seriously untrustworthy records.",
+        "score":0.5115,
+        "chunk_sim":0.6311,
+        "path_sim":0.6304,
+        "combined_score":0.7006,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0016",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"The Chinese central government originally considered having the social credit system be run by a private firm, but by 2017, it acknowledged the need for third-party administration. However, no licenses to private companies were granted. By mid-2017, the Chinese government had decided that none of the pilot programs would receive authorization to be official credit reporting systems. The reasons include conflict of interest, the remaining control of the government, as well as the lack of cooperation in data sharing among the firms that participate in the development. However, the social credit system's operation by a seemingly external association, such as a formal collaboration between private firms, has not been ruled out yet. In November 2017, Sesame Credit denied that Sesame Credit data was shared with the Chinese government. In 2017, the People's Bank of China issued a jointly owned license to Baihang Credit valid for three years. Baihang Credit is co-owned by the National Internet Finance Association (36%) and the eight other companies (8% each), allowing the state to maintain control and oversee the creation of new commercial pilot programs. As of mid-2018, only pilot schemes had been tested without any official implementation.",
+        "score":0.5706,
+        "chunk_sim":0.6973,
+        "path_sim":0.6304,
+        "combined_score":0.7597,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0017",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"Private companies have also signed contracts with provincial governments to set up the basic infrastructure for the social credit system at the provincial level. As of March 2017, 137 commercial credit reporting companies were active on the Chinese market. As part of the development of the social credit system, the Chinese government has been monitoring the progress of third-party Chinese credit rating systems. Ultimately, Chinese government dropped the support for privately developed credit rating system, and these pilot projects remained as corporate loyalty programs.",
+        "score":0.5255,
+        "chunk_sim":0.6648,
+        "path_sim":0.6304,
+        "combined_score":0.7146,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0032",
+        "tgt_section":"History > 2020 to present",
+        "tgt_text":"Though some reports stated social credit would be powered by artificial intelligence (AI), as of 2023 penalty decisions were made by humans, not AI, and digitization remained limited. Credit systems for local government remained undeveloped and resemble incentivized loyalty programs like those run by airlines. Participation is fully voluntary and there are no enticement beyond losing access to minor rewards. For fear of overreach and pushback, the Chinese central government banned punishments for low scores and minor offences. During the city trials, pilot programs only saw limited participation. Many people living in pilot program cities are unaware of the programs. In Xiamen, 210,059 users activated their social credit account, roughly 5% of the population of Xiamen; 60,000 or 1.5% of population in Wuhu participated the system; Hangzhou has 1,872,316 (15%) participants and fewer regularly use the system. Scores are not shared between cities as the scoring criteria and mechanisms are different. By 2023, most private social credit initiatives had been shut down by the People's Bank of China, and regulations had cracked down on most local scoring pilot programs, as the central government has been re-centralizing the score system.",
+        "score":0.517,
+        "chunk_sim":0.6294,
+        "path_sim":0.6304,
+        "combined_score":0.7062,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0006",
+    "src_section":"涵盖内容 > 宗旨",
+    "paragraph_index":2,
+    "sentence_index":null,
+    "src_text":"2025年11月26日，国家发改委公布《信用修复管理办法》，2026年4月1日起施行。 《办法》对失信信息按照失信严重程度分为“轻微、一般、严重”三类，其中轻微失信信息原则上不予公示。",
+    "match_type":"1:0",
+    "matched_chunk_ids":[
+
+    ],
+    "matches":[
+
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0007",
+    "src_section":"涵盖内容 > 政务诚信体系",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"中华人民共和国国务院表示，将建立政务和行政承诺考核制度，将政务履约和守诺服务纳入政府绩效评价体系。 并将建立公务员诚信档案，将公务员诚信记录作为其个人考核、任用和奖惩的依据。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0037",
+      "en_0057"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0037",
+        "tgt_section":"Organization > Conceptualization",
+        "tgt_text":"The blueprint document, the 2014 Planning Outline, set four target areas for the Social credit system. Social credit system projects in these four areas are not interconnected, but relatively independent from each other with their own jurisdictions, rules and logic. Business trustworthiness system (商务诚信体系) Blacklist system for discredited business organizations. This system is regulated by People's Bank of China financial credit-rating system and commercial credit-rating system. Government trustworthiness system (政务诚信体系) Evaluation system targeting civil servants and government institutions. Social trustworthiness system (社会诚信体系) Blacklist system for discredited individuals. Judiciary public trust system (司法公信体系) Blacklist system for judgment defaulters. This system is regulated by Supreme People's Court.",
+        "score":0.5396,
+        "chunk_sim":0.5638,
+        "path_sim":0.5325,
+        "combined_score":0.6993,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0057",
+        "tgt_section":"Social credit mechanisms in practice > Social Credit System subjects > For government institutions",
+        "tgt_text":"Government institutions receive the second highest number of enforcement actions, accounting for 13.3% of the penalties as of 2020, while less than 0.1% of all government entities were sanctioned by the system annually. The social credit system targets government agencies, assesses local governments' performance and focuses on financial problems such as local governments' debts and contract defaults. The Central Government hopes the system can improve \"government self-discipline.\" Local governments are also encouraged and rewarded by the social credit system if they successfully implement and follow the orders from the central government.",
+        "score":0.4825,
+        "chunk_sim":0.4834,
+        "path_sim":0.5325,
+        "combined_score":0.6423,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0008",
+    "src_section":"涵盖内容 > 商务诚信体系",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"传统的信贷机构通过大数据、人工智能等技术给借款人的信用评分（如芝麻信用、腾讯信用等），是市场导向的信用评分，有人也称之为金融信用系统。 金融信用数据来自中国人民银行征信中心、第三方征信机构等。 根据中華人民共和国国务院意见，征信机构的数据除了影响商业贷款，还可以被政府使用，包括影响政府采购、招标投标、行政审批、市场准入、资质审核等。 2018年，中国人民银行不再允许各公司单独开展个人征信业务，并且要求所有个人征信由公共机构百行征信提供，实质上结束了芝麻信用等的信用评级业务。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0016",
+      "en_0036",
+      "en_0080"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0016",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"The Chinese central government originally considered having the social credit system be run by a private firm, but by 2017, it acknowledged the need for third-party administration. However, no licenses to private companies were granted. By mid-2017, the Chinese government had decided that none of the pilot programs would receive authorization to be official credit reporting systems. The reasons include conflict of interest, the remaining control of the government, as well as the lack of cooperation in data sharing among the firms that participate in the development. However, the social credit system's operation by a seemingly external association, such as a formal collaboration between private firms, has not been ruled out yet. In November 2017, Sesame Credit denied that Sesame Credit data was shared with the Chinese government. In 2017, the People's Bank of China issued a jointly owned license to Baihang Credit valid for three years. Baihang Credit is co-owned by the National Internet Finance Association (36%) and the eight other companies (8% each), allowing the state to maintain control and oversee the creation of new commercial pilot programs. As of mid-2018, only pilot schemes had been tested without any official implementation.",
+        "score":0.5582,
+        "chunk_sim":0.6707,
+        "path_sim":0.5772,
+        "combined_score":0.7314,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0036",
+        "tgt_section":"Organization",
+        "tgt_text":"Social credit is an example of China's \"top-level design\" approach. It is coordinated by the Central Comprehensively Deepening Reforms Commission. Social credit when referred by the Chinese government, generally covers two different concepts. The first is \"traditional financial creditworthiness\" where it documents the financial history of individuals and companies and score them on how well they are able to pay off future loans. The second concept is \"social creditworthiness\" where the government is stating that there needs to be higher \"trust in society\". And to build such trust, the government had proposed to combat corruption, scammers, tax evasion, counterfeiting of goods, false advertising, pollution and other problematic issues, and to create the mechanisms to keep individuals and companies accountable for such transgressions.",
+        "score":0.4682,
+        "chunk_sim":0.6807,
+        "path_sim":0.5772,
+        "combined_score":0.6414,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0080",
+        "tgt_section":"Misconceptions > Misconceptions of Zhima Credit and 2015 pilot programs",
+        "tgt_text":"In 2015, the PBOC designated eight private companies to pilot personal credit reporting (zhengxin) mechanisms. Because the pilot programs were zhengxin mechanisms, they had little connection to the idea of social credit more broadly. Zhima Credit was one of the pilot zhengxin mechanisms. It was an opt-in scoring initiative proposed to assess users' credit worthiness even if those users lacked formal credit history. It did not include standard industry metrics like income or debts, instead it assessed factors like user spending ability and whether users showed up for travel bookings.",
+        "score":0.5739,
+        "chunk_sim":0.6777,
+        "path_sim":0.5772,
+        "combined_score":0.7471,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0009",
+    "src_section":"涵盖内容 > 社会诚信体系",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"社会诚信体系与中国大陸的社会大规模监控系统紧密相连，涉及个人生活诸多方面，包括交通违章、见义勇为、旅游过失行为、打车行为等等。 在2019冠狀病毒病疫情爆發以後，政府也將涉疫相關謠言發佈者納入社會誠信體系的不誠信行為。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0020",
+      "en_0063"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0020",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"In 2019, the central government expressed \"unhappiness\" at the pilot cities that were experimenting with social credit scores and issued guidelines that no citizens can be punished for having low scores, and instead punishment can only be for legally defined crimes and civil infractions, consequently leading to pilot cities either changing their programs to be encouragement-only or not materializing at all. According to a February 2022 report by MERICS, \"In reality, the SoCS is not the techno-dystopian nightmare we fear: it is lowly digitalized, highly fragmented, and primarily focuses on businesses. Most importantly, such a score simply does not exist.\"",
+        "score":0.5071,
+        "chunk_sim":0.5353,
+        "path_sim":0.6359,
+        "combined_score":0.6979,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0063",
+        "tgt_section":"Social credit mechanisms in practice > Examples of local scoring systems",
+        "tgt_text":"Since the early 2010s, several cities in China launched pilot programs to test and develop a potential social credit system. Some of these programs assigned scores to individuals, but many of the scoring programs faced criticism. The main criticism of these pilot programs came from Chinese state media, which denounced these practices as having unfairly restricted legal rights or tracked personal behaviors that were completely unrelated to the concept of \"credit.\" In 2019, the Chinese government reinforced this criticism by issuing clear guidelines to prevent misuse, explicitly stating that \"scores\" can not be used to punish citizens. As a result, many pilot programs were discontinued, while some pilot cities revised their programs. Examples were Wenzhou, which abandoned their initial program and, in 2019, revised it to be an \"encouragement-only scheme\". Another was Rongcheng, which changed their pilot program in 2021, so that it was strictly voluntary and can only issue rewards. According to a 2022 article from the Mercator Institute for China Studies (MERICS), the only social credit system programs that continue to have \"personal scores\" of individuals are strictly for issuing positive incentives only. Under some policies, higher scores can earn a participant cheaper public transportation, shorter security lines in subways, or tax reductions.",
+        "score":0.5264,
+        "chunk_sim":0.574,
+        "path_sim":0.6359,
+        "combined_score":0.7172,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0010",
+    "src_section":"涵盖内容 > 司法公信体系",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"2013年7月1日，最高人民法院审判委员会第1582次会议通过及根据2017年1月16日最高人民法院审判委员会第1707次会议通过的《最高人民法院关于修改〈最高人民法院关于公布失信被执行人名单信息的若干规定〉的决定》修正的《最高人民法院关于公布失信被执行人名单信息的若干规定》规定，各级人民法院应当将其纳入失信被执行人名单，依法对其进行信用惩戒： 有履行能力而拒不履行生效法律文书确定义务的； 以伪造证据、暴力、威胁等方法妨碍、抗拒执行的； 以虚假诉讼、虚假仲裁或者以隐匿、转移财产等方法规避执行的； 违反财产报告制度的； 违反限制消费令的； 无正当理由拒不履行执行和解协议的。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0011",
+      "en_0043",
+      "en_0045"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0011",
+        "tgt_section":"History > 2002 to 2014",
+        "tgt_text":"One focus of social credit is to build judicial credibility through more effective enforcement of court orders. In 2013, the Supreme People's Court (SPC) of China started a blacklist of debtors with roughly 32,000 names. The list has since been described as a first step towards a national Social Credit System by state-owned media. The SPC's blacklist is composed of Chinese citizens and companies that refuse to comply with court orders (typically court orders to pay a fine or to repay a loan) despite having the ability to do so. It is hosted online at the Supreme People's Court judgment defaulter blacklist portal, and the information is shared with Credit China and the National Enterprise Credit Information Publicity System. The SPC also began working with private companies. For example, Sesame Credit began deducting credit points from people who defaulted on court fines.",
+        "score":0.4234,
+        "chunk_sim":0.5507,
+        "path_sim":0.6712,
+        "combined_score":0.6247,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0043",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists",
+        "tgt_text":"Blacklisting is based on specific instances of misconduct, not any numerical score. The Central Government operates a number of national and regional blacklists based on various types of violations. The court system is available for businesses, organizations and individuals to appeal their violations. As of 2019, it typically took 2–5 years to be removed from the blacklist, but early removal is also possible if the blacklisted person \"fulfills legal obligations or remedies\". In 2019, approximately 17,400 individuals had been blacklisted. As of September 2025, approximately 200,000 additional individuals were blacklisted in 2025, 46 percent due to contractual disputes. Three main types of blacklists exist: the judgment defaulter blacklist, sectoral blacklists, and no-fly\/no-ride lists.",
+        "score":0.3591,
+        "chunk_sim":0.5187,
+        "path_sim":0.6712,
+        "combined_score":0.5605,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0045",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+        "tgt_text":"Before 2013, the process of obtaining court-ordered enforcement against judgment debtors was fragmented. In 2013, the Supreme People's Court issued the Several Provisions on Announcement of the Judgment Defaulter Blacklist which became the foundational regulation for the judgment defaulter blacklist. It stated that to be included on the list, a defaulter must be capable of complying with the court orders, but actively avoids doing so. Based on the idea that judgment defaulters should repay their debts before purchasing luxuries, once added to the list, judgment defaulters are restricted from: travelling via plane, high speed train, or first class non-high speed train, staying at star-rated hotels or golf courses, purchasing real estate, leasing \"high-grade\" office buildings, hotels, or apartments, purchasing \"non-business essential\" vehicles, holiday trips, sending children to high fee private schools, purchasing high-premium insurance products, and \"other non-life and non-work essential consumption behavior.\"",
+        "score":0.5301,
+        "chunk_sim":0.6316,
+        "path_sim":0.6712,
+        "combined_score":0.7315,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0011",
+    "src_section":"涵盖内容 > 司法公信体系",
+    "paragraph_index":7,
+    "sentence_index":null,
+    "src_text":"2017年5月1日起，《最高人民法院关于公布失信被执行人名单信息的若干规定》生效，规定纳入失信被执行人名单的期限一般为2年；对以暴力、威胁方法妨碍、抗拒执行情节严重或具有多项失信行为的，可以延长1年至3年。 此外，积极履行生效法律文书确定义务或主动纠正失信行为的，人民法院可以提前删除失信信息。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0043",
+      "en_0051"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0043",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists",
+        "tgt_text":"Blacklisting is based on specific instances of misconduct, not any numerical score. The Central Government operates a number of national and regional blacklists based on various types of violations. The court system is available for businesses, organizations and individuals to appeal their violations. As of 2019, it typically took 2–5 years to be removed from the blacklist, but early removal is also possible if the blacklisted person \"fulfills legal obligations or remedies\". In 2019, approximately 17,400 individuals had been blacklisted. As of September 2025, approximately 200,000 additional individuals were blacklisted in 2025, 46 percent due to contractual disputes. Three main types of blacklists exist: the judgment defaulter blacklist, sectoral blacklists, and no-fly\/no-ride lists.",
+        "score":0.4849,
+        "chunk_sim":0.6025,
+        "path_sim":0.6712,
+        "combined_score":0.6862,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0051",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists > Procedures for removal from blacklists",
+        "tgt_text":"After a blacklist decision becomes effective, the blacklisted party can file for credit repair. Through the credit repair process, a violator corrects the impact of the underlying violation and commits to abide by laws and regulations in the future. Companies undergoing credit repair typically must supply evidence that they have corrected their violations. Companies may also have to agree to a credit pledge in which they commit to upholding laws and regulations, commit to abiding by contracts, and agree to be subject to more severe penalties for any future violations. If authorities approve of the request for credit repair, the violator is removed from the blacklist and penalties are ended.",
+        "score":0.4431,
+        "chunk_sim":0.4915,
+        "path_sim":0.6712,
+        "combined_score":0.6445,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0012",
+    "src_section":"奖惩机制 > 惩戒方式",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"根据国务院意见，奖惩措施包括通过设立红名单和黑名单。 信用差的组织或个人可能将面临不公平的严格监管，信用好的组织将可以获得行政审批“绿色通道”。 对严重失信的组织或个人，由各政府部门采用各自分开的标准，将其监管的组织或个人列入各自的黑名单。 而被列入黑名单后，将面临多个部门的“联合惩戒”，黑名单的有效期一般为2-5年，但如果失信人积极履行义务或主动纠正失信行为，法院可提前移除其失信信息。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0035",
+      "en_0042",
+      "en_0043",
+      "en_0048",
+      "en_0056"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0035",
+        "tgt_section":"Organization",
+        "tgt_text":"The system includes sanctions for the offenders; unlike in the past where the offenders were punished by one supervising agency or court, they now face sanctions from multiple agencies, greatly increasing their effect. Though the sanctions are severe, they affect a small part of companies and individuals. By publicizing these punishments and blacklists through state-media and through other agencies, the system is aimed to create a deterrence effect.",
+        "score":0.4088,
+        "chunk_sim":0.5909,
+        "path_sim":0.5928,
+        "combined_score":0.5866,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0042",
+        "tgt_section":"Social credit mechanisms in practice > Red Lists",
+        "tgt_text":"Red Listing practices seek to incentivize exemplary personal behavior or business compliance. Red List practices vary significantly and there are no top-level regulations or guidance addressing red lists in detail. The most common benefit to red listed companies include reduced administrative burdens or simplified procedures. Part of the government logic for red listing companies is that it facilitates regulators' ability to focus on companies with a worse compliance record. Red Listed individuals may receive benefits like parking and public transit discounts or discount tourist site tickets.",
+        "score":0.4383,
+        "chunk_sim":0.6347,
+        "path_sim":0.5928,
+        "combined_score":0.6161,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0043",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists",
+        "tgt_text":"Blacklisting is based on specific instances of misconduct, not any numerical score. The Central Government operates a number of national and regional blacklists based on various types of violations. The court system is available for businesses, organizations and individuals to appeal their violations. As of 2019, it typically took 2–5 years to be removed from the blacklist, but early removal is also possible if the blacklisted person \"fulfills legal obligations or remedies\". In 2019, approximately 17,400 individuals had been blacklisted. As of September 2025, approximately 200,000 additional individuals were blacklisted in 2025, 46 percent due to contractual disputes. Three main types of blacklists exist: the judgment defaulter blacklist, sectoral blacklists, and no-fly\/no-ride lists.",
+        "score":0.7171,
+        "chunk_sim":0.7044,
+        "path_sim":0.5928,
+        "combined_score":0.8949,
+        "llm_label":"match"
+      },
+      {
+        "tgt_chunk_id":"en_0048",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists > Sectoral blacklists",
+        "tgt_text":"Many sectoral blacklists exist and are managed by a variety of regulatory and administrative bodies. Primarily, the penalties for being included on these blacklists are discretionary restrictions in administrative processes and interactions with the government. For example, regulators may exclude a company on a sectoral blacklist from participating in public procurement, revoke government funding or subsidies, cancel permits or revoke qualifications or certifications, or restrict the issuance of corporate bonds. Penalties cannot be developed ad hoc and must instead be based in national level law and regulation. Penalties from inclusion on sectoral blacklists may be imposed both on the violating company as well as legal representatives, senior company management, and the staff directly responsible for the violation that placed the company on the blacklist. Multiple government bodies may impose restrictions as a result of a person or company's inclusion on a sectoral blacklist. The availability of sectoral blacklist with the public also means that potential business partners may act accordingly and decline to deal with a blacklisted company.",
+        "score":0.5912,
+        "chunk_sim":0.7271,
+        "path_sim":0.5928,
+        "combined_score":0.769,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0056",
+        "tgt_section":"Social credit mechanisms in practice > Social Credit System subjects > For companies",
+        "tgt_text":"As currently envisioned, companies with good credit scores will enjoy benefits such as good credit conditions, lower tax rates, less custom checks, and more investment opportunities. Companies with bad credit scores will potentially face unfavorable conditions for new loans, higher tax rates, investment restrictions and lower chances to participate in publicly funded projects. Government plans also envision real-time monitoring of a business's activities. In that case, infractions on the part of a business could result in a lower score almost instantly. However, whether this will actually happen depends on the future implementation of the system as well as on the availability of technology needed for this kind of monitoring. To improve credit score, companies need to conform to the government rules, such as following the COVID-19 containment guidelines.",
+        "score":0.4259,
+        "chunk_sim":0.6316,
+        "path_sim":0.5928,
+        "combined_score":0.6038,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0013",
+    "src_section":"奖惩机制 > 惩戒方式",
+    "paragraph_index":1,
+    "sentence_index":null,
+    "src_text":"根据中華人民共和国国务院意见，征信机构的数据除了影响商业贷款，还可以被政府使用，包括影响政府采购、招标投标、行政审批、市场准入、资质审核等。 国务院表示，惩戒措施包括将乘坐高铁吸烟的旅客列入黑名单，而被纳入黑名单的旅客将在几个月内无法乘坐高铁。 此外，贷款逾期不仅会影响下次贷款，个人被列入失信被执行人名单后，将无法乘坐高铁和飞机。 阿里巴巴集团还和最高人民法院合作，限制失信被执行人在淘宝上购买奢侈品。 2019年7月22日，国家互联网信息办公室发布《互联网信息服务严重失信主体信用信息管理办法（征求意见稿）》，表示将对纳入失信黑名单的互联网信息服务提供者和使用者依法依规实施限制从事互联网信息服务、网上行为限制、行业禁入等惩戒措施。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0011",
+      "en_0045",
+      "en_0046"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0011",
+        "tgt_section":"History > 2002 to 2014",
+        "tgt_text":"One focus of social credit is to build judicial credibility through more effective enforcement of court orders. In 2013, the Supreme People's Court (SPC) of China started a blacklist of debtors with roughly 32,000 names. The list has since been described as a first step towards a national Social Credit System by state-owned media. The SPC's blacklist is composed of Chinese citizens and companies that refuse to comply with court orders (typically court orders to pay a fine or to repay a loan) despite having the ability to do so. It is hosted online at the Supreme People's Court judgment defaulter blacklist portal, and the information is shared with Credit China and the National Enterprise Credit Information Publicity System. The SPC also began working with private companies. For example, Sesame Credit began deducting credit points from people who defaulted on court fines.",
+        "score":0.399,
+        "chunk_sim":0.6634,
+        "path_sim":0.5928,
+        "combined_score":0.5769,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0045",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+        "tgt_text":"Before 2013, the process of obtaining court-ordered enforcement against judgment debtors was fragmented. In 2013, the Supreme People's Court issued the Several Provisions on Announcement of the Judgment Defaulter Blacklist which became the foundational regulation for the judgment defaulter blacklist. It stated that to be included on the list, a defaulter must be capable of complying with the court orders, but actively avoids doing so. Based on the idea that judgment defaulters should repay their debts before purchasing luxuries, once added to the list, judgment defaulters are restricted from: travelling via plane, high speed train, or first class non-high speed train, staying at star-rated hotels or golf courses, purchasing real estate, leasing \"high-grade\" office buildings, hotels, or apartments, purchasing \"non-business essential\" vehicles, holiday trips, sending children to high fee private schools, purchasing high-premium insurance products, and \"other non-life and non-work essential consumption behavior.\"",
+        "score":0.4052,
+        "chunk_sim":0.6686,
+        "path_sim":0.5928,
+        "combined_score":0.5831,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0046",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+        "tgt_text":"In certain test programs, public humiliation is used as a mechanism to deter sanctioned individuals but mainly targets trust-breaking legal persons. Mugshots of blacklisted individuals are sometimes displayed on large LED screens on buildings or shown before the movie in movie theaters. Certain personal information of the blacklisted people is deliberately made accessible to the public and is displayed online as well as at various public venues such as movie theaters and buses. In 2019, a Hebei court released an app showing a \"map of deadbeat debtors\" within 500 meters and encouraged users to report individuals who they believed could repay their debts. According to China Daily, a spokesman of the court stated that \"it's a part of our measures to enforce our rulings and create a socially credible environment.\"",
+        "score":0.4774,
+        "chunk_sim":0.6426,
+        "path_sim":0.5928,
+        "combined_score":0.6553,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0014",
+    "src_section":"奖惩机制 > 惩戒方式",
+    "paragraph_index":2,
+    "sentence_index":null,
+    "src_text":"截止2019年6月，中华人民共和国国家发改委的官方数据显示，已有2682万人次因失信被限制购买飞机票、596万人次因失信被限制购买动车高铁票、437万失信被执行人继而主动履行法律义务。 2019年7月，单月新增256万人次被限制购买飞机票、9万人次被限制购买动车高铁票。 此外，重庆、广东佛山、河北等地限制失信之人的子女入读私立学校，一些学生因父母失信导致大学录取受到影响；多个城市与中国移动、中国联通、中国电信合作，将失信之人的手机铃声设为专属的“老赖”彩铃；福建、山东的多个城市在电影院放映屏幕上公示是失信之人的信息。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0046",
+      "en_0050"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0046",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+        "tgt_text":"In certain test programs, public humiliation is used as a mechanism to deter sanctioned individuals but mainly targets trust-breaking legal persons. Mugshots of blacklisted individuals are sometimes displayed on large LED screens on buildings or shown before the movie in movie theaters. Certain personal information of the blacklisted people is deliberately made accessible to the public and is displayed online as well as at various public venues such as movie theaters and buses. In 2019, a Hebei court released an app showing a \"map of deadbeat debtors\" within 500 meters and encouraged users to report individuals who they believed could repay their debts. According to China Daily, a spokesman of the court stated that \"it's a part of our measures to enforce our rulings and create a socially credible environment.\"",
+        "score":0.435,
+        "chunk_sim":0.65,
+        "path_sim":0.5928,
+        "combined_score":0.6129,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0050",
+        "tgt_section":"Social credit mechanisms in practice > Blacklists > No-fly and no-ride lists",
+        "tgt_text":"By May 2018, several million flight and high-speed train trips had been denied to people who had been blacklisted either through misbehavior on planes or trains, or failing to follow a court-ordered judgement. As of June 2019, according to the National Development and Reform Commission of China, 26.82 million air tickets as well as 5.96 million high-speed rail tickets had been denied to people who were deemed \"untrustworthy\" (失信) (on a blacklist) and 4.37 million blacklisted people had chosen to fulfill their duties required by the law, such as repaying court-ordered judgements before being allowed to travel on high-speed rail and planes. In July 2019, additional 2.56 million flight tickets as well as 90 thousand high-speed train tickets were denied to those on the blacklist.",
+        "score":0.7736,
+        "chunk_sim":0.7618,
+        "path_sim":0.5928,
+        "combined_score":0.9514,
+        "llm_label":"match"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0015",
+    "src_section":"奖惩机制 > 奖励方式",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"部分地区对信用高的公民也制定了相应的奖励政策，包括设立绿色通道、优化容缺受理等等。 譬如在苏州，信用分数“桂花分”较高者可享受公共自行车租借时间延长、图书馆借阅书籍量增多、办卡折扣等优惠；在广州，对于信用分数高的居民，在人员招录、任用、职称评定、考核评优等工作中，同等条件下列为优先选择对象，在教育、就业、积分入户、住房保障、创业等领域给予优先考虑或者重点支持等。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0015",
+      "en_0042",
+      "en_0063"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0015",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"In 2015, the People's Bank of China licensed eight companies to begin a trial of social credit systems. Among these eight firms is Sesame Credit (owned by Alibaba Group and operated by Ant Financial), Tencent, and China's biggest ride-sharing and online-dating services, Didi Chuxing and Baihe.com, respectively. In general, multiple firms collaborated with the government to develop the software and algorithms used to calculate credit. Commercial pilot programs developed by private Chinese conglomerates that have the authorization from the state to test out social credit experiments. The pilots are more widespread than their local government counterparts but function on a voluntary basis: citizens can decide to opt-out of these systems at any time on request. Users with good scores are offered advantages such as easier access to credit loans, discounts for car and bike sharing services, fast-tracked visa applications, free health check-ups and preferential treatment at hospitals. In 2016, the State Council encouraged market entities to provide preferential treatment to those with outstanding financial credit records and differentiated services to those with seriously untrustworthy records.",
+        "score":0.5704,
+        "chunk_sim":0.5833,
+        "path_sim":0.596,
+        "combined_score":0.7492,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0042",
+        "tgt_section":"Social credit mechanisms in practice > Red Lists",
+        "tgt_text":"Red Listing practices seek to incentivize exemplary personal behavior or business compliance. Red List practices vary significantly and there are no top-level regulations or guidance addressing red lists in detail. The most common benefit to red listed companies include reduced administrative burdens or simplified procedures. Part of the government logic for red listing companies is that it facilitates regulators' ability to focus on companies with a worse compliance record. Red Listed individuals may receive benefits like parking and public transit discounts or discount tourist site tickets.",
+        "score":0.4118,
+        "chunk_sim":0.5341,
+        "path_sim":0.596,
+        "combined_score":0.5906,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0063",
+        "tgt_section":"Social credit mechanisms in practice > Examples of local scoring systems",
+        "tgt_text":"Since the early 2010s, several cities in China launched pilot programs to test and develop a potential social credit system. Some of these programs assigned scores to individuals, but many of the scoring programs faced criticism. The main criticism of these pilot programs came from Chinese state media, which denounced these practices as having unfairly restricted legal rights or tracked personal behaviors that were completely unrelated to the concept of \"credit.\" In 2019, the Chinese government reinforced this criticism by issuing clear guidelines to prevent misuse, explicitly stating that \"scores\" can not be used to punish citizens. As a result, many pilot programs were discontinued, while some pilot cities revised their programs. Examples were Wenzhou, which abandoned their initial program and, in 2019, revised it to be an \"encouragement-only scheme\". Another was Rongcheng, which changed their pilot program in 2021, so that it was strictly voluntary and can only issue rewards. According to a 2022 article from the Mercator Institute for China Studies (MERICS), the only social credit system programs that continue to have \"personal scores\" of individuals are strictly for issuing positive incentives only. Under some policies, higher scores can earn a participant cheaper public transportation, shorter security lines in subways, or tax reductions.",
+        "score":0.4535,
+        "chunk_sim":0.5883,
+        "path_sim":0.596,
+        "combined_score":0.6323,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0016",
+    "src_section":"部分地區政策",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"在部分地區，社會信用體系被用於規範更多的行為，不過此類政策僅在實施地區有效，並未推廣至全國。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0033",
+      "en_0039",
+      "en_0062"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0033",
+        "tgt_section":"Organization",
+        "tgt_text":"Social credit in China is a broad policy category seeking to enforce legal obligations including laws, regulations, and contracts. This approach views financial credit and legal compliance as measures of trustworthiness. Social credit does not itself bring new restrictions; it focuses on increasing implementation of existing restrictions. China's governmental approaches to social credit are described by various sets of documents issued by different institutions. There is no integrated system, nor a comprehensive document setting out a unified approach. Generally, the different approaches to social credit are united by the theme of increasing digitization, data collection, and data centralization.",
+        "score":0.4599,
+        "chunk_sim":0.4176,
+        "path_sim":0.3708,
+        "combined_score":0.5711,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0039",
+        "tgt_section":"Social credit mechanisms in practice",
+        "tgt_text":"Social credit does not itself bring new restrictions; it focuses on increasing implementation of existing restrictions. Although the Chinese government announced in 2014 that it would implement a nationwide social credit system by 2020, as of 2023 no full-fledged system exists.",
+        "score":0.4656,
+        "chunk_sim":0.5019,
+        "path_sim":0.3708,
+        "combined_score":0.5769,
+        "llm_label":"match"
+      },
+      {
+        "tgt_chunk_id":"en_0062",
+        "tgt_section":"Social credit mechanisms in practice > Examples of local scoring systems",
+        "tgt_text":"Most initiatives under the social credit system do not involve actual numerical scores; instead, documentation of specific offenses is recorded in one's credit profile, the exception being the trial programs launched by some cities and rural communities. These programs vary greatly from city to city, and participation is voluntary. Local credit profiles are hardly shared between cities.",
+        "score":0.5669,
+        "chunk_sim":0.554,
+        "path_sim":0.3708,
+        "combined_score":0.6782,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0017",
+    "src_section":"評價 > 正面评价",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"2019年8月，中国国际问题研究院助理研究员范郑杰发表文章，认为设置“黑名单”等惩戒失信措施并未超越现有法律范畴，同时“《社会信用体系建设规划纲要》实施近五年来，中国大陸公共信用体系与市场信用体系相互补充，初步形成了良性互动的局面。 根据2019年年初世界银行发布的《营商环境报告》显示，中国大陸营商环境排名一年内从第78位跃升到第46位，包括社会信用体系建设在内的相关改革措施是市场活力焕发、市场监管效率提升的重要原因。",
+    "match_type":"1:1",
+    "matched_chunk_ids":[
+      "en_0066"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0066",
+        "tgt_section":"Public opinion > Approval",
+        "tgt_text":"In August 2019, assistant researcher Zhengjie Fan of China Institute of International Studies published an article, claiming that the current punishment policies such as the blacklist do not overstep the limits of law. He argued that since 2014, China's social credit system and the credit system of the market had grown to complement each other, forming a mutually beneficial interaction. According to Doing Business 2019 by World Bank Group which ranked \"190 countries on the ease of doing business within their borders\", China rose from 78th place in previous year to 46th place and Fan claimed that the social credit system has played an important role. In 2020, it further improved to 31st place in the now-defunct Ease of Doing Business index.",
+        "score":0.7542,
+        "chunk_sim":0.8582,
+        "path_sim":0.7663,
+        "combined_score":0.9841,
+        "llm_label":"match"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0018",
+    "src_section":"評價 > 正面评价",
+    "paragraph_index":1,
+    "sentence_index":null,
+    "src_text":"2018年8月，柏林自由大学教授柯珍雅（Genia Kostka）发表了一篇研究论文，研究基于对2209名中国大陸各地公民进行的在线调查，调查结果表明约80％的受访者赞成社会信用体系，柯珍雅总结道：1）富有的高学历城市市民，可以从社会信用体系获得更广泛的利益，所以作为这种声誉制度的主要受益者，这类人群会是最认可社会信用体系的；2）富有的高学历城市市民更愿意将社会信用体系的功能解释为对个人社会行为的规范而不是侵犯数据隐私。 结果表明”公民们不认为社会信用体系是一种监视手段，而是一种提高生活质量、缩小（政府和企业\/市民间）体制和监管差距的工具，从而引导人们更加注重诚实守法的社会行为。 ”但柯珍雅指出，社会信用体系的成功将成为中国共产党打压异见者的强大工具。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0065",
+      "en_0069"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0065",
+        "tgt_section":"Public opinion > Approval",
+        "tgt_text":"A series of studies have concluded that social credit is well-received domestically. In a 2018 study, 80% of respondents either strongly approved or approved of China's social credit system, while one percent disapproved. The study was conducted by Professor Genia Kostka of Free University of Berlin and was based on a cross-regional Internet survey of 2,209 Chinese citizens of various backgrounds. The study found \"a surprisingly high degree of approval of SCSs across respondent groups\" and that \"more socially advantaged citizens (wealthier, better-educated and urban residents) show the strongest approval of SCSs, along with older people\". Kostka explained in the paper that \"while one might expect such knowledgeable citizens to be most concerned about the privacy implications of SCS, they instead appear to embrace SCSs because they interpret it through frames of benefit-generation and promoting honest dealings in society and the economy instead of privacy-violation.\"",
+        "score":0.6022,
+        "chunk_sim":0.8688,
+        "path_sim":0.7663,
+        "combined_score":0.8321,
+        "llm_label":"match"
+      },
+      {
+        "tgt_chunk_id":"en_0069",
+        "tgt_section":"Public opinion > Criticism",
+        "tgt_text":"From 2017 to 2018, researchers argued that the credit system would be part of the government's plan to automate their authoritarian rule over the Chinese population. In June 2019, Samantha Hoffman of the Australian Strategic Policy Institute argued that \"there are no genuine protections for the people and entities subject to the system... In China there is no such thing as the rule of law. Regulations that can be largely apolitical on the surface can be political when the Chinese Communist Party (CCP) decides to use them for political purposes.\" In August 2018, Professor Genia Kostka of Free University of Berlin stated in her published paper that \"if successful in [their] effort, the Communist Party will possess a powerful means of quelling dissent, one that is comparatively low-cost and which does not require the overt (and unpopular) use of coercion by the state.\" In December 2017, Human Rights Watch described the proposed social credit system as \"chilling\" and filled with arbitrary abuses. In October 2018, U.S. Vice President Mike Pence criticized the social credit system, describing it as \"an Orwellian system premised on controlling virtually every facet of human life.\" In January 2019, George Soros criticized the social credit system, saying it would give CCP leader Xi Jinping \"total control over the people of China\".",
+        "score":0.5267,
+        "chunk_sim":0.7195,
+        "path_sim":0.7663,
+        "combined_score":0.7566,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0019",
+    "src_section":"評價 > 负面评价",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"2019年10月，北京大学法学院教授沈岿在《中国法学》2019年第5期发表文章《社会信用体系建设的法治之道》，其中提到部分现行的失信惩戒制度与“法治国”原则相悖，中国大陸的社会信用体系：1）应当遵循“依法行政原则”，而在目前推行的失信惩戒制度中，声誉不利、资格剥夺、自由限制等三类失信惩戒措施在事实上或法律上会损害个人或组织的合法权益；2）应当遵循“尊重保障人权原则”，而现在纷乱的惩戒制度，有的把失信做扩大化理解......通常配套的基本措施是把失信人列入失信名单而公开，以示惩戒......有违背尊重保障人权原则的可能，尤其是牵扯名誉权、隐私权和人格尊严； 3）应当遵循“不当联结禁止原则”，现在的“一处失信，处处受限”隐含着“惩戒无边界”之意，让失信惩戒严重涉嫌违反“不当联结禁止原则”，该原则的基本含义是行政机关的行政行为与人民的付出之间，若无实质的内在关联，不得互相结合，禁止“与事件无关之考虑”。",
+    "match_type":"1:1",
+    "matched_chunk_ids":[
+      "en_0068"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0068",
+        "tgt_section":"Public opinion > Criticism",
+        "tgt_text":"Social credit system practices have been criticized by legal scholars for lacking legal bases and violating several legal principles. In October 2019, Professor Kui Shen of the Law School of Peking University published a paper in China Legal Science, suggesting that some of the then-current credit policies violated the \"rule of law\" or \"Rechtsstaat\": that they infringed the legal rights of residents and organizations, possibly violated the principle of respecting and protecting human rights, especially the right to reputation, the right to privacy as well as personal dignity and overstepped the boundary of reasonable punishment. In May 2020, Chinese investigative media group Caixin reported that business social credit systems in China were insufficient in deterring problematic business activities and that the social credit system was easy to game in favour of businesses.",
+        "score":0.7261,
+        "chunk_sim":0.8046,
+        "path_sim":0.7783,
+        "combined_score":0.9596,
+        "llm_label":"match"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0020",
+    "src_section":"評價 > 负面评价",
+    "paragraph_index":1,
+    "sentence_index":null,
+    "src_text":"2019年9月，旅美中国大陸学者何清涟认为，一个国家的信用体系由个人信用、厂商信用、制度信用与国家信用等四个层次构成，中国大陸这四个层面都处于崩坏状态。 而国际社会纷纷表达对中国大陸目前推行的信用建设体系的恐惧感，何清涟提道“中国是一党专政的极权国家，在互联网技术中发展出了一整套完整的干预、监控技术，全世界担心中国社会信用评价系统会成为政治监控系统，是基于对中国政府的认识。 2019年8月，人权观察認為，社会信用体系是中華人民共和國的大規模監控計劃中的一部分。 2019年7月，香港眾志創建人羅冠聰認為，中国大陸社会信用体系顯示了數位威權（digital authoritarianism）的興起，認為這個以「規訓」為中心的「馴化」國民的系統，在不使用實質暴力、減低政權的正當性之下，可以做出比暴力鎮壓同樣、甚至更強大的維穩功能。 2018-2019年，美国之音、《福布斯》、英国广播公司、自由亚洲电台等媒体报道，中国大陸的社会信用体系被指侵犯个人隐私，使政府权力过大，中国大陸社会可能步入乔治·奥威尔在《一九八四》一书中所描述的极权、监控社会，或是英国电视剧《黑镜》（第三季第一集《急转直下》）中所描述的黑科技伤害人类自由的社会。 2018年3月，美国广播公司报道，许多专家表示这一系统违反了中国大陸当地的法律，而限制公民的行动和拒绝他们平等接受教育的行为亦侵犯了基本人权。 2018年1月，台湾《自由时报》认为，這些紀錄存在社会信用体系等，如果有相關言論如批評當局領導人或是議論政治等行為，將會扣除個人的信用評等，導致個人無法使用購票、坐車等基本服務，被批評是用來控制社會如審查制度的工具而非增進民眾福祉而設計的。 2017年12月，德国之声認為，中国大陸社会系统体系评估指标与国家评估体系非常不透明，而大量私人数据搜集有机会侵害隐私权，可能成为国家全面监控、侵犯公民权利的工具。 2015年10月，英国广播公司认为，中华人民共和国正在监测芝麻信用等第三方中国大陸信用评级系统。 2015年4月，荷兰《人民报》指出，中华人民共和国的评级可能会收集使用中国大陸公民在线行为信息。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0068",
+      "en_0069",
+      "en_0074"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0068",
+        "tgt_section":"Public opinion > Criticism",
+        "tgt_text":"Social credit system practices have been criticized by legal scholars for lacking legal bases and violating several legal principles. In October 2019, Professor Kui Shen of the Law School of Peking University published a paper in China Legal Science, suggesting that some of the then-current credit policies violated the \"rule of law\" or \"Rechtsstaat\": that they infringed the legal rights of residents and organizations, possibly violated the principle of respecting and protecting human rights, especially the right to reputation, the right to privacy as well as personal dignity and overstepped the boundary of reasonable punishment. In May 2020, Chinese investigative media group Caixin reported that business social credit systems in China were insufficient in deterring problematic business activities and that the social credit system was easy to game in favour of businesses.",
+        "score":0.6058,
+        "chunk_sim":0.721,
+        "path_sim":0.7783,
+        "combined_score":0.8393,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0069",
+        "tgt_section":"Public opinion > Criticism",
+        "tgt_text":"From 2017 to 2018, researchers argued that the credit system would be part of the government's plan to automate their authoritarian rule over the Chinese population. In June 2019, Samantha Hoffman of the Australian Strategic Policy Institute argued that \"there are no genuine protections for the people and entities subject to the system... In China there is no such thing as the rule of law. Regulations that can be largely apolitical on the surface can be political when the Chinese Communist Party (CCP) decides to use them for political purposes.\" In August 2018, Professor Genia Kostka of Free University of Berlin stated in her published paper that \"if successful in [their] effort, the Communist Party will possess a powerful means of quelling dissent, one that is comparatively low-cost and which does not require the overt (and unpopular) use of coercion by the state.\" In December 2017, Human Rights Watch described the proposed social credit system as \"chilling\" and filled with arbitrary abuses. In October 2018, U.S. Vice President Mike Pence criticized the social credit system, describing it as \"an Orwellian system premised on controlling virtually every facet of human life.\" In January 2019, George Soros criticized the social credit system, saying it would give CCP leader Xi Jinping \"total control over the people of China\".",
+        "score":0.6634,
+        "chunk_sim":0.7475,
+        "path_sim":0.7783,
+        "combined_score":0.8969,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0074",
+        "tgt_section":"Misconceptions",
+        "tgt_text":"In March and February 2019, MIT Technology Review stated that, \"[i]n the West, the system is highly controversial and often portrayed as an AI-powered surveillance regime that violates human rights.\" However, the magazine reported that \"many scholars argue that social credit scores won't have the wide-scale controlling effect presumed...the system acts more as a tool of propaganda than a tool of enforcement\" and that \"[o]thers point out that it is simply an extension of Chinese culture's long tradition of promoting good moral behavior and that Chinese citizens have a completely different perspective on privacy and freedom.\"",
+        "score":0.6183,
+        "chunk_sim":0.6886,
+        "path_sim":0.7783,
+        "combined_score":0.8518,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0021",
+    "src_section":"評價 > 与港澳的关系",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"在國家公共信用信息中心旗下網站「信用中國」有港澳台的預留位置，令港澳媒体質疑社會信用體系將會在這三地實施。 2019年7月9日，香港政府發出新聞稿，指香港不會施行社會信用體系。 澳門政策研究和區域發展局也在7月12日作出回應，指澳門不會實施內地社會信用評價體系。 7月13日，該網已移除港澳台的預留位置。 國家發改委指香港與內地無信用共享政策，內地與港澳實行不同法律制度，社会信用体系不適用於港澳，如港澳地區建設信用體系，需符合《香港基本法》的相關要求。 儘管社会信用体系不會於港澳實施，但仍然適用於內地營運、工作的企業及個人。 2019年7月5日，廣東省推進粵港澳大灣區建設領導小組公布《廣東省推進粵港澳大灣區建設三年行動計劃（2018-2020年）》提到「加快社會信用體系和市場監管體系建設」和「探索依法對大灣區內企業聯動實施信用激勵和失信懲戒」。",
+    "match_type":"1:1",
+    "matched_chunk_ids":[
+      "en_0021"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0021",
+        "tgt_section":"History > 2014 to 2020",
+        "tgt_text":"In July 2019, an NDRC spokesperson stated that at a press conference that \"personal credit scores can be combined with incentives for trustworthiness, but cannot be used for punishments\". The Hong Kong Government stated in July 2019 that claims that the social credit system will be rolled out in Hong Kong are \"totally unfounded\" and stated that the system will not be implemented there.",
+        "score":0.7658,
+        "chunk_sim":0.7299,
+        "path_sim":0.5467,
+        "combined_score":0.9298,
+        "llm_label":"partial"
+      }
+    ]
+  },
+  {
+    "src_lang":"zh",
+    "tgt_lang":"en",
+    "src_chunk_id":"zh_0022",
+    "src_section":"評價 > 流行文化",
+    "paragraph_index":0,
+    "sentence_index":null,
+    "src_text":"2021年，社會信用體系在各大社群媒體平台上成為網路迷因。 據《VICE》報導，這些迷因的流行反映了「對中國政府限制公民自由的不滿廣泛蔓延」，但該文章同時指出，這一趨勢延續了對社會信用體系的誤解與錯誤資訊，例如認為中國民眾會依據數字化的「社會信用分數」獲得獎勵或受到懲罰。 此類笑話通常以某人對中國政府的正面或負面行為來呈現，這些行為會讓發佈者的「社會信用分數」增加或減少。 根據《The Spectator》的說法，西方媒體對「社會信用分數」的敘述在中國網路社群中引發了大量嘲諷和諷刺，因為西方的理解與中國的實際情況存在明顯差異。",
+    "match_type":"1:N",
+    "matched_chunk_ids":[
+      "en_0070",
+      "en_0071",
+      "en_0074",
+      "en_0075",
+      "en_0076",
+      "en_0077",
+      "en_0078",
+      "en_0084"
+    ],
+    "matches":[
+      {
+        "tgt_chunk_id":"en_0070",
+        "tgt_section":"Misconceptions",
+        "tgt_text":"There has been a degree of misreporting and misconceptions in English-language mass media due to translation errors, sensationalism, conflicting information and lack of comprehensive analysis. Examples of such popular misconceptions include a widespread misassumption that Chinese citizens are rewarded and punished based on a numerical score (social credit score) assigned by the system, that its decisions are taken by AI and that it constantly monitors Chinese citizens. European misconceptions of social credit in China have become a source of amusement among Chinese Internet users. The phenomenon of persistent misreporting in spite of strong research demonstrating otherwise has been described by Marianne von Blomberg and Chuncheng Liu as \"Techno-orientalism\".",
+        "score":0.6447,
+        "chunk_sim":0.7127,
+        "path_sim":0.6927,
+        "combined_score":0.8525,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0071",
+        "tgt_section":"Misconceptions",
+        "tgt_text":"In 2014, after the Chinese government released the China's Planning Outline for Social Credit plan, media in Netherlands first reported on the system as a citizen rating system, likely stemming from the misconception of \"Unified Social Credit Identifier\" (统一社会信用代码) as a score, although it referred to citizens' ID numbers or an equivalent for corporations. Later, Rick Falkvinge, founder of the Swedish Pirate Party, wrote an article on the Privacy Online News blog in 2015, connecting the social credit system to global privacy concerns; the article was later deleted and replaced with a corrective. The contents of the article was picked up by major media outlets, despite the corrective, perpetuating the myth of a high-tech scoring system. Academic Michel Hockx describes Western media narratives as initially \"very tendentious ... Scholars with actual fact-based knowledge responded incisively to these biased reports and eventually most media outlets either published corrections or simply updated their online articles\".",
+        "score":0.5311,
+        "chunk_sim":0.7354,
+        "path_sim":0.6927,
+        "combined_score":0.7389,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0074",
+        "tgt_section":"Misconceptions",
+        "tgt_text":"In March and February 2019, MIT Technology Review stated that, \"[i]n the West, the system is highly controversial and often portrayed as an AI-powered surveillance regime that violates human rights.\" However, the magazine reported that \"many scholars argue that social credit scores won't have the wide-scale controlling effect presumed...the system acts more as a tool of propaganda than a tool of enforcement\" and that \"[o]thers point out that it is simply an extension of Chinese culture's long tradition of promoting good moral behavior and that Chinese citizens have a completely different perspective on privacy and freedom.\"",
+        "score":0.641,
+        "chunk_sim":0.6928,
+        "path_sim":0.6927,
+        "combined_score":0.8489,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0075",
+        "tgt_section":"Misconceptions",
+        "tgt_text":"In May 2019, Logic published an article by Shazeda Ahmed, who argued that \"[f]oreign media has distorted the social credit system into a technological dystopia far removed from what is actually happening in China.\" She pointed out that common misconceptions included the beliefs that surveillance data is connected with a centralized database; that human activities online and offline are assigned with actual values that can be deducted and that every citizen in China has a numerical score that is calculated by computer algorithm. In July 2019, Wired reported that there existed misconceptions regarding the social credit system. It argued that \"Western concerns about what could happen with China's Social Credit System have in some ways outstripped discussions about what's already really occurring...The exaggerated portrayals may also help to downplay surveillance efforts in other parts of the world.\" The rise of misconception, according to Jeremy Daum of Yale University, is contributed by translation errors, the difference in word usage and so on. Daum adds that \"China prohibits internet anonymity, has ubiquitous surveillance cameras, and broad censorship and stability controls-- this has little to do with Social Credit\".",
+        "score":0.5674,
+        "chunk_sim":0.7584,
+        "path_sim":0.6927,
+        "combined_score":0.7752,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0076",
+        "tgt_section":"Misconceptions",
+        "tgt_text":"In March 2021, The Diplomat remarked that the assumption by Western observers that the Social Credit System is an Orwellian surveillance system exaggerates the reality and purpose of the system in real life. Despite the claim, the social credit system is \"an extension of bond issuance risk assessment credit ratings introduced in China in the 1980s\" and primarily serves the function of a financial risk assessment tool. In October 2021, the Washington-based think tank The Jamestown Foundation explored the function of the social credit system and concluded that there were widespread misinterpretations regarding the function and mechanism of the SCS. The think tank found that misinformed perceptions of an algorithm-driven citizen-rating system are originated from early analyses that confused the regulation-enforcement mechanisms and the morality propaganda campaigns of the SCS initiative. Furthermore, many failed to distinguish between the government regulations and the private credit rating systems. Corporations hyperbolically promoted the scores' predictive abilities, which may have resonated with Western anxiety and concerns surrounding corporate data collection and government access to personal information.",
+        "score":0.5463,
+        "chunk_sim":0.7563,
+        "path_sim":0.6927,
+        "combined_score":0.7541,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0077",
+        "tgt_section":"Misconceptions",
+        "tgt_text":"In 2022, academics Diana Fu and Rui Hou noted the persistence of Western misconceptions in their article Rating Citizens with China's Social Credit System, stating, \"Western media articles initially compared the system to an episode of the British sci-fi series Black Mirror in which individuals' every day behavior, down to the minutiae, were tracked and rated by other people and a \"big brother\" government. Since then, scholars and journalists have sought to dispel this dystopian depiction of the social credit system, but the image continued to live on, particularly after the Trump administration started to use it as part of its anti-China policy in 2017 and 2018.\"",
+        "score":0.6041,
+        "chunk_sim":0.7472,
+        "path_sim":0.6927,
+        "combined_score":0.8119,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0078",
+        "tgt_section":"Misconceptions",
+        "tgt_text":"In 2023, academic Filip Šebok wrote that perhaps the most common myth associated with social credit is that there is a single numerical score that records individuals' behavior. No such score exists. Academic Vincent Brussee writes that as of 2023, \"hundreds of headlines have discussed the system, but few have systematically broken down what the [social credit system] is and how it works. Some studies refer to the 'breathtaking' ambition of the system and the 'massive quantities of behavioural data' going into the system without substantiating these claims in any way. Others rely on assumptions of what the system will look like, erroneously speculating that everyone will receive a social credit score, that this score will be publicly available, and that a bad rating will have far-reaching consequences. It is like a game of Chinese Whispers gone wrong.\"",
+        "score":0.4949,
+        "chunk_sim":0.7374,
+        "path_sim":0.6927,
+        "combined_score":0.7027,
+        "llm_label":"partial"
+      },
+      {
+        "tgt_chunk_id":"en_0084",
+        "tgt_section":"Popular culture",
+        "tgt_text":"In 2021, the social credit system was popularized as an Internet meme on various social media platforms. VICE reported that the memes' popularity reflects the \"widespread discontent toward the Chinese government over its restrictions of people's freedoms\", however, the article noted the trend continued the existing misapprehension and misinformation regarding the SCS mechanism, such as the idea that people in China are rewarded or punished based on a numerical \"social credit score\". The joke is often posed as a positive or negative action towards the Chinese government which affects the poster's \"social credit score\" positively or negatively. According to a 2022 article in The Spectator, the Western narrative of the \"social credit score\" at the time received widespread mockery and satirical comments from the Chinese Internet community, due to the Western perception being drastically different from the reality in China.",
+        "score":0.875,
+        "chunk_sim":0.9236,
+        "path_sim":0.6927,
+        "combined_score":1.0828,
+        "llm_label":"match"
+      }
+    ]
+  }
+]

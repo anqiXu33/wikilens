@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "run_id": "20261016_000233_Social_credit_system_en-zh_ae6a21",
+  "title": "Social_credit_system",
+  "languages_found": [
+    "en",
+    "zh"
+  ],
+  "timestamp": "20261016_000233",
+  "scored": true,
+  "file1_url": "/runs/20261016_000233_Social_credit_system_en-zh_ae6a21/scores/base_en_omit_zh_scores.json",
+  "file2_url": "/runs/20261016_000233_Social_credit_system_en-zh_ae6a21/scores/base_zh_omit_en_scores.json",
+  "align_en_url": "/runs/20261016_000233_Social_credit_system_en-zh_ae6a21/alignments_en_to_source/en_to_zh.json",
+  "align_src_url": "/runs/20261016_000233_Social_credit_system_en-zh_ae6a21/alignments_source_to_en/zh_to_en.json",
+  "provenance": {
+    "git_sha": "097dc1cb775d0476e6bf056fd4997ef39c49a910",
+    "labse": "sentence-transformers/LaBSE@836121a0533e5664b21c7aacc5d22951f2b8b25b",
+    "alignment": {
+      "en_to_zh": {
+        "score": "sentence_max",
+        "threshold": 0.65,
+        "path_thr": null,
+        "rerank_top_n": 10,
+        "rerank_pool": "chunk",
+        "rerank": {
+          "status": "ok",
+          "llm": {
+            "backend": "openai",
+            "model": "meta-llama/llama-3.3-70b-instruct",
+            "base_url": "https://openrouter.ai/api/v1"
+          },
+          "calls": 90,
+          "failed": 0,
+          "fallback_rows": 0,
+          "errors": []
+        }
+      },
+      "zh_to_en": {
+        "score": "sentence_max",
+        "threshold": 0.65,
+        "path_thr": null,
+        "rerank_top_n": 10,
+        "rerank_pool": "chunk",
+        "rerank": {
+          "status": "ok",
+          "llm": {
+            "backend": "openai",
+            "model": "meta-llama/llama-3.3-70b-instruct",
+            "base_url": "https://openrouter.ai/api/v1"
+          },
+          "calls": 23,
+          "failed": 0,
+          "fallback_rows": 0,
+          "errors": []
+        }
+      }
+    },
+    "scoring": {
+      "backend": "openai",
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "base_url": "https://openrouter.ai/api/v1"
+    },
+    "section_names": {
+      "translation_backend": "auto",
+      "sources": {
+        "cache": 12
+      },
+      "untranslated": [],
+      "method": "cache"
+    }
+  }
+}
