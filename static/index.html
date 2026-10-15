@@ -956,15 +956,16 @@ function buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLA
     return d > 0 ? `${label1} higher` : `${label2} higher`;
   };
 
-  const enOmitted = alignEN ? alignEN.filter(e => e.match_type === '1:0').length : 0;
-  const enTotal   = alignEN ? alignEN.length : scores1.length;
-  const covGap    = enTotal > 0 ? enOmitted / enTotal : 0;
+  // Without this run's alignment the coverage gap is unknown, not 0%.
+  const enOmitted = alignEN ? alignEN.filter(e => e.match_type === '1:0').length : null;
+  const enTotal   = alignEN ? alignEN.length : null;
+  const covGap    = alignEN && enTotal > 0 ? enOmitted / enTotal : null;
 
   const cardDefs = [
     { label:'Ideology divergence',  val:dimDivergence('ideology_score'),  note:dirNote('ideology_score'),  fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
     { label:'Sentiment divergence', val:dimDivergence('sentiment_score'), note:dirNote('sentiment_score'), fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
     { label:'Framing divergence',   val:dimDivergence('framing_score'),   note:dirNote('framing_score'),   fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
-    { label:'Coverage gap',         val:covGap, note:`${enOmitted} of ${enTotal} EN chunks absent`, fmt: v => Math.round(v*100)+'%', color: v => coverageColor(v) },
+    { label:'Coverage gap',         val:covGap, note: covGap!=null ? `${enOmitted} of ${enTotal} EN chunks absent` : 'alignment not available', fmt: v => v!=null?Math.round(v*100)+'%':'n/a', color: v => v!=null?coverageColor(v):'green' },
   ];
 
   const container = document.createElement('div');
