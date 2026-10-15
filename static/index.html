@@ -887,6 +887,10 @@ async function renderResults(meta, scores1, scores2) {
    scoreUtils — helper functions
    ══════════════════════════════════════════════ */
 
+// A score is a finite number; null/undefined means "not scored", never 0.
+function isScore(v) { return typeof v === 'number' && isFinite(v); }
+function fmtScore(v) { return isScore(v) ? v.toFixed(2) : 'n/a'; }
+
 function buildScoreMap(scores) {
   const map = {};
   scores.forEach(s => { map[s.chunk_id] = s; });
@@ -928,16 +932,21 @@ function buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLA
     });
   }
 
+  // Only pairs where both sides have a real score; a missing score is not 0.
+  const scoredPairs = key => pairs.filter(p => isScore(p.enS[key]) && isScore(p.langS[key]));
+
   const dimDivergence = key => {
-    if (!pairs.length) return null;
-    const diffs = pairs.map(p => Math.abs((p.enS[key]||0) - (p.langS[key]||0)));
+    const ps = scoredPairs(key);
+    if (!ps.length) return null;
+    const diffs = ps.map(p => Math.abs(p.enS[key] - p.langS[key]));
     return diffs.reduce((a,b)=>a+b,0) / diffs.length;
   };
 
   const dirNote = (key) => {
-    if (!pairs.length) return '—';
-    const avgEN   = pairs.reduce((a,p)=>a+(p.enS[key]||0),0)/pairs.length;
-    const avgLANG = pairs.reduce((a,p)=>a+(p.langS[key]||0),0)/pairs.length;
+    const ps = scoredPairs(key);
+    if (!ps.length) return '—';
+    const avgEN   = ps.reduce((a,p)=>a+p.enS[key],0)/ps.length;
+    const avgLANG = ps.reduce((a,p)=>a+p.langS[key],0)/ps.length;
     const d = avgEN - avgLANG;
     if (Math.abs(d) < 0.04) return 'both similar';
     return d > 0 ? `${label1} higher` : `${label2} higher`;
@@ -998,9 +1007,9 @@ function buildSectionChart(scores1, scores2, label1, label2) {
 
   function makeDatasets(key) {
     return [
-      { label: label1, data: allSecs.map(s => sec1[s] ? +((sec1[s][key]||0).toFixed(2)) : 0),
+      { label: label1, data: allSecs.map(s => sec1[s] && isScore(sec1[s][key]) ? +sec1[s][key].toFixed(2) : null),
         backgroundColor:'rgba(51,102,204,0.7)', borderColor:'#3366cc', borderWidth:1, borderRadius:2 },
-      { label: label2, data: allSecs.map(s => sec2[s] ? +((sec2[s][key]||0).toFixed(2)) : 0),
+      { label: label2, data: allSecs.map(s => sec2[s] && isScore(sec2[s][key]) ? +sec2[s][key].toFixed(2) : null),
         backgroundColor:'rgba(232,119,34,0.7)', borderColor:'#e87722', borderWidth:1, borderRadius:2 },
     ];
   }
@@ -1008,8 +1017,9 @@ function buildSectionChart(scores1, scores2, label1, label2) {
   function updateNote(key) {
     let maxGap = 0, maxSec = '';
     allSecs.forEach(s => {
-      const v1 = sec1[s] ? (sec1[s][key]||0) : 0;
-      const v2 = sec2[s] ? (sec2[s][key]||0) : 0;
+      const v1 = sec1[s] ? sec1[s][key] : null;
+      const v2 = sec2[s] ? sec2[s][key] : null;
+      if (!isScore(v1) || !isScore(v2)) return;   // no gap without both scores
       const gap = Math.abs(v1 - v2);
       if (gap > maxGap) { maxGap = gap; maxSec = s; }
     });
@@ -1091,7 +1101,8 @@ function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, lab
       }
       const enS = score1Map[enId], langS = score2Map[langId];
       if (!enS || !langS) return;
-      const delta = Math.abs((enS[dim]||0) - (langS[dim]||0));
+      if (!isScore(enS[dim]) || !isScore(langS[dim])) return;
+      const delta = Math.abs(enS[dim] - langS[dim]);
       pairs.push({ enId, langId, enText, langText, section, enS, langS, delta });
     });
 
@@ -1102,7 +1113,7 @@ function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, lab
     let openDetail = null;
 
     pairs.slice(0,5).forEach(p => {
-      const enVal = p.enS[dim]||0, langVal = p.langS[dim]||0;
+      const enVal = p.enS[dim], langVal = p.langS[dim];
       const dc = p.delta >= 0.7 ? 'delta-red' : p.delta >= 0.4 ? 'delta-amber' : 'delta-green';
       const enCls  = enVal  < -0.3 ? 'val-neg' : enVal  > 0.3 ? 'val-pos' : 'val-neu';
       const lCls   = langVal < -0.3 ? 'val-neg' : langVal > 0.3 ? 'val-pos' : 'val-neu';
@@ -1126,7 +1137,7 @@ function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, lab
       const dims3 = ['ideology_score','sentiment_score','framing_score'];
       const scoreRows = dims3.map(k => {
         const label = k.replace('_score','').replace(/^\w/,c=>c.toUpperCase());
-        const ev = (p.enS[k]||0).toFixed(2), lv = (p.langS[k]||0).toFixed(2);
+        const ev = fmtScore(p.enS[k]), lv = fmtScore(p.langS[k]);
         const eCls = p.enS[k]<-0.3?'val-neg':p.enS[k]>0.3?'val-pos':'val-neu';
         const lCls2 = p.langS[k]<-0.3?'val-neg':p.langS[k]>0.3?'val-pos':'val-neu';
         return `<div class="div-detail-score-item">${label} EN: <b class="${eCls}">${ev}</b></div>
