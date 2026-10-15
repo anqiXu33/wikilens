@@ -389,6 +389,25 @@
       color: var(--wp-text-muted);
       margin-bottom: 10px;
     }
+    .gap-om { color: #b8620a; font-weight: bold; }
+    .gap-note {
+      font-family: sans-serif; font-size: 0.75rem; color: var(--wp-text-muted);
+      padding: 8px 4px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+    }
+    .gap-more {
+      font: inherit; color: var(--wp-link, #3366cc); background: none; border: none;
+      padding: 0; cursor: pointer; text-decoration: underline;
+    }
+    .section-cmp-empty {
+      font-family: sans-serif;
+      font-size: 0.82rem;
+      color: var(--wp-text-muted);
+      background: #f8f9fa;
+      border: 1px dashed #c8ccd1;
+      border-radius: 2px;
+      padding: 10px 12px;
+      margin: 6px 0;
+    }
     .section-cmp-note {
       font-family: sans-serif;
       font-size: 0.78rem;
@@ -399,7 +418,7 @@
     /* ── Two-column lower section ── */
     .dash-columns {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: minmax(0,1fr) minmax(0,1fr);
       gap: 16px;
       margin-bottom: 24px;
     }
@@ -448,7 +467,7 @@
     .div-row:hover { background: var(--wp-bg-grey); border-radius: 4px; }
     .div-row-main {
       display: grid;
-      grid-template-columns: 1fr auto auto auto;
+      grid-template-columns: minmax(0,1fr) auto auto auto;
       gap: 8px;
       align-items: center;
     }
@@ -868,18 +887,21 @@ async function renderResults(meta, scores1, scores2) {
   const cardsC = document.getElementById('dash-cards-container');
   cardsC.innerHTML = ''; cardsC.appendChild(cardsEl);
 
-  // ── Section comparison chart ──
+  // ── Section chart + top divergent chunks share one dimension selector,
+  //    starting on the dimension where the two editions differ most ──
+  const startDim = pickDefaultDim(scores1, scores2, score1Map, score2Map, alignEN);
+  const topDiv = buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, n1, n2, startDim);
   const chartC = document.getElementById('dash-section-chart');
   chartC.innerHTML = '';
-  chartC.appendChild(buildSectionChart(scores1, scores2, n1, n2));
+  chartC.appendChild(buildSectionChart(scores1, scores2, n1, n2, startDim, topDiv.setDim));
 
   // ── Two-column: divergent chunks + coverage gaps ──
   const colsC = document.getElementById('dash-columns-container');
   colsC.innerHTML = '';
   const colsWrap = document.createElement('div');
   colsWrap.className = 'dash-columns';
-  colsWrap.appendChild(buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, n1, n2));
-  colsWrap.appendChild(buildCoverageGaps(alignEN, alignLANG, score1Map, n1, n2));
+  colsWrap.appendChild(topDiv);
+  colsWrap.appendChild(buildCoverageGaps(alignEN, alignLANG, score1Map, score2Map, n1, n2));
   colsC.appendChild(colsWrap);
 
   show('view-results');
@@ -919,32 +941,57 @@ function computeSectionScores(scores) {
   return result;
 }
 
+const DIMS = ['ideology_score','sentiment_score','framing_score'];
+const DIM_LABEL = { ideology_score:'Ideology', sentiment_score:'Sentiment', framing_score:'Framing' };
+
+// 1:1 EN→LANG matches where both chunks were scored.
+function matchedPairs(alignEN, score1Map, score2Map) {
+  const pairs = [];
+  (alignEN || []).forEach(entry => {
+    if (entry.match_type !== '1:1' || !entry.matches || !entry.matches.length) return;
+    const enS = score1Map[entry.tgt_chunk_id], langS = score2Map[entry.matches[0].src_chunk_id];
+    if (enS && langS) pairs.push({ enS, langS });
+  });
+  return pairs;
+}
+
+// Mean |EN − LANG| over matched pairs with both scores; null if none.
+function dimDivergence(pairs, key) {
+  const ps = pairs.filter(p => isScore(p.enS[key]) && isScore(p.langS[key]));
+  if (!ps.length) return null;
+  return ps.reduce((a,p) => a + Math.abs(p.enS[key] - p.langS[key]), 0) / ps.length;
+}
+
+// The dimension with the largest EN/LANG difference: matched-pair divergence,
+// falling back to the largest per-section gap when nothing is matched.
+function pickDefaultDim(scores1, scores2, score1Map, score2Map, alignEN) {
+  const pairs = matchedPairs(alignEN, score1Map, score2Map);
+  const sec1 = computeSectionScores(scores1), sec2 = computeSectionScores(scores2);
+  const sectionGap = key => {
+    let max = null;
+    Object.keys(sec1).forEach(s => {
+      const v1 = sec1[s][key], v2 = sec2[s] ? sec2[s][key] : null;
+      if (isScore(v1) && isScore(v2)) max = Math.max(max ?? 0, Math.abs(v1 - v2));
+    });
+    return max;
+  };
+  let best = DIMS[0], bestVal = -1;
+  DIMS.forEach(k => {
+    const v = dimDivergence(pairs, k) ?? sectionGap(k) ?? -1;
+    if (v > bestVal) { best = k; bestVal = v; }
+  });
+  return best;
+}
+
 function divergenceColor(v) { return v >= 0.5 ? 'red' : v >= 0.25 ? 'amber' : 'green'; }
 function coverageColor(p)    { return p >= 0.15 ? 'red' : p >= 0.05 ? 'amber' : 'green'; }
 
 /* ── Stat cards ── */
 function buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLANG, label1, label2) {
-  // Find 1:1 matched pairs from EN→LANG alignment
-  const pairs = [];
-  if (alignEN) {
-    alignEN.forEach(entry => {
-      if (entry.match_type !== '1:1' || !entry.matches || !entry.matches.length) return;
-      const enId   = entry.tgt_chunk_id;
-      const langId = entry.matches[0].src_chunk_id;
-      const enS = score1Map[enId], langS = score2Map[langId];
-      if (enS && langS) pairs.push({ enS, langS });
-    });
-  }
+  const pairs = matchedPairs(alignEN, score1Map, score2Map);
 
   // Only pairs where both sides have a real score; a missing score is not 0.
   const scoredPairs = key => pairs.filter(p => isScore(p.enS[key]) && isScore(p.langS[key]));
-
-  const dimDivergence = key => {
-    const ps = scoredPairs(key);
-    if (!ps.length) return null;
-    const diffs = ps.map(p => Math.abs(p.enS[key] - p.langS[key]));
-    return diffs.reduce((a,b)=>a+b,0) / diffs.length;
-  };
 
   const dirNote = (key) => {
     const ps = scoredPairs(key);
@@ -962,9 +1009,9 @@ function buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLA
   const covGap    = alignEN && enTotal > 0 ? enOmitted / enTotal : null;
 
   const cardDefs = [
-    { label:'Ideology divergence',  val:dimDivergence('ideology_score'),  note:dirNote('ideology_score'),  fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
-    { label:'Sentiment divergence', val:dimDivergence('sentiment_score'), note:dirNote('sentiment_score'), fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
-    { label:'Framing divergence',   val:dimDivergence('framing_score'),   note:dirNote('framing_score'),   fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
+    { label:'Ideology divergence',  val:dimDivergence(pairs, 'ideology_score'),  note:dirNote('ideology_score'),  fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
+    { label:'Sentiment divergence', val:dimDivergence(pairs, 'sentiment_score'), note:dirNote('sentiment_score'), fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
+    { label:'Framing divergence',   val:dimDivergence(pairs, 'framing_score'),   note:dirNote('framing_score'),   fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
     { label:'Coverage gap',         val:covGap, note: covGap!=null ? `${enOmitted} of ${enTotal} EN chunks absent` : 'alignment not available', fmt: v => v!=null?Math.round(v*100)+'%':'n/a', color: v => v!=null?coverageColor(v):'green' },
   ];
 
@@ -985,7 +1032,7 @@ function buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLA
 /* ── Section comparison chart (grouped bar) ── */
 let _secCmpChart = null;
 
-function buildSectionChart(scores1, scores2, label1, label2) {
+function buildSectionChart(scores1, scores2, label1, label2, startDim, onDimChange) {
   const sec1 = computeSectionScores(scores1);
   const sec2 = computeSectionScores(scores2);
 
@@ -1003,11 +1050,10 @@ function buildSectionChart(scores1, scores2, label1, label2) {
   wrap.innerHTML = `
     <div class="section-cmp-title">Bias score by section</div>
     <div class="dim-switcher">
-      <button class="dim-pill active" data-key="ideology_score">Ideology</button>
-      <button class="dim-pill" data-key="sentiment_score">Sentiment</button>
-      <button class="dim-pill" data-key="framing_score">Framing</button>
+      ${DIMS.map(k => `<button class="dim-pill${k===startDim?' active':''}" data-key="${k}">${DIM_LABEL[k]}</button>`).join('')}
     </div>
-    <div style="position:relative;height:${chartH}px"><canvas id="sec-cmp-canvas"></canvas></div>
+    <div class="section-cmp-empty hidden" id="sec-cmp-empty"></div>
+    <div class="sec-cmp-canvas-wrap" style="position:relative;height:${chartH}px"><canvas id="sec-cmp-canvas"></canvas></div>
     <div class="section-cmp-note" id="sec-cmp-note"></div>`;
 
   function makeDatasets(key) {
@@ -1019,7 +1065,21 @@ function buildSectionChart(scores1, scores2, label1, label2) {
     ];
   }
 
+  // Every section scores 0 (or is unscored) in both languages: a chart of
+  // zero-length bars reads as broken, so say so in one line instead.
+  function allZero(key) {
+    const vals = allSecs.flatMap(s => [sec1[s], sec2[s]]).map(v => v ? v[key] : null).filter(isScore);
+    return vals.every(v => v === 0);
+  }
+
   function updateNote(key) {
+    const zero = allZero(key);
+    const emptyEl = wrap.querySelector('#sec-cmp-empty');
+    emptyEl.classList.toggle('hidden', !zero);
+    wrap.querySelector('.sec-cmp-canvas-wrap').classList.toggle('hidden', zero);
+    if (zero) emptyEl.textContent =
+      `Every section scores 0.00 on ${DIM_LABEL[key].toLowerCase()} in both ${label1} and ${label2}` +
+      ` — no ${DIM_LABEL[key].toLowerCase()} bias detected, so there are no bars to show.`;
     let maxGap = 0, maxSec = '';
     allSecs.forEach(s => {
       const v1 = sec1[s] ? sec1[s][key] : null;
@@ -1029,8 +1089,9 @@ function buildSectionChart(scores1, scores2, label1, label2) {
       if (gap > maxGap) { maxGap = gap; maxSec = s; }
     });
     const noteEl = wrap.querySelector('#sec-cmp-note');
-    if (noteEl && maxSec) noteEl.textContent =
-      `Largest gap in "${maxSec}" (${maxGap.toFixed(2)} difference between ${label1} and ${label2}).`;
+    if (noteEl) noteEl.textContent = maxSec
+      ? `Largest gap in "${maxSec}" (${maxGap.toFixed(2)} difference between ${label1} and ${label2}).`
+      : '';
   }
 
   setTimeout(() => {
@@ -1038,7 +1099,7 @@ function buildSectionChart(scores1, scores2, label1, label2) {
     const canvas = wrap.querySelector('#sec-cmp-canvas');
     _secCmpChart = new Chart(canvas, {
       type: 'bar',
-      data: { labels: shortLabels, datasets: makeDatasets('ideology_score') },
+      data: { labels: shortLabels, datasets: makeDatasets(startDim) },
       options: {
         indexAxis: 'y', responsive: true, maintainAspectRatio: false,
         scales: {
@@ -1051,8 +1112,8 @@ function buildSectionChart(scores1, scores2, label1, label2) {
         }
       }
     });
-    updateNote('ideology_score');
   }, 0);
+  updateNote(startDim);
 
   wrap.querySelectorAll('.dim-pill').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -1064,6 +1125,7 @@ function buildSectionChart(scores1, scores2, label1, label2) {
         _secCmpChart.update();
       }
       updateNote(key);
+      if (onDimChange) onDimChange(key);
     });
   });
 
@@ -1071,12 +1133,13 @@ function buildSectionChart(scores1, scores2, label1, label2) {
 }
 
 /* ── Top divergent chunks ── */
-function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, label2) {
+// Follows the dimension picked in the section chart (wrap.setDim).
+function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, label2, startDim) {
   const wrap = document.createElement('div');
   wrap.className = 'dash-col';
   const nonEN = label1 === 'English' ? label2 : label1;
   wrap.innerHTML = `
-    <div class="dash-col-title">Top divergent chunks</div>
+    <div class="dash-col-title">Top divergent chunks · <span class="div-dim-name"></span></div>
     <div class="dir-tabs">
       <button class="dir-tab active" data-dir="1">EN → ${escHtml(nonEN)}</button>
       <button class="dir-tab" data-dir="2">${escHtml(nonEN)} → EN</button>
@@ -1084,9 +1147,11 @@ function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, lab
     <div class="div-list-body"></div>`;
 
   const body = wrap.querySelector('.div-list-body');
-  let currentDim = 'ideology_score';
+  let currentDim = startDim || DIMS[0];
+  let currentDir = 1;
 
   function renderList(dir, dim) {
+    wrap.querySelector('.div-dim-name').textContent = DIM_LABEL[dim];
     const alignData = dir === 1 ? alignEN : alignLANG;
     if (!alignData || !alignData.length) {
       body.innerHTML = '<div class="no-data-msg">No data for this direction</div>'; return;
@@ -1094,25 +1159,33 @@ function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, lab
     const pairs = [];
     alignData.forEach(entry => {
       if (entry.match_type !== '1:1' || !entry.matches || !entry.matches.length) return;
-      let enId, langId, enText, langText, section;
+      let enId, langId, enText, langText;
       if (dir === 1) {
         enId = entry.tgt_chunk_id; langId = entry.matches[0].src_chunk_id;
         enText = entry.tgt_text; langText = entry.matches[0].src_text;
-        section = entry.matches[0].src_section || '';
       } else {
         langId = entry.src_chunk_id; enId = entry.matches[0].tgt_chunk_id;
         langText = entry.src_text; enText = entry.matches[0].tgt_text;
-        section = entry.src_section || '';
       }
       const enS = score1Map[enId], langS = score2Map[langId];
       if (!enS || !langS) return;
+      // The row shows the paragraph from the direction's base language
+      // (EN for EN→LANG, LANG for LANG→EN), labelled with that paragraph's
+      // own section — never the section of the chunk it was matched to.
+      const baseS = dir === 1 ? enS : langS;
+      const section = baseS.section || '';
       if (!isScore(enS[dim]) || !isScore(langS[dim])) return;
       const delta = Math.abs(enS[dim] - langS[dim]);
-      pairs.push({ enId, langId, enText, langText, section, enS, langS, delta });
+      pairs.push({ enId, langId, enText, langText, section, enS, langS, delta,
+                   baseId: dir === 1 ? enId : langId, baseText: dir === 1 ? enText : langText });
     });
 
     pairs.sort((a,b) => b.delta - a.delta);
     if (!pairs.length) { body.innerHTML = '<div class="no-data-msg">No matched pairs found</div>'; return; }
+    if (pairs[0].delta === 0) {
+      body.innerHTML = `<div class="no-data-msg">Matched chunks score identically on ${DIM_LABEL[dim].toLowerCase()} (Δ 0.00 for all ${pairs.length} pairs)</div>`;
+      return;
+    }
 
     body.innerHTML = '';
     let openDetail = null;
@@ -1122,7 +1195,7 @@ function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, lab
       const dc = p.delta >= 0.7 ? 'delta-red' : p.delta >= 0.4 ? 'delta-amber' : 'delta-green';
       const enCls  = enVal  < -0.3 ? 'val-neg' : enVal  > 0.3 ? 'val-pos' : 'val-neu';
       const lCls   = langVal < -0.3 ? 'val-neg' : langVal > 0.3 ? 'val-pos' : 'val-neu';
-      const snip   = (p.enText||'').slice(0,60) + ((p.enText||'').length>60?'…':'');
+      const snip   = (p.baseText||'').slice(0,60) + ((p.baseText||'').length>60?'…':'');
       const secTop = (p.section||'').split(' > ')[0] || '—';
 
       const row = document.createElement('div');
@@ -1131,7 +1204,7 @@ function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, lab
         <div class="div-row-main">
           <div>
             <div class="div-snippet">${escHtml(snip)}</div>
-            <div class="div-meta">${escHtml(secTop)} · ${escHtml(String(p.enId))}</div>
+            <div class="div-meta">${escHtml(secTop)} · ${escHtml(String(p.baseId))}</div>
           </div>
           <div class="div-score ${enCls}">${enVal.toFixed(2)}</div>
           <div class="div-score ${lCls}">${langVal.toFixed(2)}</div>
@@ -1175,21 +1248,29 @@ function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, lab
     });
   }
 
-  renderList(1, currentDim);
+  renderList(currentDir, currentDim);
 
   wrap.querySelectorAll('.dir-tab').forEach(tab => {
     tab.addEventListener('click', () => {
       wrap.querySelectorAll('.dir-tab').forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
-      renderList(parseInt(tab.dataset.dir), currentDim);
+      currentDir = parseInt(tab.dataset.dir);
+      renderList(currentDir, currentDim);
     });
   });
 
+  wrap.setDim = dim => { currentDim = dim; renderList(currentDir, currentDim); };
   return wrap;
 }
 
 /* ── Coverage gaps ── */
-function buildCoverageGaps(alignEN, alignLANG, score1Map, label1, label2) {
+// A chunk is a gap if it has no aligned counterpart (1:0) or its omission
+// score is at least GAP_OMISSION_MIN, i.e. the scorer found most of its
+// content missing from the other edition even when a paragraph was matched.
+const GAP_OMISSION_MIN = 0.7;
+const GAP_SHOW = 8;
+
+function buildCoverageGaps(alignEN, alignLANG, score1Map, score2Map, label1, label2) {
   const wrap = document.createElement('div');
   wrap.className = 'dash-col';
   const nonEN = label1 === 'English' ? label2 : label1;
@@ -1202,36 +1283,57 @@ function buildCoverageGaps(alignEN, alignLANG, score1Map, label1, label2) {
     <div class="gap-list-body"></div>`;
 
   const body = wrap.querySelector('.gap-list-body');
+  let expanded = false;
+
+  function collectGaps(dir) {
+    const alignData = dir === 1 ? alignEN : alignLANG;
+    const scoreMap  = dir === 1 ? score1Map : score2Map;
+    const idKey     = dir === 1 ? 'tgt_chunk_id' : 'src_chunk_id';
+    const textKey   = dir === 1 ? 'tgt_text' : 'src_text';
+    const byId = {};
+    (alignData || []).forEach(e => { byId[e[idKey]] = e; });
+    const ids = new Set(Object.keys(byId));
+    Object.keys(scoreMap).forEach(id => ids.add(id));
+
+    const gaps = [];
+    ids.forEach(id => {
+      const e = byId[id], sc = scoreMap[id];
+      const unaligned = !!e && e.match_type === '1:0';
+      const om = sc && isScore(sc.omission_score) ? sc.omission_score : null;
+      if (!unaligned && !(om != null && om >= GAP_OMISSION_MIN)) return;
+      gaps.push({
+        id, unaligned, om,
+        text: (sc && sc.chunk_text) || (e && e[textKey]) || '',
+        section: ((sc && sc.section) || (e && e.src_section) || '—').split(' > ')[0],
+        para: e && e.paragraph_index != null ? e.paragraph_index : null,
+      });
+    });
+    // Highest omission first; unaligned chunks without a score after scored 1.0s.
+    gaps.sort((a,b) => ((b.om ?? (b.unaligned ? 1 : 0)) - (a.om ?? (a.unaligned ? 1 : 0)))
+                    || (b.unaligned - a.unaligned) || a.id.localeCompare(b.id));
+    return gaps;
+  }
 
   function renderGaps(dir) {
     const alignData = dir === 1 ? alignEN : alignLANG;
-    if (!alignData || !alignData.length) {
+    const scoreMap  = dir === 1 ? score1Map : score2Map;
+    if ((!alignData || !alignData.length) && !Object.keys(scoreMap).length) {
       body.innerHTML = '<div class="no-data-msg">No data for this direction</div>'; return;
     }
-    const omitted = alignData.filter(e => e.match_type === '1:0');
-    if (!omitted.length) {
+    const gaps = collectGaps(dir);
+    if (!gaps.length) {
       body.innerHTML = '<div class="no-data-msg">No coverage gaps detected in this direction</div>'; return;
     }
 
     body.innerHTML = '';
     let openDetail = null;
+    const absentIn = dir === 1 ? nonEN : 'EN';
 
-    omitted.slice(0,5).forEach(entry => {
-      let chunkText, chunkId, section, absentIn;
-      if (dir === 1) {
-        chunkText = entry.tgt_text || '';
-        chunkId   = entry.tgt_chunk_id;
-        const sE  = score1Map[chunkId];
-        section   = sE ? (sE.section||'').split(' > ')[0] : '—';
-        absentIn  = nonEN;
-      } else {
-        chunkText = entry.src_text || '';
-        chunkId   = entry.src_chunk_id;
-        section   = (entry.src_section||'').split(' > ')[0] || '—';
-        absentIn  = 'EN';
-      }
-      const snip = chunkText.slice(0,55) + (chunkText.length>55?'…':'');
-      const para = entry.paragraph_index != null ? ` · para ${entry.paragraph_index}` : '';
+    (expanded ? gaps : gaps.slice(0, GAP_SHOW)).forEach(g => {
+      const snip = g.text.slice(0,55) + (g.text.length>55?'…':'');
+      const para = g.para != null ? ` · para ${g.para}` : '';
+      const omTxt = g.om != null ? `omission ${g.om.toFixed(2)}` : 'omission n/a';
+      const tag = g.unaligned ? ' · no aligned paragraph' : '';
 
       const row = document.createElement('div');
       row.className = 'gap-row';
@@ -1243,16 +1345,17 @@ function buildCoverageGaps(alignEN, alignLANG, score1Map, label1, label2) {
           </svg>
           <div style="flex:1;min-width:0">
             <div class="gap-snippet">${escHtml(snip)}</div>
-            <div class="gap-meta">${escHtml(section)}${para} · omission 1.0</div>
+            <div class="gap-meta">${escHtml(g.section)}${para} · ${escHtml(g.id)}${tag}</div>
           </div>
+          <div class="div-score gap-om">${g.om != null ? g.om.toFixed(2) : 'n/a'}</div>
         </div>`;
 
       const detail = document.createElement('div');
       detail.className = 'gap-detail hidden';
       detail.innerHTML = `
         <div class="div-detail-lang">${dir===1?'EN original':escHtml(nonEN)+' original'}</div>
-        <span class="absent-badge">absent in ${escHtml(absentIn)}</span>
-        <div class="div-detail-text" style="margin-top:6px">${escHtml(chunkText)}</div>`;
+        <span class="absent-badge">${g.unaligned ? 'absent in' : 'mostly absent in'} ${escHtml(absentIn)} · ${omTxt}</span>
+        <div class="div-detail-text" style="margin-top:6px">${escHtml(g.text)}</div>`;
 
       row.appendChild(detail);
       row.addEventListener('click', () => {
@@ -1264,12 +1367,19 @@ function buildCoverageGaps(alignEN, alignLANG, score1Map, label1, label2) {
       body.appendChild(row);
     });
 
-    if (omitted.length > 5) {
-      const note = document.createElement('div');
-      note.style.cssText = 'font-family:sans-serif;font-size:0.75rem;color:var(--wp-text-muted);padding:8px 4px';
-      note.textContent = `+${omitted.length-5} more omissions · ${omitted.length} total`;
-      body.appendChild(note);
+    const nUnaligned = gaps.filter(g => g.unaligned).length;
+    const note = document.createElement('div');
+    note.className = 'gap-note';
+    note.textContent = `${gaps.length} gaps · ${nUnaligned} unaligned, ` +
+      `${gaps.length - nUnaligned} aligned but omission ≥ ${GAP_OMISSION_MIN}`;
+    if (gaps.length > GAP_SHOW) {
+      const btn = document.createElement('button');
+      btn.className = 'gap-more';
+      btn.textContent = expanded ? 'Show fewer' : `Show ${gaps.length - GAP_SHOW} more`;
+      btn.addEventListener('click', () => { expanded = !expanded; renderGaps(dir); });
+      note.appendChild(btn);
     }
+    body.appendChild(note);
   }
 
   renderGaps(1);
@@ -1277,6 +1387,7 @@ function buildCoverageGaps(alignEN, alignLANG, score1Map, label1, label2) {
     tab.addEventListener('click', () => {
       wrap.querySelectorAll('.dir-tab').forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
+      expanded = false;
       renderGaps(parseInt(tab.dataset.dir));
     });
   });
