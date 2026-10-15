@@ -1,0 +1,1575 @@
+{
+ "llm": {
+  "backend": "openai",
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "base_url": "https://openrouter.ai/api/v1"
+ },
+ "entries": {
+  "9ea053f5bb6ce008": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0000",
+   "candidates": [
+    "en_0000",
+    "en_0001",
+    "en_0018",
+    "en_0117",
+    "en_0040",
+    "en_0082",
+    "en_0118",
+    "en_0017",
+    "en_0075",
+    "en_0009"
+   ],
+   "reply": "{\"en_0000\": \"match\", \"en_0001\": \"partial\", \"en_0018\": \"none\", \"en_0117\": \"none\", \"en_0040\": \"none\", \"en_0082\": \"none\", \"en_0118\": \"none\", \"en_0017\": \"none\", \"en_0075\": \"none\", \"en_0009\": \"partial\"}",
+   "labels": {
+    "en_0000": "match",
+    "en_0001": "partial",
+    "en_0018": "none",
+    "en_0117": "none",
+    "en_0040": "none",
+    "en_0082": "none",
+    "en_0118": "none",
+    "en_0017": "none",
+    "en_0075": "none",
+    "en_0009": "partial"
+   }
+  },
+  "efafce4bb4950e7c": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0001",
+   "candidates": [
+    "en_0033",
+    "en_0078",
+    "en_0079",
+    "en_0077",
+    "en_0080",
+    "en_0026",
+    "en_0034",
+    "en_0075",
+    "en_0035",
+    "en_0031"
+   ],
+   "reply": "{\"en_0033\": \"none\", \"en_0078\": \"none\", \"en_0079\": \"partial\", \"en_0077\": \"none\", \"en_0080\": \"partial\", \"en_0026\": \"none\", \"en_0034\": \"none\", \"en_0075\": \"none\", \"en_0035\": \"none\", \"en_0031\": \"none\"}",
+   "labels": {
+    "en_0033": "none",
+    "en_0078": "none",
+    "en_0079": "partial",
+    "en_0077": "none",
+    "en_0080": "partial",
+    "en_0026": "none",
+    "en_0034": "none",
+    "en_0075": "none",
+    "en_0035": "none",
+    "en_0031": "none"
+   }
+  },
+  "104dd6641cb18b25": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0002",
+   "candidates": [
+    "en_0001",
+    "en_0078",
+    "en_0077",
+    "en_0033",
+    "en_0026",
+    "en_0052",
+    "en_0023",
+    "en_0034",
+    "en_0075",
+    "en_0116"
+   ],
+   "reply": "{\"en_0001\": \"partial\", \"en_0078\": \"none\", \"en_0077\": \"none\", \"en_0033\": \"none\", \"en_0026\": \"none\", \"en_0052\": \"none\", \"en_0023\": \"none\", \"en_0034\": \"none\", \"en_0075\": \"none\", \"en_0116\": \"none\"}",
+   "labels": {
+    "en_0001": "partial",
+    "en_0078": "none",
+    "en_0077": "none",
+    "en_0033": "none",
+    "en_0026": "none",
+    "en_0052": "none",
+    "en_0023": "none",
+    "en_0034": "none",
+    "en_0075": "none",
+    "en_0116": "none"
+   }
+  },
+  "f0db2638d4c6e059": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0003",
+   "candidates": [
+    "en_0004",
+    "en_0084",
+    "en_0003",
+    "en_0112",
+    "en_0115",
+    "en_0094",
+    "en_0095",
+    "en_0111",
+    "en_0119",
+    "en_0081"
+   ],
+   "reply": "{\"en_0004\": \"match\", \"en_0084\": \"none\", \"en_0003\": \"partial\", \"en_0112\": \"none\", \"en_0115\": \"partial\", \"en_0094\": \"none\", \"en_0095\": \"none\", \"en_0111\": \"none\", \"en_0119\": \"none\", \"en_0081\": \"partial\"}",
+   "labels": {
+    "en_0004": "match",
+    "en_0084": "none",
+    "en_0003": "partial",
+    "en_0112": "none",
+    "en_0115": "partial",
+    "en_0094": "none",
+    "en_0095": "none",
+    "en_0111": "none",
+    "en_0119": "none",
+    "en_0081": "partial"
+   }
+  },
+  "148e3433176f1362": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0005",
+   "candidates": [
+    "en_0007",
+    "en_0005",
+    "en_0009",
+    "en_0036",
+    "en_0014",
+    "en_0041",
+    "en_0059",
+    "en_0085",
+    "en_0042",
+    "en_0107"
+   ],
+   "reply": "{\"en_0007\": \"none\", \"en_0005\": \"match\", \"en_0009\": \"none\", \"en_0036\": \"none\", \"en_0014\": \"none\", \"en_0041\": \"none\", \"en_0059\": \"none\", \"en_0085\": \"none\", \"en_0042\": \"none\", \"en_0107\": \"none\"}",
+   "labels": {
+    "en_0007": "none",
+    "en_0005": "match",
+    "en_0009": "none",
+    "en_0036": "none",
+    "en_0014": "none",
+    "en_0041": "none",
+    "en_0059": "none",
+    "en_0085": "none",
+    "en_0042": "none",
+    "en_0107": "none"
+   }
+  },
+  "d75c84b893d3f698": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0007",
+   "candidates": [
+    "en_0014",
+    "en_0118",
+    "en_0059",
+    "en_0082",
+    "en_0009",
+    "en_0041",
+    "en_0043",
+    "en_0042",
+    "en_0011",
+    "en_0000"
+   ],
+   "reply": "{\"en_0014\": \"none\", \"en_0118\": \"none\", \"en_0059\": \"none\", \"en_0082\": \"none\", \"en_0009\": \"partial\", \"en_0041\": \"none\", \"en_0043\": \"none\", \"en_0042\": \"none\", \"en_0011\": \"partial\", \"en_0000\": \"none\"}",
+   "labels": {
+    "en_0014": "none",
+    "en_0118": "none",
+    "en_0059": "none",
+    "en_0082": "none",
+    "en_0009": "partial",
+    "en_0041": "none",
+    "en_0043": "none",
+    "en_0042": "none",
+    "en_0011": "partial",
+    "en_0000": "none"
+   }
+  },
+  "3aed34b7388ac0ae": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0008",
+   "candidates": [
+    "en_0018",
+    "en_0118",
+    "en_0082",
+    "en_0095",
+    "en_0004",
+    "en_0099",
+    "en_0093",
+    "en_0059",
+    "en_0112",
+    "en_0094"
+   ],
+   "reply": "{\"en_0018\": \"none\", \"en_0118\": \"none\", \"en_0082\": \"none\", \"en_0095\": \"none\", \"en_0004\": \"none\", \"en_0099\": \"none\", \"en_0093\": \"none\", \"en_0059\": \"none\", \"en_0112\": \"none\", \"en_0094\": \"none\"}",
+   "labels": {
+    "en_0018": "none",
+    "en_0118": "none",
+    "en_0082": "none",
+    "en_0095": "none",
+    "en_0004": "none",
+    "en_0099": "none",
+    "en_0093": "none",
+    "en_0059": "none",
+    "en_0112": "none",
+    "en_0094": "none"
+   }
+  },
+  "4623462288b4a38c": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0012",
+   "candidates": [
+    "en_0018",
+    "en_0118",
+    "en_0124",
+    "en_0099",
+    "en_0095",
+    "en_0004",
+    "en_0023",
+    "en_0129",
+    "en_0082",
+    "en_0094"
+   ],
+   "reply": "{\"en_0018\": \"none\", \"en_0118\": \"none\", \"en_0124\": \"none\", \"en_0099\": \"none\", \"en_0095\": \"none\", \"en_0004\": \"none\", \"en_0023\": \"none\", \"en_0129\": \"none\", \"en_0082\": \"none\", \"en_0094\": \"none\"}",
+   "labels": {
+    "en_0018": "none",
+    "en_0118": "none",
+    "en_0124": "none",
+    "en_0099": "none",
+    "en_0095": "none",
+    "en_0004": "none",
+    "en_0023": "none",
+    "en_0129": "none",
+    "en_0082": "none",
+    "en_0094": "none"
+   }
+  },
+  "ec503f15fc5403ff": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0013",
+   "candidates": [
+    "en_0018",
+    "en_0124",
+    "en_0059",
+    "en_0082",
+    "en_0060",
+    "en_0094",
+    "en_0014",
+    "en_0099",
+    "en_0095",
+    "en_0122"
+   ],
+   "reply": "{\"en_0018\": \"partial\", \"en_0124\": \"none\", \"en_0059\": \"none\", \"en_0082\": \"none\", \"en_0060\": \"none\", \"en_0094\": \"none\", \"en_0014\": \"none\", \"en_0099\": \"none\", \"en_0095\": \"none\", \"en_0122\": \"none\"}",
+   "labels": {
+    "en_0018": "partial",
+    "en_0124": "none",
+    "en_0059": "none",
+    "en_0082": "none",
+    "en_0060": "none",
+    "en_0094": "none",
+    "en_0014": "none",
+    "en_0099": "none",
+    "en_0095": "none",
+    "en_0122": "none"
+   }
+  },
+  "fb28fa8b2b29d832": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0016",
+   "candidates": [
+    "en_0018",
+    "en_0099",
+    "en_0059",
+    "en_0004",
+    "en_0082",
+    "en_0124",
+    "en_0060",
+    "en_0118",
+    "en_0106",
+    "en_0023"
+   ],
+   "reply": "{\"en_0018\": \"none\", \"en_0099\": \"none\", \"en_0059\": \"none\", \"en_0004\": \"none\", \"en_0082\": \"none\", \"en_0124\": \"none\", \"en_0060\": \"partial\", \"en_0118\": \"none\", \"en_0106\": \"none\", \"en_0023\": \"none\"}",
+   "labels": {
+    "en_0018": "none",
+    "en_0099": "none",
+    "en_0059": "none",
+    "en_0004": "none",
+    "en_0082": "none",
+    "en_0124": "none",
+    "en_0060": "partial",
+    "en_0118": "none",
+    "en_0106": "none",
+    "en_0023": "none"
+   }
+  },
+  "dc515c45d6f8efa0": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0017",
+   "candidates": [
+    "en_0059",
+    "en_0060",
+    "en_0018",
+    "en_0082",
+    "en_0023",
+    "en_0004",
+    "en_0118",
+    "en_0095",
+    "en_0019",
+    "en_0099"
+   ],
+   "reply": "{\"en_0059\": \"none\", \"en_0060\": \"partial\", \"en_0018\": \"none\", \"en_0082\": \"none\", \"en_0023\": \"none\", \"en_0004\": \"none\", \"en_0118\": \"none\", \"en_0095\": \"none\", \"en_0019\": \"partial\", \"en_0099\": \"none\"}",
+   "labels": {
+    "en_0059": "none",
+    "en_0060": "partial",
+    "en_0018": "none",
+    "en_0082": "none",
+    "en_0023": "none",
+    "en_0004": "none",
+    "en_0118": "none",
+    "en_0095": "none",
+    "en_0019": "partial",
+    "en_0099": "none"
+   }
+  },
+  "da362b85258427dd": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0020",
+   "candidates": [
+    "en_0021",
+    "en_0122",
+    "en_0023",
+    "en_0060",
+    "en_0026",
+    "en_0018",
+    "en_0065",
+    "en_0033",
+    "en_0124",
+    "en_0050"
+   ],
+   "reply": "{\"en_0021\": \"none\", \"en_0122\": \"none\", \"en_0023\": \"partial\", \"en_0060\": \"match\", \"en_0026\": \"none\", \"en_0018\": \"none\", \"en_0065\": \"none\", \"en_0033\": \"none\", \"en_0124\": \"none\", \"en_0050\": \"none\"}",
+   "labels": {
+    "en_0021": "none",
+    "en_0122": "none",
+    "en_0023": "partial",
+    "en_0060": "match",
+    "en_0026": "none",
+    "en_0018": "none",
+    "en_0065": "none",
+    "en_0033": "none",
+    "en_0124": "none",
+    "en_0050": "none"
+   }
+  },
+  "2135893e1fe71e57": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0023",
+   "candidates": [
+    "en_0058",
+    "en_0033",
+    "en_0034",
+    "en_0063",
+    "en_0061",
+    "en_0060",
+    "en_0035",
+    "en_0001",
+    "en_0078",
+    "en_0116"
+   ],
+   "reply": "{\"en_0058\": \"none\", \"en_0033\": \"none\", \"en_0034\": \"none\", \"en_0063\": \"none\", \"en_0061\": \"partial\", \"en_0060\": \"none\", \"en_0035\": \"none\", \"en_0001\": \"none\", \"en_0078\": \"none\", \"en_0116\": \"none\"}",
+   "labels": {
+    "en_0058": "none",
+    "en_0033": "none",
+    "en_0034": "none",
+    "en_0063": "none",
+    "en_0061": "partial",
+    "en_0060": "none",
+    "en_0035": "none",
+    "en_0001": "none",
+    "en_0078": "none",
+    "en_0116": "none"
+   }
+  },
+  "faac7c6bd31fc91b": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0028",
+   "candidates": [
+    "en_0018",
+    "en_0082",
+    "en_0019",
+    "en_0021",
+    "en_0118",
+    "en_0023",
+    "en_0014",
+    "en_0009",
+    "en_0119",
+    "en_0034"
+   ],
+   "reply": "{\"en_0018\": \"none\", \"en_0082\": \"none\", \"en_0019\": \"none\", \"en_0021\": \"none\", \"en_0118\": \"none\", \"en_0023\": \"none\", \"en_0014\": \"none\", \"en_0009\": \"none\", \"en_0119\": \"none\", \"en_0034\": \"none\"}",
+   "labels": {
+    "en_0018": "none",
+    "en_0082": "none",
+    "en_0019": "none",
+    "en_0021": "none",
+    "en_0118": "none",
+    "en_0023": "none",
+    "en_0014": "none",
+    "en_0009": "none",
+    "en_0119": "none",
+    "en_0034": "none"
+   }
+  },
+  "e61efd28e8053cbb": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0029",
+   "candidates": [
+    "en_0018",
+    "en_0026",
+    "en_0023",
+    "en_0019",
+    "en_0124",
+    "en_0075",
+    "en_0116",
+    "en_0118",
+    "en_0001",
+    "en_0021"
+   ],
+   "reply": "{\"en_0018\": \"partial\", \"en_0026\": \"none\", \"en_0023\": \"none\", \"en_0019\": \"none\", \"en_0124\": \"none\", \"en_0075\": \"none\", \"en_0116\": \"none\", \"en_0001\": \"none\", \"en_0021\": \"none\"}",
+   "labels": {
+    "en_0018": "partial",
+    "en_0026": "none",
+    "en_0023": "none",
+    "en_0019": "none",
+    "en_0124": "none",
+    "en_0075": "none",
+    "en_0116": "none",
+    "en_0118": "none",
+    "en_0001": "none",
+    "en_0021": "none"
+   }
+  },
+  "4a1f7ecf85795dec": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0033",
+   "candidates": [
+    "en_0001",
+    "en_0125",
+    "en_0078",
+    "en_0129",
+    "en_0004",
+    "en_0124",
+    "en_0116",
+    "en_0023",
+    "en_0096",
+    "en_0059"
+   ],
+   "reply": "{\"en_0001\": \"none\", \"en_0125\": \"partial\", \"en_0078\": \"none\", \"en_0129\": \"none\", \"en_0004\": \"none\", \"en_0124\": \"none\", \"en_0116\": \"none\", \"en_0023\": \"none\", \"en_0096\": \"none\", \"en_0059\": \"none\"}",
+   "labels": {
+    "en_0001": "none",
+    "en_0125": "partial",
+    "en_0078": "none",
+    "en_0129": "none",
+    "en_0004": "none",
+    "en_0124": "none",
+    "en_0116": "none",
+    "en_0023": "none",
+    "en_0096": "none",
+    "en_0059": "none"
+   }
+  },
+  "0b8e9fa52193658b": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0034",
+   "candidates": [
+    "en_0000",
+    "en_0075",
+    "en_0118",
+    "en_0018",
+    "en_0009",
+    "en_0059",
+    "en_0005",
+    "en_0047",
+    "en_0038",
+    "en_0026"
+   ],
+   "reply": "{\"en_0000\": \"partial\", \"en_0075\": \"none\", \"en_0118\": \"none\", \"en_0018\": \"none\", \"en_0009\": \"none\", \"en_0059\": \"none\", \"en_0005\": \"none\", \"en_0047\": \"none\", \"en_0038\": \"none\", \"en_0026\": \"none\"}",
+   "labels": {
+    "en_0000": "partial",
+    "en_0075": "none",
+    "en_0118": "none",
+    "en_0018": "none",
+    "en_0009": "none",
+    "en_0059": "none",
+    "en_0005": "none",
+    "en_0047": "none",
+    "en_0038": "none",
+    "en_0026": "none"
+   }
+  },
+  "5d483600f00c7baa": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0037",
+   "candidates": [
+    "en_0041",
+    "en_0082",
+    "en_0043",
+    "en_0059",
+    "en_0042",
+    "en_0004",
+    "en_0118",
+    "en_0009",
+    "en_0119",
+    "en_0107"
+   ],
+   "reply": "{\"en_0041\": \"match\", \"en_0082\": \"none\", \"en_0043\": \"none\", \"en_0059\": \"none\", \"en_0042\": \"partial\", \"en_0004\": \"none\", \"en_0118\": \"none\", \"en_0009\": \"none\", \"en_0119\": \"none\", \"en_0107\": \"none\"}",
+   "labels": {
+    "en_0041": "match",
+    "en_0082": "none",
+    "en_0043": "none",
+    "en_0059": "none",
+    "en_0042": "partial",
+    "en_0004": "none",
+    "en_0118": "none",
+    "en_0009": "none",
+    "en_0119": "none",
+    "en_0107": "none"
+   }
+  },
+  "35a96d4a5d0e5628": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0040",
+   "candidates": [
+    "en_0036",
+    "en_0009",
+    "en_0004",
+    "en_0085",
+    "en_0042",
+    "en_0088",
+    "en_0084",
+    "en_0059",
+    "en_0107",
+    "en_0119"
+   ],
+   "reply": "{\"en_0036\": \"none\", \"en_0009\": \"none\", \"en_0004\": \"none\", \"en_0085\": \"none\", \"en_0042\": \"none\", \"en_0088\": \"none\", \"en_0084\": \"none\", \"en_0059\": \"none\", \"en_0107\": \"none\", \"en_0119\": \"none\"}",
+   "labels": {
+    "en_0036": "none",
+    "en_0009": "none",
+    "en_0004": "none",
+    "en_0085": "none",
+    "en_0042": "none",
+    "en_0088": "none",
+    "en_0084": "none",
+    "en_0059": "none",
+    "en_0107": "none",
+    "en_0119": "none"
+   }
+  },
+  "27aad57897069ed2": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0041",
+   "candidates": [
+    "en_0011",
+    "en_0069",
+    "en_0118",
+    "en_0082",
+    "en_0038",
+    "en_0040",
+    "en_0043",
+    "en_0068",
+    "en_0041",
+    "en_0042"
+   ],
+   "reply": "{\"en_0011\": \"none\", \"en_0069\": \"none\", \"en_0118\": \"none\", \"en_0082\": \"none\", \"en_0038\": \"none\", \"en_0040\": \"partial\", \"en_0043\": \"none\", \"en_0068\": \"none\", \"en_0041\": \"none\", \"en_0042\": \"none\"}",
+   "labels": {
+    "en_0011": "none",
+    "en_0069": "none",
+    "en_0118": "none",
+    "en_0082": "none",
+    "en_0038": "none",
+    "en_0040": "partial",
+    "en_0043": "none",
+    "en_0068": "none",
+    "en_0041": "none",
+    "en_0042": "none"
+   }
+  },
+  "94d7eef8cc81a630": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0043",
+   "candidates": [
+    "en_0043",
+    "en_0041",
+    "en_0107",
+    "en_0036",
+    "en_0038",
+    "en_0042",
+    "en_0082",
+    "en_0009",
+    "en_0047",
+    "en_0004"
+   ],
+   "reply": "{\"en_0043\": \"none\", \"en_0041\": \"none\", \"en_0107\": \"none\", \"en_0036\": \"none\", \"en_0038\": \"none\", \"en_0042\": \"none\", \"en_0082\": \"none\", \"en_0009\": \"none\", \"en_0047\": \"partial\", \"en_0004\": \"none\"}",
+   "labels": {
+    "en_0043": "none",
+    "en_0041": "none",
+    "en_0107": "none",
+    "en_0036": "none",
+    "en_0038": "none",
+    "en_0042": "none",
+    "en_0082": "none",
+    "en_0009": "none",
+    "en_0047": "partial",
+    "en_0004": "none"
+   }
+  },
+  "099ebdac774321a4": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0045",
+   "candidates": [
+    "en_0082",
+    "en_0018",
+    "en_0040",
+    "en_0019",
+    "en_0000",
+    "en_0075",
+    "en_0118",
+    "en_0023",
+    "en_0016",
+    "en_0014"
+   ],
+   "reply": "{\"en_0082\": \"partial\", \"en_0018\": \"none\", \"en_0040\": \"none\", \"en_0019\": \"none\", \"en_0000\": \"none\", \"en_0075\": \"none\", \"en_0118\": \"none\", \"en_0023\": \"none\", \"en_0016\": \"none\", \"en_0014\": \"none\"}",
+   "labels": {
+    "en_0082": "partial",
+    "en_0018": "none",
+    "en_0040": "none",
+    "en_0019": "none",
+    "en_0000": "none",
+    "en_0075": "none",
+    "en_0118": "none",
+    "en_0023": "none",
+    "en_0016": "none",
+    "en_0014": "none"
+   }
+  },
+  "7b768b5d28a7b421": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0046",
+   "candidates": [
+    "en_0019",
+    "en_0018",
+    "en_0022",
+    "en_0020",
+    "en_0074",
+    "en_0013",
+    "en_0117",
+    "en_0021",
+    "en_0052",
+    "en_0118"
+   ],
+   "reply": "{\"en_0019\": \"match\", \"en_0018\": \"none\", \"en_0022\": \"none\", \"en_0020\": \"none\", \"en_0074\": \"none\", \"en_0013\": \"none\", \"en_0117\": \"none\", \"en_0021\": \"none\", \"en_0052\": \"none\", \"en_0118\": \"none\"}",
+   "labels": {
+    "en_0019": "match",
+    "en_0018": "none",
+    "en_0022": "none",
+    "en_0020": "none",
+    "en_0074": "none",
+    "en_0013": "none",
+    "en_0117": "none",
+    "en_0021": "none",
+    "en_0052": "none",
+    "en_0118": "none"
+   }
+  },
+  "5f9a82b430037719": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0047",
+   "candidates": [
+    "en_0118",
+    "en_0023",
+    "en_0116",
+    "en_0004",
+    "en_0119",
+    "en_0022",
+    "en_0019",
+    "en_0113",
+    "en_0075",
+    "en_0026"
+   ],
+   "reply": "{\"en_0118\": \"none\", \"en_0023\": \"none\", \"en_0116\": \"none\", \"en_0004\": \"none\", \"en_0119\": \"none\", \"en_0022\": \"none\", \"en_0019\": \"none\", \"en_0113\": \"none\", \"en_0075\": \"none\", \"en_0026\": \"none\"}",
+   "labels": {
+    "en_0118": "none",
+    "en_0023": "none",
+    "en_0116": "none",
+    "en_0004": "none",
+    "en_0119": "none",
+    "en_0022": "none",
+    "en_0019": "none",
+    "en_0113": "none",
+    "en_0075": "none",
+    "en_0026": "none"
+   }
+  },
+  "0f42e57dbad521c1": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0048",
+   "candidates": [
+    "en_0124",
+    "en_0004",
+    "en_0116",
+    "en_0118",
+    "en_0054",
+    "en_0057",
+    "en_0059",
+    "en_0026",
+    "en_0094",
+    "en_0119"
+   ],
+   "reply": "{\"en_0124\": \"none\", \"en_0004\": \"none\", \"en_0116\": \"none\", \"en_0118\": \"none\", \"en_0054\": \"partial\", \"en_0057\": \"none\", \"en_0059\": \"none\", \"en_0026\": \"none\", \"en_0094\": \"none\", \"en_0119\": \"none\"}",
+   "labels": {
+    "en_0124": "none",
+    "en_0004": "none",
+    "en_0116": "none",
+    "en_0118": "none",
+    "en_0054": "partial",
+    "en_0057": "none",
+    "en_0059": "none",
+    "en_0026": "none",
+    "en_0094": "none",
+    "en_0119": "none"
+   }
+  },
+  "a006df568920df12": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0049",
+   "candidates": [
+    "en_0022",
+    "en_0023",
+    "en_0118",
+    "en_0038",
+    "en_0059",
+    "en_0004",
+    "en_0026",
+    "en_0075",
+    "en_0107",
+    "en_0124"
+   ],
+   "reply": "{\"en_0022\": \"partial\", \"en_0023\": \"none\", \"en_0118\": \"none\", \"en_0038\": \"none\", \"en_0059\": \"none\", \"en_0004\": \"none\", \"en_0026\": \"none\", \"en_0075\": \"none\", \"en_0107\": \"none\", \"en_0124\": \"none\"}",
+   "labels": {
+    "en_0022": "partial",
+    "en_0023": "none",
+    "en_0118": "none",
+    "en_0038": "none",
+    "en_0059": "none",
+    "en_0004": "none",
+    "en_0026": "none",
+    "en_0075": "none",
+    "en_0107": "none",
+    "en_0124": "none"
+   }
+  },
+  "21224fcb9f3d63e9": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0053",
+   "candidates": [
+    "en_0001",
+    "en_0079",
+    "en_0047",
+    "en_0038",
+    "en_0035",
+    "en_0031",
+    "en_0078",
+    "en_0034",
+    "en_0036",
+    "en_0116"
+   ],
+   "reply": "{\"en_0001\": \"none\", \"en_0079\": \"partial\", \"en_0047\": \"none\", \"en_0038\": \"none\", \"en_0035\": \"none\", \"en_0031\": \"none\", \"en_0078\": \"none\", \"en_0034\": \"none\", \"en_0036\": \"none\", \"en_0116\": \"none\"}",
+   "labels": {
+    "en_0001": "none",
+    "en_0079": "partial",
+    "en_0047": "none",
+    "en_0038": "none",
+    "en_0035": "none",
+    "en_0031": "none",
+    "en_0078": "none",
+    "en_0034": "none",
+    "en_0036": "none",
+    "en_0116": "none"
+   }
+  },
+  "1a8895cf82d2516f": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0056",
+   "candidates": [
+    "en_0082",
+    "en_0104",
+    "en_0118",
+    "en_0084",
+    "en_0041",
+    "en_0004",
+    "en_0007",
+    "en_0032",
+    "en_0121",
+    "en_0031"
+   ],
+   "reply": "{\"en_0082\": \"none\", \"en_0104\": \"none\", \"en_0118\": \"none\", \"en_0084\": \"none\", \"en_0041\": \"none\", \"en_0004\": \"none\", \"en_0007\": \"none\", \"en_0032\": \"none\", \"en_0121\": \"none\", \"en_0031\": \"none\"}",
+   "labels": {
+    "en_0082": "none",
+    "en_0104": "none",
+    "en_0118": "none",
+    "en_0084": "none",
+    "en_0041": "none",
+    "en_0004": "none",
+    "en_0007": "none",
+    "en_0032": "none",
+    "en_0121": "none",
+    "en_0031": "none"
+   }
+  },
+  "5efd9a7b4098829f": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0057",
+   "candidates": [
+    "en_0047",
+    "en_0036",
+    "en_0048",
+    "en_0043",
+    "en_0042",
+    "en_0104",
+    "en_0041",
+    "en_0007",
+    "en_0089",
+    "en_0084"
+   ],
+   "reply": "{\"en_0047\": \"none\", \"en_0036\": \"none\", \"en_0048\": \"none\", \"en_0043\": \"none\", \"en_0042\": \"none\", \"en_0104\": \"none\", \"en_0041\": \"none\", \"en_0007\": \"none\", \"en_0089\": \"none\", \"en_0084\": \"none\"}",
+   "labels": {
+    "en_0047": "none",
+    "en_0036": "none",
+    "en_0048": "none",
+    "en_0043": "none",
+    "en_0042": "none",
+    "en_0104": "none",
+    "en_0041": "none",
+    "en_0007": "none",
+    "en_0089": "none",
+    "en_0084": "none"
+   }
+  },
+  "4621c021e1b44745": {
+   "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+   "query_id": "zh_0058",
+   "candidates": [
+    "en_0018",
+    "en_0026",
+    "en_0118",
+    "en_0080",
+    "en_0075",
+    "en_0107",
+    "en_0023",
+    "en_0116",
+    "en_0001",
+    "en_0022"
+   ],
+   "reply": "{\"en_0018\": \"none\", \"en_0026\": \"none\", \"en_0118\": \"none\", \"en_0080\": \"partial\", \"en_0075\": \"none\", \"en_0107\": \"none\", \"en_0023\": \"none\", \"en_0116\": \"none\", \"en_0001\": \"none\", \"en_0022\": \"none\"}",
+   "labels": {
+    "en_0018": "none",
+    "en_0026": "none",
+    "en_0118": "none",
+    "en_0080": "partial",
+    "en_0075": "none",
+    "en_0107": "none",
+    "en_0023": "none",
+    "en_0116": "none",
+    "en_0001": "none",
+    "en_0022": "none"
+   }
+  },
+  "bbc9bddd7858bd85": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0000",
+   "candidates": [
+    "en_0013",
+    "en_0031",
+    "en_0056",
+    "en_0041",
+    "en_0001",
+    "en_0014",
+    "en_0002",
+    "en_0000",
+    "en_0036",
+    "en_0037"
+   ],
+   "reply": "{\"en_0013\": \"partial\", \"en_0031\": \"none\", \"en_0056\": \"none\", \"en_0041\": \"none\", \"en_0001\": \"none\", \"en_0014\": \"match\", \"en_0002\": \"partial\", \"en_0000\": \"none\", \"en_0036\": \"none\", \"en_0037\": \"none\"}",
+   "labels": {
+    "en_0013": "partial",
+    "en_0031": "none",
+    "en_0056": "none",
+    "en_0041": "none",
+    "en_0001": "none",
+    "en_0014": "match",
+    "en_0002": "partial",
+    "en_0000": "none",
+    "en_0036": "none",
+    "en_0037": "none"
+   }
+  },
+  "3931c51b79b3879c": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0001",
+   "candidates": [
+    "en_0000",
+    "en_0002",
+    "en_0036",
+    "en_0033",
+    "en_0034",
+    "en_0086",
+    "en_0032",
+    "en_0057",
+    "en_0054",
+    "en_0011"
+   ],
+   "reply": "{\"en_0000\": \"partial\", \"en_0002\": \"none\", \"en_0036\": \"partial\", \"en_0033\": \"none\", \"en_0034\": \"none\", \"en_0086\": \"none\", \"en_0032\": \"none\", \"en_0057\": \"none\", \"en_0054\": \"none\", \"en_0011\": \"none\"}",
+   "labels": {
+    "en_0000": "partial",
+    "en_0002": "none",
+    "en_0036": "partial",
+    "en_0033": "none",
+    "en_0034": "none",
+    "en_0086": "none",
+    "en_0032": "none",
+    "en_0057": "none",
+    "en_0054": "none",
+    "en_0011": "none"
+   }
+  },
+  "a868902161add163": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0002",
+   "candidates": [
+    "en_0032",
+    "en_0065",
+    "en_0045",
+    "en_0052",
+    "en_0020",
+    "en_0048",
+    "en_0086",
+    "en_0071",
+    "en_0040",
+    "en_0070"
+   ],
+   "reply": "{\"en_0032\": \"none\", \"en_0065\": \"none\", \"en_0045\": \"partial\", \"en_0052\": \"match\", \"en_0020\": \"none\", \"en_0048\": \"partial\", \"en_0086\": \"none\", \"en_0071\": \"none\", \"en_0040\": \"none\", \"en_0070\": \"none\"}",
+   "labels": {
+    "en_0032": "none",
+    "en_0065": "none",
+    "en_0045": "partial",
+    "en_0052": "match",
+    "en_0020": "none",
+    "en_0048": "partial",
+    "en_0086": "none",
+    "en_0071": "none",
+    "en_0040": "none",
+    "en_0070": "none"
+   }
+  },
+  "4aff80db0bf2acba": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0003",
+   "candidates": [
+    "en_0086",
+    "en_0079",
+    "en_0071",
+    "en_0080",
+    "en_0077",
+    "en_0073",
+    "en_0021",
+    "en_0078",
+    "en_0076",
+    "en_0070"
+   ],
+   "reply": "{\"en_0086\": \"partial\", \"en_0079\": \"none\", \"en_0071\": \"none\", \"en_0080\": \"none\", \"en_0077\": \"partial\", \"en_0073\": \"none\", \"en_0021\": \"none\", \"en_0078\": \"partial\", \"en_0076\": \"none\", \"en_0070\": \"none\"}",
+   "labels": {
+    "en_0086": "partial",
+    "en_0079": "none",
+    "en_0071": "none",
+    "en_0080": "none",
+    "en_0077": "partial",
+    "en_0073": "none",
+    "en_0021": "none",
+    "en_0078": "partial",
+    "en_0076": "none",
+    "en_0070": "none"
+   }
+  },
+  "bed77a5365ba7294": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0004",
+   "candidates": [
+    "en_0002",
+    "en_0036",
+    "en_0013",
+    "en_0033",
+    "en_0031",
+    "en_0056",
+    "en_0014",
+    "en_0040",
+    "en_0026",
+    "en_0030"
+   ],
+   "reply": "{\"en_0002\": \"none\", \"en_0036\": \"partial\", \"en_0013\": \"match\", \"en_0033\": \"none\", \"en_0031\": \"none\", \"en_0056\": \"none\", \"en_0014\": \"match\", \"en_0040\": \"none\", \"en_0026\": \"none\", \"en_0030\": \"none\"}",
+   "labels": {
+    "en_0002": "none",
+    "en_0036": "partial",
+    "en_0013": "match",
+    "en_0033": "none",
+    "en_0031": "none",
+    "en_0056": "none",
+    "en_0014": "match",
+    "en_0040": "none",
+    "en_0026": "none",
+    "en_0030": "none"
+   }
+  },
+  "3e683a9c1e670827": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0005",
+   "candidates": [
+    "en_0016",
+    "en_0021",
+    "en_0017",
+    "en_0074",
+    "en_0009",
+    "en_0011",
+    "en_0070",
+    "en_0015",
+    "en_0032",
+    "en_0000"
+   ],
+   "reply": "{\"en_0016\": \"partial\", \"en_0021\": \"none\", \"en_0017\": \"partial\", \"en_0074\": \"none\", \"en_0009\": \"none\", \"en_0011\": \"none\", \"en_0070\": \"none\", \"en_0015\": \"partial\", \"en_0032\": \"none\", \"en_0000\": \"none\"}",
+   "labels": {
+    "en_0016": "partial",
+    "en_0021": "none",
+    "en_0017": "partial",
+    "en_0074": "none",
+    "en_0009": "none",
+    "en_0011": "none",
+    "en_0070": "none",
+    "en_0015": "partial",
+    "en_0032": "none",
+    "en_0000": "none"
+   }
+  },
+  "eb5783e48a6ae6c1": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0006",
+   "candidates": [
+    "en_0028",
+    "en_0026",
+    "en_0030",
+    "en_0031",
+    "en_0020",
+    "en_0045",
+    "en_0024",
+    "en_0041",
+    "en_0060",
+    "en_0014"
+   ],
+   "reply": "{\"en_0028\": \"none\", \"en_0026\": \"partial\", \"en_0030\": \"none\", \"en_0031\": \"none\", \"en_0020\": \"none\", \"en_0045\": \"none\", \"en_0024\": \"none\", \"en_0041\": \"none\", \"en_0060\": \"none\", \"en_0014\": \"none\"}",
+   "labels": {
+    "en_0028": "none",
+    "en_0026": "partial",
+    "en_0030": "none",
+    "en_0031": "none",
+    "en_0020": "none",
+    "en_0045": "none",
+    "en_0024": "none",
+    "en_0041": "none",
+    "en_0060": "none",
+    "en_0014": "none"
+   }
+  },
+  "38c27c917b5f03f8": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0007",
+   "candidates": [
+    "en_0038",
+    "en_0002",
+    "en_0000",
+    "en_0040",
+    "en_0014",
+    "en_0054",
+    "en_0036",
+    "en_0059",
+    "en_0005",
+    "en_0026"
+   ],
+   "reply": "{\"en_0038\": \"partial\", \"en_0002\": \"none\", \"en_0000\": \"none\", \"en_0040\": \"none\", \"en_0014\": \"none\", \"en_0054\": \"none\", \"en_0036\": \"none\", \"en_0059\": \"partial\", \"en_0005\": \"none\", \"en_0026\": \"none\"}",
+   "labels": {
+    "en_0038": "partial",
+    "en_0002": "none",
+    "en_0000": "none",
+    "en_0040": "none",
+    "en_0014": "none",
+    "en_0054": "none",
+    "en_0036": "none",
+    "en_0059": "partial",
+    "en_0005": "none",
+    "en_0026": "none"
+   }
+  },
+  "284c6c4fbbaf8eb5": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0008",
+   "candidates": [
+    "en_0015",
+    "en_0011",
+    "en_0002",
+    "en_0036",
+    "en_0082",
+    "en_0057",
+    "en_0016",
+    "en_0032",
+    "en_0040",
+    "en_0000"
+   ],
+   "reply": "{\"en_0015\": \"none\", \"en_0011\": \"none\", \"en_0002\": \"none\", \"en_0036\": \"partial\", \"en_0082\": \"partial\", \"en_0057\": \"none\", \"en_0016\": \"partial\", \"en_0032\": \"none\", \"en_0040\": \"none\", \"en_0000\": \"none\"}",
+   "labels": {
+    "en_0015": "none",
+    "en_0011": "none",
+    "en_0002": "none",
+    "en_0036": "partial",
+    "en_0082": "partial",
+    "en_0057": "none",
+    "en_0016": "partial",
+    "en_0032": "none",
+    "en_0040": "none",
+    "en_0000": "none"
+   }
+  },
+  "5c8049d3cb74aea1": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0009",
+   "candidates": [
+    "en_0086",
+    "en_0056",
+    "en_0065",
+    "en_0000",
+    "en_0032",
+    "en_0077",
+    "en_0021",
+    "en_0002",
+    "en_0020",
+    "en_0070"
+   ],
+   "reply": "{\"en_0086\": \"none\", \"en_0056\": \"none\", \"en_0065\": \"partial\", \"en_0000\": \"none\", \"en_0032\": \"none\", \"en_0077\": \"none\", \"en_0021\": \"none\", \"en_0002\": \"none\", \"en_0020\": \"partial\", \"en_0070\": \"none\"}",
+   "labels": {
+    "en_0086": "none",
+    "en_0056": "none",
+    "en_0065": "partial",
+    "en_0000": "none",
+    "en_0032": "none",
+    "en_0077": "none",
+    "en_0021": "none",
+    "en_0002": "none",
+    "en_0020": "partial",
+    "en_0070": "none"
+   }
+  },
+  "8e8ef313e03f251a": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0010",
+   "candidates": [
+    "en_0047",
+    "en_0009",
+    "en_0011",
+    "en_0050",
+    "en_0030",
+    "en_0032",
+    "en_0024",
+    "en_0045",
+    "en_0061",
+    "en_0026"
+   ],
+   "reply": "{\"en_0047\": \"partial\", \"en_0009\": \"none\", \"en_0011\": \"partial\", \"en_0050\": \"none\", \"en_0030\": \"none\", \"en_0032\": \"none\", \"en_0024\": \"none\", \"en_0045\": \"partial\", \"en_0061\": \"none\", \"en_0026\": \"none\"}",
+   "labels": {
+    "en_0047": "partial",
+    "en_0009": "none",
+    "en_0011": "partial",
+    "en_0050": "none",
+    "en_0030": "none",
+    "en_0032": "none",
+    "en_0024": "none",
+    "en_0045": "partial",
+    "en_0061": "none",
+    "en_0026": "none"
+   }
+  },
+  "8390ddd6ba5becfb": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0011",
+   "candidates": [
+    "en_0045",
+    "en_0047",
+    "en_0050",
+    "en_0028",
+    "en_0053",
+    "en_0029",
+    "en_0016",
+    "en_0025",
+    "en_0011",
+    "en_0052"
+   ],
+   "reply": "{\"en_0045\": \"partial\", \"en_0047\": \"none\", \"en_0050\": \"none\", \"en_0028\": \"none\", \"en_0053\": \"partial\", \"en_0029\": \"none\", \"en_0016\": \"none\", \"en_0025\": \"none\", \"en_0011\": \"none\", \"en_0052\": \"none\"}",
+   "labels": {
+    "en_0045": "partial",
+    "en_0047": "none",
+    "en_0050": "none",
+    "en_0028": "none",
+    "en_0053": "partial",
+    "en_0029": "none",
+    "en_0016": "none",
+    "en_0025": "none",
+    "en_0011": "none",
+    "en_0052": "none"
+   }
+  },
+  "35c5b575f29796a5": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0012",
+   "candidates": [
+    "en_0050",
+    "en_0045",
+    "en_0044",
+    "en_0058",
+    "en_0000",
+    "en_0053",
+    "en_0054",
+    "en_0035",
+    "en_0046",
+    "en_0059"
+   ],
+   "reply": "{\"en_0050\": \"partial\", \"en_0045\": \"match\", \"en_0044\": \"partial\", \"en_0058\": \"partial\", \"en_0000\": \"none\", \"en_0053\": \"partial\", \"en_0054\": \"none\", \"en_0035\": \"partial\", \"en_0046\": \"none\", \"en_0059\": \"none\"}",
+   "labels": {
+    "en_0050": "partial",
+    "en_0045": "match",
+    "en_0044": "partial",
+    "en_0058": "partial",
+    "en_0000": "none",
+    "en_0053": "partial",
+    "en_0054": "none",
+    "en_0035": "partial",
+    "en_0046": "none",
+    "en_0059": "none"
+   }
+  },
+  "d156495f1bace7b6": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0013",
+   "candidates": [
+    "en_0015",
+    "en_0047",
+    "en_0011",
+    "en_0032",
+    "en_0024",
+    "en_0065",
+    "en_0058",
+    "en_0048",
+    "en_0040",
+    "en_0050"
+   ],
+   "reply": "{\"en_0015\": \"none\", \"en_0047\": \"partial\", \"en_0011\": \"partial\", \"en_0032\": \"none\", \"en_0024\": \"none\", \"en_0065\": \"none\", \"en_0058\": \"none\", \"en_0048\": \"partial\", \"en_0040\": \"none\", \"en_0050\": \"none\"}",
+   "labels": {
+    "en_0015": "none",
+    "en_0047": "partial",
+    "en_0011": "partial",
+    "en_0032": "none",
+    "en_0024": "none",
+    "en_0065": "none",
+    "en_0058": "none",
+    "en_0048": "partial",
+    "en_0040": "none",
+    "en_0050": "none"
+   }
+  },
+  "fb801041420579ce": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0014",
+   "candidates": [
+    "en_0052",
+    "en_0032",
+    "en_0065",
+    "en_0048",
+    "en_0070",
+    "en_0024",
+    "en_0015",
+    "en_0020",
+    "en_0021",
+    "en_0062"
+   ],
+   "reply": "{\"en_0052\": \"match\", \"en_0032\": \"none\", \"en_0065\": \"none\", \"en_0048\": \"partial\", \"en_0070\": \"none\", \"en_0024\": \"none\", \"en_0015\": \"none\", \"en_0020\": \"none\", \"en_0021\": \"partial\", \"en_0062\": \"none\"}",
+   "labels": {
+    "en_0052": "match",
+    "en_0032": "none",
+    "en_0065": "none",
+    "en_0048": "partial",
+    "en_0070": "none",
+    "en_0024": "none",
+    "en_0015": "none",
+    "en_0020": "none",
+    "en_0021": "partial",
+    "en_0062": "none"
+   }
+  },
+  "ccda52be71b3e167": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0015",
+   "candidates": [
+    "en_0047",
+    "en_0065",
+    "en_0061",
+    "en_0015",
+    "en_0032",
+    "en_0058",
+    "en_0024",
+    "en_0044",
+    "en_0057",
+    "en_0062"
+   ],
+   "reply": "{\"en_0047\": \"none\", \"en_0065\": \"partial\", \"en_0061\": \"none\", \"en_0015\": \"partial\", \"en_0032\": \"none\", \"en_0058\": \"none\", \"en_0024\": \"none\", \"en_0044\": \"partial\", \"en_0057\": \"none\", \"en_0062\": \"none\"}",
+   "labels": {
+    "en_0047": "none",
+    "en_0065": "partial",
+    "en_0061": "none",
+    "en_0015": "partial",
+    "en_0032": "none",
+    "en_0058": "none",
+    "en_0024": "none",
+    "en_0044": "partial",
+    "en_0057": "none",
+    "en_0062": "none"
+   }
+  },
+  "a74acb36e48c0d4d": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0016",
+   "candidates": [
+    "en_0064",
+    "en_0041",
+    "en_0037",
+    "en_0007",
+    "en_0034",
+    "en_0033",
+    "en_0055",
+    "en_0012",
+    "en_0021",
+    "en_0006"
+   ],
+   "reply": "{\"en_0064\": \"partial\", \"en_0041\": \"match\", \"en_0037\": \"none\", \"en_0007\": \"none\", \"en_0034\": \"none\", \"en_0033\": \"partial\", \"en_0055\": \"none\", \"en_0012\": \"none\", \"en_0021\": \"none\", \"en_0006\": \"none\"}",
+   "labels": {
+    "en_0064": "partial",
+    "en_0041": "match",
+    "en_0037": "none",
+    "en_0007": "none",
+    "en_0034": "none",
+    "en_0033": "partial",
+    "en_0055": "none",
+    "en_0012": "none",
+    "en_0021": "none",
+    "en_0006": "none"
+   }
+  },
+  "aa59541a5413fc50": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0017",
+   "candidates": [
+    "en_0068",
+    "en_0070",
+    "en_0071",
+    "en_0021",
+    "en_0077",
+    "en_0078",
+    "en_0065",
+    "en_0009",
+    "en_0074",
+    "en_0076"
+   ],
+   "reply": "{\"en_0068\": \"match\", \"en_0070\": \"none\", \"en_0071\": \"none\", \"en_0021\": \"none\", \"en_0077\": \"none\", \"en_0078\": \"none\", \"en_0065\": \"none\", \"en_0009\": \"none\", \"en_0074\": \"none\", \"en_0076\": \"none\"}",
+   "labels": {
+    "en_0068": "match",
+    "en_0070": "none",
+    "en_0071": "none",
+    "en_0021": "none",
+    "en_0077": "none",
+    "en_0078": "none",
+    "en_0065": "none",
+    "en_0009": "none",
+    "en_0074": "none",
+    "en_0076": "none"
+   }
+  },
+  "1877f2415ad20677": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0018",
+   "candidates": [
+    "en_0067",
+    "en_0071",
+    "en_0078",
+    "en_0069",
+    "en_0070",
+    "en_0032",
+    "en_0065",
+    "en_0086",
+    "en_0009",
+    "en_0074"
+   ],
+   "reply": "{\"en_0067\": \"match\", \"en_0071\": \"partial\", \"en_0078\": \"none\", \"en_0069\": \"none\", \"en_0070\": \"none\", \"en_0032\": \"none\", \"en_0065\": \"none\", \"en_0086\": \"none\", \"en_0009\": \"none\", \"en_0074\": \"none\"}",
+   "labels": {
+    "en_0067": "match",
+    "en_0071": "partial",
+    "en_0078": "none",
+    "en_0069": "none",
+    "en_0070": "none",
+    "en_0032": "none",
+    "en_0065": "none",
+    "en_0086": "none",
+    "en_0009": "none",
+    "en_0074": "none"
+   }
+  },
+  "42e07ebfffb26d1a": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0019",
+   "candidates": [
+    "en_0070",
+    "en_0071",
+    "en_0065",
+    "en_0033",
+    "en_0036",
+    "en_0077",
+    "en_0000",
+    "en_0076",
+    "en_0032",
+    "en_0054"
+   ],
+   "reply": "{\"en_0070\": \"match\", \"en_0071\": \"none\", \"en_0065\": \"none\", \"en_0033\": \"none\", \"en_0036\": \"none\", \"en_0077\": \"none\", \"en_0000\": \"none\", \"en_0076\": \"none\", \"en_0032\": \"none\", \"en_0054\": \"none\"}",
+   "labels": {
+    "en_0070": "match",
+    "en_0071": "none",
+    "en_0065": "none",
+    "en_0033": "none",
+    "en_0036": "none",
+    "en_0077": "none",
+    "en_0000": "none",
+    "en_0076": "none",
+    "en_0032": "none",
+    "en_0054": "none"
+   }
+  },
+  "b00d81927c55a57d": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0020",
+   "candidates": [
+    "en_0077",
+    "en_0071",
+    "en_0078",
+    "en_0070",
+    "en_0000",
+    "en_0086",
+    "en_0002",
+    "en_0076",
+    "en_0074",
+    "en_0073"
+   ],
+   "reply": "{\"en_0077\": \"none\", \"en_0071\": \"partial\", \"en_0078\": \"none\", \"en_0070\": \"partial\", \"en_0000\": \"none\", \"en_0086\": \"none\", \"en_0002\": \"none\", \"en_0076\": \"partial\", \"en_0074\": \"none\", \"en_0073\": \"none\"}",
+   "labels": {
+    "en_0077": "none",
+    "en_0071": "partial",
+    "en_0078": "none",
+    "en_0070": "partial",
+    "en_0000": "none",
+    "en_0086": "none",
+    "en_0002": "none",
+    "en_0076": "partial",
+    "en_0074": "none",
+    "en_0073": "none"
+   }
+  },
+  "f10c69555eeeb238": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0021",
+   "candidates": [
+    "en_0021",
+    "en_0032",
+    "en_0070",
+    "en_0016",
+    "en_0078",
+    "en_0011",
+    "en_0065",
+    "en_0071",
+    "en_0002",
+    "en_0077"
+   ],
+   "reply": "{\"en_0021\": \"partial\", \"en_0032\": \"none\", \"en_0070\": \"none\", \"en_0016\": \"none\", \"en_0078\": \"none\", \"en_0011\": \"none\", \"en_0065\": \"none\", \"en_0071\": \"none\", \"en_0002\": \"none\", \"en_0077\": \"none\"}",
+   "labels": {
+    "en_0021": "partial",
+    "en_0032": "none",
+    "en_0070": "none",
+    "en_0016": "none",
+    "en_0078": "none",
+    "en_0011": "none",
+    "en_0065": "none",
+    "en_0071": "none",
+    "en_0002": "none",
+    "en_0077": "none"
+   }
+  },
+  "6f758221c02ec0ca": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0022",
+   "candidates": [
+    "en_0086",
+    "en_0077",
+    "en_0078",
+    "en_0079",
+    "en_0080",
+    "en_0073",
+    "en_0072",
+    "en_0000",
+    "en_0076",
+    "en_0065"
+   ],
+   "reply": "{\"en_0086\": \"match\", \"en_0077\": \"partial\", \"en_0078\": \"partial\", \"en_0079\": \"partial\", \"en_0080\": \"partial\", \"en_0073\": \"partial\", \"en_0072\": \"partial\", \"en_0000\": \"none\", \"en_0076\": \"partial\", \"en_0065\": \"none\"}",
+   "labels": {
+    "en_0086": "match",
+    "en_0077": "partial",
+    "en_0078": "partial",
+    "en_0079": "partial",
+    "en_0080": "partial",
+    "en_0073": "partial",
+    "en_0072": "partial",
+    "en_0000": "none",
+    "en_0076": "partial",
+    "en_0065": "none"
+   }
+  },
+  "7b4c031c9364d8ea": {
+   "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+   "query_id": "zh_0023",
+   "candidates": [
+    "en_0038",
+    "en_0000",
+    "en_0002",
+    "en_0078",
+    "en_0066",
+    "en_0033",
+    "en_0011",
+    "en_0086",
+    "en_0070",
+    "en_0036"
+   ],
+   "reply": "{\"en_0038\": \"partial\", \"en_0000\": \"match\", \"en_0002\": \"partial\", \"en_0078\": \"none\", \"en_0066\": \"none\", \"en_0033\": \"partial\", \"en_0011\": \"partial\", \"en_0086\": \"none\", \"en_0070\": \"none\", \"en_0036\": \"partial\"}",
+   "labels": {
+    "en_0038": "partial",
+    "en_0000": "match",
+    "en_0002": "partial",
+    "en_0078": "none",
+    "en_0066": "none",
+    "en_0033": "partial",
+    "en_0011": "partial",
+    "en_0086": "none",
+    "en_0070": "none",
+    "en_0036": "partial"
+   }
+  }
+ }
+}
