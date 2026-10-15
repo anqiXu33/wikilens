@@ -8,6 +8,7 @@
     python -m wikilens serve [--offline]                                   # web dashboard
     python -m wikilens annotate RUN_ID                                     # HTML page for labelling alignments
     python -m wikilens evaluate                                            # score alignment against eval/labels/
+    python -m wikilens experiment                                          # compare alignment methods (LLM rerank, sentence-level)
 
 Offline mode never touches the network, an LLM or an API key: it only reads
 the run directories already in outputs/runs/.
@@ -230,6 +231,11 @@ def cmd_annotate(args) -> int:
     return run(args)
 
 
+def cmd_experiment(args) -> int:
+    from wikilens.experiment import cmd_experiment as run
+    return run(args)
+
+
 def cmd_evaluate(args) -> int:
     from wikilens.evaluate import cmd_evaluate as run
     return run(args)
@@ -300,6 +306,22 @@ def build_parser() -> argparse.ArgumentParser:
     ev.add_argument("--seed", type=int, default=0, help="bootstrap seed (default 0)")
     ev.add_argument("--json", action="store_true", help="also print the summary as JSON")
     ev.set_defaults(func=cmd_evaluate)
+
+    ex = sub.add_parser("experiment", help="compare chunk cosine, LLM rerank (A) and sentence-level "
+                                           "pairing (B) against eval/labels/ (does not change the pipeline)")
+    ex.add_argument("labels", nargs="*", help="label files (default: eval/labels/*.json)")
+    ex.add_argument("--pair", help="only this language pair, e.g. en-zh")
+    ex.add_argument("--grid", default="0.20:0.90:0.05", help="score thresholds to sweep (default 0.20:0.90:0.05)")
+    ex.add_argument("--top-n", type=int, default=10, help="candidates per chunk for the LLM rerank (default 10)")
+    ex.add_argument("--cached-only", action="store_true",
+                    help="LLM rerank from eval/experiments/llm_rerank_*.json only, no LLM calls")
+    ex.add_argument("--llm-model", help="with --cached-only: model whose cached replies to use")
+    ex.add_argument("--partial", choices=["positive", "negative", "ignore"], default="positive",
+                    help="how to count 'partial' labels (default positive)")
+    ex.add_argument("--unlabelled", choices=["auto", "fp", "ignore"], default="auto",
+                    help="predicted pairs outside the labelled candidates (default auto, as evaluate)")
+    ex.add_argument("--output-dir", default="eval/experiments", help="default eval/experiments/")
+    ex.set_defaults(func=cmd_experiment)
     return p
 
 
