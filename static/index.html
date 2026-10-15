@@ -883,7 +883,7 @@ async function renderResults(meta, scores1, scores2) {
   }
 
   // ── Stat cards ──
-  const cardsEl = buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLANG, n1, n2);
+  const cardsEl = buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLANG, l1.toUpperCase(), l2.toUpperCase());
   const cardsC = document.getElementById('dash-cards-container');
   cardsC.innerHTML = ''; cardsC.appendChild(cardsEl);
 
@@ -987,20 +987,27 @@ function divergenceColor(v) { return v >= 0.5 ? 'red' : v >= 0.25 ? 'amber' : 'g
 function coverageColor(p)    { return p >= 0.15 ? 'red' : p >= 0.05 ? 'amber' : 'green'; }
 
 /* ── Stat cards ── */
+const NOTE_DIFF_MIN = 0.05;
+
 function buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLANG, label1, label2) {
   const pairs = matchedPairs(alignEN, score1Map, score2Map);
 
   // Only pairs where both sides have a real score; a missing score is not 0.
   const scoredPairs = key => pairs.filter(p => isScore(p.enS[key]) && isScore(p.langS[key]));
 
+  // Same pairs and same per-pair differences as the card value (dimDivergence):
+  // the mean |EN − LANG| says whether they differ, the mean signed difference
+  // says which side is higher; a large |diff| with a small signed mean means
+  // the sign flips between pairs.
   const dirNote = (key) => {
     const ps = scoredPairs(key);
     if (!ps.length) return '—';
-    const avgEN   = ps.reduce((a,p)=>a+p.enS[key],0)/ps.length;
-    const avgLANG = ps.reduce((a,p)=>a+p.langS[key],0)/ps.length;
-    const d = avgEN - avgLANG;
-    if (Math.abs(d) < 0.04) return 'both similar';
-    return d > 0 ? `${label1} higher` : `${label2} higher`;
+    const diffs  = ps.map(p => p.enS[key] - p.langS[key]);
+    const absAvg = diffs.reduce((a,d) => a + Math.abs(d), 0) / diffs.length;
+    const avg    = diffs.reduce((a,d) => a + d, 0) / diffs.length;
+    if (absAvg < NOTE_DIFF_MIN) return 'both similar';
+    if (Math.abs(avg) < NOTE_DIFF_MIN) return 'mixed: differs by section';
+    return avg > 0 ? `${label1} higher` : `${label2} higher`;
   };
 
   // Same rule as the Coverage gaps list (EN side): unaligned or omission >= GAP_OMISSION_MIN.
