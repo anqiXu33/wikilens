@@ -1003,16 +1003,18 @@ function buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLA
     return d > 0 ? `${label1} higher` : `${label2} higher`;
   };
 
+  // Same rule as the Coverage gaps list (EN side): unaligned or omission >= GAP_OMISSION_MIN.
   // Without this run's alignment the coverage gap is unknown, not 0%.
-  const enOmitted = alignEN ? alignEN.filter(e => e.match_type === '1:0').length : null;
-  const enTotal   = alignEN ? alignEN.length : null;
-  const covGap    = alignEN && enTotal > 0 ? enOmitted / enTotal : null;
+  const enGaps   = alignEN ? collectGaps(alignEN, score1Map, 'tgt_chunk_id', 'tgt_text') : null;
+  const enGapped = enGaps ? enGaps.gaps.length : null;
+  const enTotal  = enGaps ? enGaps.total : null;
+  const covGap   = enGaps && enTotal > 0 ? enGapped / enTotal : null;
 
   const cardDefs = [
     { label:'Ideology divergence',  val:dimDivergence(pairs, 'ideology_score'),  note:dirNote('ideology_score'),  fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
     { label:'Sentiment divergence', val:dimDivergence(pairs, 'sentiment_score'), note:dirNote('sentiment_score'), fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
     { label:'Framing divergence',   val:dimDivergence(pairs, 'framing_score'),   note:dirNote('framing_score'),   fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
-    { label:'Coverage gap',         val:covGap, note: covGap!=null ? `${enOmitted} of ${enTotal} EN chunks absent` : 'alignment not available', fmt: v => v!=null?Math.round(v*100)+'%':'n/a', color: v => v!=null?coverageColor(v):'green' },
+    { label:'Coverage gap',         val:covGap, note: covGap!=null ? `${enGapped} of ${enTotal} EN chunks unaligned or omission ≥ ${GAP_OMISSION_MIN}` : 'alignment not available', fmt: v => v!=null?Math.round(v*100)+'%':'n/a', color: v => v!=null?coverageColor(v):'green' },
   ];
 
   const container = document.createElement('div');
@@ -1270,6 +1272,33 @@ function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, lab
 const GAP_OMISSION_MIN = 0.7;
 const GAP_SHOW = 8;
 
+// Gap chunks for one direction, and the number of chunks they are drawn from
+// (aligned or scored). Shared by the Coverage gap card and the Coverage gaps list.
+function collectGaps(alignData, scoreMap, idKey, textKey) {
+  const byId = {};
+  (alignData || []).forEach(e => { byId[e[idKey]] = e; });
+  const ids = new Set(Object.keys(byId));
+  Object.keys(scoreMap).forEach(id => ids.add(id));
+
+  const gaps = [];
+  ids.forEach(id => {
+    const e = byId[id], sc = scoreMap[id];
+    const unaligned = !!e && e.match_type === '1:0';
+    const om = sc && isScore(sc.omission_score) ? sc.omission_score : null;
+    if (!unaligned && !(om != null && om >= GAP_OMISSION_MIN)) return;
+    gaps.push({
+      id, unaligned, om,
+      text: (sc && sc.chunk_text) || (e && e[textKey]) || '',
+      section: ((sc && sc.section) || (e && e.src_section) || '—').split(' > ')[0],
+      para: e && e.paragraph_index != null ? e.paragraph_index : null,
+    });
+  });
+  // Highest omission first; unaligned chunks without a score after scored 1.0s.
+  gaps.sort((a,b) => ((b.om ?? (b.unaligned ? 1 : 0)) - (a.om ?? (a.unaligned ? 1 : 0)))
+                  || (b.unaligned - a.unaligned) || a.id.localeCompare(b.id));
+  return { gaps, total: ids.size };
+}
+
 function buildCoverageGaps(alignEN, alignLANG, score1Map, score2Map, label1, label2) {
   const wrap = document.createElement('div');
   wrap.className = 'dash-col';
@@ -1285,33 +1314,9 @@ function buildCoverageGaps(alignEN, alignLANG, score1Map, score2Map, label1, lab
   const body = wrap.querySelector('.gap-list-body');
   let expanded = false;
 
-  function collectGaps(dir) {
-    const alignData = dir === 1 ? alignEN : alignLANG;
-    const scoreMap  = dir === 1 ? score1Map : score2Map;
-    const idKey     = dir === 1 ? 'tgt_chunk_id' : 'src_chunk_id';
-    const textKey   = dir === 1 ? 'tgt_text' : 'src_text';
-    const byId = {};
-    (alignData || []).forEach(e => { byId[e[idKey]] = e; });
-    const ids = new Set(Object.keys(byId));
-    Object.keys(scoreMap).forEach(id => ids.add(id));
-
-    const gaps = [];
-    ids.forEach(id => {
-      const e = byId[id], sc = scoreMap[id];
-      const unaligned = !!e && e.match_type === '1:0';
-      const om = sc && isScore(sc.omission_score) ? sc.omission_score : null;
-      if (!unaligned && !(om != null && om >= GAP_OMISSION_MIN)) return;
-      gaps.push({
-        id, unaligned, om,
-        text: (sc && sc.chunk_text) || (e && e[textKey]) || '',
-        section: ((sc && sc.section) || (e && e.src_section) || '—').split(' > ')[0],
-        para: e && e.paragraph_index != null ? e.paragraph_index : null,
-      });
-    });
-    // Highest omission first; unaligned chunks without a score after scored 1.0s.
-    gaps.sort((a,b) => ((b.om ?? (b.unaligned ? 1 : 0)) - (a.om ?? (a.unaligned ? 1 : 0)))
-                    || (b.unaligned - a.unaligned) || a.id.localeCompare(b.id));
-    return gaps;
+  function gapsFor(dir) {
+    return dir === 1 ? collectGaps(alignEN, score1Map, 'tgt_chunk_id', 'tgt_text').gaps
+                     : collectGaps(alignLANG, score2Map, 'src_chunk_id', 'src_text').gaps;
   }
 
   function renderGaps(dir) {
@@ -1320,7 +1325,7 @@ function buildCoverageGaps(alignEN, alignLANG, score1Map, score2Map, label1, lab
     if ((!alignData || !alignData.length) && !Object.keys(scoreMap).length) {
       body.innerHTML = '<div class="no-data-msg">No data for this direction</div>'; return;
     }
-    const gaps = collectGaps(dir);
+    const gaps = gapsFor(dir);
     if (!gaps.length) {
       body.innerHTML = '<div class="no-data-msg">No coverage gaps detected in this direction</div>'; return;
     }
