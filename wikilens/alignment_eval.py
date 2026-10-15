@@ -188,6 +188,10 @@ class LabelledQuery:
     # The lowest-ranked candidate was labelled "none": the similarity ranking had
     # already run out of matches, so chunks ranked below it are taken as non-matches.
     tail_negative: bool = False
+    # "有对应段落，但不在这 k 个候选里": a match exists outside the candidates,
+    # optionally named by chunk id. Counted as a miss unless the aligner found it.
+    elsewhere: bool = False
+    elsewhere_ids: list[str] = field(default_factory=list)
 
 
 def load_label_files(paths) -> tuple[list[LabelledQuery], list[str]]:
@@ -204,7 +208,11 @@ def load_label_files(paths) -> tuple[list[LabelledQuery], list[str]]:
             labels = {c["chunk_id"]: c["label"] for c in labelled}
             last = min(labelled, key=lambda c: c.get("chunk_sim", 0), default=None)
             absent = bool(it.get("absent"))
-            if not absent and not labels:
+            elsewhere = not absent and bool(it.get("elsewhere"))
+            candidate_ids = {c["chunk_id"] for c in it["candidates"]}
+            elsewhere_ids = ([cid for cid in dict.fromkeys(it.get("elsewhere_ids") or []) if cid not in candidate_ids]
+                             if elsewhere else [])
+            if not absent and not elsewhere and not labels:
                 skipped += 1
                 continue
             queries.append(LabelledQuery(
@@ -213,7 +221,9 @@ def load_label_files(paths) -> tuple[list[LabelledQuery], list[str]]:
                 query_id=it["query_id"], absent=absent,
                 labels={} if absent else labels,
                 tail_negative=absent or (last is not None and last["label"] == "none"
-                                         and len(labelled) == len(it["candidates"]))))
+                                         and len(labelled) == len(it["candidates"])
+                                         and (not elsewhere or bool(elsewhere_ids))),
+                elsewhere=elsewhere, elsewhere_ids=elsewhere_ids))
         if skipped:
             warnings.append(f"{path}: {skipped} unlabelled item(s) ignored")
     return queries, warnings
@@ -238,24 +248,39 @@ class QueryCase:
     row: int
     pos_cols: np.ndarray
     neg_cols: np.ndarray
+    elsewhere_cols: np.ndarray = field(default_factory=lambda: np.array([], dtype=int))
 
     def counts(self, chunk_thr: float, path_thr: float, unlabelled: str = "auto") -> np.ndarray:
-        """[tp, fp, fn, unlabelled predictions not counted] at one threshold setting.
+        """[tp, fp, fn, uncounted, fn_elsewhere] at one threshold setting.
 
-        unlabelled: how to count predicted pairs outside the labelled candidates:
-        "fp", "ignore", or "auto" (fp when the lowest-ranked candidate is "none")."""
+        uncounted: predicted pairs outside the labelled pairs that were not scored.
+        fn_elsewhere: the part of fn from matches outside the candidates.
+        unlabelled: how to count predicted pairs outside the labelled pairs:
+        "fp", "ignore", or "auto" (fp when the lowest-ranked candidate is "none"
+        and any match outside the candidates was named by id)."""
         pred = self.sims.align(chunk_thr, path_thr)[self.row]
         n_pred = int(pred.sum())
         if self.query.absent:
             # Nothing in the other article matches, so every prediction is wrong.
-            return np.array([0, n_pred, 0, 0])
+            return np.array([0, n_pred, 0, 0, 0])
         tp = int(pred[self.pos_cols].sum())
         fp = int(pred[self.neg_cols].sum())
         fn = len(self.pos_cols) - tp
+        fn_elsewhere = 0
+        if self.query.elsewhere:
+            if len(self.elsewhere_cols):
+                found = int(pred[self.elsewhere_cols].sum())
+                tp += found
+                fn_elsewhere = len(self.elsewhere_cols) - found
+            else:
+                # The match is somewhere outside the candidates but unnamed:
+                # one miss at every threshold (the aligner's recall loss).
+                fn_elsewhere = 1
+            fn += fn_elsewhere
         outside = n_pred - tp - fp
         if unlabelled == "fp" or (unlabelled == "auto" and self.query.tail_negative):
-            return np.array([tp, fp + outside, fn, 0])
-        return np.array([tp, fp, fn, outside])
+            return np.array([tp, fp + outside, fn, 0, fn_elsewhere])
+        return np.array([tp, fp, fn, outside, fn_elsewhere])
 
 
 def resolve_cases(queries: list[LabelledQuery], sims_for, partial: str = "positive") -> list[QueryCase]:
@@ -278,7 +303,12 @@ def resolve_cases(queries: list[LabelledQuery], sims_for, partial: str = "positi
                 pos.append(col[cid])
             elif y is False:
                 neg.append(col[cid])
-        cases.append(QueryCase(q, sims, row, np.array(pos, dtype=int), np.array(neg, dtype=int)))
+        for cid in q.elsewhere_ids:
+            if cid not in col:
+                raise SystemExit(f"Chunk {cid} (named as a match outside the candidates of {q.query_id}) "
+                                 f"is not in run {q.run_id}.")
+        cases.append(QueryCase(q, sims, row, np.array(pos, dtype=int), np.array(neg, dtype=int),
+                               np.array([col[cid] for cid in q.elsewhere_ids], dtype=int)))
     return cases
 
 
@@ -288,12 +318,13 @@ def prf(counts: np.ndarray) -> dict:
     r = tp / (tp + fn) if tp + fn else 0.0
     f1 = 2 * p * r / (p + r) if p + r else 0.0
     return {"precision": p, "recall": r, "f1": f1, "tp": tp, "fp": fp, "fn": fn,
-            "uncounted": int(counts[3]) if len(counts) > 3 else 0}
+            "uncounted": int(counts[3]) if len(counts) > 3 else 0,
+            "fn_elsewhere": int(counts[4]) if len(counts) > 4 else 0}
 
 
 def grid_counts(cases: list[QueryCase], chunk_grid, path_grid, unlabelled: str = "auto") -> np.ndarray:
-    """(len(chunk_grid), len(path_grid), len(cases), 4) per-query counts."""
-    out = np.zeros((len(chunk_grid), len(path_grid), len(cases), 4), dtype=np.int64)
+    """(len(chunk_grid), len(path_grid), len(cases), 5) per-query counts (see QueryCase.counts)."""
+    out = np.zeros((len(chunk_grid), len(path_grid), len(cases), 5), dtype=np.int64)
     for i, c in enumerate(chunk_grid):
         for j, p in enumerate(path_grid):
             for n, case in enumerate(cases):

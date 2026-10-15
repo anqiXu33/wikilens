@@ -106,6 +106,9 @@ details.ref .chunk { border-top: 1px solid var(--line); padding: 6px 0; font-siz
 .foot { padding: 10px 14px; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
 .foot label { cursor: pointer; }
 .foot input[type=text] { flex: 1 1 200px; width: auto; }
+.foot .idsrow { flex: 1 1 100%; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
+.foot .idsrow input { flex: 0 1 22em; }
+.warn { font-size: 13px; color: var(--none); }
 .hidden { display: none; }
 .status { font-size: 13px; color: var(--muted); }
 @media (max-width: 640px) {
@@ -145,7 +148,9 @@ details.ref .chunk { border-top: 1px solid var(--line); padding: 6px 0; font-siz
   var DATA = JSON.parse(document.getElementById("data").textContent);
   var LABELS = [["match", "对应"], ["partial", "部分对应"], ["none", "不对应"]];
   var KEY = "wikilens-align-labels:" + DATA.run_id + ":" + DATA.query_lang + "-" + DATA.target_lang;
-  var state = {};  // query_id -> {absent, note, labels: {chunk_id: label}}
+  var state = {};  // query_id -> {absent, elsewhere, elsewhere_ids, note, labels: {chunk_id: label}}
+  var TARGET_IDS = {};
+  DATA.target_chunks.forEach(function (c) { TARGET_IDS[c.chunk_id] = true; });
   var annotator = "";
 
   function el(tag, attrs, children) {
@@ -160,7 +165,7 @@ details.ref .chunk { border-top: 1px solid var(--line); padding: 6px 0; font-siz
   }
   function sectionText(o) { return o.section + (o.section_en ? "（" + o.section_en + "）" : ""); }
   function entry(qid) {
-    if (!state[qid]) state[qid] = { absent: false, note: "", labels: {} };
+    if (!state[qid]) state[qid] = { absent: false, elsewhere: false, elsewhere_ids: [], note: "", labels: {} };
     return state[qid];
   }
   function isDone(item) {
@@ -223,7 +228,39 @@ details.ref .chunk { border-top: 1px solid var(--line); padding: 6px 0; font-siz
       absent.checked = s.absent;
       absent.addEventListener("change", function () {
         s.absent = absent.checked;
-        if (s.absent) item.candidates.forEach(function (c) { s.labels[c.chunk_id] = "none"; });
+        if (s.absent) {
+          s.elsewhere = false;
+          item.candidates.forEach(function (c) { s.labels[c.chunk_id] = "none"; });
+        }
+        changed(item, card);
+        render();
+        document.getElementById("q-" + item.query_id).scrollIntoView({ block: "nearest" });
+      });
+      var elsewhere = el("input", { type: "checkbox" });
+      elsewhere.checked = !!s.elsewhere;
+      elsewhere.disabled = s.absent;
+      var ids = el("input", { type: "text", class: "ids", placeholder: "对应段落 ID（可选，如 " +
+        (DATA.target_chunks[0] ? DATA.target_chunks[0].chunk_id : "en_0042") + "）" });
+      ids.value = (s.elsewhere_ids || []).join(", ");
+      var idsWarn = el("span", { class: "warn" });
+      var idsRow = el("div", { class: "idsrow" + (s.elsewhere ? "" : " hidden") }, [ids, idsWarn]);
+      function readIds() {
+        var parts = ids.value.split(/[\s,，;；]+/).filter(Boolean);
+        var cands = {};
+        item.candidates.forEach(function (c) { cands[c.chunk_id] = true; });
+        var bad = parts.filter(function (x) { return !TARGET_IDS[x]; });
+        var inCands = parts.filter(function (x) { return cands[x]; });
+        s.elsewhere_ids = parts.filter(function (x) { return TARGET_IDS[x] && !cands[x]; });
+        var msgs = [];
+        if (bad.length) msgs.push("不存在的 ID：" + bad.join(", "));
+        if (inCands.length) msgs.push(inCands.join(", ") + " 是上面的候选，请直接标注");
+        idsWarn.textContent = msgs.length ? msgs.join("；") + "（不会导出）" : "";
+      }
+      readIds();
+      ids.addEventListener("input", function () { readIds(); save(); });
+      elsewhere.addEventListener("change", function () {
+        s.elsewhere = elsewhere.checked;
+        if (s.elsewhere) s.absent = false;
         changed(item, card);
         render();
         document.getElementById("q-" + item.query_id).scrollIntoView({ block: "nearest" });
@@ -232,7 +269,9 @@ details.ref .chunk { border-top: 1px solid var(--line); padding: 6px 0; font-siz
       note.value = s.note || "";
       note.addEventListener("input", function () { s.note = note.value; save(); });
       card.appendChild(el("div", { class: "foot" }, [
+        el("label", null, [elsewhere, document.createTextNode(" 有对应段落，但不在这 " + DATA.k + " 个候选里")]),
         el("label", null, [absent, document.createTextNode(" 另一种语言里完全没有（" + DATA.target_lang.toUpperCase() + " 全文都没有这段内容）")]),
+        idsRow,
         note
       ]));
       root.appendChild(card);
@@ -272,7 +311,9 @@ details.ref .chunk { border-top: 1px solid var(--line); padding: 6px 0; font-siz
       items: DATA.items.map(function (item) {
         var s = entry(item.query_id);
         return {
-          query_id: item.query_id, section: item.section, absent: !!s.absent, note: s.note || "",
+          query_id: item.query_id, section: item.section, absent: !!s.absent,
+          elsewhere: !!s.elsewhere, elsewhere_ids: s.elsewhere ? (s.elsewhere_ids || []) : [],
+          note: s.note || "",
           candidates: item.candidates.map(function (c) {
             return { chunk_id: c.chunk_id, chunk_sim: c.chunk_sim, section: c.section, label: s.labels[c.chunk_id] || null };
           })
@@ -297,7 +338,8 @@ details.ref .chunk { border-top: 1px solid var(--line); padding: 6px 0; font-siz
         }
         var n = 0;
         d.items.forEach(function (it) {
-          var s = { absent: !!it.absent, note: it.note || "", labels: {} };
+          var s = { absent: !!it.absent, elsewhere: !!it.elsewhere, elsewhere_ids: it.elsewhere_ids || [],
+                    note: it.note || "", labels: {} };
           it.candidates.forEach(function (c) { if (c.label) s.labels[c.chunk_id] = c.label; });
           state[it.query_id] = s; n++;
         });

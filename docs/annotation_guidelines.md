@@ -16,11 +16,12 @@ For each candidate, choose one label:
 | **部分对应** | `partial` | The chunks **share at least one specific claim or fact**, but one or both also contain substantial content the other lacks. Typical cases: one chunk is a subset of the other; the two editions split or merge paragraphs differently; the chunks overlap on one event but go on to different things. |
 | **不对应** | `none` | The chunks share **no specific claim**. Being about the same topic, section or period is not enough. |
 
-For each card there is also a checkbox:
+Each card also has two checkboxes; you can check at most one:
 
-- **另一种语言里完全没有** (`absent`): nothing anywhere in the other article expresses any of this chunk's content. Check this only after searching the full text of the other article; the page has an expandable "查看全文" panel for this (use Ctrl/⌘-F with names, numbers and years). Checking it marks all three candidates `不对应`. **If the content is in the other article but not among the three candidates**, label the three candidates normally and leave the box unchecked, with a note such as `match is en_0042`.
+- **有对应段落，但不在这 3 个候选里** (`elsewhere`): the other article does contain this content (fully or partly), but in a chunk that is not one of the three candidates. Still label the three candidates. Type the matching chunk ID(s) into the box that appears if you can (find them in the "查看全文" panel; separate several with commas). This is scored as a **miss by the aligner** (lost recall), never as "absent".
+- **另一种语言里完全没有** (`absent`): nothing anywhere in the other article expresses any of this chunk's content. Check this only after searching the full text of the other article; the page has an expandable "查看全文" panel for this (use Ctrl/⌘-F with names, numbers and years). Checking it marks all three candidates `不对应`. If the content is in the other article but not among the three candidates, use **有对应段落，但不在这 3 个候选里** instead.
 
-A card is complete when all three candidates are labelled or the box is checked.
+A card is complete when all three candidates are labelled, or when 完全没有 is checked. Checking 有对应段落… does not complete a card by itself, because the three candidates still need labels.
 
 ## Decision rules
 
@@ -83,7 +84,8 @@ See the PR description or `python -m wikilens annotate -h`. In short:
 
 - **TP**: a matched pair labelled `match` or `partial`. `partial` counts as positive by default; `--partial negative|ignore` changes this.
 - **FP**: a matched pair labelled `none`, or any match for a chunk marked `absent`.
+- **有对应段落，但不在候选里** (`elsewhere`): if you named the matching chunk(s), each one is a TP when the aligner matched it and an FN when it did not. If you named none, the chunk adds **one FN at every threshold**. The report lists these chunks separately (how many, how many were named) and gives the FN they cause as `fn_elsewhere`.
 - **FN**: a `match`/`partial` pair the aligner did not match.
-- **Pairs outside the top 3** that the aligner matched (`--unlabelled`): by default (`auto`) they count as FP when the chunk's third-ranked candidate was labelled `none`. In that case the ranking has already run out of matches, so lower-ranked chunks are taken as non-matches. Otherwise they are reported as "uncounted". Recall is relative to the top-3 pool, which is one more reason to write `match is …` notes when the real match is ranked lower.
+- **Pairs outside the top 3** that the aligner matched (`--unlabelled`): by default (`auto`) they count as FP when the chunk's third-ranked candidate was labelled `none`. In that case the ranking has already run out of matches, so lower-ranked chunks are taken as non-matches. Otherwise they are reported as "uncounted", and so is any pair for a chunk marked `elsewhere` without an ID, since that pair might be the unnamed match. Positives outside the top 3 are known only where you used `elsewhere`, so name the chunk ID whenever you can.
 
 The best grid point is chosen on the same labels, so its F1 is optimistic. With two or more articles, `evaluate` also reports a cross-article score: thresholds chosen on one article and scored on the other.

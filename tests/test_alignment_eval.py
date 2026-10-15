@@ -64,32 +64,46 @@ def test_align_routing_and_threshold():
     assert s.align(0.55, np.inf)[1].tolist() == [False, True, True, False]
 
 
-def _case(labels=None, absent=False, tail_negative=False, partial="positive"):
-    q = ae.LabelledQuery("run", "T", "en-de", "de", "en", "q1", absent, labels or {}, tail_negative)
+def _case(labels=None, absent=False, tail_negative=False, partial="positive", elsewhere=False, elsewhere_ids=()):
+    q = ae.LabelledQuery("run", "T", "en-de", "de", "en", "q1", absent, labels or {}, tail_negative,
+                         elsewhere, list(elsewhere_ids))
     return ae.resolve_cases([q], lambda *a: _sims(), partial)[0]
 
 
 def test_counts():
     c = _case({"t2": "match", "t1": "partial", "t0": "none"})
     # chunk_thr 0.55, routing off: q1 predicts t1, t2 → both positive.
-    assert c.counts(0.55, np.inf).tolist() == [2, 0, 0, 0]
+    assert c.counts(0.55, np.inf).tolist() == [2, 0, 0, 0, 0]
     # Routed to B: t1 missed.
-    assert c.counts(0.55, 0.5).tolist() == [1, 0, 1, 0]
+    assert c.counts(0.55, 0.5).tolist() == [1, 0, 1, 0, 0]
     # chunk_thr 0: predicts all four; t0 labelled none (fp), t3 unlabelled.
-    assert c.counts(-1, np.inf, "ignore").tolist() == [2, 1, 0, 1]
-    assert c.counts(-1, np.inf, "fp").tolist() == [2, 2, 0, 0]
-    assert c.counts(-1, np.inf, "auto").tolist() == [2, 1, 0, 1]  # tail not negative
+    assert c.counts(-1, np.inf, "ignore").tolist() == [2, 1, 0, 1, 0]
+    assert c.counts(-1, np.inf, "fp").tolist() == [2, 2, 0, 0, 0]
+    assert c.counts(-1, np.inf, "auto").tolist() == [2, 1, 0, 1, 0]  # tail not negative
     tail = _case({"t2": "match", "t1": "partial", "t0": "none"}, tail_negative=True)
-    assert tail.counts(-1, np.inf, "auto").tolist() == [2, 2, 0, 0]
+    assert tail.counts(-1, np.inf, "auto").tolist() == [2, 2, 0, 0, 0]
     # partial as negative / ignored
-    assert _case({"t2": "match", "t1": "partial"}, partial="negative").counts(0.55, np.inf).tolist() == [1, 1, 0, 0]
-    assert _case({"t2": "match", "t1": "partial"}, partial="ignore").counts(0.55, np.inf, "ignore").tolist() == [1, 0, 0, 1]
+    assert _case({"t2": "match", "t1": "partial"}, partial="negative").counts(0.55, np.inf).tolist() == [1, 1, 0, 0, 0]
+    assert _case({"t2": "match", "t1": "partial"}, partial="ignore").counts(0.55, np.inf, "ignore").tolist() == [1, 0, 0, 1, 0]
 
 
 def test_absent_counts_every_prediction_as_fp():
     c = _case(absent=True, tail_negative=True)
-    assert c.counts(0.55, np.inf).tolist() == [0, 2, 0, 0]
-    assert c.counts(0.99, np.inf).tolist() == [0, 0, 0, 0]
+    assert c.counts(0.55, np.inf).tolist() == [0, 2, 0, 0, 0]
+    assert c.counts(0.99, np.inf).tolist() == [0, 0, 0, 0, 0]
+
+
+def test_elsewhere_is_a_miss_not_absent():
+    # Unnamed: one FN at every threshold, even when the aligner matches nothing.
+    c = _case({"t0": "none"}, elsewhere=True)
+    assert c.counts(0.99, np.inf).tolist() == [0, 0, 1, 0, 1]
+    # q1 predicts t1, t2 at 0.55 with routing off; they are outside the labelled
+    # pairs and might be the unnamed match, so they stay uncounted under auto.
+    assert c.counts(0.55, np.inf).tolist() == [0, 0, 1, 2, 1]
+    # Named: t2 is the match outside the candidates; found at 0.55, missed at 0.9.
+    named = _case({"t0": "none"}, elsewhere=True, elsewhere_ids=["t2"], tail_negative=True)
+    assert named.counts(0.55, np.inf).tolist() == [1, 1, 0, 0, 0]  # t1 → fp via the tail rule
+    assert named.counts(0.9, np.inf).tolist() == [0, 0, 1, 0, 1]
 
 
 def test_load_label_files(tmp_path):
@@ -104,14 +118,23 @@ def test_load_label_files(tmp_path):
                 {"chunk_id": "en_1", "chunk_sim": 0.5, "label": "none"}]},
             {"query_id": "zh_2", "absent": False, "candidates": [
                 {"chunk_id": "en_1", "chunk_sim": 0.5, "label": None}]},
+            {"query_id": "zh_3", "absent": False, "elsewhere": True, "elsewhere_ids": [], "candidates": [
+                {"chunk_id": "en_1", "chunk_sim": 0.7, "label": "partial"},
+                {"chunk_id": "en_2", "chunk_sim": 0.6, "label": "none"}]},
+            {"query_id": "zh_4", "absent": False, "elsewhere": True, "elsewhere_ids": ["en_9", "en_1"],
+             "candidates": [{"chunk_id": "en_1", "chunk_sim": 0.7, "label": None}]},
         ],
     }
     path = tmp_path / "r.json"
     path.write_text(json.dumps(data), encoding="utf-8")
     queries, warnings = ae.load_label_files([path])
-    assert [q.query_id for q in queries] == ["zh_0", "zh_1"]
+    assert [q.query_id for q in queries] == ["zh_0", "zh_1", "zh_3", "zh_4"]
     assert queries[0].tail_negative and queries[0].labels == {"en_1": "match", "en_2": "none"}
-    assert queries[1].absent and queries[1].labels == {}
+    assert queries[1].absent and queries[1].labels == {} and not queries[1].elsewhere
+    # Unnamed match outside the candidates: lower-ranked chunks may be it, so no tail rule.
+    assert queries[2].elsewhere and not queries[2].tail_negative and queries[2].elsewhere_ids == []
+    # Kept even with no candidate labelled; ids already among the candidates are dropped.
+    assert queries[3].elsewhere and queries[3].elsewhere_ids == ["en_9"]
     assert warnings == [f"{path}: 1 unlabelled item(s) ignored"]
 
 

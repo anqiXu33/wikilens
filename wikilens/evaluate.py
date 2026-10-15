@@ -7,13 +7,16 @@ Counting, per labelled query chunk q (see docs/annotation_guidelines.md):
   * otherwise, over q's labelled top-k candidates: predicted & positive = TP,
     predicted & "none" = FP, positive & not predicted = FN. "partial" counts as
     positive by default (--partial).
+  * q marked "elsewhere" (a match exists, but not among the top-k candidates):
+    a recall loss for the aligner, never "absent". If the annotator named the
+    matching chunk(s), each is a TP when the aligner matched it and an FN when
+    not; otherwise q adds one FN at every threshold. Reported as fn_elsewhere.
   * predicted pairs outside the labelled candidates (--unlabelled): with the
     default "auto" they are false positives when q's lowest-ranked candidate
     was labelled "none" (the ranking had already run out of matches), and
     otherwise unknown: reported as "uncounted", not scored.
-Precision / recall / F1 are micro-averaged over pairs. Positives that were not
-among the top-k candidates are never seen, so recall is measured relative to
-the top-k candidate pool.
+Precision / recall / F1 are micro-averaged over pairs. Positives outside the
+top-k candidates are known only where the annotator marked "elsewhere".
 """
 import csv
 import json
@@ -39,7 +42,7 @@ def _row(name: str, chunk_thr: float, path_thr: float, m: dict, ci=None) -> str:
     ci_s = f"  [{ci[0]:.3f}, {ci[1]:.3f}]" if ci else ""
     return (f"  {name:<22} {chunk_thr:>6.2f} {_fmt_thr(path_thr):>6}   "
             f"{m['precision']:.3f}  {m['recall']:.3f}  {m['f1']:.3f}{ci_s}"
-            f"   tp {m['tp']} fp {m['fp']} fn {m['fn']}  uncounted {m['uncounted']}")
+            f"   tp {m['tp']} fp {m['fp']} fn {m['fn']}  fn_elsewhere {m['fn_elsewhere']}  uncounted {m['uncounted']}")
 
 
 def _with(grid: list[float], extra) -> list[float]:
@@ -52,7 +55,7 @@ def evaluate_pair(pair: str, cases: list, args) -> dict:
     chunk_grid = _with(ae.parse_grid(args.chunk_grid), [default[0], REFERENCE[0]])
     path_grid = _with(ae.parse_grid(args.path_grid), [default[1], REFERENCE[1]]) + [OFF]
 
-    counts = ae.grid_counts(cases, chunk_grid, path_grid, args.unlabelled)  # (C, P, N, 4)
+    counts = ae.grid_counts(cases, chunk_grid, path_grid, args.unlabelled)  # (C, P, N, 5)
     total = counts.sum(axis=2)
     metrics = [[ae.prf(total[i, j]) for j in range(len(path_grid))] for i in range(len(chunk_grid))]
     f1 = np.array([[m["f1"] for m in row] for row in metrics])
@@ -75,6 +78,9 @@ def evaluate_pair(pair: str, cases: list, args) -> dict:
         "articles": sorted({c.query.title for c in cases}),
         "n_queries": len(cases),
         "n_absent": sum(c.query.absent for c in cases),
+        "n_elsewhere": sum(c.query.elsewhere for c in cases),
+        "n_elsewhere_named": sum(c.query.elsewhere and bool(c.query.elsewhere_ids) for c in cases),
+        "n_elsewhere_pairs": int(sum(len(c.elsewhere_cols) or c.query.elsewhere for c in cases)),
         "n_labelled_pairs": int(sum(len(c.pos_cols) + len(c.neg_cols) for c in cases)),
         "n_positive_pairs": int(sum(len(c.pos_cols) for c in cases)),
         "partial": args.partial,
@@ -114,12 +120,12 @@ def write_outputs(res: dict, out_dir: Path) -> list[Path]:
     csv_path = stem.with_name(stem.name + "_grid.csv")
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["chunk_thr", "path_thr", "precision", "recall", "f1", "tp", "fp", "fn", "uncounted"])
+        w.writerow(["chunk_thr", "path_thr", "precision", "recall", "f1", "tp", "fp", "fn", "fn_elsewhere", "uncounted"])
         for i, c in enumerate(chunk_grid):
             for j, p in enumerate(path_grid):
                 m = metrics[i][j]
                 w.writerow([f"{c:.4g}", _fmt_thr(p), f"{m['precision']:.4f}", f"{m['recall']:.4f}",
-                            f"{m['f1']:.4f}", m["tp"], m["fp"], m["fn"], m["uncounted"]])
+                            f"{m['f1']:.4f}", m["tp"], m["fp"], m["fn"], m["fn_elsewhere"], m["uncounted"]])
     json_path = stem.with_name(stem.name + "_summary.json")
     json_path.write_text(json.dumps({k: v for k, v in res.items() if not k.startswith("_")},
                                     ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -206,9 +212,13 @@ def plot(res: dict, path: Path) -> None:
 
 def print_report(res: dict, outputs: list[Path]) -> None:
     print(f"\n== {res['pair']} ==  articles: {', '.join(a.replace('_', ' ') for a in res['articles'])}")
-    print(f"  {res['n_queries']} labelled chunks ({res['n_absent']} absent in the other language), "
-          f"{res['n_labelled_pairs']} labelled pairs, {res['n_positive_pairs']} positive "
-          f"(partial = {res['partial']})")
+    print(f"  {res['n_queries']} labelled chunks, {res['n_labelled_pairs']} labelled candidate pairs, "
+          f"{res['n_positive_pairs']} positive among them (partial = {res['partial']})")
+    print(f"  absent in the other language:        {res['n_absent']} chunks")
+    print(f"  match exists outside the candidates: {res['n_elsewhere']} chunks "
+          f"({res['n_elsewhere_named']} with the matching chunk named, "
+          f"{res['n_elsewhere'] - res['n_elsewhere_named']} unnamed = 1 FN each at every threshold); "
+          f"{res['n_elsewhere_pairs']} positive pairs")
     print(f"\n  {'setting':<22} {'chunk':>6} {'path':>6}   prec   rec    F1     [F1 95% CI]")
     for name, m in res["reference_points"].items():
         print(_row(name, m["chunk_thr"], m["path_thr"] if m["path_thr"] is not None else OFF, m, m["f1_95ci"]))
