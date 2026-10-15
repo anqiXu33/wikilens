@@ -149,8 +149,15 @@ def extract_sentences_by_section(page, lang):
     return data
 
 
+# Bump whenever extract_sentences_by_section changes what it produces, so caches
+# written by older code are re-fetched instead of silently reused.
+#   v1 (unversioned files): lead labelled "Intro", whole lead as paragraph 0
+#   v2: lead labelled "(Lead)" and split into paragraphs
+CACHE_VERSION = 2
+
+
 def get_cache_path(title, lang):
-    return CACHE_DIR / f"{lang}_{title.replace(' ', '_')}.json"
+    return CACHE_DIR / f"{lang}_{title.replace(' ', '_')}.v{CACHE_VERSION}.json"
 
 
 def save_to_cache(df, title, lang):
