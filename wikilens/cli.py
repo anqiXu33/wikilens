@@ -1,7 +1,7 @@
 """WikiLens command line.
 
     python -m wikilens run --title "Gala (apple)" --pair en-de             # full pipeline (needs an LLM backend)
-    python -m wikilens run --title "Gala (apple)" --pair en-de --no-score  # fetch → align only, no LLM
+    python -m wikilens run --title "Gala (apple)" --pair en-de --no-score  # fetch → align only, no LLM scoring
     python -m wikilens run --title "Gala (apple)" --pair en-de --offline   # replay saved scores, no network
     python -m wikilens runs                                                # list saved runs
     python -m wikilens replay [RUN_ID]                                     # summarise a saved run

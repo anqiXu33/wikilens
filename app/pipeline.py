@@ -15,7 +15,9 @@ import pandas as pd
 
 from app.services.fetcher import fetch_multilang_from_url, extract_title_from_url
 from app.services.chunker import paragraph_chunk
-from app.services.embedder import embed_language, translate_section_names, LABSE_MODEL, LABSE_REVISION
+from app.services.embedder import (
+    embed_language, translate_section_names, check_translation_config, LABSE_MODEL, LABSE_REVISION,
+)
 from app.services.aligner_en_to_source import match_en_to_lang
 from app.services.aligner_source_to_en import align_language
 
@@ -83,6 +85,12 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
     """
     lang1, lang2 = parse_language_pair(language_pair)
     non_en_lang = lang2 if lang1 == "en" else lang1
+    # Fail before fetching anything if TRANSLATION_BACKEND is invalid or
+    # asks for an LLM that isn't configured.
+    try:
+        check_translation_config()
+    except RuntimeError as e:
+        raise PipelineError(400, str(e)) from e
     if do_score:
         # Imported here so that the backend choice (SCORING_BACKEND, read by
         # the scorer at import) can be set by the caller first. Fail before
@@ -126,8 +134,10 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
     # Translate section names to English once per run; the same mapping is
     # used for the section embeddings and for the section labels of the
     # scores, and saved with the run.
+    translation_info: dict[str, dict] = {}
     section_names = {
-        lang: translate_section_names(df["section"].tolist(), lang)
+        lang: translate_section_names(df["section"].tolist(), lang,
+                                      info=translation_info.setdefault(lang, {}))
         for lang, df in chunked_articles.items()
     }
     with open(run_dir / "section_names_en.json", "w", encoding="utf-8") as f:
@@ -170,6 +180,9 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
             "git_sha": _git_sha(),
             "labse": f"{LABSE_MODEL}@{LABSE_REVISION}",
             "scoring": _scoring_info() if do_score else None,
+            # How the non-English section names were translated (cache / llm /
+            # google), with the LLM used and any names left untranslated
+            "section_names": translation_info.get(non_en_lang),
         },
     }
     summary = {

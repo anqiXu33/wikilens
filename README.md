@@ -223,28 +223,71 @@ python -m wikilens replay --json        # raw run metadata and scores
 - `--title` is the **English** Wikipedia title; the other edition's title comes from Wikidata.
 - `--pair` needs English on one side (`en-de`, `de-en`, `en-zh`, ...).
 - `--backend {ollama,openai,watsonx}` overrides `SCORING_BACKEND` from `.env`.
-- Each new run's `meta.json` records the git commit, the LaBSE revision and the scoring backend, model and endpoint (`provenance.scoring`: `backend`, `model`, `base_url`; never the API key).
+- Each new run's `meta.json` records the git commit, the LaBSE revision and the scoring backend, model and endpoint (`provenance.scoring`: `backend`, `model`, `base_url`; never the API key), plus how the section names were translated (`provenance.section_names`, see below).
 - `--no-score` runs are listed but not added to the dashboard history, since the dashboard needs score files.
+- `--no-score` still translates section names as `TRANSLATION_BACKEND` says; with the default `auto` that is the LLM if one is configured. Set `TRANSLATION_BACKEND=google` or `none` to keep LLMs out of a `--no-score` run entirely.
 
-### Section-name translation cache
+### Section-name translation
 
-Before embedding, non-English section names are translated to English with
-Google Translate (via `deep-translator`). This happens once per run: the same
-mapping is used for the section embeddings and for the section labels of the
-scores, and is saved as `section_names_en.json` in the run directory.
+Before embedding, non-English section names are translated to English. This
+happens once per run: the same mapping is used for the section embeddings and
+for the section labels of the scores, and is saved as `section_names_en.json`
+in the run directory.
 
-Google's free endpoint allows about 5 requests per second, so all of a
-language's uncached names are sent in a single newline-joined request (falling
-back to one request per name, at most 2 per second, if the reply doesn't split
-back into one line per name). HTTP 429 and server errors are retried after 2, 4,
-8 and 16 s; if Google is still refusing after that, the remaining names are not
-requested again in that run.
+`TRANSLATION_BACKEND` in `.env` selects the translator:
+
+| Value | Behaviour |
+|---|---|
+| `auto` (default) | The scoring LLM if `SCORING_BACKEND` is `openai` or `ollama` (and configured); otherwise, or if the LLM request fails, Google Translate |
+| `llm` | The scoring LLM only; the run fails at start if `SCORING_BACKEND` is not a configured `openai`/`ollama` backend |
+| `google` | Google Translate only (via `deep-translator`) |
+| `none` | No translation; section names stay in the original language |
+
+**LLM.** All of an article's uncached section names go to the scoring
+backend in a single chat request, using the same request code, model and
+retry behaviour as scoring (`temperature: 0`). The model is asked for a JSON
+object mapping each original name to its English translation. The reply is
+checked: the number of entries must match, every value must be a non-empty
+string, and nested names must keep their ` > ` separators. Invalid entries
+keep their original name, with a warning. If the request itself fails (backend
+unreachable, HTTP error after retries, no JSON in the reply), `auto` falls
+back to Google Translate for that article's names; `llm` keeps the original
+names.
+
+**Google Translate.** Google's free endpoint allows about 5 requests per
+second, so all of a language's uncached names are sent in a single
+newline-joined request (falling back to one request per name, at most 2 per
+second, if the reply doesn't split back into one line per name). HTTP 429 and
+server errors are retried after 2, 4, 8 and 16 s; if Google is still refusing
+after that, the remaining names are not requested again in that run. In
+practice the free endpoint often refuses even that single request, which is
+why `auto` prefers the LLM.
 
 Translations are cached in
-`app/cached_translations/section_names.json` (`{lang: {name: english}}`), so a
-re-run doesn't call Google Translate again and gets the same section names.
-Commit the file to make runs reproducible for others. Failed translations are
-logged and not cached; the original name is used for that run.
+`app/cached_translations/section_names.json` (`{lang: {name: english}}`)
+whichever translator produced them, so a re-run doesn't request them again and
+gets the same section names. Commit the file to make runs reproducible for
+others. Failed translations are logged and not cached; the original name is
+used for that run. To re-translate names with a different backend, delete
+their entries (or the file).
+
+Each run's `meta.json` records how the section names were translated, under
+`provenance.section_names`:
+
+```json
+"section_names": {
+  "translation_backend": "auto",
+  "method": "llm",
+  "sources": {"llm": 9},
+  "llm": {"backend": "openai", "model": "meta-llama/llama-3.3-70b-instruct",
+          "base_url": "https://openrouter.ai/api/v1"},
+  "untranslated": []
+}
+```
+
+`sources` counts the names that came from `cache`, `llm` or `google` in this
+run; `method` joins those sources (`cache+llm`, ...) or is `none`;
+`untranslated` lists names kept in the original language.
 
 ---
 
@@ -271,7 +314,7 @@ wikilens/
 │   └── services/
 │       ├── fetcher.py              # Wikipedia API + sentence splitting
 │       ├── chunker.py              # Paragraph-based chunking
-│       ├── embedder.py             # LaBSE embedding
+│       ├── embedder.py             # LaBSE embedding + section-name translation
 │       ├── aligner_en_to_source.py # EN → other language alignment
 │       ├── aligner_source_to_en.py # Other language → EN alignment
 │       └── scorer.py               # LLM scoring (watsonx.ai / Ollama / OpenAI-compatible)
@@ -282,6 +325,7 @@ wikilens/
 │   │                               #   alignments_*/, scores/, meta.json
 │   └── history.json                # Runs shown in the dashboard
 ├── wikilens/                       # Command line: python -m wikilens
+├── tests/                          # Unit tests, no network (python -m pytest tests)
 ├── main.py                         # FastAPI server
 ├── eval_alignment_threshold.py     # Threshold calibration script
 ├── .env                            # Local config (not committed)
