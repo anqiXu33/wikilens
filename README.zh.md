@@ -2,6 +2,8 @@
 
 <p align="center"><em>维基百科跨语言偏见分析工具</em></p>
 
+<p align="center">为 <strong>IBM watsonx GenAI Challenge 2025</strong> 开发，赛后独立继续改造。</p>
+
 <p align="center">
   <img alt="python 3.12" src="https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white">
   <img alt="embeddings LaBSE" src="https://img.shields.io/badge/embeddings-LaBSE-6f42c1">
@@ -14,7 +16,7 @@
 
 **维基百科跨语言偏见分析工具。** 把同一个词条的两个语言版本放在一起，对齐讲同一件事的段落，看看每个版本漏掉了什么、又是怎么说的。
 
-<p align="center"><img src="docs/images/social_credit_results.png" alt="社会信用体系，英文版与中文版：汇总卡片与分章节框架分数" width="600"></p>
+<p align="center"><img src="docs/images/social_credit_results.png" alt="社会信用体系，英文版与中文版：汇总卡片与分章节框架分数" width="70%"></p>
 
 ## 它做什么
 
@@ -44,7 +46,7 @@
 
 ## 它发现了什么
 
-<p align="center"><img src="docs/images/social_credit_coverage_gaps.png" alt="内容缺口：中文版没有对应内容的英文段落" width="600"></p>
+<p align="center"><img src="docs/images/social_credit_coverage_gaps.png" alt="内容缺口：中文版没有对应内容的英文段落" width="70%"></p>
 
 - **同一家公司，侧重不同。** 中文《华为》主要写公司内部：早期交换机、管理文化、员工待遇、子公司；英文主要写外部：制裁、安全指控、5G 禁令。
 - **同一份报道，相反的用法。** 中文《社会信用体系》在负面评价里引用 2015 年荷兰媒体的报道；英文把同一份报道放在「误解」一节，当作「全国统一信用分」这个误解的源头。
