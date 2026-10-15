@@ -31,89 +31,23 @@ class AnalysisRequest(BaseModel):
     language_pair: str
 
 
-def create_dummy_response(lang1, lang2, title, articles, chunked_articles):
-    """Create dummy response when scoring fails or isn't applicable"""
-    outputs_dir = Path("outputs/scores")
-
-    # Create dummy scores
-    scores1 = []
-    scores2 = []
-
-    if lang1 in chunked_articles:
-        df1 = chunked_articles[lang1]
-        for _, row in df1.iterrows():
-            scores1.append(
-                {
-                    "chunk_id": row["chunk_id"],
-                    "base_lang": lang1,
-                    "chunk_text": row["chunk_text"],
-                    "section": row["section"],
-                    "omission_lang": lang2,
-                    "omission_text": "",
-                    "ideology_score": 0.0,
-                    "framing_score": 0.0,
-                    "sentiment_score": 0.0,
-                    "base_points": 1,
-                    "omission_points": 1 if lang2 in chunked_articles else 0,
-                    "omission_score": 0.0,
-                }
-            )
-
-    if lang2 in chunked_articles:
-        df2 = chunked_articles[lang2]
-        for _, row in df2.iterrows():
-            scores2.append(
-                {
-                    "chunk_id": row["chunk_id"],
-                    "base_lang": lang2,
-                    "chunk_text": row["chunk_text"],
-                    "section": row["section"],
-                    "omission_lang": lang1,
-                    "omission_text": "",
-                    "ideology_score": 0.0,
-                    "framing_score": 0.0,
-                    "sentiment_score": 0.0,
-                    "base_points": 1,
-                    "omission_points": 1 if lang1 in chunked_articles else 0,
-                    "omission_score": 0.0,
-                }
-            )
-
-    # Save dummy results
-    file1 = outputs_dir / f"base_{lang1}_omit_{lang2}_scores.json"
-    file2 = outputs_dir / f"base_{lang2}_omit_{lang1}_scores.json"
-
-    with open(file1, "w", encoding="utf-8") as f:
-        json.dump(scores1, f, indent=2, ensure_ascii=False)
-    with open(file2, "w", encoding="utf-8") as f:
-        json.dump(scores2, f, indent=2, ensure_ascii=False)
-
-    return {
-        "success": True,
-        "title": title,
-        "languages_found": list(articles.keys()),
-        "file1_url": f"/outputs/{file1.name}",
-        "file2_url": f"/outputs/{file2.name}",
-        "summary": {
-            lang: {
-                "total_chunks": len(chunked_articles[lang]),
-                "sections": list(chunked_articles[lang]["section"].unique()),
-            }
-            for lang in chunked_articles.keys()
-        },
-        "note": "Used dummy scores (scoring not available for this language pair)",
-    }
-
-
 @app.post("/analyze")
 async def analyze_endpoint(request: AnalysisRequest):
     return await analyze(request)
 
 
 async def analyze(request: AnalysisRequest):
+    # Parse and validate the language pair before doing any work. The aligners
+    # and the scorer need English on one side.
+    parts = request.language_pair.split("-")
+    if len(parts) != 2 or "en" not in parts or parts[0] == parts[1]:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid language pair '{request.language_pair}': expected 'en-xx' or 'xx-en'",
+        )
+    lang1, lang2 = parts
+
     try:
-        # Parse language pair
-        lang1, lang2 = request.language_pair.split("-")
 
         # Extract title from URL for logging
         title = extract_title_from_url(str(request.url))
@@ -128,9 +62,11 @@ async def analyze(request: AnalysisRequest):
             print(f"Error fetching articles: {e}")
             raise
 
-        if not articles:
+        missing = [l for l in (lang1, lang2) if l not in articles]
+        if missing:
             raise HTTPException(
-                status_code=404, detail="No articles found for the specified languages"
+                status_code=404,
+                detail=f"No article found for language(s): {', '.join(missing)}",
             )
 
         # Process articles through your analysis pipeline
@@ -359,25 +295,22 @@ async def analyze(request: AnalysisRequest):
                 return result
 
             except Exception as e:
+                # No placeholder scores: a failed scoring run is reported as
+                # an error and is not added to the history.
                 print(f"Scoring failed: {str(e)}")
-                # Fallback to dummy data if scoring fails
-                return create_dummy_response(
-                    lang1, lang2, title, articles, chunked_articles
+                raise HTTPException(
+                    status_code=502, detail=f"Scoring failed: {str(e)}"
                 )
 
         else:
-            print(
-                f"Warning: Neither language is English ({lang1}, {lang2}). Scorer requires English as one language."
-            )
-            # Fallback to dummy data for non-English pairs
-            return create_dummy_response(
-                lang1, lang2, title, articles, chunked_articles
+            # Unreachable after the validation above; kept as a guard.
+            raise HTTPException(
+                status_code=400,
+                detail=f"Scorer requires English as one language ({lang1}, {lang2})",
             )
 
-    except ValueError as e:
-        raise HTTPException(
-            status_code=400, detail=f"Invalid language pair format: {str(e)}"
-        )
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(
             status_code=500, detail=f"Analysis failed: {str(e)}")
