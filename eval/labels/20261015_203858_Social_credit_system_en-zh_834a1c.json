@@ -1,0 +1,708 @@
+{
+  "format": "wikilens-alignment-labels/1",
+  "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+  "title": "Social_credit_system",
+  "pair": "en-zh",
+  "query_lang": "zh",
+  "target_lang": "en",
+  "k": 3,
+  "sample": {
+    "n": 24,
+    "seed": 0
+  },
+  "annotator": "Anqi",
+  "page_generated_at": "2026-10-15T18:45:32+00:00",
+  "exported_at": "2026-10-15T20:26:13.662Z",
+  "items": [
+    {
+      "query_id": "zh_0000",
+      "section": "(Lead)",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0014"
+      ],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0013",
+          "chunk_sim": 0.7726,
+          "section": "History > 2014 to 2020",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0031",
+          "chunk_sim": 0.6948,
+          "section": "History > 2020 to present",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0056",
+          "chunk_sim": 0.6825,
+          "section": "Social credit mechanisms in practice > Social Credit System subjects > For companies",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0001",
+      "section": "(Lead)",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0077"
+      ],
+      "note": "同一说法结论相反：中文=与监控、人脸识别紧密相连；英文en_0076-0078=这是误解",
+      "candidates": [
+        {
+          "chunk_id": "en_0000",
+          "chunk_sim": 0.795,
+          "section": "(Lead)",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0002",
+          "chunk_sim": 0.7402,
+          "section": "(Lead)",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0036",
+          "chunk_sim": 0.731,
+          "section": "Organization",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0002",
+      "section": "(Lead)",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0052"
+      ],
+      "note": "另有en_0048(公开示众)、en_0070(名誉权隐私权)；与en_0032对惩戒力度描述冲突",
+      "candidates": [
+        {
+          "chunk_id": "en_0032",
+          "chunk_sim": 0.7169,
+          "section": "History > 2020 to present",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0065",
+          "chunk_sim": 0.6994,
+          "section": "Social credit mechanisms in practice > Examples of local scoring systems",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0045",
+          "chunk_sim": 0.6956,
+          "section": "Social credit mechanisms in practice > Blacklists",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0003",
+      "section": "(Lead)",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "同一事实，引用来源不同：中文引澎湃新闻，英文引The Spectator",
+      "candidates": [
+        {
+          "chunk_id": "en_0086",
+          "chunk_sim": 0.7985,
+          "section": "Popular culture",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0079",
+          "chunk_sim": 0.6698,
+          "section": "Misconceptions",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0071",
+          "chunk_sim": 0.6369,
+          "section": "Public opinion > Criticism",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0004",
+      "section": "涵盖内容 > 宗旨",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0037"
+      ],
+      "note": "2020年目标(法律法规标准、奖惩机制)也见en_0014",
+      "candidates": [
+        {
+          "chunk_id": "en_0002",
+          "chunk_sim": 0.744,
+          "section": "(Lead)",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0036",
+          "chunk_sim": 0.7353,
+          "section": "Organization",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0013",
+          "chunk_sim": 0.7292,
+          "section": "History > 2014 to 2020",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0005",
+      "section": "涵盖内容 > 宗旨",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "年份不一致：中文2018，英文2017年中；李克强2019年6月国常会英文没有",
+      "candidates": [
+        {
+          "chunk_id": "en_0016",
+          "chunk_sim": 0.6973,
+          "section": "History > 2014 to 2020",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0021",
+          "chunk_sim": 0.6779,
+          "section": "History > 2014 to 2020",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0017",
+          "chunk_sim": 0.6648,
+          "section": "History > 2014 to 2020",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0006",
+      "section": "涵盖内容 > 宗旨",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "时效差异：2025年11月新规中文已收录，英文未更新",
+      "candidates": [
+        {
+          "chunk_id": "en_0028",
+          "chunk_sim": 0.5613,
+          "section": "History > 2020 to present",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0026",
+          "chunk_sim": 0.5497,
+          "section": "History > 2020 to present",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0030",
+          "chunk_sim": 0.5143,
+          "section": "History > 2020 to present",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0007",
+      "section": "涵盖内容 > 政务诚信体系",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0059"
+      ],
+      "note": "中文=制度设计(公务员诚信档案)，英文=执行数据(13.3%处罚、<0.1%受罚)",
+      "candidates": [
+        {
+          "chunk_id": "en_0038",
+          "chunk_sim": 0.6032,
+          "section": "Organization > Conceptualization",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0002",
+          "chunk_sim": 0.5321,
+          "section": "(Lead)",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0000",
+          "chunk_sim": 0.5238,
+          "section": "(Lead)",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0008",
+      "section": "涵盖内容 > 商务诚信体系",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0016"
+      ],
+      "note": "芝麻信用后来变成会员积分计划，见英文Zhima Credit一节",
+      "candidates": [
+        {
+          "chunk_id": "en_0015",
+          "chunk_sim": 0.7204,
+          "section": "History > 2014 to 2020",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0011",
+          "chunk_sim": 0.7006,
+          "section": "History > 2002 to 2014",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0002",
+          "chunk_sim": 0.696,
+          "section": "(Lead)",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0009",
+      "section": "涵盖内容 > 社会诚信体系",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0061"
+      ],
+      "note": "框架相反：中文=与监控紧密相连；英文en_0061=这些只是部分城市的提议，早期纳入行为数据的尝试大多已放弃。疫情造谣英文没有(en_0024只有哄抬物价/伤医)",
+      "candidates": [
+        {
+          "chunk_id": "en_0086",
+          "chunk_sim": 0.5831,
+          "section": "Popular culture",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0056",
+          "chunk_sim": 0.5786,
+          "section": "Social credit mechanisms in practice > Social Credit System subjects > For companies",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0065",
+          "chunk_sim": 0.574,
+          "section": "Social credit mechanisms in practice > Examples of local scoring systems",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0010",
+      "section": "涵盖内容 > 司法公信体系",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0047",
+          "chunk_sim": 0.6316,
+          "section": "Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0009",
+          "chunk_sim": 0.5585,
+          "section": "History > 2002 to 2014",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0011",
+          "chunk_sim": 0.5507,
+          "section": "History > 2002 to 2014",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0011",
+      "section": "涵盖内容 > 司法公信体系",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0045",
+          "chunk_sim": 0.6025,
+          "section": "Social credit mechanisms in practice > Blacklists",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0047",
+          "chunk_sim": 0.5065,
+          "section": "Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0050",
+          "chunk_sim": 0.5045,
+          "section": "Social credit mechanisms in practice > Blacklists > Sectoral blacklists",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0012",
+      "section": "奖惩机制 > 惩戒方式",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "措辞差异：中文=不公平的严格监管，英文=便于监管者聚焦记录差的企业",
+      "candidates": [
+        {
+          "chunk_id": "en_0050",
+          "chunk_sim": 0.7271,
+          "section": "Social credit mechanisms in practice > Blacklists > Sectoral blacklists",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0045",
+          "chunk_sim": 0.7044,
+          "section": "Social credit mechanisms in practice > Blacklists",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0044",
+          "chunk_sim": 0.6347,
+          "section": "Social credit mechanisms in practice > Red Lists",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0013",
+      "section": "奖惩机制 > 惩戒方式",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "政府采购限制见en_0050；英文强调禁乘名单\"不影响生活其他方面\"，中文放在联合惩戒语境下",
+      "candidates": [
+        {
+          "chunk_id": "en_0015",
+          "chunk_sim": 0.6867,
+          "section": "History > 2014 to 2020",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0047",
+          "chunk_sim": 0.6686,
+          "section": "Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0011",
+          "chunk_sim": 0.6634,
+          "section": "History > 2002 to 2014",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0014",
+      "section": "奖惩机制 > 惩戒方式",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "电影院公示见en_0048，子女私立学校见en_0047；老赖彩铃、大学录取受影响英文没有",
+      "candidates": [
+        {
+          "chunk_id": "en_0052",
+          "chunk_sim": 0.7618,
+          "section": "Social credit mechanisms in practice > Blacklists > No-fly and no-ride lists",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0032",
+          "chunk_sim": 0.6827,
+          "section": "History > 2020 to present",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0065",
+          "chunk_sim": 0.6735,
+          "section": "Social credit mechanisms in practice > Examples of local scoring systems",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0015",
+      "section": "奖惩机制 > 奖励方式",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0044"
+      ],
+      "note": "苏州桂花分、广州招录任用/入户/住房优先英文没有；英文en_0018只列苏州为示范城市",
+      "candidates": [
+        {
+          "chunk_id": "en_0047",
+          "chunk_sim": 0.6006,
+          "section": "Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0065",
+          "chunk_sim": 0.5883,
+          "section": "Social credit mechanisms in practice > Examples of local scoring systems",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0061",
+          "chunk_sim": 0.5865,
+          "section": "Social credit mechanisms in practice > Social Credit System subjects > For individuals",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0016",
+      "section": "部分地區政策",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0064",
+          "chunk_sim": 0.554,
+          "section": "Social credit mechanisms in practice > Examples of local scoring systems",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0041",
+          "chunk_sim": 0.5019,
+          "section": "Social credit mechanisms in practice",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0037",
+          "chunk_sim": 0.4557,
+          "section": "Organization > Conceptualization",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0017",
+      "section": "評價 > 正面评价",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0068",
+          "chunk_sim": 0.8582,
+          "section": "Public opinion > Approval",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0070",
+          "chunk_sim": 0.724,
+          "section": "Public opinion > Criticism",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0071",
+          "chunk_sim": 0.7109,
+          "section": "Public opinion > Criticism",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0018",
+      "section": "評價 > 正面评价",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "同一学者的观点：中文放在一起（正面评价节），英文拆到支持和批评两节",
+      "candidates": [
+        {
+          "chunk_id": "en_0067",
+          "chunk_sim": 0.8688,
+          "section": "Public opinion > Approval",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0071",
+          "chunk_sim": 0.7195,
+          "section": "Public opinion > Criticism",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0078",
+          "chunk_sim": 0.7129,
+          "section": "Misconceptions",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0019",
+      "section": "評價 > 负面评价",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0070",
+          "chunk_sim": 0.8046,
+          "section": "Public opinion > Criticism",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0071",
+          "chunk_sim": 0.6791,
+          "section": "Public opinion > Criticism",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0065",
+          "chunk_sim": 0.6722,
+          "section": "Social credit mechanisms in practice > Examples of local scoring systems",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0020",
+      "section": "評價 > 负面评价",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0073"
+      ],
+      "note": "框架相反：中文负面评价节引用荷兰人民报、黑镜等报道作为批评；英文en_0073称荷兰报道是误解源头，en_0079称黑镜比喻是需要澄清的反乌托邦形象",
+      "candidates": [
+        {
+          "chunk_id": "en_0077",
+          "chunk_sim": 0.75,
+          "section": "Misconceptions",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0071",
+          "chunk_sim": 0.7475,
+          "section": "Public opinion > Criticism",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0078",
+          "chunk_sim": 0.7284,
+          "section": "Misconceptions",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0021",
+      "section": "評價 > 与港澳的关系",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "英文只有港府一句话；信用中国预留港澳台位置、澳门回应、大湾区计划英文没有",
+      "candidates": [
+        {
+          "chunk_id": "en_0021",
+          "chunk_sim": 0.7299,
+          "section": "History > 2014 to 2020",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0032",
+          "chunk_sim": 0.7148,
+          "section": "History > 2020 to present",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0070",
+          "chunk_sim": 0.6691,
+          "section": "Public opinion > Criticism",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0022",
+      "section": "評價 > 流行文化",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "与英文en_0086几乎逐句一致，疑似译自英文版；对比第4题导言引澎湃新闻",
+      "candidates": [
+        {
+          "chunk_id": "en_0086",
+          "chunk_sim": 0.9236,
+          "section": "Popular culture",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0077",
+          "chunk_sim": 0.7584,
+          "section": "Misconceptions",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0078",
+          "chunk_sim": 0.7563,
+          "section": "Misconceptions",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0023",
+      "section": "参见",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "参见列表，非正文，切段时应排除",
+      "candidates": [
+        {
+          "chunk_id": "en_0038",
+          "chunk_sim": 0.5401,
+          "section": "Organization > Conceptualization",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0000",
+          "chunk_sim": 0.531,
+          "section": "(Lead)",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0002",
+          "chunk_sim": 0.4427,
+          "section": "(Lead)",
+          "label": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1434 @@
+{
+  "format": "wikilens-alignment-labels/1",
+  "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+  "title": "Huawei",
+  "pair": "en-zh",
+  "query_lang": "zh",
+  "target_lang": "en",
+  "k": 3,
+  "sample": {
+    "n": 50,
+    "seed": 0
+  },
+  "annotator": "Anqi",
+  "page_generated_at": "2026-10-15T18:45:32+00:00",
+  "exported_at": "2026-10-15T19:56:46.286Z",
+  "items": [
+    {
+      "query_id": "zh_0000",
+      "section": "(Lead)",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0000",
+          "chunk_sim": 0.8721,
+          "section": "(Lead)",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0001",
+          "chunk_sim": 0.6709,
+          "section": "(Lead)",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.6467,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0001",
+      "section": "(Lead)",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0033",
+          "chunk_sim": 0.613,
+          "section": "History > Recent performance",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0078",
+          "chunk_sim": 0.5975,
+          "section": "Competitive position",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0079",
+          "chunk_sim": 0.5894,
+          "section": "Competitive position > Research and development",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0002",
+      "section": "(Lead)",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "ZH 原文里有 “(2011-Missing required parameter 1=month!)”，是维基引用模板没渲染成功留下的错误文本。",
+      "candidates": [
+        {
+          "chunk_id": "en_0001",
+          "chunk_sim": 0.7896,
+          "section": "(Lead)",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0078",
+          "chunk_sim": 0.7022,
+          "section": "Competitive position",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0077",
+          "chunk_sim": 0.6377,
+          "section": "Competitive position",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0003",
+      "section": "(Lead)",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0004",
+          "chunk_sim": 0.8059,
+          "section": "(Lead)",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0084",
+          "chunk_sim": 0.7581,
+          "section": "Controversies > Allegations of state support",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0003",
+          "chunk_sim": 0.7563,
+          "section": "(Lead)",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0005",
+      "section": "名称",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0007",
+          "chunk_sim": 0.712,
+          "section": "Etymology",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0005",
+          "chunk_sim": 0.6568,
+          "section": "Etymology",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0009",
+          "chunk_sim": 0.6318,
+          "section": "History > Early years",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0007",
+      "section": "历史 > 创立期（1987年—1993年）",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0011"
+      ],
+      "note": "en_0013 也部分相关（C&C08 万门交换机）",
+      "candidates": [
+        {
+          "chunk_id": "en_0014",
+          "chunk_sim": 0.6629,
+          "section": "History > Early years",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0118",
+          "chunk_sim": 0.648,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0059",
+          "chunk_sim": 0.6232,
+          "section": "Products and services > Phones",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0008",
+      "section": "历史 > 创立期（1987年—1993年）",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0013"
+      ],
+      "note": "早期历史，正确段落在 Early years",
+      "candidates": [
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.6395,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0118",
+          "chunk_sim": 0.6315,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0082",
+          "chunk_sim": 0.619,
+          "section": "Controversies > Early business practices",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0012",
+      "section": "历史 > 发展期（1994年—2010年）",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.6696,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0118",
+          "chunk_sim": 0.64,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0124",
+          "chunk_sim": 0.6116,
+          "section": "Sanctions, bans, and restrictions > Other countries",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0013",
+      "section": "历史 > 发展期（1994年—2010年）",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "拒绝做手机的内容英文可能没有",
+      "candidates": [
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.7836,
+          "section": "History > Foreign expansion",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0124",
+          "chunk_sim": 0.652,
+          "section": "Sanctions, bans, and restrictions > Other countries",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0059",
+          "chunk_sim": 0.6432,
+          "section": "Products and services > Phones",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0016",
+      "section": "历史 > 发展期（1994年—2010年）",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.6756,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0099",
+          "chunk_sim": 0.6664,
+          "section": "Controversies > Intellectual property infringement",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0059",
+          "chunk_sim": 0.6635,
+          "section": "Products and services > Phones",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0017",
+      "section": "历史 > 发展期（1994年—2010年）",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0019"
+      ],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0059",
+          "chunk_sim": 0.7024,
+          "section": "Products and services > Phones",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0060",
+          "chunk_sim": 0.6902,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.6867,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0020",
+      "section": "历史 > 发展期（1994年—2010年）",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0060"
+      ],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0021",
+          "chunk_sim": 0.6531,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0122",
+          "chunk_sim": 0.6486,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Replacement operating systems",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0023",
+          "chunk_sim": 0.6485,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0023",
+      "section": "历史 > 成熟期（2011年至今）",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0058",
+          "chunk_sim": 0.6554,
+          "section": "Products and services > Phones",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0033",
+          "chunk_sim": 0.6361,
+          "section": "History > Recent performance",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0034",
+          "chunk_sim": 0.627,
+          "section": "History > Recent performance",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0028",
+      "section": "历史 > 境外发展",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.6896,
+          "section": "History > Foreign expansion",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0082",
+          "chunk_sim": 0.6841,
+          "section": "Controversies > Early business practices",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0019",
+          "chunk_sim": 0.6732,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0029",
+      "section": "历史 > 境外发展",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0080"
+      ],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.6849,
+          "section": "History > Foreign expansion",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0026",
+          "chunk_sim": 0.6291,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0023",
+          "chunk_sim": 0.6187,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0033",
+      "section": "历史 > 境外发展",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0076"
+      ],
+      "note": "同一事实（低价），框架相反",
+      "candidates": [
+        {
+          "chunk_id": "en_0001",
+          "chunk_sim": 0.6986,
+          "section": "(Lead)",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0125",
+          "chunk_sim": 0.6797,
+          "section": "Sanctions, bans, and restrictions > Other countries",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0078",
+          "chunk_sim": 0.6733,
+          "section": "Competitive position",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0034",
+      "section": "公司事务 > 总部",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0000",
+          "chunk_sim": 0.632,
+          "section": "(Lead)",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0075",
+          "chunk_sim": 0.5503,
+          "section": "Products and services > Huawei Solar",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0118",
+          "chunk_sim": 0.5325,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0037",
+      "section": "公司事务 > 股东构成 > 员工持股制度",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "框架差异",
+      "candidates": [
+        {
+          "chunk_id": "en_0041",
+          "chunk_sim": 0.6949,
+          "section": "Corporate affairs > Ownership",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0082",
+          "chunk_sim": 0.6546,
+          "section": "Controversies > Early business practices",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0043",
+          "chunk_sim": 0.6245,
+          "section": "Corporate affairs > Ownership",
+          "label": "partial"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0040",
+      "section": "公司事务 > 股东构成 > 上市风波",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0036",
+          "chunk_sim": 0.6803,
+          "section": "Corporate affairs",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0009",
+          "chunk_sim": 0.6654,
+          "section": "History > Early years",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0004",
+          "chunk_sim": 0.6635,
+          "section": "(Lead)",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0041",
+      "section": "公司事务 > 管理模式与组织架构",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0011",
+          "chunk_sim": 0.5925,
+          "section": "History > Early years",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0069",
+          "chunk_sim": 0.5802,
+          "section": "Products and services > Software > MetaERP",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0118",
+          "chunk_sim": 0.5661,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0043",
+      "section": "公司事务 > 管理模式与组织架构",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0047"
+      ],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0043",
+          "chunk_sim": 0.596,
+          "section": "Corporate affairs > Ownership",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0041",
+          "chunk_sim": 0.5717,
+          "section": "Corporate affairs > Ownership",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0107",
+          "chunk_sim": 0.5672,
+          "section": "Controversies > NSA infiltration",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0045",
+      "section": "公司事务 > 子公司与投资",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "同一事实，框架相反：中文=共担风险的合作，英文=输送利益的空壳公司",
+      "candidates": [
+        {
+          "chunk_id": "en_0082",
+          "chunk_sim": 0.6814,
+          "section": "Controversies > Early business practices",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.668,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0040",
+          "chunk_sim": 0.6653,
+          "section": "Corporate affairs > Ownership",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0046",
+      "section": "公司事务 > 子公司与投资",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "事实冲突：中文说专注中低端数据通信，英文说是3Com重返高端核心路由器市场",
+      "candidates": [
+        {
+          "chunk_id": "en_0019",
+          "chunk_sim": 0.8267,
+          "section": "History > Foreign expansion",
+          "label": "match"
+        },
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.6873,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0022",
+          "chunk_sim": 0.5923,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0047",
+      "section": "公司事务 > 子公司与投资",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0118",
+          "chunk_sim": 0.6798,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0023",
+          "chunk_sim": 0.6678,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0116",
+          "chunk_sim": 0.6644,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Stockpiling of processors",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0048",
+      "section": "公司事务 > 子公司与投资",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "英文只有华为海洋的项目(en_0053/0054)，没写合资成立和出售给亨通",
+      "candidates": [
+        {
+          "chunk_id": "en_0124",
+          "chunk_sim": 0.6187,
+          "section": "Sanctions, bans, and restrictions > Other countries",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0004",
+          "chunk_sim": 0.5887,
+          "section": "(Lead)",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0116",
+          "chunk_sim": 0.5868,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Stockpiling of processors",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0049",
+      "section": "公司事务 > 子公司与投资",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "年份不一致：中文2008成立/2011收购，英文2007/2012",
+      "candidates": [
+        {
+          "chunk_id": "en_0022",
+          "chunk_sim": 0.7242,
+          "section": "History > Foreign expansion",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0023",
+          "chunk_sim": 0.6889,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0118",
+          "chunk_sim": 0.6746,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0053",
+      "section": "公司事务 > 僱員情況",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0001",
+          "chunk_sim": 0.5856,
+          "section": "(Lead)",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0079",
+          "chunk_sim": 0.5263,
+          "section": "Competitive position > Research and development",
+          "label": "partial"
+        },
+        {
+          "chunk_id": "en_0047",
+          "chunk_sim": 0.5161,
+          "section": "Corporate affairs > Corporate culture",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0056",
+      "section": "公司事务 > 僱員情況 > 内部待遇",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0082",
+          "chunk_sim": 0.5722,
+          "section": "Controversies > Early business practices",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0104",
+          "chunk_sim": 0.5539,
+          "section": "Controversies > Xinjiang internment camps",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0118",
+          "chunk_sim": 0.5267,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0057",
+      "section": "公司事务 > 僱員情況 > 内部待遇",
+      "absent": true,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0047",
+          "chunk_sim": 0.6148,
+          "section": "Corporate affairs > Corporate culture",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0036",
+          "chunk_sim": 0.5391,
+          "section": "Corporate affairs",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0048",
+          "chunk_sim": 0.5376,
+          "section": "Corporate affairs > Corporate culture",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0058",
+      "section": "公司事务 > 科研",
+      "absent": false,
+      "elsewhere": true,
+      "elsewhere_ids": [
+        "en_0080"
+      ],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.7137,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0026",
+          "chunk_sim": 0.7053,
+          "section": "History > Foreign expansion",
+          "label": "none"
+        },
+        {
+          "chunk_id": "en_0118",
+          "chunk_sim": 0.6996,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0067",
+      "section": "公司事务 > 業務記錄 > 市场占有率",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0033",
+          "chunk_sim": 0.7205,
+          "section": "History > Recent performance",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0034",
+          "chunk_sim": 0.714,
+          "section": "History > Recent performance",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0035",
+          "chunk_sim": 0.6542,
+          "section": "History > Recent performance",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0068",
+      "section": "企業標誌与价值观",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0059",
+          "chunk_sim": 0.5775,
+          "section": "Products and services > Phones",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0075",
+          "chunk_sim": 0.5563,
+          "section": "Products and services > Huawei Solar",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0061",
+          "chunk_sim": 0.5506,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0069",
+      "section": "企業標誌与价值观",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.5596,
+          "section": "History > Foreign expansion",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0047",
+          "chunk_sim": 0.5589,
+          "section": "Corporate affairs > Corporate culture",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0026",
+          "chunk_sim": 0.5123,
+          "section": "History > Foreign expansion",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0071",
+      "section": "产品与服务 > 运营商和企业业务",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0001",
+          "chunk_sim": 0.6923,
+          "section": "(Lead)",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0052",
+          "chunk_sim": 0.6869,
+          "section": "Products and services > Telecommunication equipment",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0056",
+          "chunk_sim": 0.6736,
+          "section": "Products and services > Devices",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0072",
+      "section": "产品与服务 > 消费者业务",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0056",
+          "chunk_sim": 0.5937,
+          "section": "Products and services > Devices",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0052",
+          "chunk_sim": 0.5853,
+          "section": "Products and services > Telecommunication equipment",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0001",
+          "chunk_sim": 0.5817,
+          "section": "(Lead)",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0074",
+      "section": "产品与服务 > 消费者业务 > 手机产品",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0018",
+          "chunk_sim": 0.769,
+          "section": "History > Foreign expansion",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0060",
+          "chunk_sim": 0.6984,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0129",
+          "chunk_sim": 0.6851,
+          "section": "Sanctions, bans, and restrictions > Other countries",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0075",
+      "section": "产品与服务 > 消费者业务 > 手机产品",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0060",
+          "chunk_sim": 0.7596,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0035",
+          "chunk_sim": 0.6734,
+          "section": "History > Recent performance",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0065",
+          "chunk_sim": 0.6723,
+          "section": "Products and services > Wearables",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0076",
+      "section": "产品与服务 > 消费者业务 > 手机产品",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0060",
+          "chunk_sim": 0.7356,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0061",
+          "chunk_sim": 0.6787,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0058",
+          "chunk_sim": 0.6325,
+          "section": "Products and services > Phones",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0078",
+      "section": "产品与服务 > 消费者业务 > 手机产品",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0061",
+          "chunk_sim": 0.7839,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0063",
+          "chunk_sim": 0.7458,
+          "section": "Products and services > Tablets",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0062",
+          "chunk_sim": 0.709,
+          "section": "Products and services > Laptops",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0082",
+      "section": "产品与服务 > 消费者业务 > 智能穿戴",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0063",
+          "chunk_sim": 0.6485,
+          "section": "Products and services > Tablets",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0065",
+          "chunk_sim": 0.6481,
+          "section": "Products and services > Wearables",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0058",
+          "chunk_sim": 0.6453,
+          "section": "Products and services > Phones",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0088",
+      "section": "产品与服务 > 芯片",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0120",
+          "chunk_sim": 0.6274,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Development of processors",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0059",
+          "chunk_sim": 0.6011,
+          "section": "Products and services > Phones",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0116",
+          "chunk_sim": 0.5841,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Stockpiling of processors",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0091",
+      "section": "产品与服务 > 软件",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0122",
+          "chunk_sim": 0.7239,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Replacement operating systems",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0065",
+          "chunk_sim": 0.7018,
+          "section": "Products and services > Wearables",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0067",
+          "chunk_sim": 0.6958,
+          "section": "Products and services > Software > Huawei Mobile Services (HMS)",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0096",
+      "section": "产品与服务 > 主要技术 > 智能手机相关技术 > 方舟编译器",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0121",
+          "chunk_sim": 0.6932,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Replacement operating systems",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0035",
+          "chunk_sim": 0.6296,
+          "section": "History > Recent performance",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0059",
+          "chunk_sim": 0.625,
+          "section": "Products and services > Phones",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0097",
+      "section": "产品与服务 > 主要技术 > 智能手机相关技术 > 其他技术",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0116",
+          "chunk_sim": 0.5934,
+          "section": "Sanctions, bans, and restrictions > United States > Huawei's reaction > Stockpiling of processors",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0025",
+          "chunk_sim": 0.5909,
+          "section": "History > Foreign expansion",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0026",
+          "chunk_sim": 0.5638,
+          "section": "History > Foreign expansion",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0101",
+      "section": "爭議 > 劳动保障",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0091",
+          "chunk_sim": 0.528,
+          "section": "Controversies > Allegations of military and intelligence ties",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0042",
+          "chunk_sim": 0.5193,
+          "section": "Corporate affairs > Ownership",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0101",
+          "chunk_sim": 0.5161,
+          "section": "Controversies > Intellectual property infringement",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0103",
+      "section": "爭議 > 两岸政见",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0085",
+          "chunk_sim": 0.6364,
+          "section": "Controversies > Allegations of state support",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0060",
+          "chunk_sim": 0.6298,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0061",
+          "chunk_sim": 0.629,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0104",
+      "section": "爭議 > 两岸政见",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0084",
+          "chunk_sim": 0.6311,
+          "section": "Controversies > Allegations of state support",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0004",
+          "chunk_sim": 0.612,
+          "section": "(Lead)",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0111",
+          "chunk_sim": 0.6119,
+          "section": "Sanctions, bans, and restrictions > United States > Before the 2020 semiconductor ban",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0106",
+      "section": "爭議 > 地图争议",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0129",
+          "chunk_sim": 0.6787,
+          "section": "Sanctions, bans, and restrictions > Other countries",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0004",
+          "chunk_sim": 0.6627,
+          "section": "(Lead)",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0059",
+          "chunk_sim": 0.6553,
+          "section": "Products and services > Phones",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0108",
+      "section": "爭議 > 员工压榨",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0106",
+          "chunk_sim": 0.6381,
+          "section": "Controversies > Lawsuits",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0109",
+          "chunk_sim": 0.623,
+          "section": "Sanctions, bans, and restrictions > United States > Before the 2020 semiconductor ban",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0004",
+          "chunk_sim": 0.6131,
+          "section": "(Lead)",
+          "label": null
+        }
+      ]
+    },
+    {
+      "query_id": "zh_0111",
+      "section": "相关列表",
+      "absent": false,
+      "elsewhere": false,
+      "elsewhere_ids": [],
+      "note": "",
+      "candidates": [
+        {
+          "chunk_id": "en_0058",
+          "chunk_sim": 0.4492,
+          "section": "Products and services > Phones",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0065",
+          "chunk_sim": 0.4279,
+          "section": "Products and services > Wearables",
+          "label": null
+        },
+        {
+          "chunk_id": "en_0056",
+          "chunk_sim": 0.4116,
+          "section": "Products and services > Devices",
+          "label": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "pair": "en-zh",
+  "runs": [
+    "20261015_203615_Huawei_en-zh_1f0e63",
+    "20261015_203858_Social_credit_system_en-zh_834a1c"
+  ],
+  "articles": [
+    "Huawei",
+    "Social_credit_system"
+  ],
+  "n_queries": 54,
+  "n_absent": 10,
+  "n_elsewhere": 18,
+  "n_elsewhere_named": 17,
+  "n_elsewhere_pairs": 18,
+  "n_labelled_pairs": 132,
+  "n_positive_pairs": 62,
+  "partial": "positive",
+  "unlabelled": "auto",
+  "reference_points": {
+    "pipeline_default": {
+      "chunk_thr": 0.45,
+      "path_thr": 0.45,
+      "precision": 0.15333333333333332,
+      "recall": 0.2875,
+      "f1": 0.19999999999999998,
+      "tp": 23,
+      "fp": 127,
+      "fn": 57,
+      "uncounted": 22,
+      "fn_elsewhere": 14,
+      "f1_95ci": [
+        0.12380952380952381,
+        0.287061111111111
+      ]
+    },
+    "reference_0.45_0.35": {
+      "chunk_thr": 0.45,
+      "path_thr": 0.35,
+      "precision": 0.14285714285714285,
+      "recall": 0.2625,
+      "f1": 0.18502202643171806,
+      "tp": 21,
+      "fp": 126,
+      "fn": 59,
+      "uncounted": 22,
+      "fn_elsewhere": 14,
+      "f1_95ci": [
+        0.11058639496047014,
+        0.26733999292786415
+      ]
+    }
+  },
+  "best": {
+    "chunk_thr": 0.7,
+    "path_thr": null,
+    "precision": 0.5918367346938775,
+    "recall": 0.3625,
+    "f1": 0.44961240310077516,
+    "tp": 29,
+    "fp": 20,
+    "fn": 51,
+    "uncounted": 13,
+    "fn_elsewhere": 18,
+    "f1_95ci": [
+      0.3239219934994583,
+      0.5625220070422534
+    ]
+  },
+  "best_routing_off": {
+    "chunk_thr": 0.7,
+    "path_thr": null,
+    "precision": 0.5918367346938775,
+    "recall": 0.3625,
+    "f1": 0.44961240310077516,
+    "tp": 29,
+    "fp": 20,
+    "fn": 51,
+    "uncounted": 13,
+    "fn_elsewhere": 18,
+    "f1_95ci": [
+      0.3239219934994583,
+      0.5625220070422534
+    ]
+  },
+  "cross_article": [
+    {
+      "held_out": "Huawei",
+      "chunk_thr": 0.7,
+      "path_thr": null,
+      "precision": 0.6153846153846154,
+      "recall": 0.24242424242424243,
+      "f1": 0.34782608695652173,
+      "tp": 8,
+      "fp": 5,
+      "fn": 25,
+      "uncounted": 11,
+      "fn_elsewhere": 9,
+      "held_out_best_f1": 0.425531914893617
+    },
+    {
+      "held_out": "Social_credit_system",
+      "chunk_thr": 0.65,
+      "path_thr": 0.2,
+      "precision": 0.4166666666666667,
+      "recall": 0.10638297872340426,
+      "f1": 0.1694915254237288,
+      "tp": 5,
+      "fp": 7,
+      "fn": 42,
+      "uncounted": 2,
+      "fn_elsewhere": 9,
+      "held_out_best_f1": 0.5060240963855421
+    }
+  ]
+}
