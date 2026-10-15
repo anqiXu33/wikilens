@@ -1,0 +1,2353 @@
+{
+ "pair": "en-zh",
+ "runs": [
+  "20261015_203615_Huawei_en-zh_1f0e63",
+  "20261015_203858_Social_credit_system_en-zh_834a1c"
+ ],
+ "n_queries": 54,
+ "n_absent": 10,
+ "partial": "positive",
+ "unlabelled": "auto",
+ "grid": "0.20:0.90:0.05",
+ "top_n": 10,
+ "llm": {
+  "status": "not run",
+  "reason": "ConnectionError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+ },
+ "methods": [
+  {
+   "method": "baseline: chunk cosine, pipeline default (0.45/0.45, routing on)",
+   "kind": "fixed",
+   "note": "",
+   "best": {
+    "threshold": 0.45,
+    "precision": 0.15333333333333332,
+    "recall": 0.2875,
+    "f1": 0.19999999999999998,
+    "tp": 23,
+    "fp": 127,
+    "fn": 57,
+    "uncounted": 22,
+    "fn_elsewhere": 14,
+    "f1_95ci": [
+     0.12380952380952381,
+     0.287061111111111
+    ]
+   },
+   "coverage": {
+    "n_chunks": 44,
+    "n_positive_pairs": 80,
+    "n_elsewhere_named": 17,
+    "chunks@1": 0.75,
+    "pairs@1": 0.4125,
+    "elsewhere@1": 0.0,
+    "chunks@3": 0.8636363636363636,
+    "pairs@3": 0.775,
+    "elsewhere@3": 0.0,
+    "chunks@5": 0.9090909090909091,
+    "pairs@5": 0.8125,
+    "elsewhere@5": 0.17647058823529413,
+    "chunks@10": 0.9545454545454546,
+    "pairs@10": 0.9125,
+    "elsewhere@10": 0.6470588235294118
+   },
+   "cross_article": null,
+   "curve": [
+    {
+     "threshold": 0.45,
+     "precision": 0.15333333333333332,
+     "recall": 0.2875,
+     "f1": 0.19999999999999998,
+     "tp": 23,
+     "fp": 127,
+     "fn": 57
+    }
+   ],
+   "best_unlabelled_ignored": {
+    "threshold": 0.45,
+    "precision": 0.3382352941176471,
+    "recall": 0.2875,
+    "f1": 0.3108108108108108,
+    "tp": 23,
+    "fp": 45,
+    "fn": 57,
+    "uncounted": 104,
+    "fn_elsewhere": 14,
+    "f1_95ci": [
+     0.19857569896254618,
+     0.42520522700619867
+    ]
+   },
+   "unlabelled_predictions": [
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0000",
+     "target_id": "en_0002",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0000",
+     "target_id": "en_0004",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0001",
+     "target_id": "en_0001",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0001",
+     "target_id": "en_0004",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0002",
+     "target_id": "en_0000",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0002",
+     "target_id": "en_0003",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0002",
+     "target_id": "en_0004",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0001",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0002",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0005",
+     "target_id": "en_0006",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0007",
+     "target_id": "en_0008",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0007",
+     "target_id": "en_0009",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0007",
+     "target_id": "en_0010",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0007",
+     "target_id": "en_0013",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0007",
+     "target_id": "en_0016",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0008",
+     "target_id": "en_0008",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0008",
+     "target_id": "en_0009",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0008",
+     "target_id": "en_0010",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0008",
+     "target_id": "en_0011",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0008",
+     "target_id": "en_0012",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0008",
+     "target_id": "en_0014",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0008",
+     "target_id": "en_0016",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0013",
+     "target_id": "en_0008",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0013",
+     "target_id": "en_0009",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0013",
+     "target_id": "en_0010",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0013",
+     "target_id": "en_0011",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0013",
+     "target_id": "en_0013",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0013",
+     "target_id": "en_0014",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0013",
+     "target_id": "en_0015",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0013",
+     "target_id": "en_0016",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0008",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0009",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0010",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0011",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0012",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0013",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0014",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0015",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0016",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0020",
+     "target_id": "en_0014",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0020",
+     "target_id": "en_0016",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0023",
+     "target_id": "en_0013",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0028",
+     "target_id": "en_0017",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0028",
+     "target_id": "en_0020",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0028",
+     "target_id": "en_0021",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0028",
+     "target_id": "en_0022",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0028",
+     "target_id": "en_0023",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0028",
+     "target_id": "en_0025",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0028",
+     "target_id": "en_0026",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0029",
+     "target_id": "en_0017",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0029",
+     "target_id": "en_0019",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0029",
+     "target_id": "en_0020",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0029",
+     "target_id": "en_0021",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0029",
+     "target_id": "en_0022",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0029",
+     "target_id": "en_0025",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0017",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0018",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0019",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0020",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0021",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0022",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0023",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0025",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0026",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0034",
+     "target_id": "en_0038",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0037",
+     "target_id": "en_0040",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0037",
+     "target_id": "en_0042",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0037",
+     "target_id": "en_0044",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0043",
+     "target_id": "en_0038",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0043",
+     "target_id": "en_0039",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0045",
+     "target_id": "en_0041",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0045",
+     "target_id": "en_0042",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0045",
+     "target_id": "en_0043",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0045",
+     "target_id": "en_0044",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0046",
+     "target_id": "en_0040",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0040",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0041",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0042",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0043",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0044",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0053",
+     "target_id": "en_0041",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0053",
+     "target_id": "en_0042",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0058",
+     "target_id": "en_0079",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0000",
+     "target_id": "en_0000",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0000",
+     "target_id": "en_0001",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0000",
+     "target_id": "en_0002",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0001",
+     "target_id": "en_0001",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0002",
+     "target_id": "en_0000",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0002",
+     "target_id": "en_0001",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0002",
+     "target_id": "en_0002",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0003",
+     "target_id": "en_0000",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0003",
+     "target_id": "en_0002",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0004",
+     "target_id": "en_0038",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0004",
+     "target_id": "en_0040",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0005",
+     "target_id": "en_0038",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0005",
+     "target_id": "en_0040",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0007",
+     "target_id": "en_0040",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0008",
+     "target_id": "en_0038",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0008",
+     "target_id": "en_0040",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0010",
+     "target_id": "en_0054",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0018",
+     "target_id": "en_0070",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0020",
+     "target_id": "en_0070",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0070",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0071",
+     "counted_as": "fp"
+    }
+   ]
+  },
+  {
+   "method": "baseline: chunk cosine, routing off",
+   "kind": "sweep",
+   "note": "",
+   "best": {
+    "threshold": 0.7,
+    "precision": 0.5918367346938775,
+    "recall": 0.3625,
+    "f1": 0.44961240310077516,
+    "tp": 29,
+    "fp": 20,
+    "fn": 51,
+    "uncounted": 13,
+    "fn_elsewhere": 18,
+    "f1_95ci": [
+     0.3239219934994583,
+     0.5625220070422534
+    ]
+   },
+   "coverage": {
+    "n_chunks": 44,
+    "n_positive_pairs": 80,
+    "n_elsewhere_named": 17,
+    "chunks@1": 0.75,
+    "pairs@1": 0.4125,
+    "elsewhere@1": 0.0,
+    "chunks@3": 0.8636363636363636,
+    "pairs@3": 0.775,
+    "elsewhere@3": 0.0,
+    "chunks@5": 0.9090909090909091,
+    "pairs@5": 0.8125,
+    "elsewhere@5": 0.17647058823529413,
+    "chunks@10": 0.9545454545454546,
+    "pairs@10": 0.9125,
+    "elsewhere@10": 0.6470588235294118
+   },
+   "cross_article": [
+    {
+     "held_out": "Huawei",
+     "threshold": 0.7,
+     "precision": 0.6153846153846154,
+     "recall": 0.24242424242424243,
+     "f1": 0.34782608695652173,
+     "tp": 8,
+     "fp": 5,
+     "fn": 25,
+     "uncounted": 11,
+     "fn_elsewhere": 9
+    },
+    {
+     "held_out": "Social_credit_system",
+     "threshold": 0.65,
+     "precision": 0.36363636363636365,
+     "recall": 0.6808510638297872,
+     "f1": 0.4740740740740741,
+     "tp": 32,
+     "fp": 56,
+     "fn": 15,
+     "uncounted": 43,
+     "fn_elsewhere": 6
+    }
+   ],
+   "curve": [
+    {
+     "threshold": 0.2,
+     "precision": 0.01684075890002132,
+     "recall": 0.9875,
+     "f1": 0.03311674701320478,
+     "tp": 79,
+     "fp": 4612,
+     "fn": 1
+    },
+    {
+     "threshold": 0.25,
+     "precision": 0.01716271996524006,
+     "recall": 0.9875,
+     "f1": 0.03373905616058083,
+     "tp": 79,
+     "fp": 4524,
+     "fn": 1
+    },
+    {
+     "threshold": 0.3,
+     "precision": 0.017909771026978008,
+     "recall": 0.9875,
+     "f1": 0.03518147405922957,
+     "tp": 79,
+     "fp": 4332,
+     "fn": 1
+    },
+    {
+     "threshold": 0.35,
+     "precision": 0.019720419370943584,
+     "recall": 0.9875,
+     "f1": 0.03866862457170828,
+     "tp": 79,
+     "fp": 3927,
+     "fn": 1
+    },
+    {
+     "threshold": 0.4,
+     "precision": 0.023504909253198453,
+     "recall": 0.9875,
+     "f1": 0.04591688462656204,
+     "tp": 79,
+     "fp": 3282,
+     "fn": 1
+    },
+    {
+     "threshold": 0.45,
+     "precision": 0.03127474267616785,
+     "recall": 0.9875,
+     "f1": 0.06062931696085955,
+     "tp": 79,
+     "fp": 2447,
+     "fn": 1
+    },
+    {
+     "threshold": 0.5,
+     "precision": 0.045018007202881155,
+     "recall": 0.9375,
+     "f1": 0.0859106529209622,
+     "tp": 75,
+     "fp": 1591,
+     "fn": 5
+    },
+    {
+     "threshold": 0.55,
+     "precision": 0.07551240560949299,
+     "recall": 0.875,
+     "f1": 0.13902681231380337,
+     "tp": 70,
+     "fp": 857,
+     "fn": 10
+    },
+    {
+     "threshold": 0.6,
+     "precision": 0.1575,
+     "recall": 0.7875,
+     "f1": 0.2625,
+     "tp": 63,
+     "fp": 337,
+     "fn": 17
+    },
+    {
+     "threshold": 0.65,
+     "precision": 0.3225806451612903,
+     "recall": 0.625,
+     "f1": 0.425531914893617,
+     "tp": 50,
+     "fp": 105,
+     "fn": 30
+    },
+    {
+     "threshold": 0.7,
+     "precision": 0.5918367346938775,
+     "recall": 0.3625,
+     "f1": 0.44961240310077516,
+     "tp": 29,
+     "fp": 20,
+     "fn": 51
+    },
+    {
+     "threshold": 0.75,
+     "precision": 0.8235294117647058,
+     "recall": 0.175,
+     "f1": 0.28865979381443296,
+     "tp": 14,
+     "fp": 3,
+     "fn": 66
+    },
+    {
+     "threshold": 0.8,
+     "precision": 1.0,
+     "recall": 0.0875,
+     "f1": 0.16091954022988506,
+     "tp": 7,
+     "fp": 0,
+     "fn": 73
+    },
+    {
+     "threshold": 0.85,
+     "precision": 1.0,
+     "recall": 0.05,
+     "f1": 0.09523809523809523,
+     "tp": 4,
+     "fp": 0,
+     "fn": 76
+    },
+    {
+     "threshold": 0.9,
+     "precision": 1.0,
+     "recall": 0.0125,
+     "f1": 0.02469135802469136,
+     "tp": 1,
+     "fp": 0,
+     "fn": 79
+    }
+   ],
+   "best_unlabelled_ignored": {
+    "threshold": 0.7,
+    "precision": 0.6904761904761905,
+    "recall": 0.3625,
+    "f1": 0.47540983606557374,
+    "tp": 29,
+    "fp": 13,
+    "fn": 51,
+    "uncounted": 20,
+    "fn_elsewhere": 18,
+    "f1_95ci": [
+     0.34233079233079233,
+     0.5826935695538057
+    ]
+   },
+   "unlabelled_predictions": [
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0081",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0093",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0094",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0095",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0096",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0107",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0111",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0112",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0114",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0115",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0119",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0004",
+     "target_id": "en_0033",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0018",
+     "target_id": "en_0069",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0018",
+     "target_id": "en_0070",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0020",
+     "target_id": "en_0070",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0000",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0072",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0073",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0079",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0080",
+     "counted_as": "fp"
+    }
+   ]
+  },
+  {
+   "method": "B: sentence max",
+   "kind": "sweep",
+   "note": "",
+   "best": {
+    "threshold": 0.65,
+    "precision": 0.6071428571428571,
+    "recall": 0.425,
+    "f1": 0.5,
+    "tp": 34,
+    "fp": 22,
+    "fn": 46,
+    "uncounted": 8,
+    "fn_elsewhere": 15,
+    "f1_95ci": [
+     0.38383146533831464,
+     0.6027397260273972
+    ]
+   },
+   "coverage": {
+    "n_chunks": 44,
+    "n_positive_pairs": 80,
+    "n_elsewhere_named": 17,
+    "chunks@1": 0.75,
+    "pairs@1": 0.4125,
+    "elsewhere@1": 0.17647058823529413,
+    "chunks@3": 0.7954545454545454,
+    "pairs@3": 0.5625,
+    "elsewhere@3": 0.29411764705882354,
+    "chunks@5": 0.8181818181818182,
+    "pairs@5": 0.6125,
+    "elsewhere@5": 0.29411764705882354,
+    "chunks@10": 0.8636363636363636,
+    "pairs@10": 0.7375,
+    "elsewhere@10": 0.4117647058823529
+   },
+   "cross_article": [
+    {
+     "held_out": "Huawei",
+     "threshold": 0.65,
+     "precision": 0.525,
+     "recall": 0.6363636363636364,
+     "f1": 0.5753424657534246,
+     "tp": 21,
+     "fp": 19,
+     "fn": 12,
+     "uncounted": 7,
+     "fn_elsewhere": 7
+    },
+    {
+     "held_out": "Social_credit_system",
+     "threshold": 0.65,
+     "precision": 0.8125,
+     "recall": 0.2765957446808511,
+     "f1": 0.4126984126984127,
+     "tp": 13,
+     "fp": 3,
+     "fn": 34,
+     "uncounted": 1,
+     "fn_elsewhere": 8
+    }
+   ],
+   "curve": [
+    {
+     "threshold": 0.2,
+     "precision": 0.016747933008267966,
+     "recall": 0.9875,
+     "f1": 0.03293725244944757,
+     "tp": 79,
+     "fp": 4638,
+     "fn": 1
+    },
+    {
+     "threshold": 0.25,
+     "precision": 0.01717391304347826,
+     "recall": 0.9875,
+     "f1": 0.033760683760683766,
+     "tp": 79,
+     "fp": 4521,
+     "fn": 1
+    },
+    {
+     "threshold": 0.3,
+     "precision": 0.018240591087508657,
+     "recall": 0.9875,
+     "f1": 0.035819542053956016,
+     "tp": 79,
+     "fp": 4252,
+     "fn": 1
+    },
+    {
+     "threshold": 0.35,
+     "precision": 0.02065359477124183,
+     "recall": 0.9875,
+     "f1": 0.040460947503201034,
+     "tp": 79,
+     "fp": 3746,
+     "fn": 1
+    },
+    {
+     "threshold": 0.4,
+     "precision": 0.02613065326633166,
+     "recall": 0.975,
+     "f1": 0.05089722675367048,
+     "tp": 78,
+     "fp": 2907,
+     "fn": 2
+    },
+    {
+     "threshold": 0.45,
+     "precision": 0.03678756476683938,
+     "recall": 0.8875,
+     "f1": 0.07064676616915423,
+     "tp": 71,
+     "fp": 1859,
+     "fn": 9
+    },
+    {
+     "threshold": 0.5,
+     "precision": 0.07039106145251396,
+     "recall": 0.7875,
+     "f1": 0.12923076923076923,
+     "tp": 63,
+     "fp": 832,
+     "fn": 17
+    },
+    {
+     "threshold": 0.55,
+     "precision": 0.15088757396449703,
+     "recall": 0.6375,
+     "f1": 0.24401913875598086,
+     "tp": 51,
+     "fp": 287,
+     "fn": 29
+    },
+    {
+     "threshold": 0.6,
+     "precision": 0.31896551724137934,
+     "recall": 0.4625,
+     "f1": 0.3775510204081633,
+     "tp": 37,
+     "fp": 79,
+     "fn": 43
+    },
+    {
+     "threshold": 0.65,
+     "precision": 0.6071428571428571,
+     "recall": 0.425,
+     "f1": 0.5,
+     "tp": 34,
+     "fp": 22,
+     "fn": 46
+    },
+    {
+     "threshold": 0.7,
+     "precision": 0.8333333333333334,
+     "recall": 0.25,
+     "f1": 0.3846153846153846,
+     "tp": 20,
+     "fp": 4,
+     "fn": 60
+    },
+    {
+     "threshold": 0.75,
+     "precision": 0.9333333333333333,
+     "recall": 0.175,
+     "f1": 0.29473684210526313,
+     "tp": 14,
+     "fp": 1,
+     "fn": 66
+    },
+    {
+     "threshold": 0.8,
+     "precision": 1.0,
+     "recall": 0.0625,
+     "f1": 0.11764705882352941,
+     "tp": 5,
+     "fp": 0,
+     "fn": 75
+    },
+    {
+     "threshold": 0.85,
+     "precision": 1.0,
+     "recall": 0.025,
+     "f1": 0.04878048780487806,
+     "tp": 2,
+     "fp": 0,
+     "fn": 78
+    },
+    {
+     "threshold": 0.9,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "tp": 0,
+     "fp": 0,
+     "fn": 80
+    }
+   ],
+   "best_unlabelled_ignored": {
+    "threshold": 0.65,
+    "precision": 0.8947368421052632,
+    "recall": 0.425,
+    "f1": 0.576271186440678,
+    "tp": 34,
+    "fp": 4,
+    "fn": 46,
+    "uncounted": 26,
+    "fn_elsewhere": 15,
+    "f1_95ci": [
+     0.44654800431499464,
+     0.688
+    ]
+   },
+   "unlabelled_predictions": [
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0000",
+     "target_id": "en_0009",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0000",
+     "target_id": "en_0040",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0002",
+     "target_id": "en_0058",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0002",
+     "target_id": "en_0072",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0111",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0112",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0113",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0115",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0119",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0020",
+     "target_id": "en_0035",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0020",
+     "target_id": "en_0077",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0023",
+     "target_id": "en_0063",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0026",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0084",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0096",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0106",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0112",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0126",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0129",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0045",
+     "target_id": "en_0019",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0000",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0058",
+     "target_id": "en_0050",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0000",
+     "target_id": "en_0000",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0000",
+     "target_id": "en_0041",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0018",
+     "target_id": "en_0076",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0020",
+     "target_id": "en_0079",
+     "counted_as": "uncounted"
+    }
+   ]
+  },
+  {
+   "method": "B: sentence top-2 mean",
+   "kind": "sweep",
+   "note": "",
+   "best": {
+    "threshold": 0.6,
+    "precision": 0.6190476190476191,
+    "recall": 0.325,
+    "f1": 0.42622950819672134,
+    "tp": 26,
+    "fp": 16,
+    "fn": 54,
+    "uncounted": 11,
+    "fn_elsewhere": 15,
+    "f1_95ci": [
+     0.3092699689883497,
+     0.537831286360698
+    ]
+   },
+   "coverage": {
+    "n_chunks": 44,
+    "n_positive_pairs": 80,
+    "n_elsewhere_named": 17,
+    "chunks@1": 0.6363636363636364,
+    "pairs@1": 0.35,
+    "elsewhere@1": 0.11764705882352941,
+    "chunks@3": 0.7727272727272727,
+    "pairs@3": 0.5375,
+    "elsewhere@3": 0.17647058823529413,
+    "chunks@5": 0.7727272727272727,
+    "pairs@5": 0.6125,
+    "elsewhere@5": 0.23529411764705882,
+    "chunks@10": 0.8409090909090909,
+    "pairs@10": 0.75,
+    "elsewhere@10": 0.47058823529411764
+   },
+   "cross_article": [
+    {
+     "held_out": "Huawei",
+     "threshold": 0.55,
+     "precision": 0.1864406779661017,
+     "recall": 0.6666666666666666,
+     "f1": 0.2913907284768212,
+     "tp": 22,
+     "fp": 96,
+     "fn": 11,
+     "uncounted": 22,
+     "fn_elsewhere": 7
+    },
+    {
+     "held_out": "Social_credit_system",
+     "threshold": 0.6,
+     "precision": 0.6428571428571429,
+     "recall": 0.19148936170212766,
+     "f1": 0.29508196721311475,
+     "tp": 9,
+     "fp": 5,
+     "fn": 38,
+     "uncounted": 2,
+     "fn_elsewhere": 8
+    }
+   ],
+   "curve": [
+    {
+     "threshold": 0.2,
+     "precision": 0.016847941991895928,
+     "recall": 0.9875,
+     "f1": 0.03313063535332355,
+     "tp": 79,
+     "fp": 4610,
+     "fn": 1
+    },
+    {
+     "threshold": 0.25,
+     "precision": 0.017532179316466934,
+     "recall": 0.9875,
+     "f1": 0.03445268207588313,
+     "tp": 79,
+     "fp": 4427,
+     "fn": 1
+    },
+    {
+     "threshold": 0.3,
+     "precision": 0.01918872965751761,
+     "recall": 0.9875,
+     "f1": 0.03764593757445796,
+     "tp": 79,
+     "fp": 4038,
+     "fn": 1
+    },
+    {
+     "threshold": 0.35,
+     "precision": 0.022164651698330456,
+     "recall": 0.9625,
+     "f1": 0.04333145751266179,
+     "tp": 77,
+     "fp": 3397,
+     "fn": 3
+    },
+    {
+     "threshold": 0.4,
+     "precision": 0.02967121090617482,
+     "recall": 0.925,
+     "f1": 0.057498057498057496,
+     "tp": 74,
+     "fp": 2420,
+     "fn": 6
+    },
+    {
+     "threshold": 0.45,
+     "precision": 0.04744525547445255,
+     "recall": 0.8125,
+     "f1": 0.0896551724137931,
+     "tp": 65,
+     "fp": 1305,
+     "fn": 15
+    },
+    {
+     "threshold": 0.5,
+     "precision": 0.1015625,
+     "recall": 0.65,
+     "f1": 0.17567567567567569,
+     "tp": 52,
+     "fp": 460,
+     "fn": 28
+    },
+    {
+     "threshold": 0.55,
+     "precision": 0.272108843537415,
+     "recall": 0.5,
+     "f1": 0.3524229074889868,
+     "tp": 40,
+     "fp": 107,
+     "fn": 40
+    },
+    {
+     "threshold": 0.6,
+     "precision": 0.6190476190476191,
+     "recall": 0.325,
+     "f1": 0.42622950819672134,
+     "tp": 26,
+     "fp": 16,
+     "fn": 54
+    },
+    {
+     "threshold": 0.65,
+     "precision": 0.9375,
+     "recall": 0.1875,
+     "f1": 0.3125,
+     "tp": 15,
+     "fp": 1,
+     "fn": 65
+    },
+    {
+     "threshold": 0.7,
+     "precision": 1.0,
+     "recall": 0.125,
+     "f1": 0.2222222222222222,
+     "tp": 10,
+     "fp": 0,
+     "fn": 70
+    },
+    {
+     "threshold": 0.75,
+     "precision": 1.0,
+     "recall": 0.025,
+     "f1": 0.04878048780487806,
+     "tp": 2,
+     "fp": 0,
+     "fn": 78
+    },
+    {
+     "threshold": 0.8,
+     "precision": 1.0,
+     "recall": 0.0125,
+     "f1": 0.02469135802469136,
+     "tp": 1,
+     "fp": 0,
+     "fn": 79
+    },
+    {
+     "threshold": 0.85,
+     "precision": 1.0,
+     "recall": 0.0125,
+     "f1": 0.02469135802469136,
+     "tp": 1,
+     "fp": 0,
+     "fn": 79
+    },
+    {
+     "threshold": 0.9,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "tp": 0,
+     "fp": 0,
+     "fn": 80
+    }
+   ],
+   "best_unlabelled_ignored": {
+    "threshold": 0.6,
+    "precision": 0.8666666666666667,
+    "recall": 0.325,
+    "f1": 0.4727272727272728,
+    "tp": 26,
+    "fp": 4,
+    "fn": 54,
+    "uncounted": 23,
+    "fn_elsewhere": 15,
+    "f1_95ci": [
+     0.34782608695652173,
+     0.584929483514389
+    ]
+   },
+   "unlabelled_predictions": [
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0000",
+     "target_id": "en_0009",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0000",
+     "target_id": "en_0077",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0002",
+     "target_id": "en_0033",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0103",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0111",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0112",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0113",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0115",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0119",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0124",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0125",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0052",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0023",
+     "target_id": "en_0063",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0026",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0106",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0129",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0000",
+     "target_id": "en_0000",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0018",
+     "target_id": "en_0076",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0020",
+     "target_id": "en_0070",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0020",
+     "target_id": "en_0076",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0072",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0076",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0079",
+     "counted_as": "fp"
+    }
+   ]
+  },
+  {
+   "method": "B: sentence top-3 mean",
+   "kind": "sweep",
+   "note": "",
+   "best": {
+    "threshold": 0.55,
+    "precision": 0.38461538461538464,
+    "recall": 0.4375,
+    "f1": 0.40935672514619886,
+    "tp": 35,
+    "fp": 56,
+    "fn": 45,
+    "uncounted": 18,
+    "fn_elsewhere": 15,
+    "f1_95ci": [
+     0.31577352472089315,
+     0.5
+    ]
+   },
+   "coverage": {
+    "n_chunks": 44,
+    "n_positive_pairs": 80,
+    "n_elsewhere_named": 17,
+    "chunks@1": 0.6363636363636364,
+    "pairs@1": 0.35,
+    "elsewhere@1": 0.11764705882352941,
+    "chunks@3": 0.7727272727272727,
+    "pairs@3": 0.575,
+    "elsewhere@3": 0.17647058823529413,
+    "chunks@5": 0.7727272727272727,
+    "pairs@5": 0.6125,
+    "elsewhere@5": 0.17647058823529413,
+    "chunks@10": 0.8181818181818182,
+    "pairs@10": 0.75,
+    "elsewhere@10": 0.4117647058823529
+   },
+   "cross_article": [
+    {
+     "held_out": "Huawei",
+     "threshold": 0.5,
+     "precision": 0.09154929577464789,
+     "recall": 0.7878787878787878,
+     "f1": 0.1640378548895899,
+     "tp": 26,
+     "fp": 258,
+     "fn": 7,
+     "uncounted": 35,
+     "fn_elsewhere": 6
+    },
+    {
+     "held_out": "Social_credit_system",
+     "threshold": 0.6,
+     "precision": 0.875,
+     "recall": 0.14893617021276595,
+     "f1": 0.25454545454545446,
+     "tp": 7,
+     "fp": 1,
+     "fn": 40,
+     "uncounted": 1,
+     "fn_elsewhere": 9
+    }
+   ],
+   "curve": [
+    {
+     "threshold": 0.2,
+     "precision": 0.01689116955313235,
+     "recall": 0.9875,
+     "f1": 0.03321421063695606,
+     "tp": 79,
+     "fp": 4598,
+     "fn": 1
+    },
+    {
+     "threshold": 0.25,
+     "precision": 0.0177209510991476,
+     "recall": 0.9875,
+     "f1": 0.03481710004407228,
+     "tp": 79,
+     "fp": 4379,
+     "fn": 1
+    },
+    {
+     "threshold": 0.3,
+     "precision": 0.019441674975074777,
+     "recall": 0.975,
+     "f1": 0.03812316715542523,
+     "tp": 78,
+     "fp": 3934,
+     "fn": 2
+    },
+    {
+     "threshold": 0.35,
+     "precision": 0.023540201773158055,
+     "recall": 0.9625,
+     "f1": 0.04595643091614443,
+     "tp": 77,
+     "fp": 3194,
+     "fn": 3
+    },
+    {
+     "threshold": 0.4,
+     "precision": 0.03237410071942446,
+     "recall": 0.9,
+     "f1": 0.0625,
+     "tp": 72,
+     "fp": 2152,
+     "fn": 8
+    },
+    {
+     "threshold": 0.45,
+     "precision": 0.061046511627906974,
+     "recall": 0.7875,
+     "f1": 0.1133093525179856,
+     "tp": 63,
+     "fp": 969,
+     "fn": 17
+    },
+    {
+     "threshold": 0.5,
+     "precision": 0.14411764705882352,
+     "recall": 0.6125,
+     "f1": 0.23333333333333334,
+     "tp": 49,
+     "fp": 291,
+     "fn": 31
+    },
+    {
+     "threshold": 0.55,
+     "precision": 0.38461538461538464,
+     "recall": 0.4375,
+     "f1": 0.40935672514619886,
+     "tp": 35,
+     "fp": 56,
+     "fn": 45
+    },
+    {
+     "threshold": 0.6,
+     "precision": 0.8,
+     "recall": 0.25,
+     "f1": 0.38095238095238093,
+     "tp": 20,
+     "fp": 5,
+     "fn": 60
+    },
+    {
+     "threshold": 0.65,
+     "precision": 0.9090909090909091,
+     "recall": 0.125,
+     "f1": 0.21978021978021975,
+     "tp": 10,
+     "fp": 1,
+     "fn": 70
+    },
+    {
+     "threshold": 0.7,
+     "precision": 1.0,
+     "recall": 0.0625,
+     "f1": 0.11764705882352941,
+     "tp": 5,
+     "fp": 0,
+     "fn": 75
+    },
+    {
+     "threshold": 0.75,
+     "precision": 1.0,
+     "recall": 0.0125,
+     "f1": 0.02469135802469136,
+     "tp": 1,
+     "fp": 0,
+     "fn": 79
+    },
+    {
+     "threshold": 0.8,
+     "precision": 1.0,
+     "recall": 0.0125,
+     "f1": 0.02469135802469136,
+     "tp": 1,
+     "fp": 0,
+     "fn": 79
+    },
+    {
+     "threshold": 0.85,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "tp": 0,
+     "fp": 0,
+     "fn": 80
+    },
+    {
+     "threshold": 0.9,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "tp": 0,
+     "fp": 0,
+     "fn": 80
+    }
+   ],
+   "best_unlabelled_ignored": {
+    "threshold": 0.55,
+    "precision": 0.6862745098039216,
+    "recall": 0.4375,
+    "f1": 0.5343511450381679,
+    "tp": 35,
+    "fp": 16,
+    "fn": 45,
+    "uncounted": 58,
+    "fn_elsewhere": 15,
+    "f1_95ci": [
+     0.42418682235196,
+     0.6266716417910448
+    ]
+   },
+   "unlabelled_predictions": [
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0000",
+     "target_id": "en_0009",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0000",
+     "target_id": "en_0061",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0000",
+     "target_id": "en_0077",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0002",
+     "target_id": "en_0033",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0103",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0111",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0112",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0113",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0115",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0119",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0124",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0003",
+     "target_id": "en_0125",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0007",
+     "target_id": "en_0018",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0013",
+     "target_id": "en_0122",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0020",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0022",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0026",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0052",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0077",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0118",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0017",
+     "target_id": "en_0123",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0020",
+     "target_id": "en_0033",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0020",
+     "target_id": "en_0035",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0020",
+     "target_id": "en_0061",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0020",
+     "target_id": "en_0077",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0020",
+     "target_id": "en_0129",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0023",
+     "target_id": "en_0001",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0023",
+     "target_id": "en_0063",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0023",
+     "target_id": "en_0077",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0026",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0033",
+     "target_id": "en_0129",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0037",
+     "target_id": "en_0042",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0046",
+     "target_id": "en_0013",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0046",
+     "target_id": "en_0060",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0018",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0019",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0040",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0059",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0049",
+     "target_id": "en_0077",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0058",
+     "target_id": "en_0022",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0058",
+     "target_id": "en_0040",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0058",
+     "target_id": "en_0050",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0058",
+     "target_id": "en_0075",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203615_Huawei_en-zh_1f0e63",
+     "query_id": "zh_0058",
+     "target_id": "en_0077",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0000",
+     "target_id": "en_0000",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0000",
+     "target_id": "en_0038",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0000",
+     "target_id": "en_0041",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0001",
+     "target_id": "en_0073",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0001",
+     "target_id": "en_0086",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0004",
+     "target_id": "en_0073",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0018",
+     "target_id": "en_0076",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0019",
+     "target_id": "en_0076",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0020",
+     "target_id": "en_0021",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0020",
+     "target_id": "en_0070",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0020",
+     "target_id": "en_0076",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0020",
+     "target_id": "en_0079",
+     "counted_as": "uncounted"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0072",
+     "counted_as": "fp"
+    },
+    {
+     "run_id": "20261015_203858_Social_credit_system_en-zh_834a1c",
+     "query_id": "zh_0022",
+     "target_id": "en_0079",
+     "counted_as": "fp"
+    }
+   ]
+  },
+  {
+   "method": "A: LLM rerank top-10 (not run)",
+   "kind": "pool",
+   "note": "ConnectionError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+   "best": null,
+   "coverage": {
+    "n_chunks": 44,
+    "n_positive_pairs": 80,
+    "n_elsewhere_named": 17,
+    "chunks@10": 0.9545454545454546,
+    "pairs@10": 0.9125,
+    "elsewhere@10": 0.6470588235294118
+   }
+  }
+ ]
+}

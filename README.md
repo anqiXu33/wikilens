@@ -242,6 +242,11 @@ python -m wikilens annotate RUN_ID --sample 50
 # prints P/R/F1 at the current defaults and at the best setting, and writes
 # eval/alignment_<pair>_grid.csv, _summary.json and _f1.png
 python -m wikilens evaluate
+
+# Experiment (pipeline unchanged): chunk cosine vs A = LLM rerank of the top 10
+# candidates (SCORING_BACKEND) vs B = sentence-level pairing, on the same labels.
+# Writes eval/experiments/alignment_<pair>_methods.{md,json}; see docs/alignment_experiments.md
+python -m wikilens experiment
 ```
 
 ### Section-name translation
@@ -345,7 +350,8 @@ wikilens/
 ├── wikilens/                       # Command line: python -m wikilens
 ├── eval/
 │   ├── labels/                     # Human alignment labels (annotate → evaluate)
-│   └── alignment_<pair>_*          # evaluate output: grid CSV, summary JSON, F1 plot
+│   ├── alignment_<pair>_*          # evaluate output: grid CSV, summary JSON, F1 plot
+│   └── experiments/                # experiment output; llm_rerank_<model>.json caches LLM replies
 ├── tests/                          # Unit tests, no network (python -m pytest tests)
 ├── main.py                         # FastAPI server
 ├── eval_alignment_threshold.py     # Threshold calibration script
