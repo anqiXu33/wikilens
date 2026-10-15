@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "run_id": "20261015_231614_Huawei_en-zh_c662dc",
+  "title": "Huawei",
+  "languages_found": [
+    "en",
+    "zh"
+  ],
+  "timestamp": "20261015_231614",
+  "scored": false,
+  "file1_url": null,
+  "file2_url": null,
+  "align_en_url": "/runs/20261015_231614_Huawei_en-zh_c662dc/alignments_en_to_source/en_to_zh.json",
+  "align_src_url": "/runs/20261015_231614_Huawei_en-zh_c662dc/alignments_source_to_en/zh_to_en.json",
+  "provenance": {
+    "git_sha": "c146edb9483b398f5a1ce22011e8d015f1d9cfbe",
+    "labse": "sentence-transformers/LaBSE@836121a0533e5664b21c7aacc5d22951f2b8b25b",
+    "alignment": {
+      "en_to_zh": {
+        "score": "sentence_max",
+        "threshold": 0.65,
+        "path_thr": null,
+        "rerank_top_n": 10,
+        "rerank_pool": "chunk",
+        "rerank": {
+          "status": "ok",
+          "llm": {
+            "backend": "openai",
+            "model": "meta-llama/llama-3.3-70b-instruct",
+            "base_url": "https://openrouter.ai/api/v1"
+          },
+          "calls": 131,
+          "failed": 0,
+          "fallback_rows": 0,
+          "errors": []
+        }
+      },
+      "zh_to_en": {
+        "score": "sentence_max",
+        "threshold": 0.65,
+        "path_thr": null,
+        "rerank_top_n": 10,
+        "rerank_pool": "chunk",
+        "rerank": {
+          "status": "ok",
+          "llm": {
+            "backend": "openai",
+            "model": "meta-llama/llama-3.3-70b-instruct",
+            "base_url": "https://openrouter.ai/api/v1"
+          },
+          "calls": 112,
+          "failed": 0,
+          "fallback_rows": 0,
+          "errors": []
+        }
+      }
+    },
+    "scoring": null,
+    "section_names": {
+      "translation_backend": "auto",
+      "sources": {
+        "cache": 46
+      },
+      "untranslated": [],
+      "method": "cache"
+    }
+  }
+}

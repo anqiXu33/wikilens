@@ -1,0 +1,2715 @@
+[
+  {
+    "tgt_chunk_id": "en_0000",
+    "tgt_text": "Huawei Technologies Co., Ltd. (sometimes stylized as HUAWEI;  HWAH-way; Chinese: 华为; pinyin: ) is a Chinese multinational technology conglomerate company headquartered in Longgang, Shenzhen, Guangdong. Its main product lines include telecommunications equipment, consumer electronics, electric vehicle autonomous driving systems, and rooftop solar power products. The company was founded in Shenzhen in 1987 by Ren Zhengfei, a veteran officer of the People's Liberation Army (PLA).",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0000",
+      "zh_0006"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0000",
+        "src_text": "华为技术有限公司，通称“华为”，是1987年由任正非创立的科技企业，总部位于中华人民共和国广东省深圳市。 华为初期专注于制造电话交换机，现在的业务以研发和制造通訊裝置、消費電子產品为主，华为还涉足软件开发、设计生产集成电路、光伏和电动汽车等领域。",
+        "score": 0.821,
+        "chunk_sim": 0.8721,
+        "path_sim": 1.0,
+        "combined_score": 1.121,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0006",
+        "src_text": "1987年9月，刚从国企南油集团辞职的任正非与五人合伙，以“民间科技企业”的身份成立“深圳市华为技术有限公司”，经深圳市工商局批准获得注册，注册资本2.1万元，员工14人。 在华为创立前，中国大陆电信网使用的设备主要依赖进口，在业内流传着“七国八制”（产品主要来自7个国家，涵盖8种制式）的说法，造成了互联互通的复杂性和通话质量低下。 当时为了加快经济建设，国家鼓励邮电通信技术改造，提倡“市场换技术”。 尽管这一政策加快了电信基础设施的建设，但客观上也导致了电信网设备一直依赖进口，形成垄断。",
+        "score": 0.6736,
+        "chunk_sim": 0.6748,
+        "path_sim": 1.0,
+        "combined_score": 0.9736,
+        "src_section": "历史 > 创立期（1987年—1993年）",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0001",
+    "tgt_text": "Initially focused on manufacturing phone switches, Huawei has expanded to more than 170 countries to include building telecommunications network infrastructures, providing equipment, operational and consulting services, and manufacturing communications devices for the consumer market. In 2012, it surpassed Ericsson to become the world's largest telecommunications equipment manufacturer. As of 2025, Huawei is the largest smartphone vendor in China with an 18.1% market share. Huawei's biggest area of business is in telecommunications equipment. Its largest customer is the Chinese government.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0002"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0002",
+        "src_text": "华为在170多个国家和地区提供产品和服务。 截至2011年 (2011-Missing required parameter 1=month!)，华为为全球最大的50家电信运营商中的45家提供服务，建设了1500多张网络，服务全世界三分之一的人口。 2012年超越爱立信，成为全球最大的电信设备制造商；2018年曾超越苹果公司，成为全球第二大智能手机制造商，仅次于三星电子。 2022年财富世界500强榜单中，华为位列第96名。",
+        "score": 0.7938,
+        "chunk_sim": 0.7896,
+        "path_sim": 1.0,
+        "combined_score": 1.0938,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0002",
+    "tgt_text": "Amidst its rise, Huawei has been accused of intellectual property infringement, for which it has settled with Cisco. Questions regarding the extent of state influence on Huawei have revolved around its national champions role in China, subsidies and financing support from state entities, and reactions of the Chinese government in light of opposition in certain countries to Huawei's participation in 5G. Its software and equipment have been linked to the mass surveillance of Uyghurs and Xinjiang internment camps, drawing sanctions from the United States.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0018",
+      "zh_0060",
+      "zh_0099"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0018",
+        "src_text": "2003年，思科系統公司起诉华为侵权，但訴訟最后以和解告终。 同年9月，华为完成了与主要3G设备供应商、手机厂商的兼容性测试。 至2004年，华为拥有GSM、WCDMA、CDMA2000和TD-SCDMA的全套解决方案，也与爱立信、北电、NEC、西门子缔造CPRI联盟，推进3G标准化，先后成为3GPP和3GPP2的成员，参加了CWTS WG4组织的CDMA演进讨论及其相关标准的起草工作。 该公司还参与了中国3G标准化组织CWTS的WCDMA标准的研究和制定，与传输所合作起草了MTNET (Mobile Test Net）实验网系列规范，由此华为成为全球3G市场上的重要参与者。 2004年，华为在香港推出3G手机U326、U626、数据卡E600。 至2005年华为推出多款数据卡产品，凭借外形小巧、即插即用的特点深受消费者好评。",
+        "score": 0.5429,
+        "chunk_sim": 0.5411,
+        "path_sim": 1.0,
+        "combined_score": 0.8429,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "match"
+      },
+      {
+        "src_chunk_id": "zh_0060",
+        "src_text": "1994年，华为基于C&C08交换机平台技术，推出C&C08语音平台。 在推出之后，该系统受到多家竞争对手的抄袭，甚至多家竞争对手反驳为自己率先推出，因此陷入纠纷，之后多方论证华为率先发明了语音邮箱系统。 为此，华为于1995年在研发部内成立知识产权部门，负责知识产权保护，并颁布《华为公司科研成果奖励条例》，之后华为在新产品立项研发时专门加入了知识产权的评审。 华为于1995年提出6项中国发明专利申请，1997年更在美国首次提出专利申请（2000年赋予专利权），1999年提出首件PCT国际专利申请，2001年在欧洲提出专利申请。",
+        "score": 0.424,
+        "chunk_sim": 0.5864,
+        "path_sim": 1.0,
+        "combined_score": 0.724,
+        "src_section": "公司事务 > 知识产权",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0099",
+        "src_text": "美国政府2018年起的网络安全指控称中华人民共和国政府可以通过华为的基础设施设备实现监控，还指控华为软件和设备与维吾尔人和新疆拘禁营的大规模监视有关。 特别是随着5G无线网络中国积极推动发展，美国一直呼吁阻止华为或中兴通讯使用美国或其盟国的零件，此成為中美貿易戰中一個備受關注的發展。",
+        "score": 0.5043,
+        "chunk_sim": 0.6937,
+        "path_sim": 1.0,
+        "combined_score": 0.8043,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0003",
+    "tgt_text": "The company has faced difficulties in some countries arising from concerns that its equipment may enable surveillance by the Chinese government due to perceived connections with the country's military and intelligence agencies. Huawei has argued that critics such as the US government have not shown evidence of espionage. Experts say that China's 2014 Counter Espionage Law and 2017 National Intelligence Law can compel Huawei and other companies to cooperate with state intelligence. In 2012, Australian and US intelligence agencies concluded that a hack on Australia's telecom networks was conducted by or through Huawei, although the two network operators have disputed that information.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0003",
+      "zh_0098"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.8629,
+        "chunk_sim": 0.7563,
+        "path_sim": 1.0,
+        "combined_score": 1.1629,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0098",
+        "src_text": "在海外，华为创办人的身份一直被质疑。 同样被质疑的还有其与中国解放军的关系，2012年澳大利亚时拒绝华为投标当地的全国宽带网设备项目，其中一个原因就是疑虑华为的“军方背景”。 任正非在2015年首次公开演讲，接受BBC主播的对话，未有指明公司性质，不过肯定公司是拥护中国共产党和热爱祖国。 而公司有推崇「狼性文化」，在給與員工超高待遇同時施以高壓管理，過往曾有多位員工自殺，飽受外界質疑。 有指华为未有因应职场变化改变旧有的工作环境和管理等，认为管理层应该重视多与员工接触，改善工作环境释放员工压力。",
+        "score": 0.6193,
+        "chunk_sim": 0.6882,
+        "path_sim": 1.0,
+        "combined_score": 0.9193,
+        "src_section": "爭議",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0004",
+    "tgt_text": "In January 2018, the United States alleged that its sanctions against Iran were violated by Huawei, which was subsequently restricted from doing business with American companies. The US government also requested the extradition of Huawei's chief financial officer from Canada. In June 2019, Huawei cut jobs at its Santa Clara research center, and in December, Ren said it was moving the center to Canada. In 2020, Huawei agreed to sell the Honor brand to a state-owned enterprise of the Shenzhen government to \"ensure its survival\" under US sanctions. In November 2022, the Federal Communications Commission (FCC) banned sales or import of equipment made by Huawei out of national security concerns, and other countries such as all members of the Five Eyes, India, Japan and ten European Union states have since also banned or restricted Huawei products.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0003",
+      "zh_0004"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.7513,
+        "chunk_sim": 0.8059,
+        "path_sim": 1.0,
+        "combined_score": 1.0513,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0004",
+        "src_text": "受美国制裁等因素的影响，华为近年在一些领域营收下滑。 为此，华为不得不轉向鸿蒙操作系统、雲計算、数字城市、車用技術等等其他领域作為新盈利點。 2019年6月，华为圣克拉拉研究中心裁员，任正非表示将该研究中心迁至加拿大。 2020年，华为将子公司荣耀终端出售给深圳市政府的国有企业，以“确保其生存”。 2021年，华为的研發投入一度超过营收的20%，是2010年的9倍。 华为沒有放棄通訊與企業业务本業，繼續開發佈局6G技術預研。",
+        "score": 0.8426,
+        "chunk_sim": 0.737,
+        "path_sim": 1.0,
+        "combined_score": 1.1426,
+        "src_section": "(Lead)",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0005",
+    "tgt_text": "According to the company founder Ren Zhengfei, the name Huawei comes from a slogan he saw on a wall, Zhonghua youwei meaning \"China has achievements\" (中华有为; Zhōng huá yǒu wéi). Zhonghua or Hua means China, while youwei means \"promising/to show promise\". Huawei has also been translated as \"splendid achievement\" or \"China is able\", which are possible readings of the name.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0005"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0005",
+        "src_text": "据华为创始人任正非在一次媒体采访中透露，当时任正非注册公司时想不出名字，之后任正非看到“中華有为”标语后，觉得“这个标语响亮”，于是他借着“中华有为”的灵感，以“华为”作为公司的名称。 但是任正非认为“华为”这个名字起得并不好，因为“华为”的发音是闭口音。 后来，华为内部也出现了是否更换公司名称的争论，任正非之后决定不更换其名称。",
+        "score": 0.694,
+        "chunk_sim": 0.6568,
+        "path_sim": 0.5126,
+        "combined_score": 0.8478,
+        "src_section": "名称",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0006",
+    "tgt_text": "In Chinese pinyin, the name is Huáwéi, and pronounced [xwǎwěɪ] in Mandarin Chinese; in Cantonese, the name is transliterated with Jyutping as Waa4-wai4 and pronounced [wa˩wɐj˩]. However, the pronunciation of Huawei by non-Chinese varies in other countries, for example \"Hoe-ah-wei\" in Belgium and the Netherlands.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0007",
+    "tgt_text": "The company had considered changing the name in English out of concern that non-Chinese people may find it hard to pronounce, but decided to keep the name, and launched a brand recognition campaign instead to encourage a pronunciation closer to \"Wah-Way\" using the words \"Wow Way\". Ren stated, \"We will not change the name of our brand and will teach foreigners how to pronounce it. We have to make sure they do not pronounce it like 'Hawaii'.\"",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0008",
+    "tgt_text": "In the 1980s, the Chinese Communist Party (CCP) and the Chinese government endeavored to overhaul the nation's underdeveloped telecommunications infrastructure. A core component of the telecommunications network was telephone exchange switches, and in the late 1980s, several Chinese research groups endeavored to acquire and develop the technology, usually through joint ventures with foreign companies.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0006"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0006",
+        "src_text": "1987年9月，刚从国企南油集团辞职的任正非与五人合伙，以“民间科技企业”的身份成立“深圳市华为技术有限公司”，经深圳市工商局批准获得注册，注册资本2.1万元，员工14人。 在华为创立前，中国大陆电信网使用的设备主要依赖进口，在业内流传着“七国八制”（产品主要来自7个国家，涵盖8种制式）的说法，造成了互联互通的复杂性和通话质量低下。 当时为了加快经济建设，国家鼓励邮电通信技术改造，提倡“市场换技术”。 尽管这一政策加快了电信基础设施的建设，但客观上也导致了电信网设备一直依赖进口，形成垄断。",
+        "score": 0.5458,
+        "chunk_sim": 0.6492,
+        "path_sim": 0.697,
+        "combined_score": 0.7549,
+        "src_section": "历史 > 创立期（1987年—1993年）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0009",
+    "tgt_text": "Ren Zhengfei, a former deputy director of the People's Liberation Army engineering corps, founded Huawei in 1987 in Shenzhen. The company reports that it had RMB 21,000 (about $5,000 at the time) in registered capital from Ren Zhengfei and five other investors at the time of its founding, when each contributed RMB 3,500. These five initial investors gradually withdrew their investments in Huawei. The Wall Street Journal has suggested, however, that Huawei received approximately \"$46 billion in loans and other support, coupled with $25 billion in tax cuts\" since the Chinese government had a vested interest in fostering a company to compete against Apple and Samsung.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0006",
+      "zh_0098"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0006",
+        "src_text": "1987年9月，刚从国企南油集团辞职的任正非与五人合伙，以“民间科技企业”的身份成立“深圳市华为技术有限公司”，经深圳市工商局批准获得注册，注册资本2.1万元，员工14人。 在华为创立前，中国大陆电信网使用的设备主要依赖进口，在业内流传着“七国八制”（产品主要来自7个国家，涵盖8种制式）的说法，造成了互联互通的复杂性和通话质量低下。 当时为了加快经济建设，国家鼓励邮电通信技术改造，提倡“市场换技术”。 尽管这一政策加快了电信基础设施的建设，但客观上也导致了电信网设备一直依赖进口，形成垄断。",
+        "score": 0.6731,
+        "chunk_sim": 0.7107,
+        "path_sim": 0.697,
+        "combined_score": 0.8823,
+        "src_section": "历史 > 创立期（1987年—1993年）",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0098",
+        "src_text": "在海外，华为创办人的身份一直被质疑。 同样被质疑的还有其与中国解放军的关系，2012年澳大利亚时拒绝华为投标当地的全国宽带网设备项目，其中一个原因就是疑虑华为的“军方背景”。 任正非在2015年首次公开演讲，接受BBC主播的对话，未有指明公司性质，不过肯定公司是拥护中国共产党和热爱祖国。 而公司有推崇「狼性文化」，在給與員工超高待遇同時施以高壓管理，過往曾有多位員工自殺，飽受外界質疑。 有指华为未有因应职场变化改变旧有的工作环境和管理等，认为管理层应该重视多与员工接触，改善工作环境释放员工压力。",
+        "score": 0.4114,
+        "chunk_sim": 0.6261,
+        "path_sim": 0.697,
+        "combined_score": 0.6205,
+        "src_section": "爭議",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0010",
+    "tgt_text": "Ren sought to reverse engineer foreign technologies with local researchers. China borrowed liberally from Qualcomm and other industry leaders (PBX as an example) in order to enter the market. At a time when all of China's telecommunications technology was imported from abroad, Ren hoped to build a domestic Chinese telecommunications company that could compete with, and ultimately replace, foreign competitors.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0006"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0006",
+        "src_text": "1987年9月，刚从国企南油集团辞职的任正非与五人合伙，以“民间科技企业”的身份成立“深圳市华为技术有限公司”，经深圳市工商局批准获得注册，注册资本2.1万元，员工14人。 在华为创立前，中国大陆电信网使用的设备主要依赖进口，在业内流传着“七国八制”（产品主要来自7个国家，涵盖8种制式）的说法，造成了互联互通的复杂性和通话质量低下。 当时为了加快经济建设，国家鼓励邮电通信技术改造，提倡“市场换技术”。 尽管这一政策加快了电信基础设施的建设，但客观上也导致了电信网设备一直依赖进口，形成垄断。",
+        "score": 0.5196,
+        "chunk_sim": 0.5988,
+        "path_sim": 0.697,
+        "combined_score": 0.7287,
+        "src_section": "历史 > 创立期（1987年—1993年）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0011",
+    "tgt_text": "During its first several years the company's business model consisted mainly of reselling private branch exchange (PBX) switches imported from Hong Kong. Meanwhile, it was reverse-engineering imported switches and investing heavily in research and development to manufacture its own technologies. By 1990 the company had approximately 600 employees in research and development (R&D) and began its own independent commercialization of PBX switches targeting hotels and small enterprises.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0007"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0007",
+        "src_text": "创立时的华为虽然名为“技术公司”，但最初做的是贸易生意，在初创期还卖过减肥药，任正非还派人调研卖墓碑，最终均行不通。 另有资料记载，华为最早注册的经营范围是任正非自己研制的“气体悬浮仪”的开发。 之后任正非经辽宁省农话处一位处长的介绍，代理香港鸿年公司的HAX交换机产品，靠中间的价格差获利。 其代理的交换机质量比国产的好，但价格较进口便宜，因此具有一定的竞争力。 1989年，华为从国营单位购买散件，打着华为的品牌自行组装BH01型交换机，这是华为自主研发的首个产品。 但是该产品是一台24口的用户交换机，属于低端机，只能在小型的医院、矿山使用。 翌年，华为立下了要在最短的时间内自主研发的目标，否则客户就要退款，导致公司资金断流及倒闭。 同年，原华中理工大学研究生郭平及其同学郑宝用（任职前放弃清华大学博士学位）加入华为，同时研发出HJD48型交换机。 1991年，华为推出了BH03型交换机，其电路板的设计和话务台软件都是自主研发，并在同年底完成了各项测试，通过原中华人民共和国邮电部的验收，同时取得了进网许可证。 之后，郑宝用带领团队研发出了HJD-04500型交换机。 1992年，凭借HJD48系列的交换机产品，华为销售额突破1亿元。 同年华为研发出第一台局用交换机JK1000，为纵横式（半数字半机械）局用交换机。 而在当年，上海贝尔已经有了数字交换机，华为发现科研力量已经明显不足，决定大量招人。 在研制2000门数字程控交换机的同时，华为还成立了万门交换机的项目组。 JK1000在1993年上市后也存在一些质量问题，其中以电源的防雷问题最为严重，还有一些是偏远地区使用时出现故障频发的现象。 此前华为在报纸上刊登交换机具备防雷击的能力，但仍收到了来自用户关于在打雷时发生事故的投诉。 1993年下半年，华为维修团队在全国的各个乡镇走访，将上述发生的问题一一解决，由此重新赢得了用户的信任。",
+        "score": 0.5316,
+        "chunk_sim": 0.5837,
+        "path_sim": 0.697,
+        "combined_score": 0.7407,
+        "src_section": "历史 > 创立期（1987年—1993年）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0012",
+    "tgt_text": "In order to grow despite difficult competition from Alcatel, Lucent, and Nortel Networks, in 1992 Huawei focused on low-income and difficult-to-access market niches. Huawei's sales force traveled from village to village in underdeveloped regions, gradually moving into more developed areas.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0008",
+      "zh_0009"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0008",
+        "src_text": "华为在1992年确立了万门交换机的研发方案，同时为了吸取此前交换机暴露出的问题的教训，华为还分析了系列防护标准，之后华为选择与中国内地厂家合作开发防护器件。 1993年9月，华为C&C08交换机研制成功，10月在浙江省义乌市进行测试，但在测试期间也遇到了一些技术问题，最终在项目组的群策群力下，问题得以解决。 在C&C08交换机研发期间，由于华为将全部资金投入到该产品的研发，贷款回收太慢，现金流出现问题，且员工连续数月没有发工资。 最终，华为公司收到了一笔贷款，解决了资金问题。 1993年中，华为进入迅速膨胀期，再次陷入资金危机。 为了维持公司运作，华为公司向一些大型企业筹借利息高达30%的高利贷。",
+        "score": 0.4307,
+        "chunk_sim": 0.4917,
+        "path_sim": 0.697,
+        "combined_score": 0.6398,
+        "src_section": "历史 > 创立期（1987年—1993年）",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0009",
+        "src_text": "在C&C08交换机研制成功后，华为在1994年至1995年间大规模投入生产C&C08A型机。 由于C&C08A型机功能比进口设备要多，价格也只有同类产品的二分之一，且定位明确，迅速获得市场反应，因此在较短时间内，C&C08取得了当时一大半的农村市场。 之后，华为推出了C&C08C型机，使华为实现了对市话的突破，成功进入城乡市场。 而C&C08系列成为华为第一个大规模进入电信市场的产品，上市后即受运营商客户的好评，也由于这一原因，华为在1994年销售额达8亿元，到1995年銷售額達15億元，此后以每年超过100%的速度增长，到2003年收入超过千亿元。 C&C08系列成为全球销量最大的交换机，同时结束了中国通信史上安装电话难、费用贵的历史。 创立初期，华为通过单一产品的持续开发与生产，以“农村包围城市”作为销售策略，以低成本的方式迅速抢占市场，公司规模不断扩大。",
+        "score": 0.5524,
+        "chunk_sim": 0.5032,
+        "path_sim": 0.697,
+        "combined_score": 0.7615,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0013",
+    "tgt_text": "The company's first major breakthrough came in 1993 when it launched its C&C08 program-controlled telephone switch. It was by far the most powerful switch available in China at the time. By initially deploying in small cities and rural areas and placing emphasis on service and customizability, the company gained market share and made its way into the mainstream market.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0009",
+      "zh_0010",
+      "zh_0071"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0009",
+        "src_text": "在C&C08交换机研制成功后，华为在1994年至1995年间大规模投入生产C&C08A型机。 由于C&C08A型机功能比进口设备要多，价格也只有同类产品的二分之一，且定位明确，迅速获得市场反应，因此在较短时间内，C&C08取得了当时一大半的农村市场。 之后，华为推出了C&C08C型机，使华为实现了对市话的突破，成功进入城乡市场。 而C&C08系列成为华为第一个大规模进入电信市场的产品，上市后即受运营商客户的好评，也由于这一原因，华为在1994年销售额达8亿元，到1995年銷售額達15億元，此后以每年超过100%的速度增长，到2003年收入超过千亿元。 C&C08系列成为全球销量最大的交换机，同时结束了中国通信史上安装电话难、费用贵的历史。 创立初期，华为通过单一产品的持续开发与生产，以“农村包围城市”作为销售策略，以低成本的方式迅速抢占市场，公司规模不断扩大。",
+        "score": 0.6654,
+        "chunk_sim": 0.7274,
+        "path_sim": 0.697,
+        "combined_score": 0.8745,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "match"
+      },
+      {
+        "src_chunk_id": "zh_0010",
+        "src_text": "1995年，华为销售额达到15亿元，员工人数也达到800人，成为中国电子行业百强排名第26位的民营企业。 但由于中国国内电信设备市场的总体发展速度放缓，华为在传统的程控交换机领域的利润被吞蚀，面临着空前的竞争压力，而市场需求也开始出现多元化。 同年，华为开始移动通信领域的研发，由此产品进入多元化时代。",
+        "score": 0.4235,
+        "chunk_sim": 0.5787,
+        "path_sim": 0.697,
+        "combined_score": 0.6326,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0071",
+        "src_text": "华为的运营商和企业业务涵盖移动、核心网、固定网络、电信增值业务等，产品包括路由器、交换机、光传输等，其中以太网交换机、企业网路由器销量位居前列。 近年来，华为推动“智慧城市建设”，利用华为自主研发的技术，为城市提供全栈全场景的AI解决方案，促进城市的数字化转型。 2012年，华为产品又涉足安防领域，在公安监控系统、平安城市等均有业务开展。 华为C&C08系列交换机拥有全球最多的销量，上市后即受运营商客户的好评。",
+        "score": 0.5838,
+        "chunk_sim": 0.5783,
+        "path_sim": 0.697,
+        "combined_score": 0.7929,
+        "src_section": "产品与服务 > 运营商和企业业务",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0014",
+    "tgt_text": "Huawei also won a key contract to build the first national telecommunications network for the People's Liberation Army, a deal one employee described as \"small in terms of our overall business, but large in terms of our relationships\". In 1994, founder Ren Zhengfei had a meeting with General Secretary of the Chinese Communist Party Jiang Zemin, telling him that \"switching equipment technology was related to national security, and that a nation that did not have its own switching equipment was like one that lacked its own military.\" Jiang reportedly agreed with this assessment.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0015",
+    "tgt_text": "In the 1990s, Canadian telecom giant Nortel outsourced production of their entire product line to Huawei. They subsequently outsourced much of their product engineering to Huawei as well.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0016",
+    "tgt_text": "Another major turning point for the company came in 1996 when the government in Beijing adopted an explicit policy of supporting domestic telecommunications manufacturers and restricting access to foreign competitors. Huawei was promoted by both the government and the military as a national champion, and established new research and development offices.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0014",
+      "zh_0028"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0014",
+        "src_text": "处于发展期的华为与巨龙通信、大唐电信、中兴通讯并称为“巨大中华”，是中国通信产业崛起的标志。 在IT泡沫之前，华为是一間籍籍無名的公司，但從IT泡沫之後，該公司以中國為據點急速成長，快速吸引各界注目，市場不局限於發展中國家。 1996年-2000年为公司高速发展期，年销售额从26亿元人民币跃升至220亿元，以29亿元的净收入位居全国电子百强首位。 1999年，华为交换机、接入网、传输、智能网等产品在中国内地的市场份额均位居首位。",
+        "score": 0.4623,
+        "chunk_sim": 0.5674,
+        "path_sim": 0.697,
+        "combined_score": 0.6714,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0028",
+        "src_text": "华为在1995年开始布局进军国际市场的计划，在1996年华为发生“市场部集体大辞职”事件后，任正非开始谋划加速进军海外市场的进程。 1996年，华为与香港和记电讯签约，双方约定在3个月内构建一个总投资额为3600万港币的综合性商业网，成为当时华为自创办以来最大的一笔订单，也使华为走向全球化迈进了第一步。 2003年华为与香港运营商SUNDAY宣布，华为成为SUNDAY设备的独家供应商，与SUNDAY合作共建香港WCDMA网络。 但由于贷款到期无力还款，华为拿下对方资产，为SUNDAY付出17.08亿元的贷款，同时增持SUNDAY股份，成为SUNDAY的第二大股东。 2005年10月，李泽楷收购电讯盈科并对SUNDAY私有化，电讯盈科出资SUNDAY提前将其对华为的借款还清。",
+        "score": 0.5495,
+        "chunk_sim": 0.5923,
+        "path_sim": 0.697,
+        "combined_score": 0.7586,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0017",
+    "tgt_text": "Beginning in the late 1990s, Huawei built communications networks throughout sub-Saharan Africa and the Middle East, with its first entrance into the African telecommunications market in 1998. It has become the most important Chinese telecommunications company operating in these regions.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0030"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0030",
+        "src_text": "除了继续开发中国周边国家和地区市场之外，华为还积极开发发展中国家市场，2002年开始主攻非洲市场。 1998年4月，中国政府向乌兹别克斯坦赠送了华为的交换机，在当地电信网运营；2000年乌兹别克斯坦政府批准华为5款产品进入当地电信网使用。 2004年，华为与沃达丰合作肯尼亚的智能网的改造与升级工程，成为华为在非洲的第一笔订单。 之后华为在毛里求斯建立非洲第一个3G商业局，在南非建设最长的通信管道。 中东方面，华为承建了阿联酋电信3G网络，于2003年正式投入商用，是全球第一个投入商用的WCDMA网络。 华为后在2007年与沙特科技城签订合同，将产品打入当地市场，沙特也成为华为在中东地区主要的市场。",
+        "score": 0.6325,
+        "chunk_sim": 0.6715,
+        "path_sim": 0.9164,
+        "combined_score": 0.9075,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0018",
+    "tgt_text": "In 1997, Huawei won a contract to provide fixed-line network products to Hong Kong company Hutchison Whampoa. Later that year, Huawei launched wireless GSM-based products and eventually expanded to offer CDMA and UMTS. In 1999, the company opened a research and development (R&D) centre in Bengaluru, India to develop a wide range of telecom software. Huawei received support as part of China's Go Out policy beginning in the late 1990s.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0019",
+    "tgt_text": "In May 2003, Huawei partnered with 3Com on a joint venture known as H3C, which was focused on enterprise networking equipment. It marked 3Com's re-entrance into the high-end core routers and switch market, after having abandoned it in 2000 to focus on other businesses. 3Com bought out Huawei's share of the venture in 2006 for US$882 million.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0017",
+      "zh_0046"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0017",
+        "src_text": "2002年10月，在任正非召集的华为无线产品线讨论会上，华为3G业务小组表示应尽快立项3G手机，但很快遭到任正非的否决。 同年底，华为正式召开手机终端的立项讨论会，任正非宣布指派纪平花10亿元人民币从事手机业务，并指出华为要专门组建独立公司从事手机业务，独立运作。 在IT泡沫破灭后，加上中国内地电信网投资萎缩以及华为在无线领域上的三大失误，导致公司面临客户需求萎缩的状态。 为此，华为在2002年成立运营商解决方案部，以运营商客户需求为导向设计解决方案，而不再是单一出售产品。 2003年11月，专注于手机业务的华为终端公司成立，两公司的成立填补了华为无线解决方案的死穴。 同年，华为与美国3Com在杭州成立合資公司，專注於中低端数据通信产品。 该公司在2006年成为3COM公司全资所有的企业，同时更名为“华三通信”。",
+        "score": 0.7728,
+        "chunk_sim": 0.6635,
+        "path_sim": 0.9164,
+        "combined_score": 1.0477,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0046",
+        "src_text": "2003年，华为与美国3Com在杭州成立合資公司，專注於中低端数据通信产品。 该公司在2006年成为3COM公司全资所有的企业，同时更名为“华三通信”。",
+        "score": 0.8181,
+        "chunk_sim": 0.8267,
+        "path_sim": 0.9164,
+        "combined_score": 1.093,
+        "src_section": "公司事务 > 子公司与投资",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0020",
+    "tgt_text": "In 2004, Huawei signed a $10 billion credit line with China Development Bank to provide low-cost financing to customers buying its telecommunications equipment to support its sales outside of China. This line of credit was tripled to $30 billion in 2009.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0021",
+    "tgt_text": "In 2005, Huawei's foreign contract orders exceeded its domestic sales for the first time. Huawei signed a global framework agreement with Vodafone. This agreement marked the first time a telecommunications equipment supplier from China had received Approved Supplier status from Vodafone Global Supply Chain.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0028",
+      "zh_0032"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0028",
+        "src_text": "华为在1995年开始布局进军国际市场的计划，在1996年华为发生“市场部集体大辞职”事件后，任正非开始谋划加速进军海外市场的进程。 1996年，华为与香港和记电讯签约，双方约定在3个月内构建一个总投资额为3600万港币的综合性商业网，成为当时华为自创办以来最大的一笔订单，也使华为走向全球化迈进了第一步。 2003年华为与香港运营商SUNDAY宣布，华为成为SUNDAY设备的独家供应商，与SUNDAY合作共建香港WCDMA网络。 但由于贷款到期无力还款，华为拿下对方资产，为SUNDAY付出17.08亿元的贷款，同时增持SUNDAY股份，成为SUNDAY的第二大股东。 2005年10月，李泽楷收购电讯盈科并对SUNDAY私有化，电讯盈科出资SUNDAY提前将其对华为的借款还清。",
+        "score": 0.5302,
+        "chunk_sim": 0.671,
+        "path_sim": 0.9164,
+        "combined_score": 0.8052,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0032",
+        "src_text": "在欧美国家方面，华为在1997年，与南斯拉夫邮电部进行第一次洽谈，但谈判遭到失败。 2000年，华为光网络产品进入德国、法国电信网，标志着中国光网络产品达到世界领先水平。 2003年，华为准备进入英国市场，之后于2005年成为英国电信首选的21世纪网络供应商。 后华为决定与英国INQUAM合作，在葡萄牙建立CDMA网络，还提出了廉价的产品解决方案。 华为设备报价只有欧美企业的三分之一，还提供同步国际漫游、多媒体视频聊天、PTT、无线公话等端到端的服务。 之后华为以低价优势，进入德国、法国、西班牙和英国市场，在欧洲逐步树立了名声。 在美国，华为在1993年即在硅谷建立芯片研究所，1999年在达拉斯建立研究所，2002年建立全资子公司Future Wei，向当地企业销售宽带和数据产品。 2008年，华为首次在北美大規模商用UMTS/HSPA網絡，為加拿大運營商Telus和Bell建設下一代無線網絡。 2010年4月，华为在加拿大渥太华开设其加拿大的第一个研发中心，后在2011年1月与加拿大Wind Mobile签订合作协议。 由于加拿大与美国不同，没有设立“国家安全审查”，因此华为已经顺势进入加拿大市场。 在大洋洲国家方面，华为与Optus在2008年5月成立移动创新中心，为工程师提供研发场所，以便将“无线和移动宽带”概念开发成“面向市场”的产品。",
+        "score": 0.5538,
+        "chunk_sim": 0.6365,
+        "path_sim": 0.9164,
+        "combined_score": 0.8287,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0022",
+    "tgt_text": "In 2007, Huawei began a joint venture with US security software vendor Symantec Corporation, known as Huawei Symantec, which aimed to provide end-to-end solutions for network data storage and security. Huawei bought out Symantec's share in the venture in 2012, with The New York Times noting that Symantec had fears that the partnership \"would prevent it from obtaining United States government classified information about cyber threats\".",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0044",
+      "zh_0049"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0044",
+        "src_text": "华为公司拥有一些子公司，包括海思半导体有限公司、消费者业务（原终端公司）、华为数字技术有限公司、华为软件技术公司、安捷信电气有限公司、深圳慧通商务有限公司、华为大学（成立於2005年）、华为赛门铁克科技有限公司及华为海洋网络有限公司等。",
+        "score": 0.5394,
+        "chunk_sim": 0.5787,
+        "path_sim": 0.9164,
+        "combined_score": 0.8143,
+        "src_section": "公司事务 > 子公司与投资",
+        "llm_label": "match"
+      },
+      {
+        "src_chunk_id": "zh_0049",
+        "src_text": "2008年，華為與赛门铁克合資成立存储与网络安全解决方案提供商华为赛门铁克科技有限公司。 2011年，华为出资买下赛门铁克所持股份，成为华为的全资子公司。 2010年，华为软件技术有限公司与朗新信息科技有限公司合资成立北京华为朗新科技有限责任公司，由朗新董事长徐长军任合资公司的董事长。 2019年6月，华为宣布以5000万美元收购俄罗斯面部识别科技公司Vocord。",
+        "score": 0.7873,
+        "chunk_sim": 0.7242,
+        "path_sim": 0.9164,
+        "combined_score": 1.0622,
+        "src_section": "公司事务 > 子公司与投资",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0023",
+    "tgt_text": "In May 2008, Australian carrier Optus announced that it would establish a technology research facility with Huawei in Sydney. In October 2008, Huawei reached an agreement to contribute to a new GSM-based HSPA+ network being deployed jointly by Canadian carriers Bell Mobility and Telus Mobility, joined by Nokia Siemens Networks. Huawei delivered one of the world's first LTE/EPC commercial networks for TeliaSonera in Oslo, Norway in 2009. Norway-based telecommunications Telenor instead selected Ericsson due to security concerns with Huawei. In July 2010, Huawei was included in the Global Fortune 500 2010 list published by the US magazine Fortune for the first time, on the strength of annual sales of US$21.8 billion and net profit of US$2.67 billion. In October 2012, it was announced that Huawei would move its UK headquarters to Green Park, Reading, Berkshire.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0019",
+      "zh_0032"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0019",
+        "src_text": "至2007年，华为在光传输网络、移动及固定交换网络、数据通信网络几大领域内拥有较强实力，并在全球电信市场与爱立信、阿尔卡特、思科等公司展开激烈竞争。 2008年，华为推出了第一款桌面云产品，为华为首个云计算产品，但并未进入市场。 直至2010年华为宣布启动云计算战略。",
+        "score": 0.5938,
+        "chunk_sim": 0.6763,
+        "path_sim": 0.9164,
+        "combined_score": 0.8687,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0032",
+        "src_text": "在欧美国家方面，华为在1997年，与南斯拉夫邮电部进行第一次洽谈，但谈判遭到失败。 2000年，华为光网络产品进入德国、法国电信网，标志着中国光网络产品达到世界领先水平。 2003年，华为准备进入英国市场，之后于2005年成为英国电信首选的21世纪网络供应商。 后华为决定与英国INQUAM合作，在葡萄牙建立CDMA网络，还提出了廉价的产品解决方案。 华为设备报价只有欧美企业的三分之一，还提供同步国际漫游、多媒体视频聊天、PTT、无线公话等端到端的服务。 之后华为以低价优势，进入德国、法国、西班牙和英国市场，在欧洲逐步树立了名声。 在美国，华为在1993年即在硅谷建立芯片研究所，1999年在达拉斯建立研究所，2002年建立全资子公司Future Wei，向当地企业销售宽带和数据产品。 2008年，华为首次在北美大規模商用UMTS/HSPA網絡，為加拿大運營商Telus和Bell建設下一代無線網絡。 2010年4月，华为在加拿大渥太华开设其加拿大的第一个研发中心，后在2011年1月与加拿大Wind Mobile签订合作协议。 由于加拿大与美国不同，没有设立“国家安全审查”，因此华为已经顺势进入加拿大市场。 在大洋洲国家方面，华为与Optus在2008年5月成立移动创新中心，为工程师提供研发场所，以便将“无线和移动宽带”概念开发成“面向市场”的产品。",
+        "score": 0.7636,
+        "chunk_sim": 0.6758,
+        "path_sim": 0.9164,
+        "combined_score": 1.0386,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0024",
+    "tgt_text": "Huawei has also expanded its operations in Ireland since 2016. As well as a headquarters in Dublin, it has facilities in Cork and County Westmeath.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0025",
+    "tgt_text": "In September 2017, Huawei created a Narrowband IoT city-aware network using a \"one network, one platform, N applications\" construction model utilizing Internet of things (IoT), cloud computing, big data, and other next-generation information and communications technology. It aims to be one of the world's five largest cloud players in the near future.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0025"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0025",
+        "src_text": "2017年9月，华为利用物联网、云计算、大数据和其他下一代信息通信技术，建立了“一网、一平台、多应用”建设模式，创建基于窄带物联网运作的城市感知网络。 未来，华为将成为世界五大云计算公司之一。 2019年2月1日，華為與加拿大卑詩省ABC電訊公司宣布一項合作計劃，華為將使用多输入多输出（Massive MIMO）技術為內陸城鎮拉克拉亞什進行高速互聯網先導計劃，提高郊區上網速度，承諾速度達每秒100MB。 2019年5月23日，在第21届下一代光网络论坛（NGON，Next Generation Optical Networking）上，华为凭借全光网2.0（Optical Networking 2.0， ON2.0）解决方案荣获全球光网络领域“最佳全能设备商（Best All Rounder）”大奖。 2019年9月，與韓國眼鏡潮牌Gentle Monster合作推出智能眼鏡。 2019年11月，華為聯乘法國高端音響品牌Devialet推出Sound X智能音箱。 2020年1月，華為宣佈將會與荷蘭公司TomTom合作，為未來的手機以及平板電腦提供地圖以及導航功能。 2020年12月16日，华为正式发布HarmonyOS 2.0手机开发者Beta版本。 2020年12月21日，华为消费者业务CEO余承东在华为发布会披露华为智能家居战略，推出全屋智能ALL IN ONE解决方案。",
+        "score": 0.8995,
+        "chunk_sim": 0.7757,
+        "path_sim": 0.9164,
+        "combined_score": 1.1744,
+        "src_section": "历史 > 成熟期（2011年至今）",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0026",
+    "tgt_text": "In 2017, Huawei and the government of Malaysia began cooperating to develop public security programs and Malaysian Smart City programs, as well as a related lab in Kuala Lumpur. In April 2019, Huawei established the Huawei Malaysia Global Training Centre (MGTC) at Cyberjaya, Malaysia. Huawei has had a major role in building, by 2020, approximately 70% of Africa's 4G networks. In November 2020, Telus Mobility dropped Huawei in favor of Samsung, Ericsson, and Nokia for their 5G/Radio Access Network",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0030"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0030",
+        "src_text": "除了继续开发中国周边国家和地区市场之外，华为还积极开发发展中国家市场，2002年开始主攻非洲市场。 1998年4月，中国政府向乌兹别克斯坦赠送了华为的交换机，在当地电信网运营；2000年乌兹别克斯坦政府批准华为5款产品进入当地电信网使用。 2004年，华为与沃达丰合作肯尼亚的智能网的改造与升级工程，成为华为在非洲的第一笔订单。 之后华为在毛里求斯建立非洲第一个3G商业局，在南非建设最长的通信管道。 中东方面，华为承建了阿联酋电信3G网络，于2003年正式投入商用，是全球第一个投入商用的WCDMA网络。 华为后在2007年与沙特科技城签订合同，将产品打入当地市场，沙特也成为华为在中东地区主要的市场。",
+        "score": 0.636,
+        "chunk_sim": 0.7098,
+        "path_sim": 0.9164,
+        "combined_score": 0.9109,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0027",
+    "tgt_text": "Huawei has been a major player in African technology markets and investment since their commencement of operations in Kenya in 1998. Today, Africa is one of Huawei's largest overseas markets.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0030"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0030",
+        "src_text": "除了继续开发中国周边国家和地区市场之外，华为还积极开发发展中国家市场，2002年开始主攻非洲市场。 1998年4月，中国政府向乌兹别克斯坦赠送了华为的交换机，在当地电信网运营；2000年乌兹别克斯坦政府批准华为5款产品进入当地电信网使用。 2004年，华为与沃达丰合作肯尼亚的智能网的改造与升级工程，成为华为在非洲的第一笔订单。 之后华为在毛里求斯建立非洲第一个3G商业局，在南非建设最长的通信管道。 中东方面，华为承建了阿联酋电信3G网络，于2003年正式投入商用，是全球第一个投入商用的WCDMA网络。 华为后在2007年与沙特科技城签订合同，将产品打入当地市场，沙特也成为华为在中东地区主要的市场。",
+        "score": 0.5845,
+        "chunk_sim": 0.5461,
+        "path_sim": 0.6448,
+        "combined_score": 0.7779,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0028",
+    "tgt_text": "In 2017, Huawei launched RuralStar to provide rural areas with access to technology and network connectivity. The systems work through solar-powered small cell base stations that connect to a central network via wireless backhaul, extending mobile coverage to remote and underserved areas, such as rural villages, with minimal infrastructure.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0011"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0011",
+        "src_text": "1994年8月，华为组成了十余名工程师的ETS（一种无线通信技术，主要用于农村通信）项目组，着手ETS系统的研发。 翌年，华为与深圳某企业签订合作协议，协议明确华为第一代ETS系统软件由华为研发，基站及手机由深圳某企业生产。 1995年下半年，ETS被不少省市区电信局选用，但是ETS也面临了许多问题，如设备故障、电话无法接通、通话质量差、断线严重等问题，影响了华为公司其他产品的发展。 尽管双方通过分析对相关问题进行了处理，但由于深圳某企业在查找自己的问题上采取的消极态度，又一直回避提供产品技术资料，且产品质量迟迟没有改善，还违约与中兴通讯、鸿年、赛格等进行相同产品的合作，最终双方合作失败，此后，华为开始自主研发ETS系统。 一年后，第二代ETS系统研制完成。 经过多次的实验证明，该产品在各种环境下都能满足技术要求。 ETS在进入市场后取得成功，后华为在第二代ETS的基础上，采用新技术推出更低成本、更高性能的第三代ETS，使华为在ETS领域位居同类产品技术领先地位，更成为中国农村“村村通电话”的主要解决方案，赢得市场口碑。 在1998年中国水灾期间，华为向灾区捐赠了ETS设备。",
+        "score": 0.5402,
+        "chunk_sim": 0.5037,
+        "path_sim": 0.5378,
+        "combined_score": 0.7016,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0029",
+    "tgt_text": "In October 2018, Huawei and HENGTONG Group announced the start of production for the Pakistan and East Africa Connecting Europe (PEACE) cable project. The cable went live in December 2022 with a design capacity of 16Tbit/s per fiber pair.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0048"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0048",
+        "src_text": "2007年12月11日，华为与全球海事系统有限公司签署合资协议，成立华为海洋网络有限公司。 2018年12月18日，华为海洋正式投入运营。 2019年6月2日，亨通光电表示，正在筹划通过发行股份及支付现金的方式，购买华为持有的华为海洋51%股权。",
+        "score": 0.4917,
+        "chunk_sim": 0.5477,
+        "path_sim": 0.4806,
+        "combined_score": 0.6359,
+        "src_section": "公司事务 > 子公司与投资",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0030",
+    "tgt_text": "In February 2023, Huawei joined the UNESCO Global Alliance for Literacy (GAL) as an associate member. Huawei partners with UNESCO's Global Skills Academy, which trains students through an online IT program to equip them with practical skills.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0031",
+    "tgt_text": "The Leadership, Employability, Advancement, and Possibility program (LEAP) is a collaboration between Huawei and the African Telecommunications Union (ATU) to teach IT training, certification courses, and employable digital skills in sub-Saharan Africa. The original program sought to equip 100,000 individuals with digital skills, but Huawei announced a new goal of an additional 150,000 individuals at the LEAP Summit 2024 in Shanghai. This expansion builds on Huawei's goal to equip individuals with digital skills to meet their estimate that over 230 million jobs in sub-Saharan Africa will require digital expertise.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0032",
+    "tgt_text": "Huawei Music is the default music streaming platform on Huawei devices, and it boasts 32 million active daily users in China as of 2018. That year, Huawei also launched an initiative to expand usership in Africa, putting most of their efforts into South Africa. The initial release of the software in South Africa included a limited library that was 80% South African music, although officials announced that international music would be added later. Beyond their streaming services, Huawei Music has also invested substantially in South African artists, events, and music businesses. Notably, Huawei released a platform called Huawei Culture Club that displays upcoming shows, events, and DJs performing in South Africa. Huawei Culture Club was listed as an official sponsor for Ultra Music Festival 2015, which is among the largest electronic festivals in Africa. In 2020, Huawei Music partnered with top artists in Kenya, Nigeria, and Africa, having them publish their playlists for listeners to rate and enjoy on the Huawei Music app. Audiences were able to vote on their favorite playlist, and the winner was featured on the app for the rest of the year.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0030"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0030",
+        "src_text": "除了继续开发中国周边国家和地区市场之外，华为还积极开发发展中国家市场，2002年开始主攻非洲市场。 1998年4月，中国政府向乌兹别克斯坦赠送了华为的交换机，在当地电信网运营；2000年乌兹别克斯坦政府批准华为5款产品进入当地电信网使用。 2004年，华为与沃达丰合作肯尼亚的智能网的改造与升级工程，成为华为在非洲的第一笔订单。 之后华为在毛里求斯建立非洲第一个3G商业局，在南非建设最长的通信管道。 中东方面，华为承建了阿联酋电信3G网络，于2003年正式投入商用，是全球第一个投入商用的WCDMA网络。 华为后在2007年与沙特科技城签订合同，将产品打入当地市场，沙特也成为华为在中东地区主要的市场。",
+        "score": 0.5783,
+        "chunk_sim": 0.5792,
+        "path_sim": 0.6426,
+        "combined_score": 0.7711,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0033",
+    "tgt_text": "By 2018, Huawei had sold 200 million smartphones. In 2019, Huawei reported revenue of US$122 billion. By the second quarter of 2020, Huawei had become the world's top smartphone seller, overtaking Samsung for the first time. In 2021, Huawei was ranked the second-largest R&D investor in the world by the EU Joint Research Centre (JRC) in its EU Industrial R&D Investment Scoreboard and ranked fifth in the world in US patents according to a report by Fairview Research's IFI Claims Patent Services.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0067"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0067",
+        "src_text": "在消费者业务方面，华为自2007年开始，连续成为数据卡全球市占率第一，2010年市占率达46.8%。 智能手机方面，2010年，华为智能手机出货量仅为500万台，远低于三星和苹果，市场份额极低甚至忽而不计。 在华为手机运营模式从“B2B”转为“B2C”之后，出货量和市占率也有明显提升。 2018年，华为超越苹果公司，成为仅次于三星电子的全球第二大智能手机制造商，当年出货量2.06亿部，出货量稳居世界第三。 根据2019年第一季度第三方公司发布的报告，华为在中国大陆的手机出货量位居首位，为2990万部，同时是2019年一季度出货量中国大陆排名前五的手机厂商中，唯一一家没有下降并且仍处于增长形势的手机厂商。",
+        "score": 0.727,
+        "chunk_sim": 0.7205,
+        "path_sim": 0.6445,
+        "combined_score": 0.9203,
+        "src_section": "公司事务 > 業務記錄 > 市场占有率",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0034",
+    "tgt_text": "However, heavy international sanctions saw Huawei's revenues drop by 32% in the third quarter of 2021, as Huawei was no longer able to preinstall Google's GMS on its phones, making Huawei unable to obtain a license to preinstall crucial apps such as the Play Store. Linghao Bao, an analyst at policy research firm Trivium China said the \"communications giant went from being the second-largest smartphone maker in the world, after Samsung, to essentially dead.\" By the end of third quarter in 2022, Huawei revenue had dropped a further 19.7% since the beginning of the year. Yet, for the eight consecutive year, Huawei remained the top patent applicant for patents filled under the PCT, with 6600 published applications in 2024.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0061"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0061",
+        "src_text": "2002年，华为在中国的专利申请量突破1000件，成为中国专利申请最多的企业，连续位居第一位；据中国国家知识产权局数据，2018年，华为在中国的专利授权量位居首位。 2008年，华为在全球共提交1737件专利申请，从2007年的第四位跃升为递交申请最多的公司。 截至2011年2月，华为共在全球范围内申请了49,040项专利；2014年，华为在全球范围内申请了3,442项专利，居全球第一。 2017、2018連續兩年成為全球年申請專利最多的公司。 据统计，华为申请的专利中，九成以上是发明专利。",
+        "score": 0.6798,
+        "chunk_sim": 0.6482,
+        "path_sim": 0.6445,
+        "combined_score": 0.8732,
+        "src_section": "公司事务 > 知识产权",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0035",
+    "tgt_text": "By mid-2024, the company had recovered after a brief decline in turnover and profit and continued its expansion. Most foreign parts in the supply chain were successfully replaced by domestic products in a relatively short period of time. In the first quarter of 2024, the company's profits increased nearly six-fold compared to the previous year to just under US$2.7 billion. On 21 June 2024, Huawei announced that HarmonyOS is now installed on over 900 million devices and has become the second most popular mobile OS in China.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0004"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0004",
+        "src_text": "受美国制裁等因素的影响，华为近年在一些领域营收下滑。 为此，华为不得不轉向鸿蒙操作系统、雲計算、数字城市、車用技術等等其他领域作為新盈利點。 2019年6月，华为圣克拉拉研究中心裁员，任正非表示将该研究中心迁至加拿大。 2020年，华为将子公司荣耀终端出售给深圳市政府的国有企业，以“确保其生存”。 2021年，华为的研發投入一度超过营收的20%，是2010年的9倍。 华为沒有放棄通訊與企業业务本業，繼續開發佈局6G技術預研。",
+        "score": 0.4897,
+        "chunk_sim": 0.6645,
+        "path_sim": 0.6445,
+        "combined_score": 0.683,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0036",
+    "tgt_text": "Huawei classifies itself as a \"collective\" entity and prior to 2019 did not refer to itself as a private company. Richard McGregor, author of The Party: The Secret World of China's Communist Rulers, said that this is \"a definitional distinction that has been essential to the company's receipt of state support at crucial points in its development\". McGregor argued that \"Huawei's status as a genuine collective is doubtful.\" Huawei's position shifted in 2019 when Dr. Song Liuping, Huawei's chief legal officer, commenting on the US government ban, said: \"Politicians in the US are using the strength of an entire nation to come after a private company.\" (emphasis added).",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.5692,
+        "chunk_sim": 0.609,
+        "path_sim": 0.6328,
+        "combined_score": 0.7591,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0037",
+    "tgt_text": "Ren Zhengfei is the founder and CEO of Huawei and has the power to veto any decisions made by the board of directors. Huawei also has rotating co-CEOs.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0052"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0052",
+        "src_text": "华为高层管理采取委员会制，它将华为的高层管理者聚集在一起集体领导华为，并商讨华为的发展，同时避免权力的过于集中。 2011年，华为实行轮值CEO制度，由郭平、胡厚崑和徐直军轮流担任首席执行长一职，该职务每六个月轮换一次。 2018年3月，轮值CEO制度改为轮值董事长，轮换期限不变。 截至2025年12月，华为高管的具体详情如下： 董事长：梁华 副董事长：徐直军（轮值董事长）、胡厚崑（轮值董事长）、孟晚舟（轮值董事长、首席财务官） 常务董事：汪涛（公司EMT经营联席会议主任）、张平安（华为云计算BU首席执行官）、余承东（产品投资评审委员会主任、消费者BG首席执行官）、郑良材（人力资源管理部总裁） 董事会成员：梁华、徐直军、胡厚崑、孟晚舟、丁耘、汪涛、张平安、余承东、郑良材、何庭波（华为科学家委员会主任、ITMT主任、半导体业务部总裁）、李建国（列席常务董事、制造部总裁）、任正非（首席执行官）、陶景文（质量流程IT总裁）、彭博（全球采购认证管理部总裁）、查钧（2012实验室总裁）、侯金龙（数字能源BU总裁）、杨超斌（ICT BG首席执行官）、应为民（首席供应官、集团采购管理委员会主任）",
+        "score": 0.5257,
+        "chunk_sim": 0.5202,
+        "path_sim": 0.9799,
+        "combined_score": 0.8196,
+        "src_section": "公司事务 > 领导层",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0038",
+    "tgt_text": "Huawei disclosed its list of board of directors for the first time in 2010. Liang Hua is the current chair of the board. As of 2025, the members of the board are Liang Hua, Xu Zhijun, Meng Wanzhou (Sabrina Meng), Wang Tao (David Wang), Zhang Ping'an, Yu Chengdong (Richard Yu), Zheng Liangcai, Yang Chaobin, He Tingbo, Hu Houkun (Ken Hu), Peng Bo (Vicent Peng), Zha Jun, Hou Jinlong, Ying Weimin, Ren Zhengfei, Zhou Yuefeng (Peter Zhou), Li Peng. He Tingbo is the Director, Chair of Huawei Scientist Committee, ITMT Director, President of the Semiconductor Business Dept.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0052"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0052",
+        "src_text": "华为高层管理采取委员会制，它将华为的高层管理者聚集在一起集体领导华为，并商讨华为的发展，同时避免权力的过于集中。 2011年，华为实行轮值CEO制度，由郭平、胡厚崑和徐直军轮流担任首席执行长一职，该职务每六个月轮换一次。 2018年3月，轮值CEO制度改为轮值董事长，轮换期限不变。 截至2025年12月，华为高管的具体详情如下： 董事长：梁华 副董事长：徐直军（轮值董事长）、胡厚崑（轮值董事长）、孟晚舟（轮值董事长、首席财务官） 常务董事：汪涛（公司EMT经营联席会议主任）、张平安（华为云计算BU首席执行官）、余承东（产品投资评审委员会主任、消费者BG首席执行官）、郑良材（人力资源管理部总裁） 董事会成员：梁华、徐直军、胡厚崑、孟晚舟、丁耘、汪涛、张平安、余承东、郑良材、何庭波（华为科学家委员会主任、ITMT主任、半导体业务部总裁）、李建国（列席常务董事、制造部总裁）、任正非（首席执行官）、陶景文（质量流程IT总裁）、彭博（全球采购认证管理部总裁）、查钧（2012实验室总裁）、侯金龙（数字能源BU总裁）、杨超斌（ICT BG首席执行官）、应为民（首席供应官、集团采购管理委员会主任）",
+        "score": 0.6961,
+        "chunk_sim": 0.761,
+        "path_sim": 0.9799,
+        "combined_score": 0.99,
+        "src_section": "公司事务 > 领导层",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0039",
+    "tgt_text": "Yu Chengdong (Richard Yu) is the executive director, chairman of the Investment Review Board, chairman of the Board of Directors of the Consumer BG. Huawei's Chief Ethics & Compliance Officer is Yang Li. who is also Huawei's Chinese Communist Party Committee Secretary. Their chief legal officer is Song Liuping.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0040",
+    "tgt_text": "At its founding in 1987, Huawei was established as a collectively-owned enterprise. Collectively owned enterprises were an intermediary corporate ownership status between state-owned enterprises and private businesses. The Chinese government began issuing licenses for private businesses starting in 1992.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0006"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0006",
+        "src_text": "1987年9月，刚从国企南油集团辞职的任正非与五人合伙，以“民间科技企业”的身份成立“深圳市华为技术有限公司”，经深圳市工商局批准获得注册，注册资本2.1万元，员工14人。 在华为创立前，中国大陆电信网使用的设备主要依赖进口，在业内流传着“七国八制”（产品主要来自7个国家，涵盖8种制式）的说法，造成了互联互通的复杂性和通话质量低下。 当时为了加快经济建设，国家鼓励邮电通信技术改造，提倡“市场换技术”。 尽管这一政策加快了电信基础设施的建设，但客观上也导致了电信网设备一直依赖进口，形成垄断。",
+        "score": 0.5791,
+        "chunk_sim": 0.5857,
+        "path_sim": 0.8532,
+        "combined_score": 0.8351,
+        "src_section": "历史 > 创立期（1987年—1993年）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0041",
+    "tgt_text": "Huawei states it is an employee-owned company, but this remains a point of dispute. Ren Zhengfei retains approximately 1 percent of the shares of Huawei's holding company, Huawei Investment & Holding, with the remainder of the shares held by a trade union committee (not a trade union per se, and the internal governance procedures of this committee, its members, its leaders or how they are selected all remain undisclosed to the public) that is claimed to be representative of Huawei's employee shareholders. The company's trade union committee is registered with and pays dues to the Shenzhen federation of the All-China Federation of Trade Unions, which is controlled by the Chinese Communist Party. About half of Huawei staff participate in this structure (foreign employees are not eligible), and hold what the company calls \"virtual restricted shares\". These shares are non-tradable and are allocated to reward performance. When employees leave Huawei, their shares revert to the company, which compensates them for their holding. Although employee shareholders receive dividends, their shares do not entitle them to any direct influence in management decisions, but enables them to vote for members of the 115-person Representatives' Commission from a pre-selected list of candidates. The Representatives' Commission selects Huawei Holding's board of directors and Board of Supervisors.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0036",
+      "zh_0037"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0036",
+        "src_text": "根据华为公司的说法，华为是“100%由员工持有的民营企业”。 华为公司成立时，6人均衡持股各占六分之一的股份，资本金为2.1万元人民币。 此后，股权进行了多次变更和扩张。 目前，华为的唯一股东是华为投资控股有限公司。 华为投资控股有限公司则拥有两个股东，其中任正非持股比例为1%左右，其余股份则由华为员工通过华为投资控股有限公司工会委员会持有。",
+        "score": 0.7708,
+        "chunk_sim": 0.7435,
+        "path_sim": 0.8532,
+        "combined_score": 1.0267,
+        "src_section": "公司事务 > 股东构成",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0037",
+        "src_text": "华为于1990年实行员工全员内部持股制度，该股份以股权形式体现，每股1元人民币，不对外发行。 每个营业年度，华为有关部门都按照员工在公司工作的年限、级别、业绩表现、劳动态度等指标，确定员工可以购买的股权数。 这一制度的实施主要是解决公司资金紧张的问题。 一些为了谋求发展的员工，纷纷购买了公司的股权。 而公司的奖金也是通过配股实现，员工的所有奖金转为公司的内部股票，内部股每年会发放一次红利，自动滚入本金。 华为内部股具体制度很复杂，即便是长期雇员也难以理解。 2001年7月，华为公司通过股票期权计划，推出了《华为技术有限公司虚拟股票期权计划暂行管理办法》，翌年华为将内部股权制转为虚拟股权制。 2003年华为投资控股有限公司成立后，华为公司原有的内部员工持股、期权激励都被平移至华为控股的平台。 2008年，华为实行饱和配股制，即规定员工的配股上限，每个级别达到上限后，就不再参与新的配股，为给新员工保留发展空间。 此外，华为的外籍员工无法购买虚拟受限股，因此自2013年起，华为推出奖励期权计划（TUP），使外籍员工也可以分享利润。 该计划在2014年对中国籍员工推出。 当员工从华为离职时，他们所持的股票会归还给公司，离职时由华为控股工会以当前价格回购。 尽管华为持股员工获得一定的股息，但据报道，华为没有关于股息的信息。",
+        "score": 0.8392,
+        "chunk_sim": 0.6949,
+        "path_sim": 0.8532,
+        "combined_score": 1.0952,
+        "src_section": "公司事务 > 股东构成 > 员工持股制度",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0042",
+    "tgt_text": "Academics Christopher Balding of Fulbright University and Donald C. Clarke of George Washington University have described Huawei's virtual stock program as \"purely a profit-sharing incentive scheme\" that \"has nothing to do with financing or control\". They found that, after a few stages of historical morphing, employees do not own a part of Huawei through their shares. Instead, the \"virtual stock is a contract right, not a property right; it gives the holder no voting power in either Huawei Tech or Huawei Holding, cannot be transferred, and is cancelled when the employee leaves the firm, subject to a redemption payment from Huawei Holding TUC at a low fixed price\". Balding and Clarke add, \"given the public nature of trade unions in China, if the ownership stake of the trade union committee is genuine, and if the trade union and its committee function as trade unions generally function in China, then Huawei may be deemed effectively state-owned.\" Tim Rühlig, a Research Fellow at the Swedish Institute of International Affairs, asked Huawei for a response to the Balding and Clarke paper; the \"information provided by Huawei gives an indication of how difficult it is to run an independent company in such a crucial sector in China\". After the publication of Balding and Clarke's paper, Huawei has \"engaged in a PR blitz to manufacture an image of a transparent company\".",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0036",
+      "zh_0037"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0036",
+        "src_text": "根据华为公司的说法，华为是“100%由员工持有的民营企业”。 华为公司成立时，6人均衡持股各占六分之一的股份，资本金为2.1万元人民币。 此后，股权进行了多次变更和扩张。 目前，华为的唯一股东是华为投资控股有限公司。 华为投资控股有限公司则拥有两个股东，其中任正非持股比例为1%左右，其余股份则由华为员工通过华为投资控股有限公司工会委员会持有。",
+        "score": 0.5412,
+        "chunk_sim": 0.584,
+        "path_sim": 0.8532,
+        "combined_score": 0.7972,
+        "src_section": "公司事务 > 股东构成",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0037",
+        "src_text": "华为于1990年实行员工全员内部持股制度，该股份以股权形式体现，每股1元人民币，不对外发行。 每个营业年度，华为有关部门都按照员工在公司工作的年限、级别、业绩表现、劳动态度等指标，确定员工可以购买的股权数。 这一制度的实施主要是解决公司资金紧张的问题。 一些为了谋求发展的员工，纷纷购买了公司的股权。 而公司的奖金也是通过配股实现，员工的所有奖金转为公司的内部股票，内部股每年会发放一次红利，自动滚入本金。 华为内部股具体制度很复杂，即便是长期雇员也难以理解。 2001年7月，华为公司通过股票期权计划，推出了《华为技术有限公司虚拟股票期权计划暂行管理办法》，翌年华为将内部股权制转为虚拟股权制。 2003年华为投资控股有限公司成立后，华为公司原有的内部员工持股、期权激励都被平移至华为控股的平台。 2008年，华为实行饱和配股制，即规定员工的配股上限，每个级别达到上限后，就不再参与新的配股，为给新员工保留发展空间。 此外，华为的外籍员工无法购买虚拟受限股，因此自2013年起，华为推出奖励期权计划（TUP），使外籍员工也可以分享利润。 该计划在2014年对中国籍员工推出。 当员工从华为离职时，他们所持的股票会归还给公司，离职时由华为控股工会以当前价格回购。 尽管华为持股员工获得一定的股息，但据报道，华为没有关于股息的信息。",
+        "score": 0.5865,
+        "chunk_sim": 0.5987,
+        "path_sim": 0.8532,
+        "combined_score": 0.8425,
+        "src_section": "公司事务 > 股东构成 > 员工持股制度",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0043",
+    "tgt_text": "Academic Toshio Goto of the Japan University of Economics has disagreed with Balding and Clarke's assessment of Huawei employee shareholders' ownership. Goto writes that the Huawei's ownership structure is a function of its formation amid the Chinese reforms, with the only mechanism for concentrating employee ownership under Shenzen's 1997 Provisions on State-owned Company Employee Stock Option Plans being to do so via Huawei's trade union. In contrast to Balding and Clarke, Goto writes that the Huawei's virtual shares are substantially equivalent to voting stock, and that nominal ownership through the trade union does not change the legal and financial independence of employee ownership from the union itself. Goto concludes that the firm is effectively owned by employees and therefore it is not effectively state-owned. In analyzing Huawei's corporate governance and ownership structure, Academic Wang Jun of the Chinese University of Politics and Law also rejects the argument that Huawei is a state-owned enterprise controlled by a labor union, writing that normative practices and legal requirements distinguish between the shareholding vehicle of union-held employee assets and assets belonging to the union itself. Academics Kunyuan Qiao of Cornell University and Christopher Marquis of the University of Cambridge likewise conclude that Huawei is a private company owned collectively by its employees and is neither owned nor controlled directly by the Chinese government.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0036",
+      "zh_0037"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0036",
+        "src_text": "根据华为公司的说法，华为是“100%由员工持有的民营企业”。 华为公司成立时，6人均衡持股各占六分之一的股份，资本金为2.1万元人民币。 此后，股权进行了多次变更和扩张。 目前，华为的唯一股东是华为投资控股有限公司。 华为投资控股有限公司则拥有两个股东，其中任正非持股比例为1%左右，其余股份则由华为员工通过华为投资控股有限公司工会委员会持有。",
+        "score": 0.5742,
+        "chunk_sim": 0.6022,
+        "path_sim": 0.8532,
+        "combined_score": 0.8302,
+        "src_section": "公司事务 > 股东构成",
+        "llm_label": "match"
+      },
+      {
+        "src_chunk_id": "zh_0037",
+        "src_text": "华为于1990年实行员工全员内部持股制度，该股份以股权形式体现，每股1元人民币，不对外发行。 每个营业年度，华为有关部门都按照员工在公司工作的年限、级别、业绩表现、劳动态度等指标，确定员工可以购买的股权数。 这一制度的实施主要是解决公司资金紧张的问题。 一些为了谋求发展的员工，纷纷购买了公司的股权。 而公司的奖金也是通过配股实现，员工的所有奖金转为公司的内部股票，内部股每年会发放一次红利，自动滚入本金。 华为内部股具体制度很复杂，即便是长期雇员也难以理解。 2001年7月，华为公司通过股票期权计划，推出了《华为技术有限公司虚拟股票期权计划暂行管理办法》，翌年华为将内部股权制转为虚拟股权制。 2003年华为投资控股有限公司成立后，华为公司原有的内部员工持股、期权激励都被平移至华为控股的平台。 2008年，华为实行饱和配股制，即规定员工的配股上限，每个级别达到上限后，就不再参与新的配股，为给新员工保留发展空间。 此外，华为的外籍员工无法购买虚拟受限股，因此自2013年起，华为推出奖励期权计划（TUP），使外籍员工也可以分享利润。 该计划在2014年对中国籍员工推出。 当员工从华为离职时，他们所持的股票会归还给公司，离职时由华为控股工会以当前价格回购。 尽管华为持股员工获得一定的股息，但据报道，华为没有关于股息的信息。",
+        "score": 0.5362,
+        "chunk_sim": 0.6245,
+        "path_sim": 0.8532,
+        "combined_score": 0.7922,
+        "src_section": "公司事务 > 股东构成 > 员工持股制度",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0044",
+    "tgt_text": "Academics Steve Tsang and Olivia Cheung write that Huawei is a private company. Likewise, academics Simon Curtis and Ian Klaus write that Huawei is not state-owned, but is a private company which the Chinese government views as a national champion. In 2021, Huawei did not report its ultimate beneficial ownership in Europe as required by European anti-money laundering laws.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0036",
+      "zh_0098"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0036",
+        "src_text": "根据华为公司的说法，华为是“100%由员工持有的民营企业”。 华为公司成立时，6人均衡持股各占六分之一的股份，资本金为2.1万元人民币。 此后，股权进行了多次变更和扩张。 目前，华为的唯一股东是华为投资控股有限公司。 华为投资控股有限公司则拥有两个股东，其中任正非持股比例为1%左右，其余股份则由华为员工通过华为投资控股有限公司工会委员会持有。",
+        "score": 0.5041,
+        "chunk_sim": 0.5486,
+        "path_sim": 0.8532,
+        "combined_score": 0.7601,
+        "src_section": "公司事务 > 股东构成",
+        "llm_label": "match"
+      },
+      {
+        "src_chunk_id": "zh_0098",
+        "src_text": "在海外，华为创办人的身份一直被质疑。 同样被质疑的还有其与中国解放军的关系，2012年澳大利亚时拒绝华为投标当地的全国宽带网设备项目，其中一个原因就是疑虑华为的“军方背景”。 任正非在2015年首次公开演讲，接受BBC主播的对话，未有指明公司性质，不过肯定公司是拥护中国共产党和热爱祖国。 而公司有推崇「狼性文化」，在給與員工超高待遇同時施以高壓管理，過往曾有多位員工自殺，飽受外界質疑。 有指华为未有因应职场变化改变旧有的工作环境和管理等，认为管理层应该重视多与员工接触，改善工作环境释放员工压力。",
+        "score": 0.375,
+        "chunk_sim": 0.5846,
+        "path_sim": 0.8532,
+        "combined_score": 0.631,
+        "src_section": "爭議",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0045",
+    "tgt_text": "In August 2019, Huawei hired the law firm Sidley Austin to lobby in the US after restrictions were placed by the Trump administration. Export controls, trade, sanctions, \"and other national security-related topics\" were listed on disclosure filings, according to Politico. In July 2021, Huawei hired Tony Podesta as a consultant and lobbyist, with a goal of nurturing the company's relationship with the Biden administration. Huawei has also hired public relations firms Ruder Finn, Wavemaker, Racepoint Global, and Burson Cohn & Wolfe for various campaigns. In January 2024, Bloomberg News reported that Huawei ended its in-house lobbying operations in Washington, D.C.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0046",
+    "tgt_text": "In March 2025, Huawei lobbyists were banned from accessing the European Parliament following the arrests of several Huawei staff accused of bribery, forgery, and money laundering. In April 2025, the European Commission announced that it \"shall not meet with any lobby groups and/or trade associations that represent Huawei's interests and/or speak on its behalf\" in response to the investigation.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0110"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0110",
+        "src_text": "瑞典基於瑞典國家安全局的電信基礎設備安全顧慮對华为提出電信設備限制令，禁止华为參與瑞典國內5G電信設備競標，禁令還包括2025年以前移除所有華為通信設備，中國電信設備工作人員也需要全數離開操作現有職位，此項禁令遭到中國外交部對易利信可能失去中國市場的報復警告。",
+        "score": 0.4851,
+        "chunk_sim": 0.5383,
+        "path_sim": 0.7223,
+        "combined_score": 0.7018,
+        "src_section": "爭議 > 瑞典5G電信設備限制令",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0047",
+    "tgt_text": "According to its CEO and founder Ren Zhengfei, Huawei's corporate culture is the same as the culture of the CCP, \"and to serve the people wholeheartedly means to be customer-centric and responsible to society.\" Ren frequently states that Huawei's management philosophy and strategy are commercial applications of Maoism.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0043",
+      "zh_0069"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0043",
+        "src_text": "华为的管理模式采取的是中西融合的模式，在管理上参考了中国共产党的制度，如民主生活会、自律宣言、整风大会、思想政治教育、群众运动、干部公示制度、“作风八条”、廉政信箱、道德遵从委员会等。 1997年任正非访问IBM后，他也将IBM的管理制度引入到华为的管理体系，逐渐打造出属于自己的一套管理体系。 同时，华为还引入美国Hay公司的薪酬和绩效管理制度。 另外，华为于1995年筹划《华为基本法》，作为华为的“管理大纲”，1998年3月审核通过。",
+        "score": 0.4697,
+        "chunk_sim": 0.5258,
+        "path_sim": 0.7582,
+        "combined_score": 0.6972,
+        "src_section": "公司事务 > 管理模式与组织架构",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0069",
+        "src_text": "1997年，华为正式提出“面向客户是基础，面向未来是方向”的观点，自此以后，华为的发展战略始终围绕“以客户为中心”的思想。 2010年，“以客户为中心，以奋斗者为本，长期坚持艰苦奋斗”成为华为的核心价值观。",
+        "score": 0.5073,
+        "chunk_sim": 0.5589,
+        "path_sim": 0.7582,
+        "combined_score": 0.7347,
+        "src_section": "企業標誌与价值观",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0048",
+    "tgt_text": "Ren states that in the event of a conflict between Huawei's business interests and the CCP's interests, he would \"choose the CCP whose interest is to serve the people and all human beings\". Qiao and Marquis observe that company founder Ren is a dedicated communist who seeks to ingrain communist values at Huawei.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0049",
+    "tgt_text": "As of the beginning of 2010, approximately 80% of the world's top 50 telecoms companies had worked with Huawei.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0002"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0002",
+        "src_text": "华为在170多个国家和地区提供产品和服务。 截至2011年 (2011-Missing required parameter 1=month!)，华为为全球最大的50家电信运营商中的45家提供服务，建设了1500多张网络，服务全世界三分之一的人口。 2012年超越爱立信，成为全球最大的电信设备制造商；2018年曾超越苹果公司，成为全球第二大智能手机制造商，仅次于三星电子。 2022年财富世界500强榜单中，华为位列第96名。",
+        "score": 0.6276,
+        "chunk_sim": 0.5653,
+        "path_sim": 0.4447,
+        "combined_score": 0.761,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0050",
+    "tgt_text": "In 2016, German camera company Leica established a partnership with Huawei, and that Leica cameras will be co-engineered into Huawei smartphones, including the P and Mate Series. The first smartphone to be co-engineered with a Leica camera was the Huawei P9. As of May 2022, Huawei partnership with Leica had ended.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0024",
+      "zh_0058"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0024",
+        "src_text": "2016年4月，德國公司徠卡相機與華為建立了合作關係，徠卡相機將與華為智能手機共同設計，包括P和Mate系列。 華為P9是全球首部由華為與德國相機廠Leica參與共同研發的智能手機。 2016年11月17日，國際無線標準化機構3GPP第87次會議在美國拉斯維加斯召開討論手機5G標準，中國華為主推PolarCode（極化碼）方案，美國高通主推LDPC方案，法國主推Turbo2.0方案，最終短碼方案由華為極化碼勝出。",
+        "score": 0.8553,
+        "chunk_sim": 0.7816,
+        "path_sim": 0.4447,
+        "combined_score": 0.9887,
+        "src_section": "历史 > 成熟期（2011年至今）",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0058",
+        "src_text": "1995年，华为将分散在制造部、数字机组的研发人员聚集，整合公司的研发资源，组建该公司的研发部门，即“中央研究部”。 同年，华为在北京成立北京研究所，负责数据通信业务的研发；1997年又成立了上海研究所，负责移动通信业务的研发。 1998年，华为组建预研部，对具有前瞻性的产品及技术进行研发，由此启动了华为的预研工作。 2011年，华为公司成立“2012实验室”、为华为创新、研究和平台开发的平台，也是构筑华为面向未来技术和研发能力的基石，研究范围涉及未来5-10年发展方向的多个新领域，包括机器学习、自然语言处理、5G等，下设中央硬件工程学院、海思、研发能力中心、中央软件院，香农实验室、高斯实验室、诺亚方舟实验室等。 2016年9月，华为与徠卡相機达成进一步战略合作，设立麦克斯·别雷克创新实验室进行联合研发，研发领域涉及新光学系统、计算成像、虚拟现实和增强现实。 截至2018年，华为在全球共设有36个联合创新中心及14个研究机构（分布在在中国境外十余城市），每个研究所设有2-4个研发中心。",
+        "score": 0.6649,
+        "chunk_sim": 0.5736,
+        "path_sim": 0.4447,
+        "combined_score": 0.7983,
+        "src_section": "公司事务 > 科研",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0051",
+    "tgt_text": "In August 2019, Huawei collaborated with eyewear company Gentle Monster and released smartglasses. In November 2019, Huawei partners with Devialet and unveiled a new specifically designed speaker, the Sound X. In October 2020, Huawei released its own mapping service, Petal Maps, which was developed in partnership with Dutch navigation device manufacturer TomTom.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0025",
+      "zh_0083"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0025",
+        "src_text": "2017年9月，华为利用物联网、云计算、大数据和其他下一代信息通信技术，建立了“一网、一平台、多应用”建设模式，创建基于窄带物联网运作的城市感知网络。 未来，华为将成为世界五大云计算公司之一。 2019年2月1日，華為與加拿大卑詩省ABC電訊公司宣布一項合作計劃，華為將使用多输入多输出（Massive MIMO）技術為內陸城鎮拉克拉亞什進行高速互聯網先導計劃，提高郊區上網速度，承諾速度達每秒100MB。 2019年5月23日，在第21届下一代光网络论坛（NGON，Next Generation Optical Networking）上，华为凭借全光网2.0（Optical Networking 2.0， ON2.0）解决方案荣获全球光网络领域“最佳全能设备商（Best All Rounder）”大奖。 2019年9月，與韓國眼鏡潮牌Gentle Monster合作推出智能眼鏡。 2019年11月，華為聯乘法國高端音響品牌Devialet推出Sound X智能音箱。 2020年1月，華為宣佈將會與荷蘭公司TomTom合作，為未來的手機以及平板電腦提供地圖以及導航功能。 2020年12月16日，华为正式发布HarmonyOS 2.0手机开发者Beta版本。 2020年12月21日，华为消费者业务CEO余承东在华为发布会披露华为智能家居战略，推出全屋智能ALL IN ONE解决方案。",
+        "score": 0.8031,
+        "chunk_sim": 0.5628,
+        "path_sim": 0.4447,
+        "combined_score": 0.9365,
+        "src_section": "历史 > 成熟期（2011年至今）",
+        "llm_label": "match"
+      },
+      {
+        "src_chunk_id": "zh_0083",
+        "src_text": "除上述产品外，华为亦研发生产智能家居产品。 2019年，华为推出了虚拟现实眼镜，而华为和荣耀两品牌均推出智慧屏（相当于智能电视）。",
+        "score": 0.716,
+        "chunk_sim": 0.6176,
+        "path_sim": 0.4447,
+        "combined_score": 0.8494,
+        "src_section": "产品与服务 > 消费者业务 > 其他产品",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0052",
+    "tgt_text": "Huawei offers mobile and fixed softswitches, plus next-generation home location register and Internet Protocol Multimedia Subsystems (IMS). Huawei sells xDSL, passive optical network (PON) and next-generation PON (NG PON) on a single platform. The company also offers mobile infrastructure, broadband access and service provider routers and switches (SPRS). Huawei's software products include service delivery platforms (SDPs), base station subsystems, and more. As of 2023, telecoms-network equipment remains Huawei's core area of business, which constituted half of its revenues for the year.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0018",
+      "zh_0019",
+      "zh_0070",
+      "zh_0071"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0018",
+        "src_text": "2003年，思科系統公司起诉华为侵权，但訴訟最后以和解告终。 同年9月，华为完成了与主要3G设备供应商、手机厂商的兼容性测试。 至2004年，华为拥有GSM、WCDMA、CDMA2000和TD-SCDMA的全套解决方案，也与爱立信、北电、NEC、西门子缔造CPRI联盟，推进3G标准化，先后成为3GPP和3GPP2的成员，参加了CWTS WG4组织的CDMA演进讨论及其相关标准的起草工作。 该公司还参与了中国3G标准化组织CWTS的WCDMA标准的研究和制定，与传输所合作起草了MTNET (Mobile Test Net）实验网系列规范，由此华为成为全球3G市场上的重要参与者。 2004年，华为在香港推出3G手机U326、U626、数据卡E600。 至2005年华为推出多款数据卡产品，凭借外形小巧、即插即用的特点深受消费者好评。",
+        "score": 0.5299,
+        "chunk_sim": 0.6312,
+        "path_sim": 0.824,
+        "combined_score": 0.7771,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0019",
+        "src_text": "至2007年，华为在光传输网络、移动及固定交换网络、数据通信网络几大领域内拥有较强实力，并在全球电信市场与爱立信、阿尔卡特、思科等公司展开激烈竞争。 2008年，华为推出了第一款桌面云产品，为华为首个云计算产品，但并未进入市场。 直至2010年华为宣布启动云计算战略。",
+        "score": 0.5052,
+        "chunk_sim": 0.643,
+        "path_sim": 0.824,
+        "combined_score": 0.7524,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0070",
+        "src_text": "华为主要提供ICT（信息技术与通信技术）基础设施和智能终端产品和服务。 目前有运营商业务、消费者业务和企业业务三大业务，截至2019年6月，全球有超过30亿人使用华为的产品和服务。 运营商业务和企业业务： 无线接入：包括GSM、通用移动通讯系统（UMTS）、LTE等基站设备 固定接入：包括传统固网接入（MSAN, DSLAM），光纤宽带接入（FTTx），光分布网络（ODN）和主配线架（MDF） 核心网：次世代网络，3G/4G核心网 传送网：波分复用/光传送网（WDM/OTN）、MSTP/Hybrid MSTP产品、微波系统等 数据通信：路由器、交换机等 数字能源产品线 业务与软件：业务交付平台（service delivery platform）、智能网、呼叫中心、网络分析工具等 存储与网络安全：对象存储服务（OBS），OceanStor 数据存储、网络安全产品 消费者业务： 智能手机 笔记本、平板电脑 数据卡、网关、调制解调器、机顶盒等",
+        "score": 0.6227,
+        "chunk_sim": 0.7176,
+        "path_sim": 0.824,
+        "combined_score": 0.8699,
+        "src_section": "产品与服务",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0071",
+        "src_text": "华为的运营商和企业业务涵盖移动、核心网、固定网络、电信增值业务等，产品包括路由器、交换机、光传输等，其中以太网交换机、企业网路由器销量位居前列。 近年来，华为推动“智慧城市建设”，利用华为自主研发的技术，为城市提供全栈全场景的AI解决方案，促进城市的数字化转型。 2012年，华为产品又涉足安防领域，在公安监控系统、平安城市等均有业务开展。 华为C&C08系列交换机拥有全球最多的销量，上市后即受运营商客户的好评。",
+        "score": 0.5285,
+        "chunk_sim": 0.6869,
+        "path_sim": 0.824,
+        "combined_score": 0.7757,
+        "src_section": "产品与服务 > 运营商和企业业务",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0053",
+    "tgt_text": "Huawei Marine Networks delivered the HANNIBAL submarine communications cable system for Tunisie Telecom across the Mediterranean Sea to Italy in 2009.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0054",
+    "tgt_text": "Huawei Marine is involved in many fiber-optic cable projects connected with the Belt and Road Initiative. Huawei Marine completed the China-Pakistan Fiber Optic Project which runs along the China-Pakistan Economic Corridor. In 2018, Huawei Marine completed the South Atlantic Interlink (SAIL) Cable System which runs from Kribi, Cameroon to Fortaleza, Brazil. It also built the Kumul Domestic Fiber Cable from Indonesia to Papua New Guinea. As part of the Smart Africa project, Huawei Marine built the 2,800 mile fiber-optic network Guinea Backbone Network.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0048"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0048",
+        "src_text": "2007年12月11日，华为与全球海事系统有限公司签署合资协议，成立华为海洋网络有限公司。 2018年12月18日，华为海洋正式投入运营。 2019年6月2日，亨通光电表示，正在筹划通过发行股份及支付现金的方式，购买华为持有的华为海洋51%股权。",
+        "score": 0.5012,
+        "chunk_sim": 0.5704,
+        "path_sim": 0.7194,
+        "combined_score": 0.717,
+        "src_section": "公司事务 > 子公司与投资",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0055",
+    "tgt_text": "Huawei Global Services provides telecommunications operators with equipment to build and operate networks as well as consulting and engineering services to improve operational efficiencies. These include network integration services such as those for mobile and fixed networks; assurance services such as network safety; and learning services, such as competency consulting.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0056",
+    "tgt_text": "Huawei's Devices division provides white-label products to content-service providers, including USB modems, wireless modems and wireless routers for mobile Wi-Fi, embedded modules, fixed wireless terminals, wireless gateways, set-top boxes, mobile handsets and video products. Huawei also produces and sells a variety of devices under its own name, such as the smartphones, tablet PCs, earbuds and Huawei Smartwatch.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0070",
+      "zh_0074",
+      "zh_0075",
+      "zh_0078"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0070",
+        "src_text": "华为主要提供ICT（信息技术与通信技术）基础设施和智能终端产品和服务。 目前有运营商业务、消费者业务和企业业务三大业务，截至2019年6月，全球有超过30亿人使用华为的产品和服务。 运营商业务和企业业务： 无线接入：包括GSM、通用移动通讯系统（UMTS）、LTE等基站设备 固定接入：包括传统固网接入（MSAN, DSLAM），光纤宽带接入（FTTx），光分布网络（ODN）和主配线架（MDF） 核心网：次世代网络，3G/4G核心网 传送网：波分复用/光传送网（WDM/OTN）、MSTP/Hybrid MSTP产品、微波系统等 数据通信：路由器、交换机等 数字能源产品线 业务与软件：业务交付平台（service delivery platform）、智能网、呼叫中心、网络分析工具等 存储与网络安全：对象存储服务（OBS），OceanStor 数据存储、网络安全产品 消费者业务： 智能手机 笔记本、平板电脑 数据卡、网关、调制解调器、机顶盒等",
+        "score": 0.5786,
+        "chunk_sim": 0.5963,
+        "path_sim": 0.9175,
+        "combined_score": 0.8539,
+        "src_section": "产品与服务",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0074",
+        "src_text": "华为手机产品的规划始于1997年，当时华为申请研发GSM手机，但遭到任正非的反对。 2003年11月，华为终端公司成立，正式跨入手机产品领域。 由于中国大陆政策限制，当时仅可销售PHS手机。 2004年，华为在香港发布支持WCDMA的手机U326和U626，翌年进入欧洲主流运营商采购名单。 2006年2月16日，华为与沃达丰签订全球3G手机战略合作协议，于同年9月发布了V710手机，上市9个月内共售出80万部。",
+        "score": 0.4751,
+        "chunk_sim": 0.5914,
+        "path_sim": 0.9175,
+        "combined_score": 0.7504,
+        "src_section": "产品与服务 > 消费者业务 > 手机产品",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0075",
+        "src_text": "2009年2月，华为在世界移动通信大会发布了首款Android智能手机，华为成为中国大陆首个发布Android智能手机的厂商。 翌年，华为推出全球首款支持HSPA+的智能手机U8800、全球首款Android 2.2普及型智能手机IDEOS。 但当年华为智能手机出货量仅有500万台，与当年拥有4660万部出货量的苹果和三星相差甚远。 2010年12月3日，华为首席执行官任正非召开座谈会，讨论华为手机转型问题，对终端业务重新定位。",
+        "score": 0.5576,
+        "chunk_sim": 0.6073,
+        "path_sim": 0.9175,
+        "combined_score": 0.8329,
+        "src_section": "产品与服务 > 消费者业务 > 手机产品",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0078",
+        "src_text": "2015年12月底，华为智能手机出货量首度突破1亿台，全球市场占有率首度进入世界前三。 当年华为还与Google合作，推出Nexus 6P。 2019年2月24日，华为推出第一款带有5G网络并可自由折叠的手机Mate X；2019年7月，華為Mate 20 X发布，为中国大陆首款獲發進網許可證的5G手机。 此外，华为也曾生产过Windows Phone手机，但考虑到Windows Phone手机不能获利，华为宣布放弃Windows Phone手机的生产计划。 2023年8月29日，华为发布搭载海思麒麟9000s处理器的Mate 60 Pro手机。",
+        "score": 0.5977,
+        "chunk_sim": 0.6328,
+        "path_sim": 0.9175,
+        "combined_score": 0.873,
+        "src_section": "产品与服务 > 消费者业务 > 手机产品",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0057",
+    "tgt_text": "Through its wholly owned subsidiary, HiSilicon, Huawei is one of the largest domestic designers of chips in China. It frequently partners with Semiconductor Manufacturing International Corporation (SMIC) to manufacture its chips. As of April 2024, Huawei is also building or supporting the construction of five semiconductor fabs.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0086",
+      "zh_0087",
+      "zh_0089",
+      "zh_0100"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0086",
+        "src_text": "早在1991年，华为建立了集成电路设计中心，开始研发芯片。 1993年，华为成立了专门负责专用集成电路芯片技术的研发团队，即器件室。 1995年中央研究部成立后，升级为基础研究部。 中研部成立三年内，华为即拥有300名芯片设计师，成为当时中国最大的芯片设计公司。 2004年，因独立运作需要，华为正式组建海思半导体公司，开始对外销售芯片。",
+        "score": 0.5696,
+        "chunk_sim": 0.6204,
+        "path_sim": 0.8469,
+        "combined_score": 0.8237,
+        "src_section": "产品与服务 > 芯片",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0087",
+        "src_text": "1993年年底，华为制造出第一款芯片，为用于交换机C&C08交换机的ASIC芯片。 至1994年，华为设计了30多个芯片，其中设计复杂的芯片在设计中设有1000多万只晶体管，每片可完成32000个通话。 1994年正式在华为各型号的交换机上应用。 相对于早前华为使用境外某公司生产的芯片，华为研制的芯片可在电信网上得到良好的运行效果。 其后，华为的新产品线如ATM、路由器、无线产品线也使用华为自家芯片，使产品更具有竞争力。 目前华为的芯片产品涵盖网络芯片、数据通信芯片、接入语音芯片、路由器芯片、交换机芯片、安防芯片、机顶盒芯片、车载模块芯片、手机芯片等。",
+        "score": 0.5076,
+        "chunk_sim": 0.554,
+        "path_sim": 0.8469,
+        "combined_score": 0.7617,
+        "src_section": "产品与服务 > 芯片",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0089",
+        "src_text": "2019年1月，华为发布专为服务器设计的“鲲鹏920”计算芯片，采用优化的分支预测算法、增加的OP运算打算和改进的内存子系统架构。 同年8月，华为自研的AI芯片昇腾910正式发布。 2026年5月25日，华为发表了韬(τ)定律，并表示：“预计到2031年，基于韬定律的高端芯片晶体管密度将达到1.4纳米制程的同等水平。 华为仅负责设计芯片，生产加工则由美国、香港、台湾的芯片生产商负责，且成本较其他厂商要低，每片成本仅15美元以下。",
+        "score": 0.5286,
+        "chunk_sim": 0.5564,
+        "path_sim": 0.8469,
+        "combined_score": 0.7827,
+        "src_section": "产品与服务 > 芯片",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0100",
+        "src_text": "美国于2020年5月实施出口管制措施，于同年8月进一步收紧，切断应用美国技术的半导体公司供应华为。 但制裁正式实施前华为已积累大量芯片，可能足够基础设施业务使用两年。 2020年10月开始，媒体报道华为开始投资中国国内半导体行业，并开始研究将在海成设立不使用美国技术的芯片厂，以确保在美国制裁下的业务可持续发展。 报道称，华为的合作伙伴是上海国企华虹集团，可能采用多家中国供应商的设备，如中微公司（AMEC）和北方华创（Naura）等。 華為受到美國制裁的同時，也造成多家美國以外供應鏈受到打擊，受害者包含索尼、大立光等，紛紛調整生產计划，原因就是突然失去華為業務。",
+        "score": 0.5152,
+        "chunk_sim": 0.5933,
+        "path_sim": 0.8469,
+        "combined_score": 0.7693,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0058",
+    "tgt_text": "As of August 2018, Huawei was the second-biggest smartphone maker in the world, after Samsung. Their portfolio of phones includes both high-end smartphones, its Huawei Mate series and Huawei Pura series, and cheaper handsets that fall under its Honor brand.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0067"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0067",
+        "src_text": "在消费者业务方面，华为自2007年开始，连续成为数据卡全球市占率第一，2010年市占率达46.8%。 智能手机方面，2010年，华为智能手机出货量仅为500万台，远低于三星和苹果，市场份额极低甚至忽而不计。 在华为手机运营模式从“B2B”转为“B2C”之后，出货量和市占率也有明显提升。 2018年，华为超越苹果公司，成为仅次于三星电子的全球第二大智能手机制造商，当年出货量2.06亿部，出货量稳居世界第三。 根据2019年第一季度第三方公司发布的报告，华为在中国大陆的手机出货量位居首位，为2990万部，同时是2019年一季度出货量中国大陆排名前五的手机厂商中，唯一一家没有下降并且仍处于增长形势的手机厂商。",
+        "score": 0.783,
+        "chunk_sim": 0.6495,
+        "path_sim": 0.8856,
+        "combined_score": 1.0487,
+        "src_section": "公司事务 > 業務記錄 > 市场占有率",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0059",
+    "tgt_text": "Honor was created in order to elevate Huawei-branded phones as premium offerings. In 2020, Huawei agreed to sell the Honor brand to a state-owned enterprise of the Shenzhen municipal government. Consequently, Honor was initially reported to be cut off from access to Huawei's IPs, which consists of more than 100,000 active patents by the end of 2020, and additionally cannot tap into Huawei's large R&D resources where $20 billion had been committed for 2021. However, Wired magazine noted in 2021 that Honor devices still had not differentiated their software much from Huawei phones and that core apps and certain engineering features, like the Honor-engineered camera features, looked \"virtually identical\" across both phones.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0004",
+      "zh_0073"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0004",
+        "src_text": "受美国制裁等因素的影响，华为近年在一些领域营收下滑。 为此，华为不得不轉向鸿蒙操作系统、雲計算、数字城市、車用技術等等其他领域作為新盈利點。 2019年6月，华为圣克拉拉研究中心裁员，任正非表示将该研究中心迁至加拿大。 2020年，华为将子公司荣耀终端出售给深圳市政府的国有企业，以“确保其生存”。 2021年，华为的研發投入一度超过营收的20%，是2010年的9倍。 华为沒有放棄通訊與企業业务本業，繼續開發佈局6G技術預研。",
+        "score": 0.8161,
+        "chunk_sim": 0.728,
+        "path_sim": 0.8856,
+        "combined_score": 1.0817,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0073",
+        "src_text": "2020年11月17日，华为官方正式发表声明，华为正式出售荣耀业务，荣耀业务将被整体交割给深圳市智信新信息技术有限公司，华为不在新荣耀公司中占股。 据称该收购案达150亿美元。",
+        "score": 0.7124,
+        "chunk_sim": 0.6528,
+        "path_sim": 0.8856,
+        "combined_score": 0.9781,
+        "src_section": "产品与服务 > 消费者业务",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0060",
+    "tgt_text": "In July 2003, Huawei established their handset department and by 2004, Huawei shipped their first phone, the C300. The U626 was Huawei's first 3G phone in June 2005 and in 2006, Huawei launched the first Vodafone-branded 3G handset, the V710. The U8220 was Huawei's first Android smartphone and was unveiled in MWC 2009. At CES 2012, Huawei introduced the Ascend range starting with the Ascend P1 S. At MWC 2012, Huawei launched the Ascend D1. In September 2012, Huawei launched their first 4G ready phone, the Ascend P1 LTE. At CES 2013, Huawei launched the Ascend D2 and the Ascend Mate. At MWC 2013, the Ascend P2 was launched as the world's first LTE Cat4 smartphone. In June 2013, Huawei launched the Ascend P6 and in December 2013, Huawei introduced Honor as a subsidiary independent brand in China. At CES 2014, Huawei launched the Ascend Mate2 4G in 2014 and at MWC 2014, Huawei launched the MediaPad X1 tablet and Ascend G6 4G smartphone. Other launched in 2014 included the Ascend P7 in May 2014, the Ascend Mate7, the Ascend G7 and the Ascend P7 Sapphire Edition as China's first 4G smartphone with a sapphire screen.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0074",
+      "zh_0076"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0074",
+        "src_text": "华为手机产品的规划始于1997年，当时华为申请研发GSM手机，但遭到任正非的反对。 2003年11月，华为终端公司成立，正式跨入手机产品领域。 由于中国大陆政策限制，当时仅可销售PHS手机。 2004年，华为在香港发布支持WCDMA的手机U326和U626，翌年进入欧洲主流运营商采购名单。 2006年2月16日，华为与沃达丰签订全球3G手机战略合作协议，于同年9月发布了V710手机，上市9个月内共售出80万部。",
+        "score": 0.6939,
+        "chunk_sim": 0.6984,
+        "path_sim": 0.6553,
+        "combined_score": 0.8905,
+        "src_section": "产品与服务 > 消费者业务 > 手机产品",
+        "llm_label": "match"
+      },
+      {
+        "src_chunk_id": "zh_0076",
+        "src_text": "2012年起，华为启动“最”字产品战略，以此战略来提高品牌的吸引力。 同年1月9日，华为在美国CES发布Ascend P1，其后被《PC World》评选为CES十大热门智能手机之首。 其后华为在3月18日开设“华为商城”，成为中国首个推出自营网上商城的手机厂商。 2013年12月16日，华为荣耀从华为品牌独立出来，成为独立运作的品牌。",
+        "score": 0.716,
+        "chunk_sim": 0.7356,
+        "path_sim": 0.6553,
+        "combined_score": 0.9126,
+        "src_section": "产品与服务 > 消费者业务 > 手机产品",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0061",
+    "tgt_text": "In January 2015, Huawei discontinued the \"Ascend\" brand for its flagship phones, and launched the new P series with the Huawei P8. Huawei also partnered with Google to build the Nexus 6P which was released in September 2015. In May 2018, Huawei stated that they will no longer allow unlocking the bootloader of their phones to allow installing third party system software or security updates after Huawei stops them. Huawei is currently the most well-known international corporation based in China and a major developer of the 5G mobile phone standard, which has seen wider global use in recent years.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0077",
+      "zh_0109"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0077",
+        "src_text": "2014年起，华为手机销售渠道的占比出现变化，其中运营商渠道的占比缩减至20%，社会和电商渠道占比达到80%。 2015年，华为放弃“Ascend”系列，此后所有新推出的P系列和Mate系列旗舰手机不再带有“Ascend”字样。",
+        "score": 0.8502,
+        "chunk_sim": 0.6782,
+        "path_sim": 0.6553,
+        "combined_score": 1.0468,
+        "src_section": "产品与服务 > 消费者业务 > 手机产品",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0109",
+        "src_text": "2018年5月24日，华为关闭了Bootloader解锁通道，华为决定对所有2018年5月24日后新上市产品停止获取Bootloader解锁码服务，已经上市产品自公告发布之日起60天后停止获取Bootloader解锁码服务，导致华为全系未解锁的机型均无法解锁，这对使用华为手机的安卓开发者无疑是一个重大的打击，因为解锁Bootloader后才能进行获取root权限和刷机等操作。",
+        "score": 0.6858,
+        "chunk_sim": 0.6203,
+        "path_sim": 0.6553,
+        "combined_score": 0.8823,
+        "src_section": "爭議 > 停止解锁引導程序（Bootloader）",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0062",
+    "tgt_text": "In 2016, Huawei entered the laptop markets with the release of its Huawei MateBook series of laptops. They have continued to release laptop models in this series into 2020 with their most recent models being the MateBook X Pro and Matebook 13 2020.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0080"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0080",
+        "src_text": "华为于2016年进入笔记本电脑市场，先期推出定位中高端的2合1电脑MateBook，2017年推出MateBook E、D、X，2018年又推出全面屏笔记本MateBook X Pro。 不过华为的笔记本电脑销售成绩并非很理想。 而华为旗下的荣耀品牌也于2018年4月发布荣耀MagicBook。",
+        "score": 0.7681,
+        "chunk_sim": 0.8162,
+        "path_sim": 0.8569,
+        "combined_score": 1.0252,
+        "src_section": "产品与服务 > 消费者业务 > 平板和笔记本电脑",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0063",
+    "tgt_text": "The Huawei MatePad Pro, launched in November 2019, after that, subsequent releases of their MatePad tablet line. Huawei is number one in the Chinese tablet market and number two globally as of Q4 2019.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0079"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0079",
+        "src_text": "华为于2010年推出采用Android系统的平板电脑S7，为华为首次推出的平板电脑产品。 2011年6月20日，华为发布全球首款使用Android 3.2系统的平板电脑MediaPad。 截至2018年底，华为成为全球第四大平板电脑供货商，仅次于苹果、三星和亚马逊。",
+        "score": 0.6289,
+        "chunk_sim": 0.6755,
+        "path_sim": 0.9045,
+        "combined_score": 0.9003,
+        "src_section": "产品与服务 > 消费者业务 > 平板和笔记本电脑",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0064",
+    "tgt_text": "The MateStation S and X was released in September 2021 among successor releases of variants, marking Huawei entrance into the workstation, desktop PC space with All-in-one and Thin client PCs.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0026"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0026",
+        "src_text": "受到美國制裁影響，華為在中国之外的销售额明显下降。 2020年第四季度，華為的收入罕见下滑。 2021年4月22日，赛力斯与华为正式达成合作，共同推出赛力斯SF5电动SUV。 2022年7月2日，华为推出移動影像品牌——华为影像XMAGE。",
+        "score": 0.5145,
+        "chunk_sim": 0.5346,
+        "path_sim": 0.8951,
+        "combined_score": 0.783,
+        "src_section": "历史 > 成熟期（2011年至今）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0065",
+    "tgt_text": "The Huawei Watch is an Android Wear-based smartwatch developed by Huawei. It was released at Internationale Funkausstellung Berlin on 2 September 2015. Since 2020, Huawei released subsequent models based on in-house operating systems, from earlier LiteOS (discontinued) models, to later HarmonyOS (active) models. It is the first smartwatch produced by Huawei. Their latest watch, Huawei Watch Ultimate Design, announced on 25 September 2023, was released 4 October 2023 worldwide.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0082"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0082",
+        "src_text": "2014年，华为发布首款智能手环TalkBand B1，于次年发布首款智能手表华为手表。 截至2019年一季度，华为智能穿戴设备出货量位居世界第三，且仍在持续增长。",
+        "score": 0.621,
+        "chunk_sim": 0.6481,
+        "path_sim": 0.87,
+        "combined_score": 0.8819,
+        "src_section": "产品与服务 > 消费者业务 > 智能穿戴",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0066",
+    "tgt_text": "Emotion UI (EMUI) was Huawei's mobile operating system, based on Google's Android Open Source Project (AOSP) and historically pre-installed on most of its smartphones. It was succeeded by HarmonyOS.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0091",
+      "zh_0096"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0091",
+        "src_text": "2012年，华为中央软件院欧拉实验室成立华为手机终端操作系统开发部，自此华为开始了自主研发手机操作系统的规划。 同年，华为启动软件开源策略，成立开源软件能力中心。 华为自2012年开始规划操作系统鸿蒙的研发，2019年8月9日正式发布。 此外，华为还推出了基于Android研发的设备固件Emotion UI（后称EMUI）。 2022年初，華為自研编程语言「仓颉」开启内测。",
+        "score": 0.7286,
+        "chunk_sim": 0.6724,
+        "path_sim": 0.6111,
+        "combined_score": 0.912,
+        "src_section": "产品与服务 > 软件",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0096",
+        "src_text": "华为在2019年4月的P30中国区发布后上发布了“方舟編譯器”，是为支持多种编程语言、多种芯片平台的联合编译、运行而设计的统一编程平台，包含编译器、工具链、运行时等关键部件，可以实现Android的底層優化架構。 据介绍，当系統組件應用華為方舟編譯器後，系統操作流暢度提升24%，系統響應性能提升44%。 2019年8月31日，方舟編譯器正式开源,但未马上上线官网。 随着华为EMUI10的发布，方舟编译器正式投入使用，可以在官网下载源代码包与二进制包。",
+        "score": 0.4591,
+        "chunk_sim": 0.4894,
+        "path_sim": 0.6111,
+        "combined_score": 0.6425,
+        "src_section": "产品与服务 > 主要技术 > 智能手机相关技术 > 方舟编译器",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0067",
+    "tgt_text": "Huawei Mobile Services (HMS) is Huawei's solution to GMS (Google Mobile services) for Android - providing many of the same features for app developers. It also serves as the umbrella brand for Huawei's core set of mobile applications, including Huawei AppGallery, which was created as a competitor to Google's Play Store. In December 2019, Huawei unveiled HMS version 4.0, and as of 16 January 2020, the company reported that it had signed up 55,000 apps using its HMS Core software.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0084",
+      "zh_0106"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0084",
+        "src_text": "华为为使用华为终端的用户提供云服务，包括华为云空间、华为智能助手、华为应用市场、华为支付、华为天际通、华为视频、华为音乐、华为阅读、华为主题等。 其中华为应用市场于2011年上线，原名“智汇云应用市场”，2014年6月6日更名为华为应用市场，截至2019年7月已在超过170个国家或地区上线，月活跃用户达到3.7亿，累计应用下载达3500亿。 截至2018年12月，华为终端云服务用户数突破5亿，其中月活跃用户数达到2.62亿。 根据华为的计划，2017年底，华为计划打通全球24个国家和地区的支付业务；到2018年，将会为全球100个国家和地区的用户提供云服务。 在美国将华为列入“实体清单”且不再在未来推出的新机型预装Google Play服务后，华为将花费10亿美元用于开发和推广终端云服务。",
+        "score": 0.5506,
+        "chunk_sim": 0.6756,
+        "path_sim": 0.6619,
+        "combined_score": 0.7492,
+        "src_section": "产品与服务 > 消费者业务 > 终端云服务",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0106",
+        "src_text": "2020年2月24日，华为在西班牙举行了一场线上发布会，发布其新的手机、路由器、平板电脑、移动服务等产品。 在介绍华为移动服务（HMS）的4个数据中心时，华为使用了没有藏南、阿克赛钦、钓鱼岛等地区的中华人民共和国地图代表其中国数据中心；华为在新浪微博中也发布了带有相关地图的微博。 在中国大陆网友的指责中，华为删除了相关微博，但并未就此事发表声明或给予回应。",
+        "score": 0.5035,
+        "chunk_sim": 0.6066,
+        "path_sim": 0.6619,
+        "combined_score": 0.702,
+        "src_section": "爭議 > 地图争议",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0068",
+    "tgt_text": "MetaERP is an proprietary enterprise resource planning (ERP) solution launched on 24 April 2023. The company began with a manufacturing resource planning (MRP) solution in 1996. It upgraded its legacy ERP system from third-party American suppliers, followed by further improvements for internal management. Since the United States Entity List of May 2019 barred American software technology companies from supplying ERP systems to Huawei prompted the company to develop an in-house ERP system for the next following three years.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0069",
+    "tgt_text": "MetaERP targets mid-sized and large enterprises. For ease of migration to the ERP system, it consists of the following modules such as Financials and Operations, Sales Enterprise, Marketing, Customer Service, Field Service, and Project Service Automation using its Linux-based EulerOS server operating system and GaussDB relational database management system. After launch in 2023, the first batch of large-scale switching was carried out in 14 May midnight, across Asia-Pacific, Europe, Middle East and Central Asia, Southern Africa, and Latin America. The business covers ICT and Huawei Cloud, alongside terminals and other industries. Over thousands of employees in 75 countries use MetaERP in stable operation post-launch. MetaERP currently handles 100% of Huawei's internal business and most of the 80% of its business operations.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0070",
+    "tgt_text": "Huawei introduced its Ascend line of systems on a chip (SoCs) for artificial intelligence (AI) in 2018, beginning with the Ascend 310 and Ascend 910 SoCs.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0071",
+    "tgt_text": "In November 2024, Huawei announced its plans to start mass-producing advanced artificial intelligence chips within the first quarter of 2025. This chip named Ascend 910C has been made by top Chinese contract chipmaker Semiconductor Manufacturing International Corp (SMIC) via its N+2 process. Huawei Ascend chips rely on Huawei's Compute Architecture for Neural Networks (CANN) software ecosystem, which is a competitor to Nvidia's CUDA ecosystem.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0094"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0094",
+        "src_text": "华为近年亦开始对人工智能领域进行研究。 基于昇腾和鲲鹏芯片系列产品，华为推出了人工智能训练集群Atlas 900、人工智能训练服务器Atlas 800、智能小站Atlas 500、人工智能推理与训练卡Atlas 300和人工智能加速模块Atlas 200。 2018年10月10日，华为在上海举行的全联接大会发布华为AI战略与全栈全场景AI解决方案，未来将以全场景的产品和服务实现普惠AI。",
+        "score": 0.6127,
+        "chunk_sim": 0.6076,
+        "path_sim": 0.7808,
+        "combined_score": 0.8469,
+        "src_section": "产品与服务 > 主要技术 > 人工智能相关技术",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0072",
+    "tgt_text": "In 2020 Huawei launched browser, which was released in over 170 countries. Huawei Browser is made explicitly for HMS (Huawei Mobile Services) ecosystem. The browser is a fork of Chromium project.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0084"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0084",
+        "src_text": "华为为使用华为终端的用户提供云服务，包括华为云空间、华为智能助手、华为应用市场、华为支付、华为天际通、华为视频、华为音乐、华为阅读、华为主题等。 其中华为应用市场于2011年上线，原名“智汇云应用市场”，2014年6月6日更名为华为应用市场，截至2019年7月已在超过170个国家或地区上线，月活跃用户达到3.7亿，累计应用下载达3500亿。 截至2018年12月，华为终端云服务用户数突破5亿，其中月活跃用户数达到2.62亿。 根据华为的计划，2017年底，华为计划打通全球24个国家和地区的支付业务；到2018年，将会为全球100个国家和地区的用户提供云服务。 在美国将华为列入“实体清单”且不再在未来推出的新机型预装Google Play服务后，华为将花费10亿美元用于开发和推广终端云服务。",
+        "score": 0.5658,
+        "chunk_sim": 0.5827,
+        "path_sim": 0.6936,
+        "combined_score": 0.7739,
+        "src_section": "产品与服务 > 消费者业务 > 终端云服务",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0073",
+    "tgt_text": "Huawei has secured collaboration with a few automakers including Seres Group, Chery, BAIC Group, China Changan Automobile, GAC Group and JAC Group. By December 2025, Huawei's advanced driver-assist system expanded to mass-market vehicles in China.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0074",
+    "tgt_text": "Harmony Intelligent Mobility Alliance, trading as HIMA, is an automotive alliance and sales network initiated and led by Huawei. Established in 2023, the members of the alliance include AITO (Seres Group), Luxeed (Chery), Stelato (BAIC BluePark), Maextro (JAC Group) and SAIC (SAIC Motor).",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0075",
+    "tgt_text": "Huawei entered the photovoltaic (PV) market in 2011, and opened an Energy Center of Competence in Nuremberg, Germany the same year. In September 2016, Huawei integrated new manufacturing capabilities into its Eindhoven hub in the Netherlands, where it can produce 7,000 inverter units per month. In October that same year, Huawei entered the North American market and formed a strategic partnership with Strata Solar. In April 2017, Huawei enters the residential solar market with the launch of its string solar inverters and DC power optimizers, later also solar batteries. Some of its solar products are also sold under the \"iStore\" brand in Australia from 2024 onwards. As of 2022, Huawei is the largest producer of solar inverters in the world with a 29% market share, which saw a significant shipment increase of 83% compared to 2021.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0076",
+    "tgt_text": "Huawei's global growth has largely been driven by its offering of competitive telecommunications equipment at a lesser price than rival firms.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0014"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0014",
+        "src_text": "处于发展期的华为与巨龙通信、大唐电信、中兴通讯并称为“巨大中华”，是中国通信产业崛起的标志。 在IT泡沫之前，华为是一間籍籍無名的公司，但從IT泡沫之後，該公司以中國為據點急速成長，快速吸引各界注目，市場不局限於發展中國家。 1996年-2000年为公司高速发展期，年销售额从26亿元人民币跃升至220亿元，以29亿元的净收入位居全国电子百强首位。 1999年，华为交换机、接入网、传输、智能网等产品在中国内地的市场份额均位居首位。",
+        "score": 0.4998,
+        "chunk_sim": 0.4848,
+        "path_sim": 0.413,
+        "combined_score": 0.6237,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0077",
+    "tgt_text": "Huawei Technologies Co. Ltd. was the world's largest telecom equipment maker in 2012 and China's largest telephone-network equipment maker. With 3,442 patents, Huawei became the world's No. 1 applicant for international patents in 2014. In 2019, Huawei had the second most patents granted by the European Patent Office. In 2021, the World Intellectual Property Organization (WIPO)'s annual World Intellectual Property Indicators report ranked Huawei's number of patent applications published under the PCT System as 1st in the world, with 5464 patent applications being published during 2020. The Madrid Yearly Review ranked Huawei's number of marks applications filed under the Madrid System as 9th in the world, with 78 trademarks applications submitted during 2023.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0002",
+      "zh_0061"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0002",
+        "src_text": "华为在170多个国家和地区提供产品和服务。 截至2011年 (2011-Missing required parameter 1=month!)，华为为全球最大的50家电信运营商中的45家提供服务，建设了1500多张网络，服务全世界三分之一的人口。 2012年超越爱立信，成为全球最大的电信设备制造商；2018年曾超越苹果公司，成为全球第二大智能手机制造商，仅次于三星电子。 2022年财富世界500强榜单中，华为位列第96名。",
+        "score": 0.7384,
+        "chunk_sim": 0.6377,
+        "path_sim": 0.413,
+        "combined_score": 0.8623,
+        "src_section": "(Lead)",
+        "llm_label": "match"
+      },
+      {
+        "src_chunk_id": "zh_0061",
+        "src_text": "2002年，华为在中国的专利申请量突破1000件，成为中国专利申请最多的企业，连续位居第一位；据中国国家知识产权局数据，2018年，华为在中国的专利授权量位居首位。 2008年，华为在全球共提交1737件专利申请，从2007年的第四位跃升为递交申请最多的公司。 截至2011年2月，华为共在全球范围内申请了49,040项专利；2014年，华为在全球范围内申请了3,442项专利，居全球第一。 2017、2018連續兩年成為全球年申請專利最多的公司。 据统计，华为申请的专利中，九成以上是发明专利。",
+        "score": 0.724,
+        "chunk_sim": 0.8445,
+        "path_sim": 0.413,
+        "combined_score": 0.8479,
+        "src_section": "公司事务 > 知识产权",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0078",
+    "tgt_text": "By the end of 2025, Huawei reported holding more than 165,000 active patents worldwide. In the same year, WIPO ranked Huawei as the largest PCT applicant for the ninth consecutive year. As of 2023, Huawei is the leading 5G equipment manufacturer and has the greatest market share of 5G equipment and has built approximately 70% of worldwide 5G base stations.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0093"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0093",
+        "src_text": "而在5G技术方面，华为一直以来是全球5G技术的重要参与者，自2009年开始累积投入超过6亿美元加强5G技术的研究与创新。 同时，华为也是IMT-2020(5G)推进组的核心成员，并积极参与中国IMT-2020(5G)推进组的测试工作。 2016年11月17日，國際無線標準化機構3GPP第87次會議在美國拉斯維加斯召開討論5G標準，短碼方案由華為極化碼勝出。 目前，华为提供全场景（增强移动宽带、超高可靠超低时延通信、大连接物联网）、端到端的5G解决方案和5G全生命周期服务能力，其中包括极简站点、综合承载、云化核心网、极简运维等，且测试场景更具全面，速度更快。 在100MHz带宽下，单小区下行峰值超过14.5Gbps。 华为5G基站以体积小、集成度更高、安装更简易为特色，是4G基站能力的20倍。 同时具备一横杆建站、5G全频谱等特性。 华为5G基站使用天罡芯片，以多频段、多制式在内的极简5G构成；华为的5G终端芯片为单芯片多模的能力，能够提供从2G到5G的支持，同时支持NSA和SA架构。 截至2019年，华为在全球签订30多个5G商用合同，发货4万多个5G基站，持有2570多项5G专利，核心标准提案数3045个。 至2020年2月，华为获得91个5G商用合同，其中47个来自欧洲地区。 此外，华为亦自2019年开始探討6G技術與標準研究。",
+        "score": 0.6883,
+        "chunk_sim": 0.6506,
+        "path_sim": 0.413,
+        "combined_score": 0.8121,
+        "src_section": "产品与服务 > 主要技术 > 移动通信相关技术",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0079",
+    "tgt_text": "As of 2025, more than half of Huawei's employees are involved in research and development. In the same year, Huawei spent $27.5 billion on R&D, around 21.8% of its total revenue, ranked the sixth in the world on the EU Industrial R&D Investment Scoreboard. In recent years, Huawei has prioritized technological innovation as a means of vertically integrating its supply chain, particularly in to areas vulnerable to sanctions.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0001",
+      "zh_0004",
+      "zh_0059"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0001",
+        "src_text": "华为在全球拥有21个研发机构，36个联合创新中心及14个研究机构（分布在中国大陆境外十余个城市），每个研究所设有2-4个研发中心。 2020年研发费用为1,647亿人民币，位列全球第三。 截至2023年，华为拥有超过207,000名员工，其中约有114,000人从事研发工作。",
+        "score": 0.6484,
+        "chunk_sim": 0.5894,
+        "path_sim": 0.7671,
+        "combined_score": 0.8785,
+        "src_section": "(Lead)",
+        "llm_label": "match"
+      },
+      {
+        "src_chunk_id": "zh_0004",
+        "src_text": "受美国制裁等因素的影响，华为近年在一些领域营收下滑。 为此，华为不得不轉向鸿蒙操作系统、雲計算、数字城市、車用技術等等其他领域作為新盈利點。 2019年6月，华为圣克拉拉研究中心裁员，任正非表示将该研究中心迁至加拿大。 2020年，华为将子公司荣耀终端出售给深圳市政府的国有企业，以“确保其生存”。 2021年，华为的研發投入一度超过营收的20%，是2010年的9倍。 华为沒有放棄通訊與企業业务本業，繼續開發佈局6G技術預研。",
+        "score": 0.5881,
+        "chunk_sim": 0.5859,
+        "path_sim": 0.7671,
+        "combined_score": 0.8183,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0059",
+        "src_text": "华为每年会将营业收入中的约10%投入到科研工作。 在2021年，华为研发费用为1427亿元人民币，占全年收入比重的22.4%。 近十年来，华为投入研发费用总计超过8,450亿元人民币。 根据2019年欧盟委员会公布的《2018年欧盟工业研发投资排名》，华为研发投入位居中国第一，世界第五。",
+        "score": 0.6547,
+        "chunk_sim": 0.7628,
+        "path_sim": 0.7671,
+        "combined_score": 0.8849,
+        "src_section": "公司事务 > 科研",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0080",
+    "tgt_text": "The company has numerous R&D institutes in countries including China, the United States, Canada, the United Kingdom, Pakistan, Finland, France, Belgium, Germany, Colombia, Sweden, Ireland, India, Russia, and Turkey. It opened in July 2024 its biggest R&D center to date near Shanghai to accommodate nearly 35,000 members of its personnel. Huawei also funds research partnerships with universities such as the University of British Columbia, the University of Waterloo, the University of Western Ontario, the University of Guelph, and Université Laval.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0001"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0001",
+        "src_text": "华为在全球拥有21个研发机构，36个联合创新中心及14个研究机构（分布在中国大陆境外十余个城市），每个研究所设有2-4个研发中心。 2020年研发费用为1,647亿人民币，位列全球第三。 截至2023年，华为拥有超过207,000名员工，其中约有114,000人从事研发工作。",
+        "score": 0.5884,
+        "chunk_sim": 0.553,
+        "path_sim": 0.7671,
+        "combined_score": 0.8185,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0081",
+    "tgt_text": "Huawei has faced allegations that its products contain backdoors for Chinese government espionage and domestic laws require Chinese citizens and companies to cooperate with state intelligence when warranted. Huawei executives denied these claims, saying that the company has not received requests by the Chinese government to introduce backdoors in its equipment, would refuse to do so, and that Chinese law does not compel them to do so.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0099"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0099",
+        "src_text": "美国政府2018年起的网络安全指控称中华人民共和国政府可以通过华为的基础设施设备实现监控，还指控华为软件和设备与维吾尔人和新疆拘禁营的大规模监视有关。 特别是随着5G无线网络中国积极推动发展，美国一直呼吁阻止华为或中兴通讯使用美国或其盟国的零件，此成為中美貿易戰中一個備受關注的發展。",
+        "score": 0.5701,
+        "chunk_sim": 0.6186,
+        "path_sim": 1.0,
+        "combined_score": 0.8701,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0082",
+    "tgt_text": "Huawei employed a complex system of agreements with local state-owned telephone companies that seemed to include illicit payments to the local telecommunications bureau employees. During the late 1990s, the company created several joint ventures with their state-owned telecommunications company customers. By 1998, Huawei had signed agreements with municipal and provincial telephone bureaus to create Shanghai Huawei, Chengdu Huawei, Shenyang Huawei, Anhui Huawei, Sichuan Huawei, and other companies. The joint ventures were actually shell companies, and were a way to funnel money to local telecommunications employees so that Huawei could get deals to sell them equipment. In the case of Sichuan Huawei, for example, local partners could get 60–70 percent of their investment returned in the form of annual 'dividends'.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0045"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0045",
+        "src_text": "在合资公司方面，华为早年与各地的邮电系统单位合作组建公司，1993年正式组建了莫贝克公司，1996年更名为华为通信，专注于大型电源的生产，独立运作。 后来，由于不再生产华为电源以外的产品，故该公司又更名为华为电气。 1999年，任正非决定出售华为电气，之后经过股权结构调整，华为电气更名为安圣电气，2001年安圣电气被艾默生电气公司收购。 1998年，华为与各地电信局、政府以“共负盈亏、共担风险”为原则，在全国各地组建多家合资公司，目前上述合资公司均已结业。",
+        "score": 0.6798,
+        "chunk_sim": 0.6814,
+        "path_sim": 0.6913,
+        "combined_score": 0.8872,
+        "src_section": "公司事务 > 子公司与投资",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0083",
+    "tgt_text": "Martin Thorley of the University of Nottingham noted that a \"company of Huawei's size, working in what is considered a sensitive sector, simply cannot succeed in China without extensive links to the Party\". Klon Kitchen has suggested that 5G dominance is essential to China in order to achieve its vision where \"the prosperity of state-run capitalism is combined with the stability and security of technologically enabled authoritarianism\". Nigel Inkster of the International Institute for Strategic Studies suggested that \"Huawei involvement in the core backbone 5G infrastructure of developed western liberal democracies is a strategic game-changer because 5G is a game-changer\", with \"national telecoms champions\" playing a key role, which in turn is part of China's \"ambitious strategy to reshape the planet in line with its interests\" through the Belt and Road Initiative. On 7 October 2020, the U.K. Parliament's Defence Committee released a report concluding that there was evidence of collusion between Huawei and Chinese state and the Chinese Communist Party, based upon ownership model and government subsidies it has received.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0003",
+      "zh_0099"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.465,
+        "chunk_sim": 0.5529,
+        "path_sim": 0.6801,
+        "combined_score": 0.669,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0099",
+        "src_text": "美国政府2018年起的网络安全指控称中华人民共和国政府可以通过华为的基础设施设备实现监控，还指控华为软件和设备与维吾尔人和新疆拘禁营的大规模监视有关。 特别是随着5G无线网络中国积极推动发展，美国一直呼吁阻止华为或中兴通讯使用美国或其盟国的零件，此成為中美貿易戰中一個備受關注的發展。",
+        "score": 0.4617,
+        "chunk_sim": 0.6041,
+        "path_sim": 0.6801,
+        "combined_score": 0.6657,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0084",
+    "tgt_text": "Huawei has a strong rapport with, and support from, the Chinese government. The Chinese government has granted Huawei much more comprehensive support than other domestic companies facing troubles abroad, such as ByteDance, since Huawei is considered a national champion along with Alibaba Group and Tencent. For instance after Huawei CFO Meng Wanzhou was detained in Canada pending extradition to the United States for fraud charges, China immediately arrested Michael Kovrig and Michael Spavor in what was widely viewed as \"hostage diplomacy\". China has also imposed tariffs on Australian imports in 2020, in apparent retaliation for Huawei and ZTE being excluded from Australia's 5G network in 2018. In June 2020, when the UK mulled reversing an earlier decision to permit Huawei's participation in 5G, China threatened retaliation in other sectors by withholding investments in power generation and high-speed rail. A House of Commons defence committee found that \"Beijing had exerted pressure through \"covert and overt threats\" to keep Huawei in the UK's 5G network\". US Secretary of State Mike Pompeo reassured the UK saying \"the US stands with our allies and partners against the Chinese Communist Party's coercive bullying tactics,\" and \"the US stands ready to assist our friends in the UK with any needs they have, from building secure and reliable nuclear power plants to developing trusted 5G solutions that protect their citizens' privacy\".",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0110"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0110",
+        "src_text": "瑞典基於瑞典國家安全局的電信基礎設備安全顧慮對华为提出電信設備限制令，禁止华为參與瑞典國內5G電信設備競標，禁令還包括2025年以前移除所有華為通信設備，中國電信設備工作人員也需要全數離開操作現有職位，此項禁令遭到中國外交部對易利信可能失去中國市場的報復警告。",
+        "score": 0.6376,
+        "chunk_sim": 0.6402,
+        "path_sim": 0.6801,
+        "combined_score": 0.8416,
+        "src_section": "爭議 > 瑞典5G電信設備限制令",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0085",
+    "tgt_text": "The \"optics of Beijing's diplomats coming to [Huawei]'s defense\" in the European Union has also contradicted Huawei's claims that it is \"fully independent from the Chinese government\". In November 2019, the Chinese ambassador to Denmark, in meetings with high-ranking Faroese politicians, directly linked Huawei's 5G expansion with Chinese trade, according to a sound recording obtained by Kringvarp Føroya. According to Berlingske, the ambassador threatened with dropping a planned trade deal with the Faroe Islands, if the Faroese telecom company Føroya Tele did not let Huawei build the national 5G network. Huawei said they did not know about the meetings. China's ambassador to Germany, Wu Ken, warned that 'there will be consequences' if Huawei was excluded, and floated the \"possibility of German cars being banned on safety grounds\".",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.5103,
+        "chunk_sim": 0.6911,
+        "path_sim": 0.6801,
+        "combined_score": 0.7143,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0086",
+    "tgt_text": "The Wall Street Journal has suggested that Huawei received approximately \"$46 billion in loans and other support, coupled with $25 billion in tax cuts\" since the Chinese government had a vested interest in fostering a company to compete against Apple and Samsung. In particular, China's state-owned banks such as the China Development Bank and the Export-Import Bank of China make loans to Huawei customers which substantially undercut competitors' financing with lower interest and cash in advance, with China Development Bank providing a credit line totaling US$30 billion between 2004 and 2009. In 2010, the European Commission launched an investigation into China's subsidies that distorted global markets and harmed European vendors, and Huawei offered the initial complainant US$56 million to withdraw the complaint in an attempt to shut down the investigation. Then-European Trade Commissioner Karel De Gucht found that Huawei leveraged state support to underbid competitors by up to 70 percent. In November 2019, Huawei filed defamation lawsuits in France against a researcher at the Paris-based Foundation for Strategic Research, a TV presenter, and a production company, for the researcher's statements on a TV show that Huawei was controlled by the Chinese state and by the CCP.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0087",
+    "tgt_text": "In 2011, a report by the Open Source Enterprise detailed its \"suspicions over potential close links between Huawei and the Chinese Government,\" such as former chairwoman Sun Yafang's prior employment by the Ministry of State Security (MSS)'s Communications Department.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.3844,
+        "chunk_sim": 0.5077,
+        "path_sim": 0.6332,
+        "combined_score": 0.5744,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0088",
+    "tgt_text": "In 2019, Ren Zhengfei stated \"we never participate in espionage and we do not allow any of our employees to do any act like that. And we absolutely never install backdoors. Even if we were required by Chinese law, we would firmly reject that\". Chinese Premier Li Keqiang was quoted saying \"the Chinese government did not and will not ask Chinese companies to spy on other countries, such kind of action is not consistent with the Chinese law and is not how China behaves.\" Huawei has cited the opinion of Zhong Lun Law Firm, co-signed by a CCP member, whose lawyers testified to the FCC that the National Intelligence Law doesn't apply to Huawei. The opinion of Zhong Lun lawyers, reviewed by British law firm Clifford Chance, has been distributed widely by Huawei as an \"independent legal opinion\", although Clifford Chance added a disclaimer stated that \"the material should not be construed as constituting a legal opinion on the application of PRC law\". Follow up reporting from Wired cast doubt on the findings of Zhong Lun, particularly because the Chinese \"government doesn't limit itself to what the law explicitly allows\" when it comes to national security. \"All Chinese citizens and organisations are obliged to cooperate upon request with PRC intelligence operations—and also maintain the secrecy of such operations\", as explicitly stipulated in Article 7 of the 2017 PRC national intelligence-gathering activities law. Tim Rühlig, a Research Fellow at the Swedish Institute of International Affairs, observed that \"Not least in the light of the lack of the rule of law in China, but also given the clarity of the Intelligence Law, this legal opinion [by Clifford Chance] does not provide any substantial reassurance that Huawei could decline to cooperate with Chinese intelligence, even if the company wanted to do so\".",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.4699,
+        "chunk_sim": 0.6585,
+        "path_sim": 0.6332,
+        "combined_score": 0.6599,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0089",
+    "tgt_text": "Experts have pointed out that under General Secretary of the Chinese Communist Party Xi Jinping's \"intensifying authoritarianism\" since the National People's Congress promulgated a new national intelligence law in 2017, as well as the 2014 Counter-Espionage Law, both of which are vaguely defined and far-reaching. The two laws \"[compel] Chinese businesses to work with Chinese intelligence and security agencies whenever they are requested to do so\", suggesting that Huawei or other domestic major technology companies could not refuse to cooperate with Chinese intelligence. Jerome Cohen, a New York University law professor and Council on Foreign Relations adjunct senior fellow stated \"Not only is this mandated by existing legislation but, more important, also by political reality and the organizational structure and operation of the Party-State's economy. The Party is embedded in Huawei and controls it\". One former Huawei employee said \"The state wants to use Huawei, and it can use it if it wants. Everyone has to listen to the state. Every person. Every company and every individual, and you can't talk about it. You can't say you don't like it. That's just China.\" The new cybersecurity law also requires domestic companies, and eventually foreign subsidiaries, to use state-certified network equipment and software so that their data and communications are fully visible to China's Cybersecurity Bureau. University of Nottingham's Martin Thorley has suggested that Huawei would have no recourse to oppose the CCP's request in court, since the party controls the police, the media, the judiciary and the government. Klon Kitchen has suggested that 5G dominance is essential to China in order to achieve its vision where \"the prosperity of state-run capitalism is combined with the stability and security of technologically enabled authoritarianism\".",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0003",
+      "zh_0099"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.4314,
+        "chunk_sim": 0.6117,
+        "path_sim": 0.6332,
+        "combined_score": 0.6214,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0099",
+        "src_text": "美国政府2018年起的网络安全指控称中华人民共和国政府可以通过华为的基础设施设备实现监控，还指控华为软件和设备与维吾尔人和新疆拘禁营的大规模监视有关。 特别是随着5G无线网络中国积极推动发展，美国一直呼吁阻止华为或中兴通讯使用美国或其盟国的零件，此成為中美貿易戰中一個備受關注的發展。",
+        "score": 0.4759,
+        "chunk_sim": 0.6055,
+        "path_sim": 0.6332,
+        "combined_score": 0.6658,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0090",
+    "tgt_text": "In 2019, Henry Jackson Society researchers conducted an analysis of 25,000 Huawei employee CVs and found that some had worked or trained with China's Ministry of State Security, the People's Liberation Army (PLA), its academies, and a military unit accused of hacking US corporations, including 11 alumni from a PLA information engineering school. One of the study researchers says this shows \"a strong relationship between Huawei and all levels of the Chinese state, Chinese military and Chinese intelligence. This to me appears to be a systemized, structural relationship.\" In a report by academics Christopher Balding of Fulbright University and Donald C. Clarke of George Washington University, a person \"simultaneously held a position at Huawei and a teaching and research role at a military university through which they were employed by the Chinese People's Liberation Army...a section in the PLA that is responsible for the Chinese military's space, cyber, and electronic warfare capabilities\". Charles Parton, a British diplomat, said this \"give the lie to Huawei's claim that there is no evidence that they help the Chinese intelligence services. This gun is smoking.\" Huawei said that while it does not work on Chinese military or intelligence projects, it is no secret that some employees have a previous government background. It criticized the report's speculative language such as 'believes', 'infers', and 'cannot rule out'. In 2014, the National Security Agency penetrated Huawei's corporate networks in China to search for links between the company and the People's Liberation Army. It was able to monitor accounts belonging to Huawei employees and its founder Ren Zhengfei.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.5795,
+        "chunk_sim": 0.636,
+        "path_sim": 0.6332,
+        "combined_score": 0.7695,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0091",
+    "tgt_text": "U.S.-China Economic and Security Review Commission member Michael Wessel said: \"If there's a locksmith who's installing more and more locks on the doors in a community and suddenly there's a rash of silent robberies, at some point the locksmith becomes a person of interest. Huawei around that time became a significant entity of interest\". A Bloomberg News report stated that Australian intelligence in 2012 detected a backdoor in the country's telecom network and shared its findings with the United States, who reported similar hacks. It was reportedly caused by a software update from Huawei carrying malicious code that transmitted data to China before deleting itself. Investigators managed to reconstruct the exploit and determined that Huawei technicians must have pushed the update through the network on behalf of China's spy agencies. Huawei said updates would have required authorization from the customer and that no tangible evidence was presented. China's Ministry of Foreign Affairs called the accusation a \"slander\". Australian telecom operators Optus and Vodafone disputed that they were compromised. Senior security officials in Uganda and Zambia told The Wall Street Journal that Huawei played key roles enabling their governments to spy on political opponents. Several IT sources told Le Monde that inside the African Union headquarters, whose computer systems were supplied by Huawei, data transfers on its servers peaked after hours from January 2012 to January 2017, with the AU's internal data sent to unknown servers hosted in Shanghai. In May 2019, a Huawei Mediapad M5 belonging to a Canadian IT engineer living in Taiwan was found to be sending data to servers in China despite never being authorized to do so, as the apps could not be disabled and continued to send sensitive data even after appearing to be deleted. At the end of 2019, United States officials disclosed to the United Kingdom and Germany that Huawei has had the ability to covertly exploit backdoors intended for law enforcement officials since 2009, as these backdoors are found on carrier equipment like antennas and routers, and Huawei's equipment is widely used around the world due to its low cost. The United Kingdom established a lab that it ran, but which was paid for by Huawei, to evaluate Huawei equipment. After eight years of study, the lab did not identify any Huawei backdoor, but concluded that Huawei's equipment had bugs that could be exploited by hackers.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.5639,
+        "chunk_sim": 0.6417,
+        "path_sim": 0.6332,
+        "combined_score": 0.7538,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0092",
+    "tgt_text": "Yale University economist Stephen Roach stated in 2022 that there was no hard evidence to support the allegations of Huawei having a backdoor for industrial espionage other than one arguable instance, which was when UK telecom Vodafone disclosed in 2011 that its Italian fixed line network contained a security vulnerability in its Huawei-installed software. Huawei fixed the vulnerability at Vodafone's request. There was no report of any suspicious data capture or systems control activity. Vodafone was satisfied with the outcome and thereafter increased its reliance on Huawei as an equipment-supplier.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.4191,
+        "chunk_sim": 0.6237,
+        "path_sim": 0.6128,
+        "combined_score": 0.603,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0093",
+    "tgt_text": "A 2012 White House-ordered security review found no evidence that Huawei spied for China and said instead that security vulnerabilities on its products posed a greater threat to its users. The details of the leaked review came a week after a US House Intelligence Committee report which warned against letting Huawei supply critical telecommunications infrastructure in the United States.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0094",
+    "tgt_text": "Huawei has been at the center of concerns over Chinese involvement in 5G wireless networks. In 2018, the United States passed a defense funding bill that contained a passage barring the federal government from doing business with Huawei, ZTE, and several Chinese vendors of surveillance products, due to security concerns. The Chinese government has threatened economic retaliation against countries that block Huawei's market access. Similarly in November 2018, New Zealand blocked Huawei from supplying mobile equipment to national telecommunications company Spark New Zealand's 5G network, citing a \"significant network security risk\" and concerns about China's National Intelligence Law.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.5583,
+        "chunk_sim": 0.7317,
+        "path_sim": 0.6128,
+        "combined_score": 0.7421,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0095",
+    "tgt_text": "Huawei was involved in developing the United Kingdom's 5G network, which initially led to serious policy and diplomatic disagreements between the UK and the United States, which opposed Huawei's involvement. Between December 2018 and January 2019, German and British intelligence agencies initially pushed back against the US' allegations, stating that after examining Huawei's 5G hardware and accompanying source code, they have found no evidence of malevolence and that a ban would therefore be unwarranted. Additionally, the head of Britain's National Cyber Security Centre (the information security arm of GCHQ) stated that the US has not managed to provide the UK with any proof of its allegations against Huawei and also their agency had concluded that any risks involving Huawei in UK's telecom networks are \"manageable\". The Huawei Cyber Security Evaluation Centre (HCSEC), set up in 2010 to assuage security fears as it examined Huawei hardware and software for the UK market, was staffed largely by employees from Huawei but with regular oversight from GCHQ, which led to questions of operating independence from Huawei. On 1 October 2020, an official report released by National Cyber Security Centre noted that \"Huawei has failed to adequately tackle security flaws in equipment used in the UK's telecoms networks despite previous complaints\", and flagged one vulnerability of \"national significance\" related to broadband in 2019. The report concluded that Huawei was not confident of implementing the five-year plan of improving its software engineering processes, so there was \"limited assurance that all risks to UK national security\" could be mitigated in the long-term. On 14 July 2020, the United Kingdom Government announced a ban on the use of company's 5G network equipment, citing security concerns. In October 2020, the British Defence Select Committee announced that it had found evidence of Huawei's collusion with the Chinese state and that it supported accelerated purging of Huawei equipment from Britain's telecom infrastructure by 2025, since they concluded that Huawei had \"engaged in a variety of intelligence, security, and intellectual property activities\" despite its repeated denials. In November 2020, Huawei challenged the UK government's decision, citing an Oxford Economics report that it had contributed £3.3 billion to the UK's GDP.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0096",
+    "tgt_text": "In March 2019, Huawei filed three defamation claims over comments suggesting ties to the Chinese government made on television by a French researcher, a broadcast journalist and a telecommunications sector expert. In June 2020 ANSSI informed French telecommunications companies that they would not be allowed to renew licenses for 5G equipment made from Huawei after 2028. On 28 August 2020, French President Emmanuel Macron assured the Chinese government that it did not ban Huawei products from participating in its fifth-generation mobile roll-out, but favored European providers for security reasons. The head of the France's cybersecurity agency also stated that it has granted time-limited waivers on 5G for wireless operators that use Huawei products, a decision that likely started a \"phasing out\" of the company's products. In February 2020, US government officials claimed that Huawei has had the ability to covertly exploit backdoors intended for law enforcement officials in carrier equipment like antennas and routers since 2009. In mid July 2020, Andrew Little, the Minister in charge of New Zealand's signals intelligence agency the Government Communications Security Bureau (GCSB), announced that New Zealand would not join the United Kingdom and United States in banning Huawei from the country's 5G network.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0097",
+    "tgt_text": "In May 2022, Canada's industry minister Francois-Philippe Champagne announced that Canada will ban Huawei from the country's 5G network, in an effort to protect the safety and security of Canadians, as well as to protect Canada's infrastructure. The Canadian federal government cited national security concerns for the move, saying that the suppliers could be forced to company with \"extrajudicial directions from foreign governments\" in ways that could \"conflict with Canadian laws or would be detrimental to Canadian interests\". Telcos will be prevented from procuring new 4G or 5G equipment from Huawei and ZTE and must remove all ZTE- and Huawei-branded 5G equipment from their networks by 28 June 2024.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0098",
+    "tgt_text": "Huawei has settled with Cisco Systems, Motorola, and PanOptis in patent infringement lawsuits. In 2018, a German court ruled against Huawei and ZTE in favor of MPEG LA, which holds patents related to Advanced Video Coding.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0018"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0018",
+        "src_text": "2003年，思科系統公司起诉华为侵权，但訴訟最后以和解告终。 同年9月，华为完成了与主要3G设备供应商、手机厂商的兼容性测试。 至2004年，华为拥有GSM、WCDMA、CDMA2000和TD-SCDMA的全套解决方案，也与爱立信、北电、NEC、西门子缔造CPRI联盟，推进3G标准化，先后成为3GPP和3GPP2的成员，参加了CWTS WG4组织的CDMA演进讨论及其相关标准的起草工作。 该公司还参与了中国3G标准化组织CWTS的WCDMA标准的研究和制定，与传输所合作起草了MTNET (Mobile Test Net）实验网系列规范，由此华为成为全球3G市场上的重要参与者。 2004年，华为在香港推出3G手机U326、U626、数据卡E600。 至2005年华为推出多款数据卡产品，凭借外形小巧、即插即用的特点深受消费者好评。",
+        "score": 0.4976,
+        "chunk_sim": 0.5504,
+        "path_sim": 0.768,
+        "combined_score": 0.728,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0099",
+    "tgt_text": "Huawei has been accused of intellectual property infringement. In February 2003, Cisco Systems sued Huawei Technologies for allegedly infringing on its patents and illegally copying source code used in its routers and switches. By July 2004, Huawei removed the contested code, manuals and command-line interfaces and the case was subsequently settled out of court. As part of the settlement Huawei admitted that it had copied some of Cisco's router software. At the 2004 Supercomm tech conference in Chicago, a Huawei employee allegedly opened up the networking equipment of other companies to photograph the circuit boards.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0018"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0018",
+        "src_text": "2003年，思科系統公司起诉华为侵权，但訴訟最后以和解告终。 同年9月，华为完成了与主要3G设备供应商、手机厂商的兼容性测试。 至2004年，华为拥有GSM、WCDMA、CDMA2000和TD-SCDMA的全套解决方案，也与爱立信、北电、NEC、西门子缔造CPRI联盟，推进3G标准化，先后成为3GPP和3GPP2的成员，参加了CWTS WG4组织的CDMA演进讨论及其相关标准的起草工作。 该公司还参与了中国3G标准化组织CWTS的WCDMA标准的研究和制定，与传输所合作起草了MTNET (Mobile Test Net）实验网系列规范，由此华为成为全球3G市场上的重要参与者。 2004年，华为在香港推出3G手机U326、U626、数据卡E600。 至2005年华为推出多款数据卡产品，凭借外形小巧、即插即用的特点深受消费者好评。",
+        "score": 0.584,
+        "chunk_sim": 0.6853,
+        "path_sim": 0.768,
+        "combined_score": 0.8144,
+        "src_section": "历史 > 发展期（1994年—2010年）",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0100",
+    "tgt_text": "Brian Shields, former chief security officer at Nortel, said that his company was compromised in 2004 by Chinese hackers; executive credentials were accessed remotely, and entire computers were taken over. Shields does not believe Huawei was directly involved but thinks that Huawei was a beneficiary of the hack. Documents taken included product roadmaps, sales proposals, and technical papers. Nortel sought for but failed to receive help from the Royal Canadian Mounted Police. The Canadian Security Intelligence Service said it approached the company but was rebuffed.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0101",
+    "tgt_text": "Cybersecurity experts have some doubts about a hack of such magnitude as described by Shields, calling it \"unlikely\". An extensive analysis by University of Ottawa professor Jonathan Calof and recollections of former Nortel executive Tim Dempsey place the blame mostly on strategic mistakes and poor management at Nortel. On the other hand, some employees recall when Huawei or a front company returned a fibre card to Nortel disassembled, around a time when knock-offs products emerged in Asia. There remains a suspicion that industrial espionage brought down or at least accelerated Nortel's demise. In 2017, a jury found that Huawei had misappropriated trade secrets of T-Mobile US but awarded damages only for a breach of supplier contract; it did not compensate T-Mobile for claims of espionage.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0102",
+    "tgt_text": "In February 2020, the United States Department of Justice charged Huawei with racketeering and conspiring to steal trade secrets from six US firms. Huawei said those allegations, some going back almost 20 years, had never been found as a basis for any significant monetary judgment.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0103",
+    "tgt_text": "Leaked documents obtained by The Washington Post in 2019 raised questions about whether Huawei conducted business secretly with North Korea, which was under numerous US sanctions.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0104",
+    "tgt_text": "Huawei has been accused of providing technology used in the mass surveillance and detention of Uyghurs in Xinjiang internment camps, resulting in sanctions by the United States Department of State. Documents show that it has developed facial recognition software that recognizes ethnicity-specific features for surveillance and filed a patent in China for a technology that could identify Han and Uyghur pedestrians. The company and its suppliers have also been accused of using forced labor. Huawei denied operating such technology.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0099"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0099",
+        "src_text": "美国政府2018年起的网络安全指控称中华人民共和国政府可以通过华为的基础设施设备实现监控，还指控华为软件和设备与维吾尔人和新疆拘禁营的大规模监视有关。 特别是随着5G无线网络中国积极推动发展，美国一直呼吁阻止华为或中兴通讯使用美国或其盟国的零件，此成為中美貿易戰中一個備受關注的發展。",
+        "score": 0.6178,
+        "chunk_sim": 0.6728,
+        "path_sim": 0.5668,
+        "combined_score": 0.7878,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0105",
+    "tgt_text": "In January 2024, Netgear, a computer networking company based in San Jose, California, filed a lawsuit with a California federal court against Huawei, claiming the company broke the United States antitrust law by withholding patent licenses, in addition to allegations of fraud and racketeering.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0106",
+    "tgt_text": "In June 2025, U.S. District Judge Ann Donnelly in New York denied Huawei's request to dismiss most of a 2018 federal indictment in U.S. v. Huawei Technologies Co et al.. The case charges Huawei with using racketeering to grow its business, stealing trade secrets from U.S. companies, and committing bank fraud related to Iran. Huawei's Chief Financial Officer, Meng Wanzhou, whose father founded the company, was previously charged in the case and detained in Canada for nearly three years before the charges against her were dropped in 2022.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0107",
+    "tgt_text": "In 2014, Der Spiegel and The New York Times reported that, according to global surveillance disclosures, the National Security Agency (NSA) infiltrated Huawei's computer network in 2009. The White House intelligence coordinator and the FBI were also involved. The operation obtained Huawei's customer list and internal training documents. In addition, the company's central email archive was accessed, including messages from founder Ren Zhengfei and chairwoman Sun Yafang. So much data was gathered that \"we don't know what to do with it\", according to one document. The NSA was concerned that Huawei's infrastructure could provide China with signals intelligence capabilities. It also wanted to find ways to exploit the company's products because they are used by targets of interest to the NSA. In 2023, the Chinese government officially acknowledged that the NSA's hacking had occurred.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0108",
+    "tgt_text": "In March 2025, Huawei became the focus of a corruption investigation in Brussels, Belgium, involving allegations of bribery targeting the European Parliament. Belgian federal prosecutors are investigating potential \"active corruption within the European Parliament\", with sources indicating that the alleged bribery was intended to benefit Huawei. The investigation has drawn comparisons to the 2022 Qatargate scandal and has renewed concerns about lobbying practices within the EU. In May 2025, lobby organization SolarPower Europe removed Huawei as a member. That same month, Parliament suspended Huawei's lobbyists access to premises in Strasbourg, Luxembourg and Brussels, while the European Commission halted any meetings with groups representing Huawei. SolarPower Europe subsequently reinstated Huawei as a \"passive member\" due to the threat of litigation from Huawei.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0109",
+    "tgt_text": "In August 2018, the National Defense Authorization Act for Fiscal Year 2019 (NDAA 2019) was signed into law, containing a provision that banned Huawei and ZTE equipment from being used by the US federal government, citing security concerns. Huawei filed a lawsuit over the NDAA 2019 in March 2019, alleging it to be unconstitutional because it specifically targeted Huawei without granting it a chance to provide a rebuttal or due process. The federal judge dismissed the lawsuit in February 2020, concluding that U.S. Congress acted within its powers by including the restriction in the NDAA 2019.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0110",
+    "tgt_text": "Additionally, on 15 May 2019, the Department of Commerce added Huawei and 70 foreign subsidiaries and \"affiliates\" to its Entity List under the Export Administration Regulations, citing the company having been indicted for \"knowingly and willfully causing the export, re-export, sale and supply, directly and indirectly, of goods, technology and services (banking and other financial services) from the United States to Iran and the government of Iran without obtaining a license from the Department of Treasury's Office of Foreign Assets Control (OFAC)\". This restricts US companies from doing business with Huawei without a government license. Various US-based companies immediately froze their business with Huawei to comply with the regulation.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0003",
+      "zh_0004"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.5861,
+        "chunk_sim": 0.6559,
+        "path_sim": 0.5445,
+        "combined_score": 0.7495,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0004",
+        "src_text": "受美国制裁等因素的影响，华为近年在一些领域营收下滑。 为此，华为不得不轉向鸿蒙操作系统、雲計算、数字城市、車用技術等等其他领域作為新盈利點。 2019年6月，华为圣克拉拉研究中心裁员，任正非表示将该研究中心迁至加拿大。 2020年，华为将子公司荣耀终端出售给深圳市政府的国有企业，以“确保其生存”。 2021年，华为的研發投入一度超过营收的20%，是2010年的9倍。 华为沒有放棄通訊與企業业务本業，繼續開發佈局6G技術預研。",
+        "score": 0.463,
+        "chunk_sim": 0.5461,
+        "path_sim": 0.5445,
+        "combined_score": 0.6264,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0111",
+    "tgt_text": "The May 2019 ban on Huawei was partial: it did not affect most non-American produced chips, and the Trump administration granted a series of extensions on the ban in any case, with another 90-day reprieve issued in May 2020. In May 2020, the US extended the ban to cover semiconductors customized for Huawei and made with US technology. In August 2020, the US again extended the ban to a blanket ban on all semiconductor sales to Huawei. The blanket ban took effect in September 2020. Samsung and LG Display were banned from supplying displays to Huawei.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0100"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0100",
+        "src_text": "美国于2020年5月实施出口管制措施，于同年8月进一步收紧，切断应用美国技术的半导体公司供应华为。 但制裁正式实施前华为已积累大量芯片，可能足够基础设施业务使用两年。 2020年10月开始，媒体报道华为开始投资中国国内半导体行业，并开始研究将在海成设立不使用美国技术的芯片厂，以确保在美国制裁下的业务可持续发展。 报道称，华为的合作伙伴是上海国企华虹集团，可能采用多家中国供应商的设备，如中微公司（AMEC）和北方华创（Naura）等。 華為受到美國制裁的同時，也造成多家美國以外供應鏈受到打擊，受害者包含索尼、大立光等，紛紛調整生產计划，原因就是突然失去華為業務。",
+        "score": 0.7948,
+        "chunk_sim": 0.7997,
+        "path_sim": 0.5445,
+        "combined_score": 0.9582,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0112",
+    "tgt_text": "The sanctions regime established in September 2020 negatively affected Huawei production, sales and financial projections. However, on 29 June 2019 at the G20 summit, the US President made statements implicating plans to ease the restrictions on US companies doing business with Huawei. Despite this statement, on 15 May 2020, the U.S. Department of Commerce extended its export restrictions to prevent Huawei from producing semiconductors derived from technology or software of US origin, even if the manufacturing is performed overseas. In June 2020, the Federal Communications Commission (FCC) designated Huawei a national security threat, thereby barring it from any US subsidies. In July 2020, the Federal Acquisition Regulation Council published a Federal Register notice prohibiting all federal government contractors from selling Huawei hardware to the federal government and preventing federal contractors from using Huawei hardware.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0100"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0100",
+        "src_text": "美国于2020年5月实施出口管制措施，于同年8月进一步收紧，切断应用美国技术的半导体公司供应华为。 但制裁正式实施前华为已积累大量芯片，可能足够基础设施业务使用两年。 2020年10月开始，媒体报道华为开始投资中国国内半导体行业，并开始研究将在海成设立不使用美国技术的芯片厂，以确保在美国制裁下的业务可持续发展。 报道称，华为的合作伙伴是上海国企华虹集团，可能采用多家中国供应商的设备，如中微公司（AMEC）和北方华创（Naura）等。 華為受到美國制裁的同時，也造成多家美國以外供應鏈受到打擊，受害者包含索尼、大立光等，紛紛調整生產计划，原因就是突然失去華為業務。",
+        "score": 0.7319,
+        "chunk_sim": 0.7536,
+        "path_sim": 0.6113,
+        "combined_score": 0.9153,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0113",
+    "tgt_text": "In November 2020, President Donald Trump issued an executive order prohibiting any American company or individual from owning shares in companies that the United States Department of Defense has listed as having links to the People's Liberation Army, which included Huawei. In January 2021, the Trump administration revoked licenses from US companies such as Intel from supplying products and technologies to Huawei. In June 2021, the FCC voted unanimously to prohibit approvals of Huawei gear in US telecommunication networks on national security grounds.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0114",
+    "tgt_text": "In June 2021, the administration of Joe Biden began to persuade the United Arab Emirates to remove the Huawei Technologies Co. equipment from its telecommunications network, while ensuring to further distance itself from China. It came as an added threat to the $23 billion arms deal of F-35 fighter jets and Reaper drones between the US and the UAE. The Emirates got a deadline of four years from Washington to replace the Chinese network. A report in September 2021 analyzed how the UAE was struggling between maintaining its relations with both the United States and China. While Washington had a hawkish stance towards Beijing, the increasing Emirati relations with China have strained those with America. In that light, the Western nation has raised concerns for the UAE to beware of the security threat that the Chinese technologies like Huawei 5G telecommunications network possessed. However, the Gulf nations like the Emirates and Saudi Arabia defended their decision of picking Chinese technology over the American, saying that it is much cheaper and had no political conditions.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0115",
+    "tgt_text": "After President Joe Biden signed into law the Secure Equipment Act of 2021, on 25 November 2022, the FCC issued a ban on Huawei for national security reasons, citing the national security risk posed by the technology owned by China. In May 2024, the U.S. Department of Commerce revoked some export licenses that allow Intel and Qualcomm to supply Huawei with semiconductors. In March 2025, the FCC opened an investigation into Huawei and other Chinese companies regarding operations in the U.S. in violation of restrictions.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.6689,
+        "chunk_sim": 0.7426,
+        "path_sim": 0.6113,
+        "combined_score": 0.8523,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0116",
+    "tgt_text": "Before the 15 September 2020 deadline, Huawei was in \"survival mode\" and stockpiled \"5G mobile processors, Wi-Fi, radio frequency and display driver chips, and other components\" from key chip suppliers and manufacturers, including Samsung, SK Hynix, TSMC, MediaTek, Realtek, Novatek, and RichWave. Even in 2019, Huawei spent $23.45 billion on the stockpiling of chips and other supplies in 2019, up 73% from 2018. In May 2020, SMIC manufactured 14 nm chips for Huawei, which was the first time Huawei used a foundry other than TSMC. In July 2020, TSMC confirmed it would halt the shipment of silicon wafers to Huawei and its subsidiary HiSilicon by 14 September.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0100"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0100",
+        "src_text": "美国于2020年5月实施出口管制措施，于同年8月进一步收紧，切断应用美国技术的半导体公司供应华为。 但制裁正式实施前华为已积累大量芯片，可能足够基础设施业务使用两年。 2020年10月开始，媒体报道华为开始投资中国国内半导体行业，并开始研究将在海成设立不使用美国技术的芯片厂，以确保在美国制裁下的业务可持续发展。 报道称，华为的合作伙伴是上海国企华虹集团，可能采用多家中国供应商的设备，如中微公司（AMEC）和北方华创（Naura）等。 華為受到美國制裁的同時，也造成多家美國以外供應鏈受到打擊，受害者包含索尼、大立光等，紛紛調整生產计划，原因就是突然失去華為業務。",
+        "score": 0.614,
+        "chunk_sim": 0.6958,
+        "path_sim": 0.5484,
+        "combined_score": 0.7785,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0117",
+    "tgt_text": "On its most crucial business, namely, its telecoms business (including 5G) and server business, Huawei has stockpiled 1.5 to 2 years' worth of chips and components. It began massively stockpiling from 2018, when Meng Wanzhou, the daughter of Huawei's founder, was arrested in Canada upon US request.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0100"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0100",
+        "src_text": "美国于2020年5月实施出口管制措施，于同年8月进一步收紧，切断应用美国技术的半导体公司供应华为。 但制裁正式实施前华为已积累大量芯片，可能足够基础设施业务使用两年。 2020年10月开始，媒体报道华为开始投资中国国内半导体行业，并开始研究将在海成设立不使用美国技术的芯片厂，以确保在美国制裁下的业务可持续发展。 报道称，华为的合作伙伴是上海国企华虹集团，可能采用多家中国供应商的设备，如中微公司（AMEC）和北方华创（Naura）等。 華為受到美國制裁的同時，也造成多家美國以外供應鏈受到打擊，受害者包含索尼、大立光等，紛紛調整生產计划，原因就是突然失去華為業務。",
+        "score": 0.5081,
+        "chunk_sim": 0.5957,
+        "path_sim": 0.5484,
+        "combined_score": 0.6726,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0118",
+    "tgt_text": "In late 2020, it was reported that Huawei had planned to build a semiconductor manufacturing facility in Shanghai that did not involve US technology. The plan may have helped Huawei obtain necessary chips after its existing stockpile became depleted, which would have helped the company chart a sustainable path for its telecoms business. Huawei had also planned to collaborate with the government-run Shanghai IC R&D Center, which is partially owned by the state-owned enterprise Hua Hong Semiconductor. Huawei may have been purchasing equipment from Chinese firms such as AMEC and NAURA Technology Group, as well as using foreign tools which it could still find on the market.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0100"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0100",
+        "src_text": "美国于2020年5月实施出口管制措施，于同年8月进一步收紧，切断应用美国技术的半导体公司供应华为。 但制裁正式实施前华为已积累大量芯片，可能足够基础设施业务使用两年。 2020年10月开始，媒体报道华为开始投资中国国内半导体行业，并开始研究将在海成设立不使用美国技术的芯片厂，以确保在美国制裁下的业务可持续发展。 报道称，华为的合作伙伴是上海国企华虹集团，可能采用多家中国供应商的设备，如中微公司（AMEC）和北方华创（Naura）等。 華為受到美國制裁的同時，也造成多家美國以外供應鏈受到打擊，受害者包含索尼、大立光等，紛紛調整生產计划，原因就是突然失去華為業務。",
+        "score": 0.7617,
+        "chunk_sim": 0.7969,
+        "path_sim": 0.5126,
+        "combined_score": 0.9155,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0119",
+    "tgt_text": "In August 2023, the Semiconductor Industry Association (SIA), a US trade association, alleged that Huawei was building a collection of secret semiconductor-fabrication facilities across China, a shadow manufacturing network that would let the company skirt US sanctions. Huawei was receiving an estimated $30 billion in state funding from the government at the time and had acquired at least two existing plants, with plans to construct at least three others. The United States Department of Commerce had put Huawei on its entity list in 2019, eventually \"prohibiting it from working with American companies in almost all circumstances.\" However, if Huawei were to function under the names of other companies without disclosing its own involvement, it might have been able to circumvent those restrictions to \"indirectly purchase American chipmaking equipment and other supplies that would otherwise be prohibited.\"",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0050"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0050",
+        "src_text": "2023年3月，台湾《电子时报》的报道指出，华为通过哈勃投资向关系紧密的国企鹏芯微持续积累半导体设计与制造实力，加快国产替代进程，并开始来台高薪延揽设计服务人才。 另外投资的企业包括上海阿卡思微、九同方微、无鍚飞谱及立芯等EDA业者，天津瑞发科、聚芯微、杰华特微、欧铼德、锐石创新、瀚天天成、源杰、新港海岸、芯视界，以及安防领域CMOS影像传感器业者思特威等多家芯片设计研发业者。",
+        "score": 0.599,
+        "chunk_sim": 0.6213,
+        "path_sim": 0.5126,
+        "combined_score": 0.7528,
+        "src_section": "公司事务 > 子公司与投资",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0120",
+    "tgt_text": "On 6 September 2023, Huawei launched its new Mate 60 smartphone. The phone is powered by a new Kirin 9000s chip, made in China by Semiconductor Manufacturing International Corp (SMIC). This processor was the first to use the new 7 nanometre SMIC technology. TechInsights had stated in 2022 that it believed SMIC had managed to produce 7 nm chips, even though faced by a harsh sanctions regime, by adapting simpler machines that it could still purchase from ASML. Holger Mueller of Constellation Research Inc. said that this showed that the US sanctions might have had the effect of sending China's chip-making industry into overdrive: \"If SMIC really has perfected its 7nm process, this would be a major advance that can help Huawei remain at the forefront of the smartphone industry.\" TechInsights found evidence that the processor had been manufactured using SMIC's N+2 7 nm node. One of its analysts, Dan Hutcheson, who had led the breakdown of the new device, stated that it demonstrates \"impressive technical progress China's semiconductor industry has made\" despite not having EUVL tools, and that \"the difficulty of this achievement also shows the resilience of the country's chip technological ability\". However other analysts have said that such an achievement may lead to harsher sanctions against it.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0121",
+    "tgt_text": "After the US sanctions regime started in summer 2018, Huawei started working on its own in-house operating system codenamed \"HongMeng OS\": in an interview with Die Welt, executive Richard Yu stated in 2019 that an in-house OS could be used as a \"plan B\" if it were prevented from using Android or Windows as the result of US action. Huawei filed trademarks for the names \"Ark\", \"Ark OS\", and \"Harmony\" in Europe, which were speculated to be connected to this OS. On 9 August 2019, Huawei officially unveiled Harmony OS at its inaugural HDC developers' conference in Dongguan with the ARK compiler which can be used to port Android APK packages to the OS. In September 2019, Huawei began offering the Linux distribution Deepin as a pre-loaded operating system on selected Matebook models in China.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0091"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0091",
+        "src_text": "2012年，华为中央软件院欧拉实验室成立华为手机终端操作系统开发部，自此华为开始了自主研发手机操作系统的规划。 同年，华为启动软件开源策略，成立开源软件能力中心。 华为自2012年开始规划操作系统鸿蒙的研发，2019年8月9日正式发布。 此外，华为还推出了基于Android研发的设备固件Emotion UI（后称EMUI）。 2022年初，華為自研编程语言「仓颉」开启内测。",
+        "score": 0.5538,
+        "chunk_sim": 0.6813,
+        "path_sim": 0.5545,
+        "combined_score": 0.7201,
+        "src_section": "产品与服务 > 软件",
+        "llm_label": "match"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0122",
+    "tgt_text": "Whereas at first the official Huawei line was that Harmony OS was not intended for smartphones, in June 2021 Huawei began shipping its smartphones with Harmony OS by default in China (in Europe it kept Android, in its own version EMUI, as the default). The operating system proved a success in China, rising from no market share at all to 10 per cent of the Chinese market for smartphones within two years (from mid-2021 to mid-2023), at the expense of Android.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0123",
+    "tgt_text": "In 2013, Taiwan blocked mobile network operators and government departments from using Huawei equipment. In 2018, Japan banned Huawei from receiving government contracts.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0003",
+      "zh_0099"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.6337,
+        "chunk_sim": 0.5531,
+        "path_sim": 0.6098,
+        "combined_score": 0.8166,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0099",
+        "src_text": "美国政府2018年起的网络安全指控称中华人民共和国政府可以通过华为的基础设施设备实现监控，还指控华为软件和设备与维吾尔人和新疆拘禁营的大规模监视有关。 特别是随着5G无线网络中国积极推动发展，美国一直呼吁阻止华为或中兴通讯使用美国或其盟国的零件，此成為中美貿易戰中一個備受關注的發展。",
+        "score": 0.5852,
+        "chunk_sim": 0.583,
+        "path_sim": 0.6098,
+        "combined_score": 0.7681,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0124",
+    "tgt_text": "In 2019, Vietnam left Huawei out of bids to build the country's 5G network out of national security concerns. However, in 2025, Huawei won several contracts to supply Vietnam with 5G equipment. Following the initial 2020–2021 China–India skirmishes, India announced that Huawei telecommunication gear would be removed from the country and that the company would be blocked from participating in India's 5G network out of national security concerns.",
+    "from_lang": "zh",
+    "match_type": "1:1",
+    "matched_chunk_ids": [
+      "zh_0003"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.6201,
+        "chunk_sim": 0.6923,
+        "path_sim": 0.6098,
+        "combined_score": 0.803,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0125",
+    "tgt_text": "Ten out of the 27 European Union member states have regulatory frameworks curbing Huawei products. They range from bans, higher barriers to approval, refusal to renew licenses, and unimplemented proposals. In 2025, the European Commission was reported to be exploring ways to phase Huawei products out of their member states' telecommunication networks. Having previously banned Huawei from participating in its 5G auction, Brazil reversed its position in early 2021 and allowed Huawei to participate.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0003",
+      "zh_0033"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.6144,
+        "chunk_sim": 0.644,
+        "path_sim": 0.6098,
+        "combined_score": 0.7973,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0033",
+        "src_text": "华为通常会采取低价策略，因而受到世界各地客户的青睐，从而加大竞争优势。 截至2017年，华为业务遍及全球170多个国家和地区，服务全世界1/3以上的人口，且已在全球十余个城市与30多家运营商进行5G预商用测试，性能超越国际电信联盟要求。 华为也成为了197家世界500强企业、45家世界100强企业的忠实供应商。 2020年10月，瑞典政府禁止使用華為及中興的產品參與5G頻譜拍賣，其後華為上訴。 瑞典法院於2021年1月駁回有關華為的上訴申請。",
+        "score": 0.6341,
+        "chunk_sim": 0.6797,
+        "path_sim": 0.6098,
+        "combined_score": 0.817,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0126",
+    "tgt_text": "In May 2022, Canada's government banned Huawei and ZTE equipment from the country's 5G network, with network operators having until 28 June 2024 to remove what they had already installed. The ban followed years of lobbying from the US, part of the Five Eyes intelligence alliance that also includes Australia, Canada, New Zealand, and the UK. Australia and New Zealand have also banned or restricted Huawei products.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0003",
+      "zh_0099"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0003",
+        "src_text": "在中美贸易战的背景下，华为在中国大陆以外受到诸多指控。 例如可能与中国政府分享情报、进行黑客网络攻击、违反美国对伊朗的制裁、拥有中国政府、军方背景，等等。 华为辩称，美国政府等批评者并未提供间谍活动的证据。 2019年，華為公司受到美國全面制裁，限制其与美国公司的业务往来。 2022年11月，美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。 印度、越南、日本、五眼联盟成员国以及十个欧盟国家也禁止或限制华为产品。",
+        "score": 0.5912,
+        "chunk_sim": 0.6873,
+        "path_sim": 0.6098,
+        "combined_score": 0.7741,
+        "src_section": "(Lead)",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0099",
+        "src_text": "美国政府2018年起的网络安全指控称中华人民共和国政府可以通过华为的基础设施设备实现监控，还指控华为软件和设备与维吾尔人和新疆拘禁营的大规模监视有关。 特别是随着5G无线网络中国积极推动发展，美国一直呼吁阻止华为或中兴通讯使用美国或其盟国的零件，此成為中美貿易戰中一個備受關注的發展。",
+        "score": 0.535,
+        "chunk_sim": 0.6456,
+        "path_sim": 0.6098,
+        "combined_score": 0.7179,
+        "src_section": "爭議 > 美国制裁",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0127",
+    "tgt_text": "In October 2022, the UK extended the deadline by a year to the end of 2023 for removing core Huawei equipment from network functions. The ban, originally announced in 2020 following US pressure, calls for the phasing out of all Huawei gear from UK's 5G network by the end of 2027, which remains unchanged.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0128",
+    "tgt_text": "Per an August 2023 decree on 5G network development, Costa Rica barred firms from all countries that have not signed the Budapest Convention on Cybercrime. The decree affects Chinese firms like Huawei, as well as firms from South Korea, Russia and Brazil, among others.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  },
+  {
+    "tgt_chunk_id": "en_0129",
+    "tgt_text": "In a 2024 literature review, academics Richard Heeks et al. write that U.S. warnings about Huawei have been largely ignored by the global south countries. In July 2024, the German government announced a deal with telecommunication companies in the country to remove Chinese 5G equipment, including from Huawei, by 2029. In June 2025, Taiwan added Huawei to its export control list. In May 2026, the European Commission recommended that all EU member states exclude Huawei and ZTE equipment from their telecom infrastructure.",
+    "from_lang": "zh",
+    "match_type": "1:N",
+    "matched_chunk_ids": [
+      "zh_0033",
+      "zh_0110"
+    ],
+    "matches": [
+      {
+        "src_chunk_id": "zh_0033",
+        "src_text": "华为通常会采取低价策略，因而受到世界各地客户的青睐，从而加大竞争优势。 截至2017年，华为业务遍及全球170多个国家和地区，服务全世界1/3以上的人口，且已在全球十余个城市与30多家运营商进行5G预商用测试，性能超越国际电信联盟要求。 华为也成为了197家世界500强企业、45家世界100强企业的忠实供应商。 2020年10月，瑞典政府禁止使用華為及中興的產品參與5G頻譜拍賣，其後華為上訴。 瑞典法院於2021年1月駁回有關華為的上訴申請。",
+        "score": 0.6919,
+        "chunk_sim": 0.669,
+        "path_sim": 0.6098,
+        "combined_score": 0.8749,
+        "src_section": "历史 > 境外发展",
+        "llm_label": "partial"
+      },
+      {
+        "src_chunk_id": "zh_0110",
+        "src_text": "瑞典基於瑞典國家安全局的電信基礎設備安全顧慮對华为提出電信設備限制令，禁止华为參與瑞典國內5G電信設備競標，禁令還包括2025年以前移除所有華為通信設備，中國電信設備工作人員也需要全數離開操作現有職位，此項禁令遭到中國外交部對易利信可能失去中國市場的報復警告。",
+        "score": 0.5836,
+        "chunk_sim": 0.6981,
+        "path_sim": 0.6098,
+        "combined_score": 0.7665,
+        "src_section": "爭議 > 瑞典5G電信設備限制令",
+        "llm_label": "partial"
+      }
+    ]
+  },
+  {
+    "tgt_chunk_id": "en_0130",
+    "tgt_text": "Western distrust and targeting of Huawei is generally viewed by the Chinese public as unjustified. This has led to a perspective in the Chinese public and among city governments that patronizing Huawei helps support China in geopolitical and technological competition with the United States. Huawei has thus received high levels of support in terms of public sentiment which its rival firms do not benefit from to the same extent. Huawei's top position in China's smart cities technology market has in particular been boosted by these sentiments.",
+    "from_lang": "zh",
+    "match_type": "1:0",
+    "matched_chunk_ids": [],
+    "matches": []
+  }
+]
