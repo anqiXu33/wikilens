@@ -52,24 +52,52 @@ Wikipedia URL
 
 ### Prerequisites
 
-- Python 3.10+
-- One scoring backend:
+- Python 3.12 (the pinned dependencies are tested on 3.12; see `.python-version`)
+- For new analyses, one scoring backend (not needed for offline replay or `--no-score`):
   - an IBM Cloud account with a watsonx.ai project (**watsonx** backend), or
   - [Ollama](https://ollama.com) installed and running (**ollama** backend, default)
 
-### 1. Clone and install dependencies
+### 0. Try it in one minute, without installing anything
+
+Offline mode replays the scores saved in `outputs/runs/`. It uses only the
+Python standard library, needs no network, no LLM and no API key:
 
 ```bash
 git clone https://github.com/your-username/wikilens.git
 cd wikilens
+python -m wikilens runs                                            # list saved runs
+python -m wikilens run --title "Gala (apple)" --pair en-de --offline
+```
+
+### 1. Install dependencies
+
+```bash
+python3.12 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-You will also need spaCy's German model for sentence tokenisation:
+`requirements.txt` is a lockfile: every package is pinned to an exact version.
+It is generated from the direct dependencies in `requirements.in`:
 
 ```bash
-python -m spacy download de_core_news_sm
+uv pip compile --universal --python-version 3.12 requirements.in -o requirements.txt
 ```
+
+Two version constraints are deliberate: spaCy 3.7 (needed for the German model
+below) is built against NumPy 1.x, so `numpy<2`, and pyarrow 26 requires NumPy 2,
+so `pyarrow<26`.
+
+On Linux, PyPI's `torch` wheel pulls in the CUDA libraries (several GB). For a
+CPU-only machine, install the CPU build of the same version first:
+`pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu`.
+
+Models and data are pinned too and downloaded on first use (not at import):
+
+| What | Pinned to | Where it comes from |
+|---|---|---|
+| LaBSE | `sentence-transformers/LaBSE` @ `836121a` | Hugging Face (`app/services/embedder.py`) |
+| spaCy German model | `spacy/de_core_news_sm` 3.7.0 @ `3e48602` | Hugging Face (`app/services/fetcher.py`) |
+| NLTK `punkt_tab` | latest | NLTK data server; or `python -m nltk.downloader punkt_tab` |
 
 ### 2. Configure the scoring backend
 
@@ -108,10 +136,12 @@ Any Ollama-compatible model works. Larger models (e.g. `llama3.1:8b`, `mistral`)
 ### 3. Start the server
 
 ```bash
-python -m uvicorn main:app --host 127.0.0.1 --port 8000
+python -m wikilens serve            # or: python -m uvicorn main:app --host 127.0.0.1 --port 8000
+python -m wikilens serve --offline  # dashboard over saved runs only; new analyses are disabled
 ```
 
-Open **http://127.0.0.1:8000** in your browser.
+Open **http://127.0.0.1:8000** in your browser. `serve --offline` needs the
+web dependencies installed but no network, LLM backend or API key.
 
 ---
 
@@ -132,6 +162,42 @@ Open **http://127.0.0.1:8000** in your browser.
 
 The watsonx backend is substantially faster: requests run with up to 8-way concurrency against the hosted 70B model instead of one at a time locally.
 
+### Command line
+
+The CLI runs the same pipeline as the web app (`app/pipeline.py`) and writes
+each run to its own `outputs/runs/<run_id>/`. Run it from the repository root.
+
+```bash
+# Full analysis: fetch → chunk → embed → align → score. Needs an LLM backend.
+python -m wikilens run --title "Gala (apple)" --pair en-de
+python -m wikilens run --url https://en.wikipedia.org/wiki/Switzerland --pair en-fr --backend watsonx
+
+# Everything except LLM scoring (real Wikipedia/Wikidata fetch and LaBSE alignment); no API key needed.
+python -m wikilens run --title "Gala (apple)" --pair en-de --no-score
+
+# Offline: replay the newest saved scores for this article and pair. No network, LLM or API key.
+python -m wikilens run --title "Gala (apple)" --pair en-de --offline
+
+python -m wikilens runs                 # list saved runs (scored / aligned only)
+python -m wikilens replay [RUN_ID]      # summarise a saved run (default: newest scored run)
+python -m wikilens replay --json        # raw run metadata and scores
+```
+
+- `--title` is the **English** Wikipedia title; the other edition's title comes from Wikidata.
+- `--pair` needs English on one side (`en-de`, `de-en`, `en-zh`, ...).
+- `--backend {ollama,watsonx}` overrides `SCORING_BACKEND` from `.env`.
+- Each new run's `meta.json` records the git commit, the LaBSE revision and the scoring backend and model.
+- `--no-score` runs are listed but not added to the dashboard history, since the dashboard needs score files.
+
+### Section-name translation cache
+
+Before embedding, non-English section names are translated to English with
+Google Translate (via `deep-translator`). Translations are cached in
+`app/cached_translations/section_names.json` (`{lang: {name: english}}`), so a
+re-run doesn't call Google Translate again and gets the same section names.
+Commit the file to make runs reproducible for others. Failed translations are
+logged and not cached; the original name is used for that run.
+
 ---
 
 ## Supported languages
@@ -151,6 +217,9 @@ The watsonx backend is substantially faster: requests run with up to 8-way concu
 ```
 wikilens/
 ├── app/
+│   ├── pipeline.py                 # End-to-end pipeline (used by the API and the CLI)
+│   ├── cached_articles/            # Fetched-article cache
+│   ├── cached_translations/        # Section-name translation cache (created on first use)
 │   └── services/
 │       ├── fetcher.py              # Wikipedia API + sentence splitting
 │       ├── chunker.py              # Paragraph-based chunking
@@ -160,16 +229,16 @@ wikilens/
 │       └── scorer.py               # LLM scoring (watsonx.ai / Ollama)
 ├── static/
 │   └── index.html                  # Frontend UI
-├── outputs/                        # Generated at runtime
-│   ├── chunked/
-│   ├── embeddings/
-│   ├── alignments_en_to_source/
-│   ├── alignments_source_to_en/
-│   └── scores/
+├── outputs/
+│   ├── runs/<run_id>/              # One directory per run: fetched/, chunked/, embeddings/,
+│   │                               #   alignments_*/, scores/, meta.json
+│   └── history.json                # Runs shown in the dashboard
+├── wikilens/                       # Command line: python -m wikilens
 ├── main.py                         # FastAPI server
 ├── eval_alignment_threshold.py     # Threshold calibration script
 ├── .env                            # Local config (not committed)
-└── requirements.txt
+├── requirements.in                 # Direct dependencies
+└── requirements.txt                # Pinned lockfile (generated from requirements.in)
 ```
 
 ---
