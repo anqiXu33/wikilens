@@ -14,7 +14,7 @@
 
 **Cross-lingual bias analysis for Wikipedia.** Compare the same article across two language editions, align the passages that describe the same facts, and see what each edition leaves out or frames differently.
 
-<p align="center"><img src="docs/images/social_credit_results.png" alt="Social credit system, English vs Chinese: summary cards and framing scores by section" width="760"></p>
+<p align="center"><img src="docs/images/social_credit_results.png" alt="Social credit system, English vs Chinese: summary cards and framing scores by section" width="600"></p>
 
 ## What it does
 
@@ -31,7 +31,7 @@ The LLM backend is pluggable: IBM watsonx, any OpenAI-compatible API (OpenRouter
 
 Wikipedia editions are written by different communities and are not translations of each other. The same topic can get different facts, different emphasis and different sources in each language. WikiLens makes those differences visible at the paragraph level, so an editor can see *where* two editions diverge rather than only *that* they do.
 
-<p align="center"><img src="docs/images/social_credit_coverage_gaps.png" alt="Coverage gaps: English passages with no counterpart in the Chinese edition" width="760"></p>
+<p align="center"><img src="docs/images/social_credit_coverage_gaps.png" alt="Coverage gaps: English passages with no counterpart in the Chinese edition" width="600"></p>
 
 ## How well does the alignment work?
 
@@ -64,7 +64,7 @@ A few things the labelled articles showed, as examples of what the tool surfaces
 
 Note that the Chinese Wikipedia is edited by a community spanning mainland China, Taiwan, Hong Kong and overseas; differences reflect those editors, not any single official position.
 
-<p align="center"><img src="docs/images/gala_results.png" alt="Gala (apple), English vs German: an example on an uncontroversial topic" width="760"></p>
+<p align="center"><img src="docs/images/gala_results.png" alt="Gala (apple), English vs German: an example on an uncontroversial topic" width="600"></p>
 
 ## Setup
 
