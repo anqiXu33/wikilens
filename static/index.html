@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WIKILens – Cross-lingual Bias Analysis</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    /* ── Wikipedia Vector skin tokens ── */
+    :root {
+      --wp-blue:       #3366cc;
+      --wp-blue-dark:  #2a4b8d;
+      --wp-blue-light: #eaf3fb;
+      --wp-red:        #dd3333;
+      --wp-green:      #14866d;
+      --wp-bg:         #ffffff;
+      --wp-bg-grey:    #f8f9fa;
+      --wp-border:     #a2a9b1;
+      --wp-border-light: #eaecf0;
+      --wp-text:       #202122;
+      --wp-text-muted: #54595d;
+      --wp-link:       #3366cc;
+      --wp-visited:    #6b4ba1;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, 'Linux Libertine', Georgia, Times, serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--wp-text);
+      background: var(--wp-bg);
+    }
+
+    /* ── Top navigation bar ── */
+    #wp-header {
+      background: var(--wp-bg);
+      border-bottom: 1px solid var(--wp-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      height: 50px;
+    }
+    #wp-header .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+    #wp-header .logo-icon {
+      width: 36px; height: 36px;
+      background: var(--wp-blue);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 700; font-size: 14px; font-family: sans-serif;
+      flex-shrink: 0;
+    }
+    #wp-header .logo-text {
+      font-size: 1rem;
+      font-weight: bold;
+      color: var(--wp-text);
+      font-family: 'Linux Libertine', Georgia, serif;
+    }
+    #wp-header .logo-sub {
+      font-size: 0.75rem;
+      color: var(--wp-text-muted);
+      font-family: sans-serif;
+    }
+    #wp-header nav a {
+      font-family: sans-serif;
+      font-size: 0.8rem;
+      color: var(--wp-link);
+      text-decoration: none;
+      margin-left: 16px;
+    }
+    #wp-header nav a:hover { text-decoration: underline; }
+
+    /* ── Tabs bar ── */
+    #wp-tabs {
+      background: var(--wp-bg-grey);
+      border-bottom: 1px solid var(--wp-border);
+      padding: 0 20px;
+      display: flex;
+      gap: 0;
+    }
+    .wp-tab {
+      font-family: sans-serif;
+      font-size: 0.8rem;
+      color: var(--wp-text-muted);
+      padding: 8px 14px;
+      border: 1px solid transparent;
+      border-bottom: none;
+      cursor: pointer;
+      margin-bottom: -1px;
+      background: var(--wp-bg-grey);
+      position: relative;
+    }
+    .wp-tab.active {
+      background: var(--wp-bg);
+      color: var(--wp-text);
+      border-color: var(--wp-border);
+      border-bottom-color: var(--wp-bg);
+    }
+
+    /* ── Layout ── */
+    #wp-main {
+      max-width: 960px;
+      margin: 24px auto;
+      padding: 0 20px;
+    }
+
+    /* ── Page title ── */
+    .page-title {
+      font-family: 'Linux Libertine', Georgia, serif;
+      font-size: 1.95rem;
+      font-weight: normal;
+      color: var(--wp-text);
+      border-bottom: 1px solid var(--wp-border);
+      padding-bottom: 4px;
+      margin-bottom: 16px;
+    }
+    .page-tagline {
+      font-family: sans-serif;
+      font-size: 0.82rem;
+      color: var(--wp-text-muted);
+      margin-bottom: 20px;
+    }
+
+    /* ── Infobox (form) ── */
+    .wp-infobox {
+      float: right;
+      clear: right;
+      margin: 0 0 16px 24px;
+      border: 1px solid var(--wp-border);
+      background: var(--wp-bg-grey);
+      width: 320px;
+      font-family: sans-serif;
+      font-size: 0.82rem;
+    }
+    .wp-infobox-title {
+      background: var(--wp-border-light);
+      border-bottom: 1px solid var(--wp-border);
+      padding: 6px 10px;
+      font-weight: bold;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    .wp-infobox-body { padding: 10px 12px; }
+    .wp-field { margin-bottom: 10px; }
+    .wp-field label {
+      display: block;
+      font-weight: bold;
+      color: var(--wp-text);
+      margin-bottom: 3px;
+    }
+    .wp-field input[type="text"],
+    .wp-field select {
+      width: 100%;
+      border: 1px solid var(--wp-border);
+      background: #fff;
+      padding: 5px 8px;
+      font-size: 0.82rem;
+      font-family: sans-serif;
+      color: var(--wp-text);
+      outline: none;
+      border-radius: 2px;
+    }
+    .wp-field input:focus,
+    .wp-field select:focus { border-color: var(--wp-blue); }
+    .wp-btn {
+      display: inline-block;
+      padding: 5px 16px;
+      font-size: 0.82rem;
+      font-family: sans-serif;
+      font-weight: bold;
+      background: var(--wp-bg-grey);
+      border: 1px solid var(--wp-border);
+      color: var(--wp-text);
+      cursor: pointer;
+      border-radius: 2px;
+      margin-right: 6px;
+      text-decoration: none;
+    }
+    .wp-btn:hover { background: var(--wp-border-light); }
+    .wp-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .wp-btn-primary {
+      background: var(--wp-blue);
+      border-color: var(--wp-blue-dark);
+      color: #fff;
+    }
+    .wp-btn-primary:hover { background: var(--wp-blue-dark); }
+
+    /* ── Lead text ── */
+    .wp-lead {
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+
+    /* ── Section headers ── */
+    .wp-section-h2 {
+      font-family: 'Linux Libertine', Georgia, serif;
+      font-size: 1.4rem;
+      font-weight: normal;
+      border-bottom: 1px solid var(--wp-border);
+      padding-bottom: 3px;
+      margin: 24px 0 10px;
+      clear: both;
+    }
+    .wp-section-h3 {
+      font-family: sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 18px 0 8px;
+    }
+
+    /* ── Hatnote / notice ── */
+    .wp-hatnote {
+      font-family: sans-serif;
+      font-size: 0.82rem;
+      color: var(--wp-text-muted);
+      border-left: 3px solid var(--wp-border);
+      padding: 4px 10px;
+      margin-bottom: 12px;
+      background: var(--wp-bg-grey);
+    }
+
+    /* ── Loading notice ── */
+    .wp-loading-box {
+      border: 1px solid var(--wp-border);
+      background: var(--wp-bg-grey);
+      padding: 20px 24px;
+      font-family: sans-serif;
+      margin-bottom: 16px;
+    }
+    .wp-loading-box .wp-spinner {
+      display: inline-block;
+      width: 16px; height: 16px;
+      border: 2px solid var(--wp-border);
+      border-top-color: var(--wp-blue);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .wp-loading-title {
+      font-size: 0.95rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .wp-progress-steps { list-style: none; padding: 0; margin: 0; }
+    .wp-progress-steps li {
+      padding: 3px 0;
+      font-size: 0.82rem;
+      color: var(--wp-text-muted);
+    }
+    .wp-progress-steps li.active { color: var(--wp-blue); font-weight: bold; }
+    .wp-progress-steps li.done { color: var(--wp-green); }
+    .wp-progress-steps li.done::before { content: "✓ "; }
+    .wp-progress-steps li.active::before { content: "▶ "; }
+    .wp-progress-steps li.pending::before { content: "○ "; color: var(--wp-text-muted); }
+
+    /* ── Error box ── */
+    .wp-error {
+      border: 1px solid #ffc1c1;
+      background: #fff3f3;
+      padding: 12px 16px;
+      font-family: sans-serif;
+      font-size: 0.85rem;
+      margin-bottom: 16px;
+      color: var(--wp-red);
+    }
+    .wp-error strong { display: block; margin-bottom: 4px; }
+
+    /* ── Summary table (stats) ── */
+    .wp-stats-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: sans-serif;
+      font-size: 0.82rem;
+      margin-bottom: 16px;
+    }
+    .wp-stats-table th {
+      background: var(--wp-border-light);
+      border: 1px solid var(--wp-border);
+      padding: 6px 10px;
+      text-align: left;
+      font-weight: bold;
+    }
+    .wp-stats-table td {
+      border: 1px solid var(--wp-border);
+      padding: 5px 10px;
+    }
+    .wp-stats-table tr:nth-child(even) td { background: var(--wp-bg-grey); }
+    .val-neg { color: var(--wp-red); font-weight: bold; }
+    .val-pos { color: #116611; font-weight: bold; }
+    .val-neu { color: var(--wp-text); }
+
+    .score-cell { text-align: center; white-space: nowrap; }
+
+    /* ── Clearfix ── */
+    .clearfix::after { content: ""; display: table; clear: both; }
+
+    .hidden { display: none !important; }
+    #wp-main > * { clear: none; }
+
+    /* ── Dashboard: stat cards ── */
+    .dash-cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin: 16px 0 20px;
+      clear: both;
+    }
+    .dash-card {
+      background: var(--wp-bg-grey);
+      border-radius: 6px;
+      padding: 12px 14px;
+      font-family: sans-serif;
+    }
+    .dash-card-label {
+      font-size: 0.72rem;
+      color: var(--wp-text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      margin-bottom: 4px;
+    }
+    .dash-card-value {
+      font-size: 1.5rem;
+      font-weight: bold;
+      line-height: 1.15;
+      margin-bottom: 2px;
+    }
+    .dash-card-note { font-size: 0.72rem; color: var(--wp-text-muted); }
+    .dash-card.red   .dash-card-value { color: var(--wp-red); }
+    .dash-card.amber .dash-card-value { color: #b8620a; }
+    .dash-card.green .dash-card-value { color: var(--wp-green); }
+
+    /* ── Language pill ── */
+    .lang-pill {
+      display: inline-block;
+      font-family: sans-serif;
+      font-size: 0.72rem;
+      font-weight: bold;
+      padding: 2px 9px;
+      border-radius: 12px;
+      background: var(--wp-blue-light);
+      color: var(--wp-blue-dark);
+      border: 1px solid var(--wp-blue);
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    /* ── Dimension switcher ── */
+    .dim-switcher { display: flex; gap: 4px; margin-bottom: 12px; }
+    .dim-pill {
+      font-family: sans-serif;
+      font-size: 0.78rem;
+      padding: 4px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--wp-border);
+      cursor: pointer;
+      background: transparent;
+      color: var(--wp-text-muted);
+    }
+    .dim-pill.active {
+      background: var(--wp-text);
+      color: #fff;
+      border-color: var(--wp-text);
+    }
+
+    /* ── Section grouped chart ── */
+    .section-cmp-wrap {
+      background: var(--wp-bg);
+      border: 0.5px solid var(--wp-border-light);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    .section-cmp-title {
+      font-family: sans-serif;
+      font-size: 0.78rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--wp-text-muted);
+      margin-bottom: 10px;
+    }
+    .section-cmp-note {
+      font-family: sans-serif;
+      font-size: 0.78rem;
+      color: var(--wp-text-muted);
+      margin-top: 8px;
+    }
+
+    /* ── Two-column lower section ── */
+    .dash-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .dash-col {
+      background: var(--wp-bg);
+      border: 0.5px solid var(--wp-border-light);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .dash-col-title {
+      font-family: sans-serif;
+      font-size: 0.78rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--wp-text-muted);
+      margin-bottom: 8px;
+    }
+
+    /* ── Direction tab switcher ── */
+    .dir-tabs {
+      display: flex;
+      border-bottom: 1px solid var(--wp-border-light);
+      margin-bottom: 10px;
+    }
+    .dir-tab {
+      font-family: sans-serif;
+      font-size: 0.78rem;
+      padding: 5px 12px;
+      cursor: pointer;
+      color: var(--wp-text-muted);
+      border: none;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      background: none;
+    }
+    .dir-tab.active { color: var(--wp-blue); border-bottom-color: var(--wp-blue); }
+
+    /* ── Divergent chunk rows ── */
+    .div-row {
+      border-bottom: 1px solid var(--wp-border-light);
+      cursor: pointer;
+      padding: 8px 4px;
+    }
+    .div-row:last-of-type { border-bottom: none; }
+    .div-row:hover { background: var(--wp-bg-grey); border-radius: 4px; }
+    .div-row-main {
+      display: grid;
+      grid-template-columns: 1fr auto auto auto;
+      gap: 8px;
+      align-items: center;
+    }
+    .div-snippet {
+      font-size: 0.8rem;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+      font-style: italic;
+    }
+    .div-meta { font-size: 0.72rem; color: var(--wp-text-muted); margin-top: 2px; }
+    .div-score { font-family: sans-serif; font-size: 0.8rem; font-weight: bold; text-align: right; white-space: nowrap; }
+    .delta-badge {
+      font-family: sans-serif; font-size: 0.72rem; font-weight: bold;
+      padding: 2px 7px; border-radius: 10px; white-space: nowrap;
+    }
+    .delta-red   { background: #fde8e8; color: #c0392b; }
+    .delta-amber { background: #fef3e2; color: #b8620a; }
+    .delta-green { background: #e6f4f1; color: var(--wp-green); }
+
+    /* ── Expandable detail panel ── */
+    .div-detail {
+      background: var(--wp-bg-grey);
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 6px;
+      font-family: sans-serif;
+      font-size: 0.8rem;
+    }
+    .div-detail-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 8px; }
+    .div-detail-lang { font-size: 0.72rem; font-weight: bold; color: var(--wp-text-muted); text-transform: uppercase; margin-bottom: 4px; }
+    .div-detail-text { font-style: italic; line-height: 1.5; color: var(--wp-text); }
+    .div-detail-scores {
+      display: flex; gap: 14px; flex-wrap: wrap;
+      padding-top: 8px; border-top: 1px solid var(--wp-border-light);
+    }
+    .div-detail-score-item { font-size: 0.75rem; color: var(--wp-text-muted); }
+    .div-detail-score-item b { color: var(--wp-text); }
+
+    /* ── Coverage gap rows ── */
+    .gap-row {
+      border-bottom: 1px solid var(--wp-border-light);
+      cursor: pointer;
+      padding: 8px 4px;
+    }
+    .gap-row:last-of-type { border-bottom: none; }
+    .gap-row:hover { background: var(--wp-bg-grey); border-radius: 4px; }
+    .gap-row-main { display: flex; gap: 8px; align-items: flex-start; }
+    .gap-icon { flex-shrink: 0; margin-top: 2px; }
+    .gap-snippet {
+      font-size: 0.8rem; font-style: italic;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+      flex: 1; min-width: 0;
+    }
+    .gap-meta { font-size: 0.72rem; color: var(--wp-text-muted); margin-top: 2px; }
+    .gap-detail {
+      background: var(--wp-bg-grey); border-radius: 4px;
+      padding: 10px 12px; margin-top: 6px;
+      font-family: sans-serif; font-size: 0.8rem;
+    }
+    .absent-badge {
+      display: inline-block; background: #fde8e8; color: #c0392b;
+      font-size: 0.72rem; font-weight: bold;
+      padding: 2px 8px; border-radius: 10px; margin-bottom: 6px;
+    }
+    .no-data-msg {
+      font-family: sans-serif; font-size: 0.82rem;
+      color: var(--wp-text-muted); padding: 16px 0; text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Wikipedia-style header -->
+<div id="wp-header">
+  <a class="logo" href="#">
+    <div class="logo-icon">W</div>
+    <div>
+      <div class="logo-text">WIKILens</div>
+      <div class="logo-sub">Cross-lingual Bias Analysis Tool</div>
+    </div>
+  </a>
+  <nav>
+    <a href="#">Documentation</a>
+    <a href="#">About</a>
+    <a href="#">Help</a>
+  </nav>
+</div>
+
+<!-- Tab bar -->
+<div id="wp-tabs">
+  <div class="wp-tab active">Analysis</div>
+  <div class="wp-tab" style="color:#a2a9b1;cursor:default">Talk</div>
+  <div class="wp-tab" style="color:#a2a9b1;cursor:default">History</div>
+</div>
+
+<div id="wp-main">
+
+  <!-- ── INPUT VIEW ── -->
+  <div id="view-input">
+    <h1 class="page-title">Cross-lingual bias analysis</h1>
+    <p class="page-tagline">From WIKILens, the Wikipedia editor's bias detection tool</p>
+
+    <!-- Infobox form (floats right) -->
+    <div class="wp-infobox">
+      <div class="wp-infobox-title">Run Analysis</div>
+      <div class="wp-infobox-body">
+        <div class="wp-field">
+          <label for="url-input">Wikipedia Article URL</label>
+          <input type="text" id="url-input"
+            placeholder="https://en.wikipedia.org/wiki/…"
+            value="https://en.wikipedia.org/wiki/COVID-19" />
+        </div>
+        <div class="wp-field">
+          <label for="lang-pair">Language Pair</label>
+          <select id="lang-pair">
+            <option value="de-en">German ↔ English</option>
+            <option value="fr-en">French ↔ English</option>
+            <option value="it-en">Italian ↔ English</option>
+            <option value="zh-en">Chinese ↔ English</option>
+          </select>
+        </div>
+        <button class="wp-btn wp-btn-primary" id="analyze-btn" onclick="startAnalysis()">Analyze article</button>
+
+        <!-- Recent analyses history -->
+        <div id="history-box" class="hidden" style="margin-top:10px;border-top:1px solid var(--wp-border);padding-top:8px">
+          <div style="font-weight:bold;font-size:0.78rem;color:var(--wp-text-muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:0.4px">Recent analyses</div>
+          <ul id="history-list" style="list-style:none;margin:0;padding:0"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lead text -->
+    <p class="wp-lead">
+      <b>WIKILens</b> is a cross-lingual bias detection tool for Wikipedia editors.
+      It compares the same article across two language editions and scores each text chunk
+      on four dimensions of potential bias: <i>ideology</i>, <i>sentiment</i>, <i>framing</i>,
+      and <i>omission</i>.
+    </p>
+    <p class="wp-lead">
+      To begin, enter a Wikipedia article URL and select a language pair in the panel on the right,
+      then click <b>Analyze article</b>. The analysis pipeline fetches both language editions,
+      aligns their content, and uses a large language model to score each aligned chunk.
+    </p>
+
+    <div class="wp-hatnote">
+      <b>Note:</b> Analysis may take several minutes depending on article length and language pair.
+      Results are generated fresh for each request.
+    </div>
+
+    <h2 class="wp-section-h2">Supported language pairs</h2>
+    <table class="wp-stats-table" style="width:auto">
+      <tr><th>Code</th><th>Language</th><th>Note</th></tr>
+      <tr><td>de</td><td>German</td><td>Swiss national language</td></tr>
+      <tr><td>fr</td><td>French</td><td>Swiss national language</td></tr>
+      <tr><td>it</td><td>Italian</td><td>Swiss national language</td></tr>
+      <tr><td>zh</td><td>Chinese (Simplified)</td><td>Cross-lingual distance reference</td></tr>
+    </table>
+
+    <h2 class="wp-section-h2">Score interpretation</h2>
+    <table class="wp-stats-table" style="width:auto">
+      <tr><th>Dimension</th><th>Range</th><th>Interpretation</th></tr>
+      <tr><td>Ideology</td><td>−1.0 to +1.0</td><td>Negative = left-leaning; Positive = right-leaning; 0 = neutral</td></tr>
+      <tr><td>Sentiment</td><td>−1.0 to +1.0</td><td>Negative = unfavorable tone; Positive = favorable tone</td></tr>
+      <tr><td>Framing</td><td>−1.0 to +1.0</td><td>Negative = negative framing; Positive = positive framing</td></tr>
+      <tr><td>Omission</td><td>0 to 1.0</td><td>0 = nothing omitted; 1 = all baseline content omitted</td></tr>
+    </table>
+    <div style="clear:both"></div>
+  </div>
+
+  <!-- ── LOADING VIEW ── -->
+  <div id="view-loading" class="hidden">
+    <h1 class="page-title">Cross-lingual bias analysis</h1>
+    <div class="wp-loading-box">
+      <div class="wp-loading-title">
+        <span class="wp-spinner"></span>Analysis in progress&hellip;
+      </div>
+      <ul class="wp-progress-steps" id="progress-steps">
+        <li id="step-fetch"  class="active">Fetching Wikipedia articles</li>
+        <li id="step-chunk"  class="pending">Chunking &amp; embedding</li>
+        <li id="step-align"  class="pending">Aligning content</li>
+        <li id="step-score"  class="pending">Scoring bias (LLM)</li>
+        <li id="step-done"   class="pending">Finalising results</li>
+      </ul>
+    </div>
+    <div class="wp-hatnote">This may take 5–10 minutes. Do not close this tab.</div>
+    <p style="margin-top:16px;font-family:sans-serif;font-size:0.82rem">
+      <button class="wp-btn" onclick="resetToInput()">← Start new analysis</button>
+    </p>
+  </div>
+
+  <!-- ── RESULTS VIEW ── -->
+  <div id="view-results" class="hidden">
+    <div id="error-container"></div>
+
+    <div id="results-content">
+      <h1 class="page-title" id="result-title">Analysis results</h1>
+      <p class="page-tagline" id="result-sub"></p>
+
+      <!-- Infobox with summary stats -->
+      <div class="wp-infobox" id="stats-infobox">
+        <div class="wp-infobox-title" id="stats-infobox-title">Analysis summary</div>
+        <div class="wp-infobox-body">
+          <table style="width:100%;border-collapse:collapse;font-family:sans-serif;font-size:0.8rem">
+            <tbody id="stats-rows"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="wp-lead" id="result-lead"></p>
+
+      <!-- Dashboard: stat cards -->
+      <div id="dash-cards-container"></div>
+
+      <!-- Dashboard: section comparison chart -->
+      <div id="dash-section-chart"></div>
+
+      <!-- Dashboard: divergent chunks + coverage gaps -->
+      <div id="dash-columns-container"></div>
+
+      <div style="margin-top:24px;font-family:sans-serif;font-size:0.8rem;color:var(--wp-text-muted);border-top:1px solid var(--wp-border);padding-top:8px">
+        Retrieved from WIKILens bias analysis pipeline &nbsp;·&nbsp;
+        <a href="#" onclick="resetToInput();return false" style="color:var(--wp-link)">← New analysis</a>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /wp-main -->
+
+<script>
+const LANG = { en:'English', de:'German', fr:'French', it:'Italian', zh:'Chinese' };
+
+function show(id) {
+  ['view-input','view-loading','view-results'].forEach(v =>
+    document.getElementById(v).classList.toggle('hidden', v !== id));
+}
+function resetToInput() { show('view-input'); }
+
+/* ── History ── */
+async function loadHistory() {
+  try {
+    const res = await fetch('/history');
+    if (!res.ok) return;
+    const entries = await res.json();
+    if (!entries || entries.length === 0) return;
+
+    document.getElementById('history-box').classList.remove('hidden');
+    const list = document.getElementById('history-list');
+    list.innerHTML = '';
+    entries.forEach((e, i) => {
+      const langs = (e.languages_found || []).map(l => LANG[l] || l).join(' ↔ ');
+      const ts = e.timestamp
+        ? e.timestamp.replace(/(\d{4})(\d{2})(\d{2})_(\d{2})(\d{2})(\d{2})/, '$1-$2-$3 $4:$5')
+        : '';
+      const li = document.createElement('li');
+      li.style.cssText = 'padding:5px 0;border-bottom:1px solid var(--wp-border-light);cursor:pointer';
+      li.innerHTML = `
+        <span style="color:var(--wp-link);text-decoration:underline" onclick="loadHistoryEntry(${i})">
+          ${escHtml(e.title || 'Untitled')}
+        </span>
+        <span style="color:var(--wp-text-muted);font-size:0.75rem;margin-left:6px">${escHtml(langs)}</span>
+        ${ts ? `<span style="color:var(--wp-text-muted);font-size:0.72rem;display:block">${ts}</span>` : ''}`;
+      list.appendChild(li);
+    });
+    window._historyEntries = entries;
+  } catch(e) { /* silently ignore */ }
+}
+
+async function loadHistoryEntry(i) {
+  const entry = (window._historyEntries || [])[i];
+  if (!entry) return;
+  try {
+    const [scores1, scores2] = await Promise.all([
+      fetch(entry.file1_url).then(r => r.json()),
+      fetch(entry.file2_url).then(r => r.json()),
+    ]);
+    renderResults(entry, scores1, scores2);
+  } catch(e) {
+    alert('Failed to load: ' + e.message);
+  }
+}
+
+// Load history on page start
+window.addEventListener('DOMContentLoaded', loadHistory);
+
+function setStep(active) {
+  ['fetch','chunk','align','score','done'].forEach(s => {
+    const el = document.getElementById('step-' + s);
+    if (!el) return;
+    el.className = s === active ? 'active' : el.className === 'done' ? 'done' : 'pending';
+  });
+}
+function doneStep(s) {
+  const el = document.getElementById('step-' + s);
+  if (el) el.className = 'done';
+}
+
+async function startAnalysis() {
+  const url = document.getElementById('url-input').value.trim();
+  const language_pair = document.getElementById('lang-pair').value;
+  if (!url) { alert('Please enter a Wikipedia article URL.'); return; }
+
+  const btn = document.getElementById('analyze-btn');
+  btn.disabled = true; btn.textContent = 'Analyzing…';
+
+  // Reset step states
+  ['fetch','chunk','align','score','done'].forEach(s => {
+    const el = document.getElementById('step-' + s);
+    if (el) el.className = 'pending';
+  });
+
+  show('view-loading');
+  setStep('fetch');
+
+  try {
+    // Simulate step progress while waiting
+    const stepTimer = setTimeout(() => { doneStep('fetch'); setStep('chunk'); }, 8000);
+    const stepTimer2 = setTimeout(() => { doneStep('chunk'); setStep('align'); }, 25000);
+    const stepTimer3 = setTimeout(() => { doneStep('align'); setStep('score'); }, 45000);
+
+    const res = await fetch('/analyze', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url, language_pair }),
+    });
+
+    clearTimeout(stepTimer); clearTimeout(stepTimer2); clearTimeout(stepTimer3);
+    doneStep('fetch'); doneStep('chunk'); doneStep('align'); doneStep('score');
+    setStep('done');
+
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.detail || 'Analysis failed');
+    if (!data.success) throw new Error(data.detail || 'Scoring error');
+
+    const [scores1, scores2] = await Promise.all([
+      fetch(data.file1_url).then(r => r.json()),
+      fetch(data.file2_url).then(r => r.json()),
+    ]);
+
+    doneStep('done');
+    btn.disabled = false; btn.textContent = 'Analyze article';
+    renderResults(data, scores1, scores2);
+  } catch(err) {
+    btn.disabled = false; btn.textContent = 'Analyze article';
+    show('view-results');
+    document.getElementById('error-container').innerHTML = `
+      <div class="wp-error">
+        <strong>Error: Analysis failed</strong>
+        ${escHtml(err.message)}
+      </div>`;
+    document.getElementById('results-content').classList.add('hidden');
+  }
+}
+
+async function renderResults(meta, scores1, scores2) {
+  document.getElementById('error-container').innerHTML = '';
+  document.getElementById('results-content').classList.remove('hidden');
+
+  const [l1, l2] = meta.languages_found || [];
+  const title   = meta.title || 'Article';
+  const n1 = LANG[l1]||l1, n2 = LANG[l2]||l2;
+  const nonEnLang = l1 === 'en' ? l2 : l1;
+  const aligned = (scores1.length + scores2.length);
+
+  // Header
+  document.getElementById('result-title').textContent = title + ' – bias analysis';
+  document.getElementById('result-sub').innerHTML =
+    `Cross-lingual comparison: ${escHtml(n1)} ↔ ${escHtml(n2)}` +
+    ` <span class="lang-pill">${l1.toUpperCase()} vs ${l2.toUpperCase()}</span>`;
+
+  // Stats infobox
+  document.getElementById('stats-infobox-title').textContent = title;
+  const all = [...scores1, ...scores2];
+  const avg = k => { const v=all.map(s=>s[k]).filter(x=>x!=null); return v.length?(v.reduce((a,b)=>a+b,0)/v.length).toFixed(2):'—'; };
+  document.getElementById('stats-rows').innerHTML = [
+    ['Languages', `${n1} ↔ ${n2}`], ['Total chunks', aligned],
+    ['Avg ideology', avg('ideology_score')], ['Avg sentiment', avg('sentiment_score')],
+    ['Avg framing', avg('framing_score')],   ['Avg omission', avg('omission_score')],
+  ].map(([k,v])=>`<tr>
+    <td style="font-weight:bold;padding:3px 4px;border-bottom:1px solid #eaecf0">${k}</td>
+    <td style="padding:3px 4px;border-bottom:1px solid #eaecf0">${v}</td>
+  </tr>`).join('');
+
+  // Lead
+  document.getElementById('result-lead').innerHTML =
+    `Comparing <b>${escHtml(n1)}</b> and <b>${escHtml(n2)}</b> editions of <i>"${escHtml(title)}"</i> ` +
+    `across ${scores1.length} ${escHtml(n1)} chunks and ${scores2.length} ${escHtml(n2)} chunks.`;
+
+  // Load alignment files (best-effort, no backend change needed)
+  let alignEN = null, alignLANG = null;
+  try {
+    const [r1, r2] = await Promise.all([
+      fetch(`/outputs/alignments_en_to_source/en_to_${nonEnLang}.json`),
+      fetch(`/outputs/alignments_source_to_en/${nonEnLang}_to_en.json`),
+    ]);
+    if (r1.ok) alignEN   = await r1.json();
+    if (r2.ok) alignLANG = await r2.json();
+  } catch(e) { /* alignment files unavailable — stat cards + divergence will show n/a */ }
+
+  const score1Map = buildScoreMap(scores1);
+  const score2Map = buildScoreMap(scores2);
+
+  // Update subtitle with chunk/omission counts
+  if (alignEN) {
+    const matched  = alignEN.filter(e => e.match_type === '1:1').length;
+    const omittedE = alignEN.filter(e => e.match_type === '1:0').length;
+    const omittedL = alignLANG ? alignLANG.filter(e => e.match_type === '1:0').length : '?';
+    document.getElementById('result-sub').innerHTML +=
+      `<span style="font-family:sans-serif;font-size:0.78rem;color:var(--wp-text-muted);margin-left:10px">` +
+      `${matched} aligned · ${omittedE} omitted EN→${nonEnLang.toUpperCase()} · ${omittedL} omitted ${nonEnLang.toUpperCase()}→EN</span>`;
+  }
+
+  // ── Stat cards ──
+  const cardsEl = buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLANG, n1, n2);
+  const cardsC = document.getElementById('dash-cards-container');
+  cardsC.innerHTML = ''; cardsC.appendChild(cardsEl);
+
+  // ── Section comparison chart ──
+  const chartC = document.getElementById('dash-section-chart');
+  chartC.innerHTML = '';
+  chartC.appendChild(buildSectionChart(scores1, scores2, n1, n2));
+
+  // ── Two-column: divergent chunks + coverage gaps ──
+  const colsC = document.getElementById('dash-columns-container');
+  colsC.innerHTML = '';
+  const colsWrap = document.createElement('div');
+  colsWrap.className = 'dash-columns';
+  colsWrap.appendChild(buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, n1, n2));
+  colsWrap.appendChild(buildCoverageGaps(alignEN, alignLANG, score1Map, n1, n2));
+  colsC.appendChild(colsWrap);
+
+  show('view-results');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  loadHistory();
+}
+
+/* ══════════════════════════════════════════════
+   scoreUtils — helper functions
+   ══════════════════════════════════════════════ */
+
+function buildScoreMap(scores) {
+  const map = {};
+  scores.forEach(s => { map[s.chunk_id] = s; });
+  return map;
+}
+
+function computeSectionScores(scores) {
+  const secMap = {};
+  scores.forEach(c => {
+    const s = (c.section || '(Lead)').split(' > ')[0];
+    if (!secMap[s]) secMap[s] = [];
+    secMap[s].push(c);
+  });
+  const result = {};
+  Object.entries(secMap).forEach(([sec, chunks]) => {
+    result[sec] = {};
+    ['ideology_score','sentiment_score','framing_score','omission_score'].forEach(k => {
+      const vals = chunks.map(c => c[k]).filter(v => v != null);
+      result[sec][k] = vals.length ? vals.reduce((a,b)=>a+b,0)/vals.length : null;
+    });
+  });
+  return result;
+}
+
+function divergenceColor(v) { return v >= 0.5 ? 'red' : v >= 0.25 ? 'amber' : 'green'; }
+function coverageColor(p)    { return p >= 0.15 ? 'red' : p >= 0.05 ? 'amber' : 'green'; }
+
+/* ── Stat cards ── */
+function buildStatCards(scores1, scores2, score1Map, score2Map, alignEN, alignLANG, label1, label2) {
+  // Find 1:1 matched pairs from EN→LANG alignment
+  const pairs = [];
+  if (alignEN) {
+    alignEN.forEach(entry => {
+      if (entry.match_type !== '1:1' || !entry.matches || !entry.matches.length) return;
+      const enId   = entry.tgt_chunk_id;
+      const langId = entry.matches[0].src_chunk_id;
+      const enS = score1Map[enId], langS = score2Map[langId];
+      if (enS && langS) pairs.push({ enS, langS });
+    });
+  }
+
+  const dimDivergence = key => {
+    if (!pairs.length) return null;
+    const diffs = pairs.map(p => Math.abs((p.enS[key]||0) - (p.langS[key]||0)));
+    return diffs.reduce((a,b)=>a+b,0) / diffs.length;
+  };
+
+  const dirNote = (key) => {
+    if (!pairs.length) return '—';
+    const avgEN   = pairs.reduce((a,p)=>a+(p.enS[key]||0),0)/pairs.length;
+    const avgLANG = pairs.reduce((a,p)=>a+(p.langS[key]||0),0)/pairs.length;
+    const d = avgEN - avgLANG;
+    if (Math.abs(d) < 0.04) return 'both similar';
+    return d > 0 ? `${label1} higher` : `${label2} higher`;
+  };
+
+  const enOmitted = alignEN ? alignEN.filter(e => e.match_type === '1:0').length : 0;
+  const enTotal   = alignEN ? alignEN.length : scores1.length;
+  const covGap    = enTotal > 0 ? enOmitted / enTotal : 0;
+
+  const cardDefs = [
+    { label:'Ideology divergence',  val:dimDivergence('ideology_score'),  note:dirNote('ideology_score'),  fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
+    { label:'Sentiment divergence', val:dimDivergence('sentiment_score'), note:dirNote('sentiment_score'), fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
+    { label:'Framing divergence',   val:dimDivergence('framing_score'),   note:dirNote('framing_score'),   fmt: v => v!=null?v.toFixed(2):'n/a', color: v => v!=null?divergenceColor(v):'green' },
+    { label:'Coverage gap',         val:covGap, note:`${enOmitted} of ${enTotal} EN chunks absent`, fmt: v => Math.round(v*100)+'%', color: v => coverageColor(v) },
+  ];
+
+  const container = document.createElement('div');
+  container.className = 'dash-cards';
+  cardDefs.forEach(({ label, val, note, fmt: f, color: c }) => {
+    const card = document.createElement('div');
+    card.className = `dash-card ${c(val)}`;
+    card.innerHTML = `
+      <div class="dash-card-label">${label}</div>
+      <div class="dash-card-value">${f(val)}</div>
+      <div class="dash-card-note">${escHtml(note)}</div>`;
+    container.appendChild(card);
+  });
+  return container;
+}
+
+/* ── Section comparison chart (grouped bar) ── */
+let _secCmpChart = null;
+
+function buildSectionChart(scores1, scores2, label1, label2) {
+  const sec1 = computeSectionScores(scores1);
+  const sec2 = computeSectionScores(scores2);
+
+  // Ordered union of top-level sections
+  const seen = new Set(), allSecs = [];
+  [...scores1, ...scores2].forEach(c => {
+    const s = (c.section || '(Lead)').split(' > ')[0];
+    if (!seen.has(s)) { seen.add(s); allSecs.push(s); }
+  });
+  const shortLabels = allSecs.map(s => s.length > 22 ? s.slice(0,20)+'…' : s);
+  const chartH = Math.max(allSecs.length * 28 + 60, 100);
+
+  const wrap = document.createElement('div');
+  wrap.className = 'section-cmp-wrap';
+  wrap.innerHTML = `
+    <div class="section-cmp-title">Bias score by section</div>
+    <div class="dim-switcher">
+      <button class="dim-pill active" data-key="ideology_score">Ideology</button>
+      <button class="dim-pill" data-key="sentiment_score">Sentiment</button>
+      <button class="dim-pill" data-key="framing_score">Framing</button>
+    </div>
+    <div style="position:relative;height:${chartH}px"><canvas id="sec-cmp-canvas"></canvas></div>
+    <div class="section-cmp-note" id="sec-cmp-note"></div>`;
+
+  function makeDatasets(key) {
+    return [
+      { label: label1, data: allSecs.map(s => sec1[s] ? +((sec1[s][key]||0).toFixed(2)) : 0),
+        backgroundColor:'rgba(51,102,204,0.7)', borderColor:'#3366cc', borderWidth:1, borderRadius:2 },
+      { label: label2, data: allSecs.map(s => sec2[s] ? +((sec2[s][key]||0).toFixed(2)) : 0),
+        backgroundColor:'rgba(232,119,34,0.7)', borderColor:'#e87722', borderWidth:1, borderRadius:2 },
+    ];
+  }
+
+  function updateNote(key) {
+    let maxGap = 0, maxSec = '';
+    allSecs.forEach(s => {
+      const v1 = sec1[s] ? (sec1[s][key]||0) : 0;
+      const v2 = sec2[s] ? (sec2[s][key]||0) : 0;
+      const gap = Math.abs(v1 - v2);
+      if (gap > maxGap) { maxGap = gap; maxSec = s; }
+    });
+    const noteEl = wrap.querySelector('#sec-cmp-note');
+    if (noteEl && maxSec) noteEl.textContent =
+      `Largest gap in "${maxSec}" (${maxGap.toFixed(2)} difference between ${label1} and ${label2}).`;
+  }
+
+  setTimeout(() => {
+    if (_secCmpChart) { _secCmpChart.destroy(); _secCmpChart = null; }
+    const canvas = wrap.querySelector('#sec-cmp-canvas');
+    _secCmpChart = new Chart(canvas, {
+      type: 'bar',
+      data: { labels: shortLabels, datasets: makeDatasets('ideology_score') },
+      options: {
+        indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+        scales: {
+          x: { min:-1, max:1, grid:{color:'#eaecf0'}, ticks:{font:{size:9},maxTicksLimit:5}, border:{color:'#aaa'} },
+          y: { ticks:{font:{size:9}}, grid:{display:false} }
+        },
+        plugins: {
+          legend: { display:true, position:'bottom', labels:{font:{size:10},boxWidth:10,padding:8} },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.x.toFixed(2)}` } }
+        }
+      }
+    });
+    updateNote('ideology_score');
+  }, 0);
+
+  wrap.querySelectorAll('.dim-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      wrap.querySelectorAll('.dim-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const key = btn.dataset.key;
+      if (_secCmpChart) {
+        _secCmpChart.data.datasets = makeDatasets(key);
+        _secCmpChart.update();
+      }
+      updateNote(key);
+    });
+  });
+
+  return wrap;
+}
+
+/* ── Top divergent chunks ── */
+function buildTopDivergent(score1Map, score2Map, alignEN, alignLANG, label1, label2) {
+  const wrap = document.createElement('div');
+  wrap.className = 'dash-col';
+  const nonEN = label1 === 'English' ? label2 : label1;
+  wrap.innerHTML = `
+    <div class="dash-col-title">Top divergent chunks</div>
+    <div class="dir-tabs">
+      <button class="dir-tab active" data-dir="1">EN → ${escHtml(nonEN)}</button>
+      <button class="dir-tab" data-dir="2">${escHtml(nonEN)} → EN</button>
+    </div>
+    <div class="div-list-body"></div>`;
+
+  const body = wrap.querySelector('.div-list-body');
+  let currentDim = 'ideology_score';
+
+  function renderList(dir, dim) {
+    const alignData = dir === 1 ? alignEN : alignLANG;
+    if (!alignData || !alignData.length) {
+      body.innerHTML = '<div class="no-data-msg">No data for this direction</div>'; return;
+    }
+    const pairs = [];
+    alignData.forEach(entry => {
+      if (entry.match_type !== '1:1' || !entry.matches || !entry.matches.length) return;
+      let enId, langId, enText, langText, section;
+      if (dir === 1) {
+        enId = entry.tgt_chunk_id; langId = entry.matches[0].src_chunk_id;
+        enText = entry.tgt_text; langText = entry.matches[0].src_text;
+        section = entry.matches[0].src_section || '';
+      } else {
+        langId = entry.src_chunk_id; enId = entry.matches[0].tgt_chunk_id;
+        langText = entry.src_text; enText = entry.matches[0].tgt_text;
+        section = entry.src_section || '';
+      }
+      const enS = score1Map[enId], langS = score2Map[langId];
+      if (!enS || !langS) return;
+      const delta = Math.abs((enS[dim]||0) - (langS[dim]||0));
+      pairs.push({ enId, langId, enText, langText, section, enS, langS, delta });
+    });
+
+    pairs.sort((a,b) => b.delta - a.delta);
+    if (!pairs.length) { body.innerHTML = '<div class="no-data-msg">No matched pairs found</div>'; return; }
+
+    body.innerHTML = '';
+    let openDetail = null;
+
+    pairs.slice(0,5).forEach(p => {
+      const enVal = p.enS[dim]||0, langVal = p.langS[dim]||0;
+      const dc = p.delta >= 0.7 ? 'delta-red' : p.delta >= 0.4 ? 'delta-amber' : 'delta-green';
+      const enCls  = enVal  < -0.3 ? 'val-neg' : enVal  > 0.3 ? 'val-pos' : 'val-neu';
+      const lCls   = langVal < -0.3 ? 'val-neg' : langVal > 0.3 ? 'val-pos' : 'val-neu';
+      const snip   = (p.enText||'').slice(0,60) + ((p.enText||'').length>60?'…':'');
+      const secTop = (p.section||'').split(' > ')[0] || '—';
+
+      const row = document.createElement('div');
+      row.className = 'div-row';
+      row.innerHTML = `
+        <div class="div-row-main">
+          <div>
+            <div class="div-snippet">${escHtml(snip)}</div>
+            <div class="div-meta">${escHtml(secTop)} · ${escHtml(String(p.enId))}</div>
+          </div>
+          <div class="div-score ${enCls}">${enVal.toFixed(2)}</div>
+          <div class="div-score ${lCls}">${langVal.toFixed(2)}</div>
+          <div class="delta-badge ${dc}">Δ${p.delta.toFixed(2)}</div>
+        </div>`;
+
+      // Build score rows for all dims
+      const dims3 = ['ideology_score','sentiment_score','framing_score'];
+      const scoreRows = dims3.map(k => {
+        const label = k.replace('_score','').replace(/^\w/,c=>c.toUpperCase());
+        const ev = (p.enS[k]||0).toFixed(2), lv = (p.langS[k]||0).toFixed(2);
+        const eCls = p.enS[k]<-0.3?'val-neg':p.enS[k]>0.3?'val-pos':'val-neu';
+        const lCls2 = p.langS[k]<-0.3?'val-neg':p.langS[k]>0.3?'val-pos':'val-neu';
+        return `<div class="div-detail-score-item">${label} EN: <b class="${eCls}">${ev}</b></div>
+                <div class="div-detail-score-item">${label} ${escHtml(nonEN)}: <b class="${lCls2}">${lv}</b></div>`;
+      }).join('');
+
+      const detail = document.createElement('div');
+      detail.className = 'div-detail hidden';
+      detail.innerHTML = `
+        <div class="div-detail-cols">
+          <div>
+            <div class="div-detail-lang">EN</div>
+            <div class="div-detail-text">${escHtml(p.enText||'')}</div>
+          </div>
+          <div>
+            <div class="div-detail-lang">${escHtml(nonEN)}</div>
+            <div class="div-detail-text">${escHtml(p.langText||'')}</div>
+          </div>
+        </div>
+        <div class="div-detail-scores">${scoreRows}</div>`;
+
+      row.appendChild(detail);
+      row.addEventListener('click', () => {
+        const isOpen = !detail.classList.contains('hidden');
+        if (openDetail && openDetail !== detail) openDetail.classList.add('hidden');
+        detail.classList.toggle('hidden', isOpen);
+        openDetail = isOpen ? null : detail;
+      });
+      body.appendChild(row);
+    });
+  }
+
+  renderList(1, currentDim);
+
+  wrap.querySelectorAll('.dir-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      wrap.querySelectorAll('.dir-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderList(parseInt(tab.dataset.dir), currentDim);
+    });
+  });
+
+  return wrap;
+}
+
+/* ── Coverage gaps ── */
+function buildCoverageGaps(alignEN, alignLANG, score1Map, label1, label2) {
+  const wrap = document.createElement('div');
+  wrap.className = 'dash-col';
+  const nonEN = label1 === 'English' ? label2 : label1;
+  wrap.innerHTML = `
+    <div class="dash-col-title">Coverage gaps</div>
+    <div class="dir-tabs">
+      <button class="dir-tab active" data-dir="1">EN → ${escHtml(nonEN)}</button>
+      <button class="dir-tab" data-dir="2">${escHtml(nonEN)} → EN</button>
+    </div>
+    <div class="gap-list-body"></div>`;
+
+  const body = wrap.querySelector('.gap-list-body');
+
+  function renderGaps(dir) {
+    const alignData = dir === 1 ? alignEN : alignLANG;
+    if (!alignData || !alignData.length) {
+      body.innerHTML = '<div class="no-data-msg">No data for this direction</div>'; return;
+    }
+    const omitted = alignData.filter(e => e.match_type === '1:0');
+    if (!omitted.length) {
+      body.innerHTML = '<div class="no-data-msg">No coverage gaps detected in this direction</div>'; return;
+    }
+
+    body.innerHTML = '';
+    let openDetail = null;
+
+    omitted.slice(0,5).forEach(entry => {
+      let chunkText, chunkId, section, absentIn;
+      if (dir === 1) {
+        chunkText = entry.tgt_text || '';
+        chunkId   = entry.tgt_chunk_id;
+        const sE  = score1Map[chunkId];
+        section   = sE ? (sE.section||'').split(' > ')[0] : '—';
+        absentIn  = nonEN;
+      } else {
+        chunkText = entry.src_text || '';
+        chunkId   = entry.src_chunk_id;
+        section   = (entry.src_section||'').split(' > ')[0] || '—';
+        absentIn  = 'EN';
+      }
+      const snip = chunkText.slice(0,55) + (chunkText.length>55?'…':'');
+      const para = entry.paragraph_index != null ? ` · para ${entry.paragraph_index}` : '';
+
+      const row = document.createElement('div');
+      row.className = 'gap-row';
+      row.innerHTML = `
+        <div class="gap-row-main">
+          <svg class="gap-icon" width="14" height="14" viewBox="0 0 14 14">
+            <rect x="0.5" y="0.5" width="13" height="13" rx="2" fill="#fef3e2" stroke="#b8620a"/>
+            <text x="7" y="11" text-anchor="middle" font-size="9" fill="#b8620a" font-weight="bold">!</text>
+          </svg>
+          <div style="flex:1;min-width:0">
+            <div class="gap-snippet">${escHtml(snip)}</div>
+            <div class="gap-meta">${escHtml(section)}${para} · omission 1.0</div>
+          </div>
+        </div>`;
+
+      const detail = document.createElement('div');
+      detail.className = 'gap-detail hidden';
+      detail.innerHTML = `
+        <div class="div-detail-lang">${dir===1?'EN original':escHtml(nonEN)+' original'}</div>
+        <span class="absent-badge">absent in ${escHtml(absentIn)}</span>
+        <div class="div-detail-text" style="margin-top:6px">${escHtml(chunkText)}</div>`;
+
+      row.appendChild(detail);
+      row.addEventListener('click', () => {
+        const isOpen = !detail.classList.contains('hidden');
+        if (openDetail && openDetail !== detail) openDetail.classList.add('hidden');
+        detail.classList.toggle('hidden', isOpen);
+        openDetail = isOpen ? null : detail;
+      });
+      body.appendChild(row);
+    });
+
+    if (omitted.length > 5) {
+      const note = document.createElement('div');
+      note.style.cssText = 'font-family:sans-serif;font-size:0.75rem;color:var(--wp-text-muted);padding:8px 4px';
+      note.textContent = `+${omitted.length-5} more omissions · ${omitted.length} total`;
+      body.appendChild(note);
+    }
+  }
+
+  renderGaps(1);
+  wrap.querySelectorAll('.dir-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      wrap.querySelectorAll('.dir-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderGaps(parseInt(tab.dataset.dir));
+    });
+  });
+
+  return wrap;
+}
+
+function fmt(v) { return v == null ? '—' : Number(v).toFixed(2); }
+function scoreClass(v) {
+  if (v == null) return 'val-neu';
+  return v < 0 ? 'val-neg' : v > 0 ? 'val-pos' : 'val-neu';
+}
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+</script>
+</body>
+</html>

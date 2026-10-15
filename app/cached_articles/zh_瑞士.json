@@ -1,0 +1,2347 @@
+[
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士聯邦（德語：Schweizerische Eidgenossenschaft；法語：Confédération suisse；義大利語：Confederazione Svizzera；羅曼什語：Confederaziun svizra；拉丁語：Confœderatio Helvetica），通称瑞士（德語：Schweiz，發音：[ʃvaɪ̯ts] ；法語：Suisse，發音：[sɥis] ；義大利語：Svizzera，發音：[ˈzvittsera] ；羅曼什語：Svizra，發音：[ˈʒviːtsrɐ]、[ˈʒviːtsʁːɐ]；拉丁語：Helvetia），為中歐國家，由26個州組成。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士為典型的分權自治型聯邦委員會制國家，組成聯邦的各州擁有廣泛的地方自治權力，而且瑞士的國家元首為瑞士聯邦委員會全體成員，並非聯邦主席或其他特定的人。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"伯恩是联邦政府所在地兼事實上的首都，日內瓦、蘇黎世也是該國的重要城市，且是多個國際組織的總部駐地。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"瑞士北靠德国，西邻法国，南接意大利，东临奥地利和列支敦士登。\n瑞士是內陸國家，在地理上被劃分成阿爾卑斯山、瑞士高原及侏羅山脈三部份，其山地總面積達41,285平方公里，當中以阿爾卑斯山最為廣闊。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"瑞士高原不僅是瑞士800萬人口的集中區域，也是該國主要城市日內瓦及經濟中心蘇黎世的所在地。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"瑞士的自然風光及氣候條件十分優越，因而素有「世界公園」或「世界花園」之美譽。\n瑞士的中立政策始於1815年，由當年的《巴黎條約》上提出，並在同年的維也納會議上為各國所承認。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"瑞士曾經存在僱傭兵制度，後因确立「永久中立國」地位而改為採用武裝中立，自1815年維也納會議後從未再捲入过國際戰爭。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"瑞士自2002年起才成為聯合國正式會員國，但瑞士實行積極外交政策且頻繁參與世界各地的重建和平活動；瑞士為红十字国际委员会的發源地且為许多国际性组织总部所在地，如联合国日内瓦办事处。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"在歐洲區域組織方面，瑞士僅為歐洲自由貿易聯盟創始國及申根區會員國，而非歐盟與歐洲經濟區成員。\n依照人均国民生产总值，瑞士屬富裕国家，同時瑞士人均財富也居（除摩纳哥之外的）世界首位。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":9,
+    "sentence_text":"依國際匯率計算，瑞士為世界第19大經濟體；以购买力平价計算則為世界第39大經濟體；出口額及進口額分別居世界第15位及第17位。\n瑞士由3個主要語言及文化區所組成，分別為德语区、法语区及意大利语区，而後加入了罗曼什语區；雖然瑞士人中德語人口居多數，但瑞士並未形成單一民族及語言的國家，而且其國民中外國出生的比例相當高，對國家強烈的歸屬感則來自於共同的歷史背景及價值觀，如联邦主义及直接民主制等。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":10,
+    "sentence_text":"瑞士将自身以意志民族路径完成的民族建构视作一种关键的独特性。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":11,
+    "sentence_text":"傳統上以瑞士永久同盟於1291年8月初締結來作為建國之初始，因而每年的8月1日被立為瑞士國慶日。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"阿勒曼尼语中施維茨及周邊領地總稱「Schwiizer」。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"該地區為建立舊瑞士邦聯最初的老三州之一。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"瑞士人自1499年的斯瓦比亞戰爭後以Schwyzer稱呼自己，也常與「邦聯」（Eidgenossen）一詞搭配使用。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Schwyz一詞被證實最早於972年出現，來自古高地德語的Suittes，其意思可能與suedan（燃燒）有關，指森林地區燒除樹林，清出建築的空地。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Schwyz延伸到指稱整個施維茨州，自1499年的斯瓦比亞戰爭後逐漸稱整個邦聯。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"德語中瑞士的國家名稱為「Schweiz」，同音借用自施維茨（Schwyz）。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"在瑞士德語中，兩詞皆可拼寫為Schwiiz。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"為區別兩詞，國名瑞士為陰性名詞，且領有陰性定冠詞（主格和賓格為die Schweiz、di Schwiiz，與格和屬格為der Schweiz、de Schwiiz），而州名施維茨則為中性名詞，且不領冠詞（四格均為Schwyz、Schwiiz）。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"法語國名「Suisse」、意大利語國名「Svizzera」、羅曼什語國名「Svizra」皆源自於Schwyz。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 施維茨",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"其他諸如英語的「Switzer(-land)」等也源自Schwyz。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 海爾維第",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"拿破崙時期以海爾維第為共和國的名稱。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 海爾維第",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"1848年成為聯邦體制國家後，以新拉丁语的「Confederatio Helvetica」（海爾維第邦聯）作為正式國名全稱。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 海爾維第",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"「Confederatio Helvetica」於1879年在硬幣上出現，1902年落成的联邦宫也能夠見到，瑞士公章自1948年起刻有該詞。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 海爾維第",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Helvetica源自在羅馬帝國建立以前以居住於瑞士高原的海爾維第人（Helvetii）。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 海爾維第",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"“海爾維第”最初出現於約翰·卡斯帕·魏森巴赫1672年的劇作中，成為瑞士邦聯的国家化身。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 瑞士",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"1838年，通晓官话、闽南话、广府话、潮州话和客家话的德国传教士郭實獵的《万国地理全图集》中称该地为“瑞国”。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 瑞士",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"1839年，福建人林则徐组织编写的《四洲志》中专章描述“瑞国”。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 瑞士",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"福建布政使的徐继畬于1849年出版了《瀛寰志略》，书中有一卷专门记载“瑞士”。"
+  },
+  {
+    "language":"zh",
+    "section":"名稱來源 > 瑞士",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"这些译名是因为在中国东南方言中“瑞”有“seoi”或“sui”等发音，即汉语名称“瑞士”是源于“施維茨”（Schwyz）发音的中国东南方言音译。"
+  },
+  {
+    "language":"zh",
+    "section":"历史",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士現今的聯邦政府體制自1848年施行瑞士聯邦憲法確立，最初奠基於1291年所締結的保護結盟，鬆散的邦聯關係存續了數世紀。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士地區最早的人類活動可追溯至15萬年前，最早的農耕聚落遺跡於盖赫林根發現，該聚落存在於西元前5,300年。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士最早的文化聚落屬哈尔施塔特文化及拉坦诺文化的一部份，名稱來自纳沙泰尔湖北部的拉坦诺所發現的遺跡。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"拉坦诺文化約於西元前450年，即鐵器時代時發展及興盛，也有可能受希臘文明及伊特拉斯坎文明影響。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"海爾維第人為最重要的凯尔特人民族部落。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"於西元前58年，海爾維第人向大西洋遷徙過程中，在比布拉克特受尤利烏斯·凱撒的軍隊攔截，因此海爾維第人退回瑞士。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"西元前15年，提庇留及其弟弟德鲁苏斯奉羅馬皇帝奥古斯都之命征服阿爾卑斯山地區，並併入羅馬帝國。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"海爾維第人的活動範圍最初併入羅馬帝國的比利時高盧，之後劃入上日耳曼尼亞，今日瑞士東部地區則隸屬於拉埃提亚。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"自中世纪前期約4世紀起，東哥特王国、倫巴第王國、東羅馬帝國相繼短期控制瑞士，直到法蘭克王國擴張，今日瑞士西部地區為勃艮第王國的領土，阿勒曼尼人於5世紀定居於瑞士高原，至8世紀進一步延伸至阿爾卑斯山河谷，阿勒曼尼人的居住地即為阿勒曼尼亞；因此，今日瑞士於當時分為勃艮地及阿勒曼尼兩部分。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"法兰克王国克洛维一世於504年在曲尔皮希征服阿勒曼尼人後，阿勒曼尼亞成為法蘭克王國的一部份，而後勃艮第也為法蘭克王國征服。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"從6世紀起被法蘭克王國征服，直至8世紀瑞士地區皆處於該國統治之下，此期間法蘭克王國歷經墨洛溫王朝及卡洛林王朝。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"查理大帝在位期間擴大法蘭克王國版圖，但至843年其孫子簽署了《凡尔登条约》，將王國一分為三。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"現今瑞士地區則分屬中法兰克王国及東法蘭克王國，直到約11世紀為神圣罗马帝国統治後再度合而為一。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"瑞士高原於1200年時由萨伏依、哲林根、基堡及哈布斯堡家族王朝所控制，部分地區，如烏里、施維茨及下瓦爾登等在內的「森林州」獲神聖羅馬帝國予以自治特許狀，森林州為神聖羅馬帝國中自主性最高的居民，而該特許狀為森林州獲取自由的法律基礎。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 早期歷史",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"基堡王朝於於1264年覆亡後，魯道夫一世（1273年被選為神聖羅馬皇帝）將其勢力延伸至瑞士高原東部。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"舊瑞士邦聯為阿爾卑斯山中部的河谷社群的結盟，邦聯用以維護共同貿易利益及確保重要山區貿易和平。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"烏里、施維茨及下瓦爾登於1291年簽署的《瑞士联邦宪章》被認為是邦聯建立的最初文件，然而，在其數十年前可能存在類似同盟。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"至1353年，最初的三森林州已與格拉魯斯州、楚格州、卢塞恩、苏黎世及伯尔尼等州結盟，邦聯擴張後，權力及財富皆有所增加，此後至15世紀末期才有新州加入聯邦。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"邦聯在卡珀爾戰爭（Guerres de Kappel）及奈弗爾斯戰役（Bataille de Näfels）中對哈布斯堡作戰勝利，至1460年已控制侏羅山脈至阿爾卑斯山間的大部分地區。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"而後於1470年代以瑞士傭兵協助打敗勃艮第公國大胆的查理。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"瑞士於1499年在士瓦本战争戰勝馬克西米利安一世後，各州獲得神聖羅馬帝國皇帝所默許的自治權，神聖羅馬帝國幾乎被迫承認瑞士獨立自主。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士邦聯在戰爭中取得輝煌戰果，因而其善戰名聲聞名於歐洲。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"邦聯的領土擴張僅於马里尼亚诺战役遭受挫敗，也終結了瑞士歷史上的英勇時代，邦聯自此放棄以武力擴張領土。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"慈運理在瑞士北部州成功進行宗教改革，但卻引發各州間的宗教衝突，並於1529年及1531年爆發兩次卡珀爾戰爭（Guerres de Kappel）。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"於1648年歐洲各國簽定《威斯特伐利亚和约》，承認瑞士為一獨立國家並確認其為中立國。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"三十年戰爭結束後，由於經濟困難、貴族壟斷政權且濫用特權，而於1653年爆發農民起義。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 舊瑞士邦聯",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"至18世紀，天主教及新教各州的衝突仍然存在，於1656年及1712年分別發生兩次維爾梅根戰役（Batailles de Villmergen ），第一次天主教各州戰勝，第二次則由新教各州戰勝，伯恩及蘇黎世兩州的政治影響力則與其經濟實力相符。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 拿破崙時期",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"法國政府征服瑞士並起草統一的憲法，並將政府體制改為中央集權，原屬瑞士邦聯的米卢斯及瓦尔泰利纳則分別被劃入法國及奇萨尔皮纳共和国。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 拿破崙時期",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"法國佔領期間，瑞士改名為海爾維第共和國，但此外來勢力所建立的共和國與瑞士各州高度獨立的傳統相違背。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 拿破崙時期",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"在此期間，瑞士僅是法國的附庸國。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 拿破崙時期",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"法國軍隊鎮壓與當地人民反抗引發如下瓦爾登州的「恐怖日」暴動。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 拿破崙時期",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"在俄羅斯及奧地利對法國發動的戰爭中，瑞士人拒絕以海爾維第共和國的名義為法國軍隊作戰。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 拿破崙時期",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"海爾維第共和國的新政府中主張國家中央集權的中央集權派及恢復舊邦聯體制的聯邦派也有所紛爭，拿破崙於1803年招集雙方在巴黎進行調解，各黨派無異議通過《調停法案》（Acte de médiation），恢復各州自治及邦聯體制。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 拿破崙時期",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"1815年在维也纳会议上，瑞士重獲獨立，並確認為永久中立国。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 拿破崙時期",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"但瑞士軍隊直至1860年加埃塔包圍戰（Siège de Gaète）後才終止協助外國政府作戰。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 拿破崙時期",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"瓦莱州、納沙泰爾州及日內瓦州先後於1815年加入聯邦，瑞士的領土從1815年起即未再變更。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 聯邦國家",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"法國大革命「自由、平等、博愛」的理念對瑞士各州由寡頭貴族所支配的政治體制具有明顯的衝擊，演變成激進與保守州的對立。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 聯邦國家",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士於1839年爆發蘇黎世保守派叛亂（Züriputsch），部分保守天主教州於1845年結盟為「分離同盟」，於1847年與聯邦軍爆發分離同盟戰爭（Sonderbundskrieg），戰爭持續不到1個月，死亡人數為104人，且大多是受到友軍誤傷。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 聯邦國家",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"分離同盟戰爭與歐洲各國發生的動亂類似，但對瑞士社會及心理層面皆有重大影響。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 聯邦國家",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"在1848年歐洲各地發生革命及騷動時，瑞士起草以聯邦體制為架構的新憲法，該憲法大多參考美国宪法；新憲法賦予聯邦政府較大權力，各州政府則保留處理地方事務的權限。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 聯邦國家",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"激進自由州傾向以各州人口比例推派代表的單一議會，而傳統保守州欲維持舊體制，經協商後，國會分為上議院即聯邦院，由各州選出2名代表，半州則為1名；以及下議院即國民院，共200名代表，依各州人口數量比例選出代表。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 聯邦國家",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"修改憲法須經全民公投複決。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 聯邦國家",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士憲法得以公民投票為全部或部分修改，因此每次修改憲法不僅修改舊有憲法，亦得起草新憲法。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 聯邦國家",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"由於人口增加及工业革命後社會經濟的變革，反對勢力以改革為訴求，進而於1874年實施新的聯邦憲法，該次憲法修改引進聯邦層次的任意性複決公投（Facultative referendum），並確立聯邦政府處理交通、國防、公共衛生及立法事項。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 聯邦國家",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"1891年修憲後，公民得直接提出憲法法修正案並通過。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士於兩次世界大戰期間皆未受戰火波及，在第一次世界大戰期間，俄羅斯革命者列宁於1914年至1917年間留居於瑞士。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"戰爭間發生格林-霍夫曼事件的政治醜聞也使瑞士的中立性受到質疑。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"瑞士在免除參與國際聯盟軍隊的條件下，於1920年經公民投票後加入國際聯盟，其總部設於日內瓦。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"在第二次世界大戰期間，德國在1937年曾擬定詳盡的聖誕樹行動入侵瑞士，義大利亦參與此行動奪回提契諾。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"聖誕樹行動將在德國全面擊敗同盟國後就執行，然而直到德國投降，瑞士並未遭受侵略。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"瑞士在戰爭期間以武力嚇阻、對德國讓步等策略延遲了德國的侵略，因而瑞士得以保持獨立。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"亨利·吉桑（Henri Guisan）於戰爭期間發布總動員令，瑞士戰略也由防禦邊界上固定地點以保護經濟核心地帶轉為長期有組織的消耗戰，並撤退至阿爾卑斯山區，依据堅固且存有物資的「內堡」（Réduit）防守，吉桑將軍於1940年7月5日發表「國家堡壘」（Réduit Plan, Schweizer Réduit），表示「地形有高山作為屏障，提供抗敵無比的可能性」。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"瑞士也是同盟國及軸心國雙方進行間諜行動及談判重鎮。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"同盟國及轴心国雙方皆於戰時封鎖與瑞士間的貿易。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"受德國和義大利侵略的可能性及與其他國家貿易的影響，瑞士對德國的經濟合作及贷款的還款期限也隨之變動。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"瑞士經德國傀儡政權維希法國的重要鐵路路線於1942年中斷。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"在戰爭期間，瑞士收容超過30萬名難民，總部設於日內瓦的红十字国际委员会也於衝突中发挥了重要的作用。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"嚴格的移民及難民收容政策，以及與德國間的財政關係，使瑞士当时的中立政策于20世纪晚期遭受質疑。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"瑞士空軍均與同盟國及軸心國作戰，於1940年5、6月間擊落11架德国空军戰機。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"超過100架盟軍轟炸機及機組人員於戰爭期間受拘留。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"在1944至1945年間，盟軍轟炸機曾誤炸瑞士部分地區，包括沙夫豪森、巴塞尔及苏黎世。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"瑞士政府於戰後曾提供援助（Schweizerspende）及马歇尔计划重建歐洲的資金，隨著歐洲市場於戰後復甦，瑞士企業亦從中獲益。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"瑞士婦女自1959年起才拥有在州層級選舉中投票的權利，而在聯邦層級選舉中投票的權利则是从1971年开始向婦女开放，內阿彭策爾州為婦女最晚獲得選舉權的州，自1990年婦女才有投票權。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":5,
+    "sentence_index":1,
+    "sentence_text":"婦女在獲得聯邦層級选举权後，女性在政治上重要性也有所提升，第一位女性瑞士聯邦委員會委員伊麗莎白·科普（Elisabeth Kopp）任職於於1984至1989年；露特·德萊富斯於1999年成為第一位女性聯邦總統。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"瑞士於1963年加入欧洲委员会。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":6,
+    "sentence_index":1,
+    "sentence_text":"1979年汝拉州自伯恩州分出，成为新的一州。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":6,
+    "sentence_index":2,
+    "sentence_text":"瑞士於1999年4月18日對聯邦憲法進行了全面的修改。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"二十世纪九十年代初期的一系列丑闻迫使瑞士银行业进行改革。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":7,
+    "sentence_index":1,
+    "sentence_text":"1995年，瑞士的银行在犹太团体的压力下声明他们发现了存于1945年以前旧账户中数以百万元计的“沉睡的存款”（大部分属于纳粹大屠杀的受难者和幸存者）。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":7,
+    "sentence_index":2,
+    "sentence_text":"由于被指坐拥如此财富而从未尝试寻找其主人，瑞士最大的两家银行在1998年同意向纳粹大屠杀幸存者及其家属支付12.5亿美元的补偿金。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"瑞士於2002年經全民公决成為聯合國正式會員國。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":8,
+    "sentence_index":1,
+    "sentence_text":"瑞士乃是欧洲自由贸易联盟的創始國，但并非歐洲經濟區的成員國。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":8,
+    "sentence_index":2,
+    "sentence_text":"瑞士於1992年5月提出加入欧洲联盟的提案，但於同年12月加入歐洲經濟區的提案由瑞士公民公投否決後無進一步行動。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":8,
+    "sentence_index":3,
+    "sentence_text":"瑞士同时是第一個以全民公决決定是否加入歐洲經濟區的國家；而後瑞士又對歐盟相關議題進行了數次全民公决，但由於意見不一，加入歐盟的提案凍結。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":8,
+    "sentence_index":4,
+    "sentence_text":"現時實行了部份歐盟的標準，例如瑞士加入了《申根协定》。"
+  },
+  {
+    "language":"zh",
+    "section":"历史 > 現代歷史",
+    "paragraph_index":8,
+    "sentence_index":5,
+    "sentence_text":"該協議允許申根区國家和瑞士之間各國人口可自由互相進出。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士与德国、法国、意大利、奥地利、列支敦士登五国交邻，国境几乎都在阿尔卑斯山脉之中，多是高山及湖泊，地形及氣候相當多樣化，瑞士面積為41,285平方公里（15,940平方英里），人口約867萬人，平均人口密度為每平方公里219人。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"南部山脈較多，人口也遠較北部為少。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"而面積最大的格勞賓登州全境位於阿爾卑斯山山區，人口密度每平方公里僅28人。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士國土位於北緯45至48度、東經5至11度間，地形基本上可分為三部分，分別為南部的瑞士阿爾卑斯山區，中部的瑞士高原區以及西北部的侏羅山區，高聳的阿爾卑斯山脈橫貫瑞士中南部，佔全國面積的60%。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"在較高的谷地存在冰川，總計瑞士境內的冰川面積達1,063平方公里。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"冰川也是如萊茵河、因河、提契诺河、罗讷河等主要大河的源頭。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"水道網包括了中歐及西歐最大的湖泊如萊芒湖、博登湖及馬焦雷湖等，瑞士全境有超過1,500個湖泊，容量約佔歐洲淡水存量的6%，湖泊及冰川佔瑞士全國6%的面積。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士境內約有100座海拔接近或超過4,000公尺的山峰。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"標高4,634公尺的杜富尔峰為瑞士最高點，但馬特洪峰較為知名，兩座山峰皆位於本宁阿尔卑斯山脉及瓦莱州內；伯尔尼山中以少女峰（標高4,158公尺）及艾格峰最廣為人知，少女峰旁的盧達本納冰蝕河谷存在72個瀑布。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"位於恩加丁河谷的圣莫里茨為著名滑雪勝地，該河谷旁的貝爾尼納山脈最高峰為標高4,049公尺的貝爾尼納峰。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"阿尔卑斯山是欧洲最高最大的山脉，绵延瑞士境内的中部，有欧洲著名山峰——少女峰；美国作家马克吐温於1891年写道：“少女峰这个名称很好，没有比少女更洁白无瑕和圣洁的了”，少女峰於2001年被联合国教科文组织评选为世界文化遗产之一。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"瑞士境内独有多座数千公尺的山峰，和终年不化的冰河，使他成为世界著名的旅游观光胜地。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"瑞士大多數人口分佈於瑞士高原，此部分約佔國土面積的30%，被稱為是瑞士的中央地帶（Mittelland）。"
+  },
+  {
+    "language":"zh",
+    "section":"地理",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"萊芒湖為瑞士最大湖泊，罗讷河為注入萊芒湖的主要河流，也是萊芒湖湖水流出的主要河流。"
+  },
+  {
+    "language":"zh",
+    "section":"地理 > 气候",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士山间谷地气候温和，高山较寒冷，一般屬溫帶氣候，但於不同地區則有相當大的差異。"
+  },
+  {
+    "language":"zh",
+    "section":"地理 > 气候",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士氣候存在過渡性質，由西部的海洋性气候過渡至東部的大陸性氣候。"
+  },
+  {
+    "language":"zh",
+    "section":"地理 > 气候",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"高山存在冰河環境，山區氣溫隨海拔高度上升而遞減；而瑞士南方接近地中海式气候區域，氣候較為舒適；部分耐寒棕櫚生長於瑞士南部河谷。"
+  },
+  {
+    "language":"zh",
+    "section":"地理 > 气候",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"夏季較為溫暖潮濕，且伴隨定期降雨，適於放牧；冬季較為乾燥，在高山地區會持續數周的穩定天氣，而較低的地區受逆溫影響時，則有數周時間看不見太陽。"
+  },
+  {
+    "language":"zh",
+    "section":"地理 > 气候",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"瑞士全年皆有發生焚風的機會，為南風吹過阿爾卑斯山，在南坡降雨後北坡轉為乾燥的熱風。"
+  },
+  {
+    "language":"zh",
+    "section":"地理 > 气候",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"瑞士各地年降水量800－1000毫米，山地有超过2000毫米处。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"1848年通過的瑞士聯邦憲法為現今瑞士施行聯邦制的法律基礎，該部憲法為世界上最古老的憲法之一。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"现行瑞士宪法由公民于1999年投票通过，于2000年1月1日正式施行。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"宪法内容包括瑞士邦联之组成，公民权利与义务，邦联体制与州级制度，国策等。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"瑞士宪法禁止在瑞士实行死刑。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"瑞士聯邦政府採行三權分立體制，分別為兩院制議會、瑞士聯邦委員會及瑞士最高法院。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士議會由聯邦院及國民院組成，分別為46席的聯邦院（上議院，各州推派兩名代表，半州則為一名），由各州選舉出代表；以及200席的國民院（下議院），由各州人口比例採行比例代表制選出。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"兩院任期皆為4年。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"當兩院進行聯席會議時，則成為聯邦議會。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"公民得以公民投票否決議會通過的法案、行使提案權、修改聯邦憲法等。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士聯邦委員會為瑞士最高行政機關，實行集體領導，全體委員為國家元首，7名委員由聯邦議會選舉產生，同時聯邦議會也對委員會進行行政監督。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"瑞士聯邦主席亦是聯邦委員會的主席，由每年的聯邦議會選出，任期為一年，傳統上由聯邦委員會成員輪流擔任，主席負責主持委員會會議及擔任瑞士對外的國家代表，聯邦主席只是「同僚中的第一人」（拉丁語：Primus inter pares），並沒有特殊的權力，仍為所屬部會的首長。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"瑞士自1959年起即由4個主要政黨組成大聯合政府，委員會中的席次大致對應於議會中的政黨比例，各主要政黨於1959年在協商基礎上提出「魔力组合」，後於1959年至2003年間的席次分別為瑞士社會民主黨2席、瑞士自由民主黨2席、瑞士人民黨1席及瑞士基督教民主人民黨為2席；在2003年聯邦委員會選舉後，瑞士基督教民主人民黨減為1席，瑞士人民黨增為2席。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"瑞士聯邦最高法院審理不服州或聯邦法院判決而上訴之案件，聯邦最高法院的法官任期為6年，由聯邦議會選舉產生。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"瑞士實施世界少有的直接民主制度，公民的民主權利相對其他民主國家大上許多。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":5,
+    "sentence_index":1,
+    "sentence_text":"公民对重大国事与地方事宜拥有表决、创制与否决权，可以成立请愿，也可以以投票抵制政府的一些政策。"
+  },
+  {
+    "language":"zh",
+    "section":"政治",
+    "paragraph_index":5,
+    "sentence_index":2,
+    "sentence_text":"十万名瑞士国籍者可以修改宪法，也可以修改国家外交政策。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 直接民主",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士的政治結構分為社群區、州及聯邦三個層次。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 直接民主",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"1848年的憲法確立直接民主制度，在聯邦層級公民得對憲法為一部或全部的創制或修改進行公民投票，並得否決議會作成之決議或提出新法案。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 直接民主",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"若於100天內有5萬名公民連署，能夠發起對議會所通過的法律或政令為通過或否決的公民投票，而若有8個州也可共同發起該公民投票，此類公民投票採簡單多數決定結果。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 直接民主",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"若有10萬名公民在18個月內連署修憲提案，則能將該修憲提案提交全國投票。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 直接民主",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"議會可以針對修憲提案提出相反的提案，供選民表達其偏好以避免兩個提案皆為通過。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 直接民主",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"憲法修正案投票須取得全國選民及州數量雙重多數支持才能通過。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 行政區劃",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士各州享有憲法上永久地位，相較於其他國家，瑞士各州的獨立性及自治性較高，各州在聯邦憲法下地位平等，並有各自的憲法、議會、政府及法院。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 行政區劃",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士各州在人口數量及面積存在較大差異，人口最多的蘇黎世州有1,253,500人，人口最少的內阿彭策爾州僅15,000人；面積最大及最小的州分別為格勞賓登州（7,105平方公里）及巴塞爾城市州（37平方公里），州下轄的市鎮有2,596個。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 行政區劃",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"瑞士境內有兩個內飛地－布辛根及坎波內，分屬德國及義大利領土。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 行政區劃",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"第一次世界大战结束之际，奥匈帝国解体。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 行政區劃",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"奧地利的福拉尔贝格州为谋求独立，曾於1919年5月11日舉行公民投票決定是否加入瑞士聯邦，超過80%的公民表示支持，但因奧地利政府、協約國和瑞士非德語區居民反對而作罷。"
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 行政區劃",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士聯邦共分成26個州（其中6個為半州）："
+  },
+  {
+    "language":"zh",
+    "section":"政治 > 行政區劃",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"半州在聯邦院僅有一名代表（非半州者每州各有兩名代表），其他權力則與各州相同。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士傳統上自1515年結束領土擴張後，即鮮少參與需負擔軍事、政治或直接經濟行動的結盟。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士的中立政策开始於1815年，由当时的《巴黎条约》上提出，并在同年的维也纳会议上為各國承認，成为世界上第一个，也是至今最古老的永久中立国。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"瑞士至2002年才成為联合国正式會員國，也是第一個以公民投票決定是否加入聯合國的國家。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"瑞士與大多數國家間有外交關係，因其中立国的身份，歷史上也曾為其他國家調停。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"瑞士並非欧洲联盟的會員國，而瑞士公民自1990年代起數次公民投票皆未通過加入歐洲聯盟的提案。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"由於政治中立，許多國際組織將辦事處設於瑞士。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"瑞士為红十字与红新月运动及日内瓦公约的發源地，於2006年起為联合国人权理事会理事國。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"日內瓦万国宫為聯合國僅次於紐約總部的第二大樞紐；瑞士為國際聯盟的創始會員國及總部所在地。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"除了聯合國歐洲總部之外，瑞士還設有其他聯合國機構如世界卫生组织（WHO）、國際勞工組織（ILO）、国际电信联盟（ITU）、联合国难民署（UNHCR）等，另有包括世界贸易组织在內約200個國際組織。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"每年於达沃斯舉行的世界經濟論壇聚集全球商界及政界重要人士討論包括衛生保健及環境等重要議題。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"此外，瑞士也是許多體育組織所在地，如日內瓦的国际篮球联合会、尼永的歐洲足球協會聯盟、蘇黎世的国际足球联合会及国际冰球联合会、埃格勒的國際自行車聯盟、洛桑的国际奥林匹克委员会及世界棒壘球聯盟等。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"2022年2月28日，瑞士聯邦總統卡西斯表示瑞士將因俄羅斯的入侵行動對俄羅斯實施制裁。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"2022年5月23日，卡西斯在世界經濟論壇上提出，在俄羅斯入侵烏克蘭的戰爭，違反了瑞士堅守的價值觀，不可能維持中立。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"瑞士與其他不袖手旁觀的民主國家站在同一陣線。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 外交及國際機構",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"瑞士將遵行「國際參與式的中立」。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士武裝力量包括陸軍及空軍。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士雖然實行「全民皆兵」的普遍義務民兵制，但僅有百分之五為職業軍人，凡年滿20週歲至34週歲的男性公民必須服兵役，女性公民也可志願服兵役。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"由於瑞士為內陸國家，因此未設有海軍，與鄰國交界的湖泊則有軍事巡邏艇。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"除梵蒂冈的瑞士近卫队外，瑞士禁止國民接受外國軍事僱傭。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"服役的瑞士公民可將軍隊裝備及輕武器帶回家中保管，雖部分組織及政黨認為此項規定具有爭議性，但多數瑞士人仍贊同此政策。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"凡年滿19週歲的男性青年必須到徵兵處報名並體檢，合格者20週歲入伍，約三分之二可通過體檢，不合格者則於替代單位服務。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"每年約有兩萬人於招募中心進行為期18至21星期的訓練。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士的武裝力量是一個介於民兵與正規軍之間的體制。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"瑞士政府中相當於一般國家國防部的部會稱為「聯邦國防、民防與體育部」。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"現役常備兵力4.25萬人，戰時48小時動員達35.1萬。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"冷战結束後，瑞士出現限制軍隊甚至完全廢除軍隊的聲浪，廢除軍隊團體發起的公民投票於1989年11月26日進行，但該廢除軍隊提案遭約三分之二的投票者反對。"
+  },
+  {
+    "language":"zh",
+    "section":"外交及軍事 > 軍事",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"而另一次類似公投於九一一袭击事件前提出，於該事件後由全民複決，反對比例達78%。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士經濟市場穩定且科技先進，於2011年瑞士就人均財富而言為世界上最富裕的國家（包括金融及非金融資產）。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"依國際匯率計算，瑞士為世界第19大經濟體；以购买力平价計算則為世界第39大經濟體；出口額及進口額分別居世界第20位及第18位。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"雖然瑞士公營事業的服務範圍相當廣泛，但瑞士的經濟自由度仍居歐洲首位。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"瑞士依國際匯率計算人均國內生產總值較西歐及中歐主要經濟體及日本為高；以購買力平價換算則居世界第8位。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"世界經濟論壇發布的全球競爭力報告顯示瑞士為世界競爭力最強的國家，歐盟報告顯示瑞士的創新力表現為歐洲最佳。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"瑞士人均國內生產總值長期居歐洲前列。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"於2005年，瑞士家庭收入中位數為96,500瑞士法郎，瑞士經常收支佔國內生產總值比率亦居世界前列。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士為許多跨國公司總部所在地，瑞士營業額最高的企業為維多、嘉能可、貢沃爾、托克、雀巢、诺华、罗氏、ABB、摩科瑞及德科，其他較著名瑞银集团、蘇黎世金融服務集團、瑞士信贷集團、利樂包裝、百樂嘉利寶、瑞士再保險及史華曲集團。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"瑞士也是世界上最有影響力的經濟體之一。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"製造業為瑞士最重要的產業，製造業以生產專業化學製品、藥品及醫療產品、科學精密測量儀器、乐器為主。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"主要出口產品包括化學製品（34%）、機械及電子設備（20.9%）、精密儀器及鐘錶（16.9%）。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"服務業為瑞士另一重要產業，包括銀行業、旅遊業、保險業及國際組織等。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"瑞士全國就業人數約380萬人，瑞士就業市場較鄰國有彈性，失業率也相對較低，2022年9月最新的數據顯示，瑞士的失業率为1.9% 。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"瑞士外國移民人口於2004年約佔21.8%，約與澳大利亞相當。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"瑞士每工時生產總值居世界第17位，於2006年時為每小時27.44國際元。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"瑞士為西方世界中私營部門較為發達且稅率較低的國家，為已開發國家中總稅率較低的國家。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":5,
+    "sentence_index":1,
+    "sentence_text":"瑞士經商容易度在178個國家中排名第26位。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":5,
+    "sentence_index":2,
+    "sentence_text":"瑞士於1990年代及2000年代初期面臨經濟成長停滯，歐盟協助瑞士經濟改革及整合。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":5,
+    "sentence_index":3,
+    "sentence_text":"瑞士信贷集團指出瑞士僅有37%的居民擁有住宅所有權，比率為歐洲最低。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":5,
+    "sentence_index":4,
+    "sentence_text":"於2007年，瑞士房屋及食物價格分別為歐盟25國平均的171%及145%，約為德國的113%及104%。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"瑞士農業保護政策為瑞士自由貿易政策的少數例外，也導致食物價格較高。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":6,
+    "sentence_index":1,
+    "sentence_text":"经济合作与发展组织報告顯示瑞士市場自由度略低於部分歐盟國家，但瑞士國內購買力仍居世界前列。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":6,
+    "sentence_index":2,
+    "sentence_text":"除農業外，歐洲國家與瑞士間的貿易壁壘相當少，瑞士也與世界各國簽訂自由貿易協定。"
+  },
+  {
+    "language":"zh",
+    "section":"经济",
+    "paragraph_index":6,
+    "sentence_index":3,
+    "sentence_text":"瑞士為欧洲自由贸易联盟成員國之一。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 银行",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士的银行业在世界范围内拥有很重要的位置，例如瑞银集团（UBS）。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 银行",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"其声誉是基于瑞士长久以来稳定的政治、经济环境、其对资产管理的经验以及较为保守并持续的投资态度。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 银行",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"很多负面声音指责瑞士银行业高度对客户保密的原则客观协助了某些海外人士洗钱及逃税的行为。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 银行",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"为对抗其所带来的负面影响，瑞士在1998年颁布了反洗钱法案。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 银行",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"其实早在1991年，瑞士联邦银行委员会要求其各大银行对所有账户的实益拥有人进行识别。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 银行",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"如今在美国及各国政府的压力下，瑞士银行已经放宽了原来的保密条款。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 银行",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"根据瑞士联邦税务管理局在2018年10月5日发布的公告，瑞士以按照金融账户涉税信息自动交换（AEOI）标准于9月底同部分国家（或地区）税务机关交换了金融账户信息。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 科技及學術",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士學界有不少科學家獲得诺贝尔奖，如阿尔伯特·爱因斯坦於伯恩期間建立狭义相对论；較近期的科學領域獲獎者則有弗拉迪米尔·普雷洛格、海因里希·罗雷尔、理查德·恩斯特、埃德蒙·费希尔、羅夫·辛克納吉、库尔特·维特里希等，在所有領域的諾貝爾獎得主中，有113位與瑞士有關連，位於瑞士的國際組織總共獲得9次诺贝尔和平奖。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 科技及學術",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"日內瓦西部與法國安省邊境設有世界最大的粒子物理學實驗室－歐洲核子研究組織。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 科技及學術",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"保羅謝爾研究所為瑞士重要的國家研究所。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 科技及學術",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"瑞士人較著名的發明如：麥角二乙醯胺、扫描隧道显微镜、魔鬼氈。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 科技及學術",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士的太空機構瑞士航天局參與太空科技及太空計畫，瑞士為欧洲空间局的十個創始國之一，也是欧洲空间局的主要資金提供者。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 科技及學術",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"瑞士企業如歐瑞康太空及麥柯昇馬達等參與航天器建造。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 能源",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士電力中的56%來源為水力發電，而39%則來自核能發電，總體生產所製造的二氧化碳相當之少。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 能源",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"2003年5月18日，兩個廢除核能發電的提案遭到否決，包括「停止新建核能發電廠」（41.6%支持、58.4%反對）以及「廢除核能發電」（33.7%支持、66.3%反對）。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 能源",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士於1990年通過的「暫緩興建核電廠10年」提案以54.5%支持通過。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 能源",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"位於伯恩州的新核電廠在計畫中。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 能源",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"瑞士联邦环境、运输、能源与通讯部（DETEC）下轄的瑞士聯邦能源局負責處理能源生產及使用的相關政策，該機構曾提出「2000瓦社會」（2000-watt society）構想，目標至2050年減少一半以上的用電量。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 能源",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士政府於2011年5月25日宣布於20至30年內關閉所有核能發電廠的计划，以逐步淘汰核能發電方式確保能源自主及安全，預計第一座核電廠將於2019年關閉，最後1座反應爐將於2034年關閉；該提案將於同年6月於議會進行討論，並舉行公民投票決議。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 交通",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士鐵路網全長5,063公里，年載客量約3.5億人次，瑞士鐵路網為歐洲最密集。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 交通",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士於2010年平均每人年搭乘鐵路為2,258公里，為世界最高(但此資料並不包含地鐵,所以其他地鐵發達的國家這部分數據是被低估)。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 交通",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"瑞士公路網總長達71,454公里，其中1,790公里為高速公路。"
+  },
+  {
+    "language":"zh",
+    "section":"经济 > 交通",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"蘇黎世機場為瑞士最大國際機場，2011年客運量達2,400萬人次，瑞士另有日内瓦国际机场、位於法國的巴塞尔－米卢斯－弗赖堡欧洲机场、伯尔尼－贝尔普机场、盧加諾機場、聖加侖－阿爾滕萊茵機場及錫永機場等國際機場。"
+  },
+  {
+    "language":"zh",
+    "section":"人口",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士人口目前共800万人，主要民族包括日耳曼人、法蘭西人與義大利人。"
+  },
+  {
+    "language":"zh",
+    "section":"人口",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"在瑞士的外國人居民約占總人口的22%，當中六成來自歐盟及欧洲自由贸易联盟成員國家；在這些外來居民中，義大利人因佔總人口的17.3%而居首，其次依序為德意志人（13.2%）、塞爾維亞族與黑山族（11.5%），以及葡萄牙人（11.3%）。"
+  },
+  {
+    "language":"zh",
+    "section":"人口",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"同時，由於瑞士長期收容來自斯里蘭卡的坦米爾裔難民，他們也逐漸成為該國境內人數最多的一個亞洲族群。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士联邦没有官方的国教，但是大部分州（除了日内瓦州和纳沙泰尔州）都认可官方教会，分为基督教的天主教會和瑞士新教教会這两間教會，以及在有些州的旧天主教会和犹太教，都正式通过获得支持者的税收。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"根据2019年发布的2015年至2017年的统计数据，基督教仍然是瑞士的优势宗教，分为天主教（佔人口的36.5%）和各种新教教派（占27.3%）。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"外国移民带来的伊斯兰教（5.2%）和东正教（2.4%）是较有规模的较小宗教，其它宗教及无神论人数近年来有所上升。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"2005年的欧洲民意调查发现有48%的人支持有神论，39%的人表示相信一种精神力量，9%为无神论，4%为不可知论。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"另一調查報告則顯示27%的人口不相信神。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"历史上，该国的天主教与新教這两大基督教教派势力大致均等，在该国大部分地区形成复杂的信仰地图。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"阿彭策尔州在1597年正式分为天主教和新教两个部分。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"伯尔尼、苏黎世和巴塞尔等大城市以新教徒占优势。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"瑞士中部和提契诺州传统上是天主教地区。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"在天主教与新教州的冲突达到顶点的分离主义联盟战争（Sonderbundskrieg）之后制定的1848年瑞士宪法中，允许天主教与新教和平共处。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 宗教",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"1980年一项要求徹底政教分离的提议遭到否决，只获得21.1%的支持率。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士官方語言（佔總人口比例；加上外國居民後比例）："
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士由於地理位置居數個歐洲主要文化體的交會地帶，因而在語言及文化上接受大幅影響。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"瑞士設有三種官方語言，分別為：瑞士德语（佔63.7%人口；若包含外國居民則佔72.5%）、瑞士法语（20.4%；21%）、義大利語（6.3%；4.3%）；德語區位於中部及東部，西部為法語區，義大利語區主要分布於南部提契諾州，羅曼什語則通行於採行三語的格勞賓登州的部分地區。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"聯邦憲法第4條規定羅曼什語與德語、法語及義大利語同樣具備國語地位；同法第70條規定於通知羅曼什語使用者時羅曼什語為官方語言，但法律及公務文件並不須譯為羅曼什語發布，而聯邦政府有義務以其他三種官方語言發布，聯邦議會備有德語、法語及義大利語三語同步翻譯。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"在遊客區，英語甚為普遍。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士交談用語以阿勒曼尼语方言為主，整體稱為瑞士德语，書面則以瑞士標準德語為主，而主要廣播及電視台也有提供瑞士德語服務；在法語區鄉村地區也存在法兰克-普罗旺斯语方言，稱作瑞士法語。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"瑞士少數語言如義大利語區的瑞士人（生活中亦用倫巴底語）大多能理解德語。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"所有瑞士學生都必須學習其他國家語言，因此許多瑞士人，尤其是那些屬於語言少數群體的人，應該至少掌握雙語。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"由於瑞士大部分地區講德語，許多法語、義大利語和羅曼什語使用者移居到瑞士其他地區，而那些在瑞士其他地區出生的非德語瑞士人的子女則講德語。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"雖然在學校學習其他國家語言很重要，但大多數瑞士人學習英語是為了與其他語言的瑞士人交流，因為英語被認為是一種中性的交流方式。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 語言",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"英語通常充當事實上的通用語言。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士聯邦憲法賦予各州在教育方面有獨立的權限，因此瑞士教育體系相當多樣。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士有公立及私立學校，包括許多私立國際學校。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"各州的小學教育皆由6歲開始，但大多數提供4至5歲開始的學前教育。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"小學教育一個州學制不同，介於4至6年。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"傳統上，學校教授的第一外語為母語以外的官方語言，但自2000年以後部分州別教授英語為第一外語。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"在小學教育結束後，中學教育依學習能力不同而分為數種類型（大多數州別為三種），學習能力較好者則會建議接受進階教育並報考大學，並給學習較慢者得以適應的教育。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士共有12所大學，其中10所為州立大學，以教授非技術性學科為主。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"瑞士第一所大學於1460年創立於巴塞尔，以化學及醫學研究著稱。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"瑞士學生數最多的苏黎世大学有近2.5萬名學生。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"兩所由聯邦所資助的大學分別為苏黎世的苏黎世联邦理工学院（ETHZ，創建於1855年）及洛桑的洛桑联邦理工学院（EPFL，於1969年自洛桑大學獨立出來，由聯邦政府直接管理），在國際上皆有良好聲譽。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"在一般大學以外，瑞士設有应用科学大学，在工商管理方面以聖加侖大學（HSG）及洛桑國際管理發展學院（IMD）最為著名。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"瑞士外國學生比例相當高，僅次於澳大利亞。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 教育",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"瑞士作為許多國際組織所在地，國際關係研究發達，日内瓦高级国际关系及发展学院為歐洲最古老的國際關係學院。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 醫療衛生",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士公民必須向私人保險公司購買健康保險。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 醫療衛生",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士人的預期壽命男性與女性分別為79及84歲，為世界上預期壽命最長的國家之一。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 醫療衛生",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"不過瑞士醫療衛生支出相當高，於2003年時約佔国内生产总值的11.5%，醫療衛生支出自1990年起即穩定增加，也反映出費用高昂的醫療服務由於高齡人口增加及引進新的醫療技術，醫療衛生支出很可能持續增加。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 都市",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士人約有三分之二至四分之三居住於都市地區。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 都市",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"不僅在瑞士高原有城市蔓延現象發生，侏羅及阿爾卑斯山山麓地區也存在同樣現象，進而對土地使用的疑慮也有增加。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 都市",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"於21世紀初，城市的人口增長率高於鄉村地區。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 都市",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士都市網絡相當密集，大型、中型及小型城市間相互支援。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 都市",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"瑞士高原人口密集，人口密度約每平方公里450人，幾乎找不到未開發的地區。"
+  },
+  {
+    "language":"zh",
+    "section":"人口 > 都市",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"苏黎世、日内瓦－洛桑、巴塞尔及伯恩等主要都會帶仍持續擴張。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士使用四種官方語言，文化相當多樣，也反應在瑞士廣泛的傳統文化上。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士各地區與相同語言的周邊國家文化具有高度關聯性。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"瑞士也為西歐文化圈的一部份。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士在文學、藝術、建築、音樂及科技等領域有相當成就，瑞士於歐洲動亂及戰爭時吸引外國人才移居。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"瑞士有九百多座博物館，數量達1950年的三倍。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"每年最重要的文化活動為琉森音樂節、蒙特勒爵士節（Montreux Jazz Festival）及洛迦诺电影节。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"阿爾卑斯山在瑞士歷史上有相當重要的地位，是瑞士國家認同形成过程中的重要部分。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"瑞士高山地區在冬季時為滑雪場，夏季則可進行健行及登山自行車活動；其他地區也相當適於旅遊，春季及秋季則屬旅遊淡季。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"傳統農業及放牧文化在許多地方仍被保留，城市以外地區存在小型牧場。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"阿爾卑斯長號為木製類似喇叭形狀的樂器，與约德尔唱法及瑞士手風琴成為瑞士傳統音樂的縮影。"
+  },
+  {
+    "language":"zh",
+    "section":"文化",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"瑞士在 2023 年的人类自由指数中位居榜首。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 文學",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"在瑞士邦聯成立之初，該地區幾乎僅使用德語，因此早期的文學以德語為主。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 文學",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"至18世紀法語在伯恩及其他地區逐漸流行，也影響著法語區結盟，法語地區也更受關注。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 文學",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"耶雷米亚斯·戈特赫爾夫（Jeremias Gotthelf，1797年－1854年）及戈特弗里德·凱勒（Gottfried Keller，1819年－1890年）為德語古典文學代表。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 文學",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"馬克斯·弗里施及弗里德里希·迪伦马特為20世紀瑞士重要文學作家，後者的作品《物理學家》（Die Physiker）及《諾言》（Das Versprechen）於2001年由好萊塢拍成電影。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 文學",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"让-雅克·卢梭（1712年－1778年）及杰曼·德斯戴尔（1766－1817年）為法語著名作家。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 文學",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"義大利語及羅曼什語作家同樣有著作，但人數較少而較不顯著。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 文學",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"《海蒂》為著名的瑞士兒童文學作品，為孤兒海蒂與居住在阿爾卑斯山的祖父間的故事，海蒂甚至是瑞士的象徵之一；約翰娜·施皮里為該作品的作者。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 艺术",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士的传统音乐形式包括约德尔小调和阿尔卑斯长号。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 艺术",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"约德尔小调是一种源于阿尔卑斯山地区的歌唱方式，起初是呼喊羊群或不同山头上的人相互联络时使用，十九世纪初开始被引入音乐创作中。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 艺术",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"其特点是反复地在胸部发音的低音曲调和头部发音的高音曲调之间进行的大跨度的音阶转换。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 艺术",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"阿尔卑斯长号也是源自管理牧群的手段，为木制乐器，其长度介于2米到4米之间，底部弯曲，如同烟斗。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 艺术",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士的古典音樂不如鄰近的德國或奧地利發達，最著名的作曲家拉夫實際在鄰國工作謀生，而且逝世後曾經被冷落，近百年之久才重新被復興和推廣。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 艺术",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"當地亦有不少博物館擺放當地藝術家的作品，例如以怪奇、超現實、黑暗為作品主題的Giger Museum等。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 媒体",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士聯邦憲法明文保障新聞及言論自由。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 媒体",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士通訊社以德語、法語及義大利語全天候發布政治、經濟、社會及文化各方面新聞，瑞士通訊社向大多數瑞士媒體及數家外國媒體發布新聞。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 媒体",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"就瑞士人口規模而言，瑞士報社數量相當多。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 媒体",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"瑞士全国共有报纸79种，影响最大的德语报纸為《新苏黎世报》、《瑞士周末》（Schweiz am Wochenende）、《每日导报》（Tages-Anzeiger）和《一瞥报》，法語為《時報》，義大利語為《提契诺快递》（Corriere del Ticino），幾乎每個城市都有發行當地報紙，而多元文化也是瑞士擁有許多報社的原因之一。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 媒体",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"瑞士荣格集团（Ringier AG）创立于1883年，是瑞士最大的综合性传媒集团，总部设在苏黎世。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 媒体",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"瑞士各语区都有自己的广播电视，瑞士公共广播电视公司总部设在瑞士首都伯尔尼，1997年开播。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 媒体",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"瑞士还有国际广播电台，1934年开始短波广播，在2004年10月30日之前，瑞士国际广播电台使用瑞士的官方语言和英、西班牙、阿拉伯语等语言，除短波外，还用卫星进行广播，2004年10月30日，瑞士国际广播电台在进行了最后一次短波和卫星广播后停止其70年历史的广播，转到网络和多媒体播出。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 體育",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"滑雪、單板滑雪及登山為瑞士的熱門運動，而瑞士的自然環境也適於從事這類運動。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 體育",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"雪車於19世紀後半在圣莫里茨發明後，瑞士當地人及觀光客開始從事冬季運動。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 體育",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"足球運動在瑞士也有不少球迷，瑞士國家足球隊受到廣泛支持，國內有球會巴塞尔、蘇黎世、年青人、草蜢等，著名球員有亞歷山大·弗雷、沙奇里、格列沙加等，瑞士與鄰國奧地利共同主辦2008年欧洲足球锦标赛, 未来的欧洲女子足球锦标赛将会在瑞士举办。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 體育",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"網球運動逐漸普及，瑞士網球運動員辛吉斯、费德勒與瓦林卡曾獲得网球大满贯，後兩者協助瑞士奪得2014年台維斯盃冠軍；前兩者則為國贏得2001年賀文盃冠軍；費達拿與師妹貝琳達·本契奇也贏得2018和2019年賀文盃冠軍。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 體育",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"本契奇在2020年奧運會女子單打奪得金牌。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 飲食",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士飲食相當多元，如芝士火鍋、拉可雷特芝士及瑞士薯餅在瑞士各地皆相當普遍，並在不同氣候及語言區下發展出不同的烹調方式。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 飲食",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"瑞士傳統飲食與其他歐洲國家所採用的食材差異不大，不過會搭配獨特的奶制品及起司，如格吕耶尔及埃默河谷的格呂耶爾芝士及埃曼塔尔干酪。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 飲食",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"瑞士境內有不少優秀餐館，主要位於瑞士西部。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 飲食",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士人自18世紀起製作巧克力，至19世紀發明磨製（conching）及溫製（tempering）技術後，瑞士所生產的高品質巧克力知名度也大為提高。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 飲食",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"丹尼爾·彼得於1875年發明了牛奶巧克力。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 飲食",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"瑞士也是世界最主要的巧克力消費國之一，譯為瑞士蓮的Lindt、造型象徵瑞士馬特洪峰的Toblerone等皆為知名巧克力品牌。"
+  },
+  {
+    "language":"zh",
+    "section":"文化 > 节庆、假日",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士各州能夠決定該州節日，元旦、耶穌升天節、瑞士國慶日及圣诞节為各州皆存在的節日。"
+  },
+  {
+    "language":"zh",
+    "section":"参看",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"瑞士历史"
+  },
+  {
+    "language":"zh",
+    "section":"参看",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"瑞士政治"
+  },
+  {
+    "language":"zh",
+    "section":"参看",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"瑞士地理"
+  },
+  {
+    "language":"zh",
+    "section":"参看",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"瑞士经济"
+  },
+  {
+    "language":"zh",
+    "section":"参看",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"瑞士人口"
+  },
+  {
+    "language":"zh",
+    "section":"参看",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"瑞士金融市場監管局"
+  },
+  {
+    "language":"zh",
+    "section":"參考書目",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Church, Clive H. (2004) The Politics and Government of Switzerland. Palgrave Macmillan. ISBN 978-0-333-69277-6."
+  },
+  {
+    "language":"zh",
+    "section":"參考書目",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Dalton, O.M. (1927) The History of the Franks, by Gregory of Tours. Oxford: The Clarendon Press."
+  },
+  {
+    "language":"zh",
+    "section":"參考書目",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Fahrni, Dieter. (2003) An Outline History of Switzerland. From the Origins to the Present Day. 8th enlarged edition. Pro Helvetia, Zürich. ISBN 978-3-908102-61-8"
+  },
+  {
+    "language":"zh",
+    "section":"參考書目",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"瑞士歷史辭典（2002–）. Published electronically and in print simultaneously in three national languages of Switzerland."
+  },
+  {
+    "language":"zh",
+    "section":"參考書目",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"張維邦, 瑞士史-民主與族群政治的典範, 臺北: 三民書局, 2006, ISBN 957-14-4547-9"
+  },
+  {
+    "language":"zh",
+    "section":"參考書目",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"王偉、陸明珠, 各國手冊叢書-瑞士, 上海辭書出版社, 1980"
+  },
+  {
+    "language":"zh",
+    "section":"參考書目",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"端木美, 瑞士文化與現代化, 瀋陽: 遼海出版社, 2000, ISBN 7-80649-211-9"
+  },
+  {
+    "language":"zh",
+    "section":"參考書目",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"林麗容, 論「文化碰撞」之瑞士, 臺北: 上承文化有限公司, 2009, ISBN 978-986-85118-1-1"
+  },
+  {
+    "language":"zh",
+    "section":"參考書目",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"林麗容, 瑞士文化史研究, 臺北: 五南圖書, 2008, ISBN 978-957-11-5148-9"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "success": true,
+    "title": "Climate_change",
+    "languages_found": [
+      "en",
+      "de"
+    ],
+    "timestamp": "20260320_235435",
+    "file1_url": "/outputs/base_en_omit_de_20260320_235435.json",
+    "file2_url": "/outputs/base_de_omit_en_20260320_235435.json"
+  },
+  {
+    "success": true,
+    "title": "COVID-19",
+    "languages_found": [
+      "de",
+      "en"
+    ],
+    "timestamp": "20260320_182949",
+    "file1_url": "/outputs/base_en_omit_de_20260320_182949.json",
+    "file2_url": "/outputs/base_de_omit_en_20260320_182949.json"
+  },
+  {
+    "success": true,
+    "title": "Gala (apple)",
+    "languages_found": [
+      "de",
+      "en"
+    ],
+    "timestamp": "20250320_172800",
+    "file1_url": "/outputs/base_en_omit_de_20250320_172800.json",
+    "file2_url": "/outputs/base_de_omit_en_20250320_172800.json"
+  }
+]

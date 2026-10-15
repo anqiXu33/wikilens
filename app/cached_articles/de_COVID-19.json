@@ -1,0 +1,2025 @@
+[
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"COVID-19 (Akronym von englisch coronavirus disease 2019, deutsch Coronavirus-Krankheit-2019, umgangssprachlich Corona oder Covid), ist eine Infektionskrankheit, die durch eine Infektion mit dem Betacoronavirus SARS-CoV-2 verursacht wird."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Die Symptome sind typischerweise ähnlich zu anderen Atemwegsinfektionen:"
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Husten, Schnupfen, Hals-, Kopf- und Gliederschmerzen und Fieber."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"In schwereren Fällen kann es zu Luftnot kommen, auch kann der Magen-Darm-Trakt, das Herz-Kreislauf-System, die Haut oder das Nervensystem betroffen sein."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Die Ansteckung erfolgt durch Tröpfcheninfektion sowie durch das Einatmen von Bioaerosolen, insbesondere bei längerer Aufenthaltsdauer in geschlossenen und ungenügend gelüfteten Räumen und hinreichender Konzentration der Viren."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Die Inkubationszeit von SARS-CoV-2 beträgt zwischen 1 und 12 Tage, wobei sie im Mittel bei drei Tagen liegt."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Eine Übertragung ist auch möglich, ohne dass eine infizierte Person Krankheitssymptome hat."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Wenn die Beschwerden länger als vier Wochen anhalten, neu oder wiederkehrend auftreten, spricht man von Long Covid."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"Hält dieser Zustand länger als zwölf Wochen an, wird dies als Post-Covid-Syndrom bezeichnet."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":9,
+    "sentence_text":"Das Virus wurde erstmals im Dezember 2019 in Wuhan (Volksrepublik China) beschrieben."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":10,
+    "sentence_text":"Am 20. Januar 2020 gab die chinesische Gesundheitskommission bekannt, dass eine Mensch-zu-Mensch-Übertragung möglich sei."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":11,
+    "sentence_text":"Das Virus verbreitete sich 2020 weltweit und ist Ursache der COVID-19-Pandemie, die 2023 endete."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":12,
+    "sentence_text":"Seitdem ist die Krankheit weltweit endemisch."
+  },
+  {
+    "language":"de",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":13,
+    "sentence_text":"In einigen Ländern ist sie weiterhin meldepflichtig."
+  },
+  {
+    "language":"de",
+    "section":"Bezeichnung",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Die WHO legte am 11. Februar 2020 das Akronym »COVID-19« als offizielle Bezeichnung fest."
+  },
+  {
+    "language":"de",
+    "section":"Bezeichnung",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Es stammt aus dem Englischen: CO für Corona, VI für Virus, D für Disease (Krankheit) und 19 für das Jahr der Erstbeschreibung"
+  },
+  {
+    "language":"de",
+    "section":"Bezeichnung",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"2019."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Ursache der Erkrankung ist das Betacoronavirus SARS-CoV-2, das erstmals im Januar 2020 aufgrund von Isolaten aus Pneumoniepatienten identifiziert wurde."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Das Virus wurde bisher im Sekret des Nasen- und Rachenraumes, im Sputum, im Stuhl, der Tränenflüssigkeit, im Blut, in Aerosolen und auf Oberflächen nachgewiesen."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Inkubationszeit und Infektiosität",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Die Inkubationszeit (also der Zeitraum zwischen Ansteckung und Beginn der Erkrankung) liegt im Mittel bei drei Tagen, wenigstens bei einem, höchstens bei zwölf Tagen."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Inkubationszeit und Infektiosität",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Die größte Ansteckungsgefahr geht von Infizierten kurz vor Symptombeginn bis fünf Tage nach den ersten Symptomen aus."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Inkubationszeit und Infektiosität",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Virusbestandteile können typischerweise bis etwa elf Tage nach den ersten Symptomen nachgewiesen werden, bei schwer erkrankten Patienten oder bei unterdrücktem Immunsystem auch deutlich länger."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Inkubationszeit und Infektiosität",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Auch symptomfrei Infizierte können infektiös sein."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Aerosol- und Tröpfcheninfektion",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Es wird angenommen, dass sich das Virus wie andere Erreger von Atemwegserkrankungen hauptsächlich durch virushaltige Partikel verbreitet."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Aerosol- und Tröpfcheninfektion",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Diese werden von Infizierten beim Atmen, Husten, Niesen und Sprechen freigesetzt und dann von gesunden Personen als Aerosole oder Tröpfchen aufgenommen."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Aerosol- und Tröpfcheninfektion",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Abhängig von ihrer Größe und Dichte können sie dort sehr lange in der Luft verbleiben."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Aerosol- und Tröpfcheninfektion",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Das Risiko für eine Übertragung ist in kleinen, schlecht gelüfteten Räumen wesentlich höher als im Freien."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Aerosol- und Tröpfcheninfektion",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In klimatisierten Innenräumen, z. B. in Krankenhäusern, können Tröpfchen im Größenbereich von 5 bis 40 μm – bedingt durch eine Verteilung mit Luftströmungen, die durch Klimaanlagen verursacht werden – ganz besonders gut Krankheitserreger übertragen."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Aerosol- und Tröpfcheninfektion",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Im Freien finden so gut wie keine Infektionen durch Aerosolpartikel statt."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Aerosol- und Tröpfcheninfektion",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Allerdings können Tröpfcheninfektionen auftreten, insbesondere in Menschenansammlungen, wenn Mindestabstände nicht eingehalten oder keine Masken getragen werden."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Kontaktübertragung",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Laboruntersuchungen an SARS-CoV-2 zeigten 2020, dass das Virus auf einigen Oberflächen bis zu einigen Tagen infektiös bleiben kann."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Kontaktübertragung",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Die prinzipielle Möglichkeit einer Übertragung wurde inzwischen (2022) dahingehend bewertet, dass die Wahrscheinlichkeit einer Kontaktinfektion etwa 1000-mal geringer ist als durch Aerosole und Tröpfcheninfektion."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Kontaktübertragung",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Damit sind Kontaktübertragungen für das Infektionsgeschehen von COVID-19 bedeutungslos."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Schwangerschaft und Stillen",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"In seltenen Fällen kann Covid-19 während der Schwangerschaft oder Geburt übertragen werden."
+  },
+  {
+    "language":"de",
+    "section":"Übertragungsweg > Schwangerschaft und Stillen",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Der Säugling sollte auch bei einer Infektion der Mutter wie gewohnt gestillt werden, wenn sie sich nicht zu krank fühlt."
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Nach einer Inkubationszeit von im Mittel 3 Tagen (möglicher Bereich 1 bis 12 Tage) treten bei mildem Verlauf als häufigste Symptome Husten, Fieber, Schnupfen auf."
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Bei mittelschweren Erkrankungen kann es zu Atembeschwerden und einer leichten Lungenentzündung kommen."
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Bei schweren Fällen kann es zu einer Lungenentzündung, anderem Organversagen bis hin zum Tod kommen."
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Das RKI weist beispielhaft auf die folgenden möglicherweise betroffenen Organsysteme hin:"
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Magen-Darm-Beschwerden (Übelkeit, Appetitlosigkeit, Erbrechen, Bauchschmerzen, Durchfall)"
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Neurologische Symptome (Kopfschmerzen, Riech- und Geschmacksstörungen, Schwindel und Verwirrtheit)"
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Neuropsychiatrische Krankheitsbilder ((Meningo‑)​Enzephalopathien, Schlaganfälle, Guillain-Barré-Syndrom und Verschlechterung bestehender neurologischer Erkrankungen)"
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Herz-Kreislauf-Symptomatik (Herzmuskel‑\/​Herzbeutelentzündung, Herzinfarkt, Herzinsuffizienz, Herzrhythmusstörungen)"
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"Gerinnungssystem (thromboembolische Ereignisse, Blutungen, disseminierte intravasale Koagulopathie (DIC))"
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"Nierenfunktionsstörungen"
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"Hautmanifestationen (z. B. masernähnlicher Ausschlag, Papeln, Rötungen, Hautbläschen)"
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"Daneben gibt es auch Fälle von asymptomatischen Verläufen, insbesondere bei Geimpften."
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome",
+    "paragraph_index":8,
+    "sentence_index":1,
+    "sentence_text":"Deren Anteil ist jedoch nicht abschließend geklärt."
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome > Schwere Verläufe",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Zu Beginn der Pandemie kam es in etwa 15 % der Fälle zu schweren Erkrankungen."
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome > Schwere Verläufe",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Inzwischen werden die meisten Fälle nicht mehr dokumentiert, daher ist die Bestimmung des Anteils schwerer, im Krankenhaus behandelter Fälle unsicher, er wird auf 3 % geschätzt."
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome > Schwere Verläufe",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Erhöhtes Risiko für einen schweren Krankheitsverlauf haben Patienten ab 60 Jahren, wobei das Risiko mit zunehmendem Alter weiter steigt."
+  },
+  {
+    "language":"de",
+    "section":"Klinische Symptome > Schwere Verläufe",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Zudem steigt das Risiko mit Vorerkrankungen wie Bluthochdruck, Diabetes, chronischen Gesundheitsproblemen, geschwächtem Immunsystem, Adipositas sowie Krebs."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Die typischen Krankheitssymptome ähneln denen anderer Atemwegserkrankungen, insbesondere der Grippe."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Daher ist eine eindeutige Diagnose anhand der Symptome meist nicht möglich."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Zur Differenzialdiagnose kann ggf. die aktuelle Verbreitung von Atemwegsinfektionen oder – falls vorliegend – die Beteiligung weiterer Organe herangezogen werden."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Laut RKI erfolgt der labordiagnostische, direkte Erregernachweis durch Nukleinsäurenachweis (z. B. RT-PCR, real-time quantitative Reverse-Transkriptase-Polymerase-Kettenreaktion)."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Dazu werden Abstriche aus Nase, Rachen oder dem Nasen-Rachen-Raum sowie Speichel genommen."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Antigen-Schelltests haben in der Pandemie weite Verbreitung gefunden."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Sie sind weniger verlässlich und können auch als Selbsttest verwendet werden."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Tests auf Antikörper gegen SARS-CoV-2 haben kaum noch Bedeutung, da der Großteil der Bevölkerung durch Impfung oder Infektion inzwischen Antikörper aufweist."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Auch die Erregerisolierung in einer Zellkultur ist möglich, wird aber von der WHO nicht für die Routinediagnostik empfohlen."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Dies ist nur in spezialisierten Laboratorien möglich."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > RT-PCR-Test",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Die Nachweismethode ist die real-time quantitative Reverse-Transkriptase-Polymerase-Kettenreaktion, abgekürzt auch als qRT-PCR, RT-qPCR oder nur als PCR-Test bezeichnet."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > RT-PCR-Test",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Sie basiert auf der Detektion von zwei Nukleotidsequenzen, bezeichnet als E Gen und RdRp Gen."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > RT-PCR-Test",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Ein positiver PCR-Test ist nicht gleichbedeutend mit Infektiosität:"
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > RT-PCR-Test",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Der PCR-Test ist bei der empfohlenen Abstrich-Technik stets, in einigen Fällen mehrere Wochen, länger positiv als vermehrungsfähige Viren nachweisbar sind."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > RT-PCR-Test",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Die Wahrscheinlichkeit, mit Hilfe des RT-PCR-Tests einen Kranken auch korrekt als infiziert zu erkennen, hängt maßgeblich von der Entnahmeart des Materials ab (zum Unterschied zwischen „infiziert“ und „Infektion“ siehe dort)."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > Antigen-Schnelltests",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Seit Herbst 2020 sind Antigen-Schnelltests verfügbar, die auf Proteine des SARS-CoV-2 reagieren."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > Antigen-Schnelltests",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Sie werden in der Regel wie PCR-Tests aus in Nasen-Rachen-Abstrichen gewonnenem Material durchgeführt."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > Antigen-Schnelltests",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Die Sensitivität dieser Tests ist geringer als die von PCR-Tests, die als Referenzmethode gelten."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > Antigen-Schnelltests",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Ihr Vorteil liegt in der geringeren Zeit des Testablaufs von 15 bis 30 Minuten, zudem können einige der Tests vor Ort durchgeführt werden."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Labordiagnostischer Nachweis > Antigen-Schnelltests",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Ein negatives Ergebnis im Antigentest schließt eine Infektion nicht aus, insbesondere, wenn eine niedrige Viruslast vorliegt, wie z. B. in der frühen Inkubationsphase oder ab der zweiten Woche nach Symptombeginn bzw. in der späten Phase der Infektion."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Bildgebende Verfahren",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Ob ein Mensch mit dem Virus infiziert ist, lässt sich durch die Bildgebung nicht feststellen."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Bildgebende Verfahren",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Jedoch lassen sich bei Patienten, deren Krankheit so schwer ist, dass sie eine Lungenentzündung hervorruft, diese bildgebend nachweisen."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Bildgebende Verfahren",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"In der Bildgebung zeigen sich im CT milchglasartige Verdickungen, wie sie auch bei anderen viralen Lungenentzündungen vorkommen."
+  },
+  {
+    "language":"de",
+    "section":"Diagnostik > Bildgebende Verfahren",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Diese Veränderungen lassen sich aufgrund ihrer oft pleuranahen Lage auch sonographisch darstellen."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Bei milden Verläufen werden nur die Krankheitssymptome behandelt."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Bei Patienten mit erhöhtem Risiko für einen schweren Krankheitsverlauf sollte geprüft werden, ob die Verabreichung antiviraler Medikamente sinnvoll ist, die ggf. fünf bis sieben Tage nach den ersten Symptomen begonnen werden muss."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Bei einem schweren Verlauf wird die Verabreichung entsprechender Medikamente empfohlen (z. B. Corticosteroide), ggf. auch eine zusätzliche Sauerstoffgabe oder Beatmungs­unterstützung."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Aufgrund des erhöhten Thrombose- und Lungenembolierisikos bei COVID-Patienten wird zudem eine Antikoagulation (Blutgerinnungshemmung) mittels niedermolekularem oder unfraktioniertem Heparin bei allen krankenhauspflichtigen COVID-Patienten über den gesamten Krankheitsverlauf empfohlen."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Diese sollte möglichst frühzeitig nach Aufnahme eingeleitet werden."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Eine Blutgerinnungshemmung in voller therapeutischer Dosis wird bei allen stationär behandelten Patienten mit Risikofaktoren für ein thrombotisches Ereignis empfohlen."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"Bei einer Verschlechterung zur Intensivpflichtigkeit soll diese nach Ausschluss einer Thrombose jedoch wieder auf eine prophylaktische Dosis zurückgefahren werden."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"Eine Empfehlung zur routinemäßigen Antikoagulation ambulant behandelter Patienten besteht nicht."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Die Hospitalisierungsrate liegt bei Infizierten ohne Risikofaktoren bei ca. 0,5 %."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Die Sterblichkeit über alle Risikogruppen liegt unter 0,5 %."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Die AWMF aktualisiert regelmäßig eine S3-Leitlinie mit „Empfehlungen zur Therapie von Patienten mit COVID-19“ als Langfassung und als Patientenleitlinie."
+  },
+  {
+    "language":"de",
+    "section":"Therapie",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Auf der Website der Europäischen Arzneimittel-Agentur findet sich eine regelmäßig aktualisierte Übersicht über zur Covid-19-Behandlung zugelassenen Arzneimittel, ebenso beim Paul-Ehrlich-Institut."
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Hygiene",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Die Übertragung erfolgt auf gleichen Wegen wie bei anderen Atemwegserkrankungen, daher gelten die Verhaltensregeln allgemein, insb. bei starkem Infektionsgeschehen (siehe auch AHAL-Regel):"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Hygiene",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Beim Niesen und Husten Abstand halten"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Hygiene",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Engen Kontakt zu Erkrankten möglichst meiden"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Hygiene",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Auf gute Belüftung achten, z. B. regelmäßiges Stoßlüften"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Hygiene",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Bei Kontakt zu Patienten, oder mit vielen Personen in geschlossenen Räumen eine Atemschutzmaske tragen"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Hygiene",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"Auf gute Handhygiene achten"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Hygiene",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"Nicht ins Gesicht fassen"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Hygiene",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"Häufig berührte Oberflächen reinigen"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Hygiene",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"Bei Erkrankung: zu Hause bleiben"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Krankenhaushygiene",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Die Kommission für Krankenhaushygiene und Infektionsprävention hat Ende 2023 eine Empfehlung zur Unterbringung von Covid-19-Patienten herausgegeben."
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Das Ziel der Covid-19-Impfungen ist es, schwere Krankheitsverläufe, Krankenhausaufenthalte und Todesfälle sowie Langzeitfolgen zu reduzieren."
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Hier dargestellt sind die aktuellen Empfehlungen der STIKO von Anfang 2024 (Stand Ende 2025)."
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Die Ständige Impfkommission (STIKO) des Robert Koch-Instituts empfiehlt eine Basisimmunität für"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"allen im Alter ab 18 Jahren,"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Bewohner von Pflegeeinrichtungen und bei erhöhtem Risiko Bewohnern der Eingliederungshilfe,"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Menschen im Alter von 6 Monaten bis 17 Jahren, wenn sie eine Grundkrankheit mit erhöhtem Risiko haben,"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Beschäftigte in der medizinischen und pflegerischen Versorgung,"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"enge Kontaktpersonen von Personen, bei denen keine schützende Immunantwort zu erwarten ist,"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"Frauen im gebärfähigen Alter und Schwangere."
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"Unter Basisimmunität werden drei Antigen-Kontakte (d. h. Impfungen oder Infektionen) verstanden."
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":7,
+    "sentence_index":1,
+    "sentence_text":"Typischerweise sollte der zweite Antigen-Kontakt einen Abstand von mindestens 3 Monaten zum ersten haben, der dritte einen Abstand von sechs Monaten zum zweiten."
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Basisimmunität",
+    "paragraph_index":7,
+    "sentence_index":2,
+    "sentence_text":"Dabei sollten mindestens zwei Antigen-Kontakt durch eine Impfung mit einem COVID-19-Impfstoff stattfinden."
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Auffrischungsimpfungen",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Eine Jährliche Auffrischungsimpfung im Herbst empfiehlt die STIKO für"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Auffrischungsimpfungen",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"allen im Alter ab 60 Jahren,"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Auffrischungsimpfungen",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Bewohner von Pflegeeinrichtungen und bei erhöhtem Risiko Bewohnern der Eingliederungshilfe,"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Auffrischungsimpfungen",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Menschen im Alter ab 6 Monaten, wenn sie eine Grundkrankheit mit erhöhtem Risiko haben,"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Auffrischungsimpfungen",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Beschäftigte in der medizinischen und pflegerischen Versorgung,"
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Auffrischungsimpfungen",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"enge Kontaktpersonen von Personen, bei denen keine schützende Immunantwort zu erwarten ist."
+  },
+  {
+    "language":"de",
+    "section":"Vorbeugung > Impfungen und Immunisierung > Auffrischungsimpfungen",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"Es werden kontinuierlich Impfstoffe entwickelt, die sich an den aktuell zirkulierenden SARS-CoV-2-Varianten orientieren."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Das COVID-19 auslösende Virus SARS-CoV-2 dringt wie SARS-CoV-1 bei SARS über eine Bindung an das in der Zellmembran verankerte Enzym ACE2 in die menschliche Zelle ein."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Dabei interagiert das virale Spike-Glykoprotein mit ACE2."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Für diesen Prozess ist die Mitwirkung der Serinprotease TMPRSS2 notwendig."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Im Versuch mit HeLa-Zellen, die ACE2 des Menschen, der Chinesischen Hufeisennase (Rhinolophus sinicus), einer Schleichkatzenart, des Hausschweins und der Maus exprimieren, konnte SARS-CoV-2 das jeweilige ACE2-Protein als Rezeptor nutzen, um in die Zelle einzudringen, nur bei dem Maus-ACE2 gelang dies nicht, ebenso wenig bei HeLa-Zellen, die kein ACE2 bildeten."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"An Rezeptoren, die von anderen Coronaviren genutzt werden, findet keine Bindung von SARS-CoV-2 statt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Das Protein LRRC15 ist vermutlich ein Resistenzfaktor gegen SARS-CoV-2 und hemmt dessen Vermehrung."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Eine reverse Suche in einer humanen Zelltypen- und Genexpressions-Datenbank (Human Cell Atlas, kurz: HCA) nach Zelltypen und Geweben, bei denen neben ACE2 auch TMPRSS2 auf Membranoberflächen vorhanden ist, zeigte, dass in der Nasenschleimhaut vor allem den Becherzellen, aber auch den Flimmerepithelen die höchsten Konzentrationen dieser beiden Proteine auftreten."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Daher werden diese Zellen als Eintrittspforte für SARS-CoV-2 angesehen und auch als Reservoir vermutet."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Die Proteine werden ebenso in den Hornhaut-Zellen des Auges, in der Darmschleimhaut sowie im Herz in Perizyten der Blutkapillaren, Herzmuskelzellen und Fibroblasten gebildet."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Dabei bleibt die erste Phase des Befalls im Nasenrachen nahezu symptomfrei, während bei Übergang in eine schwere Verlaufsform überwiegend die Lunge angegriffen wird, da ein Großteil der ACE-2 exprimierenden Zellen des Menschen in den Typ-II-Pneumozyten der Lunge vorkommt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"Als weitere Gründe für die besondere Anfälligkeit der Lunge wird ihre große Oberfläche angegeben, außerdem exprimieren die Pneumozyt-Typ-II-Zellen diverse Gene, die die Replikation und Transmission von SARS-CoV-2 begünstigen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"Bei Untersuchungen an kryokonservierten Lungengewebsproben von Nichtinfizierten konnte auch gezeigt werden, dass Lungengewebe kaum ACE2 sowie die Transmembranprotease TMPRSS2 ausbildet, die Pneumozyten Typ II in der Lunge hingegen vermehrt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"Diese Vorläuferzellen waren bei Männern und in fortgeschrittenem Alter tendenziell vermehrt nachzuweisen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":7,
+    "sentence_text":"Neben unterschiedlichen ACE2-Werten bei Männern und Frauen wird eine Ursache für die unterschiedliche Schwere der Erkrankung im geschlechtsspezifischen Hormonhaushalt vermutet: „Östrogen fördert eine Immunantwort, Testosteron dagegen unterdrückt sie“."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":8,
+    "sentence_text":"Eine Rolle der im Lungenepithel und benachbarten Gewebezellen gebildeten Proprotease Furin, die bei anderen Coronaviren dem Virus den Zellzutritt vereinfacht, wird diskutiert, da es am Spike-Protein von SARS-CoV-2 eine Furin-spezifische Trennstelle gibt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":9,
+    "sentence_text":"Außer in der Lunge wurde ACE-2 auch im Dünn- und Dickdarm, in den Atemwegen und in den Nieren nachgewiesen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":1,
+    "sentence_index":10,
+    "sentence_text":"Eine Vermehrung des Virus in Darmzellen und Inselzellen der Bauchspeicheldrüse wurde bestätigt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Durch Untersuchung von Lungengewebe mittels Biopsien oder Autopsien konnte ein diffuser Schaden an den Lungenbläschen nachgewiesen werden."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Dieser zeigte sich in der Bildung hyaliner Membranen, der Verdickung der Alveolarwände und der Einwanderung von einkernigen Immunzellen und Makrophagen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Elektronenmikroskopisch ließen sich Viruspartikel in den Pneumozyten Typ 2 und den Zellen der Bronchien nachweisen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Neben den Veränderungen in der Lunge wurden auch Nekrosen der Lymphknoten am Lungenhilus, Lebervergrößerungen mit Entzündungszellinfiltrat, Atrophien der Milz und bei einzelnen Patienten vereinzelte degenerierte Nervenzellen des Gehirns beobachtet."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"Ob die Schäden außerhalb der Lunge direkt dem Virus oder der allgemeinen Belastung des Organismus durch die Erkrankung zuzuschreiben sind bleibt unklar."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"In einer anderen Obduktionensserie zeigten sich herdförmige kleinste Thromben in den Lungenkapillaren auch in Abwesenheit von größeren Thrombosen im Organismus."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":2,
+    "sentence_index":6,
+    "sentence_text":"Darüber hinaus zeigte sich bei fortgeschrittener Erkrankung auch ein fibrotischer Umbau der Lungenareale."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":2,
+    "sentence_index":7,
+    "sentence_text":"Eine diffuse alveoläre Schädigung wie beim klassischen ARDS zeigte sich nur bei Patienten, die auch invasiv beatmet worden waren."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":2,
+    "sentence_index":8,
+    "sentence_text":"Die Autoren schlossen daraus, dass die Bildung der Blutgerinnsel in den kleinsten Blutgefäßen den führenden Mechanismus der COVID-assoziierten Lungenschädigung darstellte."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Das Eindringen des Virus in die Riechsinneszellen über die Nasenschleimhaut ist nachgewiesen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Eine Ausbreitung des Virus über diese Nervenzellen in das zentrale Nervensystem wird vermutet."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"In einigen wenigen Fällen wurde das Auftreten eines Guillain-Barré-Syndroms diagnostiziert, das oft mit Virusinfektionen assoziiert ist."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"Die Patienten waren PCR-positiv – ein Liquornachweis gelang nicht."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"In der Bildgebung waren die Cauda equina sowie der Nervus facialis auffällig darstellbar."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":3,
+    "sentence_index":5,
+    "sentence_text":"Symptomatisch zeigten sich Parästhesien und Paresen (motorische Ausfälle)."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":3,
+    "sentence_index":6,
+    "sentence_text":"In einem weiteren Fallbericht wurde eine virusinduzierte Encephalitis auch durch positiven PCR-Nachweis in der Cerebrospinalflüssigkeit bestätigt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":3,
+    "sentence_index":7,
+    "sentence_text":"Die Deutsche Gesellschaft für Neurologie (DGN) empfiehlt in einer eigens für die COVID-Erkrankung herausgegebenen Leitlinie eine fortlaufende Kontrolle besonders stationär, aber auch ambulant versorgter Patienten auf Frühzeichen neurologischer Mitbeteiligung."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Italienische Intensivmediziner haben im April 2020 aufgrund ihrer klinischen Beobachtungen für das Vorhandensein zweier Erscheinungsformen der COVID-19-Viruspneumonie plädiert."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"Die Pneumonie beginne meist mit dem L-Typ, der sich durch ein geringes Vorhandensein eines Ödems im Gewebe auszeichne."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"Bei einem Teil der Patienten erfolge der Übergang in einen H-Typ, der sich durch ein Ödem im Gewebe auszeichne."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"Die Forscher plädieren für eine unterschiedliche Vorgehensweise bei der Beatmung dieser zwei Typen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":4,
+    "sentence_index":4,
+    "sentence_text":"Bei Vorliegen extrem erniedrigter Sauerstoffsättigung, die auf eine massive Gasaustauschstörung schließen lässt und in Verbindung mit einer Bildgebung eindeutig auf ein akutes Lungenversagen (ARDS) deutet, weichen deutsche Pneumologen mittlerweile auch von bisherigen Leitlinien ab und empfehlen zunächst eine lungenschonendere nichtinvasive Beatmung (NIV) mit O2-Anreicherung."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":4,
+    "sentence_index":5,
+    "sentence_text":"Weitere führende Pneumologen regten ebenfalls aufgrund der vermehrten Endothelschäden befallener Lungengefäße an, nicht die klassische Beatmungsstrategie für ein entzündliches Pneumonitis-ARDS, sondern bei noch gegebener Elastizität mit an das von ihnen zur Unterscheidung als CARDS benannte klinische Bild bei COVID durch adaptierte Tidalvolumina und Expirationsdrucke (PEEP) anzupassen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"Eine feingewebliche Untersuchung an sechs verstorbenen Patienten zeigte bei den fortgeschrittenen Lungenerkrankungen, die klinisch dem H-Typ zuzuordnen sind, die Ausbildung von Fibrinballen in den Lungenbläschen mit einem Infiltrat aus T-Lymphozyten und Plasmazellen sowie einer Hyperplasie der Typ-II-Pneumozyten."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":5,
+    "sentence_index":1,
+    "sentence_text":"In den Blutgefäßen fanden sich Zeichen einer Endothelschädigung mit Ausbildung von Vakuolen im Zellplasma sowie der Unterbrechung der Verbindungen zwischen den Endothelzellen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":5,
+    "sentence_index":2,
+    "sentence_text":"Die Autoren stellten die Hypothese auf, dass der H-Typ als spätere Verlaufsform der COVID-Lungenkrankheit feingeweblich das Bild einer akut-fibrinösen organisierenden Pneumonie zeige."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":5,
+    "sentence_index":3,
+    "sentence_text":"Eine Untersuchung der Lungen von sieben Verstorbenen zeigte eine deutlich erhöhte Gefäßneubildung durch Lumenteilung in den befallenen Lungengefäßabschnitten."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":5,
+    "sentence_index":4,
+    "sentence_text":"Die Autoren stellten die Hypothese auf, dass die krankhaft gesteigerte Gefäßneubildung zum Lungenschaden beitrage."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"Beim Übergang von milden zu schweren Verläufen wird mittlerweile ein virusinduzierter septischer Schock angenommen, der auf einem immunologischen Mechanismus basiert."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":1,
+    "sentence_text":"Bei milden Fällen gelinge es dem Immunsystem, die Virusvermehrung in der Lunge rasch aufzuhalten."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":2,
+    "sentence_text":"Bei schweren Fällen gelänge dies aber durch die virusbedingte Dysfunktion der direkt infizierten T-Zellen nicht."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":3,
+    "sentence_text":"Die Virusvermehrung in den Lungenepithelzellen und auch den Innenschichtzellen der Lungenkapillaren führe zu einem Kapillarleck, das zur Einlagerung von Flüssigkeit in den Lungenbläschen führe."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":4,
+    "sentence_text":"Durch die unkontrollierte Virusvermehrung komme es zu einer weiteren Einwanderung von Monozyten und Granulozyten."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":5,
+    "sentence_text":"Dabei waren entzündungsverstärkende Zytokine und Chemokine einschließlich TNF-α, Interleukin-1β, IL-6, CXCL10, CCL2 und MIP-1α signifikant erhöht, wodurch sich Immunzellen am Ort einer Entzündung ansammeln und die Immunantwort verstärkt wird."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":6,
+    "sentence_text":"Die Entzündungsreaktion in der Lunge führe zusammen mit dem Übergreifen des Virus auf andere Organe zu einer überschießenden Immunreaktion im Sinne des Zytokinsturms, der wiederum lokal zu weiterer Zellschädigung führt und im Anschluss die Lymphozytenzahl – besonders CD4+- und CD8+-T-Zellen – reduziert (Lymphopenie)."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":7,
+    "sentence_text":"Bei milden Verläufen wurde kein signifikanter Abfall von Effektor-T-Zellen beobachtet."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":8,
+    "sentence_text":"Bei schweren Verläufen korreliert deren Wiederanstieg mit der Heilung der Erkrankung."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":6,
+    "sentence_index":9,
+    "sentence_text":"Ebenso fand sich in einer kleinen Studie, dass überlebende Patienten vor allem IgG-Antikörper gegen das Spike-Protein bilden und an der Erkrankung Verstorbene vor allem IgG-Antikörper gegen das Nucleocapsid ausbilden."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"Als weiterer Mechanismus wird eine direkte Freisetzung des spezifischen Transkriptionsfaktors NF-κB angesehen, die wiederum IL-6 hochreguliert."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":7,
+    "sentence_index":1,
+    "sentence_text":"Zusätzlich ist durch die infektionsbedingte Reduktion von ACE2 ein Anstieg von Serum-AngII beobachtbar, was wiederum über die AngII-AT1R-Achse auch NF-κB, Disintegrin und die Sekretase ADAM17 (englisch"
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":7,
+    "sentence_index":2,
+    "sentence_text":"ADAM"
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":7,
+    "sentence_index":3,
+    "sentence_text":"metallopeptidase domain 17) aktiviert, die die reife Form der Liganden des epidermalen Wachstumsfaktor-Rezeptors (EGFR) und TNFα, sowie zwei NF-κB-Stimulatoren erzeugt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":7,
+    "sentence_index":4,
+    "sentence_text":"Die ADAM17-Induzierung verarbeitet auch die Membranform von IL-6Rα zur löslichen Form (sIL-6Rα), gefolgt von der gp130-vermittelten Aktivierung von STAT3 über den IL-6\/sIL-6Rα-Komplex in IL-6Rα-negativen Zellen, wie Fibroblasten, Endothel- und Epithelzellen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":7,
+    "sentence_index":5,
+    "sentence_text":"So kann eine SARS-CoV-2-Infektion im Atemtrakt sowohl NF-κB als auch STAT3 aktivieren, was wiederum den IL-6-Verstärker (englisch IL-6 amplifier, kurz IL-6 Amp) in Gang setzt, einem Mechanismus für die weitere Überaktivierung von NF-κB durch STAT3, was zu unterschiedlichen Entzündungs- und Autoimmunkrankheiten führt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":7,
+    "sentence_index":6,
+    "sentence_text":"Dabei wird der IL-6-Verstärker in einer positiven Rückkopplungsschleife durch die Induzierung verschiedener entzündungsfördernder Zytokine und Chemokine, einschließlich Interleukin-6, und die Rekrutierung von lymphoiden und myeloischen Zellen, wie zum Beispiel aktivierte T-Zellen und Makrophagen, verstärkt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":7,
+    "sentence_index":7,
+    "sentence_text":"Dieser Prozess wird als Zytokinsturm bezeichnet und ist die Ursache für das akute Lungenversagen bei einer SARS-CoV-2-Infektion."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":7,
+    "sentence_index":8,
+    "sentence_text":"Da IL-6 als wichtiger Marker für Seneszenz gilt, könnte der IL-6-Verstärker auch für die höhere Mortalität unter Älteren angesehen werden."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"Vergleichende Untersuchungen mit anderen Formen des akuten Lungenversagens und Entzündungssyndromen kommen jedoch zu dem Schluss, dass die Menge der freigesetzten Entzündungsmediatoren bei einer schweren COVID-19-Erkrankung deutlich niedriger ist als bei anderen mit einem Zytokinsturm vergesellschafteten Erkrankungen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":8,
+    "sentence_index":1,
+    "sentence_text":"Dies wird als Hinweis gewertet, dass auch andere Mechanismen der Krankheitsentstehung wie Gefäßentzündung, direkte virale Schädigung oder durch das Virus induzierte Immunschwäche stark zur Schwere der Erkrankung beitragen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":9,
+    "sentence_index":0,
+    "sentence_text":"Interferon-1 ist ein zentraler Regler der zellulären Immunantwort gegen Viren."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":9,
+    "sentence_index":1,
+    "sentence_text":"Im Gegensatz zu anderen respiratorischen Viren zeichnet sich COVID durch eine Verminderung von Interferon-1 und Interferon-3 aus."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":9,
+    "sentence_index":2,
+    "sentence_text":"Ebenso wurde eine Verminderung der Produktion von Interferon-1 durch das Virusprotein Orf9b im Zellmodell nachgewiesen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":9,
+    "sentence_index":3,
+    "sentence_text":"In einer Studie wurden bei 3,5 % der untersuchten COVID-Patienten mit schwerem Verlauf angeborene Defekte der Interferon-1-Bildung festgestellt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":10,
+    "sentence_index":0,
+    "sentence_text":"Interferon alpha spielt eine komplexe, janus-artige Rolle für die Pathogenese von COVID-19."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":10,
+    "sentence_index":1,
+    "sentence_text":"Obwohl es die Elimination virusbefallener Zellen fördert, reguliert es auch die Expression von ACE-2 hoch, so dass es zugleich den Eintritt von SARS-Cov2-Viren in Zellen und deren Replikation erleichtert."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":10,
+    "sentence_index":2,
+    "sentence_text":"Ein Wettbewerb negativer (über den protektiven Effekt von Interferon Alpha) und positiver Rückkoppelungen (über Hochregulation von ACE-2) ist daher entscheidend für den Verlauf der Erkrankung."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":0,
+    "sentence_text":"Forscher aus Wuhan haben im März 2020 in einer Studie auch von Herzmuskelschäden berichtet."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":1,
+    "sentence_text":"Bei rund einem Fünftel der 416 untersuchten hospitalisierten Patienten zeigte sich neben der Lungenschädigung auch eine Schädigung des Herzmuskels."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":2,
+    "sentence_text":"Die Ursache der Herzschädigung sei noch nicht klar."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":3,
+    "sentence_text":"Sie vermuteten eine negative Wirkung der im Rahmen der Pneumonie ausgelösten Entzündungsreaktion sowie eine direkte Infektion und erhöhter Stress des Herzens durch die mangelnde Sauerstoffversorgung und die höhere Kreislaufbelastung."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":4,
+    "sentence_text":"Bei Autopsien zeigten sich Entzündungsinfiltrate, die mit Regionen von Zelluntergang korrelierten."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":5,
+    "sentence_text":"Das Bild der Herzmuskelschädigung war in diesen Fällen vereinbar mit einer Myokarditis."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":6,
+    "sentence_text":"Deren Ausbildung ohne bekannte koronare Vorerkrankung wurde auch ohne Beteiligung der üblichen Pneumonitis beobachtet."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":7,
+    "sentence_text":"Mit dem Alter steigt die Expression von ACE2 und TMPRSS2 in Herzmuskelzellen an, über die der Zellzutritt erfolgt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":8,
+    "sentence_text":"Die Schädigung der Kardiomyozyten ist korreliert mit dem Anstieg von Troponin, einem typischen Marker für Herzinfarkt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":9,
+    "sentence_text":"Resultiert eine Pumpschwäche des linken Ventrikels, könne das die verminderten Überlebenschancen Älterer erklären."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":10,
+    "sentence_text":"Diese Zusammenhänge, sowie eine höhere Expression eines IL-6 Rezeptors auf Kardiomyozyten im Alter, der für den Zytokinsturm verantwortlich ist, wurde bei postmortem Untersuchungen des Herzens von Patienten gefunden, die nicht an kardialen Erkrankungen, aber auch nicht durch SARS-CoV-2 verstarben."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":11,
+    "sentence_text":"Im Fall zweier relativ junger und nicht vorerkrankter Patienten, die aufgrund geschilderter Symptome einen grippeähnlichen Infekt durchgemacht hatten, zeigte sich 4 Wochen später Atemnot, die den Verdacht einer Herzmuskelfunktionsstörung nahelegte."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":12,
+    "sentence_text":"PCR-Tests der zur Verdachtsabklärung entnommenen Biopsate waren positiv, sodass die Herzerkrankung als Folge einer SARS-CoV-2-Infektion vermutet wird."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":13,
+    "sentence_text":"In einer weiteren Fallserie wurde in Gewebeproben von 104 Patienten, die wegen des Verdachts einer Myokarditis oder anderer entzündlicher Herzkrankheiten untersucht wurden, bei 5 von ihnen das Virusgenom von SARS-CoV-2 nachgewiesen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":14,
+    "sentence_text":"Bei allen – zwischen 36 und 62 Jahre alt – war es zu einer deutlichen Pumpschwäche gekommen und Troponin bei 4 der 5 Patienten erhöht."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":11,
+    "sentence_index":15,
+    "sentence_text":"Die Studie legt nahe, dass nach einer COVID-19-Erkrankung mit einer Herzbeteiligung zu rechnen ist, obwohl der direkte Nachweis, dass das Virus den Herzmuskel angreift, noch nicht erbracht sei."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":12,
+    "sentence_index":0,
+    "sentence_text":"Ebenso konnte eine Virusvermehrung in den Nierenkanälchen mit akuter Schädigung des Tubulus durch die nachfolgende Entzündungsreaktion an einzelnen Obduktionsfällen nachgewiesen werden."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":13,
+    "sentence_index":0,
+    "sentence_text":"In seltenen Einzelfällen tritt bei Kleinkindern vermehrt das Kawasaki-Syndrom auf, eine Gefäßentzündung bei der als Begleitsymptom z. B. Hautausschläge auftreten."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":13,
+    "sentence_index":1,
+    "sentence_text":"Ein direkter Zusammenhang mit einer SARS-CoV-2-Infektion wird vermutet."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":14,
+    "sentence_index":0,
+    "sentence_text":"Von der WHO wurde dieses Krankheitsbild multisystem inflammatory syndrome in children (MIS-C) benannt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":14,
+    "sentence_index":1,
+    "sentence_text":"Mit Stand 1. Juli sind weltweit mehr als 1000 Kinder mit diesem eher seltenen Syndrom erkrankt."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":14,
+    "sentence_index":2,
+    "sentence_text":"In einer Studie wurden 186 Fälle diagnostiziert, wobei das Durchschnittsalter bei 8,3 Jahren lag."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":14,
+    "sentence_index":3,
+    "sentence_text":"Die Inzidenz beträgt 2 auf 100.000."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":14,
+    "sentence_index":4,
+    "sentence_text":"Die ersten Anzeichen etwa 2 bis 4 Wochen nach Infektion bestehen in hohem Fieber, Tachykardie, gastrointestinalen Symptomen, Hautausschlag sowie konjunktivalen Injektionen."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":14,
+    "sentence_index":5,
+    "sentence_text":"CRP war bei allen, außerdem D-Dimer-Werte und Troponin bei den meisten erhöht."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":14,
+    "sentence_index":6,
+    "sentence_text":"Etwa die Hälfte zeigte Zeichen einer Myokarditis, 80 % mussten intensiv behandelt werden."
+  },
+  {
+    "language":"de",
+    "section":"Krankheitsentstehung bei COVID-19",
+    "paragraph_index":14,
+    "sentence_index":7,
+    "sentence_text":"Zwei Kinder verstarben."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Gegen Ende der Pandemie, mit dem Aufkommen der Omikron-Variante, hat die Wahrscheinlichkeit für einen schweren Krankheitsverlauf abgenommen."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Dieser Absatz bezieht sich auf die früheren Varianten."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Der Krankheitsverlauf ist unspezifisch und kann stark variieren."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Laut Schätzung des RKI haben 55 bis 85 % der Infizierten spürbare Beschwerden und\/oder zeigen erkennbare Anzeichen einer Erkrankung (Symptome) oder typische Symptomkombinationen (Syndrom) einer COVID-19-Erkrankung (Manifestationsindex)."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Die übrigen Infizierten sind beschwerdefrei und zeigen keine Symptome;"
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"sie sind asymptomatisch erkrankt, können aber dennoch das Virus weiterverbreiten."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"Bei rund 81 % der registrierten Erkrankungen ist ein leichter Verlauf mit Fieber oder einer leichten Lungenentzündung, trockenem Husten und Müdigkeit zu beobachten."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"Weniger häufig sind eine verstopfte Nase, Kopfschmerzen, Halsschmerzen, Gliederschmerzen, Bindehautentzündungen, Durchfall, Erbrechen, Geschmacks- und Geruchsverlust, Hautausschlag oder Verfärbung von Fingern oder Zehen."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"Bei etwa 14 % der Krankheitsfälle ist der Verlauf schwerer, und in etwa 5 % so schwer, dass eine Beatmung der Patienten auf einer Intensivstation erfolgen muss."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":7,
+    "sentence_text":"Die höchste Gefährdung schwer zu erkranken besteht für ältere Menschen und solche mit Vorerkrankungen oder unzureichendem Immunschutz."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":8,
+    "sentence_text":"Bei einem schweren Verlauf von COVID-19 tritt eine beidseitige Lungenentzündung und akutes Lungenversagen auf;"
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":9,
+    "sentence_text":"die Betroffenen können sterben."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":1,
+    "sentence_index":10,
+    "sentence_text":"Beobachtet wurden außerdem krankhafte Veränderungen der Leber, des zentralen Nervensystems, der Nieren, der Blutgefäße und des Herzens."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Anhaltende Beschwerden nach der Erkrankung, auch „Long COVID“ genannt, kommen relativ häufig vor, sowohl bei anfänglich schwer Erkrankten als auch bei jungen, gesunden, anfänglich nur leicht Erkrankten."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Sie können zu langanhaltenden chronischen Beschwerden in vielen Organsystemen führen."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Bei über 100.000 Teilnehmern von COVID-Impfstudien dagegen wurden (Stand Dezember 2020) keine Hinweise auf Long Covid beobachtet."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Long"
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"Covid ist Thema laufender Forschung."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"COVID-19 wird seit Beginn der Pandemie intensiv erforscht und die Ergebnisse werden international geteilt."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Um andere Fachwissenschaftler umgehend über neueste Forschungsergebnisse zu informieren, ist es üblich, aktuelle Studien als Preprints im Internet auf speziellen Servern zu veröffentlichen."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"Veröffentlichungen in den Sozialen Medien, aber auch in Presse, Rundfunk und Fernsehen sollten nicht nur auf diesen ungeprüften Studien, sondern auf Veröffentlichungen reputabler und fachlich zuständiger Institutionen basieren, so z. B. des Robert Koch-Instituts, der Weltgesundheitsorganisation, des National Health Service (NHS) oder Centers for Disease Control and Prevention (CDC)."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"Diesen liegen zum Teil Peer-Reviews der betreffenden Studien zu Grunde, auf die dort auch verwiesen wird."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Bereits Ende des Jahres 2020 wurden in der Europäischen Union und in einigen Nicht-EU-Ländern COVID-Impfstoffe zugelassen und Impfkampagnen gestartet."
+  },
+  {
+    "language":"de",
+    "section":"Covid-19 während der Pandemie",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"Das Wissenschaftsmagazin Science erklärte die Entwicklung von Impfstoffen gegen das SARS-CoV-2 in nie dagewesener Geschwindigkeit zum wissenschaftlichen Durchbruch des Jahres (Breakthrough of the Year)."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"In Deutschland sind Verdacht einer Erkrankung, die Erkrankung sowie der Tod in Bezug auf die Coronavirus-Krankheit-2019 seit 23. Mai 2020 gemäß § 6 Abs. 1 Nr. 1 lit."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"t des Infektionsschutzgesetzes (IfSG) meldepflichtig."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Die Meldepflicht wurde bereits zum 1. Februar 2020 durch Verordnung eingeführt."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Seit der gesetzlichen Regelung durch das „Zweite Gesetz zum Schutz der Bevölkerung bei einer epidemischen Lage von nationaler Tragweite“ sind auch der Behandlungszustand zur Krankheit (einschließlich der Genesung) und der Serostatus durch Ärzte und Gesundheitsämter anzugeben (§ 9 Abs. 1 Nr. 1 lit."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"n, § 11 Abs. 1 Nr. 1 lit."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"d und j IfSG)."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Die klinisch-epidemiologischen Kriterien für den Verdacht werden wie nach der vorherigen Verordnung durch das Robert Koch-Institut festgelegt und veröffentlicht (als Falldefinitionen nach § 11 Absatz 2 IfSG)."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Zudem besteht in Deutschland für Labore eine Meldepflicht hinsichtlich des Virus SARS-CoV-2."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In Österreich bestand ebenfalls Anzeigepflicht nach dem Epidemiegesetz von 1950 zusammen mit einer Verordnung."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Die Pflicht zur Anzeige bestand für Verdachts-, Erkrankungs- und Todesfälle aufgrund dieses Virus."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Die Meldepflicht wurde am 1. Juli 2023 aufgehoben."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Auch in der Schweiz existiert eine Meldepflicht für den Erreger Sars-CoV-2."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Diese folgt aus dem Epidemiengesetz der Schweiz in Verbindung mit der Epidemienverordnung und der Verordnung des Eidgenössischen Departements des Innern (EDI) über die Meldung von Beobachtungen übertragbarer Krankheiten des Menschen."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Nach Anhang 3 der Verordnung des EDI müssen Labore einen positiven und negativen Befund (also Nachweis) von Sars-CoV-2 melden."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Meldepflicht",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Nicht zu melden ist der Nachweis durch einen Antigen-Schnelltest."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Abwasser-Monitoring",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"In Deutschland finden seit 2022 Abwasseruntersuchungen statt, um die epidimeologische Lage zu beurteilen."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Abwasser-Monitoring",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Dabei wird die Viruslast von SARS-CoV-2-, Influenza- und RSV-Viren bestimmt."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Am 17. Februar 2020 wurde die Krankheit durch die Weltgesundheitsorganisation (WHO) in die Internationale Klassifikation der Krankheiten (ICD) in der aktuellen, international gültigen Ausgabe ICD-10-WHO (Version 2019) unter Schlüsselnummer »U07.1« aufgenommen."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Für die in Deutschland geltende ICD-10-GM (German Modification) wurde als sekundärer Kode die Ausrufezeichenschlüsselnummer »U07.1!« vergeben und die Krankheit als COVID-19 (Coronavirus-Krankheit-2019) bezeichnet."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Weiterhin erfolgte eine entsprechende Ergänzung für die Todesursachenkodierung in der ICD-10-GM."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Am 23. März 2020 wurde von der WHO eine Anpassung vorgenommen, die darauf abzielt, auch Verdachtsfälle kodieren zu können."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Entsprechend werden mit der Schlüsselnummer »U07.1« per Labordiagnostik bestätigte COVID-19-Erkrankungen kodiert, während die »Schlüsselnummer U07.2« für Fälle vorgesehen ist, die zwar klinisch-epidemiologisch, aber nicht per Labordiagnostik bestätigt wurden."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Für die ICD-10-GM erfolgt die Kodierung analog in Form der beiden sekundären Kodes »U07.1!« mit der Bezeichnung: COVID-19, Virus nachgewiesen und »U07.2!« mit der Bezeichnung: COVID-19, Virus nicht nachgewiesen."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Zweites gilt aber nur, soweit vorher ein Verdacht auf COVID-19 bestand."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Sofern kein Verdacht auf eine Erkrankung bestand, ein Test auf SARS-CoV-2 durchgeführt wurde und dieser Test negativ ausfällt, so ist mit »U99.0!« für Spezielle Verfahren zur Untersuchung auf SARS-CoV-2 zu kodieren zusammen mit »Z11« für Spezielle Verfahren zur Untersuchung auf infektiöse und parasitäre Krankheiten."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Im November 2020 veröffentlicht das BfArM (früher DIMDI) in seinem Newsletter neue Codes, welche von der WHO am 11. November 2020 in die ICD-10 aufgenommen worden waren."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Diese Codes sind ab 2021 auch in der Schweiz zu verwenden."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Im März 2021 werden vom BfArM neue Codes veröffentlicht, welche im Kontext zur Covid-19-Impfung stehen."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > ICD-Einordnung",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"In Deutschland sind diese Codes ab 10. März 2021 zu verwenden."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Berufskrankheit",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Nach deutschem Recht kann COVID-19 als Berufskrankheit anerkannt werden, wenn der Erkrankte im Gesundheitsdienst, in der Wohlfahrtspflege oder in einem Laboratorium tätig oder durch eine andere Tätigkeit der Infektionsgefahr in ähnlichem Maße besonders ausgesetzt war."
+  },
+  {
+    "language":"de",
+    "section":"Meldepflicht, ICD-10-Einordnung, Berufskrankheit > Berufskrankheit",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Als solche andere Tätigkeiten wurden im Jahr 2025 die Personenbeförderung, die Fleischverarbeitung, der Polizeivollzug und die Seelsorge festgestellt."
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Der Ausbruch – War die Pandemie vermeidbar?"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"TV-Dokumentation in HD von Michael Wech, Peter Wolf;"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"D 2022;"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"mitwirkend: Lawren E. Gostin (globales Gesundheitsrecht), Edward Holmes (Virologe), Jason McLellan (Strukturbiologe), Jeremy Farrar (Infektiologe), Richard Hatcheti (Epidemiologe), James Lawler (Infektiologe) u. a.;"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"gesendet auf ZDF 17. Mai"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"2022."
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Brisante Spurensuche – Woher kam das Coronavirus wirklich?"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Originaltitel: Did Covid Leak from a Lab in China?"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"GB 2021 für Channel 4- television; deutsche Synchronfassung: auf n-TV, 2022;"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Mitwirkend: Jane Metzler (Autor und Berater des nationalen Sicherheitsrates der USA und der WHO), Alina Chan (Molekularbiologin – The Broad Institute of MIT und Harvard), Nikolai Petrowsky (Mediziner an der Flinders University), David Relman (Mediziner an der Stanford University), Sir John Bell (Mediziner an der University of Oxford), Milton Leitenberg (Zentrum für sicherheitstechnische Studien, University of Maryland), Richard Ebright (Direktor des Mikrobiologischen Instituts der Rutgers University), Gilles Demaneuf (Datenanalyst), Rossana Segreto (Molekularbiologin – Expertin für Genomanalyse), Monali Rahalkar (Mikrobiologin am Agharkar Research Institute [ARI]), Nicholas Wade (Wissenschaftsjournalist bei New York Times und Nature) (auch verfügbar auf youtube.com)."
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Corona – Ende in Sicht?"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"»Was die Wissenschaft über SARS-CoV-2 weiß«."
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"In: ZDF – planet e., Video-Dokumentation, 28 Minuten."
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"ZDF, 17. Januar 2021, abgerufen am 15. Februar 2021 (in der ZDF-Mediathek → verfügbar bis 13. Januar 2023)."
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Leschs Kosmos – Der Corona-Effekt: Freiheit dank Wissenschaft."
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"(Teil der Wissenschaftsreihe Leschs Kosmos.)"
+  },
+  {
+    "language":"de",
+    "section":"TV-Dokumentationen",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"TV-Dokumentation in HD, ZDF 2022, Mitwirkend: Harald Lesch."
+  }
+]

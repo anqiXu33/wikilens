@@ -1,0 +1,3495 @@
+[
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Coronavirus disease 2019 (COVID-19) is a contagious disease caused by the coronavirus SARS-CoV-2."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Starting in January 2020, the disease spread worldwide, resulting in the COVID-19 pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"In March 2020, the World Health Organization declared COVID-19 a global health emergency; they declared the end of the emergency in May 2023."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The symptoms of COVID‑19 can vary but often include fever, fatigue, cough, breathing difficulties, loss of smell, and loss of taste."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Symptoms may begin one to 14 days after exposure to the virus."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"At least a third of people who are infected do not develop noticeable symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Of those who develop symptoms noticeable enough to be classified as patients, most (81%) develop mild to moderate symptoms (up to mild pneumonia), while 14% develop severe symptoms (dyspnea, hypoxia, or more than 50% lung involvement on imaging), and 5% develop critical symptoms (respiratory failure, shock, or multiorgan dysfunction)."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Older people have a higher risk of developing severe symptoms and dying."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"Some people experience persistent symptoms (long COVID), for months or years after infection, including fatigue, cognitive issues and shortness of breath."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":9,
+    "sentence_text":"Damage to organs has been observed in a subset."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":10,
+    "sentence_text":"COVID‑19 transmission occurs when infectious particles are breathed in or come into contact with the eyes, nose, or mouth."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":11,
+    "sentence_text":"The risk is highest when people are in close proximity, but small airborne particles containing the virus can remain suspended in the air and travel over longer distances, particularly indoors."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":12,
+    "sentence_text":"Transmission can also occur when people touch their eyes, nose, or mouth after touching surfaces or objects that have been contaminated by the virus."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":13,
+    "sentence_text":"People remain contagious for up to 20 days and can spread the virus even if they do not develop symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":14,
+    "sentence_text":"There are two common tests to detect COVID."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":15,
+    "sentence_text":"Antigen tests (also called rapid lateral flow tests) can be used at home."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":16,
+    "sentence_text":"A positive test indicates an active infection."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":17,
+    "sentence_text":"However, negative tests are not accurate, especially early or late in the infection."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":18,
+    "sentence_text":"Health care providers can perform a more accurate PCR test, which is typically analysed in a laboratory."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":19,
+    "sentence_text":"Several COVID-19 vaccines have been approved and distributed in various countries, many of which have initiated mass vaccination campaigns."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":20,
+    "sentence_text":"Other preventive measures include physical or social distancing, quarantining, ventilation of indoor spaces, use of face masks or coverings in public, covering coughs and sneezes, hand washing, and keeping unwashed hands away from the face."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":21,
+    "sentence_text":"While drugs have been developed to inhibit the virus, the primary treatment is still symptomatic, managing the disease through supportive care, isolation, and experimental measures."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":22,
+    "sentence_text":"The first known case was identified in Wuhan, China, in December 2019."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":23,
+    "sentence_text":"Most scientists believe that the SARS-CoV-2 virus entered into human populations through natural zoonosis, similar to the SARS-CoV-1 and MERS-CoV outbreaks, and consistent with other pandemics in human history."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":24,
+    "sentence_text":"Social and environmental factors including climate change, natural ecosystem destruction and wildlife trade increased the likelihood of such zoonotic spillover."
+  },
+  {
+    "language":"en",
+    "section":"Nomenclature",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"During the initial outbreak in Wuhan, the virus was commonly called \"coronavirus\" and \"Wuhan coronavirus\", and the disease was referred to by the same terms and sometimes as \"Wuhan pneumonia\"."
+  },
+  {
+    "language":"en",
+    "section":"Nomenclature",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"In the past, many diseases have been named after geographical locations, such as the Spanish flu, Middle East respiratory syndrome, and Zika virus."
+  },
+  {
+    "language":"en",
+    "section":"Nomenclature",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"In January 2020, the World Health Organization (WHO) recommended 2019-nCoV and 2019-nCoV acute respiratory disease as interim names for the virus and disease per 2015 guidance and international guidelines against using geographical locations or groups of people in disease and virus names to prevent social stigma."
+  },
+  {
+    "language":"en",
+    "section":"Nomenclature",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The official names COVID‑19 and SARS-CoV-2 were issued by the WHO on 11 February 2020 with COVID-19 being shorthand for \"coronavirus disease 2019\"."
+  },
+  {
+    "language":"en",
+    "section":"Nomenclature",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"The WHO additionally uses \"the COVID‑19 virus\" and \"the virus responsible for COVID‑19\" in public communications."
+  },
+  {
+    "language":"en",
+    "section":"Signs and symptoms > Complications",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Complications may include pneumonia, acute respiratory distress syndrome (ARDS), multi-organ failure, septic shock, and death."
+  },
+  {
+    "language":"en",
+    "section":"Signs and symptoms > Complications",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Cardiovascular complications may include heart failure, arrhythmias (including atrial fibrillation), heart inflammation, thrombosis, particularly venous thromboembolism, and endothelial cell injury and dysfunction."
+  },
+  {
+    "language":"en",
+    "section":"Signs and symptoms > Complications",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Approximately 20–30% of people who present with COVID‑19 have elevated liver enzymes, reflecting liver injury."
+  },
+  {
+    "language":"en",
+    "section":"Signs and symptoms > Complications",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Neurologic manifestations include seizure, stroke, encephalitis, and Guillain–Barré syndrome (which includes loss of motor functions)."
+  },
+  {
+    "language":"en",
+    "section":"Signs and symptoms > Complications",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Following the infection, children may develop paediatric multisystem inflammatory syndrome, which has symptoms similar to Kawasaki disease, which can be fatal."
+  },
+  {
+    "language":"en",
+    "section":"Signs and symptoms > Complications",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"In very rare cases, acute encephalopathy can occur, and it can be considered in those who have been diagnosed with COVID‑19 and have an altered mental status."
+  },
+  {
+    "language":"en",
+    "section":"Signs and symptoms > Complications",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"According to the US Centers for Disease Control and Prevention, pregnant women are at increased risk of becoming seriously ill from COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Signs and symptoms > Complications",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"This is because pregnant women with COVID‑19 appear to be more likely to develop respiratory and obstetric complications that can lead to miscarriage, premature delivery and intrauterine growth restriction."
+  },
+  {
+    "language":"en",
+    "section":"Signs and symptoms > Complications",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Fungal infections such as aspergillosis, candidiasis, cryptococcosis and mucormycosis have been recorded in people recovering from COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Cause",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"COVID‑19 is caused by infection with a strain of coronavirus known as \"severe acute respiratory syndrome coronavirus 2\" (SARS-CoV-2)."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe acute respiratory syndrome coronavirus."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"It was first isolated from three people with pneumonia connected to the cluster of acute respiratory illness cases in Wuhan."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"All structural features of the novel SARS-CoV-2 virus particle occur in related coronaviruses in nature, particularly in Rhinolophus sinicus (Chinese horseshoe bats)."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Outside the human body, the virus is destroyed by household soap which bursts its protective bubble."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Hospital disinfectants, alcohols, heat, povidone-iodine, and ultraviolet-C (UV-C) irradiation are also effective disinfection methods for surfaces."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"SARS-CoV-2 is closely related to the original SARS-CoV."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"It is thought to have an animal (zoonotic) origin."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Genetic analysis has revealed that the coronavirus genetically clusters with the genus Betacoronavirus, in subgenus Sarbecovirus (lineage B) together with two bat-derived strains."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"It is 96% identical at the whole genome level to other bat coronavirus samples (BatCov RaTG13)."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"The structural proteins of SARS-CoV-2 include membrane glycoprotein (M), envelope protein (E), nucleocapsid protein (N), and the spike protein (S)."
+  },
+  {
+    "language":"en",
+    "section":"Cause > Virology",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"The M protein of SARS-CoV-2 is about 98% similar to the M protein of bat SARS-CoV, maintains around 98% homology with pangolin SARS-CoV, and has 90% homology with the M protein of SARS-CoV; whereas, the similarity is only around 38% with the M protein of MERS-CoV."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The many thousands of SARS-CoV-2 variants are grouped into either clades or lineages."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The WHO, in collaboration with partners, expert networks, national authorities, institutions and researchers, have established nomenclature systems for naming and tracking SARS-CoV-2 genetic lineages by GISAID, Nextstrain and Pango."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The expert group convened by the WHO recommended the labelling of variants using letters of the Greek alphabet, for example, Alpha, Beta, Delta, and Gamma, giving the justification that they \"will be easier and more practical to discussed by non-scientific audiences\"."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Nextstrain divides the variants into five clades (19A, 19B, 20A, 20B, and 20C), while GISAID divides them into seven (L, O, V, S, G, GH, and GR)."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"The Pango tool groups variants into lineages, with many circulating lineages being classed under the B.1 lineage."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Several notable variants of SARS-CoV-2 emerged throughout 2020."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Cluster 5 emerged among minks and mink farmers in Denmark."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"After strict quarantines and the slaughter of all the country's mink, the cluster was assessed to no longer be circulating among humans in Denmark as of 1 February 2021."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"As of December 2021, there are five dominant variants of SARS-CoV-2 spreading among global populations: the Alpha variant (B.1.1.7, formerly called the UK variant), first found in London and Kent, the Beta variant (B.1.351, formerly called the South Africa variant), the Gamma variant (P.1, formerly called the Brazil variant), the Delta variant (B.1.617.2, formerly called the India variant), and the Omicron variant (B.1.1.529), which had spread to 57 countries as of 7 December."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"On 19 December 2023, the WHO declared that another distinctive variant, JN.1, had emerged as a \"variant of interest\"."
+  },
+  {
+    "language":"en",
+    "section":"Cause > SARS-CoV-2 variants",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Though the WHO expected an increase in cases globally, particularly for countries entering winter, the overall global health risk was considered low."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The SARS-CoV-2 virus can infect a wide range of cells and systems of the body."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"COVID‑19 is most known for affecting the upper respiratory tract (sinuses, nose, and throat) and the lower respiratory tract (windpipe and lungs)."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The lungs are the organs most affected by COVID‑19 because the virus accesses host cells via the receptor for the enzyme angiotensin-converting enzyme 2 (ACE2), which is most abundant on the surface of type II alveolar cells of the lungs."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The virus uses a special surface glycoprotein called a \"spike\" to connect to the ACE2 receptor and enter the host cell."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Respiratory tract",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Following viral entry, COVID‑19 infects the ciliated epithelium of the nasopharynx and upper airways."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Respiratory tract",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Autopsies of people who died of COVID‑19 have found diffuse alveolar damage, and lymphocyte-containing inflammatory infiltrates within the lung."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Respiratory tract",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"From the CT scans of COVID-19 infected lungs, white patches were observed containing fluid known as ground-glass opacity (GGO) or simply ground glass."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Respiratory tract",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"This tended to correlate with the clear jelly liquid found in lung autopsies of people who died of COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Respiratory tract",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"One possibility addressed in medical research is that hyuralonic acid (HA) could be the leading factor for this observation of the clear jelly liquid found in the lungs, in what could be hyuralonic storm, in conjunction with cytokine storm."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"One common symptom, loss of smell, results from infection of the support cells of the olfactory epithelium, with subsequent damage to the olfactory neurons."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The involvement of both the central and peripheral nervous system in COVID‑19 has been reported in many medical publications."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"It is clear that many people with COVID-19 exhibit neurological or mental health issues."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The virus is not detected in the central nervous system (CNS) of the majority of people with COVID-19 who also have neurological issues."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"However, SARS-CoV-2 has been detected at low levels in the brains of those who have died from COVID‑19, but these results need to be confirmed."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"While virus has been detected in cerebrospinal fluid of autopsies, the exact mechanism by which it invades the CNS remains unclear and may first involve invasion of peripheral nerves given the low levels of ACE2 in the brain."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"The virus may also enter the bloodstream from the lungs and cross the blood–brain barrier to gain access to the CNS, possibly within an infected white blood cell."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Research conducted when Alpha was the dominant variant has suggested COVID-19 may cause brain damage."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Later research showed that all variants studied (including Omicron) killed brain cells, but the exact cells killed varied by variant."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"It is unknown if such damage is temporary or permanent."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Observed individuals infected with COVID-19 (most with mild cases) experienced an additional 0.2% to 2% of brain tissue lost in regions of the brain connected to the sense of smell compared with uninfected individuals, and the overall effect on the brain was equivalent on average to at least one extra year of normal ageing; infected individuals also scored lower on several cognitive tests."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Nervous system",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"All effects were more pronounced among older ages."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Gastrointestinal tract",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The virus also affects gastrointestinal organs as ACE2 is abundantly expressed in the glandular cells of gastric, duodenal and rectal epithelium as well as endothelial cells and enterocytes of the small intestine."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The virus can cause acute myocardial injury and chronic damage to the cardiovascular system."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"An acute cardiac injury was found in 12% of infected people admitted to the hospital in Wuhan, China, and is more frequent in severe disease."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Rates of cardiovascular symptoms are high, owing to the systemic inflammatory response and immune system disorders during disease progression, but acute myocardial injuries may also be related to ACE2 receptors in the heart."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"ACE2 receptors are highly expressed in the heart and are involved in heart function."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"A high incidence of thrombosis and venous thromboembolism occurs in people transferred to intensive care units with COVID‑19 infections, and may be related to poor prognosis."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Blood vessel dysfunction and clot formation (as suggested by high D-dimer levels caused by blood clots) may have a significant role in mortality, incidents of clots leading to pulmonary embolisms, and ischaemic events (strokes) within the brain found as complications leading to death in people infected with COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Infection may initiate a chain of vasoconstrictive responses within the body, including pulmonary vasoconstriction – a possible mechanism in which oxygenation decreases during pneumonia."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Furthermore, damage of arterioles and capillaries was found in brain tissue samples of people who died from COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"COVID‑19 may also cause substantial structural changes to blood cells, sometimes persisting for months after hospital discharge."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Cardiovascular system",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"A low level of blood lymphocytess may result from the virus acting through ACE2-related entry into lymphocytes."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Kidneys",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Another common cause of death is complications related to the kidneys."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Kidneys",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Early reports show that up to 30% of people hospitalised with COVID-19 both in China and in New York have experienced some injury to their kidneys, including some persons with no previous kidney problems."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Although SARS-CoV-2 has a tropism for ACE2-expressing epithelial cells of the respiratory tract, people with severe COVID‑19 have symptoms of systemic hyperinflammation."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Clinical laboratory findings of elevated IL‑2, IL‑6, IL‑7, as well as the following suggest an underlying immunopathology:"
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Granulocyte-macrophage colony-stimulating factor (GM‑CSF)"
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Interferon gamma-induced protein 10 (IP‑10)"
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Monocyte chemoattractant protein 1 (MCP1)"
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Macrophage inflammatory protein 1‑alpha (MIP‑1‑alpha)"
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"Tumour necrosis factor (TNF‑α) indicative of cytokine release syndrome (CRS)"
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"Interferon alpha plays a complex, Janus-faced role in the pathogenesis of COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":6,
+    "sentence_index":1,
+    "sentence_text":"Although it promotes the elimination of virus-infected cells, it also upregulates the expression of ACE-2, thereby facilitating the SARS-Cov2 virus to enter cells and to replicate."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":6,
+    "sentence_index":2,
+    "sentence_text":"A competition of negative feedback loops (via protective effects of interferon alpha) and positive feedback loops (via upregulation of ACE-2) is assumed to determine the fate of people with COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"Additionally, people with COVID‑19 and acute respiratory distress syndrome (ARDS) have classical serum biomarkers of CRS, including elevated C-reactive protein (CRP), lactate dehydrogenase (LDH), D-dimer, and ferritin."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"Systemic inflammation results in vasodilation, allowing inflammatory lymphocytic and monocytic infiltration of the lung and the heart."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":8,
+    "sentence_index":1,
+    "sentence_text":"In particular, pathogenic GM-CSF-secreting T cells were shown to correlate with the recruitment of inflammatory IL-6-secreting monocytes and severe lung pathology in people with COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Immunopathology",
+    "paragraph_index":8,
+    "sentence_index":2,
+    "sentence_text":"Lymphocytic infiltrates have also been reported at autopsy."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Multiple viral and host factors affect the pathogenesis of the virus."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The S-protein, otherwise known as the spike protein, is the viral component that attaches to the host receptor via the ACE2 receptors."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"It includes two subunits: S1 and S2."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"S1 determines the virus-host range and cellular tropism via the receptor-binding domain."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"S2 mediates the membrane fusion of the virus to its potential cell host via the H1 and HR2, which are heptad repeat regions."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Studies have shown that S1 domain induced IgG and IgA antibody levels at a much higher capacity."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"It is the focus spike proteins expression that are involved in many effective COVID‑19 vaccines."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"The M protein is the viral protein responsible for the transmembrane transport of nutrients."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"It is the cause of the bud release and the formation of the viral envelope."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Virus proteins",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"The N and E protein are accessory proteins that interfere with the host's immune response."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Host factors",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Human angiotensin converting enzyme 2 (hACE2) is the host factor that SARS-CoV-2 virus targets causing COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Host factors",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Theoretically, the usage of angiotensin receptor blockers (ARB) and ACE inhibitors upregulating ACE2 expression might increase morbidity with COVID‑19, though animal data suggest some potential protective effect of ARB; however no clinical studies have proven susceptibility or outcomes."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Host factors",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Until further data is available, guidelines and recommendations for people with hypertension remain."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Host factors",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The effect of the virus on ACE2 cell surfaces leads to leukocytic infiltration, increased blood vessel permeability, alveolar wall permeability, as well as decreased secretion of lung surfactants."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Host factors",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"These effects cause the majority of the respiratory symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Host factors",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"However, the aggravation of local inflammation causes a cytokine storm eventually leading to a systemic inflammatory response syndrome."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Host factors",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Among healthy adults not exposed to SARS-CoV-2, about 35% have CD4+ T cells that recognise the SARS-CoV-2 S protein (particularly the S2 subunit) and about 50% react to other proteins of the virus, suggesting cross-reactivity from previous common colds caused by other coronaviruses."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Viral and host factors > Host factors",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"It is unknown whether different persons use similar antibody genes in response to COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Host cytokine response",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The severity of the inflammation can be attributed to the severity of what is known as the cytokine storm."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Host cytokine response",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Levels of interleukin 1B, interferon-gamma, interferon-inducible protein 10, and monocyte chemoattractant protein 1 were all associated with COVID‑19 disease severity."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Host cytokine response",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Treatment has been proposed to combat the cytokine storm as it remains to be one of the leading causes of morbidity and mortality in COVID‑19 disease."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Host cytokine response",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"A cytokine storm is due to an acute hyperinflammatory response that is responsible for clinical illness in an array of diseases but in COVID‑19, it is related to worse prognosis and increased fatality."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Host cytokine response",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The storm causes acute respiratory distress syndrome, blood clotting events such as strokes, myocardial infarction, encephalitis, acute kidney injury, and vasculitis."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Host cytokine response",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"The production of IL-1, IL-2, IL-6, TNF-alpha, and interferon-gamma, all crucial components of normal immune responses, inadvertently become the causes of a cytokine storm."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Host cytokine response",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"The cells of the central nervous system, the microglia, neurons, and astrocytes, are also involved in the release of pro-inflammatory cytokines affecting the nervous system, and effects of cytokine storms toward the CNS are not uncommon."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"There are many unknowns for pregnant women during the COVID-19 pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Given that they are prone to have complications and severe disease infection with other types of coronaviruses, they have been identified as a vulnerable group and advised to take supplementary preventive measures."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Physiological responses to pregnancy can include:"
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Immunological: The immunological response to COVID-19, like other viruses, depends on a working immune system."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"It adapts during pregnancy to allow the development of the foetus whose genetic load is only partially shared with their mother, leading to a different immunological reaction to infections during the course of pregnancy."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Respiratory: Many factors can make pregnant women more vulnerable to hard respiratory infections."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"One of them is the total reduction of the lungs' capacity and inability to clear secretions."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Coagulation: During pregnancy, there are higher levels of circulating coagulation factors, and the pathogenesis of SARS-CoV-2 infection can be implicated."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"The thromboembolic events with associated mortality are a risk for pregnant women."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"However, from the evidence base, it is difficult to conclude whether pregnant women are at increased risk of grave consequences of this virus."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"In addition to the above, other clinical studies have proved that SARS-CoV-2 can affect the period of pregnancy in different ways."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":6,
+    "sentence_index":1,
+    "sentence_text":"On the one hand, there is little evidence of its impact up to 12 weeks gestation."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":6,
+    "sentence_index":2,
+    "sentence_text":"On the other hand, COVID-19 infection may cause increased rates of unfavourable outcomes in the course of the pregnancy."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":6,
+    "sentence_index":3,
+    "sentence_text":"Some examples of these could be foetal growth restriction, preterm birth, and perinatal mortality, which refers to the foetal death past 22 or 28 completed weeks of pregnancy as well as the death among live-born children up to seven completed days of life."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":6,
+    "sentence_index":4,
+    "sentence_text":"For preterm birth, a 2023 review indicates that there appears to be a correlation with COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"Unvaccinated women in later stages of pregnancy with COVID-19 are more likely than other people to need very intensive care."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":7,
+    "sentence_index":1,
+    "sentence_text":"Babies born to mothers with COVID-19 are more likely to have breathing problems."
+  },
+  {
+    "language":"en",
+    "section":"Pathophysiology > Pregnancy response",
+    "paragraph_index":7,
+    "sentence_index":2,
+    "sentence_text":"Pregnant women are strongly encouraged to get vaccinated."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"COVID‑19 can provisionally be diagnosed on the basis of symptoms and confirmed using reverse transcription polymerase chain reaction (RT-PCR) or other nucleic acid testing of infected secretions."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Along with laboratory testing, chest CT scans may be helpful to diagnose COVID‑19 in individuals with a high clinical suspicion of infection."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Detection of a past infection is possible with serological tests, which detect antibodies produced by the body in response to the infection."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Viral testing",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The standard methods of testing for presence of SARS-CoV-2 are nucleic acid tests, which detects the presence of viral RNA fragments."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Viral testing",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"As these tests detect RNA but not infectious virus, its \"ability to determine duration of infectivity of patients is limited\"."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Viral testing",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The test is typically done on respiratory samples obtained by a nasopharyngeal swab; however, a nasal swab or sputum sample may also be used."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Viral testing",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Results are generally available within hours."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Viral testing",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"The WHO has published several testing protocols for the disease."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Viral testing",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Several laboratories and companies have developed serological tests, which detect antibodies produced by the body in response to infection."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Viral testing",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Some have been evaluated by Public Health England and approved for use in the UK."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Viral testing",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"The University of Oxford's CEBM has pointed to mounting evidence that \"a good proportion of 'new' mild cases and people re-testing positives after quarantine or discharge from hospital are not infectious, but are simply clearing harmless virus particles which their immune system has efficiently dealt with\" and have called for \"an international effort to standardize and periodically calibrate testing\" In September 2020, the UK government issued \"guidance for procedures to be implemented in laboratories to provide assurance of positive SARS-CoV-2 RNA results during periods of low prevalence, when there is a reduction in the predictive value of positive test results\"."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Imaging",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Chest CT scans may be helpful to diagnose COVID‑19 in individuals with a high clinical suspicion of infection but are not recommended for routine screening."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Imaging",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Bilateral multilobar ground-glass opacities with a peripheral, asymmetric, and posterior distribution are common in early infection."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Imaging",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Subpleural dominance, crazy paving (lobular septal thickening with variable alveolar filling), and consolidation may appear as the disease progresses."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Imaging",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Characteristic imaging features on chest radiographs and computed tomography (CT) of people who are symptomatic include asymmetric peripheral ground-glass opacities without pleural effusions."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Imaging",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Many groups have created COVID‑19 datasets that include imagery such as the Italian Radiological Society which has compiled an international online database of imaging findings for confirmed cases."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Imaging",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Due to overlap with other infections such as adenovirus, imaging without confirmation by rRT-PCR is of limited specificity in identifying COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Imaging",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"A large study in China compared chest CT results to PCR and demonstrated that though imaging is less specific for the infection, it is faster and more sensitive."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Coding",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"In late 2019, the WHO assigned emergency ICD-10 disease codes U07.1 for deaths from lab-confirmed SARS-CoV-2 infection and U07.2 for deaths from clinically or epidemiologically diagnosed COVID‑19 without lab-confirmed SARS-CoV-2 infection."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The main pathological findings at autopsy are:"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Macroscopy: pericarditis, lung consolidation and pulmonary oedema"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Lung findings:"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Minor serous exudation, minor fibrin exudation"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Pulmonary oedema, pneumocyte hyperplasia, large atypical pneumocytes, interstitial inflammation with lymphocytic infiltration and multinucleated giant cell formation"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"Diffuse alveolar damage (DAD) with diffuse alveolar exudates."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":5,
+    "sentence_index":1,
+    "sentence_text":"DAD is the cause of acute respiratory distress syndrome (ARDS) and severe hypoxaemia."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"Organisation of exudates in alveolar cavities and pulmonary interstitial fibrosis"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"Plasmocytosis in bronchoalveolar lavage (BAL)"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"Blood and vessels: disseminated intravascular coagulation (DIC); leukoerythroblastic reaction, endotheliitis, hemophagocytosis"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":9,
+    "sentence_index":0,
+    "sentence_text":"Heart: cardiac muscle cell necrosis"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":10,
+    "sentence_index":0,
+    "sentence_text":"Liver: microvesicular steatosis"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":11,
+    "sentence_index":0,
+    "sentence_text":"Nose: shedding of olfactory epithelium"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":12,
+    "sentence_index":0,
+    "sentence_text":"Brain: infarction"
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":13,
+    "sentence_index":0,
+    "sentence_text":"Kidneys: acute tubular damage."
+  },
+  {
+    "language":"en",
+    "section":"Diagnosis > Pathology",
+    "paragraph_index":14,
+    "sentence_index":0,
+    "sentence_text":"Spleen: white pulp depletion."
+  },
+  {
+    "language":"en",
+    "section":"Prevention",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Preventive measures to reduce the chances of infection include getting vaccinated, staying at home, wearing a mask in public, avoiding crowded places, keeping distance from others, ventilating indoor spaces, managing potential exposure durations, washing hands with soap and water often and for at least 20 seconds, practising good respiratory hygiene, and avoiding touching the eyes, nose, or mouth with unwashed hands."
+  },
+  {
+    "language":"en",
+    "section":"Prevention",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Those diagnosed with COVID‑19 or who believe they may be infected are advised by the CDC to stay home except to get medical care, call ahead before visiting a healthcare provider, wear a face mask before entering the healthcare provider's office and when in any room or vehicle with another person, cover coughs and sneezes with a tissue, regularly wash hands with soap and water and avoid sharing personal household items."
+  },
+  {
+    "language":"en",
+    "section":"Prevention",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"The first COVID‑19 vaccine was granted regulatory approval on 2 December 2020 by the UK medicines regulator MHRA."
+  },
+  {
+    "language":"en",
+    "section":"Prevention",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"It was evaluated for emergency use authorisation (EUA) status by the US FDA, and in several other countries."
+  },
+  {
+    "language":"en",
+    "section":"Prevention",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Initially, the US National Institutes of Health guidelines do not recommend any medication for prevention of COVID‑19, before or after exposure to the SARS-CoV-2 virus, outside the setting of a clinical trial."
+  },
+  {
+    "language":"en",
+    "section":"Prevention",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Without a vaccine, other prophylactic measures, or effective treatments, a key part of managing COVID‑19 is trying to decrease and delay the epidemic peak, known as \"flattening the curve\"."
+  },
+  {
+    "language":"en",
+    "section":"Prevention",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"This is done by slowing the infection rate to decrease the risk of health services being overwhelmed, allowing for better treatment of active cases, and delaying additional cases until effective treatments or a vaccine become available."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The CDC states that avoiding crowded indoor spaces reduces the risk of COVID-19 infection."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"When indoors, increasing the rate of air change, decreasing recirculation of air and increasing the use of outdoor air can reduce transmission."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The WHO recommends ventilation and air filtration in public spaces to help clear out infectious aerosols."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Exhaled respiratory particles can build-up within enclosed spaces with inadequate ventilation."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The risk of COVID‑19 infection increases especially in spaces where people engage in physical exertion or raise their voice (e.g., exercising, shouting, singing) as this increases exhalation of respiratory droplets."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Prolonged exposure to these conditions, typically more than 15 minutes, leads to higher risk of infection."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Displacement ventilation with large natural inlets can move stale air directly to the exhaust in laminar flow while significantly reducing the concentration of droplets and particles."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Passive ventilation reduces energy consumption and maintenance costs but may lack controllability and heat recovery."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Displacement ventilation can also be achieved mechanically with higher energy and maintenance costs."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"The use of large ducts and openings helps to prevent mixing in closed environments."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Indoor ventilation and avoiding crowded indoor spaces",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"Recirculation and mixing should be avoided because recirculation prevents dilution of harmful particles and redistributes possibly contaminated air, and mixing increases the concentration and range of infectious particles and keeps larger particles in the air."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Hand-washing and hygiene",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Thorough hand hygiene after any cough or sneeze is required."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Hand-washing and hygiene",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The WHO also recommends that individuals wash hands often with soap and water for at least 20 seconds, especially after going to the toilet or when hands are visibly dirty, before eating and after blowing one's nose."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Hand-washing and hygiene",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"When soap and water are not available, the CDC recommends using an alcohol-based hand sanitiser with at least 60% alcohol."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Hand-washing and hygiene",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"For areas where commercial hand sanitisers are not readily available, the WHO provides two formulations for local production."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Hand-washing and hygiene",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"In these formulations, the antimicrobial activity arises from ethanol or isopropanol."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Hand-washing and hygiene",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Hydrogen peroxide is used to help eliminate bacterial spores in the alcohol; it is \"not an active substance for hand antisepsis\"."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Hand-washing and hygiene",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Glycerol is added as a humectant."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Social distancing",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Social distancing (also known as physical distancing) includes infection control actions intended to slow the spread of the disease by minimising close contact between individuals."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Social distancing",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Methods include quarantines; travel restrictions; and the closing of schools, workplaces, stadiums, theatres, or shopping centres."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Social distancing",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Individuals may apply social distancing methods by staying at home, limiting travel, avoiding crowded areas, using no-contact greetings, and physically distancing themselves from others."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Social distancing",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In 2020, outbreaks occurred in prisons due to crowding and an inability to enforce adequate social distancing."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Social distancing",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"In the United States, the prisoner population is ageing and many of them are at high risk for poor outcomes from COVID‑19 due to high rates of coexisting heart and lung disease, and poor access to high-quality healthcare."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"After being expelled from the body, coronaviruses can survive on surfaces for hours to days."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"If a person touches the dirty surface, they may deposit the virus at the eyes, nose, or mouth where it can enter the body and cause infection."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Evidence indicates that contact with infected surfaces is not the main driver of COVID‑19, leading to recommendations for optimised disinfection procedures to avoid issues such as the increase of antimicrobial resistance through the use of inappropriate cleaning products and processes."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Deep cleaning and other surface sanitation has been criticised as hygiene theatre, giving a false sense of security against something primarily spread through the air."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The amount of time that the virus can survive depends significantly on the type of surface, the temperature, and the humidity."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Coronaviruses die very quickly when exposed to the UV light in sunlight."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Like other enveloped viruses, SARS-CoV-2 survives longest when the temperature is at room temperature or lower, and when the relative humidity is low (<50%)."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"On many surfaces, including glass, some types of plastic, stainless steel, and skin, the virus can remain infective for several days indoors at room temperature, or even about a week under ideal conditions."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"On some surfaces, including cotton fabric and copper, the virus usually dies after a few hours."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"The virus dies faster on porous surfaces than on non-porous surfaces due to capillary action within pores and faster aerosol droplet evaporation."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"However, of the many surfaces tested, two with the longest survival times are N95 respirator masks and surgical masks, both of which are considered porous surfaces."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"The CDC says that in most situations, cleaning surfaces with soap or detergent, not disinfecting, is enough to reduce risk of transmission."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"The CDC recommends that if a COVID‑19 case is suspected or confirmed at a facility such as an office or day care, all areas such as offices, bathrooms, common areas, shared electronic equipment like tablets, touch screens, keyboards, remote controls, and ATMs used by the ill persons should be disinfected."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"Surfaces may be decontaminated with the following:"
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"62–71% ethanol"
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"50–100% isopropanol"
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"1% sodium hypochlorite"
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"5% hydrogen peroxide"
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"2–7.5% povidone-iodine"
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":9,
+    "sentence_index":0,
+    "sentence_text":"50–200 ppm hypochlorous acid"
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":10,
+    "sentence_index":0,
+    "sentence_text":"Other solutions, such as benzalkonium chloride and chlorhexidine gluconate, are less effective."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Surface cleaning",
+    "paragraph_index":10,
+    "sentence_index":1,
+    "sentence_text":"Ultraviolet germicidal irradiation may also be used, although popular devices require 5–10 min exposure and may deteriorate some materials over time."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Self-isolation",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Self-isolation at home has been recommended for those diagnosed with COVID‑19 and those who suspect they have been infected."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Self-isolation",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Health agencies have issued detailed instructions for proper self-isolation."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Self-isolation",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Many governments have mandated or recommended self-quarantine for entire populations."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Self-isolation",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The strongest self-quarantine instructions have been issued to those in high-risk groups."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > Self-isolation",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Those who may have been exposed to someone with COVID‑19 and those who have recently travelled to a country or region with the widespread transmission have been advised to self-quarantine for 14 days from the time of last possible exposure."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > International travel-related control measures",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"A 2021 Cochrane rapid review found that based upon low-certainty evidence, international travel-related control measures such as restricting cross-border travel may help to contain the spread of COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > International travel-related control measures",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Additionally, symptom\/exposure-based screening measures at borders may miss many positive cases."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > International travel-related control measures",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"While test-based border screening measures may be more effective, it could also miss many positive cases if only conducted upon arrival without follow-up."
+  },
+  {
+    "language":"en",
+    "section":"Prevention > International travel-related control measures",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The review concluded that a minimum 10-day quarantine may be beneficial in preventing the spread of COVID‑19 and may be more effective if combined with an additional control measure like border screening."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The severity of COVID‑19 varies."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The disease may take a mild course with few or no symptoms, resembling other common upper respiratory diseases such as the common cold."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"In 3–4% of cases (7.4% for those over age 65) symptoms are severe enough to cause hospitalisation."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Mild cases typically recover within two weeks, while those with severe or critical diseases may take three to six weeks to recover."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Among those who have died, the time from symptom onset to death has ranged from two to eight weeks."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"The Italian Istituto Superiore di Sanità reported that the median time between the onset of symptoms and death was twelve days, with seven being hospitalised."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"However, people transferred to an ICU had a median time of ten days between hospitalisation and death."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Abnormal sodium levels during hospitalisation with COVID-19 are associated with poor prognoses: high sodium with a greater risk of death, and low sodium with an increased chance of needing ventilator support."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"Prolonged prothrombin time and elevated C-reactive protein levels on admission to the hospital are associated with severe course of COVID‑19 and with a transfer to ICU."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Some early studies suggest 10% to 20% of people with COVID‑19 will experience symptoms lasting longer than a month."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"A majority of those who were admitted to hospital with severe disease report long-term problems including fatigue and shortness of breath."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"On 30 October 2020, WHO chief Tedros Adhanom warned that \"to a significant number of people, the COVID virus poses a range of serious long-term effects\"."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"He has described the vast spectrum of COVID‑19 symptoms that fluctuate over time as \"really concerning\"."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"They range from fatigue, a cough and shortness of breath, to inflammation and injury of major organs – including the lungs and heart, and also neurological and psychologic effects."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"Symptoms often overlap and can affect any system in the body."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"Infected people have reported cyclical bouts of fatigue, headaches, months of complete exhaustion, mood swings, and other symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":1,
+    "sentence_index":7,
+    "sentence_text":"Tedros therefore concluded that a strategy of achieving herd immunity by infection, rather than vaccination, is \"morally unconscionable and unfeasible\"."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"In terms of hospital readmissions about 9% of 106,000 individuals had to return for hospital treatment within two months of discharge."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"The average to readmit was eight days since first hospital visit."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"There are several risk factors that have been identified as being a cause of multiple admissions to a hospital facility."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Among these are advanced age (above 65 years of age) and presence of a chronic condition such as diabetes, COPD, heart failure or chronic kidney disease."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"According to scientific reviews smokers are more likely to require intensive care or die compared to non-smokers."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Acting on the same ACE2 pulmonary receptors affected by smoking, air pollution has been correlated with the disease."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"Short-term and chronic exposure to air pollution seems to enhance morbidity and mortality from COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"Pre-existing heart and lung diseases and also obesity, especially in conjunction with fatty liver disease, contributes to an increased health risk of COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"It is also assumed that those that are immunocompromised are at higher risk of getting severely sick from SARS-CoV-2."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"One research study that looked into the COVID‑19 infections in hospitalised kidney transplant recipients found a mortality rate of 11%."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"Men with untreated hypogonadism were 2.4 times more likely than men with eugonadism to be hospitalised if they contracted COVID-19; Hypogonad men treated with testosterone were less likely to be hospitalised for COVID-19 than men who were not treated for hypogonadism."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Genetic risk factors",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Genetics plays an important role in the ability to fight off Covid."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Genetic risk factors",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"For instance, those that do not produce detectable type I interferons or produce auto-antibodies against these may get much sicker from COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Genetic risk factors",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Genetic screening is able to detect interferon effector genes."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Genetic risk factors",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Some genetic variants are risk factors in specific populations."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Genetic risk factors",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"For instance, an allele of the DOCK2 gene (dedicator of cytokinesis 2 gene) is a common risk factor in Asian populations but much less common in Europe."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Genetic risk factors",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"The mutation leads to lower expression of DOCK2 especially in younger people with severe COVID-19 infections."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Genetic risk factors",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"In fact, many other genes and genetic variants have been found that determine the outcome of SARS-CoV-2 infections."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Children",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"While very young children have experienced lower rates of infection, older children have a rate of infection that is similar to the population as a whole."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Children",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Children are likely to have milder symptoms and are at lower risk of severe disease than adults."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Children",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The CDC reports that in the US roughly a third of hospitalised children were admitted to the ICU, while a European multinational study of hospitalised children from June 2020, found that about 8% of children admitted to a hospital needed intensive care."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Children",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Four of the 582 children (0.7%) in the European study died, but the actual mortality rate may be \"substantially lower\" since milder cases that did not seek medical help were not included in the study."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Around 10% to 30% of non-hospitalised people with COVID-19 go on to develop long COVID."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"For those that do need hospitalisation, the incidence of long-term effects is over 50%."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Long COVID is an often severe multisystem disease with a large set of symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Common symptoms are fatigue, post-exertional malaise, cognitive issues, shortness of breath and pain."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"There are likely various, possibly coinciding, causes."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Organ damage from the acute infection can explain a part of the symptoms, but long COVID is also observed in people where organ damage seems to be absent."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"By a variety of mechanisms, the lungs are the organs most affected in COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"In people requiring hospital admission, up to 98% of CT scans performed show lung abnormalities after 28 days of illness even if they had clinically improved."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"People with advanced age, severe disease, prolonged ICU stays, or who smoke are more likely to have long-lasting effects, including pulmonary fibrosis."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Overall, approximately one-third of those investigated after four weeks will have findings of pulmonary fibrosis or reduced lung function as measured by DLCO, even in asymptomatic people, but with the suggestion of continuing improvement with the passing of more time."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"After severe disease, lung function can take anywhere from three months to a year or more to return to previous levels."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Long-term effects",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"The risks of cognitive deficit, dementia, psychotic disorders, and epilepsy or seizures persists at an increased level two years after infection."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The immune response by humans to SARS-CoV-2 virus occurs as a combination of the cell-mediated immunity and antibody production, just as with most other infections."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"B cells interact with T cells and begin dividing before selection into the plasma cell, partly on the basis of their affinity for antigen."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Since SARS-CoV-2 has been in the human population only since December 2019, it remains unknown if the immunity is long-lasting in people who recover from the disease."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The presence of neutralising antibodies in blood strongly correlates with protection from infection, but the level of neutralising antibody declines with time."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Those with asymptomatic or mild disease had undetectable levels of neutralising antibody two months after infection."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"In another study, the level of neutralising antibodies fell four-fold one to four months after the onset of symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"However, the lack of antibodies in the blood does not mean antibodies will not be rapidly produced upon reexposure to SARS-CoV-2."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Memory B cells specific for the spike and nucleocapsid proteins of SARS-CoV-2 last for at least six months after the appearance of symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"As of August 2021, reinfection with COVID‑19 was possible but uncommon."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The first case of reinfection was documented in August 2020."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"A systematic review found 17 cases of confirmed reinfection in medical literature as of May 2021."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"With the Omicron variant, as of 2022, reinfections have become common, albeit it is unclear how common."
+  },
+  {
+    "language":"en",
+    "section":"Prognosis and risk factors > Immunity",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"COVID-19 reinfections are thought to likely be less severe than primary infections, especially if one was previously infected by the same variant."
+  },
+  {
+    "language":"en",
+    "section":"Mortality",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Several measures are commonly used to quantify mortality."
+  },
+  {
+    "language":"en",
+    "section":"Mortality",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"These numbers vary by region and over time and are influenced by the volume of testing, healthcare system quality, treatment options, time since the initial outbreak, and population characteristics such as age, sex, and overall health."
+  },
+  {
+    "language":"en",
+    "section":"Mortality",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The mortality rate reflects the number of deaths within a specific demographic group divided by the population of that demographic group."
+  },
+  {
+    "language":"en",
+    "section":"Mortality",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Consequently, the mortality rate reflects the prevalence as well as the severity of the disease within a given population."
+  },
+  {
+    "language":"en",
+    "section":"Mortality",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Mortality rates are highly correlated to age, with relatively low rates for young people and relatively high rates among the elderly."
+  },
+  {
+    "language":"en",
+    "section":"Mortality",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"In fact, one relevant factor of mortality rates is the age structure of the countries' populations."
+  },
+  {
+    "language":"en",
+    "section":"Mortality",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"For example, the case fatality rate for COVID‑19 is lower in India than in the US since India's younger population represents a larger percentage than in the US."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Case fatality rate",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The case fatality rate (CFR) reflects the number of deaths divided by the number of diagnosed cases within a given time interval."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Case fatality rate",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Based on Johns Hopkins University statistics, the global death-to-case ratio is 1.02% (6,881,955\/676,609,955) as of 10 March 2023."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Case fatality rate",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The number varies by region."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"A key metric in gauging the severity of COVID‑19 is the infection fatality rate (IFR), also referred to as the infection fatality ratio or infection fatality risk."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"This metric is calculated by dividing the total number of deaths from the disease by the total number of infected individuals; hence, in contrast to the CFR, the IFR incorporates asymptomatic and undiagnosed infections as well as reported cases."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Estimates",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"A December 2020 systematic review and meta-analysis estimated that population IFR during the first wave of the pandemic was about 0.5% to 1% in many locations (including France, Netherlands, New Zealand, and Portugal), 1% to 2% in other locations (Australia, England, Lithuania, and Spain), and exceeded 2% in Italy."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Estimates",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"That study also found that most of these differences in IFR reflected corresponding differences in the age composition of the population and age-specific infection rates; in particular, the metaregression estimate of IFR is very low for children and younger adults (e.g., 0.002% at age 10 and 0.01% at age 25) but increases progressively to 0.4% at age 55, 1.4% at age 65, 4.6% at age 75, and 15% at age 85."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Estimates",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"These results were also highlighted in a December 2020 report issued by the WHO."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Estimates",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"An analysis of those IFR rates indicates that COVID‑19 is hazardous not only for the elderly but also for middle-aged adults, for whom the infection fatality rate of COVID-19 is two orders of magnitude greater than the annualised risk of a fatal automobile accident and far more dangerous than seasonal influenza."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Earlier estimates of IFR",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"At an early stage of the pandemic, the World Health Organization reported estimates of IFR between 0.3% and 1%."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Earlier estimates of IFR",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"On 2 July, The WHO's chief scientist reported that the average IFR estimate presented at a two-day WHO expert forum was about 0.6%."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Earlier estimates of IFR",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"In August, the WHO found that studies incorporating data from broad serology testing in Europe showed IFR estimates converging at approximately 0.5–1%."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Earlier estimates of IFR",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Firm lower limits of IFRs have been established in a number of locations such as New York City and Bergamo in Italy since the IFR cannot be less than the population fatality rate."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Earlier estimates of IFR",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"(After sufficient time however, people can get reinfected)."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Earlier estimates of IFR",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"As of 10 July, in New York City, with a population of 8.4 million, 23,377 individuals (18,758 confirmed and 4,619 probable) have died with COVID‑19 (0.3% of the population)."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Earlier estimates of IFR",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Antibody testing in New York City suggested an IFR of ≈0.9%, and ≈1.4%."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Earlier estimates of IFR",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"In Bergamo province, 0.6% of the population has died."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Infection fatality rate > Earlier estimates of IFR",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"In September 2020, the U.S. Centers for Disease Control and Prevention (CDC) reported preliminary estimates of age-specific IFRs for public health planning purposes."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"COVID‑19 case fatality rates are higher among men than women in most countries."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"However, in a few countries like India, Nepal, Vietnam, and Slovenia the fatality cases are higher in women than men."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Globally, men are more likely to be admitted to the ICU and more likely to die."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"One meta-analysis found that globally, men were more likely to get COVID‑19 than women; there were approximately 55 men and 45 women per 100 infections (CI: 51.43–56.58)."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The Chinese Center for Disease Control and Prevention reported the death rate was 2.8% for men and 1.7% for women."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Later reviews in June 2020 indicated that there is no significant difference in susceptibility or in CFR between genders."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"One review acknowledges the different mortality rates in Chinese men, suggesting that it may be attributable to lifestyle choices such as smoking and drinking alcohol rather than genetic factors."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Smoking, which in some countries like China is mainly a male activity, is a habit that contributes to increasing significantly the case fatality rates among men."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"Sex-based immunological differences, lesser prevalence of smoking in women and men developing co-morbid conditions such as hypertension at a younger age than women could have contributed to the higher mortality in men."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"In Europe as of February 2020, 57% of the infected people were men and 72% of those died with COVID‑19 were men."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"As of April 2020, the US government is not tracking sex-related data of COVID‑19 infections."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Sex differences",
+    "paragraph_index":1,
+    "sentence_index":7,
+    "sentence_text":"Research has shown that viral illnesses like Ebola, HIV, influenza and SARS affect men and women differently."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"In the US, a greater proportion of deaths due to COVID‑19 have occurred among African Americans and other minority groups."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Structural factors that prevent them from practising social distancing include their concentration in crowded substandard housing and in \"essential\" occupations such as retail grocery workers, public transit employees, health-care workers and custodial staff."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Greater prevalence of lacking health insurance and care of underlying conditions such as diabetes, hypertension, and heart disease also increase their risk of death."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Similar issues affect Native American and Latino communities."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"On the one hand, in the Dominican Republic there is a clear example of both gender and ethnic inequality."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"In this Latin American territory, there is great inequality and precariousness that especially affects Dominican women, with greater emphasis on those of Haitian descent."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"According to a US health policy non-profit, 34% of American Indian and Alaska Native People (AIAN) non-elderly adults are at risk of serious illness compared to 21% of white non-elderly adults."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"The source attributes it to disproportionately high rates of many health conditions that may put them at higher risk as well as living conditions like lack of access to clean water."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Leaders have called for efforts to research and address the disparities."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"In the UK, a greater proportion of deaths due to COVID‑19 have occurred in those of a Black, Asian, and other ethnic minority background."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"More severe impacts upon patients including the relative incidence of the necessity of hospitalisation requirements, and vulnerability to the disease has been associated via DNA analysis to be expressed in genetic variants at chromosomal region 3, features that are associated with European Neanderthal heritage."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"That structure imposes greater risks that those affected will develop a more severe form of the disease."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"The findings are from Professor Svante Pääbo and researchers he leads at the Max Planck Institute for Evolutionary Anthropology and the Karolinska Institutet."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Ethnic differences",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"This admixture of modern human and Neanderthal genes is estimated to have occurred roughly between 50,000 and 60,000 years ago in Southern Europe."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Biological factors (immune response) and the general behaviour (habits) can strongly determine the consequences of COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Most of those who die of COVID‑19 have pre-existing (underlying) conditions, including hypertension, diabetes mellitus, and cardiovascular disease."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"According to March data from the United States, 89% of those hospitalised had preexisting conditions."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The Italian Istituto Superiore di Sanità reported that out of 8.8% of deaths where medical charts were available, 96.1% of people had at least one comorbidity with the average person having 3.4 diseases."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"According to this report the most common comorbidities are hypertension (66% of deaths), type 2 diabetes (29.8% of deaths), ischaemic heart disease (27.6% of deaths), atrial fibrillation (23.1% of deaths) and chronic renal failure (20.2% of deaths)."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Most critical respiratory comorbidities according to the US Centers for Disease Control and Prevention (CDC), are: moderate or severe asthma, pre-existing COPD, pulmonary fibrosis, and cystic fibrosis."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Evidence stemming from meta-analysis of several smaller research papers also suggests that smoking can be associated with worse outcomes."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"When someone with existing respiratory problems is infected with COVID‑19, they might be at greater risk for severe symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"COVID‑19 also poses a greater risk to people who misuse opioids and amphetamines, insofar as their drug use may have caused lung damage."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"In August 2020, the CDC issued a caution that tuberculosis (TB) infections could increase the risk of severe illness or death."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"The WHO recommended that people with respiratory symptoms be screened for both diseases, as testing positive for COVID‑19 could not rule out co-infections."
+  },
+  {
+    "language":"en",
+    "section":"Mortality > Comorbidities",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Some projections have estimated that reduced TB detection due to the pandemic could result in 6.3 million additional TB cases and 1.4 million TB-related deaths by 2025."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The virus is thought to be of natural animal origin, most likely through spillover infection."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"A joint-study conducted in early 2021 by the People's Republic of China and the World Health Organization indicated that the virus descended from a coronavirus that infects wild bats, and likely spread to humans through an intermediary wildlife host."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"There are several theories about where the index case originated and investigations into the origin of the pandemic are ongoing."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"According to articles published in July 2022 in Science, virus transmission into humans occurred through two spillover events in November 2019 and was likely due to live wildlife trade on the Huanan wet market in the city of Wuhan (Hubei, China)."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Doubts about the conclusions have mostly centered on the precise site of spillover."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Earlier phylogenetics estimated that SARS-CoV-2 arose in October or November 2019."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"A phylogenetic algorithm analysis suggested that the virus may have been circulating in Guangdong before Wuhan."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Most scientists believe the virus spilled into human populations through natural zoonosis, similar to the SARS-CoV-1 and MERS-CoV outbreaks, and consistent with other pandemics in human history."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"According to the Intergovernmental Panel on Climate Change several social and environmental factors including climate change, natural ecosystem destruction and wildlife trade increased the likelihood of such zoonotic spillover."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"One study made with the support of the European Union found climate change increased the likelihood of the pandemic by influencing distribution of bat species."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Available evidence suggests that the SARS-CoV-2 virus was originally harboured by bats, and spread to humans multiple times from infected wild animals at the Huanan Seafood Market in Wuhan in December 2019."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"A minority of scientists and some members of the U.S intelligence community believe the virus may have been unintentionally leaked from a laboratory such as the Wuhan Institute of Virology."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"The US intelligence community has mixed views on the issue, but overall agrees with the scientific consensus that the virus was not developed as a biological weapon and is unlikely to have been genetically engineered."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"There is no evidence SARS-CoV-2 existed in any laboratory prior to the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"The first confirmed human infections were in Wuhan."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"A study of the first 41 cases of confirmed COVID‑19, published in January 2020 in The Lancet, reported the earliest date of onset of symptoms as 1 December 2019."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"Official publications from the WHO reported the earliest onset of symptoms as 8 December 2019."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"Human-to-human transmission was confirmed by the WHO and Chinese authorities by 20 January 2020."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"According to official Chinese sources, these were mostly linked to the Huanan Seafood Wholesale Market, which also sold live animals."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":3,
+    "sentence_index":5,
+    "sentence_text":"In May 2020, George Gao, the director of the CDC, said animal samples collected from the seafood market had tested negative for the virus, indicating that the market was the site of an early superspreading event, but that it was not the site of the initial outbreak."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":3,
+    "sentence_index":6,
+    "sentence_text":"Traces of the virus have been found in wastewater samples that were collected in Milan and Turin, Italy, on 18 December 2019."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"By December 2019, the spread of infection was almost entirely driven by human-to-human transmission."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"The number of COVID-19 cases in Hubei gradually increased, reaching 60 by 20 December, and at least 266 by 31 December."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"On 24 December, Wuhan Central Hospital sent a bronchoalveolar lavage fluid (BAL) sample from an unresolved clinical case to sequencing company Vision Medicals."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"On 27 and 28 December, Vision Medicals informed the Wuhan Central Hospital and the Chinese CDC of the results of the test, showing a new coronavirus."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":4,
+    "sentence_index":4,
+    "sentence_text":"A pneumonia cluster of unknown cause was observed on 26 December and treated by the doctor Zhang Jixian in Hubei Provincial Hospital, who informed the Wuhan Jianghan CDC on 27 December."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":4,
+    "sentence_index":5,
+    "sentence_text":"On 30 December, a test report addressed to Wuhan Central Hospital, from company CapitalBio Medlab, stated an erroneous positive result for SARS, causing a group of doctors at Wuhan Central Hospital to alert their colleagues and relevant hospital authorities of the result."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":4,
+    "sentence_index":6,
+    "sentence_text":"The Wuhan Municipal Health Commission issued a notice to various medical institutions on \"the treatment of pneumonia of unknown cause\" that same evening."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":4,
+    "sentence_index":7,
+    "sentence_text":"Eight of these doctors, including Li Wenliang (punished on 3 January), were later admonished by the police for spreading false rumours and another, Ai Fen, was reprimanded by her superiors for raising the alarm."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"The Wuhan Municipal Health Commission made the first public announcement of a pneumonia outbreak of unknown cause on 31 December, confirming 27 cases – enough to trigger an investigation."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"During the early stages of the outbreak, the number of cases doubled approximately every seven and a half days."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":6,
+    "sentence_index":1,
+    "sentence_text":"In early and mid-January 2020, the virus spread to other Chinese provinces, helped by the Chinese New Year migration and Wuhan being a transport hub and major rail interchange."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":6,
+    "sentence_index":2,
+    "sentence_text":"On 20 January, China reported nearly 140 new cases in one day, including two people in Beijing and one in Shenzhen."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":6,
+    "sentence_index":3,
+    "sentence_text":"Later official data shows 6,174 people had already developed symptoms by then, and more may have been infected."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":6,
+    "sentence_index":4,
+    "sentence_text":"A report in The Lancet on 24 January indicated human transmission, strongly recommended personal protective equipment for health workers, and said testing for the virus was essential due to its \"pandemic potential\"."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":6,
+    "sentence_index":5,
+    "sentence_text":"On 30 January, the WHO declared COVID-19 a Public Health Emergency of International Concern."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":6,
+    "sentence_index":6,
+    "sentence_text":"By this time, the outbreak spread by a factor of 100 to 200 times."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"Italy had its first confirmed cases on 31 January 2020, two tourists from China."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":7,
+    "sentence_index":1,
+    "sentence_text":"Italy overtook China as the country with the most deaths on 19 March 2020."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":7,
+    "sentence_index":2,
+    "sentence_text":"By 26 March the United States had overtaken China and Italy with the highest number of confirmed cases in the world."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":7,
+    "sentence_index":3,
+    "sentence_text":"Research on coronavirus genomes indicates the majority of COVID-19 cases in New York came from European travellers, rather than directly from China or any other Asian country."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":7,
+    "sentence_index":4,
+    "sentence_text":"Retesting of prior samples found a person in France who had the virus on 27 December 2019, and a person in the United States who died from the disease on 6 February 2020."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"RT-PCR testing of untreated wastewater samples from Brazil and Italy have suggested detection of SARS-CoV-2 as early as November and December 2019, respectively, but the methods of such sewage studies have not been optimised, many have not been peer-reviewed, details are often missing, and there is a risk of false positives due to contamination or if only one gene target is detected."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":8,
+    "sentence_index":1,
+    "sentence_text":"A September 2020 review journal article said, \"The possibility that the COVID‑19 infection had already spread to Europe at the end of last year is now indicated by abundant, even if partially circumstantial, evidence\", including pneumonia case numbers and radiology in France and Italy in November and December."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":9,
+    "sentence_index":0,
+    "sentence_text":"As of 1 October 2021, Reuters reported that it had estimated the worldwide total number of deaths due to COVID‑19 to have exceeded five million."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":10,
+    "sentence_index":0,
+    "sentence_text":"The Public Health Emergency of International Concern for COVID-19 ended on 5 May 2023."
+  },
+  {
+    "language":"en",
+    "section":"History",
+    "paragraph_index":10,
+    "sentence_index":1,
+    "sentence_text":"By this time, everyday life in most countries had returned to how it was before the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Misinformation",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"After the initial outbreak of COVID‑19, misinformation and disinformation regarding the origin, scale, prevention, treatment, and other aspects of the disease rapidly spread online."
+  },
+  {
+    "language":"en",
+    "section":"Misinformation",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In September 2020, the US Centers for Disease Control and Prevention (CDC) published preliminary estimates of the risk of death by age groups in the United States, but those estimates were widely misreported and misunderstood."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Humans appear to be capable of spreading the virus to some other animals, a type of disease transmission referred to as zooanthroponosis."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Some pets, especially cats and ferrets, can catch this virus from infected humans."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Symptoms in cats include respiratory (such as a cough) and digestive symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Cats can spread the virus to other cats, and may be able to spread the virus to humans, but cat-to-human transmission of SARS-CoV-2 has not been proven."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Compared to cats, dogs are less susceptible to this infection."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"Behaviours which increase the risk of transmission include kissing, licking, and petting the animal."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"The virus does not appear to be able to infect pigs, ducks, or chickens at all."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Mice, rats, and rabbits, if they can be infected at all, are unlikely to be involved in spreading the virus."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Tigers and lions in zoos have become infected as a result of contact with infected humans."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"As expected, monkeys and great ape species such as orangutans can also be infected with the COVID‑19 virus."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Minks, which are in the same family as ferrets, have been infected."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"Minks may be asymptomatic, and can also spread the virus to humans."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"Multiple countries have identified infected animals in mink farms."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"Denmark, a major producer of mink pelts, ordered the slaughter of all minks over fears of viral mutations, following an outbreak referred to as Cluster 5."
+  },
+  {
+    "language":"en",
+    "section":"Other species",
+    "paragraph_index":4,
+    "sentence_index":4,
+    "sentence_text":"A vaccine for mink and other animals is being researched."
+  },
+  {
+    "language":"en",
+    "section":"Research",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"International research on vaccines and medicines in COVID‑19 is underway by government organisations, academic groups, and industry researchers."
+  },
+  {
+    "language":"en",
+    "section":"Research",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The CDC has classified it to require a BSL3 grade laboratory."
+  },
+  {
+    "language":"en",
+    "section":"Research",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"There has been a great deal of COVID‑19 research, involving accelerated research processes and publishing shortcuts to meet the global demand."
+  },
+  {
+    "language":"en",
+    "section":"Research",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"As of December 2020, hundreds of clinical trials have been undertaken, with research happening on every continent except Antarctica."
+  },
+  {
+    "language":"en",
+    "section":"Research",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"As of November 2020, more than 200 possible treatments have been studied in humans."
+  },
+  {
+    "language":"en",
+    "section":"Research > Transmission and prevention research",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Modelling research has been conducted with several objectives, including predictions of the dynamics of transmission, diagnosis and prognosis of infection, estimation of the impact of interventions, or allocation of resources."
+  },
+  {
+    "language":"en",
+    "section":"Research > Transmission and prevention research",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Modelling studies are mostly based on compartmental models in epidemiology, estimating the number of infected people over time under given conditions."
+  },
+  {
+    "language":"en",
+    "section":"Research > Transmission and prevention research",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Several other types of models have been developed and used during the COVID‑19 pandemic including computational fluid dynamics models to study the flow physics of COVID‑19, retrofits of crowd movement models to study occupant exposure, mobility-data based models to investigate transmission, or the use of macroeconomic models to assess the economic impact of the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Repurposed antiviral drugs make up most of the research into COVID‑19 treatments."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Other candidates in trials include vasodilators, corticosteroids, immune therapies, lipoic acid, bevacizumab, and recombinant angiotensin-converting enzyme 2."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In March 2020, the World Health Organization (WHO) initiated the Solidarity trial to assess the treatment effects of some promising drugs:"
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"An experimental drug called remdesivir"
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Anti-malarial drugs chloroquine and hydroxychloroquine"
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Two anti-HIV drugs, lopinavir\/ritonavir and interferon-beta"
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"More than 300 active clinical trials are underway as of April 2020."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":6,
+    "sentence_index":0,
+    "sentence_text":"Research on the antimalarial drugs hydroxychloroquine and chloroquine showed that they were ineffective at best, and that they may reduce the antiviral activity of remdesivir."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":6,
+    "sentence_index":1,
+    "sentence_text":"By May 2020, France, Italy, and Belgium had banned the use of hydroxychloroquine as a COVID‑19 treatment."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":7,
+    "sentence_index":0,
+    "sentence_text":"In June, initial results from the randomised RECOVERY Trial in the United Kingdom showed that dexamethasone reduced mortality by one third for people who are critically ill on ventilators and one fifth for those receiving supplemental oxygen."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":7,
+    "sentence_index":1,
+    "sentence_text":"Because this is a well-tested and widely available treatment, it was welcomed by the WHO, which is in the process of updating treatment guidelines to include dexamethasone and other steroids."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":7,
+    "sentence_index":2,
+    "sentence_text":"Based on those preliminary results, dexamethasone treatment has been recommended by the NIH for peoples with COVID‑19 who are mechanically ventilated or who require supplemental oxygen but not in people with COVID‑19 who do not require supplemental oxygen."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":8,
+    "sentence_index":0,
+    "sentence_text":"In September 2020, the WHO released updated guidance on using corticosteroids for COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":8,
+    "sentence_index":1,
+    "sentence_text":"The WHO recommends systemic corticosteroids rather than no systemic corticosteroids for the treatment of people with severe and critical COVID‑19 (strong recommendation, based on moderate certainty evidence)."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":8,
+    "sentence_index":2,
+    "sentence_text":"The WHO suggests not to use corticosteroids in the treatment of people with non-severe COVID‑19 (conditional recommendation, based on low certainty evidence)."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":8,
+    "sentence_index":3,
+    "sentence_text":"The updated guidance was based on a meta-analysis of clinical trials of people critically ill with COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":9,
+    "sentence_index":0,
+    "sentence_text":"In September 2020, the European Medicines Agency (EMA) endorsed the use of dexamethasone in adults and adolescents from 12 years of age and weighing at least 40 kilograms (88 lb) who require supplemental oxygen therapy."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":9,
+    "sentence_index":1,
+    "sentence_text":"Dexamethasone can be taken by mouth or given as an injection or infusion (drip) into a vein."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":10,
+    "sentence_index":0,
+    "sentence_text":"In November 2020, the US Food and Drug Administration (FDA) issued an emergency use authorisation for the investigational monoclonal antibody therapy bamlanivimab for the treatment of mild-to-moderate COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":10,
+    "sentence_index":1,
+    "sentence_text":"Bamlanivimab is authorised for people with positive results of direct SARS-CoV-2 viral testing who are twelve years of age and older weighing at least 40 kilograms (88 lb), and who are at high risk for progressing to severe COVID‑19 or hospitalisation."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":10,
+    "sentence_index":2,
+    "sentence_text":"This includes those who are 65 years of age or older, or who have chronic medical conditions."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":11,
+    "sentence_index":0,
+    "sentence_text":"In February 2021, the FDA issued an emergency use authorisation (EUA) for bamlanivimab and etesevimab administered together for the treatment of mild to moderate COVID‑19 in people twelve years of age or older weighing at least 40 kilograms (88 lb) who test positive for SARS‑CoV‑2 and who are at high risk for progressing to severe COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":11,
+    "sentence_index":1,
+    "sentence_text":"The authorised use includes treatment for those who are 65 years of age or older or who have certain chronic medical conditions."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research",
+    "paragraph_index":12,
+    "sentence_index":0,
+    "sentence_text":"In April 2021, the FDA revoked the emergency use authorisation (EUA) that allowed for the investigational monoclonal antibody therapy bamlanivimab, when administered alone, to be used for the treatment of mild-to-moderate COVID‑19 in adults and certain paediatric patients."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"A cytokine storm can be a complication in the later stages of severe COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"A cytokine storm is a potentially deadly immune reaction where a large amount of pro-inflammatory cytokines and chemokines are released too quickly."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"A cytokine storm can lead to ARDS and multiple organ failure."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Data collected from Jin Yin-tan Hospital in Wuhan, China indicates that people who had more severe responses to COVID‑19 had greater amounts of pro-inflammatory cytokines and chemokines in their system than people who had milder responses."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"These high levels of pro-inflammatory cytokines and chemokines indicate presence of a cytokine storm."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Tocilizumab has been included in treatment guidelines by China's National Health Commission after a small study was completed."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"It is undergoing a Phase II non-randomised trial at the national level in Italy after showing positive results in people with severe disease."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Combined with a serum ferritin blood test to identify a cytokine storm (also called cytokine storm syndrome, not to be confused with cytokine release syndrome), it is meant to counter such developments, which are thought to be the cause of death in some affected people."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"The interleukin-6 receptor (IL-6R) antagonist was approved by the FDA to undergo a Phase III clinical trial assessing its effectiveness on COVID‑19 based on retrospective case studies for the treatment of steroid-refractory cytokine release syndrome induced by a different cause, CAR T cell therapy, in 2017."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"There is no randomised, controlled evidence that tocilizumab is an efficacious treatment for CRS."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"Prophylactic tocilizumab has been shown to increase serum IL-6 levels by saturating the IL-6R, driving IL-6 across the blood–brain barrier, and exacerbating neurotoxicity while having no effect on the incidence of CRS."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Cytokine storm",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Lenzilumab, an anti-GM-CSF monoclonal antibody, is protective in murine models for CAR T cell-induced CRS and neurotoxicity and is a viable therapeutic option due to the observed increase of pathogenic GM-CSF secreting T cells in hospitalised patients with COVID‑19."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Transferring purified and concentrated antibodies produced by the immune systems of those who have recovered from COVID‑19 to people who need them is being investigated as a non-vaccine method of passive immunisation."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Viral neutralisation is the anticipated mechanism of action by which passive antibody therapy can mediate defence against SARS-CoV-2."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The spike protein of SARS-CoV-2 is the primary target for neutralising antibodies."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"As of 8 August 2020, eight neutralising antibodies targeting the spike protein of SARS-CoV-2 have entered clinical studies."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"It has been proposed that selection of broad-neutralising antibodies against SARS-CoV-2 and SARS-CoV might be useful for treating not only COVID‑19 but also future SARS-related CoV infections."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Other mechanisms, however, such as antibody-dependant cellular cytotoxicity or phagocytosis, may be possible."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Other forms of passive antibody therapy, for example, using manufactured monoclonal antibodies, are in development."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The use of passive antibodies to treat people with active COVID‑19 is also being studied."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"This involves the production of convalescent serum, which consists of the liquid portion of the blood from people who recovered from the infection and contains antibodies specific to this virus, which is then administered to active patients."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"This strategy was tried for SARS with inconclusive results."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"An updated Cochrane review in May 2023 found high certainty evidence that, for the treatment of people with moderate to severe COVID‑19, convalescent plasma did not reduce mortality or bring about symptom improvement."
+  },
+  {
+    "language":"en",
+    "section":"Research > Treatment-related research > Passive antibodies",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"There continues to be uncertainty about the safety of convalescent plasma administration to people with COVID‑19 and differing outcomes measured in different studies limits their use in determining efficacy."
+  },
+  {
+    "language":"en",
+    "section":"Research > Bioethics",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Since the outbreak of the COVID‑19 pandemic, scholars have explored the bioethics, normative economics, and political theories of healthcare policies related to the public health crisis."
+  },
+  {
+    "language":"en",
+    "section":"Research > Bioethics",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Academics have pointed to the moral distress of healthcare workers, ethics of distributing scarce healthcare resources such as ventilators, and the global justice of vaccine diplomacies."
+  },
+  {
+    "language":"en",
+    "section":"Research > Bioethics",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The socio-economic inequalities between genders, races, groups with disabilities, communities, regions, countries, and continents have also drawn attention in academia and the general public."
+  }
+]

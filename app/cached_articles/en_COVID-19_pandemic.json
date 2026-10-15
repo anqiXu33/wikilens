@@ -1,0 +1,4328 @@
+[
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The COVID-19 pandemic (also known as the coronavirus pandemic and COVID pandemic), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), began with an outbreak of COVID-19 in Wuhan, China, in December 2019."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Soon after, it spread to other areas of Asia, and then worldwide in early 2020."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The World Health Organization (WHO) declared the outbreak a public health emergency of international concern (PHEIC) on 30 January 2020, and assessed the outbreak as having become a pandemic on 11 March."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"COVID-19 symptoms range from asymptomatic to deadly, but most commonly include fever, sore throat, nocturnal cough, and fatigue."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Transmission of the virus is often through airborne particles."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Mutations have produced many strains (variants) with varying degrees of infectivity and virulence."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"COVID-19 vaccines were developed rapidly and deployed to the general public beginning in December 2020, made available through government and international programmes such as COVAX, aiming to provide vaccine equity."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Treatments include novel antiviral drugs and symptom control."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"Common mitigation measures during the public health emergency included travel restrictions, lockdowns, business restrictions and closures, workplace hazard controls, mask mandates, quarantines, testing systems, and contact tracing of the infected."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":9,
+    "sentence_text":"The pandemic caused severe social and economic disruption around the world, including the largest global recession since the Great Depression."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":10,
+    "sentence_text":"Widespread supply shortages, including food shortages, were caused by supply chain disruptions and panic buying."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":11,
+    "sentence_text":"Reduced human activity led to an unprecedented temporary decrease in pollution."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":12,
+    "sentence_text":"Educational institutions and public areas were partially or fully closed in many jurisdictions, and many events were cancelled or postponed during 2020 and 2021."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":13,
+    "sentence_text":"Telework became much more common for white-collar workers as the pandemic evolved."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":14,
+    "sentence_text":"Misinformation circulated through social media and mass media, and political tensions intensified."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":15,
+    "sentence_text":"The pandemic raised issues of racial and geographic discrimination, health equity, and the balance between public health imperatives and individual rights."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":16,
+    "sentence_text":"The WHO ended the PHEIC for COVID-19 on 5 May 2023."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":17,
+    "sentence_text":"The disease has continued to circulate."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":18,
+    "sentence_text":"However, as of 2024, experts were uncertain as to whether it was still a pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":19,
+    "sentence_text":"Pandemics and their ends are not well-defined, and whether or not one has ended differs according to the definition used."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":20,
+    "sentence_text":"As of 1 April 2025, COVID-19 has caused 7,057,132 confirmed deaths, and 18.2 to 33.5 million estimated deaths."
+  },
+  {
+    "language":"en",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":21,
+    "sentence_text":"The COVID-19 pandemic ranks as the fifth-deadliest pandemic or epidemic in history."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Pandemic",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"In epidemiology, a pandemic is defined as \"an epidemic occurring over a very wide area, crossing international boundaries, and usually affecting a large number of people\"."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Pandemic",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"During the COVID-19 pandemic, as with other pandemics, the meaning of this term has been challenged."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Pandemic",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The end of a pandemic or other epidemic only rarely involves the total disappearance of a disease, and historically, much less attention has been given to defining the ends of epidemics than their beginnings."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Pandemic",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The ends of particular epidemics have been defined in a variety of ways, differing according to academic field, and differently based on location and social group."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Pandemic",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"An epidemic's end can be considered a social phenomenon, not just a biological one."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Pandemic",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Time reported in March 2024 that expert opinions differ on whether or not COVID-19 is currently considered endemic or pandemic, and that the WHO continued to call the disease a pandemic on its website."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"During the initial outbreak in Wuhan, the virus and disease were commonly referred to as \"coronavirus\", \"Wuhan coronavirus\", \"the coronavirus outbreak\" and the \"Wuhan coronavirus outbreak\", with the disease sometimes called \"Wuhan pneumonia\"."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"In January 2020, the WHO recommended 2019-nCoV and 2019-nCoV acute respiratory disease as interim names for the virus and disease per 2015 international guidelines against using geographical locations (e.g."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Wuhan, China), animal species, or groups of people in disease and virus names in part to prevent social stigma."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"WHO finalised the official names COVID-19 and SARS-CoV-2 on 11 February 2020."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Tedros Adhanom Ghebreyesus explained: CO for corona, VI for virus, D for disease and 19 for when the outbreak was first identified (31 December 2019)."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"WHO additionally uses \"the COVID-19 virus\" and \"the virus responsible for COVID-19\" in public communications."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"WHO named variants of concern and variants of interest using Greek letters."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The initial practice of naming them according to where the variants were identified (e.g."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Delta began as the \"Indian variant\") is no longer common."
+  },
+  {
+    "language":"en",
+    "section":"Terminology > Virus names",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"A more systematic naming scheme reflects the variant's PANGO lineage (e.g., Omicron's lineage is B.1.1.529) and is used for other variants."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Background",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"SARS-CoV-2 is a virus closely related to bat coronaviruses, pangolin coronaviruses, and SARS-CoV."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Background",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The first known outbreak (the 2019–2020 COVID-19 outbreak in mainland China) started in Wuhan, Hubei, China, in December 2019."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Background",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Many early cases were linked to people who had visited the Huanan Seafood Wholesale Market there, but it is possible that human-to-human transmission began earlier."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Background",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Molecular clock analysis suggests that the first cases were likely to have been between October and November 2019."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Background",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The scientific consensus is that the virus is most likely of a zoonotic origin, from bats or another closely related mammal."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Background",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"While other explanations such as speculations that SARS-CoV-2 was accidentally released from a laboratory have been proposed, as of 2021 these were not supported by evidence."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Official \"case\" counts refer to the number of people who have been tested for COVID-19 and whose test has been confirmed positive according to official protocols whether or not they experienced symptomatic disease."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Due to the effect of sampling bias, studies which obtain a more accurate number by extrapolating from a random sample have consistently found that total infections considerably exceed the reported case counts."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Many countries, early on, had official policies to not test those with only mild symptoms."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The strongest risk factors for severe illness are obesity, complications of diabetes, anxiety disorders, and the total number of conditions."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"During the start of the COVID-19 pandemic it was not clear whether young people were less likely to be infected, or less likely to develop symptoms and be tested."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"A retrospective cohort study in China found that children and adults were just as likely to be infected."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Among more thorough studies, preliminary results from 9 April 2020 found that in Gangelt, the centre of a major infection cluster in Germany, 15 per cent of a population sample tested positive for antibodies."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Screening for COVID-19 in pregnant women in New York City, and blood donors in the Netherlands, found rates of positive antibody tests that indicated more infections than reported."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Seroprevalence-based estimates are conservative as some studies show that persons with mild symptoms do not have detectable antibodies."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Initial estimates of the basic reproduction number (R0) for COVID-19 in January 2020 were between 1.4 and 2.5, but a subsequent analysis claimed that it may be about 5.7 (with a 95 per cent confidence interval of 3.8 to 8.9)."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"In December 2021, the number of cases continued to climb due to several factors, including new COVID-19 variants."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"As of that 28 December, 282,790,822 individuals worldwide had been confirmed as infected."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"As of 14 April 2022, over 500 million cases were confirmed globally."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"Most cases are unconfirmed, with the Institute for Health Metrics and Evaluation estimating the true number of cases as of early 2022 to be in the billions."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases > Test positivity rate",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"One measure that public health officials and policymakers have used to monitor the pandemic and guide decision-making is the test positivity rate (\"percent positive\")."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Cases > Test positivity rate",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"According to Johns Hopkins in 2020, one benchmark for a \"too high\" per cent positive is 5%, which was used by the WHO in the past."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"As of 10 March 2023, more than 6.88 million deaths had been attributed to COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The first confirmed death was in Wuhan on 9 January 2020."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"These numbers vary by region and over time, influenced by testing volume, healthcare system quality, treatment options, government response, time since the initial outbreak, and population characteristics, such as age, sex, and overall health."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Multiple measures are used to quantify mortality."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Official death counts typically include people who died after testing positive."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Such counts exclude deaths without a test."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Conversely, deaths of people who died from underlying conditions following a positive test may be included."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"Countries such as Belgium include deaths from suspected cases, including those without a test, thereby increasing counts."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Official death counts have been claimed to underreport the actual death toll, because excess mortality (the number of deaths in a period compared to a long-term average) data show an increase in deaths that is not explained by COVID-19 deaths alone."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Using such data, estimates of the true number of deaths from COVID-19 worldwide have included a range from 18.2 to 33.5 million (≈27.4 million) by 18 November 2023 by The Economist, as well as over 18.5 million by 1 April 2023 by the Institute for Health Metrics and Evaluation and ≈18.2 million (earlier) deaths between 1 January 2020, and 31 December 2021, by a comprehensive international study."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Such deaths include deaths due to healthcare capacity constraints and priorities, as well as reluctance to seek care (to avoid possible infection)."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Further research may help distinguish the proportions directly caused by COVID-19 from those caused by indirect consequences of the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"In May 2022, the WHO estimated the number of excess deaths by the end of 2021 to be 14.9 million compared to 5.4 million reported COVID-19 deaths, with the majority of the unreported 9.5 million deaths believed to be direct deaths due the virus, rather than indirect deaths."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Some deaths were because people with other conditions could not access medical services."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"A December 2022 WHO study estimated excess deaths from the pandemic during 2020 and 2021, again concluding ≈14.8 million excess early deaths occurred, reaffirming and detailing their prior calculations from May as well as updating them, addressing criticisms."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"These numbers do not include measures like years of potential life lost and may make the pandemic 2021's leading cause of death."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"The time between symptom onset and death ranges from 6 to 41 days, typically about 14 days."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":5,
+    "sentence_index":1,
+    "sentence_text":"Mortality rates increase as a function of age."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths",
+    "paragraph_index":5,
+    "sentence_index":2,
+    "sentence_text":"People at the greatest mortality risk are the elderly and those with underlying conditions."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The infection fatality ratio (IFR) is the cumulative number of deaths attributed to the disease divided by the cumulative number of infected individuals (including asymptomatic and undiagnosed infections and excluding vaccinated infected individuals)."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"It is expressed in percentage points."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Other studies refer to this metric as the infection fatality risk."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In November 2020, a review article in Nature reported estimates of population-weighted IFRs for various countries, excluding deaths in elderly care facilities, and found a median range of 0.24% to 1.49%."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"IFRs rise as a function of age (from 0.002% at age 10 and 0.01% at age 25, to 0.4% at age 55, 1.4% at age 65, 4.6% at age 75, and 15% at age 85)."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"These rates vary by a factor of ≈10,000 across the age groups."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"For comparison, the IFR for middle-aged adults is two orders of magnitude higher than the annualised risk of a fatal automobile accident and much higher than the risk of dying from seasonal influenza."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"In December 2020, a systematic review and meta-analysis estimated that population-weighted IFR was 0.5% to 1% in some countries (France, Netherlands, New Zealand, and Portugal), 1% to 2% in other countries (Australia, England, Lithuania, and Spain), and about 2.5% in Italy."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"This study reported that most of the differences reflected corresponding differences in the population's age structure and the age-specific pattern of infections."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"There have also been reviews that have compared the fatality rate of this pandemic with prior pandemics, such as MERS-CoV."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Infection fatality ratio (IFR)",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"For comparison the infection mortality rate of seasonal flu in the United States is 0.1%, which is 13 times lower than COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Case fatality ratio (CFR)",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Another metric in assessing death rate is the case fatality ratio (CFR), which is the ratio of deaths to diagnoses."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Case fatality ratio (CFR)",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"This metric can be misleading because of the delay between symptom onset and death and because testing focuses on symptomatic individuals."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Case fatality ratio (CFR)",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Based on Johns Hopkins University statistics, the global CFR was 1.02 percent (6,881,955 deaths for 676,609,955 cases) as of 10 March 2023."
+  },
+  {
+    "language":"en",
+    "section":"Epidemiology > Deaths > Case fatality ratio (CFR)",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The number varies by region and has generally declined over time."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Variants",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Several variants have been named by WHO and labelled as a variant of concern (VoC) or a variant of interest (VoI)."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Variants",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Many of these variants have shared the more infectious D614G."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Variants",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"As of May 2023, the WHO had downgraded all variants of concern to previously circulating as these were no longer detected in new infections."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Variants",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Sub-lineages of the Omicron variant (BA.1 – BA.5) were considered separate VoCs by the WHO until they were downgraded in March 2023 as no longer widely circulating."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Variants",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"As of 24 September 2024, the variants of interest as specified by the WHO are BA.2.86 and JN.1, and the variants under monitoring are JN.1.7, KP.2, KP.3, KP.3.1.1, JN.1.18, LB.1, and XEC."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Signs and symptoms",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Symptoms of COVID-19 are variable, ranging from mild symptoms to severe illness."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Signs and symptoms",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Common symptoms include headache, loss of smell and taste, nasal congestion and runny nose, cough, muscle pain, sore throat, fever, diarrhoea, and breathing difficulties."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Signs and symptoms",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"People with the same infection may have different symptoms, and their symptoms may change over time."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Signs and symptoms",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Three common clusters of symptoms have been identified: one respiratory symptom cluster with cough, sputum, shortness of breath, and fever; a musculoskeletal symptom cluster with muscle and joint pain, headache, and fatigue; a cluster of digestive symptoms with abdominal pain, vomiting, and diarrhoea."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Signs and symptoms",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"In people without prior ear, nose, and throat disorders, loss of taste combined with loss of smell is associated with COVID-19 and is reported in as many as 88% of cases."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Transmission",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The disease is mainly transmitted via the respiratory route when people inhale droplets and small airborne particles (that form an aerosol) that infected people exhale as they breathe, talk, cough, sneeze, or sing."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Transmission",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Infected people are more likely to transmit COVID-19 when they are physically close to other non-infected individuals."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Transmission",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"However, infection can occur over longer distances, particularly indoors."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Cause",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"SARS‑CoV‑2 belongs to the broad family of viruses known as coronaviruses."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Cause",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"It is a positive-sense single-stranded RNA (+ssRNA) virus, with a single linear RNA segment."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Cause",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Coronaviruses infect humans, other mammals, including livestock and companion animals, and avian species."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Cause",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Human coronaviruses are capable of causing illnesses ranging from the common cold to more severe diseases such as Middle East respiratory syndrome (MERS, fatality rate ≈34%)."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Cause",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"SARS-CoV-2 is the seventh known coronavirus to infect people, after 229E, NL63, OC43, HKU1, MERS-CoV, and the original SARS-CoV."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Diagnosis",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The standard method of testing for presence of SARS-CoV-2 is a nucleic acid test, which detects the presence of viral RNA fragments."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Diagnosis",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"As these tests detect RNA but not infectious virus, its \"ability to determine duration of infectivity of patients is limited\"."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Diagnosis",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The test is typically done on respiratory samples obtained by a nasopharyngeal swab; however, a nasal swab or sputum sample may also be used."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Diagnosis",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The WHO has published several testing protocols for the disease."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Preventive measures to reduce the chances of infection include getting vaccinated, staying at home or spending more time outdoors, avoiding crowded places, keeping distance from others, wearing a mask in public, ventilating indoor spaces, managing potential exposure durations, washing hands with soap and water often and for at least twenty seconds, practising good respiratory hygiene, and avoiding touching the eyes, nose, or mouth with unwashed hands."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Those diagnosed with COVID-19 or who believe they may be infected are advised by healthcare authorities to stay home except to get medical care, call ahead before visiting a healthcare provider, wear a face mask before entering the healthcare provider's office and when in any room or vehicle with another person, cover coughs and sneezes with a tissue, regularly wash hands with soap and water and avoid sharing personal household items."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"A COVID-19 vaccine is intended to provide acquired immunity against severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2), the virus that causes coronavirus disease 2019 (COVID-19)."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Prior to the COVID-19 pandemic, an established body of knowledge existed about the structure and function of coronaviruses causing diseases like severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS)."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"This knowledge accelerated the development of various vaccine platforms during early 2020."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The initial focus of SARS-CoV-2 vaccines was on preventing symptomatic and severe illness."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"The COVID-19 vaccines are widely credited for their role in reducing the severity and death caused by COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"As of March 2023, more than 5.5 billion people had received one or more doses (11.8 billion in total) in over 197 countries."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The Oxford-AstraZeneca vaccine was the most widely used."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"According to a June 2022 study, COVID-19 vaccines prevented an additional 14.4 million to 19.8 million deaths in 185 countries and territories from 8 December 2020 to 8 December 2021."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"On 8 November 2022, the first recombinant protein-based COVID-19 vaccine (Novavax's booster Nuvaxovid) was authorised for use in adults in the United Kingdom."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"It has subsequently received endorsement\/authorisation from the WHO, US, European Union, and Australia."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"On 12 November 2022, the WHO released its Global Vaccine Market Report."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"The report indicated that \"inequitable distribution is not unique to COVID-19 vaccines\"; countries that are not economically strong struggle to obtain vaccines."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prevention > Vaccines",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"On 14 November 2022, the first inhalable vaccine was introduced, developed by Chinese biopharmaceutical company CanSino Biologics, in the city of Shanghai, China."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"For the first two years of the pandemic, no specific and effective treatment or cure was available."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"In 2021, the European Medicines Agency's (EMA) Committee for Medicinal Products for Human Use (CHMP) approved the oral antiviral protease inhibitor, Paxlovid (nirmatrelvir plus the HIV antiviral ritonavir), to treat adult patients."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"FDA later gave it an EUA."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Most cases of COVID-19 are mild."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"In these, supportive care includes medication such as paracetamol or NSAIDs to relieve symptoms (fever, body aches, cough), adequate intake of oral fluids and rest."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Good personal hygiene and a healthy diet are also recommended."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Supportive care in severe cases includes treatment to relieve symptoms, fluid therapy, oxygen support and prone positioning, and medications or devices to support other affected vital organs."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"More severe cases may need treatment in hospital."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"In those with low oxygen levels, use of the glucocorticoid dexamethasone is recommended to reduce mortality."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Noninvasive ventilation and, ultimately, admission to an intensive care unit for mechanical ventilation may be required to support breathing."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"Extracorporeal membrane oxygenation (ECMO) has been used to address the issue of respiratory failure."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Existing drugs such as hydroxychloroquine, lopinavir\/ritonavir, and ivermectin are not recommended by US or European health authorities, as there is no good evidence they have any useful effect."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Treatment",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"The antiviral remdesivir is available in the US, Canada, Australia, and several other countries, with varying restrictions; however, it is not recommended for use with mechanical ventilation, and is discouraged altogether by the WHO, due to limited evidence of its efficacy."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prognosis",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The severity of COVID-19 varies."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prognosis",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"It may take a mild course with few or no symptoms, resembling other common upper respiratory diseases such as the common cold."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prognosis",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"In 3–4% of cases (7.4% for those over age 65) symptoms are severe enough to cause hospitalisation."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prognosis",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Mild cases typically recover within two weeks, while those with severe or critical diseases may take three to six weeks to recover."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prognosis",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Among those who have died, the time from symptom onset to death has ranged from two to eight weeks."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prognosis",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Prolonged prothrombin time and elevated C-reactive protein levels on admission to the hospital are associated with severe course of COVID-19 and with a transfer to intensive care units (ICU)."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prognosis",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Between 5% and 50% of COVID-19 patients experience long COVID, a condition characterised by long-term consequences persisting after the typical convalescence period of the disease."
+  },
+  {
+    "language":"en",
+    "section":"Disease > Prognosis",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The most commonly reported clinical presentations are fatigue and memory problems, as well as malaise, headaches, shortness of breath, loss of smell, muscle weakness, low fever and cognitive dysfunction."
+  },
+  {
+    "language":"en",
+    "section":"Strategies",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Many countries attempted to slow or stop the spread of COVID-19 by recommending, mandating or prohibiting behaviour changes, while others relied primarily on providing information."
+  },
+  {
+    "language":"en",
+    "section":"Strategies",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Measures ranged from public advisories to stringent lockdowns."
+  },
+  {
+    "language":"en",
+    "section":"Strategies",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Outbreak control strategies are divided into elimination and mitigation."
+  },
+  {
+    "language":"en",
+    "section":"Strategies",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Experts differentiate between elimination strategies (known as \"zero-COVID\") that aim to completely stop the spread of the virus within the community, and mitigation strategies (commonly known as \"flattening the curve\") that attempt to lessen the effects of the virus on society, but which still tolerate some level of transmission within the community."
+  },
+  {
+    "language":"en",
+    "section":"Strategies",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"These initial strategies can be pursued sequentially or simultaneously during the acquired immunity phase through natural and vaccine-induced immunity."
+  },
+  {
+    "language":"en",
+    "section":"Strategies",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Nature reported in 2021 that 90% of researchers who responded to a survey \"think that the coronavirus will become endemic\"."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Containment",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Containment is undertaken to stop an outbreak from spreading into the general population."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Containment",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Infected individuals are isolated while they are infectious."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Containment",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The people they have interacted with are contacted and isolated for long enough to ensure that they are either not infected or no longer contagious."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Containment",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Screening is the starting point for containment."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Containment",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Screening is done by checking for symptoms to identify infected individuals, who can then be isolated or offered treatment."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Containment",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"The zero-COVID strategy involves using public health measures such as contact tracing, mass testing, border quarantine, lockdowns, and mitigation software to stop community transmission of COVID-19 as soon as it is detected, with the goal of getting the area back to zero detected infections and resuming normal economic and social activities."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Containment",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Successful containment or suppression reduces Rt to less than 1."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Should containment fail, efforts focus on mitigation: measures taken to slow the spread and limit its effects on the healthcare system and society."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Successful mitigation delays and decreases the epidemic peak, known as \"flattening the epidemic curve\"."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"This decreases the risk of overwhelming health services and provides more time for developing vaccines and treatments."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Individual behaviour changed in many jurisdictions."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Many people worked from home instead of at their traditional workplaces."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Non-pharmaceutical interventions",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Non-pharmaceutical interventions that may reduce spread include personal actions such as wearing face masks, self-quarantine, and hand hygiene; community measures aimed at reducing interpersonal contacts such as closing workplaces and schools and cancelling large gatherings; community engagement to encourage acceptance and participation in such interventions; as well as environmental measures such as surface cleaning."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Other measures",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"More drastic actions, such as quarantining entire populations and strict travel bans have been attempted in various jurisdictions."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Other measures",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The Chinese and Australian government approaches have included many lockdowns and are widely considered the most strict."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Other measures",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The New Zealand government response included the most severe travel restrictions."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Other measures",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"As part of its K-Quarantine programme, South Korea introduced mass screening and localised quarantines, and issued alerts on the movements of infected individuals."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Other measures",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"The Singaporean government's response included so-called \"circuit breaker lockdowns\" and financial support for those affected while also imposing large fines for those who broke quarantine."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Contact tracing",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Contact tracing attempts to identify recent contacts of newly infected individuals, and to screen them for infection; the traditional approach is to request a list of contacts from infectees, and then telephone or visit the contacts."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Contact tracing",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Contact tracing was widely used during the Western African Ebola virus epidemic in 2014."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Contact tracing",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Another approach is to collect location data from mobile devices to identify those who have come in significant contact with infectees, which prompted privacy concerns."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Contact tracing",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"On 10 April 2020, Google and Apple announced an initiative for privacy-preserving contact tracing."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Mitigation > Contact tracing",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"In Europe and in the US, Palantir Technologies initially provided COVID-19 tracking services."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Health care",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"WHO described increasing capacity and adapting healthcare as a fundamental mitigation."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Health care",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The ECDC and WHO's European regional office issued guidelines for hospitals and primary healthcare services for shifting resources at multiple levels, including focusing laboratory services towards testing, cancelling elective procedures, separating and isolating patients, and increasing intensive care capabilities by training personnel and increasing ventilators and beds."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Health care",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The pandemic drove widespread adoption of telehealth."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Health care > Improvised manufacturing",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Due to supply chain capacity limitations, some manufacturers began 3D printing material such as nasal swabs and ventilator parts."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Health care > Improvised manufacturing",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"In one example, an Italian startup received legal threats due to alleged patent infringement after reverse-engineering and printing one hundred requested ventilator valves overnight."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Health care > Improvised manufacturing",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Individuals and groups of makers created and shared open source designs, and manufacturing devices using locally sourced materials, sewing, and 3D printing."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Health care > Improvised manufacturing",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Millions of face shields, protective gowns, and masks were made."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Health care > Improvised manufacturing",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Other ad hoc medical supplies included shoe covers, surgical caps, powered air-purifying respirators, and hand sanitiser."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Health care > Improvised manufacturing",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Novel devices were created such as ear savers, non-invasive ventilation helmets, and ventilator splitters."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Herd immunity",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"In July 2021, several experts expressed concern that achieving herd immunity may not be possible because Delta can transmit among vaccinated individuals."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Herd immunity",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"CDC published data showing that vaccinated people could transmit Delta, something officials believed was less likely with other variants."
+  },
+  {
+    "language":"en",
+    "section":"Strategies > Herd immunity",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Consequently, WHO and CDC encouraged vaccinated people to continue with non-pharmaceutical interventions such as masking, social distancing, and quarantining if exposed."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The outbreak was discovered in Wuhan in November 2019."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"It is possible that human-to-human transmission was happening before the discovery."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Based on a retrospective analysis starting from December 2019, the number of cases in Hubei gradually increased, reaching 60 by 20 December and at least 266 by 31 December."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"A pneumonia cluster was observed on 26 December and treated by Chinese pulmonologist Zhang Jixian."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"She informed the Wuhan Jianghan CDC on 27 December."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"After analysing pneumonia patient samples, a genetic sequencing company named Vision Medicals reported the discovery of a novel coronavirus to the China CDC (CCDC) on 28 December."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Two days later, a test report from CapitalBio Medlab addressed to the Wuhan Central Hospital reported an erroneous positive result for SARS, causing doctors there to alert authorities."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Eight of those doctors, including ophthalmologist Li Wenliang (1985–2020), were detained by police on 3 January for \"spreading false rumours\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"That evening, Wuhan Municipal Health Commission (WMHC) issued a notice about \"the treatment of pneumonia of unknown cause\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":9,
+    "sentence_text":"The next day, WMHC made the announcement public, confirming 27 cases—enough to trigger an investigation."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":0,
+    "sentence_index":10,
+    "sentence_text":"On 31 December, the WHO office in China was notified about the cluster of unknown pneumonia cases and immediately launched an investigation."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Official Chinese sources claimed that the early cases were mostly linked to the Huanan Seafood Wholesale Market, which also sold live animals."
+  },
+  {
+    "language":"en",
+    "section":"History > 2019",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"In May 2020, CCDC director George Gao initially ruled out the market as a possible origin, as animal samples collected there had tested negative."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"On 11 January, WHO was notified by the Chinese National Health Commission that the outbreak was associated with exposures in the market, and that China had identified a new type of coronavirus, which it isolated on 7 January."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Initially, the number of cases doubled approximately every seven and a half days."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"In early and mid-January, the virus spread to other Chinese provinces, helped by the Chinese New Year migration."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Wuhan was a transport hub and major rail interchange."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"On 10 January, the virus' genome was shared publicly."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"A retrospective study published in March found that 6,174 people had reported symptoms by 20 January."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"A 24 January report indicated human transmission was likely occurring, and recommended personal protective equipment for health workers."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"It also advocated testing, given the outbreak's \"pandemic potential\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":1,
+    "sentence_index":7,
+    "sentence_text":"On 30 January, 7,818 infections had been confirmed, leading WHO to declare the outbreak a Public Health Emergency of International Concern (PHEIC), upgrading it to a pandemic on 11 March."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":1,
+    "sentence_index":8,
+    "sentence_text":"On 31 January, the first published modelling study warned of inevitable \"independent self-sustaining outbreaks in major cities globally\" and called for \"large-scale public health interventions\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"By 31 January, Italy indicated its first confirmed infections had occurred, in two tourists from China."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"The WHO announced on 11 March its assessment that the situation could be characterised as a pandemic."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"On 19 March, Italy overtook China as the country with the most reported deaths."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"By 26 March, the United States had overtaken China and Italy as the country with the highest number of confirmed infections."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Genomic analysis indicated that the majority of New York's confirmed infections came from Europe, rather than directly from Asia."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"Testing of prior samples revealed a person who was infected in France on 27 December 2019 and a person in the United States who died from the disease on 6 February."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"In October, WHO reported that one in ten people around the world may have been infected, or 780 million people, while only 35 million infections had been confirmed."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"On 9 November, Pfizer released trial results for a candidate vaccine, showing a 90 per cent effectiveness in preventing infection."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":5,
+    "sentence_index":1,
+    "sentence_text":"That day, Novavax submitted an FDA Fast Track application for their vaccine."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":5,
+    "sentence_index":2,
+    "sentence_text":"On 14 December, Public Health England reported that a variant had been discovered in the UK's southeast, predominantly in Kent."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":5,
+    "sentence_index":3,
+    "sentence_text":"The variant, later named Alpha, showed changes to the spike protein that could make the virus more infectious."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":5,
+    "sentence_index":4,
+    "sentence_text":"As of 13 December, 1,108 infections had been confirmed in the UK."
+  },
+  {
+    "language":"en",
+    "section":"History > 2020",
+    "paragraph_index":5,
+    "sentence_index":5,
+    "sentence_text":"On 4 February 2020, US Secretary of Health and Human Services Alex Azar waived liability for vaccine manufacturers in all cases except those involving \"willful misconduct\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"On 2 January, the Alpha variant, first discovered in the UK, had been identified in 33 countries."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"On 6 January, the Gamma variant was first identified in Japanese travellers returning from Brazil."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"On 29 January, it was reported that the Novavax vaccine was 49 per cent effective against the Beta variant in a clinical trial in South Africa."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The CoronaVac vaccine was reported to be 50.4 per cent effective in a Brazil clinical trial."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"On 12 March, several countries stopped using the Oxford–AstraZeneca COVID-19 vaccine due to blood clotting problems, specifically cerebral venous sinus thrombosis (CVST)."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"On 20 March, the WHO and European Medicines Agency found no link to thrombosis, leading several countries to resume administering the vaccine."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"In March WHO reported that an animal host was the most likely origin, without ruling out other possibilities."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"The Delta variant was first identified in India."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"In mid-April, the variant was first detected in the UK and two months later it had become a full-fledged third wave in the country, forcing the government to delay reopening that was originally scheduled for June."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"On 10 November, Germany advised against the Moderna vaccine for people under 30, due to a possible association with myocarditis."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"On 24 November, the Omicron variant was detected in South Africa; a few days later the WHO declared it a VoC (variant of concern)."
+  },
+  {
+    "language":"en",
+    "section":"History > 2021",
+    "paragraph_index":1,
+    "sentence_index":7,
+    "sentence_text":"The new variant is more infectious than the Delta variant."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"On 1 January, Europe passed 100 million cases amidst a surge in the Omicron variant."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Later that month, the WHO recommended the rheumatoid arthritis drug Baricitinib for severe or critical patients."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"It also recommended the monoclonal antibody Sotrovimab in patients with non-severe disease, but only those who are at highest risk of hospitalisation."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"On 24 January, the Institute for Health Metrics and Evaluation estimated that about 57% of the world's population had been infected by COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"By 6 March, it was reported that the total worldwide death count had surpassed 6 million people."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"By 6 July, Omicron subvariants BA.4 and BA.5 had spread worldwide."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"WHO Director-General Tedros Ghebreyesus stated on 14 September 2022, that \"[The world has] never been in a better position to end the pandemic\", citing the lowest number of weekly reported deaths since March 2020."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"He continued, \"We are not there yet."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"But the end is in sight—we can see the finish line\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"On 21 October, the United States surpassed 99 million cases of COVID-19, the most cases of any country."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"By 30 October, the worldwide daily death toll was 424, the lowest since 385 deaths were reported on 12 March 2020."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"17 November marked the three-year anniversary since health officials in China first detected COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"On 11 November, the WHO reported that deaths since the month of February had dropped 90 per cent."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Director-General Tedros said this was \"cause for optimism\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"On 3 December, the WHO indicated that, \"at least 90% of the world's population has some level of immunity to Sars-CoV-2\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"In early December, China began lifting some of its most stringent lockdown measures."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"Subsequent data from China's health authorities revealed that 248 million people, nearly 18 per cent of its population, had been infected in the first 20 days of that month."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":3,
+    "sentence_index":5,
+    "sentence_text":"On 29 December, the US joined Italy, Japan, Taiwan and India in requiring negative COVID-19 test results from all people travelling from China due to the new surge in cases."
+  },
+  {
+    "language":"en",
+    "section":"History > 2022",
+    "paragraph_index":3,
+    "sentence_index":6,
+    "sentence_text":"The EU refused similar measures, stating that the BF7 omicron variant had already spread throughout Europe without becoming dominant."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"On 4 January 2023, the WHO said the information shared by China during the recent surge in infections lacked data, such as hospitalisation rates."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"On 10 January, the WHO's Europe office said the recent viral surge in China posed \"no immediate threat.\""
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"On 16 January, the WHO recommended that China monitor excess mortality to provide \"a more comprehensive understanding of the impact of COVID-19\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"On 30 January, the three-year anniversary of the original declaration, the WHO determined that COVID-19 still met the criteria for a public health emergency of international concern (PHEIC)."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"On 19 March, WHO Director-General Tedros indicated he was \"confident\" the COVID-19 pandemic would cease to be a public health emergency by the end of the year."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"On 5 May, the WHO downgraded COVID-19 from being a global health emergency, though it continued to refer to it as a pandemic."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"The WHO does not make official declarations of when pandemics end."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"The decision came after Tedros convened with the International Health Regulations Emergency Committee, wherein the Committee noted that due to the decrease in deaths and hospitalisations, and the prevalence of vaccinations and the level of general immunity, it was time to remove the emergency designation and \"transition to long-term management\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"Tedros agreed, and the WHO reduced the classification to an \"established and ongoing health issue\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"In a press conference, Tedros remarked that the diminishing threat from COVID-19 had \"allowed most countries to return to life as we knew it before COVID-19\"."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"In September the WHO said it had observed \"concerning\" trends in COVID-19 case numbers and hospitalisations, although analysis was hampered because many countries were no longer recording COVID-19 case statistics."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"In November 2023, in response to viral mutations and changing characteristics of infection, the WHO adjusted its treatment guidelines."
+  },
+  {
+    "language":"en",
+    "section":"History > 2023",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"Among other changes, remdesivir and molnupiravir were now recommended only for the most severe cases, and deuremidevir and ivermectin were recommended against."
+  },
+  {
+    "language":"en",
+    "section":"Responses",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"National reactions ranged from strict lockdowns to public education campaigns."
+  },
+  {
+    "language":"en",
+    "section":"Responses",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"WHO recommended that curfews and lockdowns should be short-term measures to reorganise, regroup, rebalance resources, and protect the health care system."
+  },
+  {
+    "language":"en",
+    "section":"Responses",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"As of 26 March 2020, 1.7 billion people worldwide were under some form of lockdown."
+  },
+  {
+    "language":"en",
+    "section":"Responses",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"This increased to 3.9 billion people by the first week of April—more than half the world's population."
+  },
+  {
+    "language":"en",
+    "section":"Responses",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In several countries, protests rose against restrictions such as lockdowns."
+  },
+  {
+    "language":"en",
+    "section":"Responses",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"A February 2021 study found that protests against restrictions were likely to directly increase the spread of the virus."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"As of the end of 2021, Asia's peak had come at the same time and at the same level as the world as a whole, in May 2021."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"However, cumulatively they had experienced only half of the global average in cases."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"China opted for containment, instituting strict lockdowns to eliminate viral spread."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The vaccines distributed in China included the BIBP, WIBP, and CoronaVac."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"It was reported on 11 December 2021, that China had vaccinated 1.162 billion of its citizens, or 82.5% of the total population of the country against COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"China's large-scale adoption of zero-COVID had largely contained the first waves of infections of the disease."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"When the waves of infections due to the Omicron variant followed, China was almost alone in pursuing the strategy of zero-Covid to combat the spread of the virus in 2022."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"Lockdown continued to be employed in November to combat a new wave of cases; however, protests erupted in cities across China over the country's stringent measures, and in December that year, the country relaxed its zero-COVID policy."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"On 20 December 2022, the Chinese State Council narrowed its definition of what would be counted as a COVID-19 death to include solely respiratory failure, which led to scepticism by health experts of the government's total death count at a time when hospitals reported being overwhelmed with cases following the abrupt discontinuation of zero-COVID."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"The first case in India was reported on 30 January 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"India ordered a nationwide lockdown starting 24 March 2020, with a phased unlock beginning 1 June 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Six cities accounted for around half of reported cases—Mumbai, Delhi, Ahmedabad, Chennai, Pune and Kolkata."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Post-lockdown, the Government of India introduced a contact tracking app called Aarogya Setu to help authorities manage contact tracing and vaccine distribution."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"India's vaccination programme was considered to be the world's largest and most successful with over 90% of citizens getting the first dose and another 65% getting the second dose."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"A second wave hit India in April 2021, straining healthcare services."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":2,
+    "sentence_index":6,
+    "sentence_text":"On 21 October 2021, it was reported that the country had surpassed 1 billion vaccinations."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Iran reported its first confirmed cases on 19 February 2020, in Qom."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Early measures included the cancellation\/closure of concerts and other cultural events, Friday prayers, and school and university campuses."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"Iran became a centre of the pandemic in February 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"More than ten countries had traced their outbreaks to Iran by 28 February, indicating a more severe outbreak than the 388 reported cases."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"The Iranian Parliament closed, after 23 of its 290 members tested positive on 3 March 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":3,
+    "sentence_index":5,
+    "sentence_text":"At least twelve sitting or former Iranian politicians and government officials had died by 17 March 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":3,
+    "sentence_index":6,
+    "sentence_text":"By August 2021, the pandemic's fifth wave peaked, with more than 400 deaths in 1 day."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"COVID-19 was confirmed in South Korea on 20 January 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"Military bases were quarantined after tests showed three infected soldiers."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"South Korea introduced what was then considered the world's largest and best-organised screening programme, isolating infected people, and tracing and quarantining contacts."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"Screening methods included mandatory self-reporting by new international arrivals through mobile application, combined with drive-through testing, and increasing testing capability to 20,000 people\/day."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Asia",
+    "paragraph_index":4,
+    "sentence_index":4,
+    "sentence_text":"Despite some early criticisms, South Korea's programme was considered a success in controlling the outbreak without quarantining entire cities."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The COVID-19 pandemic arrived in Europe with its first confirmed case in Bordeaux, France, on 24 January 2020, and subsequently spread widely across the continent."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"By 17 March 2020, every country in Europe had confirmed a case, and all had reported at least one death, with the exception of Vatican City."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Italy was the first European nation to experience a major outbreak in early 2020, becoming the first country worldwide to introduce a national lockdown."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"By 13 March 2020, the WHO declared Europe the epicentre of the pandemic and it remained so until the WHO announced it had been overtaken by South America on 22 May."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"By 18 March 2020, more than 250 million people were in lockdown in Europe."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Despite deployment of COVID-19 vaccines, Europe became the pandemic's epicentre once again in late 2021."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The Italian outbreak began on 31 January 2020, when two Chinese tourists tested positive for SARS-CoV-2 in Rome."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Cases began to rise sharply, which prompted the government to suspend flights to and from China and declare a state of emergency."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"On 22 February 2020, the Council of Ministers announced a new decree-law to contain the outbreak, which quarantined more than 50,000 people in northern Italy."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"On 4 March, the Italian government ordered schools and universities closed as Italy reached a hundred deaths."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"Sport was suspended completely for at least one month."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"On 11 March, Italian Prime Minister Giuseppe Conte closed down nearly all commercial activity except supermarkets and pharmacies."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"On 19 April, the first wave ebbed, as 7-day deaths declined to 433."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":7,
+    "sentence_text":"On 13 October, the Italian government again issued restrictive rules to contain the second wave."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":8,
+    "sentence_text":"On 10 November, Italy surpassed 1 million confirmed infections."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":1,
+    "sentence_index":9,
+    "sentence_text":"On 23 November, it was reported that the second wave of the virus had led some hospitals to stop accepting patients."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"The virus was first confirmed to have spread to Spain on 31 January 2020, when a German tourist tested positive for SARS-CoV-2 on La Gomera in the Canary Islands."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Post-hoc genetic analysis has shown that at least 15 strains of the virus had been imported, and community transmission began by mid-February."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"On 29 March, it was announced that, beginning the following day, all non-essential workers were ordered to remain at home for the next 14 days."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"The number of cases increased again in July in a number of cities including Barcelona, Zaragoza and Madrid, which led to reimposition of some restrictions but no national lockdown."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"By September 2021, Spain was one of the countries with the highest percentage of its population vaccinated (76% fully vaccinated and 79% with the first dose)."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"Italy is ranked second at 75%."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Sweden differed from most other European countries in that it mostly remained open."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Per the Swedish constitution, the Public Health Agency of Sweden has autonomy that prevents political interference and the agency favoured remaining open."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"The Swedish strategy focused on longer-term measures, based on the assumption that after lockdown the virus would resume spreading, with the same result."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"By the end of June, Sweden no longer had excess mortality."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Devolution in the United Kingdom meant that each of its four countries developed its own response."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"England's restrictions were shorter-lived than the others."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"The UK government started enforcing social distancing and quarantine measures on 18 March 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"On 16 March, Prime Minister Boris Johnson advised against non-essential travel and social contact, praising work from home and avoiding venues such as pubs, restaurants, and theatres."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":4,
+    "sentence_text":"On 20 March, the government ordered all leisure establishments to close, and promised to prevent unemployment."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":5,
+    "sentence_text":"On 23 March, Johnson banned gatherings and restricted non-essential travel and outdoor activity."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":6,
+    "sentence_text":"Unlike previous measures, these restrictions were enforceable by police through fines and dispersal of gatherings."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":7,
+    "sentence_text":"Most non-essential businesses were ordered to close."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":8,
+    "sentence_text":"On 24 April 2020, it was reported that a promising vaccine trial had begun in England; the government pledged more than £50 million towards research."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":9,
+    "sentence_text":"On 16 April 2020, it was reported that the UK would have first access to the Oxford vaccine, due to a prior contract; should the trial be successful, some 30 million doses would be available."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":10,
+    "sentence_text":"On 2 December 2020, the UK became the first developed country to approve the Pfizer vaccine; 800,000 doses were immediately available for use."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Europe",
+    "paragraph_index":4,
+    "sentence_index":11,
+    "sentence_text":"In August 2022 it was reported that viral infection cases had declined in the UK."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The virus arrived in the United States on 13 January 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Cases were reported in all North American countries after Saint Kitts and Nevis confirmed a case on 25 March, and in all North American territories after Bonaire confirmed a case on 16 April."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Per Our World in Data, 103,436,829 confirmed cases have been reported in the United States with 1,193,165 deaths, the most of any country, and the nineteenth-highest per capita worldwide."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"COVID-19 is the deadliest pandemic in US history; it was the third-leading cause of death in the US in 2020, behind heart disease and cancer."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"From 2019 to 2020, US life expectancy dropped by 3 years for Hispanic Americans, 2.9 years for African Americans, and 1.2 years for white Americans."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"These effects have persisted as US deaths due to COVID-19 in 2021 exceeded those in 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"In the United States, COVID-19 vaccines became available under emergency use in December 2020, beginning the national vaccination programme."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"The first COVID-19 vaccine was officially approved by the Food and Drug Administration on 23 August 2021."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"By 18 November 2022, while cases in the U.S. had declined, COVID variants BQ.1\/BQ.1.1 had become dominant in the country."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"In March 2020, as cases of community transmission were confirmed across Canada, all of its provinces and territories declared states of emergency."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Provinces and territories, to varying degrees, implemented school and daycare closures, prohibitions on gatherings, closures of non-essential businesses and restrictions on entry."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Canada severely restricted its border access, barring travellers from all countries with some exceptions."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Cases surged across Canada, notably in the provinces of British Columbia, Alberta, Quebec and Ontario, with the formation of the Atlantic Bubble, a travel-restricted area of the country (formed of the four Atlantic provinces)."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"Vaccine passports were adopted in all provinces and two of the territories."
+  },
+  {
+    "language":"en",
+    "section":"Responses > North America",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"Per a report on 11 November 2022, Canadian health authorities saw a surge in influenza, while COVID-19 was expected to rise during winter."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The COVID-19 pandemic was confirmed to have reached South America on 26 February 2020, when Brazil confirmed a case in São Paulo."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"By 3 April, all countries and territories in South America had recorded at least one case."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"On 13 May 2020, it was reported that Latin America and the Caribbean had reported over 400,000 cases of COVID-19 infection with 23,091 deaths."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"On 22 May 2020, citing the rapid increase of infections in Brazil, the WHO declared South America the epicentre of the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"As of 16 July 2021, South America had recorded 34,359,631 confirmed cases and 1,047,229 deaths from COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Due to a shortage of testing and medical facilities, it is believed that the outbreak is far larger than the official numbers show."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The virus was confirmed to have spread to Brazil on 25 February 2020, when a man from São Paulo who had travelled to Italy tested positive for the virus."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The disease had spread to every federative unit of Brazil by 21 March."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"On 19 June 2020, the country reported its one millionth case and nearly 49,000 reported deaths."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"One estimate of under-reporting was 22.62% of total reported COVID-19 mortality in 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > South America",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"As of 01 April 2025, Brazil, with 37,511,921 confirmed cases and 702,116 deaths, has the third-highest number of confirmed cases and second-highest death toll from COVID-19 in the world, behind only those of the United States and India."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The COVID-19 pandemic was confirmed to have spread to Africa on 14 February 2020, with the first confirmed case announced in Egypt."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The first confirmed case in sub-Saharan Africa was announced in Nigeria at the end of February 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Within three months, the virus had spread throughout the continent; Lesotho, the last African sovereign state to have remained free of the virus, reported its first case on 13 May 2020."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"By 26 May, it appeared that most African countries were experiencing community transmission, although testing capacity was limited."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Most of the identified imported cases arrived from Europe and the United States rather than from China where the virus originated."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Many preventive measures were implemented by different countries in Africa including travel restrictions, flight cancellations, and event cancellations."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Despite fears, Africa reported lower death rates than other, more economically developed regions."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In early June 2021, Africa faced a third wave of COVID infections with cases rising in 14 countries."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"By 4 July the continent recorded more than 251,000 new COVID cases, a 20% increase from the prior week and a 12% increase from the January peak."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"More than sixteen African countries, including Malawi and Senegal, recorded an uptick in new cases."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"The WHO labelled it Africa's 'Worst Pandemic Week Ever'."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Africa",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"In October 2022, WHO reported that most countries on the African continent will miss the goal of 70 per cent vaccination by the end of 2022."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The COVID-19 pandemic was confirmed to have reached Oceania on 25 January 2020, with the first confirmed case reported in Melbourne, Australia."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"It has since spread elsewhere in the region."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Australia and New Zealand were praised for their handling of the pandemic in comparison to other Western nations, with New Zealand and each state in Australia wiping out all community transmission of the virus several times even after re-introduction into the community."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"As a result of the high transmissibility of the Delta variant, however, by August 2021, the Australian states of New South Wales and Victoria had conceded defeat in their eradication efforts."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"In early October 2021, New Zealand also abandoned its elimination strategy."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"In November and December, following vaccination efforts, the remaining states of Australia, excluding Western Australia, voluntarily gave up COVID-Zero to open up state and international borders."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"The open borders allowed the Omicron variant of COVID-19 to enter quickly, and cases subsequently exceeded 120,000 a day."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"By early March 2022, with cases exceeding 1,000 a day, Western Australia conceded defeat in its eradication strategy and opened its borders."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"Despite record cases, Australian jurisdictions slowly removed restrictions such as close contact isolation, mask wearing, and density limits by April 2022."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"On 9 September 2022, restrictions were significantly relaxed."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"The aircraft mask mandate was scrapped nationwide, and daily reporting transitioned to weekly reporting."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"On 14 September, COVID-19 disaster payment for isolating persons was extended for mandatory isolation."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"By 22 September, all states had ended mask mandates on public transport, including in Victoria, where the mandate had lasted for approximately 800 days."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"On 30 September 2022, all Australian leaders declared the emergency response finished and announced the end of isolation requirements."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Oceania",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"These changes were due in part to high levels of 'hybrid immunity' and low case numbers."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Antarctica",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Due to its remoteness and sparse population, Antarctica was the last continent to have confirmed cases of COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Antarctica",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The first cases were reported in December 2020, almost a year after the first cases of COVID-19 were detected in China."
+  },
+  {
+    "language":"en",
+    "section":"Responses > Antarctica",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"At least 36 people were infected in the first outbreak in 2020, with several other outbreaks taking place in 2021 and 2022."
+  },
+  {
+    "language":"en",
+    "section":"Responses > United Nations",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The United Nations Conference on Trade and Development (UNSC) was criticised for its slow response, especially regarding the UN's global ceasefire, which aimed to open up humanitarian access to conflict zones."
+  },
+  {
+    "language":"en",
+    "section":"Responses > United Nations",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The United Nations Security Council was criticised due to the inadequate manner in which it dealt with the COVID-19 pandemic, namely the poor ability to create international collaboration during this crisis."
+  },
+  {
+    "language":"en",
+    "section":"Responses > United Nations",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"On 23 March 2020, United Nations Secretary-General António Manuel de Oliveira Guterres appealed for a global ceasefire; 172 UN member states and observers signed a non-binding supporting statement in June, and the UN Security Council passed a resolution supporting it in July."
+  },
+  {
+    "language":"en",
+    "section":"Responses > United Nations",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"On 29 September 2020, Guterres urged the International Monetary Fund to help certain countries via debt relief and also call for countries to increase contributions to develop vaccines."
+  },
+  {
+    "language":"en",
+    "section":"Responses > WHO",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The WHO spearheaded initiatives such as the COVID-19 Solidarity Response Fund to raise money for the pandemic response, the UN COVID-19 Supply Chain Task Force, and the solidarity trial for investigating potential treatment options for the disease."
+  },
+  {
+    "language":"en",
+    "section":"Responses > WHO",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The COVAX programme, co-led by the WHO, GAVI, and the Coalition for Epidemic Preparedness Innovations (CEPI), aimed to accelerate the development, manufacture, and distribution of COVID-19 vaccines, and to guarantee fair and equitable access across the world."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic shook the world's economy, with especially severe economic damage in the United States, Europe and Latin America."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"A consensus report by American intelligence agencies in April 2021 concluded, \"Efforts to contain and manage the virus have reinforced nationalist trends globally, as some states turned inward to protect their citizens and sometimes cast blame on marginalised groups\"."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"COVID-19 inflamed partisanship and polarisation around the world as bitter arguments exploded over how to respond."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"International trade was disrupted amid the formation of no-entry enclaves."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Travel restrictions",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic led many countries and regions to impose quarantines, entry bans, or other restrictions, either for citizens, recent travellers to affected areas, or for all travellers."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Travel restrictions",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Travel collapsed worldwide, damaging the travel sector."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Travel restrictions",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The effectiveness of travel restrictions was questioned as the virus spread across the world."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Travel restrictions",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"One study found that travel restrictions only modestly affected the initial spread, unless combined with other infection prevention and control measures."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Travel restrictions",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Researchers concluded that \"travel restrictions are most useful in the early and late phase of an epidemic\" and \"restrictions of travel from Wuhan unfortunately came too late\"."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Travel restrictions",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"The European Union rejected the idea of suspending the Schengen free travel zone."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Repatriation of foreign citizens",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Several countries repatriated their citizens and diplomatic staff from Wuhan and surrounding areas, primarily through charter flights."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Repatriation of foreign citizens",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Canada, the United States, Japan, India, Sri Lanka, Australia, France, Argentina, Germany and Thailand were among the first to do so."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Repatriation of foreign citizens",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Brazil and New Zealand evacuated their own nationals and others."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Repatriation of foreign citizens",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"On 14 March, South Africa repatriated 112 South Africans who tested negative, while four who showed symptoms were left behind."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Repatriation of foreign citizens",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Pakistan declined to evacuate its citizens."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Repatriation of foreign citizens",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"On 15 February, the US announced it would evacuate Americans aboard the Diamond Princess cruise ship, and on 21 February, Canada evacuated 129 Canadians from the ship."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Repatriation of foreign citizens",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"In early March, the Indian government began repatriating its citizens from Iran."
+  },
+  {
+    "language":"en",
+    "section":"Restrictions > Repatriation of foreign citizens",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"On 20 March, the United States began to withdraw some troops from Iraq."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic and responses to it damaged the global economy."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"On 27 February 2020, worries about the outbreak crushed US stock indexes, which posted their sharpest falls since 2008."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Tourism collapsed due to travel restrictions, closing of public places including travel attractions, and advice of governments against travel."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Airlines cancelled flights, while British regional airline Flybe collapsed."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"The cruise line industry was hard hit, and train stations and ferry ports closed."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"International mail stopped or was delayed."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"The retail sector faced reductions in store hours or closures."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Retailers in Europe and Latin America faced traffic declines of 40 per cent."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"North America and Middle East retailers saw a 50–60 per cent drop."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Shopping centres faced a 33–43 per cent drop in foot traffic in March compared to February."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"Mall operators around the world coped by increasing sanitation, installing thermal scanners to check the temperature of shoppers, and cancelling events."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Hundreds of millions of jobs were lost, including more than 40 million jobs in the US."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"According to a report by Yelp, about 60% of US businesses that closed will stay shut permanently."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"The International Labour Organization (ILO) reported that the income generated in the first nine months of 2020 from work across the world dropped by 10.7%, or $3.5 trillion."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Pandemic fears led to panic buying, emptying groceries of essentials such as food, toilet paper, and bottled water."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Panic buying stemmed from perceived threat, perceived scarcity, fear of the unknown, coping behaviour and social psychological factors (e.g."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"social influence and trust)."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Supply shortages were due to disruption to factory and logistic operations; shortages were worsened by supply chain disruptions from factory and port shutdowns, and labour shortages."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Shortages continued as managers underestimated the speed of economic recovery after the initial economic crash."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"The technology industry, in particular, warned of delays from underestimates of semiconductor demand for vehicles and other products."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"According to WHO Secretary-General Tedros Ghebreyesus, demand for personal protective equipment (PPE) rose one hundredfold, pushing prices up twentyfold."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"PPE stocks were exhausted everywhere."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"In September 2021, the World Bank reported that food prices remained generally stable and the supply outlook remained positive."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"However, the poorest countries witnessed a sharp increase in food prices, reaching the highest level since the pandemic began."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"The Agricultural Commodity Price Index stabilised in the third quarter but remained 17% higher than in January 2021."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"By contrast, petroleum products were in surplus at the beginning of the pandemic, as demand for gasoline and other products collapsed due to reduced commuting and other trips."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":5,
+    "sentence_index":1,
+    "sentence_text":"The 2021 global energy crisis was driven by a global surge in demand as the world economy recovered."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Economics > Supply shortages",
+    "paragraph_index":5,
+    "sentence_index":2,
+    "sentence_text":"Energy demand was particularly strong in Asia."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Arts and cultural heritage",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The performing arts and cultural heritage sectors were profoundly affected by the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Arts and cultural heritage",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Both organisations' and individuals' operations have been impacted globally."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Arts and cultural heritage",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"By March 2020, across the world and to varying degrees, museums, libraries, performance venues, and other cultural institutions had been indefinitely closed with their exhibitions, events and performances cancelled or postponed."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Arts and cultural heritage",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"A 2021 UNESCO report estimated ten million job losses worldwide in the culture and creative industries."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Arts and cultural heritage",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Some services continued through digital platforms, such as live streaming concerts or web-based arts festivals."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic affected political systems, causing suspensions of legislative activities, isolations or deaths of politicians, and rescheduled elections."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Although they developed broad support among epidemiologists, NPIs (non-pharmaceutical interventions) were controversial in many countries."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Intellectual opposition came primarily from other fields, along with heterodox epidemiologists."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic (and the response of Brazilian politicians to it) led to widespread panic, confusion, and pessimism in Brazil."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"When questioned regarding record deaths in the country in April 2020, Brazilian president Jair Bolsonaro said \"So what?"
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"I'm sorry."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"What do you want me to do about it?\""
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Bolsonaro disregarded WHO-recommended mitigation techniques and instead downplayed the risks of the virus, promoted increased economic activity, spread misinformation about the efficacy of masks, vaccines and public health measures, and distributed unproven treatments including hydroxychloroquine and ivermectin."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"A series of federal health ministers resigned or were dismissed after they refused to implement Bolsonaro's policies."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Disagreements between federal and state governments led to a chaotic and delayed response to the rapid spread of the virus, exacerbated by preexisting social and economic disparities in the country."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Employment, investment and valuation of the Brazilian real plummeted to record lows."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Brazil was also heavily affected by the Delta and Omicron variants."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"At the height of the outbreak in the spring of 2021, 3,000+ Brazilians were dying per day."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Brazil",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"Bolsonaro's loss to Lula da Silva in the 2022 presidential election is widely credited to the former's mishandling of the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > China",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Multiple provincial-level administrators of the Chinese Communist Party (CCP) were dismissed over their handling of quarantine measures."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > China",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Some commentators claimed this move was intended to protect CCP General Secretary Xi Jinping."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > China",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"The US intelligence community claimed that China intentionally under-reported its COVID-19 caseload."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > China",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The Chinese government maintained that it acted swiftly and transparently."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > China",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Journalists and activists in China who reported on the pandemic were detained by authorities, including Zhang Zhan, who was arrested and tortured."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Italy",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"In early March 2020, the Italian government criticised the EU's lack of solidarity with Italy."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Italy",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"On 22 March 2020, after a phone call with Italian Prime Minister Giuseppe Conte, Russian president Vladimir Putin ordered the Russian army to send military medics, disinfection vehicles, and other medical equipment to Italy."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Italy",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"In early April, Norway and EU states like Romania and Austria started to offer help by sending medical personnel and disinfectant, and European Commission president Ursula von der Leyen offered an official apology to the country."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > United States",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Beginning in mid-April 2020, protestors objected to government-imposed business closures and restrictions on personal movement and assembly."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > United States",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Simultaneously, essential workers protested unsafe conditions and low wages by participating in a brief general strike."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > United States",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Some political analysts claimed that the pandemic contributed to US president Donald Trump's 2020 defeat."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > United States",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The COVID-19 pandemic in the United States prompted calls for the United States to adopt social policies common in other wealthy countries, including universal health care, universal child care, paid sick leave, and higher levels of funding for public health."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > United States",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"The Kaiser Family Foundation estimated that preventable hospitalisations of unvaccinated Americans in the second half of 2021 cost US$13.8 billion."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > United States",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"There were also protest in regards to vaccine mandates in the United States."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > United States",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"In January 2022, the US Supreme Court struck down an OSHA rule that mandated vaccination or a testing regimen for all companies with greater than 100 employees."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The number of journalists imprisoned or detained increased worldwide; some detentions were related to the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"The planned NATO \"Defender 2020\" military exercise in Germany, Poland and the Baltic states, the largest NATO war exercise since the end of the Cold War, was held on a reduced scale."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The Iranian government was heavily affected by the virus, which infected some two dozen parliament members and political figures."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Iranian president Hassan Rouhani wrote a public letter to world leaders asking for help on 14 March 2020, due to a lack of access to international markets."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Saudi Arabia, which had launched a military intervention in Yemen in March 2015, declared a ceasefire."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Diplomatic relations between Japan and South Korea worsened."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"South Korea criticised Japan's \"ambiguous and passive quarantine efforts\" after Japan announced travellers from South Korea must quarantine for two weeks."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"South Korean society was initially polarised on president Moon Jae-in's response to the crisis; many Koreans signed petitions calling for Moon's impeachment or praising his response."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Some countries passed emergency legislation."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Some commentators expressed concern that it could allow governments to strengthen their grip on power."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"In Hungary, the parliament voted to allow Prime Minister Viktor Orbán to rule by decree indefinitely, suspend parliament and elections, and punish those deemed to have spread false information."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"In countries such as Egypt, Turkey, and Thailand, opposition activists and government critics were arrested for allegedly spreading fake news."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Politics > Other countries",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"In India, journalists criticising the government's response were arrested or issued warnings by police and authorities."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Food systems",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic disrupted food systems worldwide, hitting at a time when hunger and undernourishment were rising- an estimated 690 million people lacked food security in 2019."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Food systems",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Food access fell – driven by falling incomes, lost remittances, and disruptions to food production."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Food systems",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"In some cases, food prices rose."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Food systems",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The pandemic and its accompanying lockdowns and travel restrictions slowed movement of food aid."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Food systems",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"According to the WHO, 811 million people were undernourished in 2020, \"likely related to the fallout of COVID-19\"."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Education",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic impacted educational systems in many countries."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Education",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Many governments temporarily closed educational institutions, often replaced by online education."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Education",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Other countries, such as Sweden, kept their schools open."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Education",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"As of September 2020, approximately 1.077 billion learners were affected due to school closures."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Education",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"School closures impacted students, teachers, and families with far-reaching economic and societal consequences."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Education",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"They shed light on social and economic issues, including student debt, digital learning, food insecurity, and homelessness, as well as access to childcare, health care, housing, internet, and disability services."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Education",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"The impact was more severe for disadvantaged children."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Education",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"The Higher Education Policy Institute reported that around 63% of students claimed worsened mental health as a result of the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic impacted global health for many conditions."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Hospital visits fell."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Visits for heart attack symptoms declined by 38% in the US and 40% in Spain."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The head of cardiology at the University of Arizona said, \"My worry is some of these people are dying at home because they're too scared to go to the hospital\"."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"People with strokes and appendicitis were less likely to seek treatment."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Medical supply shortages impacted many people."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"The pandemic impacted mental health, increasing anxiety, depression, and post-traumatic stress disorder, affecting healthcare workers, patients and quarantined individuals."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In late 2022, during the first northern hemisphere autumn and winter seasons following the widespread relaxation of global public health measures, North America and Europe experienced a surge in respiratory viruses and coinfections in both adults and children."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"This formed the beginning of the 2022–2023 paediatric care crisis and what some experts termed a \"tripledemic\" of seasonal influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 throughout North America."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"In the United Kingdom, paediatric infections also began to spike beyond pre-pandemic levels, albeit with different illnesses, such as Group A streptococcal infection and resultant scarlet fever."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"As of mid-December 2022, 19 children in the UK had died due to Strep A and the wave of infections had begun to spread into North America and Mainland Europe."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"The B\/Yamagata lineage of influenza B might have become extinct in 2020\/2021 due to COVID-19 pandemic measures."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"There have been no naturally occurring cases confirmed since March 2020."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Health",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"In 2023, the WHO concluded that protection against the Yamagata lineage was no longer necessary in the seasonal flu vaccine, reducing the number of lineages targeted by the vaccine from four to three."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic and the reaction to it positively affected the environment and climate as a result of reduced human activity."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"During the \"anthropause\", fossil fuel use decreased, resource consumption declined, and waste disposal improved, generating less pollution."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Planned air travel and vehicle transportation declined."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"In China, lockdowns and other measures resulted in a 26% decrease in coal consumption, and a 50% reduction in nitrogen oxides emissions."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In 2020, a worldwide study on mammalian wildlife responses to human presence during COVID lockdowns found complex patterns of animal behaviour."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Carnivores were generally less active when humans were around, while herbivores in developed areas were more active."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Among other findings, this suggested that herbivores may view humans as a shield against predators, highlighting the importance of location and human presence history in understanding wildlife responses to changes in human activity in a given area."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"A wide variety of largely mammalian species, both captive and wild, have been shown to be susceptible to SARS-CoV-2, with some encountering a particularly high degree of fatal outcomes."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"In particular, both farmed and wild mink have developed highly symptomatic and severe COVID-19 infections, with a mortality rate as high as 35–55% according to one study."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"White-tailed deer, on the other hand, have largely avoided severe outcomes but have effectively become natural reservoirs of the virus, with large numbers of free-ranging deer infected throughout the US and Canada, including approximately 80% of Iowa's wild deer herd."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Environment",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"An August 2023 study appeared to confirm the status of white-tailed deer as a disease reservoir, noting that the viral evolution of SARS-CoV-2 in deer occurs at triple the rate of its evolution in humans and that infection rates remained high, even in areas rarely frequented by humans."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Heightened prejudice, xenophobia, and racism toward people of Chinese and East Asian descent were documented around the world."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Reports from February 2020, when most confirmed cases were confined to China, cited racist sentiments about Chinese people 'deserving' the virus."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Individuals of Asian descent in Europe and North America reported increasing instances of racially-motivated abuse and assaults as a result of the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"US president Donald Trump was criticised for referring to SARS-CoV-2 as the \"Chinese Virus\" and \"Kung Flu\", terms which were condemned as being racist and xenophobic."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Age-based discrimination against older adults increased during the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"This was attributed to their perceived vulnerability and subsequent physical and social isolation measures, which, coupled with their reduced social activity, increased dependency on others."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Similarly, limited digital literacy left the elderly more vulnerable to isolation, depression, and loneliness."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"In a correspondence published in The Lancet in 2021, German epidemiologist Günter Kampf described the harmful effects of \"inappropriate stigmatisation of unvaccinated people, who include our patients, colleagues, and other fellow citizens\", noting the evidence that vaccinated individuals play a large role in transmission."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"American bioethicist Arthur Caplan responded to Kampf, writing \"Criticising [the unvaccinated] who... wind up in hospitals and morgues in huge numbers, put stress on finite resources, and prolong the pandemic... is not stigmatising, it is deserved moral condemnation\"."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"In January 2022, Amnesty International urged Italy to change their anti-COVID-19 restrictions to avoid discrimination against unvaccinated people, saying that \"the government must continue to ensure that the entire population can enjoy its fundamental rights\"."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Discrimination and prejudice",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"The restrictions included mandatory vaccination over the age of 50, and mandatory vaccination to use public transport."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The pandemic triggered massive changes in behaviour, from increased Internet commerce to cultural changes in the workplace."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Online retailers in the US posted $791.70 billion in sales in 2020, an increase of 32.4% from $598.02 billion the year before."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Home delivery orders increased, while indoor restaurant dining shut down due to lockdown orders or low sales."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Hackers, cybercriminals and scammers took advantage of the changes to launch new online attacks."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Education in some countries temporarily shifted from physical attendance to video conferencing."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Massive layoffs shrank the airline, travel, hospitality, and other industries."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Despite most corporations implementing measures to address COVID-19 in the workplace, a poll from Catalyst found that as many as 68% of employees around the world felt that these policies were only performative and \"not genuine\"."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"The pandemic led to a surge in remote work."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"According to a Gallup poll, only 4% of US employees were fully remote before the pandemic, compared to 43% in May 2020."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Among white collar workers, that shift was more pronounced, with 6% increasing to 65% in the same period."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"That trend continued in later stages of the pandemic, with many workers choosing to remain remote even after workplaces reopened."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"Many Nordic, European, and Asian companies increased their recruitment of international remote workers even as the pandemic waned, partially to save on labour costs."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"This also led to a talent drain in the global south and in remote areas in the global north."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":2,
+    "sentence_index":6,
+    "sentence_text":"High cost of living and dense urban areas also lost office real estate value due to remote worker exodus."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":2,
+    "sentence_index":7,
+    "sentence_text":"By May 2023, due to increasing layoffs and concerns over productivity, some white collar workplaces in the US had resorted to performance review penalties and indirect incentives (e.g."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Lifestyle changes",
+    "paragraph_index":2,
+    "sentence_index":8,
+    "sentence_text":"donations to charity) to encourage workers to return to the office."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Historiography",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"A 2021 study noted that the COVID-19 pandemic had increased interest in epidemics and infectious diseases among both historians and the general public."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Historiography",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Prior to the pandemic, these topics were usually overlooked by \"general\" history and only received attention in the history of medicine."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Historiography",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Many comparisons were made between the COVID-19 and 1918 influenza pandemics, including the development of anti-mask movements, the widespread promotion of misinformation and the impact of socioeconomic disparities."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Religion",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"In some areas, religious groups exacerbated the spread of the virus, through large gatherings and the dissemination of misinformation."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Religion",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Some religious leaders decried what they saw as violations of religious freedom."
+  },
+  {
+    "language":"en",
+    "section":"Impact > Religion",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"In other cases, religious identity was a beneficial factor for health, increasing compliance with public health measures and protecting against the negative effects of isolation on mental wellbeing."
+  },
+  {
+    "language":"en",
+    "section":"Information dissemination",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Some news organisations removed their online paywalls for some or all of their pandemic-related articles and posts."
+  },
+  {
+    "language":"en",
+    "section":"Information dissemination",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Many scientific publishers provided pandemic-related journal articles to the public free of charge as part of the National Institutes of Health's COVID-19 Public Health Emergency Initiative."
+  },
+  {
+    "language":"en",
+    "section":"Information dissemination",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"According to one estimate from researchers at the University of Rome, 89.5% of COVID-19-related papers were open access, compared to an average of 48.8% for the ten most deadly human diseases."
+  },
+  {
+    "language":"en",
+    "section":"Information dissemination",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"The share of papers published on preprint servers prior to peer review increased dramatically."
+  },
+  {
+    "language":"en",
+    "section":"Information dissemination > Misinformation",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Misinformation and conspiracy theories about the pandemic have been widespread; they travel through mass media, social media and text messaging."
+  },
+  {
+    "language":"en",
+    "section":"Information dissemination > Misinformation",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"In March 2020, WHO declared an \"infodemic\" of incorrect information."
+  },
+  {
+    "language":"en",
+    "section":"Information dissemination > Misinformation",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Cognitive biases, such as confirmation bias, are linked to conspiracy beliefs, including COVID-19 vaccine hesitancy."
+  },
+  {
+    "language":"en",
+    "section":"Culture and society",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"The COVID-19 pandemic had a major impact on popular culture."
+  },
+  {
+    "language":"en",
+    "section":"Culture and society",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"It was included in the narratives of ongoing pre-pandemic television series and become a central narrative in new ones, with mixed results."
+  },
+  {
+    "language":"en",
+    "section":"Culture and society",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Writing for The New York Times about the then-upcoming BBC sitcom Pandemonium on 16 December 2020, David Segal asked, \"Are we ready to laugh about Covid-19?"
+  },
+  {
+    "language":"en",
+    "section":"Culture and society",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Or rather, is there anything amusing, or recognizable in a humorous way, about life during a plague, with all of its indignities and setbacks, not to mention its rituals and rules\"."
+  },
+  {
+    "language":"en",
+    "section":"Culture and society",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"The pandemic had driven some people to seek peaceful escapism in media, while others were drawn towards fictional pandemics (e.g."
+  },
+  {
+    "language":"en",
+    "section":"Culture and society",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"zombie apocalypses) as an alternate form of escapism."
+  },
+  {
+    "language":"en",
+    "section":"Culture and society",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Common themes have included contagion, isolation and loss of control."
+  },
+  {
+    "language":"en",
+    "section":"Culture and society",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Many drew comparisons to the fictional film Contagion (2011), praising its accuracies while noting some differences, such as the lack of an orderly vaccine rollout."
+  },
+  {
+    "language":"en",
+    "section":"Culture and society",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"As people turned to music to relieve emotions evoked by the pandemic, Spotify listenership showed that classical, ambient and children's genres grew, while pop, country and dance remained relatively stable."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"A March 2022 review declared a transition to endemic status to be \"inevitable\"."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"In June 2022, an article in Human Genomics said that the pandemic was still \"raging\", but that \"now is the time to explore the transition from the pandemic to the endemic phase\"."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Another review that month predicted that the virus that causes COVID-19 would become the fifth endemic seasonal coronavirus, alongside four other human coronaviruses."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"A February 2023 review of the four common cold coronaviruses concluded that the virus would become seasonal and, like the common cold, cause less severe disease for most people."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Another 2023 review stated that the transition to endemic COVID-19 may take years or decades."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"On 5 May 2023, the WHO declared that the pandemic was no longer a public health emergency of international concern."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"This led several media outlets to incorrectly report that this meant the pandemic was \"over\"."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"The WHO commented to Full Fact that it was unlikely to declare the pandemic over \"in the near future\" and mentioned cholera, which it considers to have been a pandemic since 1961 (i.e., continuously for the last 64 years)."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"The WHO does not have an official category for pandemics or make declarations of when pandemics start or end."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"In June 2023, Hans Kluge, director of the WHO in Europe, commented that \"While the international public health emergency may have ended, the pandemic certainly has not\"."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"The WHO in Europe launched a transition plan to manage the public health response to COVID-19 in the coming years and prepare for possible future emergencies."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Epidemics and pandemics usually end when the disease becomes endemic, and when the disease becomes \"an accepted, manageable part of normal life in a given society\"."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"As of March 2024, there was no widely agreed definition of when a disease is or is not a pandemic, though efforts at a formal definition were underway."
+  },
+  {
+    "language":"en",
+    "section":"Transition to later phases",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"Experts asked by Time that month noted that COVID-19 continued to circulate and cause disease, but expressed uncertainty as to whether it should still be described as a pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Economic",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Despite strong economic rebounds following the initial lockdowns in early 2020, towards the latter phases of the pandemic, many countries began to experience long-term economic effects."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Economic",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Several countries saw high inflation rates which had global impacts, particularly in developing countries."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Economic",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Some economic impacts such as supply chain and trade operations were seen as more permanent as the pandemic exposed major weaknesses in these systems."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Economic",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"In Australia, the pandemic caused an increase in occupational burnout in 2022."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Economic",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"During the pandemic, a large percentage of workers in Canada came to prefer working from home, which had an impact on the traditional work model."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Economic",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Some corporations made efforts to force workers to return to work on-site, while some embraced the idea."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Travel",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"There was a \"travel boom\" causing air travel to recover at rates faster than anticipated, and the aviation industry became profitable in 2023 for the first time since 2019, before the pandemic."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Travel",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"However, economic issues meant some predicted that the boom would begin to slow down."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Travel",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Business travel on airlines was still below pre-pandemic levels and is predicted not to recover."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Health",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"An increase in excess deaths from underlying causes not related to COVID-19 has been largely blamed on systematic issues causing delays in health care and screening during the pandemic, which has resulted in an increase of non-COVID-19 related deaths."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Immunisations",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"During the pandemic, millions of children missed out on vaccinations as countries focused efforts on combating COVID-19."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Immunisations",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Efforts were made to increase vaccination rates among children in low-income countries."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Immunisations",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"These efforts were successful in increasing vaccination rates for some diseases, though the UN noted that post-pandemic measles vaccinations were still falling behind."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Immunisations",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Some of the decrease in immunisation was driven by an increase in mistrust of public health officials."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Immunisations",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"This was seen in both low-income and high-income countries."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Immunisations",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Several African countries saw a decline in vaccinations due to misinformation around the pandemic flowing into other areas."
+  },
+  {
+    "language":"en",
+    "section":"Long-term effects > Immunisations",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"Immunisation rates have yet to recover in the United States and the United Kingdom."
+  }
+]

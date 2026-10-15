@@ -1,0 +1,3376 @@
+[
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"當今氣候變化包括全球变暖（全球均溫持续上升）與其对地球气候系统進一步的影响。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"气候变化广义上包括以往地球氣候的长期演变，而当前全球升温主要來自人类活动，尤其工业革命以降使用的化石燃料。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"燃燒化石燃料、森林砍伐以及部分农、工業活动排放的温室气体，會吸收地表受日照後变暖輻射出的部分熱量，從而使低层大气变暖。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"二氧化碳是导致全球暖化的主要元兇，其浓度相較前工業社會已增加约50%，达到数百万年来的最高水平。\n氣候變化對環境的影響日益顯著。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"沙漠正在擴張，熱浪和山火也變得越來越普遍。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"北極地區的暖化加劇，導致永凍土融化、冰川退縮和海冰減少。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"氣溫升高也導致了更強烈的風暴、乾旱和其他極端天氣。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"山區、珊瑚礁和北極的環境快速變化，迫使許多物種遷移或走向滅絕。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"即使未來限制暖化的努力取得成功，有些影響仍將持續數個世紀，包括海洋暖化、海洋酸化和海平面上升。\n氣候變化威脅著人類，帶來更頻繁的洪水、酷熱、糧食和水源短缺、更多疾病以及經濟損失。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":9,
+    "sentence_text":"人類遷徙和衝突也可能因此而生。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":10,
+    "sentence_text":"世界衛生組織稱氣候變化是21世紀對全球健康的最大威脅之一。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":11,
+    "sentence_text":"如果不採取行動限制暖化，社會和生態系統將面臨更嚴峻的風險。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":12,
+    "sentence_text":"透過防洪措施或種植抗旱作物等方式適應氣候變化，可以在一定程度上減輕風險，但某些適應措施已達到極限。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":13,
+    "sentence_text":"較貧窮的社區雖然只佔全球排放量的一小部分，但他們適應氣候變化的能力最弱，也最容易受到衝擊。\n\n在21世紀的頭幾十年裡，人們已經觀察到許多氣候變化的影響，其中2024年是有紀錄以來最熱的一年，比1850年有常規紀錄以來高出+1.60 °C（2.88 °F）。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":14,
+    "sentence_text":"氣溫若持續上升，不僅會加劇這些影響，還可能觸發臨界點，例如格陵蘭冰原的完全融化。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":15,
+    "sentence_text":"根據2015年的《巴黎協定》，各國共同同意將全球暖化控制在「遠低於2°C」的範圍內。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":16,
+    "sentence_text":"然而，即便各國履行現有的承諾，到本世紀末，全球氣溫仍可能上升約2.8 °C（5.0 °F）。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":17,
+    "sentence_text":"全球範圍內對氣候行動的支持相當普遍， 大多數國家都設定了實現淨零排放的目標。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":18,
+    "sentence_text":"要逐步淘汰化石燃料，可以透過停止化石燃料補貼、節約能源，以及轉向低碳電力等方式達成。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":19,
+    "sentence_text":"這些能源包括風能、太陽能、水力和核能。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":20,
+    "sentence_text":"清潔電力可以取代化石燃料，為電動車、電熱建築和工業製程提供動力。"
+  },
+  {
+    "language":"zh",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":21,
+    "sentence_text":"此外，也可以透過移除大氣中的碳來減緩暖化，例如增加森林覆蓋率，或採用能將碳儲存在土壤中的耕作方法。"
+  },
+  {
+    "language":"zh",
+    "section":"術語",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"在1980年代之前，科學家尚不確定增加溫室氣體的暖化效應是否強於空氣污染中懸浮微粒的冷卻效應。"
+  },
+  {
+    "language":"zh",
+    "section":"術語",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"當時，他們使用「非故意的氣候改造」（inadvertent climate modification）來指稱人類對氣候的影響。"
+  },
+  {
+    "language":"zh",
+    "section":"術語",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"到了1980年代，「全球暖化」（global warming）和「氣候變化」（climate change）這兩個詞變得更加普遍，且常常可以互換使用。"
+  },
+  {
+    "language":"zh",
+    "section":"術語",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"從科學上講，「全球暖化」僅指全球平均地表溫度的上升，而「氣候變化」則同時描述了全球暖化及其對地球氣候系統的各種影響，例如降水模式的改變。"
+  },
+  {
+    "language":"zh",
+    "section":"術語",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"「氣候變化」也可以更廣泛地用來指地球歷史上發生的所有氣候變動。"
+  },
+  {
+    "language":"zh",
+    "section":"術語",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"「全球暖化」一詞最早可能在1975年就已出現，而在NASA氣候科學家詹姆斯·漢森於1988年在美國參議院作證時使用後，這個詞變得更加普及。"
+  },
+  {
+    "language":"zh",
+    "section":"術語",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"自2000年代以來，「氣候變化」的使用頻率逐漸增加。"
+  },
+  {
+    "language":"zh",
+    "section":"術語",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"一些科學家、政治人物和媒體可能會使用「氣候危機」或「氣候緊急狀態」等詞彙來討論氣候變化，並用「全球升溫」（global heating）來代替「全球暖化」。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 現今全球暖化前的溫度",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"在過去的數百萬年裡，地球氣候在冰期之間循環。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 現今全球暖化前的溫度",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"其中一個較暖的時期是約12.5萬年前的末次間冰期，當時的溫度比全球暖化開始前高出0.5至1.5°C。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 現今全球暖化前的溫度",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"那個時期的海平面比今天高出5到10公尺。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 現今全球暖化前的溫度",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"而最近一次的末次冰盛期發生在約2萬年前，當時的氣溫比現在低約5至7°C，海平面則比今天低了超過125米（410英尺）。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 現今全球暖化前的溫度",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"從11,700年前開始，地球進入了目前的間冰期，氣溫趨於穩定。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 現今全球暖化前的溫度",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"農業也在這個時期開始發展。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 現今全球暖化前的溫度",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"歷史上的一些暖期和冷期，如中世紀溫暖時期和小冰期，並不是全球同步發生的。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 現今全球暖化前的溫度",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"在某些有限的地區，當時的溫度可能達到了20世紀末的水平。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 現今全球暖化前的溫度",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"這些時期的氣候資訊主要來自氣候代理指標，例如樹木年輪和冰芯。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"大約從1850年開始，溫度計的紀錄開始覆蓋全球。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"從18世紀到1970年，全球淨暖化幅度不大，因為溫室氣體排放的暖化效應被二氧化硫排放的冷卻效應所抵消。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"二氧化硫會導致酸雨，但它也會在大氣中形成硫酸鹽懸浮微粒，這些微粒能反射陽光，造成全球暗化。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"1970年後，隨著溫室氣體的持續累積和對硫污染的控制，氣溫顯著上升。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"目前氣候的持續變化，在過去幾千年來都是前所未見的。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"多個數據集都顯示全球地表溫度正在上升， 大約每十年上升0.2°C。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"與工業化前（1850-1900年）的基準相比，2014-2023這十年的平均溫度上升了1.19°C [1.06–1.30°C]。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"並非每一年都比前一年更熱，因為內部的氣候變異過程可能使任何一年的溫度比平均值高或低0.2°C。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"從1998年到2013年，太平洋年代際振盪（PDO） 和大西洋多年代際振盪（AMO）這兩個過程的負相位導致了一段被稱為「全球暖化停滯」的短暫暖化趨緩期。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"在這段「停滯期」之後，情況正好相反，2024年的氣溫遠高於近期平均值，超過了+1.5°C。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":2,
+    "sentence_index":6,
+    "sentence_text":"這就是為什麼溫度的變化通常以20年為平均值來定義，這樣可以減少單一年份冷熱和年代際氣候模式的雜訊，從而偵測到長期的趨勢。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"許多其他的觀測結果也印證了暖化的證據。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"高層大氣正在冷卻，因為溫室氣體將熱量困在地表附近，導致較少的熱量輻射到太空中。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"暖化減少了平均積雪覆蓋，並迫使冰川退縮。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"同時，暖化也導致海洋蒸發加劇，使得大氣濕度增加，降水也變得更多、更強。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"植物在春季開花的時間提前，數千種動物物種也已永久性地遷徙到較涼爽的地區。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"世界不同地區的暖化速度各不相同。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"這種模式與溫室氣體的排放地點無關，因為這些氣體在大氣中停留的時間足夠長，可以擴散到全球。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"自工業化前時期以來，陸地區域的平均地表溫度上升速度幾乎是全球平均地表溫度的兩倍。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"這是因為海洋透過蒸發散失更多熱量，並且海洋能夠儲存大量熱量。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"自1970年以來，全球氣候系統中的熱能持續增長，其中超過90%的額外能量儲存在海洋中。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"其餘的能量則加熱了大氣層、融化了冰雪，並使大陸變暖。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"北半球和北極的暖化速度遠快於南極和南半球。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"北半球不僅陸地面積大得多，季節性積雪和海冰也更多。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"當這些表面從反射大量陽光變為冰融化後的深色表面時，它們開始吸收更多熱量，這就是所謂的反照率效應。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"局部沉積在冰雪上的黑碳也加劇了北極的暖化。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"北極地表溫度的上升速度是全球其他地區的三到四倍。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 工業革命以來的暖化 > 地區差異",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"極地冰蓋的融化削弱了大西洋和南極的溫鹽環流，進一步改變了全球熱量和降水的分佈。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 未來的全球溫度",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"世界氣象組織估計，在2024年至2028年間，全球五年平均溫度有近50%的機率會超過+1.5°C。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 未來的全球溫度",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"IPCC預計，20年平均溫度將在2030年代初期超過+1.5°C。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 未來的全球溫度",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"IPCC第六次評估報告（2021年）預測，到2100年，在溫室氣體極低排放情景下，全球暖化很可能達到1.0–1.8°C；在中等排放情景下為2.1–3.5°C；而在極高排放情景下則為3.3–5.7°C。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 未來的全球溫度",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"在中等和高排放情景下，暖化將在2100年後繼續持續， 未來到了2300年，全球地表溫度的預測值將與數百萬年前相似。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 未來的全球溫度",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"剩餘的碳預算（即在不超過特定升溫幅度下還能排放的碳量）是透過模擬碳循環和氣候敏感度來確定的。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 未來的全球溫度",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"根據聯合國環境署的說法，如果2023年後的排放量不超過9000億噸CO2，那麼將全球暖化控制在2.0°C以下的機率為50%。"
+  },
+  {
+    "language":"zh",
+    "section":"全球溫度上升 > 未來的全球溫度",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"這個碳預算相當於目前排放水平下約16年的排放量。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"氣候系統本身存在著各種週期，可持續數年、數十年甚至數百年。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"例如，聖嬰現象會導致地表溫度短期飆升，而反聖嬰現象則會導致短期降溫。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"它們的相對頻率可以影響十年尺度的全球溫度趨勢。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"其他的氣候變化則是由於外部強迫因素造成的能量不平衡所引起。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"這些強迫因素的例子包括溫室氣體濃度的變化、太陽光度的變化、火山爆發，以及地球繞太陽軌道的變化。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"為了確定人類對氣候變化的貢獻，科學家們為所有潛在原因建立了獨特的「指紋」，並將其與觀測到的模式和已知的內部氣候變異進行比較。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"例如，太陽強迫的「指紋」是整個大氣層都會變暖，但觀測結果顯示只有低層大氣在變暖，因此排除了太陽是主要原因的可能性。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"大氣中的懸浮微粒則產生較小的冷卻效應。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"其他驅動因素，如反照率的變化，影響較小。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"溫室氣體對陽光是透明的，因此陽光可以穿過大氣層加熱地球表面。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"地球以熱量的形式將能量輻射出去，而溫室氣體會吸收其中的一部分。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"這種吸收作用減緩了熱量逸散到太空的速度，將熱量困在地表附近，使地球隨時間變暖。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"雖然水蒸氣（約50%）和雲（約25%）是溫室效應的最大貢獻者，但它們主要隨溫度變化而變化，因此大多被視為改變氣候敏感度的反饋。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"另一方面，CO2（約20%）、對流層臭氧、 CFCs和一氧化二氮等氣體的濃度變化與溫度無關，因此被視為改變全球溫度的外部強迫因素。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"在工業革命之前，自然存在的溫室氣體使地表附近的空氣比沒有它們時要溫暖約33°C。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"自工業革命以來，人類活動，主要是開採和燃燒化石燃料（煤、石油、天然氣）， 增加了大氣中溫室氣體的含量。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"到2022年，CO2和甲烷的濃度分別比1750年增加了約50%和164%。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"這些CO2水平是過去1400萬年來最高的。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"甲烷的濃度也遠高於過去80萬年的水平。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"2019年，全球人為溫室氣體排放量相當於590億噸CO2當量。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"在這些排放中，75%是CO2，18%是甲烷，4%是一氧化二氮，2%是含氟氣體。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"CO2排放主要來自燃燒化石燃料，以提供交通、製造、供暖和發電所需的能源。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"額外的CO2排放來自砍伐森林和工業過程，包括製造水泥、鋼鐵、鋁和化肥的化學反應所釋放的CO2。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"甲烷排放來自牲畜、糞便、稻米種植、垃圾掩埋場、廢水、煤礦開採，以及石油和天然氣開採過程中的洩漏。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":3,
+    "sentence_index":5,
+    "sentence_text":"一氧化二氮的排放主要來自化肥的微生物分解。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"雖然甲烷在大氣中平均只停留12年， 但CO2的停留時間要長得多。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"地球表面會吸收CO2，這是碳循環的一部分。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"雖然陸地和海洋中的植物每年會吸收大部分多餘的CO2排放，但當生物體被消化、燃燒或腐爛時，這些CO2又會回到大氣中。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"陸地表面的碳匯過程，如土壤中的固碳作用和光合作用，每年約移除全球29%的CO2排放。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":4,
+    "sentence_index":4,
+    "sentence_text":"在過去二十年中，海洋吸收了20%到30%的排放CO2。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 溫室氣體",
+    "paragraph_index":4,
+    "sentence_index":5,
+    "sentence_text":"CO2只有在儲存於地殼中時才能長期從大氣中移除，而這個過程可能需要數百萬年才能完成。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"地球約30%的陸地面積基本上不適合人類使用（如冰川、沙漠等），26%是森林，10%是灌木林，34%是農業用地。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"砍伐森林是導致全球暖化的主要土地利用變遷因素， 因為被砍伐的樹木會釋放CO2，而且沒有新的樹木來替代它們，從而減少了這個碳匯。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"在2001年至2018年間，27%的森林砍伐是為了永久性地開墾土地以擴大農作物和畜牧業的農業擴張。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"另外24%的森林損失是因刀耕火種農業系統下的臨時性砍伐。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"26%是為了伐木以獲取木材和相關產品，其餘23%則歸因於山火。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"有些森林雖然沒有被完全清除，但已經因這些影響而退化。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"恢復這些森林也能恢復它們作為碳匯的潛力。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"當地的植被覆蓋會影響有多少陽光被反射回太空（反照率），以及有多少熱量透過蒸散散失。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"例如，從深色的森林變為草地會使地表顏色變淺，從而反射更多陽光。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"砍伐森林還可能改變影響雲層的化學物質釋放，並改變風的模式。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"在熱帶和溫帶地區，淨效應是產生顯著的暖化，而森林恢復可以使局部溫度降低。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"在更靠近極地的緯度地區，當森林被積雪覆蓋（反射性更強）的平原取代時，會產生冷卻效應。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"全球來看，地表反照率的增加是土地利用變化對溫度最主要的直接影響。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 地表變化",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"因此，迄今為止的土地利用變化估計產生了輕微的冷卻效應。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"空氣污染以懸浮微粒的形式，大規模地影響氣候。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"懸浮微粒會散射和吸收太陽輻射。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"從1961年到1990年，觀測到到達地球表面的日射量逐漸減少。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"這種現象通常被稱為「全球暗化」， 主要歸因於燃燒含硫量高的化石燃料（如煤和船用燃油）所產生的硫酸鹽懸浮微粒。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"較小的貢獻來自黑碳（來自化石燃料和生物質的燃燒）和塵埃。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"自1990年以來，由於污染控制，全球懸浮微粒數量一直在下降，這意味著它們不再像以前那樣能掩蓋溫室氣體的暖化效應。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"懸浮微粒對地球能量收支也有間接影響。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"硫酸鹽懸浮微粒充當雲凝結核，導致雲中含有更多、更小的雲滴。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"這些雲比含有較少、較大雲滴的雲更有效地反射太陽輻射。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"它們還會減緩雨滴的生長，使雲對入射陽光的反射性更強。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"懸浮微粒的間接效應是輻射強迫中最大的不確定性來源。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"雖然懸浮微粒通常透過反射陽光來限制全球暖化，但落在雪或冰上的煙塵中的黑碳卻可能加劇全球暖化。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"這不僅增加了陽光的吸收，還會加速融化和海平面上升。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"限制北極地區新的黑碳沉積，到2050年可將全球暖化減少0.2°C。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 懸浮微粒與雲",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"自2020年起降低船用燃油的硫含量，估計到2050年將導致全球平均溫度額外上升0.05°C。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"由於太陽是地球最主要的能量來源，入射陽光的變化會直接影響氣候系統。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"太陽變異已由衛星直接測量， 而間接測量則可追溯至17世紀初。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"自1880年以來，到達地球的太陽能量沒有呈現上升趨勢，這與低層大氣（對流層）的暖化現象不符。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"如果是太陽向地球輸送更多能量，那麼高層大氣（平流層）也應該變暖，但事實上它一直在變冷。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"這與溫室氣體阻止熱量離開地球大氣層的現象是一致的。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"爆炸性火山噴發可能釋放出氣體、塵埃和火山灰，部分阻擋陽光並降低溫度；或者，它們也可能將水蒸氣送入大氣，增加溫室氣體並提高溫度。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"這些對溫度的影響只會持續幾年，因為水蒸氣和火山物質在大氣中的停留時間都很短。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"火山排放的CO2更持久，但其量相當於目前人為CO2排放的不到1%。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"火山活動仍然是工業時代對溫度影響最大的單一自然因素。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 太陽和火山活動",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"然而，與其他自然強迫因素一樣，自工業革命以來，它對全球溫度趨勢的影響微乎其微。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"氣候系統對初始強迫的反應，會受到反饋的影響，這些反饋會放大或減弱變化。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"「自我增強」或「正」反饋會增強反應，而「平衡」或「負」反饋則會減弱反應。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"主要的增強反饋是水蒸氣回饋、冰-反照率回饋和淨雲回饋。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"主要的平衡機制是輻射冷卻，因為地球表面溫度升高時，會向太空釋放更多熱量。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"除了溫度反饋外，碳循環中也存在反饋，例如CO2對植物生長的施肥效應。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"隨著溫室氣體排放的持續，預計反饋將趨向正向，從而提高氣候敏感度。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"這些反饋過程改變了全球暖化的速度。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"例如，較暖的空氣可以容納更多的水分，即水蒸氣，而水蒸氣本身就是一種強效的溫室氣體。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"較暖的空氣也可能使雲層變得更高更薄，從而更具保溫效果，加劇氣候暖化。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"北極地區積雪和海冰的減少是另一個主要反饋，這降低了地球表面的反射率，並加速了北極的暖化。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"這種額外的暖化也導致了永凍土的融化，向大氣中釋放出甲烷和CO2。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"大約一半的人為CO2排放已被陸地植物和海洋吸收。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"這個比例並非固定不變。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"如果未來CO2排放量減少，地球將能吸收高達約70%的排放量。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"如果排放量大幅增加，地球仍會吸收比現在更多的碳，但總體比例將降至40%以下。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"這是因為氣候變化增加了乾旱和熱浪，最終抑制了陸地植物的生長，而土壤在變暖時會從死去的植物中釋放更多碳（土壤碳回饋）。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"海洋吸收大氣碳的速度將會減慢，因為它們變得更加酸化，並且溫鹽環流和浮游植物的分佈也發生了變化。"
+  },
+  {
+    "language":"zh",
+    "section":"近期全球氣溫上升的原因 > 其他因素 > 氣候變化反饋",
+    "paragraph_index":2,
+    "sentence_index":6,
+    "sentence_text":"反饋的不確定性，特別是雲層的反饋， 是不同氣候模型對相同排放量預測出不同暖化程度的主要原因。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"氣候模型是對影響氣候系統的物理、化學和生物過程的模擬。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"模型包含了自然過程，如地球軌道的變化、太陽活動的歷史變化和火山強迫。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"模型被用來估計未來排放在考慮到氣候反饋強度的情況下會導致多大程度的暖化。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"模型還能預測海洋的環流、季節的年循環，以及陸地表面與大氣之間的碳流動。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"模型的物理真實性是通過檢驗其模擬當前或過去氣候的能力來測試的。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"過去的模型低估了北極萎縮的速度 和降水增加的速度。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"1990年以來的海平面上升在舊模型中被低估，但較新的模型與觀測結果吻合得很好。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"2017年美國發布的國家氣候評估指出，「氣候模型可能仍然低估或遺漏了相關的反饋過程」。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"此外，氣候模型可能無法充分預測短期的區域性氣候變化。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"一部分綜合評估模型將社會因素加入到物理氣候模型中。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"這些模型模擬人口、經濟增長和能源使用如何影響並與物理氣候互動。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"利用這些資訊，模型可以生成未來溫室氣體排放的情景。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"然後，這些情景被用作物理氣候模型和碳循環模型的輸入，以預測大氣中溫室氣體濃度可能如何變化。"
+  },
+  {
+    "language":"zh",
+    "section":"模擬",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"根據不同的社會經濟情景和減緩情景，模型產生的大氣CO2濃度範圍很廣，從380 ppm到1400 ppm不等。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"氣候變化的環境影響廣泛而深遠，影響著海洋、冰層和天氣。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"這些變化可能緩慢發生，也可能迅速出現。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"這些影響的證據來自對過去氣候變化的研究、模型模擬以及現代觀測。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"自1950年代以來，乾旱和熱浪同時出現的頻率越來越高。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"在印度和東亞，季風期間極端濕潤或乾燥的事件有所增加。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"自1980年以來，北半球的季風降雨量有所增加。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"颶風和颱風的降雨率和強度可能正在增加， 其地理範圍也可能因氣候暖化而向兩極擴展。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"熱帶氣旋的頻率並未因氣候變化而增加。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"由於熱膨脹以及冰川和冰蓋的融化，全球海平面正在上升。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"海平面上升的速度隨時間加快，在2014年至2023年間達到每十年4.8公分。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"IPCC預測，在21世紀，低排放情景下海平面將上升32–62公分，中等排放情景下為44–76公分，而極高排放情景下則為65–101公分。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"南極的海洋冰蓋不穩定性過程可能會大幅增加這些數值， 包括在高排放情景下，到2100年海平面可能上升2公尺。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"氣候變化已導致數十年來北極海冰的萎縮和變薄。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"在升溫1.5°C的情況下，無冰的夏季預計將很少見，但在升溫2°C的情況下，預計每三到十年就會發生一次。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"較高的大氣CO2濃度導致更多CO2溶解在海洋中，使海洋變得更酸。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 環境影響",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"由於氧氣在較暖的水中溶解度較低， 海洋中的氧氣濃度正在海洋缺氧，死亡區也在擴大。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"全球暖化程度越高，跨越「臨界點」的風險就越大——這些閾值一旦超過，即使溫度恢復到先前狀態，某些重大影響也無法避免。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"例如，格陵蘭冰原已經在融化，但如果全球暖化達到1.7°C至2.3°C的水平，其融化將持續到完全消失。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"即使之後暖化降至1.5°C或更低，它仍將比從未達到該閾值的情況下損失更多的冰。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"雖然冰蓋的融化需要數千年，但其他臨界點的發生速度更快，留給社會的應對時間更少。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"像大西洋經向翻轉環流（AMOC）這樣的主要洋流的崩潰，以及對亞馬遜雨林和珊瑚礁等關鍵生態系統的不可逆轉的損害，可能在幾十年內發生。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"AMOC的崩潰將是一場嚴重的氣候災難，會導致北半球冷卻。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"氣候變化對海洋的長期氣候變化對海洋的影響包括進一步的冰融化、海洋暖化、海平面上升、海洋酸化和海洋缺氧。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"由於CO2在大氣中的壽命很長，長期影響的時間尺度為數百年至數千年。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"結果是，2000年後海平面總上升量估計為每攝氏度。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"海洋吸收CO2的速度足夠慢，因此海洋酸化也將持續數百至數千年。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"深海（2,000米（6,600英尺）以下）也已因迄今為止發生的暖化而註定會損失超過10%的溶解氧。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 臨界點與長期影響",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"此外，西南極冰蓋似乎已註定會發生幾乎不可逆轉的融化，這將在約2000年內使海平面至少上升3.3米（10英尺10英寸）。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"近期的暖化已驅使許多陸地和淡水物種向兩極和更高海拔地區遷移。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"例如，在過去55年中，數百種北美鳥類的活動範圍以平均每年1.5公里的速度向北移動。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"較高的大氣CO2水平和延長的生長季節導致了全球綠化。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"然而，熱浪和乾旱在某些地區降低了生態系統的生產力。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"這些相反效應的未來平衡尚不清楚。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"一個與氣候變化相關的現象是木本植物入侵，影響全球高達5億公頃的土地。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"氣候變化促使了較乾燥氣候區的擴張，例如副熱帶地區沙漠的擴張。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"全球暖化的規模和速度使得生態系統發生突變的可能性越來越大。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"總體而言，預計氣候變化將導致許多物種的滅絕。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"海洋的升溫速度比陸地慢，但海洋中的動植物向較冷極地遷移的速度比陸地物種更快。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"與陸地一樣，由於氣候變化，海洋熱浪發生的頻率更高，對珊瑚、海帶和海鳥等各種生物造成了傷害。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"海洋酸化使得海洋生物鈣化生物，如貽貝、藤壺和珊瑚，更難生成外殼和骨骼；熱浪也導致了珊瑚礁的白化。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"由氣候變化和富營養化加劇的有害藻華會降低氧氣水平，擾亂食物網，並導致海洋生物大量死亡。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"沿海生態系統承受著特別大的壓力。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"由於氣候變化和其他人類影響，全球近一半的濕地已經消失。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 自然與野生動植物",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"植物也因昆蟲的損害而面臨更大的壓力。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"氣候變化的影響正衝擊著世界各地的每一個人。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"在所有大陸和海洋區域都可以觀察到其影響， 其中低緯度、欠發達地區面臨的風險最大。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"持續的暖化可能對人類和生態系統造成「嚴重、普遍且不可逆轉的影響」。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"風險分佈不均，但對於已開發和開發中國家的弱勢群體來說，風險通常更大。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"世界衛生組織稱氣候變化是21世紀對全球健康的最大威脅之一。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"科學家們警告其可能帶來的不可逆轉的危害。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"極端天氣事件影響公共衛生，以及糧食安全和水安全。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"極端溫度導致疾病和死亡增加。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"氣候變化增加了極端天氣事件的強度和頻率。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"它可能影響傳染病的傳播，如登革熱和瘧疾。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"根據世界經濟論壇的數據，到2050年，預計將有1450萬人因氣候變化而死亡。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"目前全球30%的人口生活在極端高溫和高濕度已導致超額死亡的地區。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"到2100年，全球50%至75%的人口將生活在這樣的地區。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"雖然過去50年由於農業技術的進步，總作物產量一直在增加，但氣候變化已經減緩了產量增長的速度。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"漁業在多個地區受到了負面影響。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"雖然農業生產力在一些高緯度地區受到正面影響，但在中低緯度地區則受到負面影響。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"根據世界經濟論壇的數據，某些地區乾旱的加劇可能導致到2050年有320萬人因營養不良而死亡，並導致兒童發育遲緩。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"在升溫2°C的情況下，到2050年全球牲畜數量可能下降7–10%，因為可用的動物飼料將會減少。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 健康與糧食",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"如果本世紀剩餘時間內排放量繼續增加，到2100年，每年將有超過900萬人因氣候相關原因死亡。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"氣候變化造成的經濟損失可能非常嚴重，並有可能帶來災難性後果。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"預計東南亞和撒哈拉以南非洲將受到嚴重影響，因為那裡的大多數居民依賴自然和農業資源為生。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"熱壓力可能使戶外勞動者無法工作。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"如果暖化達到4°C，這些地區的勞動能力可能下降30%到50%。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"世界銀行估計，如果沒有適應措施，在2016年至2030年間，氣候變化可能使超過1.2億人陷入極端貧困。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"基於財富和社會地位的不平等因氣候變化而惡化。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"邊緣化人群在減緩、適應和從氣候衝擊中恢復方面面臨重大困難，因為他們對資源的控制力較弱。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"依賴土地和生態系統為生的原住民，其福祉和生活方式將因氣候變化而面臨威脅。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"一項專家意見徵詢得出結論，與社會經濟不平等和國家能力等因素相比，氣候變化在武裝衝突中的作用較小。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"雖然女性並非天生就更容易受到氣候變化和衝擊的影響，但對女性資源的限制和歧視性的性別規範限制了她們的適應能力和韌性。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 生計與不平等",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"例如，在熱壓力等氣候衝擊期間，女性的工作負擔（包括在農業上工作的時間）下降的幅度往往小於男性。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 氣候遷徙",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"低窪島嶼和沿海社區受到海平面上升的威脅，這使得城市洪水更加普遍。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 氣候遷徙",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"有時，土地會永久性地被海水淹沒。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 氣候遷徙",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"這可能導致島嶼國家的人民，如馬爾地夫和吐瓦魯，面臨無國籍的困境。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 氣候遷徙",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"在某些地區，溫度和濕度的上升可能嚴重到人類無法適應的程度。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 氣候遷徙",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"在最壞的氣候變化情景下，模型預測，近三分之一人類居住的地區可能會變成像撒哈拉沙漠一樣無法居住的極熱氣候。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 氣候遷徙",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"這些因素可能驅動國內和國際間的氣候或環境遷移。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 氣候遷徙",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"預計將有更多人因海平面上升、極端天氣和因爭奪自然資源而加劇的衝突而流離失所。"
+  },
+  {
+    "language":"zh",
+    "section":"影響 > 人類 > 氣候遷徙",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"氣候變化也可能增加脆弱性，導致「被困人口」因缺乏資源而無法遷移。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"氣候變化可以通過減少向大氣排放溫室氣體的速率，以及增加從大氣中移除二氧化碳的速率來減緩。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"為了將全球暖化限制在2°C以下，全球溫室氣體排放需要在2070年左右達到碳中和。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"這需要在能源、土地、城市、交通、建築和工業等領域進行前所未有規模的深遠系統性變革。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"聯合國環境署估計，各國需要在未來十年內將其在《巴黎協定》下的承諾提高三倍，才能將全球暖化限制在2°C以內。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"根據截至2024年的《巴黎協定》承諾，全球暖化在本世紀末仍有66%的機率控制在2.8°C以下（範圍：1.9–3.7°C，取決於具體實施和技術進展）。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"若僅考慮當前政策，此數字將上升至3.1°C。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"全球來看，將暖化限制在2°C可能帶來的經濟效益高於其經濟成本。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"雖然沒有單一的路徑可以將全球暖化限制在2°C以內， 但大多數情景和策略都預見到，需要大幅增加可再生能源的使用，並結合提高能源效率的措施，以實現所需的溫室氣體減排。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"為了減輕對生態系統的壓力並增強其碳封存能力，農業和林業也需要進行變革， 例如防止砍伐森林並通過重新造林恢復自然生態系統。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"其他減緩氣候變化的方法風險較高。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"將全球暖化限制在1.5°C的情景通常預計在21世紀大規模使用二氧化碳移除方法。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"然而，人們對過度依賴這些技術及其環境影響表示擔憂。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"太陽輻射調節（SRM）是一項透過將部分陽光反射回太空來減少全球暖化的提議。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"由於它不減少溫室氣體濃度，因此無法解決海洋酸化問題，也不被視為減緩措施。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"SRM應僅被視為減緩措施的補充，而非替代品， 因為它存在風險，例如如果突然停止且未重新啟動，可能會導致氣溫迅速回升。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"研究最多的方法是平流層氣膠注入。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":4,
+    "sentence_index":4,
+    "sentence_text":"SRM可以減少全球暖化及其部分影響，但並不完美。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放",
+    "paragraph_index":4,
+    "sentence_index":5,
+    "sentence_text":"它帶來了環境風險，如改變降雨模式， 以及政治挑戰，例如由誰來決定是否使用它。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"可再生能源是限制氣候變化的關鍵。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"幾十年來，化石燃料約佔全球能源使用的80%。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"剩餘的份額由核能和可再生能源（包括水力發電、生物能源、風能、太陽能和地熱能）瓜分。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"預計化石燃料的絕對使用量將在2030年前達到峰值，然後下降，其中煤炭使用量的下降幅度最大。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"2023年，可再生能源佔所有新增發電量的86%。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"其他形式的清潔能源，如核能和水力發電，目前在能源供應中佔有較大份額。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"然而，與可再生能源相比，它們未來的增長預測似乎有限。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"雖然太陽能板和陸上風電現在在許多地方已成為增加新增發電能力最便宜的方式之一， 但仍需要綠色能源政策來實現從化石燃料到可再生能源的快速轉型。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"為了在2050年實現碳中和，可再生能源將成為主要的發電形式，在某些情景下到2050年將佔到85%或更多。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"對煤炭的投資將被取消，到2050年煤炭使用將幾乎被淘汰。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"由可再生能源產生的電力也需要成為供暖和交通的主要能源。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"交通運輸可以從內燃機汽車轉向電動汽車、公共交通和主動運輸（騎自行車和步行）。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"對於航運和航空，低碳燃料將減少排放。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"供暖可以通過熱泵等技術越來越多地去碳化。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"清潔能源的持續快速增長也存在障礙。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"風能和太陽能的發電具有間歇性和季節性變化。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"傳統上，當可變能源產量低時，會使用帶有水庫的水力發電站和化石燃料發電廠。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"未來，可以擴大電池儲能，匹配能源需求和供應，長距離電力傳輸也可以平滑可再生能源輸出的波動。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"生物能源通常不是碳中和的，並可能對糧食安全產生負面影響。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":3,
+    "sentence_index":5,
+    "sentence_text":"核能的增長受到圍繞放射性廢料、核擴散和核事故的爭議的限制。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":3,
+    "sentence_index":6,
+    "sentence_text":"水力發電的增長受到限制，因為最好的地點已經被開發，新項目面臨著日益增長的社會和環境問題。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"低碳能源不僅可以通過減緩氣候變化來改善人類健康，還可以減少空氣污染造成的死亡， 2016年估計每年有700萬人死於空氣污染。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"實現《巴黎協定》將暖化限制在2°C的目標，到2050年每年可以挽救約一百萬人的生命；而將全球暖化限制在1.5°C，則可以挽救數百萬人的生命，同時增加能源安全和減少貧困。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 清潔能源",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"改善空氣品質還具有經濟效益，其效益可能超過減緩成本。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"減少能源需求是減少排放的另一個重要方面。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"如果需要的能源更少，清潔能源的發展就有更大的靈活性。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"它還使電網管理更容易，並最大限度地減少了碳密集型基礎設施的發展。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"為了實現氣候目標，需要大幅增加能源效率投資，其水平可與可再生能源投資相媲美。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"COVID-19相關的能源使用模式、能源效率投資和資金的變化，使得對本十年的預測更加困難和不確定。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"減少能源需求的策略因部門而異。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"在交通部門，乘客和貨物可以轉向更高效的出行方式，如公共汽車和火車，或使用電動汽車。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"工業部門減少能源需求的策略包括改進供暖系統和馬達，設計能耗較低的產品，以及延長產品質量。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"在建築部門，重點是更好地設計新建築，以及在改造中提高能源效率水平。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 能源節約",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"使用熱泵等技術也可以提高建築的能源效率。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"農業和林業面臨著三重挑戰：限制溫室氣體排放、防止森林進一步轉為農業用地，以及滿足世界糧食需求的增長。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"一系列行動可以將農業和林業的排放量從2010年的水平減少三分之二。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"這些行動包括減少對糧食和其他農產品需求的增長、提高土地生產力、保護和恢復森林，以及減少農業生產中的溫室氣體排放。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"在需求方面，減少排放的一個關鍵組成部分是引導人們轉向植物性飲食。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"停止為生產肉類和奶製品而飼養牲畜，將消除農業和其他土地利用總排放量的約四分之三。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"牲畜還佔據了地球上37%的無冰陸地面積，並消耗了用於種植作物的12%土地面積的飼料，從而驅動了森林砍伐和土地退化。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"鋼鐵和水泥生產佔工業CO2排放的約13%。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"在這些行業中，焦炭和石灰等碳密集型材料在生產中扮演著不可或缺的角色，因此減少CO2排放需要研究替代化學方法。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"在能源生產或CO2密集的重工業繼續產生廢棄CO2的地方，有時可以使用技術來捕獲和儲存大部分氣體，而不是將其釋放到大氣中。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"這項技術，即碳捕集與封存（CCS），在減少排放方面可能扮演關鍵但有限的角色。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 農業與工業",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"它相對昂貴， 且目前部署的規模僅能移除約0.1%的年度溫室氣體排放。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 二氧化碳移除",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"可以增強自然碳匯，以封存遠超自然水平的大量CO2。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 二氧化碳移除",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"重新造林和造林（在以前沒有森林的地方種植森林）是其中最成熟的封存技術之一，儘管後者引發了糧食安全的擔憂。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 二氧化碳移除",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"農民可以通過使用冬季覆蓋作物、減少耕作的強度和頻率，以及使用堆肥和糞便作為土壤改良劑等做法，促進碳在土壤中的封存。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 二氧化碳移除",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"森林和景觀的恢復為氣候帶來許多好處，包括溫室氣體排放的封存和減少。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 二氧化碳移除",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"恢復\/重建沿海濕地、草原復育和海草床可以增加碳被吸收到有機物中的量。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 二氧化碳移除",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"當碳被封存在土壤和樹木等有機物中時，存在著碳因土地利用變化、火災或其他生態系統變化而稍後重新釋放到大氣中的風險。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 二氧化碳移除",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"將生物能源與碳捕獲和儲存（BECCS）結合使用，可以實現淨負排放，因為CO2是從大氣中提取的。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 二氧化碳移除",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"目前仍高度不確定二氧化碳移除技術是否能夠在將暖化限制在1.5°C方面發揮重要作用。"
+  },
+  {
+    "language":"zh",
+    "section":"減少和捕獲排放 > 二氧化碳移除",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"依賴二氧化碳移除的政策決策增加了全球暖化超出國際目標的風險。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"適應是「對當前或預期的氣候及其影響變化進行調整的過程」。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"如果沒有額外的減緩措施，適應措施無法避免「嚴重、普遍且不可逆轉」的影響風險。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"更嚴重的氣候變化需要更具變革性的適應措施，而這些措施的成本可能高得令人卻步。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"人類的適應能力在不同地區和人群中分佈不均，發展中國家通常能力較弱。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"21世紀的前二十年，大多數中低收入國家的適應能力有所提高，基本衛生設施和電力的普及率有所改善，但進展緩慢。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"許多國家已經實施了適應政策。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"然而，必要的資金與可用資金之間存在巨大差距。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"適應海平面上升的方法包括避開高風險區域、學會與日益頻繁的洪水共存，以及建造防洪設施。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"如果這些方法失敗，可能需要進行管理式撤退。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"應對危險高溫影響存在經濟障礙。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"避免劇烈勞動或擁有空調並非人人都能做到。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"在農業方面，適應方案包括轉向更可持續的飲食、多樣化種植、侵蝕控制以及為提高對氣候變化的耐受性而進行的基因改良。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"保險可以分擔風險，但低收入人群通常難以獲得。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"教育、遷移和預警系統可以降低氣候脆弱性。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":1,
+    "sentence_index":7,
+    "sentence_text":"種植紅樹林或鼓勵其他沿海植被可以緩衝風暴的衝擊。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"生態系統會適應氣候變化，這個過程可以得到人類的干預支持。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"通過增加生態系統之間的連通性，物種可以遷移到更有利的氣候條件。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"物種也可以被輔助遷移到氣候變得有利的地區。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"保護和恢復自然及半自然區域有助於建立韌性，使生態系統更容易適應。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"許多促進生態系統適應的行動，也通過基於生態系統的適應幫助人類適應。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":2,
+    "sentence_index":5,
+    "sentence_text":"例如，恢復自然的火災生態可以減少災難性火災的可能性，並減少人類的暴露風險。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":2,
+    "sentence_index":6,
+    "sentence_text":"給予河流更多空間可以在自然系統中儲存更多水，從而降低洪水風險。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":2,
+    "sentence_index":7,
+    "sentence_text":"恢復的森林可以作為碳匯，但在不適宜的地區植樹可能會加劇氣候影響。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"適應和減緩之間存在協同作用，但也存在權衡。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"協同作用的一個例子是提高糧食生產力，這對適應和減緩都有很大的好處。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"權衡的一個例子是，增加空調的使用讓人類更好地應對高溫，但卻增加了能源需求。"
+  },
+  {
+    "language":"zh",
+    "section":"適應",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"另一個權衡的例子是，更緊湊的城市規劃可以減少交通和建築的排放，但也可能加劇城市熱島效應，使人們面臨與高溫相關的健康風險。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"最易受氣候變化影響的國家，通常對全球排放的貢獻很小。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"這引發了關於正義和公平的問題。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"限制全球暖化使實現聯合國的可持續發展目標變得更加容易，例如消除貧困和減少不平等。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"可持續發展目標第13項「採取緊急行動應對氣候變化及其影響」就體現了這一點。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"關於糧食、清潔水源和生態系統保護的目標與氣候減緩具有協同效應。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"氣候變化的地緣政治是複雜的。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"它通常被視為一個搭便車問題，即所有國家都能從其他國家的減緩行動中受益，但單個國家自己轉向低碳經濟則會蒙受損失。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"然而，有時減緩措施也具有局部效益。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"例如，逐步淘汰煤炭對公共衛生和當地環境的好處，在幾乎所有地區都超過了其成本。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"此外，化石燃料的淨進口國在轉向清潔能源時會在經濟上獲益，導致淨出口國面臨擱淺資產：即他們無法出售的化石燃料。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"各種政策、法規和法律正被用來減少排放。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"截至2019年，碳定價已覆蓋全球約20%的溫室氣體排放。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"碳可以通過碳稅和碳排放交易系統來定價。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"2017年，全球直接的化石燃料補貼達到3190億美元，如果計入空氣污染等間接成本，則高達5.2萬億美元。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"終止這些補貼可以使全球碳排放減少28%，空氣污染死亡人數減少46%。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"從化石燃料補貼中節省下來的資金可以用來支持向清潔能源的可再生能源轉型。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"更直接減少溫室氣體的方法包括車輛效率標準、可再生燃料標準以及對重工業的空氣污染法規。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"一些國家要求公用事業公司提高電力生產中可再生能源的份額。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項 > 氣候正義",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"從氣候正義的視角設計的政策試圖解決人權問題和社會不平等。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項 > 氣候正義",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"氣候正義的支持者認為，氣候適應的成本應由對氣候變化負有最大責任的人承擔，而支付的受益者應是那些遭受影響的人。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項 > 氣候正義",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"在實踐中，一種解決方法是讓富裕國家支付較貧窮國家進行適應。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項 > 氣候正義",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"樂施會發現，2023年最富有的10%的人口對全球50%的排放負責，而最底層的50%僅對8%的排放負責。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項 > 氣候正義",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"排放的產生是看待責任的另一種方式：在這種方法下，排名前21位的化石燃料公司在2025-2050年期間應支付累計5.4萬億美元的氣候賠償。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 政策選項 > 氣候正義",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"為了實現公正轉型，從事化石燃料行業的人們也需要其他工作，他們的社區也需要投資。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"世界上幾乎所有國家都是1994年《聯合國氣候變化綱要公約》（UNFCCC）的締約方。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"UNFCCC的目標是防止人類對氣候系統的危險干擾。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"如公約所述，這要求將大氣中的溫室氣體濃度穩定在一個水平，使生態系統能夠自然適應氣候變化，糧食生產不受威脅，並且經濟發展能夠持續。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"UNFCCC本身不限制排放，而是為制定限制排放的議定書提供了一個框架。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"自UNFCCC簽署以來，全球排放量一直在上升。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"其年度會議是全球談判的舞台。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"1997年的《京都議定書》擴展了UNFCCC，並為大多數已開發國家設定了具有法律約束力的減排承諾。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"在談判期間，G77（代表開發中國家）推動了一項授權，要求已開發國家在減少排放方面「[起]帶頭作用」， 因為已開發國家對大氣中溫室氣體的累積貢獻最大。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"開發中國家的人均排放量也相對較低，並且需要排放更多以滿足其發展需求。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"2009年的《哥本哈根協議》因其目標過低而廣受批評，並被包括G77在內的較貧窮國家拒絕。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"相關各方旨在將全球溫度上升限制在2°C以下。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"該協議設定了到2020年每年向開發中國家提供1000億美元用於減緩和適應的目標，並提議成立綠色氣候基金。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"截至2020年 (2020-Missing required parameter 1=month!)，僅交付了833億美元。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":2,
+    "sentence_index":4,
+    "sentence_text":"預計到2023年才能實現目標。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"2015年，所有聯合國國家談判達成了《巴黎協定》，旨在將全球暖化控制在遠低於2.0°C的水平，並設定了將暖化控制在1.5 °C以下的理想目標。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"該協定取代了《京都議定書》。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"與京都議定書不同，《巴黎協定》沒有設定具有約束力的排放目標。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"取而代之的是，一系列程序被規定為具有約束力。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"各國必須定期設定更具雄心的目標，並每五年重新評估這些目標。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":3,
+    "sentence_index":5,
+    "sentence_text":"《巴黎協定》重申，必須向開發中國家提供財政支持。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":3,
+    "sentence_index":6,
+    "sentence_text":"截至2025年3月年 (2025年3月-Missing required parameter 1=month!)，已有194個國家和歐盟加入或批准了該協定。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"1987年的《蒙特婁議定書》是一項逐步淘汰消耗臭氧層物質生產的國際協議，對氣候變化減緩也產生了效益。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"像氯氟烴這樣的幾種消耗臭氧層物質也是強效的溫室氣體，因此禁止其生產和使用可能避免了0.5°C–1.0°C的溫度上升， 並通過防止植被受到紫外線輻射的損害而避免了額外的暖化。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"據估計，該協議在遏制溫室氣體排放方面的效果比專門為此設計的《京都議定書》更為有效。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"《蒙特婁議定書》的最新修正案，即2016年的《基加利修正案》，承諾減少氫氟碳化物的排放，這些物質曾作為被禁消耗臭氧層物質的替代品，但也是強效的溫室氣體。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國際氣候協議",
+    "paragraph_index":4,
+    "sentence_index":4,
+    "sentence_text":"如果各國遵守該修正案，估計可以避免0.3°C–0.5°C的暖化。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國家應對",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"2019年，英國國會成為第一個宣布氣候緊急狀態的國家政府。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國家應對",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"其他國家和司法管轄區也紛紛效仿。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國家應對",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"同年，歐洲議會宣布了「氣候與環境緊急狀態」。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國家應對",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"歐盟執委會提出了其歐洲綠色協議，目標是到2050年使歐盟實現碳中和。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國家應對",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"2021年，歐盟執委會發布了其「Fit for 55」立法方案，其中包含對汽車產業的指導方針；從2035年起，歐洲市場上的所有新車必須是零排放車輛。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國家應對",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"亞洲主要國家也做出了類似的承諾：韓國和日本承諾到2050年實現碳中和，中國則承諾到2060年實現碳中和。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國家應對",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"雖然印度對可再生能源有強烈的激勵措施，但它也計劃在國內大幅擴大煤炭使用。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國家應對",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"越南是少數幾個依賴煤炭的快速發展中國家之一，承諾在2040年代或之後儘快逐步淘汰未減排的煤電。"
+  },
+  {
+    "language":"zh",
+    "section":"政策與政治 > 國家應對",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"截至2021年，根據48份國家氣候計劃（代表《巴黎協定》40%的締約方）的資訊，估計的總溫室氣體排放量將比2010年水平低0.5%，低於將全球暖化限制在1.5°C或2°C所需的45%或25%的減排目標。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 否定論與錯誤資訊",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"關於氣候變化的公眾辯論受到了氣候變化否定論和錯誤資訊的嚴重影響，這些觀點源於美國，並已擴散到其他國家，特別是加拿大和澳洲。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 否定論與錯誤資訊",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"氣候變化否定論源於化石燃料公司、行業團體、保守派智庫和反向操作科學家。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 否定論與錯誤資訊",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"就像煙草業策略一樣，這些團體的主要策略是製造對氣候變化相關科學數據和結果的懷疑。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 否定論與錯誤資訊",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"對氣候變化持有無理懷疑的人被稱為氣候變化「懷疑論者」，但「反向操作者」或「否定論者」是更恰當的稱呼。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 否定論與錯誤資訊",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"氣候否定論有多種變體：有些人完全否認暖化的發生，有些人承認暖化但將其歸因於自然影響，還有些人則盡量淡化氣候變化的負面影響。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 否定論與錯誤資訊",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"製造科學不確定性的做法後來演變成一場製造爭議：製造一種科學界對氣候變化存在重大不確定性的假象，以拖延政策變革。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 否定論與錯誤資訊",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"推廣這些觀點的策略包括批評科學機構， 以及質疑個別科學家的動機。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 否定論與錯誤資訊",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"一個由否定氣候變化的部落格和媒體組成的回音室進一步加劇了對氣候變化的誤解。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"氣候變化在1980年代末引起了國際公眾的關注。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"由於1990年代初的媒體報導，人們常常將氣候變化與臭氧層耗損等其他環境問題混淆。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"在流行文化中，氣候科幻電影《明天過後》（2004年）和艾爾·高爾的紀錄片《不願面對的真相》（2006年）都聚焦於氣候變化。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"在公眾對氣候變化的關注和理解上，存在著顯著的地區、性別、年齡和政治差異。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"受教育程度較高的人，以及在某些國家中的女性和年輕人，更可能將氣候變化視為嚴重威脅。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"2010年代的大學生物教科書相較於前十年，關於氣候變化的內容較少，且對解決方案的強調也在減少。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"許多國家也存在黨派分歧， CO2排放量高的國家往往對此問題的關注度較低。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"對於氣候變化成因的看法在各國之間差異很大。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"與抗議活動相關的媒體報導也影響了公眾情緒以及氣候變化關注的焦點。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":1,
+    "sentence_index":6,
+    "sentence_text":"更高的擔憂程度與公眾對應對氣候變化政策的更強支持相關。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":1,
+    "sentence_index":7,
+    "sentence_text":"擔憂程度隨時間增加， 2021年，30個國家的多數公民對氣候變化表示高度擔憂，或將其視為全球緊急情況。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論",
+    "paragraph_index":1,
+    "sentence_index":8,
+    "sentence_text":"2024年一項涵蓋125個國家的調查發現，全球89%的人口要求加強政治行動，但系統性地低估了他人的行動意願。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"氣候抗議活動要求政治領袖採取行動防止氣候變化。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"這些活動可以採取公眾示威、化石燃料撤資、訴訟和其他形式。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"著名的示威活動包括為氣候罷課。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"在這項倡議中，受瑞典活動家、當時的青少年格蕾塔·通貝里的啟發，全球年輕人自2018年以來在周五罷課抗議。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"像反抗滅絕這樣的團體則通過擾亂道路和公共交通來進行大規模公民不服從抗議。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"訴訟越來越多地被用作加強公共機構和公司氣候行動的工具。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"活動家們也發起訴訟，針對政府，要求他們採取雄心勃勃的行動或執行現有的氣候變化法律。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"針對化石燃料公司的訴訟通常尋求對損失和損害的賠償。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"2025年7月23日，聯合國國際法院發布其諮詢意見，明確指出各國必須採取行動阻止氣候變化，如果未能履行此義務，其他國家可以對其提起訴訟。"
+  },
+  {
+    "language":"zh",
+    "section":"社會與文化 > 公眾意識與輿論 > 氣候運動",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"這項義務包括履行其在國際協議中的承諾，如2015年的《巴黎氣候協定》。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"19世紀的科學家，如亞歷山大·馮·洪堡，開始預見到氣候變化的影響。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"在1820年代，約瑟夫·傅立葉提出了溫室效應，以解釋為什麼地球的溫度高於僅靠太陽能量所能解釋的水平。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"地球大氣對陽光是透明的，所以陽光能到達地表，並在那裡轉化為熱量。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"然而，大氣對從地表輻射出的熱量並不透明，它會捕獲一部分熱量，從而使地球變暖。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"1856年，尤尼斯·牛頓·富特證明，太陽的暖化效應在含有水蒸氣的空氣中比在乾燥空氣中更強，而在二氧化碳（CO2）中效果更為顯著。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"在《影響太陽光熱度的情況》一文中，她總結道：「那種氣體構成的大氣會給我們的地球帶來高溫」。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"從1859年開始， 約翰·廷德爾確定氮氣和氧氣——共佔乾燥空氣的99%——對輻射熱是透明的。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"然而，水蒸氣以及甲烷和二氧化碳等氣體會吸收輻射熱，並將這些熱量重新輻射到大氣中。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"廷德爾提出，這些氣體濃度的變化可能導致了過去的氣候變化，包括冰河時期。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"斯凡特·阿瑞尼斯注意到，空氣中的水蒸氣不斷變化，但空氣中的CO2濃度受到長期地質過程的影響。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"CO2水平升高導致的暖化會增加水蒸氣的量，從而在一個正反饋循環中放大暖化。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"1896年，他發表了第一個此類氣候模型，預測CO2水平減半可能導致溫度下降，從而引發冰河時期。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"阿瑞尼斯計算出，CO2加倍預計會導致溫度上升約5–6°C。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"其他科學家最初持懷疑態度，認為溫室效應已經飽和，增加更多CO2不會有任何區別，並且氣候會自我調節。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 早期發現",
+    "paragraph_index":3,
+    "sentence_index":5,
+    "sentence_text":"從1938年開始，蓋伊·史都華·卡倫德發表證據表明氣候正在變暖，CO2水平正在上升， 但他的計算遇到了同樣的反對意見。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"在1950年代，吉爾伯特·普拉斯創建了一個詳細的電腦模型，該模型包含了不同的大氣層和紅外光譜。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"這個模型預測，增加Template:Co2水平將導致暖化。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"大約在同一時間，漢斯·修斯發現了Template:Co2水平一直在上升的證據，而羅傑·雷維爾則證明海洋不會吸收增加的量。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"這兩位科學家隨後幫助查爾斯·基林開始了持續增加的記錄——「基林曲線」， 這是在1960年代對全球暖化可能的人為原因進行持續科學調查的一部分。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"諸如國家研究委員會1979年的《查尼報告》等研究支持了預測顯著暖化的氣候模型的準確性。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"人為導致的觀測到的全球暖化及其未經減緩的危險，在詹姆斯·漢森1988年向美國參議院委員會的證詞中被公開提出。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"政府間氣候變化專門委員會（IPCC）成立於1988年，旨在向世界各國政府提供正式建議，並推動了跨學科研究。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"作為IPCC報告的一部分，科學家們評估了在同行評審的科學期刊文章中發生的科學討論。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"科學界幾乎一致認為，氣候正在變暖，這是由人類活動造成的。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"沒有任何國家級或國際級的科學機構不同意這一觀點。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"截至2019年，近期文獻中的共識已超過99%。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"2021年IPCC評估報告指出，氣候變化是由人類造成的，這是「明確無誤的」。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":1,
+    "sentence_index":4,
+    "sentence_text":"共識進一步發展為應採取行動保護人們免受氣候變化的影響。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 科學共識的形成",
+    "paragraph_index":1,
+    "sentence_index":5,
+    "sentence_text":"各國科學院已呼籲世界領導人削減全球排放。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 近期發展",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"極端事件歸因（EEA），也稱為歸因科學，是在21世紀初發展起來的。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 近期發展",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"EEA使用氣候模型來識別和量化人為氣候變化在特定個體極端天氣事件的頻率、強度、持續時間和影響中所扮演的角色。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 近期發展",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"歸因研究的結果使科學家和記者能夠做出這樣的陳述：「這次天氣事件因人為氣候變化而發生的可能性至少增加了n倍」或「這次熱浪比在沒有全球暖化的世界中要熱m度」或「沒有氣候變化，這次事件實際上不可能發生」。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 近期發展",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"2000年代更強大的計算能力和2010年代初至中期的概念性突破  使得歸因科學能夠高信度地檢測出氣候變化對某些事件的影響。"
+  },
+  {
+    "language":"zh",
+    "section":"歷史 > 近期發展",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"科學家使用已經經過同行評審的歸因方法和氣候模擬，使得「快速歸因研究」能夠在天氣事件發生後的「新聞週期」時間框架內發表。"
+  },
+  {
+    "language":"zh",
+    "section":"參考文獻 > 資料來源",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"本条目包含了自由内容作品内的文本。"
+  },
+  {
+    "language":"zh",
+    "section":"參考文獻 > 資料來源",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"在CC BY-SA 3.0下释出 《The status of women in agrifood systems – Overview》,  FAO, FAO. 欲了解如何向维基百科条目内添加开放许可证文本，请见这里；欲知如何重用本站文字，请见使用条款。"
+  }
+]

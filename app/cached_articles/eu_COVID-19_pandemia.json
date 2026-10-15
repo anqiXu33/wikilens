@@ -1,0 +1,632 @@
+[
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"COVID-19 gaixotasunaren 2019-2020ko pandemia, laburtuta COVID-19 pandemia, COVID-19 izeneko gaixotasunaren eraginez 2019aren amaieran hasi zen pandemia da."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"SARS-CoV-2 birusak eragiten du gaixotasuna, herri hizkeren koronabirusaren pandemia izenaz ezagunagoa da."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Wuhanen atzeman zen lehen aldiz, Txinako Hubei probintziako hiriburuan."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Zenbait gaixok arrazoi argirik gabe pneumonia garatu zutenean eta ordu arteko txerto eta tratamenduek haiengan eraginik ez zutela ikusi zenean izan zuten adituek birusaren berri."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"2020ko urtarrilaren amaierarako, gutxi gorabehera zortzi mila kasu atzeman ziren."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Wuhango koronabirusak urtarrilaren 9an hil zuen egiaztatutako lehen gaixoa, hilaren bukaera zifra 170 ingurura handitu zen."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Epidemiologia ikerketen arabera, jende askoz gehiagok kutsatuta dirau, baina ez dira atzemanak izan."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Lehen Txinatik kanpoko tokiko kutsapena Vietnamen jazo zen, aita batek bere semeari gaixotasuna kutsatzean."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":8,
+    "sentence_text":"Familiatik kanpoko lehen kutsapena aldiz, Alemaniako Bavarian gertatu zen, urtarrilaren 22an, bavariar gizon batek txinatar enpresari baten bisita jaso zuenean europar herrialdean."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":9,
+    "sentence_text":"Kutsapena eragozteko, Txinatar erakundeek berrogeita hamazazpi milioi biztanle dituen Wuhan eta inguruko hamabost hirik osatzen duten eskualdea konfinamenduan jarri zuten, gainera, hiriko garraio publikoa eta probintziartekoa (trenak eta aireportuak barne) behin-behinean geldiarazi zuten."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":10,
+    "sentence_text":"Txinatar Urte Berriko ospakizun ugari eta hainbat turistentzako interesgune itxi zituzten, horien artean Beijingo Hiri Debekatua, tenpluetako festa tradizionalak eta beste hainbat festa-elkargune."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":11,
+    "sentence_text":"Hong Kong hiriak gaixotasun kutsagarrien erantzun-maila maila gorenera igo zuen eta larrialdia ebatzi, hala, eskolak otsailaren erdialdera arte ixteko eta Urte Berriko ospakizunak bertan behera uzteko."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":12,
+    "sentence_text":"Zenbait herrialdek bidai-oharrak ipini dituzte Wuhanera edo Hubei probintziara zuzendutako bidaietan, bidaiariei bertan dagoen birusaren berri emateko."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":13,
+    "sentence_text":"Txina kontinentala bisitatu duten bidaiariei haien osasuna gainbegiratzeko eskatu zaie, gutxienez bi astetan, eta edozein sintoma pairatuz gero haien sendagileekin hitz egiteko, birusa duten edo ez egiaztatu dadin."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":14,
+    "sentence_text":"Birusa duen edozein pertsonari eskatu zaio maskara bat eramateko soinean, eta haren sendagileari laguntza eskatzeko, telefono bidez edo zuzenean erietxera joanda."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":15,
+    "sentence_text":"Zenbait txinatar hotelek zigorrik gabeko ezeztapenak eta diru-itzulpenak eskaini dituzte."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":16,
+    "sentence_text":"Aireportuek eta tren geltokiek tenperatura kontrolak eta informazio guneak ezarri dituzte, birusa duten eriak atzemateko asmoarekin."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":17,
+    "sentence_text":"Txinatar zientzialariek berehala lortu zuten birus berriaren sekuentzia genetikoa bakandu eta zehaztea, zeina ziztu bizian mundu osoaren esku jarri zuten, horrela, beste herrialdeetan ere birusa atzemateko PCR testak era independentean gara zitzaten."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":18,
+    "sentence_text":"Lehen berrogeita bat kutsatuetatik bi herenek nolabaiteko lotura zuen Huanango Itsaskien Handizkako Merkatuarekin, zeinean animaliak bizirik ere saltzen zituzten."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":19,
+    "sentence_text":"2019-nCoV birusaren genomaren sekuentzia ehuneko 75-80an SARS-CoV birusarenaren parekoa da eta ehuneko laurogeita bostean beste koronabirusen genoma-sekuentziarekiko parekoa da."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":20,
+    "sentence_text":"Alabaina, ez dago oso argi birus hau SARS birusaren hilgarritasunera iristen den."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":21,
+    "sentence_text":"2020ko urtarrilaren 30ean, Munduko Osasun Erakundeak birusaren agerraldia Nazioarteko Osasun Publikoko Larrialdi izendatu zuen; 2009tik (H1N1 pandemia jazo zen urte horretan) sei aldiz abiarazi da izendapen hori."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":22,
+    "sentence_text":"Urtarrilaren 31an, kutsagarritasunari, hilkortasun tasari, inkubazio aldiari, mundu mailako hedapen gaitasunari eta txertoa sortu arte beharko den denborari buruzko ikuspegi orokor bat argitaratu zen, birus berria antzinakoekin alderatzen dituena."
+  },
+  {
+    "language":"eu",
+    "section":"Intro",
+    "paragraph_index":0,
+    "sentence_index":23,
+    "sentence_text":"2020ko martxoaren 11n, Munduko Osasun Erakundeak (MOE) COVID-19 gaitzaren nazioarteko agerraldia \"pandemia\" izendatu zuen."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"SARS-CoV-2 birusaren lehen agerraldia Wuhanen, Txinan, jazo zen, 2019ko abenduan."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Birusa bizkor hedatu zen inguruko probintzia eta herrialdeetara, horien artean, Thailandia, Japonia, Hego Korea, Australia, Frantzia eta Estatu Batuak."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"2019ko abenduaren hasieran gertatu zen gizakietan ezagutzen den lehen kutsapena."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Ordulari molekularraren bidezko hurbilketek ere antzeko data (agian apur bat lehenago) iradokitzen dute."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Hala ere, Georgetown Unibertsitateko Daniel Lucey zientzialariaren arabera, lehen kutsapena gizakietan 2019ko azaroan jazo zen, edo agian lehenago."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Zientzialari honen argudioa sostengatzeko The Lancet aldizkariko artikulu bat baliatu izan da, zeinak dioen bazela koronabirus berria pairatzen ziharduten lehen 41 gaixoen artean gaixo bat ustezko sorburu den itsaskien merkatuarekin eta beste gaixoekin inolako loturarik ez zuena."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Edonola ere, kasu sekundario eta tertziarioak atzematen joan ahala, merkatuaren kutsatze-gaitasuna indarra galtzen joan zen."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Lehen 59 kasuak, 2019ko abenduaren bukaeran eta hurrengo urteko urtarrilaren hasieran atzemandako guztiak, Jinyintan ospitalean artatu ziren, zeina halako gaixoak bakanduta mantentzeko prestatua zegoen."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Berrogeita hemeretzi horietatik soilik 41 kasu zeuden egiaztatuta."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":2,
+    "sentence_text":"Berrogeita bat kasu horietatik, senideen talde bakar bat zegoen, 30 (% 73) pertsona gizonak ziren eta batez besteko adina 49 urte zen."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":3,
+    "sentence_text":"Horien artetik ia heren batek (% 32) lehendik gaixotasun jakin batzuk, edo baldintza esanguratsu batzuk zituen:"
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":4,
+    "sentence_text":"diabetesa (zortzik), odol-presio altua (seik) eta bihotzeko eritasunak (seik)."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":5,
+    "sentence_text":"Kasuen bi herenek harreman zuzena izan zuten Huanango Itsaskien Handizkako Merkatuarekin."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":6,
+    "sentence_text":"Ohiko sintomak sukarra (berrogeik, % 98), eztula (hogeita hamaikak, % 73) eta ondoeza muskuluetan edo nekea (hemezortzik, % 44) dira."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":7,
+    "sentence_text":"Oso ohikoak ez diren sintomak aldiz, kerrudun edo odoldun eztula, buruko mina eta beherakoa dira."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":8,
+    "sentence_text":"Multzoaren erdiak arnasteko zailtasunak erakutsi zituen eta hamahiru eri zainketa intentsiboetara eraman zituzten."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":9,
+    "sentence_text":"Berrogeita bat kasuetan pneumonia atzeman zen."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":3,
+    "sentence_index":10,
+    "sentence_text":"Hamabi gaixok arnas-zailtasun sindrome akutua, beste bostek bihotz-lesioak pairatu zituzten eta azkenik, lauk bigarren mailako infekzioa."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"Urtarrilaren 17an, Erresuma Batuko Imperial College erakundeko talde batek jakinarazi zuen urtarrilaren 12rako 1.723 kasu atzeman zirela (% 95eko konfiantza-tartea, 427 - 4,471), sintomen hastapenarekin."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":4,
+    "sentence_index":1,
+    "sentence_text":"Ikerketa hau Thailandia eta Japoniarako hasierako hedapenaren patroian oinarritu zen."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":4,
+    "sentence_index":2,
+    "sentence_text":"Gainera, argi esan zuten; \"gizakitik gizakirako kutsapena ez da baztertu behar\"; aurrerago egiaztatu zen birusa gai zela gizakitik gizakira kutsatzeko."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":4,
+    "sentence_index":3,
+    "sentence_text":"Handik egun gutxira argitaratutako beste txosten batek aurreko zifra 4.000 kutsatura handitu zuen urtarrilaren 18rako, Wuhan hiriko kasuak soilik aintzat hartuta."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":4,
+    "sentence_index":4,
+    "sentence_text":"Hong Kongo Unibertsitateak argitaratutako beste ikerketa bat antzeko ondoriora heldu zen, baina Txinan zehar izaten ari zen hedapena ere aztertu zuen."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":5,
+    "sentence_index":0,
+    "sentence_text":"Urtarrilaren 20an, Txinak birusa era nabarmenean hedatzen zebilela adierazi zuen, ehun eta berrogei eri artatu zituztela jakinaraziz, tartean Beijingo bi eri eta Shenzhengo bat."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":5,
+    "sentence_index":1,
+    "sentence_text":"Urtarrilaren 25ean, laborategian egiaztatutako kasuen kopurua 2.062ra igo zen:"
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia",
+    "paragraph_index":5,
+    "sentence_index":2,
+    "sentence_text":"horietatik, 2.016 Txinako Herri Errepublikakoak ziren; zazpi, Thailandiakoak; sei, Hong Kongoak; bosna, Macao eta Australian; launa, Malaysia eta Singapurren; hiruna, Frantzia, Japonia, Hego Korea, Taiwan eta Estatu Batuetan; bi. Vietnamgoak; eta bana, Nepal eta Suedian."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"COVID-19 pandemia Asian hasi zen, zehazki Txinako Wuhan hirian."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Birusa 2020ko urtarrilaren erdialdera Txinako beste probintzietara zabaldu zen, Txinako Urte Berriko ospakizunek eragiten dituzten migrazioak lagun."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Birusa beste herrialdeetara ere iritsi zen, bidaiariek garraiatuta, gehienetan enpresariek:"
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Thailandia (urtarrilaren 13); Japonia (urtarrilaren 15); Hego Korea (urtarrilaren 20); Taiwan eta Estatu Batuak (urtarrilaren 21); Hong Kong eta Macao (urtarrilaren 22); Singapur (urtarrilaren 23); Frantzia, Nepal eta Vietnam (urtarrilaren 24); Australia eta Malaysia (urtarrilaren 25); Kanada (urtarrilaren 26); Kanbodia (urtarrilaren 27); Alemania (urtarrilaren 28); Finlandia, Sri Lanka eta Arabiar Emirerri Batuak (urtarrilaren 29); India, Italia eta Filipinak (urtarrilaren 30); Erresuma Batua, Errusia, Suedia eta Espainia (urtarrilaren 31)."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"2020ko otsailaren 1erako 11.948 kasu baino gehiago egiaztatuta zeuden mundu osoan, gehienak Txinan."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Egun bererako, 259 heriotza eragin zituen birusak, denak ere Txinan."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":2,
+    "sentence_index":2,
+    "sentence_text":"Hurbilketen arabera, Wuhango egiazko kutsatu kopurua, egun horretan, 78.000 pertsona artean egon liteke."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":2,
+    "sentence_index":3,
+    "sentence_text":"Tokiko gizaki-gizaki kutsapena egiaztatu zen Vietnam, Alemania, Japonia eta Estatu Batuetan (zehazki Chicagon), baina Txinatik at gaixotasunaren gune hedatzailerik ez zen egiaztatu."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"Urtarrilaren 23tik aurrera, Txinak eta beste hainbat herrialdek Munduko Osasun Erakundea eta hainbat lurraldeetako gobernuekin elkarlanean, birusaren kutsapena murrizteko kanpaina indartsu bat jarri zuten martxan, bereziki, herritarrak birusaren arriskuez jakinarazi eta prebentzio neurriak har zitzaten eskatzeko."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Asia",
+    "paragraph_index":3,
+    "sentence_index":1,
+    "sentence_text":"Gainera, birusaren kutsapena murrizteko neurri ugari hartu ziren."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Europa",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Txinan pandemia bideratu eta gutxira hasi ziren ugaritzen kasuak Europan, bereziki finantza-guneei lotuta."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Europa",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Hasiera batean Italia izan zen kolpatuena, Lombardian zentratua, baina laster hasi ziren kasuak agertzen beste herrialde batzuetan."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Europa",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Italiako eztandaren ostean Espainiakoa etorri zen, bi astean munduan milioi biztanleko hildako gehien zituen herrialdea izateraino."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Europa",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Herrialde gehienek konfinamendua ezarri, mugak itxi eta jarduera gehienak gelditu zituzten."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Europa",
+    "paragraph_index":0,
+    "sentence_index":4,
+    "sentence_text":"Hala ere, kasuak handitzen joan ziren, batez ere Frantzian, eta Belgikan."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Europa",
+    "paragraph_index":0,
+    "sentence_index":5,
+    "sentence_text":"Erresuma Batuan eta Herbehereetan ez zituzten besteek hartutako neurriak martxan jarri, eta laster kasuen kopurua eta heriotza-tasa ere igotzen hasi ziren."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Europa",
+    "paragraph_index":0,
+    "sentence_index":6,
+    "sentence_text":"Europar Batasunak denbora behar izan zuen neurriak hartu eta laguntzeko, eta herrialde gehienek arazoak izan zituzten medikuntzari lotutako materiala lortu eta behar zutenei helarazteko."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Europa",
+    "paragraph_index":0,
+    "sentence_index":7,
+    "sentence_text":"Herrialde bakoitzak modu ezberdinak izan ditu kontabilizatzeko; beraz, datu guztiak ez dira egonkorrak."
+  },
+  {
+    "language":"eu",
+    "section":"Epidemiologia > Amerika",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"2020ko apirilaren 21ean, West Texas Intermediate, Estatu Batuetako erreferentziazko petrolio upela, balio negatiboetan sartu zen lehen aldiz historian ( -37,63 dolar upeleko), Covid-19ak eraginda eskaria urritu zelako batez ere, aurreko hilabeteetan nazioartean petrolioak izan zuen prezio jaitsieraz gain."
+  },
+  {
+    "language":"eu",
+    "section":"Zantzuak eta sintomak",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Kutsatutako gaixoak asintomatikoak dira batzuetan, baina gehienetan zenbait sintoma dituzte, sukarra, eztula, nekea, arnasteko zailtasunak eta giharretako mina, besteak beste."
+  },
+  {
+    "language":"eu",
+    "section":"Zantzuak eta sintomak",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Munduko Osasun Erakundeak Txinako 55.924 laborategian egiaztatutako kasu hartu zituen eta gaixotasunak eragiten dituen sintomak hurrenak direla ondorioztatu zuen:"
+  },
+  {
+    "language":"eu",
+    "section":"Zantzuak eta sintomak",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"Zerrendan aurrera joz gero, pneumonia larria, arnasteko zailtasunaren sindrome akutua, sepsia, shock septikoa eta heriotza topatuko ditugu."
+  },
+  {
+    "language":"eu",
+    "section":"Zantzuak eta sintomak",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Kutsatutako zenbait norbanako asintomatikoak dira, hau da, testak gaixorik daudela esan arren, ez dute sintomarik garatzen eta beraz, ikerlariek kutsatutako norbanakoak hurbiletik zaintzeko gomendioa eman dute, kutsapena kontrolatu nahi bada."
+  },
+  {
+    "language":"eu",
+    "section":"Zantzuak eta sintomak",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Inkubazio aldiak (kutsapen-unetik lehen sintomak garatu arte dagoen tartea) egun bat eta hamalau egun artean dirau, baina ohikoena bost egun irautea da."
+  },
+  {
+    "language":"eu",
+    "section":"Zantzuak eta sintomak",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Alabaina, kasu batek hogeita zazpi eguneko inkubazio aldia izan zuen."
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"Munduko Osasun Erakundeak SARS-CoV-2 birusa atzemateko hainbat RNA bidezko froga-protokolo argitaratu zituen, hala, COVID-19 gaitza eragiten duen birusa duten pertsonak atzemateko; lehen froga urtarrilaren 17an abiarazi zen."
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":0,
+    "sentence_index":1,
+    "sentence_text":"Testak unean uneko aurkako transkriptasadun polimerasaren kate-erreakzioa (rRT-PCR) erabiltzen du."
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":0,
+    "sentence_index":2,
+    "sentence_text":"Testa arnas edo odol laginekin egin daiteke."
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":0,
+    "sentence_index":3,
+    "sentence_text":"Emaitzak lortzeko ordu gutxi batzuk edo gehien jota, egun gutxi batzuk behar dira."
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"COVID-19 gaitza izateko aukerak dituen pertsona gisa hartzen da aurreko hamalau egunetan kutsatu kopuru handia duen herrialde edo lurralde batera joan den edo kutsatuta dagoen pertsona batekin aurrez-aurreko harremana izan duen pertsona oro."
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":1,
+    "sentence_index":1,
+    "sentence_text":"Eria atzemateko giltzarriak sukarra, eztula edo arnas gutxiegitasuna izatea da."
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":1,
+    "sentence_index":2,
+    "sentence_text":"Bestalde, beste zenbait lorratz ere badira:"
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":1,
+    "sentence_index":3,
+    "sentence_text":"nekea, mialgia, karkaxaren ekoizpena eta eztarriko mina."
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Gaixotasuna atzemateko beste metodo bat eria erietxera joatea da, bertan COVID-19 birusaren aztarna bereizgarriak aurki diezazkioten, adibidez, biriken konputagailu bidezko tomografiak eginez."
+  },
+  {
+    "language":"eu",
+    "section":"Diagnosia",
+    "paragraph_index":2,
+    "sentence_index":1,
+    "sentence_text":"Pneumonia zantzu bereizgarririk bada, norbanakoak COVID-19 gaitza duela esan daiteke."
+  },
+  {
+    "language":"eu",
+    "section":"Ikus, gainera",
+    "paragraph_index":0,
+    "sentence_index":0,
+    "sentence_text":"COVID-19"
+  },
+  {
+    "language":"eu",
+    "section":"Ikus, gainera",
+    "paragraph_index":1,
+    "sentence_index":0,
+    "sentence_text":"COVID-19 pandemia Euskal Herrian"
+  },
+  {
+    "language":"eu",
+    "section":"Ikus, gainera",
+    "paragraph_index":2,
+    "sentence_index":0,
+    "sentence_text":"Koronabirus"
+  },
+  {
+    "language":"eu",
+    "section":"Ikus, gainera",
+    "paragraph_index":3,
+    "sentence_index":0,
+    "sentence_text":"SARS-CoV-2"
+  },
+  {
+    "language":"eu",
+    "section":"Ikus, gainera",
+    "paragraph_index":4,
+    "sentence_index":0,
+    "sentence_text":"COVID-19ak kutsatuak herrialdez herrialde"
+  }
+]
