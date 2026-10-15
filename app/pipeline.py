@@ -13,13 +13,14 @@ from pathlib import Path
 
 import pandas as pd
 
-from app.services.fetcher import fetch_multilang_from_url, extract_title_from_url
+from app.services.fetcher import fetch_multilang_from_url, extract_title_from_url, TitleNotFoundError
 from app.services.chunker import paragraph_chunk
 from app.services.embedder import (
     embed_language, translate_section_names, check_translation_config, LABSE_MODEL, LABSE_REVISION,
 )
 from app.services.aligner_en_to_source import match_en_to_lang
 from app.services.aligner_source_to_en import align_language
+from app.services.align_thresholds import method_for
 
 RUNS_DIR = Path("outputs/runs")
 HISTORY_PATH = Path("outputs/history.json")
@@ -104,7 +105,10 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
     run_id, ts, run_dir = new_run_dir(title, lang1, lang2)
     print(f"Run directory: {run_dir}")
 
-    articles = fetch_multilang_from_url(url, [lang1, lang2], output_dir=run_dir / "fetched")
+    try:
+        articles = fetch_multilang_from_url(url, [lang1, lang2], output_dir=run_dir / "fetched")
+    except TitleNotFoundError as e:
+        raise PipelineError(404, str(e)) from e
     print(f"Fetched articles keys: {list(articles.keys())}")
     missing = [l for l in (lang1, lang2) if l not in articles]
     if missing:
@@ -144,15 +148,19 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
         json.dump(section_names, f, ensure_ascii=False, indent=2)
 
     # Step 2: Embed — embed_language reads chunked_{lang}.json from disk
+    align_method = method_for(non_en_lang)
     for lang in chunked_articles:
         print(f"Embedding {lang}...")
         embed_language(lang, input_dir=chunked_path, output_dir=embeddings_dir,
-                       section_names=section_names[lang])
+                       section_names=section_names[lang],
+                       sentence_level=align_method.score == "sentence_max")
         print(f"[✓] {lang}: embedded")
 
     # Step 3: Align in both directions
-    match_en_to_lang(non_en_lang, embed_dir=embeddings_dir, output_dir=align_en_dir)
-    align_language(non_en_lang, embed_dir=embeddings_dir, output_dir=align_src_dir)
+    alignment_info = {
+        f"en_to_{non_en_lang}": match_en_to_lang(non_en_lang, embed_dir=embeddings_dir, output_dir=align_en_dir),
+        f"{non_en_lang}_to_en": align_language(non_en_lang, embed_dir=embeddings_dir, output_dir=align_src_dir),
+    }
     align_en_file = align_en_dir / f"en_to_{non_en_lang}.json"
     align_src_file = align_src_dir / f"{non_en_lang}_to_en.json"
     for af in (align_en_file, align_src_file):
@@ -179,6 +187,10 @@ async def run_analysis(url: str, language_pair: str, do_score: bool = True) -> d
         "provenance": {
             "git_sha": _git_sha(),
             "labse": f"{LABSE_MODEL}@{LABSE_REVISION}",
+            # How chunks were matched, per direction (align_thresholds.method_for):
+            # score, threshold, routing, and for an LLM rerank the model,
+            # number of calls and whether it fell back to the threshold
+            "alignment": alignment_info,
             "scoring": _scoring_info() if do_score else None,
             # How the non-English section names were translated (cache / llm /
             # google), with the LLM used and any names left untranslated

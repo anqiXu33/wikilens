@@ -59,10 +59,18 @@ def pair_key(langs) -> str:
 
 
 def default_thresholds(langs) -> tuple[float, float]:
-    """The thresholds the pipeline uses for this pair (keyed by the non-English language)."""
+    """The chunk-level thresholds for this pair (keyed by the non-English language).
+    Not what the aligners use when the pair's method is not "chunk": see default_method."""
     from app.services.align_thresholds import DEFAULT_THRESHOLDS, thresholds_for
     non_en = [l for l in set(langs) if l != "en"]
     return thresholds_for(non_en[0]) if len(non_en) == 1 else DEFAULT_THRESHOLDS
+
+
+def default_method(langs):
+    """The aligners' matching method for this pair (align_thresholds.AlignMethod)."""
+    from app.services.align_thresholds import AlignMethod, method_for
+    non_en = [l for l in set(langs) if l != "en"]
+    return method_for(non_en[0]) if len(non_en) == 1 else AlignMethod("chunk", *default_thresholds(langs))
 
 
 def _unit(rows) -> np.ndarray:

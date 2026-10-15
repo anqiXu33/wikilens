@@ -34,13 +34,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from app.services.llm_rerank import LLM_LABELS, parse_rerank_reply, rerank_messages  # noqa: F401
 from wikilens import alignment_eval as ae
 
 EXPERIMENTS_DIR = Path("eval/experiments")
 SENTENCE_CACHE_DIR = EXPERIMENTS_DIR / "cache"   # gitignored: re-computable sentence embeddings
 COVERAGE_KS = (1, 3, 5, 10)
 OFF = math.inf
-LLM_LABELS = ("match", "partial", "none")
 LLM_SCORE = {"none": 0.0, "partial": 1.0, "match": 2.0}
 NOT_CANDIDATE = -1.0
 
@@ -116,56 +116,12 @@ def sentence_scores(q_emb: dict, t_emb: dict, q_ids: list[str], t_ids: list[str]
 
 # ── LLM rerank ────────────────────────────────────────────────────────────────
 
-LANG_NAMES = {"en": "English", "zh": "Chinese", "de": "German", "fr": "French", "it": "Italian"}
-
-
-def rerank_messages(query_text: str, q_lang: str, candidates: list[tuple[str, str]], t_lang: str) -> list[dict]:
-    """Prompt for one query chunk and its candidates [(chunk_id, text)].
-    Mirrors docs/annotation_guidelines.md."""
-    ql, tl = LANG_NAMES.get(q_lang, q_lang), LANG_NAMES.get(t_lang, t_lang)
-    system = (
-        f"You compare a paragraph from the {ql} Wikipedia with candidate paragraphs from the {tl} "
-        "Wikipedia article on the same topic, and decide for each candidate whether it states the "
-        "same fact(s) as the source paragraph.\n"
-        "Labels:\n"
-        '  "match": the candidate covers all the facts of the source paragraph.\n'
-        '  "partial": the candidate covers at least one fact of the source paragraph, even if that '
-        "fact is only a small part of either paragraph.\n"
-        '  "none": the candidate shares no fact with the source paragraph; being on the same general '
-        "topic is not enough.\n"
-        "The same indicator reported for a different year or with a different number counts as the "
-        "same fact (language editions are updated at different times).\n"
-        "Reply with a single JSON object and nothing else, mapping every candidate id to its label, "
-        'e.g. {"en_0001": "none", "en_0002": "partial"}.'
-    )
-    lines = [f"Source paragraph ({ql}):", query_text, "", f"Candidates ({tl}):"]
-    for cid, text in candidates:
-        lines += [f"[{cid}] {text}", ""]
-    return [{"role": "system", "content": system}, {"role": "user", "content": "\n".join(lines).rstrip()}]
+# The prompt and reply parsing are the pipeline's (app/services/llm_rerank.py),
+# so the cached replies below are the ones the aligner would get.
 
 
 def prompt_key(messages: list[dict], model: str) -> str:
     return hashlib.sha256(json.dumps([model, messages], ensure_ascii=False).encode("utf-8")).hexdigest()[:16]
-
-
-def parse_rerank_reply(text: str, candidate_ids: list[str]) -> dict[str, str]:
-    """{chunk_id: label}; candidates the reply leaves out or garbles count as "none"."""
-    start, end = text.find("{"), text.rfind("}")
-    data = {}
-    if start >= 0 and end > start:
-        try:
-            data = json.loads(text[start:end + 1])
-        except json.JSONDecodeError:
-            data = {}
-    if not isinstance(data, dict):
-        data = {}
-    loose = {re.sub(r"[\[\]\s]", "", str(k)).casefold(): v for k, v in data.items()}
-    out = {}
-    for cid in candidate_ids:
-        v = data.get(cid, loose.get(cid.casefold()))
-        v = str(v).strip().casefold() if v is not None else "none"
-        out[cid] = v if v in LLM_LABELS else "none"
-    return out
 
 
 class RerankCache:

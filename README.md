@@ -27,9 +27,11 @@ Wikipedia URL
   Embedder         Encodes each chunk using LaBSE (Language-agnostic BERT)
      │              Produces language-independent semantic vectors
      ▼
-  Aligner          Matches chunks across languages via cosine similarity
-     │              Uses per-language calibrated thresholds (EN-DE: 0.45,
-     │              EN-ZH: 0.45, EN-IT: 0.35, EN-FR: 0.40)
+  Aligner          Matches chunks across languages. EN-DE / IT / FR: chunk
+     │              cosine with per-language thresholds (0.45 / 0.35 / 0.40)
+     │              and section routing. EN-ZH: top 10 candidates by
+     │              sentence-level LaBSE, kept or dropped by the LLM
+     │              (fallback without LLM: sentence max ≥ 0.65)
      ▼
   Scorer           Sends aligned chunk pairs to an LLM — IBM watsonx.ai
      │              (Llama 3.3 70B), local Ollama or an OpenAI-compatible
@@ -243,7 +245,7 @@ python -m wikilens annotate RUN_ID --sample 50
 # eval/alignment_<pair>_grid.csv, _summary.json and _f1.png
 python -m wikilens evaluate
 
-# Experiment (pipeline unchanged): chunk cosine vs A = LLM rerank of the top 10
+# Experiment (does not change the pipeline): chunk cosine vs A = LLM rerank of the top 10
 # candidates (SCORING_BACKEND) vs B = sentence-level pairing, on the same labels.
 # Writes eval/experiments/alignment_<pair>_methods.{md,json}; see docs/alignment_experiments.md
 python -m wikilens experiment
@@ -339,7 +341,10 @@ wikilens/
 │       ├── embedder.py             # LaBSE embedding + section-name translation
 │       ├── aligner_en_to_source.py # EN → other language alignment
 │       ├── aligner_source_to_en.py # Other language → EN alignment
-│       ├── align_thresholds.py     # Per-language alignment thresholds (shared)
+│       ├── align_thresholds.py     # Per-language alignment method and thresholds (shared)
+│       ├── align_scoring.py        # Chunk / sentence-max scores, routing (shared by the aligners)
+│       ├── llm_rerank.py           # EN-ZH: LLM labels the top-10 candidates
+│       ├── sections.py             # Navigation headings that are not chunked
 │       └── scorer.py               # LLM scoring (watsonx.ai / Ollama / OpenAI-compatible)
 ├── static/
 │   └── index.html                  # Frontend UI
@@ -373,15 +378,80 @@ LaBSE (Language-agnostic BERT Sentence Embeddings) produces comparable vectors a
 LaBSE similarity distributions differ significantly across language pairs. Analysis on 5 articles showed:
 
 - **EN-DE** peaks at 0.25–0.40 → initially 0.30, raised to **0.45** after translating section names to English tightened the candidate pool
-- **EN-ZH** peaks at 0.65–0.90 → threshold 0.45
+- **EN-ZH** peaks at 0.65–0.90 → threshold 0.45 (chunk-level; EN-ZH now uses a different method, see below)
 - **EN-IT** peaks at 0.40–0.65 → threshold 0.35
 - **EN-FR** peaks at 0.50–0.70 → threshold 0.40
 
 A single global threshold would either miss real matches (too high) or create false matches (too low) depending on the language pair.
 
+### Alignment method for EN-ZH
+
+EN-ZH no longer uses chunk cosine. For each chunk, the aligner takes the 10
+chunks of the other article with the highest **sentence max** (the highest
+LaBSE cosine between any sentence of one chunk and any sentence of the other,
+section routing off) and asks the scoring LLM (`SCORING_BACKEND`) to label each
+one *match*, *partial* or *none*, following `docs/annotation_guidelines.md`.
+The pairs labelled match or partial are the alignment. If no LLM is
+configured, or the first rerank request fails, it falls back to
+**sentence max ≥ 0.65, routing off**; a later failed request falls back for
+that chunk only. The run's `meta.json` (`provenance.alignment`) records which
+happened, and every match carries its `llm_label`. EN-DE, EN-IT and EN-FR are
+unchanged. Settings: `app/services/align_thresholds.py` (`LANG_METHODS`).
+
+**Evidence** (`docs/alignment_experiments.md`, `eval/experiments/alignment_en-zh_methods.md`;
+54 hand-labelled Chinese chunks from *Huawei* and *Social credit system*, 10 of
+them with no English counterpart; partial counts as a match):
+
+| method | P | R | F1 | F1 95% CI |
+|---|---|---|---|---|
+| old default: chunk cosine 0.45, routing 0.45 | 0.153 | 0.287 | 0.200 | 0.12–0.29 |
+| sentence max 0.65, routing off (now the fallback) | 0.607 | 0.425 | 0.500 | 0.38–0.60 |
+| LLM rerank of the top 10, match + partial (Llama 3.3 70B) | 0.618 | 0.688 | **0.651** | 0.54–0.75 |
+
+Per article, the LLM rerank scores F1 0.68 on *Huawei* (30 chunks) and 0.64 on
+*Social credit system* (24 chunks). It has no threshold fitted to the labels.
+The 0.65 of the fallback was picked on the same labels, and does not
+transfer well between the two articles (F1 0.58 / 0.41 when picked on the
+other one).
+
+**Limitations of this evidence**
+
+- **Small sample.** 54 chunks from 2 articles. A 95% interval on F1 is about
+  ±0.1, so A and B are not clearly separated (0.54–0.75 against 0.38–0.60).
+- **Not the measured configuration.** In the experiment the LLM reranked the
+  top 10 by *chunk cosine*. The pipeline reranks the top 10 by *sentence max*,
+  which puts a known correct target in the top 10 for fewer chunks (86%
+  against 95%; 7 against 11 of the 17 matches the annotator found outside
+  chunk cosine's top 3), but ranks more of them in the top 3. This combination
+  has not been scored with fresh LLM replies yet.
+- **Biased towards chunk cosine.** Apart from 17 matches named by the
+  annotator, every labelled pair came from chunk cosine's top 3. Pairs a new
+  method predicts outside the labels count as false positives when the
+  chunk's third candidate was labelled *none*, otherwise they are not scored.
+  The LLM rerank predicts 33 such pairs (19 counted as false positives),
+  sentence max 26 (18). Labelling them, about 25–35 pairs per method, would
+  show how much of the precision is real.
+- **Only EN-ZH**, and only with Llama 3.3 70B. A smaller local model (e.g.
+  Ollama `llama3.2`) may label very differently.
+
+**Cost.** The rerank makes one extra LLM request per chunk and direction:
+(English chunks + Chinese chunks) per article, each with the query chunk and
+10 candidate chunks (roughly 2k input tokens, an estimate). With the current
+chunking that is **243 requests for *Huawei*** (131 + 112) and **113 for
+*Social credit system*** (90 + 23). Scoring already makes one or two requests
+per chunk and direction, so the rerank adds about 50–100% to an EN-ZH run's
+LLM requests. Requests are sequential, so it also adds their latency to the
+run.
+
 ### Why paragraph-level chunks?
 
 Wikipedia's paragraph breaks are human-authored topic boundaries and are more reliable than fixed-size windows or similarity-based segmentation. Paragraph chunking is also faster, fully deterministic, and produces chunks of consistent semantic scope.
+
+Two exceptions: a list stays in one chunk (a paragraph that does not end a
+statement, such as a list item, a definition-list term or a line ending in
+":", is joined with the next one), and navigation sections ("See also",
+"Further reading", "参见", "References", ...; `app/services/sections.py`) are
+not chunked at all.
 
 ---
 
@@ -394,7 +464,8 @@ During the IBM watsonx GenAI Challenge 2025, scoring ran on **watsonx.ai** with 
 ## Limitations
 
 - Scoring quality depends on the LLM backend — the local fallback with small models (3B) may produce noisy scores on non-English text; watsonx with Llama 3.3 70B is markedly more reliable
-- Alignment thresholds were calibrated on 5 articles per language pair; more data would improve reliability
+- Alignment thresholds were calibrated on 5 articles per language pair; more data would improve reliability. The EN-ZH method was chosen on 54 labelled chunks from 2 articles (see "Alignment method for EN-ZH")
+- Articles are looked up on Wikidata by their exact title. A redirect title (or a misspelt one) stops the run with an error asking for the article's real title
 - The tool assumes one language is always English; direct DE↔ZH comparison is not supported
 - Long articles (200+ chunks) require significant local compute time
 

@@ -70,6 +70,7 @@ def evaluate_pair(pair: str, cases: list, args) -> dict:
     bi, bj = ae.best_index(f1, prec)
     off_i = int(np.lexsort((-prec[:, -1], -f1[:, -1]))[0])
     refs = {"pipeline_default": default}
+    method = ae.default_method(langs)
     if REFERENCE != default:
         refs["reference_0.45_0.35"] = REFERENCE
     result = {
@@ -85,6 +86,10 @@ def evaluate_pair(pair: str, cases: list, args) -> dict:
         "n_positive_pairs": int(sum(len(c.pos_cols) for c in cases)),
         "partial": args.partial,
         "unlabelled": args.unlabelled,
+        # This grid only covers chunk-cosine matching. When the pair's aligner
+        # uses another score, "pipeline_default" is the chunk-level setting it
+        # replaced; `python -m wikilens experiment` scores the actual default.
+        "aligner_method": {"score": method.score, "threshold": method.threshold, "path_thr": method.path_thr},
         "reference_points": {name: at(*thr) for name, thr in refs.items()},
         "best": at(chunk_grid[bi], path_grid[bj]),
         "best_routing_off": at(chunk_grid[off_i], OFF),
@@ -219,6 +224,12 @@ def print_report(res: dict, outputs: list[Path]) -> None:
           f"({res['n_elsewhere_named']} with the matching chunk named, "
           f"{res['n_elsewhere'] - res['n_elsewhere_named']} unnamed = 1 FN each at every threshold); "
           f"{res['n_elsewhere_pairs']} positive pairs")
+    am = res["aligner_method"]
+    if am["score"] != "chunk":
+        print(f"\n  Note: the aligner's default for this pair is {am['score']} >= {am['threshold']}, routing "
+              f"{'off' if am['path_thr'] is None else am['path_thr']}. This grid covers chunk cosine only, and "
+              f"pipeline_default below is the chunk-level setting it replaced; "
+              f"`python -m wikilens experiment` scores the current default.")
     print(f"\n  {'setting':<22} {'chunk':>6} {'path':>6}   prec   rec    F1     [F1 95% CI]")
     for name, m in res["reference_points"].items():
         print(_row(name, m["chunk_thr"], m["path_thr"] if m["path_thr"] is not None else OFF, m, m["f1_95ci"]))

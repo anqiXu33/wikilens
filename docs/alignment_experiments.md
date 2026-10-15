@@ -1,6 +1,6 @@
 # Alignment experiments: LLM rerank (A) and sentence-level pairing (B)
 
-*2026-10-15. Experiment only: the pipeline's aligner and its defaults are unchanged.*
+*2026-10-15. Written as an experiment only. Since then the EN-ZH default has become an LLM rerank of the top 10 candidates by sentence max, with sentence max ≥ 0.65 as the fallback: see README, "Alignment method for EN-ZH".*
 
 ## Question
 
@@ -29,7 +29,8 @@ The output goes to `eval/experiments/alignment_en-zh_methods.md` (tables) and `.
 | **B: sentence max** | 0.65 | 0.607 | 0.425 | **0.500** | 0.38–0.60 | **0.575** / 0.413 |
 | B: sentence top-2 mean | 0.60 | 0.619 | 0.325 | 0.426 | 0.31–0.54 | 0.291 / 0.295 |
 | B: sentence top-3 mean | 0.55 | 0.385 | 0.438 | 0.409 | 0.32–0.50 | 0.164 / 0.255 |
-| A: LLM rerank top 10 | – | *not run yet (no LLM credentials in the session where this was written)* | | | | |
+| **A: LLM rerank top 10, match + partial** (Llama 3.3 70B) | – | 0.618 | 0.688 | **0.651** | 0.54–0.75 | no threshold; per article 0.677 / 0.636 |
+| A: LLM rerank top 10, match only | – | 0.941 | 0.200 | 0.330 | 0.22–0.43 | – |
 
 Is the correct answer among the candidates? "Chunks" is the share of the 44 non-absent chunks with a known correct target in the top k. "Outside top 3" uses the 17 matches the annotator named outside chunk cosine's top 3.
 
