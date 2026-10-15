@@ -1,10 +1,20 @@
-# WikiLens
+<h1 align="center">WikiLens</h1>
+
+<p align="center"><em>Cross-lingual bias analysis for Wikipedia</em></p>
+
+<p align="center">
+  <img alt="python 3.12" src="https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white">
+  <img alt="embeddings LaBSE" src="https://img.shields.io/badge/embeddings-LaBSE-6f42c1">
+  <img alt="LLM watsonx | OpenAI-compatible | Ollama" src="https://img.shields.io/badge/LLM-watsonx_%7C_OpenAI--compatible_%7C_Ollama-0f6cbd">
+  <img alt="web FastAPI" src="https://img.shields.io/badge/web-FastAPI-009688?logo=fastapi&logoColor=white">
+  <img alt="license MIT" src="https://img.shields.io/badge/license-MIT-2ea44f">
+</p>
+
+<p align="center"><a href="README.zh.md">中文说明</a></p>
 
 **Cross-lingual bias analysis for Wikipedia.** Compare the same article across two language editions, align the passages that describe the same facts, and see what each edition leaves out or frames differently.
 
-[中文说明](README.zh.md)
-
-![Social credit system, English vs Chinese: summary cards and framing scores by section](docs/images/social_credit_results.png)
+<p align="center"><img src="docs/images/social_credit_results.png" alt="Social credit system, English vs Chinese: summary cards and framing scores by section" width="760"></p>
 
 ## What it does
 
@@ -21,7 +31,7 @@ The LLM backend is pluggable: IBM watsonx, any OpenAI-compatible API (OpenRouter
 
 Wikipedia editions are written by different communities and are not translations of each other. The same topic can get different facts, different emphasis and different sources in each language. WikiLens makes those differences visible at the paragraph level, so an editor can see *where* two editions diverge rather than only *that* they do.
 
-![Coverage gaps: English passages with no counterpart in the Chinese edition](docs/images/social_credit_coverage_gaps.png)
+<p align="center"><img src="docs/images/social_credit_coverage_gaps.png" alt="Coverage gaps: English passages with no counterpart in the Chinese edition" width="760"></p>
 
 ## How well does the alignment work?
 
@@ -54,7 +64,7 @@ A few things the labelled articles showed, as examples of what the tool surfaces
 
 Note that the Chinese Wikipedia is edited by a community spanning mainland China, Taiwan, Hong Kong and overseas; differences reflect those editors, not any single official position.
 
-![Gala (apple), English vs German: an example on an uncontroversial topic](docs/images/gala_results.png)
+<p align="center"><img src="docs/images/gala_results.png" alt="Gala (apple), English vs German: an example on an uncontroversial topic" width="760"></p>
 
 ## Setup
 
