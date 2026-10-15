@@ -155,7 +155,7 @@ Format your output as JSON with the following fields:
   \"chunk_id\": \"...\",
   \"base_points\": <int>,            // number of info points in chunk_text
   \"omission_points\": <int>,        // number of those found in omission_text
-  \"omission_score\": <float>        // omission_points / base_points
+  \"omission_score\": <float>        // 1 - (omission_points / base_points)
 }
 
 
@@ -322,6 +322,23 @@ async def async_inference(session, messages, access_token: str | None = None):
 # === Parse model response ===
 
 
+def compute_omission_score(base_points, omission_points):
+    """omission_score = 1 - preserved/base, computed here from the model's counts.
+
+    The model's own omission_score is not used: it frequently returns the
+    inverted ratio (preserved/base). Counts are clipped so that the number of
+    preserved points can't exceed the number of base points.
+    """
+    if isinstance(base_points, bool) or isinstance(omission_points, bool):
+        return None
+    if not isinstance(base_points, (int, float)) or not isinstance(omission_points, (int, float)):
+        return None
+    if base_points <= 0:
+        return None
+    preserved = min(max(omission_points, 0), base_points)
+    return round(1 - preserved / base_points, 4)
+
+
 def _extract_generated_text(response: dict) -> str:
     """Pull the generated text out of either backend's response format.
 
@@ -378,10 +395,12 @@ def parse_response(score_type, response):
             "sentiment_score": generated_json["sentiment_score"]
         }
     elif score_type == 'pair':
+        base_points = generated_json["base_points"]
+        omission_points = generated_json["omission_points"]
         score_dict = {
-            "base_points": generated_json["base_points"],
-            "omission_points": generated_json["omission_points"],
-            "omission_score": generated_json["omission_score"]
+            "base_points": base_points,
+            "omission_points": omission_points,
+            "omission_score": compute_omission_score(base_points, omission_points)
         }
     return score_dict
 
