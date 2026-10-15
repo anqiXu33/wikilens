@@ -1,0 +1,19 @@
+fastapi
+uvicorn
+pydantic
+requests
+aiohttp
+numpy<2  # spaCy 3.7 (thinc 8.2) is built against NumPy 1.x
+pandas
+pyarrow<26  # pyarrow 26 requires NumPy 2
+torch
+sentence-transformers
+transformers
+scikit-learn
+spacy>=3.7,<3.8
+nltk
+deep-translator
+Wikipedia-API
+python-dotenv
+tqdm
+matplotlib
