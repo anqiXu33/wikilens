@@ -6,6 +6,8 @@
     python -m wikilens runs                                                # list saved runs
     python -m wikilens replay [RUN_ID]                                     # summarise a saved run
     python -m wikilens serve [--offline]                                   # web dashboard
+    python -m wikilens annotate RUN_ID                                     # HTML page for labelling alignments
+    python -m wikilens evaluate                                            # score alignment against eval/labels/
 
 Offline mode never touches the network, an LLM or an API key: it only reads
 the run directories already in outputs/runs/.
@@ -223,6 +225,16 @@ def cmd_serve(args) -> int:
     return 0
 
 
+def cmd_annotate(args) -> int:
+    from wikilens.annotate import cmd_annotate as run
+    return run(args)
+
+
+def cmd_evaluate(args) -> int:
+    from wikilens.evaluate import cmd_evaluate as run
+    return run(args)
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="python -m wikilens", description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -260,6 +272,34 @@ def build_parser() -> argparse.ArgumentParser:
     sv.add_argument("--host", default="127.0.0.1")
     sv.add_argument("--port", type=int, default=8000)
     sv.set_defaults(func=cmd_serve)
+
+    an = sub.add_parser("annotate", help="write an HTML page for labelling alignment candidates of a run")
+    an.add_argument("run", help="run id or directory (see: python -m wikilens runs)")
+    an.add_argument("--from", dest="from_lang", metavar="LANG",
+                    help="language whose chunks are the queries (default: the non-English one)")
+    an.add_argument("-k", type=int, default=3, help="candidates per chunk, by similarity (default 3)")
+    an.add_argument("--sample", type=int, help="label a random sample of this many chunks instead of all")
+    an.add_argument("--seed", type=int, default=0, help="seed for --sample (default 0)")
+    an.add_argument("-o", "--output", help="HTML path (default eval/annotation_pages/<labels name>.html)")
+    an.set_defaults(func=cmd_annotate)
+
+    ev = sub.add_parser("evaluate", help="precision/recall/F1 of the aligner against eval/labels/, "
+                                         "over a threshold grid")
+    ev.add_argument("labels", nargs="*", help="label files (default: eval/labels/*.json)")
+    ev.add_argument("--pair", help="only this language pair, e.g. en-zh")
+    ev.add_argument("--chunk-grid", default="0.20:0.90:0.05", help="chunk_thr values, lo:hi:step or a,b,c "
+                                                                   "(default 0.20:0.90:0.05)")
+    ev.add_argument("--path-grid", default="0.20:0.90:0.05", help="path_thr values; 'routing off' is always added "
+                                                                  "(default 0.20:0.90:0.05)")
+    ev.add_argument("--partial", choices=["positive", "negative", "ignore"], default="positive",
+                    help="how to count 'partial' labels (default positive)")
+    ev.add_argument("--unlabelled", choices=["auto", "fp", "ignore"], default="auto",
+                    help="predicted pairs outside the labelled candidates: fp, ignore, or auto = fp when "
+                         "the chunk's lowest-ranked candidate is labelled 'none' (default auto)")
+    ev.add_argument("--output-dir", default="eval", help="where the CSV, JSON and PNG go (default eval/)")
+    ev.add_argument("--seed", type=int, default=0, help="bootstrap seed (default 0)")
+    ev.add_argument("--json", action="store_true", help="also print the summary as JSON")
+    ev.set_defaults(func=cmd_evaluate)
     return p
 
 

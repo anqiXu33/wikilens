@@ -227,6 +227,23 @@ python -m wikilens replay --json        # raw run metadata and scores
 - `--no-score` runs are listed but not added to the dashboard history, since the dashboard needs score files.
 - `--no-score` still translates section names as `TRANSLATION_BACKEND` says; with the default `auto` that is the LLM if one is configured. Set `TRANSLATION_BACKEND=google` or `none` to keep LLMs out of a `--no-score` run entirely.
 
+### Alignment evaluation
+
+Human labels for the aligner, and precision / recall / F1 against them. See
+[docs/annotation_guidelines.md](docs/annotation_guidelines.md) for what counts as a match.
+
+```bash
+# Single-file HTML labelling page: each source chunk with its 3 most similar
+# chunks from the other language. --sample N picks N chunks with a fixed --seed (default 0).
+python -m wikilens annotate RUN_ID --sample 50
+# → open eval/annotation_pages/<run_id>.html, label, "导出 JSON" → save as eval/labels/<run_id>.json
+
+# Grid search over chunk_thr × path_thr (plus routing off) against every file in eval/labels/:
+# prints P/R/F1 at the current defaults and at the best setting, and writes
+# eval/alignment_<pair>_grid.csv, _summary.json and _f1.png
+python -m wikilens evaluate
+```
+
 ### Section-name translation
 
 Before embedding, non-English section names are translated to English. This
@@ -317,6 +334,7 @@ wikilens/
 │       ├── embedder.py             # LaBSE embedding + section-name translation
 │       ├── aligner_en_to_source.py # EN → other language alignment
 │       ├── aligner_source_to_en.py # Other language → EN alignment
+│       ├── align_thresholds.py     # Per-language alignment thresholds (shared)
 │       └── scorer.py               # LLM scoring (watsonx.ai / Ollama / OpenAI-compatible)
 ├── static/
 │   └── index.html                  # Frontend UI
@@ -325,6 +343,9 @@ wikilens/
 │   │                               #   alignments_*/, scores/, meta.json
 │   └── history.json                # Runs shown in the dashboard
 ├── wikilens/                       # Command line: python -m wikilens
+├── eval/
+│   ├── labels/                     # Human alignment labels (annotate → evaluate)
+│   └── alignment_<pair>_*          # evaluate output: grid CSV, summary JSON, F1 plot
 ├── tests/                          # Unit tests, no network (python -m pytest tests)
 ├── main.py                         # FastAPI server
 ├── eval_alignment_threshold.py     # Threshold calibration script
