@@ -1,8 +1,6 @@
 {
  "llm": {
-  "backend": "openai",
-  "model": "meta-llama/llama-3.3-70b-instruct",
-  "base_url": "https://openrouter.ai/api/v1"
+  "model": "meta-llama/llama-3.3-70b-instruct"
  },
  "entries": {
   "9ea053f5bb6ce008": {
