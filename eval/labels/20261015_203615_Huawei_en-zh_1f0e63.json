@@ -11,8 +11,8 @@
     "seed": 0
   },
   "annotator": "Anqi",
-  "page_generated_at": "2026-10-15T18:45:32+00:00",
-  "exported_at": "2026-10-15T19:56:46.286Z",
+  "page_generated_at": "2026-10-21T11:11:24+00:00",
+  "exported_at": "2026-10-21T11:25:00Z",
   "items": [
     {
       "query_id": "zh_0000",
@@ -20,7 +20,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "",
+      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0000",
@@ -39,6 +39,14 @@
           "chunk_sim": 0.6467,
           "section": "History > Foreign expansion",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0009",
+          "chunk_sim": 0.5831,
+          "section": "History > Early years",
+          "label": "partial",
+          "extra": true,
+          "rank": 10
         }
       ]
     },
@@ -48,7 +56,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "",
+      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0033",
@@ -67,6 +75,14 @@
           "chunk_sim": 0.5894,
           "section": "Competitive position > Research and development",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0080",
+          "chunk_sim": 0.553,
+          "section": "Competitive position > Research and development",
+          "label": "partial",
+          "extra": true,
+          "rank": 5
         }
       ]
     },
@@ -104,7 +120,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "",
+      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0004",
@@ -123,6 +139,22 @@
           "chunk_sim": 0.7563,
           "section": "(Lead)",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0115",
+          "chunk_sim": 0.7426,
+          "section": "Sanctions, bans, and restrictions > United States > After 2020",
+          "label": "partial",
+          "extra": true,
+          "rank": 5
+        },
+        {
+          "chunk_id": "en_0081",
+          "chunk_sim": 0.7113,
+          "section": "Controversies",
+          "label": "partial",
+          "extra": true,
+          "rank": 10
         }
       ]
     },
@@ -162,7 +194,7 @@
       "elsewhere_ids": [
         "en_0011"
       ],
-      "note": "en_0013 也部分相关（C&C08 万门交换机）",
+      "note": "en_0013 也部分相关（C&C08 万门交换机）｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0014",
@@ -181,6 +213,14 @@
           "chunk_sim": 0.6232,
           "section": "Products and services > Phones",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0009",
+          "chunk_sim": 0.6009,
+          "section": "History > Early years",
+          "label": "none",
+          "extra": true,
+          "rank": 5
         }
       ]
     },
@@ -364,7 +404,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "",
+      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0058",
@@ -383,6 +423,14 @@
           "chunk_sim": 0.627,
           "section": "History > Recent performance",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0061",
+          "chunk_sim": 0.6126,
+          "section": "Products and services > Phones > History of Huawei phones",
+          "label": "none",
+          "extra": true,
+          "rank": 5
         }
       ]
     },
@@ -508,7 +556,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "框架差异",
+      "note": "框架差异｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0041",
@@ -527,6 +575,14 @@
           "chunk_sim": 0.6245,
           "section": "Corporate affairs > Ownership",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0042",
+          "chunk_sim": 0.5987,
+          "section": "Corporate affairs > Ownership",
+          "label": "partial",
+          "extra": true,
+          "rank": 5
         }
       ]
     },

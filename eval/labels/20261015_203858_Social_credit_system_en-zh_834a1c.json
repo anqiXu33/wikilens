@@ -11,8 +11,8 @@
     "seed": 0
   },
   "annotator": "Anqi",
-  "page_generated_at": "2026-10-15T18:45:32+00:00",
-  "exported_at": "2026-10-15T20:26:13.662Z",
+  "page_generated_at": "2026-10-21T11:11:26+00:00",
+  "exported_at": "2026-10-21T11:25:00Z",
   "items": [
     {
       "query_id": "zh_0000",
@@ -22,7 +22,7 @@
       "elsewhere_ids": [
         "en_0014"
       ],
-      "note": "",
+      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0013",
@@ -41,6 +41,14 @@
           "chunk_sim": 0.6825,
           "section": "Social credit mechanisms in practice > Social Credit System subjects > For companies",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0002",
+          "chunk_sim": 0.6313,
+          "section": "(Lead)",
+          "label": "partial",
+          "extra": true,
+          "rank": 7
         }
       ]
     },
@@ -82,7 +90,7 @@
       "elsewhere_ids": [
         "en_0052"
       ],
-      "note": "另有en_0048(公开示众)、en_0070(名誉权隐私权)；与en_0032对惩戒力度描述冲突",
+      "note": "另有en_0048(公开示众)、en_0070(名誉权隐私权)；与en_0032对惩戒力度描述冲突｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0032",
@@ -101,6 +109,14 @@
           "chunk_sim": 0.6956,
           "section": "Social credit mechanisms in practice > Blacklists",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0048",
+          "chunk_sim": 0.6475,
+          "section": "Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+          "label": "partial",
+          "extra": true,
+          "rank": 6
         }
       ]
     },
@@ -110,7 +126,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "同一事实，引用来源不同：中文引澎湃新闻，英文引The Spectator",
+      "note": "同一事实，引用来源不同：中文引澎湃新闻，英文引The Spectator｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0086",
@@ -129,6 +145,22 @@
           "chunk_sim": 0.6369,
           "section": "Public opinion > Criticism",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0077",
+          "chunk_sim": 0.6298,
+          "section": "Misconceptions",
+          "label": "none",
+          "extra": true,
+          "rank": 5
+        },
+        {
+          "chunk_id": "en_0078",
+          "chunk_sim": 0.6143,
+          "section": "Misconceptions",
+          "label": "none",
+          "extra": true,
+          "rank": 8
         }
       ]
     },
@@ -140,7 +172,7 @@
       "elsewhere_ids": [
         "en_0037"
       ],
-      "note": "2020年目标(法律法规标准、奖惩机制)也见en_0014",
+      "note": "2020年目标(法律法规标准、奖惩机制)也见en_0014｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0002",
@@ -159,6 +191,14 @@
           "chunk_sim": 0.7292,
           "section": "History > 2014 to 2020",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0014",
+          "chunk_sim": 0.6873,
+          "section": "History > 2014 to 2020",
+          "label": "partial",
+          "extra": true,
+          "rank": 7
         }
       ]
     },
@@ -168,7 +208,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "年份不一致：中文2018，英文2017年中；李克强2019年6月国常会英文没有",
+      "note": "年份不一致：中文2018，英文2017年中；李克强2019年6月国常会英文没有｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0016",
@@ -187,6 +227,14 @@
           "chunk_sim": 0.6648,
           "section": "History > 2014 to 2020",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0015",
+          "chunk_sim": 0.6311,
+          "section": "History > 2014 to 2020",
+          "label": "none",
+          "extra": true,
+          "rank": 8
         }
       ]
     },
@@ -256,7 +304,7 @@
       "elsewhere_ids": [
         "en_0016"
       ],
-      "note": "芝麻信用后来变成会员积分计划，见英文Zhima Credit一节",
+      "note": "芝麻信用后来变成会员积分计划，见英文Zhima Credit一节｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0015",
@@ -275,6 +323,22 @@
           "chunk_sim": 0.696,
           "section": "(Lead)",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0036",
+          "chunk_sim": 0.6807,
+          "section": "Organization",
+          "label": "partial",
+          "extra": true,
+          "rank": 4
+        },
+        {
+          "chunk_id": "en_0082",
+          "chunk_sim": 0.6777,
+          "section": "Misconceptions > Misconceptions of Zhima Credit and 2015 pilot programs",
+          "label": "partial",
+          "extra": true,
+          "rank": 5
         }
       ]
     },
@@ -286,7 +350,7 @@
       "elsewhere_ids": [
         "en_0061"
       ],
-      "note": "框架相反：中文=与监控紧密相连；英文en_0061=这些只是部分城市的提议，早期纳入行为数据的尝试大多已放弃。疫情造谣英文没有(en_0024只有哄抬物价/伤医)",
+      "note": "框架相反：中文=与监控紧密相连；英文en_0061=这些只是部分城市的提议，早期纳入行为数据的尝试大多已放弃。疫情造谣英文没有(en_0024只有哄抬物价/伤医)｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0086",
@@ -305,6 +369,14 @@
           "chunk_sim": 0.574,
           "section": "Social credit mechanisms in practice > Examples of local scoring systems",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0020",
+          "chunk_sim": 0.5353,
+          "section": "History > 2014 to 2020",
+          "label": "none",
+          "extra": true,
+          "rank": 9
         }
       ]
     },
@@ -314,7 +386,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "",
+      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0047",
@@ -333,6 +405,14 @@
           "chunk_sim": 0.5507,
           "section": "History > 2002 to 2014",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0045",
+          "chunk_sim": 0.5187,
+          "section": "Social credit mechanisms in practice > Blacklists",
+          "label": "none",
+          "extra": true,
+          "rank": 8
         }
       ]
     },
@@ -342,7 +422,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "",
+      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0045",
@@ -361,6 +441,14 @@
           "chunk_sim": 0.5045,
           "section": "Social credit mechanisms in practice > Blacklists > Sectoral blacklists",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0053",
+          "chunk_sim": 0.4915,
+          "section": "Social credit mechanisms in practice > Blacklists > Procedures for removal from blacklists",
+          "label": "partial",
+          "extra": true,
+          "rank": 5
         }
       ]
     },
@@ -370,7 +458,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "措辞差异：中文=不公平的严格监管，英文=便于监管者聚焦记录差的企业",
+      "note": "措辞差异：中文=不公平的严格监管，英文=便于监管者聚焦记录差的企业｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0050",
@@ -389,6 +477,30 @@
           "chunk_sim": 0.6347,
           "section": "Social credit mechanisms in practice > Red Lists",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0058",
+          "chunk_sim": 0.6316,
+          "section": "Social credit mechanisms in practice > Social Credit System subjects > For companies",
+          "label": "partial",
+          "extra": true,
+          "rank": 4
+        },
+        {
+          "chunk_id": "en_0053",
+          "chunk_sim": 0.6242,
+          "section": "Social credit mechanisms in practice > Blacklists > Procedures for removal from blacklists",
+          "label": "partial",
+          "extra": true,
+          "rank": 6
+        },
+        {
+          "chunk_id": "en_0035",
+          "chunk_sim": 0.5909,
+          "section": "Organization",
+          "label": "partial",
+          "extra": true,
+          "rank": 8
         }
       ]
     },
@@ -398,7 +510,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "政府采购限制见en_0050；英文强调禁乘名单\"不影响生活其他方面\"，中文放在联合惩戒语境下",
+      "note": "政府采购限制见en_0050；英文强调禁乘名单\"不影响生活其他方面\"，中文放在联合惩戒语境下｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0015",
@@ -417,6 +529,14 @@
           "chunk_sim": 0.6634,
           "section": "History > 2002 to 2014",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0048",
+          "chunk_sim": 0.6426,
+          "section": "Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+          "label": "none",
+          "extra": true,
+          "rank": 8
         }
       ]
     },
@@ -426,7 +546,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "电影院公示见en_0048，子女私立学校见en_0047；老赖彩铃、大学录取受影响英文没有",
+      "note": "电影院公示见en_0048，子女私立学校见en_0047；老赖彩铃、大学录取受影响英文没有｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0052",
@@ -445,6 +565,22 @@
           "chunk_sim": 0.6735,
           "section": "Social credit mechanisms in practice > Examples of local scoring systems",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0048",
+          "chunk_sim": 0.65,
+          "section": "Social credit mechanisms in practice > Blacklists > Judgment defaulter blacklist",
+          "label": "partial",
+          "extra": true,
+          "rank": 4
+        },
+        {
+          "chunk_id": "en_0021",
+          "chunk_sim": 0.5948,
+          "section": "History > 2014 to 2020",
+          "label": "none",
+          "extra": true,
+          "rank": 9
         }
       ]
     },
@@ -456,7 +592,7 @@
       "elsewhere_ids": [
         "en_0044"
       ],
-      "note": "苏州桂花分、广州招录任用/入户/住房优先英文没有；英文en_0018只列苏州为示范城市",
+      "note": "苏州桂花分、广州招录任用/入户/住房优先英文没有；英文en_0018只列苏州为示范城市｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0047",
@@ -475,6 +611,14 @@
           "chunk_sim": 0.5865,
           "section": "Social credit mechanisms in practice > Social Credit System subjects > For individuals",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0015",
+          "chunk_sim": 0.5833,
+          "section": "History > 2014 to 2020",
+          "label": "none",
+          "extra": true,
+          "rank": 4
         }
       ]
     },
@@ -484,7 +628,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "",
+      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0064",
@@ -503,6 +647,14 @@
           "chunk_sim": 0.4557,
           "section": "Organization > Conceptualization",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0033",
+          "chunk_sim": 0.4176,
+          "section": "Organization",
+          "label": "none",
+          "extra": true,
+          "rank": 6
         }
       ]
     },
@@ -598,7 +750,7 @@
       "elsewhere_ids": [
         "en_0073"
       ],
-      "note": "框架相反：中文负面评价节引用荷兰人民报、黑镜等报道作为批评；英文en_0073称荷兰报道是误解源头，en_0079称黑镜比喻是需要澄清的反乌托邦形象",
+      "note": "框架相反：中文负面评价节引用荷兰人民报、黑镜等报道作为批评；英文en_0073称荷兰报道是误解源头，en_0079称黑镜比喻是需要澄清的反乌托邦形象｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0077",
@@ -617,6 +769,22 @@
           "chunk_sim": 0.7284,
           "section": "Misconceptions",
           "label": "partial"
+        },
+        {
+          "chunk_id": "en_0070",
+          "chunk_sim": 0.721,
+          "section": "Public opinion > Criticism",
+          "label": "partial",
+          "extra": true,
+          "rank": 4
+        },
+        {
+          "chunk_id": "en_0076",
+          "chunk_sim": 0.6886,
+          "section": "Misconceptions",
+          "label": "partial",
+          "extra": true,
+          "rank": 8
         }
       ]
     },
@@ -654,7 +822,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "与英文en_0086几乎逐句一致，疑似译自英文版；对比第4题导言引澎湃新闻",
+      "note": "与英文en_0086几乎逐句一致，疑似译自英文版；对比第4题导言引澎湃新闻｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
       "candidates": [
         {
           "chunk_id": "en_0086",
@@ -673,6 +841,46 @@
           "chunk_sim": 0.7563,
           "section": "Misconceptions",
           "label": "none"
+        },
+        {
+          "chunk_id": "en_0079",
+          "chunk_sim": 0.7472,
+          "section": "Misconceptions",
+          "label": "none",
+          "extra": true,
+          "rank": 4
+        },
+        {
+          "chunk_id": "en_0080",
+          "chunk_sim": 0.7374,
+          "section": "Misconceptions",
+          "label": "partial",
+          "extra": true,
+          "rank": 5
+        },
+        {
+          "chunk_id": "en_0073",
+          "chunk_sim": 0.7354,
+          "section": "Misconceptions",
+          "label": "none",
+          "extra": true,
+          "rank": 6
+        },
+        {
+          "chunk_id": "en_0072",
+          "chunk_sim": 0.7127,
+          "section": "Misconceptions",
+          "label": "partial",
+          "extra": true,
+          "rank": 7
+        },
+        {
+          "chunk_id": "en_0076",
+          "chunk_sim": 0.6928,
+          "section": "Misconceptions",
+          "label": "none",
+          "extra": true,
+          "rank": 9
         }
       ]
     },
