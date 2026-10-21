@@ -214,7 +214,13 @@ def load_label_files(paths) -> tuple[list[LabelledQuery], list[str]]:
         for it in data["items"]:
             labelled = [c for c in it["candidates"] if c.get("label") in LABEL_VALUES]
             labels = {c["chunk_id"]: c["label"] for c in labelled}
-            last = min(labelled, key=lambda c: c.get("chunk_sim", 0), default=None)
+            # The tail rule is about the first-pass top k. Extra candidates (added
+            # later with `annotate --extra-from`) sit lower in the ranking; a
+            # positive among them shows the ranking had not run out of matches.
+            top = [c for c in it["candidates"] if not c.get("extra")]
+            top_labelled = [c for c in top if c.get("label") in LABEL_VALUES]
+            last = min(top_labelled, key=lambda c: c.get("chunk_sim", 0), default=None)
+            extra_positive = any(c.get("extra") and c.get("label") in ("match", "partial") for c in labelled)
             absent = bool(it.get("absent"))
             elsewhere = not absent and bool(it.get("elsewhere"))
             candidate_ids = {c["chunk_id"] for c in it["candidates"]}
@@ -229,7 +235,7 @@ def load_label_files(paths) -> tuple[list[LabelledQuery], list[str]]:
                 query_id=it["query_id"], absent=absent,
                 labels={} if absent else labels,
                 tail_negative=absent or (last is not None and last["label"] == "none"
-                                         and len(labelled) == len(it["candidates"])
+                                         and len(top_labelled) == len(top) and not extra_positive
                                          and (not elsewhere or bool(elsewhere_ids))),
                 elsewhere=elsewhere, elsewhere_ids=elsewhere_ids))
         if skipped:

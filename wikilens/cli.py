@@ -7,6 +7,8 @@
     python -m wikilens replay [RUN_ID]                                     # summarise a saved run
     python -m wikilens serve [--offline]                                   # web dashboard
     python -m wikilens annotate RUN_ID                                     # HTML page for labelling alignments
+    python -m wikilens annotate RUN_ID --extra-from eval/experiments/alignment_en-zh_methods.json
+                                                                           # label pairs an experiment predicted
     python -m wikilens evaluate                                            # score alignment against eval/labels/
     python -m wikilens experiment                                          # compare alignment methods (LLM rerank, sentence-level)
 
@@ -287,6 +289,11 @@ def build_parser() -> argparse.ArgumentParser:
     an.add_argument("--sample", type=int, help="label a random sample of this many chunks instead of all")
     an.add_argument("--seed", type=int, default=0, help="seed for --sample (default 0)")
     an.add_argument("-o", "--output", help="HTML path (default eval/annotation_pages/<labels name>.html)")
+    an.add_argument("--extra-from", metavar="EXPERIMENT_JSON",
+                    help="reopen eval/labels/<run>.json and add the unlabelled pairs predicted in this "
+                         "experiment file (e.g. eval/experiments/alignment_en-zh_methods.json) as extra candidates")
+    an.add_argument("--method", action="append", metavar="NAME",
+                    help="with --extra-from: only methods whose name contains this text (repeatable; default all)")
     an.set_defaults(func=cmd_annotate)
 
     ev = sub.add_parser("evaluate", help="precision/recall/F1 of the aligner against eval/labels/, "

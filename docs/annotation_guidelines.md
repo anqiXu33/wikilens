@@ -78,6 +78,25 @@ See the PR description or `python -m wikilens annotate -h`. In short:
 
 `--sample N --seed S` (default seed 0) picks the same N chunks every time for the same run. The seed and N are recorded in the page and in the exported labels (`"sample": {"n": 50, "seed": 0}`).
 
+### Labelling pairs an experiment predicted (补标)
+
+The first pass shows only the top 3 candidates, so a method that picks a lower-ranked chunk (the LLM rerank reads the top 10) produces pairs nobody labelled. `evaluate` and `experiment` report them as "uncounted", or as FP when the third candidate was `none`. To label just those pairs:
+
+```bash
+python -m wikilens annotate RUN_ID --extra-from eval/experiments/alignment_en-zh_methods.json \
+    --method "A: LLM rerank top-10, match+partial"
+```
+
+This writes `eval/annotation_pages/<run_id>.extra.html` with the earlier labels filled in and the missing pairs added to their chunks as candidates marked **新增 · 相似度第 N 名**. The page opens on the chunks that have new candidates. Label them with the same rules, export, and overwrite `eval/labels/<run_id>.json`. Then rescore without new LLM calls:
+
+```bash
+python -m wikilens experiment --pair en-zh --cached-only --llm-model meta-llama/llama-3.3-70b-instruct
+```
+
+Without `--method` the page adds the unlabelled pairs of every method in the file. Adding only one method's pairs makes its score exact while the others keep some uncounted pairs, and the new labels then come from that method's candidates, which favours it in the comparison (as the first pass favours chunk cosine). Say so when reporting, or label all methods' pairs.
+
+Scoring: extra candidates are stored with `"extra": true` and their rank. The tail rule (lower-ranked chunks count as non-matches when the third candidate is `none`) still looks at the first-pass top 3 only, and is switched off for a chunk when one of its extra candidates is labelled `match` or `partial`, since the ranking had not run out of matches there.
+
 ## How labels are scored
 
 `python -m wikilens evaluate` re-runs the aligner's matching rule over a grid of `(chunk_thr, path_thr)` and compares the matched pairs with the labels:
