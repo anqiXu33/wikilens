@@ -41,18 +41,18 @@ Everything downstream depends on alignment: an omission score is only meaningful
 
 **Setup.** I labelled 54 Chinese chunks from two articles (*Huawei*, *Social credit system*) against their English editions: for each chunk, which English chunks describe the same facts (match / partial / none), and whether the correct counterpart was missing from the candidate list entirely. Labels live in `eval/labels/`, the guidelines in `docs/annotation_guidelines.md`.
 
-**Result.** On these 54 chunks (132 labelled candidate pairs):
+**Result.** On these 54 chunks (165 labelled candidate pairs):
 
 | Alignment method | Precision | Recall | F1 |
 |---|---|---|---|
-| Chunk cosine, original thresholds (0.45 / 0.45) | 0.15 | 0.29 | 0.20 |
-| Chunk cosine, tuned threshold (0.70) | 0.59 | 0.36 | 0.45 |
-| Sentence-max cosine (0.65) | 0.61 | 0.43 | 0.50 |
-| **Top-10 cosine + LLM rerank (default for en-zh)** | **0.62** | **0.69** | **0.65** |
+| Chunk cosine, original thresholds (0.45 / 0.45) | 0.18 | 0.26 | 0.21 |
+| Chunk cosine, tuned threshold (0.65) | 0.40 | 0.60 | 0.48 |
+| Sentence-max cosine (0.65) | 0.67 | 0.36 | 0.47 |
+| **Top-10 cosine + LLM rerank (default for en-zh)** | **0.72** | **0.75** | **0.73** |
 
-The original pipeline aligned mostly wrong pairs: 85 % of its matches were not matches. Tuning the threshold helps, but a third of the true counterparts were not even in the top-3 cosine candidates, because a Chinese paragraph often covers several facts that the English edition spreads over several short paragraphs. Letting an LLM read the top 10 candidates recovers most of these. Full numbers and the grid search are in `docs/alignment_experiments.md`; `python -m wikilens experiment` reproduces them.
+The original pipeline aligned mostly wrong pairs: 82 % of its matches were not matches. Tuning the threshold helps, but more than a third of the true counterparts were not even in the top-3 cosine candidates, because a Chinese paragraph often covers several facts that the English edition spreads over several short paragraphs. Letting an LLM read the top 10 candidates recovers most of these. Sentence-max cosine trades recall for precision and ends up level with the tuned chunk threshold. Full numbers and the grid search are in `docs/alignment_experiments.md`; `python -m wikilens experiment` reproduces them.
 
-**Caveats.** 54 chunks from two articles, one annotator, one language pair; the 95 % CI on the F1 of the default method is about 0.54 to 0.75, and the best threshold differed between the two articles. The labels were collected on candidates proposed by the original method, which biases the evaluation towards it. The bias scores (ideology, sentiment, framing) have not been validated against human judgements yet.
+**Caveats.** 54 chunks from two articles, one annotator, one language pair; the 95 % CI on the F1 of the default method is about 0.64 to 0.81, and the best threshold differed between the two articles. Most labels were collected on candidates proposed by the original method; 33 more were added later for the pairs the LLM rerank picked outside that top 3 (drafted by an LLM following the guidelines, then reviewed by me). Both rounds favour the method whose candidates were labelled. The bias scores (ideology, sentiment, framing) have not been validated against human judgements yet.
 
 ## What it finds
 
@@ -97,7 +97,7 @@ LaBSE weights are downloaded from Hugging Face on first use. Section titles are 
 | `ollama` | `OLLAMA_MODEL`, `OLLAMA_URL` | local model, no key; small models score noticeably differently from 70B |
 | `watsonx` | `IBM_API_KEY`, `IBM_PROJECT_ID` | IBM watsonx.ai, the backend used in the original challenge |
 
-An en-zh run makes about one LLM call per chunk per direction for alignment plus one per chunk for scoring; *Huawei* (133 + 112 chunks) costs a few cents on OpenRouter with Llama 3.3 70B. Without an LLM configured, alignment falls back to sentence-max cosine (F1 0.50).
+An en-zh run makes about one LLM call per chunk per direction for alignment plus one per chunk for scoring; *Huawei* (133 + 112 chunks) costs a few cents on OpenRouter with Llama 3.3 70B. Without an LLM configured, alignment falls back to sentence-max cosine (F1 0.47).
 
 ## Project structure
 

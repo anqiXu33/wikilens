@@ -2,6 +2,8 @@
 
 *2026-10-15. Written as an experiment only. Since then the EN-ZH default has become A (LLM rerank of the top 10 candidates by chunk cosine), with B (sentence max ≥ 0.65) as the fallback when no LLM is available: see README, "Alignment method for EN-ZH".*
 
+*2026-10-21 update. The numbers below are from the first label set. 33 labels were added afterwards for the LLM-rerank pairs outside the top 3 (`annotate --extra-from`, see `docs/annotation_guidelines.md`). Current results: A 0.733 (CI 0.64–0.81), chunk cosine routing off 0.480, B sentence max 0.471, pipeline default 0.214; full tables in `eval/experiments/alignment_en-zh_methods.md`.*
+
 ## Question
 
 The first evaluation (`python -m wikilens evaluate`, 54 hand-labelled en-zh chunks from *Huawei* and *Social credit system*) found that for 18 of the 54 Chinese chunks, the correct English chunk was not among the top 3 by LaBSE chunk cosine. The likely cause is granularity: a Chinese paragraph often states several facts, while English spreads them over several short paragraphs. So one English paragraph matches only part of a Chinese one, and the whole-chunk embedding dilutes that match. We tried two fixes:
