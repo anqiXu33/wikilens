@@ -22,7 +22,7 @@
       "elsewhere_ids": [
         "en_0014"
       ],
-      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0013",
@@ -90,7 +90,7 @@
       "elsewhere_ids": [
         "en_0052"
       ],
-      "note": "另有en_0048(公开示众)、en_0070(名誉权隐私权)；与en_0032对惩戒力度描述冲突｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "另有en_0048(公开示众)、en_0070(名誉权隐私权)；与en_0032对惩戒力度描述冲突｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0032",
@@ -126,7 +126,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "同一事实，引用来源不同：中文引澎湃新闻，英文引The Spectator｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "同一事实，引用来源不同：中文引澎湃新闻，英文引The Spectator｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0086",
@@ -172,7 +172,7 @@
       "elsewhere_ids": [
         "en_0037"
       ],
-      "note": "2020年目标(法律法规标准、奖惩机制)也见en_0014｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "2020年目标(法律法规标准、奖惩机制)也见en_0014｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0002",
@@ -208,7 +208,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "年份不一致：中文2018，英文2017年中；李克强2019年6月国常会英文没有｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "年份不一致：中文2018，英文2017年中；李克强2019年6月国常会英文没有｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0016",
@@ -304,7 +304,7 @@
       "elsewhere_ids": [
         "en_0016"
       ],
-      "note": "芝麻信用后来变成会员积分计划，见英文Zhima Credit一节｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "芝麻信用后来变成会员积分计划，见英文Zhima Credit一节｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0015",
@@ -350,7 +350,7 @@
       "elsewhere_ids": [
         "en_0061"
       ],
-      "note": "框架相反：中文=与监控紧密相连；英文en_0061=这些只是部分城市的提议，早期纳入行为数据的尝试大多已放弃。疫情造谣英文没有(en_0024只有哄抬物价/伤医)｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "框架相反：中文=与监控紧密相连；英文en_0061=这些只是部分城市的提议，早期纳入行为数据的尝试大多已放弃。疫情造谣英文没有(en_0024只有哄抬物价/伤医)｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0086",
@@ -386,7 +386,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0047",
@@ -422,7 +422,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0045",
@@ -458,7 +458,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "措辞差异：中文=不公平的严格监管，英文=便于监管者聚焦记录差的企业｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "措辞差异：中文=不公平的严格监管，英文=便于监管者聚焦记录差的企业｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0050",
@@ -510,7 +510,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "政府采购限制见en_0050；英文强调禁乘名单\"不影响生活其他方面\"，中文放在联合惩戒语境下｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "政府采购限制见en_0050；英文强调禁乘名单\"不影响生活其他方面\"，中文放在联合惩戒语境下｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0015",
@@ -546,7 +546,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "电影院公示见en_0048，子女私立学校见en_0047；老赖彩铃、大学录取受影响英文没有｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "电影院公示见en_0048，子女私立学校见en_0047；老赖彩铃、大学录取受影响英文没有｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0052",
@@ -592,7 +592,7 @@
       "elsewhere_ids": [
         "en_0044"
       ],
-      "note": "苏州桂花分、广州招录任用/入户/住房优先英文没有；英文en_0018只列苏州为示范城市｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "苏州桂花分、广州招录任用/入户/住房优先英文没有；英文en_0018只列苏州为示范城市｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0047",
@@ -628,7 +628,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0064",
@@ -750,7 +750,7 @@
       "elsewhere_ids": [
         "en_0073"
       ],
-      "note": "框架相反：中文负面评价节引用荷兰人民报、黑镜等报道作为批评；英文en_0073称荷兰报道是误解源头，en_0079称黑镜比喻是需要澄清的反乌托邦形象｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "框架相反：中文负面评价节引用荷兰人民报、黑镜等报道作为批评；英文en_0073称荷兰报道是误解源头，en_0079称黑镜比喻是需要澄清的反乌托邦形象｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0077",
@@ -822,7 +822,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "与英文en_0086几乎逐句一致，疑似译自英文版；对比第4题导言引澎湃新闻｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "与英文en_0086几乎逐句一致，疑似译自英文版；对比第4题导言引澎湃新闻｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0086",

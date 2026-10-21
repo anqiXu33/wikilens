@@ -20,7 +20,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0000",
@@ -56,7 +56,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0033",
@@ -120,7 +120,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0004",
@@ -194,7 +194,7 @@
       "elsewhere_ids": [
         "en_0011"
       ],
-      "note": "en_0013 也部分相关（C&C08 万门交换机）｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "en_0013 也部分相关（C&C08 万门交换机）｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0014",
@@ -404,7 +404,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0058",
@@ -556,7 +556,7 @@
       "absent": false,
       "elsewhere": false,
       "elsewhere_ids": [],
-      "note": "框架差异｜新增候选由 Claude 按标注规范标注（Anqi 认可草稿，未逐条复核）",
+      "note": "框架差异｜新增候选由 Claude 按标注规范起草，Anqi 复核确认",
       "candidates": [
         {
           "chunk_id": "en_0041",
